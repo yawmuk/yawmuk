@@ -8,7 +8,7 @@
 |---|---|
 | 🎮 **التجربة المباشرة · Live demo** | https://yawmuk.world (احتياطي · backup: https://yawmuk-851682870274.us-central1.run.app) |
 | 🏠 **صفحة التعريف · Landing page** | https://yawmuk.world/landing |
-| 🎬 **الفيديو (أقل من دقيقتين) · Video** | مرفق في نموذج التسليم · attached to the submission form |
+| 🎬 **الفيديو (أقل من دقيقتين) · Video** | [▶️ media/yawmuk-promo.mp4](media/yawmuk-promo.mp4) (1:50) |
 | 📑 **العرض التقديمي · Deck (PDF)** | مرفق في نموذج التسليم · attached to the submission form |
 | 💻 **المستودع · Repo** | https://github.com/yawmuk/yawmuk |
 | 🧭 **المسار · Track** | **03: التجارب التفاعلية (Interactive experiences)** |
@@ -330,7 +330,7 @@ No secrets are committed to this repository. Keys live only in `.env` (local, gi
 
 There is **no prior codebase**: the code, content and asset integration were all created in the challenge window (Oct 4–6, 2026).
 
-This public repository is a **clean snapshot** of the final code: it contains one commit, and it leaves out the build output, the phase reports, the screenshot archives, the deck and the video tooling. The full commit-by-commit history is in the team's development repository: https://github.com/B4r4k4/yawmuk.
+This public repository is a **clean snapshot** of the final code: it contains one commit, and it leaves out the build output, the phase reports, the screenshot archives, the deck and the video tooling.
 
 | When (+03) | What |
 |---|---|
@@ -348,7 +348,7 @@ This public repository is a **clean snapshot** of the final code: it contains on
 - **Abubakr Abusham** (Lemonada): project owner.
 - **Mohamed Al-Mubarak**
 
-**AI disclosure.** Most code and drafts were produced by **AI coding agents** (Claude Code, Claude Opus models) under human direction. A supervisor agent coordinated them through shared written contracts: fiqh researchers, scriptwriter, engine and scene builders, an independent sharia-citation auditor, feature agents (mosque, Quran, adhkar, prayer, bank, voice, guide, scholar dashboard, study, brand), QA and documentation. Agents did not decide religious rulings by themselves. Every scripture text is fetched from a source and machine-verified, and the rulings remain **pending human scholarly review**, as stated at the top of this page.
+**AI disclosure.** The code and drafts were produced with AI coding assistants (Claude Code) under human direction. AI did not decide religious rulings. Every scripture text is fetched from a source and machine-verified, and the rulings remain **pending human scholarly review**, as stated at the top of this page.
 
 ## Measurement · القياس
 
