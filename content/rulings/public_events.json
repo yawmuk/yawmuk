@@ -1,0 +1,144 @@
+[
+  {
+    "id": "public_events.alcohol_table",
+    "location": "public_events",
+    "title": {
+      "ar": "حفل الشركة: نَخْبُ الخمر والمائدة التي تُدار عليها",
+      "en": "Company Party: An Alcohol Toast and the Table Where It Is Served"
+    },
+    "question": {
+      "ar": "لماذا يرفض المسلم كأس الخمر في نَخْب حفل الشركة ولو مجاملةً؟ وماذا يعلّم الإسلام عن الجلوس إلى مائدة تُدار عليها الخمر؟ وما البديل الذي يحفظ له علاقته بفريقه؟",
+      "en": "Why does a Muslim decline a glass of alcohol at a company-party toast, even out of courtesy? What does Islam teach about sitting at a table where alcohol is served, and what alternative keeps good relations with the team?"
+    },
+    "verdict": "haram",
+    "content_level": "C",
+    "verdict_scope": {
+      "ar": "شرب الخمر محرّم في الإسلام بنص القرآن، قليلُها وكثيرُها، ولو مجاملةً في نَخْب احتفال. وفي الجلوس إلى المائدة: قول جمهور العلماء ونصوص المذاهب الأربعة في الوليمة التي فيها منكر: لا يجلس المسلم على المائدة التي يُشرب عليها الخمر. أما حضور مناسبة العمل نفسها مع تجنّب تلك المائدة أو المغادرة عند بدء الشرب ففيه خلاف بين المعاصرين: أجازه بعضهم ومنعه آخرون، ولا نرجّح بينهما.",
+      "en": "Drinking wine is forbidden in Islam by the text of the Quran, a little or a lot, even as a courtesy in a celebratory toast. On sitting at the table: the majority scholarly view, reflected in the texts of the four schools on a gathering that contains a wrong: a Muslim does not sit at the table where wine is being drunk. Attending the work event itself while avoiding that table, or leaving when the drinking starts, is disputed among contemporary scholars: some allow it, others do not, and we do not choose between them."
+    },
+    "summary": {
+      "ar": "شرب الخمر محرّم في الإسلام بنص القرآن، قليلُها وكثيرُها، حفظاً للعقل؛ فلا يشربها المسلم ولو رشفةً مجاملةً في نَخْب، ويرفع بدلها كأس عصير أو ماء. وكذلك لا يجوز الجلوس على مائدة يُشرب عليها الخمر لحديث «فلا يقعد على مائدة يُدار عليها بالخمر» (حسّنه الترمذي والألباني، مع كلام في إسناده) ولآية النساء 140، وعلى هذا نصوص المذاهب الأربعة في الوليمة التي فيها منكر. أما حضور مناسبة العمل نفسها مع اختيار طاولة خالية من الخمر أو المغادرة عند بدء الشرب فمخرج أجازه بعض المعاصرين، ومنع آخرون حضور المناسبة أصلاً.",
+      "en": "Drinking wine is forbidden in Islam by the text of the Quran, a little or a lot, to protect the mind; a Muslim does not take even a courtesy sip in a toast, and can raise juice or water instead. Likewise, sitting at a table where alcohol is being drunk is not permitted, based on the hadith \"let him not sit at a table where wine is passed around\" (graded hasan by al-Tirmidhi and al-Albani, though its chain is discussed) and Quran 4:140; the four schools say the same about banquets with wrongdoing. Attending the work event itself while choosing an alcohol-free table, or leaving when the drinking starts, is a way out allowed by some contemporary scholars, while others forbid attending such events at all."
+    },
+    "quran": [
+      {
+        "surah": 5,
+        "surah_name_ar": "المائدة",
+        "ayah": "90",
+        "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓاْ إِنَّمَا ٱلۡخَمۡرُ وَٱلۡمَيۡسِرُ وَٱلۡأَنصَابُ وَٱلۡأَزۡلَٰمُ رِجۡسٞ مِّنۡ عَمَلِ ٱلشَّيۡطَٰنِ فَٱجۡتَنِبُوهُ لَعَلَّكُمۡ تُفۡلِحُونَ",
+        "translation_en": "O you who have believed, indeed, intoxicants, gambling, [sacrificing on] stone alters [to other than Allāh], and divining arrows are but defilement from the work of Satan, so avoid it that you may be successful.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/5#90"
+      },
+      {
+        "surah": 4,
+        "surah_name_ar": "النساء",
+        "ayah": "140",
+        "text_ar": "وَقَدۡ نَزَّلَ عَلَيۡكُمۡ فِي ٱلۡكِتَٰبِ أَنۡ إِذَا سَمِعۡتُمۡ ءَايَٰتِ ٱللَّهِ يُكۡفَرُ بِهَا وَيُسۡتَهۡزَأُ بِهَا فَلَا تَقۡعُدُواْ مَعَهُمۡ حَتَّىٰ يَخُوضُواْ فِي حَدِيثٍ غَيۡرِهِۦٓ إِنَّكُمۡ إِذٗا مِّثۡلُهُمۡۗ إِنَّ ٱللَّهَ جَامِعُ ٱلۡمُنَٰفِقِينَ وَٱلۡكَٰفِرِينَ فِي جَهَنَّمَ جَمِيعًا",
+        "translation_en": "And it has already come down to you in the Book [i.e., the Qur’ān] that when you hear the verses of Allāh [recited], they are denied [by them] and ridiculed; so do not sit with them until they enter into another conversation. Indeed, you would then be like them. Indeed, Allāh will gather the hypocrites and disbelievers in Hell all together -",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/4#140"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ «مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلاَ يَدْخُلِ الْحَمَّامَ بِغَيْرِ إِزَارٍ وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلاَ يُدْخِلْ حَلِيلَتَهُ الْحَمَّامَ وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلاَ يَجْلِسْ عَلَى مَائِدَةٍ يُدَارُ عَلَيْهَا بِالْخَمْرِ»",
+        "translation_en": "that the Prophet (ﷺ) said: \"Whoever believes in Allah and the Last Day, then he is not to let his wife enter the Hammam, and whoever believes in Allah and the Last Day, then he is not to enter the Hammam without an Izar. And whoever believes in Allah and the Last Day, then he is not to sit at a spread in which Khamr is circulated.\"",
+        "collection": "جامع الترمذي",
+        "number": "2801",
+        "narrator": "جابر بن عبد الله رضي الله عنهما",
+        "grade": "حسن",
+        "grader": "الألباني — صحيح الترمذي 2801: «حسن» (الدرر السنية)",
+        "source_url": "https://dorar.net/h/dj7SxMcL",
+        "dorar_url": "https://dorar.net/h/dj7SxMcL",
+        "dorar_ref": "المحدث: الألباني | المصدر: صحيح الترمذي | الرقم: 2801 | خلاصة حكم المحدث: حسن",
+        "sunnah_url": "https://sunnah.com/tirmidhi:2801 ; https://dorar.net/hadith/search?q=%D9%85%D8%A7%D8%A6%D8%AF%D8%A9%20%D9%8A%D8%AF%D8%A7%D8%B1%20%D8%B9%D9%84%D9%8A%D9%87%D8%A7%20%D8%A8%D8%A7%D9%84%D8%AE%D9%85%D8%B1",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "إذا كان المنكر على المائدة نفسها لم يقعد، ونصّ: «وكذلك إذا كان على المائدة قوم يشربون الخمر، فلا ينبغي له أن يقعد»؛ وإن كان اللهو في المنزل بعيداً عن المائدة فلا بأس أن يقعد ويأكل، ما لم يكن مقتدىً به فيخرج.",
+        "position_en": "If the wrongdoing is at the table itself one does not sit; the text states that if people at the table are drinking wine he should not sit. If the amusement is elsewhere in the house, he may sit and eat, unless he is someone people follow, in which case he leaves.",
+        "reference": "المحيط البرهاني (5/370)؛ تبيين الحقائق للزيلعي (6/13)؛ الفتاوى الهندية (5/343)"
+      },
+      "maliki": {
+        "position_ar": "تسقط إجابة الدعوة إذا كان فيها منكر، ولا يجوز الحضور ولا الأكل مع منكر مقارن لا يمكن تغييره؛ ومن حضر فرأى منكراً نهى عنه فإن لم ينتهوا خرج.",
+        "position_en": "The duty to accept an invitation lapses if it involves wrongdoing; attending and eating alongside wrongdoing one cannot change is not allowed, and whoever finds it should object and leave if it continues.",
+        "reference": "الشرح الكبير للدردير مع حاشية الدسوقي (2/337)؛ مواهب الجليل للحطاب (5/243، 250)؛ المفهم لأبي العباس القرطبي (4/154)"
+      },
+      "shafii": {
+        "position_ar": "لا تجب الإجابة إن علم بالمنكر ولم يقدر على إزالته، ومن حضر فوجده نهاهم، فإن لم ينتهوا خرج ولم يجلس.",
+        "position_en": "No duty to attend if one knows of wrongdoing he cannot remove; if he finds it he forbids it and leaves if they persist.",
+        "reference": "منهاج الطالبين للنووي (ص223)؛ مغني المحتاج للشربيني (3/246)"
+      },
+      "hanbali": {
+        "position_ar": "مثل الجمهور: لا يحضر إن علم منكراً لا يقدر على تغييره، ويخرج إن حضر ولم يُزَل؛ ونصّوا أنه إن علم به ولم يره ولم يسمعه أبيح له الجلوس والأكل.",
+        "position_en": "Same as the majority: do not attend if there is wrongdoing you cannot change, leave if it is not removed; they add that if he knows of it but neither sees nor hears it, he may sit and eat.",
+        "reference": "كشاف القناع للبهوتي (5/170)؛ شرح منتهى الإرادات (3/34)؛ المبدع لابن مفلح (7/170)"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "د. رفعت فوزي (رئيس قسم الشريعة بجامعة القاهرة سابقاً) — موقع إسلام أون لاين",
+        "decision_ref": "فتوى «Sharing a table in which wine is served»",
+        "position_ar": "لا يجلس المسلم على مائدة يُشرب عليها الخمر، لكن يمكنه حضور لقاءات العمل واختيار طاولة لا يُقدَّم عليها الخمر، والمنظمون غالباً يحترمون ذلك.",
+        "position_en": "A Muslim does not sit at a table where wine is drunk, but may attend business gatherings and choose a table without alcohol; organizers usually respect this.",
+        "source_url": "https://fiqh.islamonline.net/en/sharing-a-table-in-which-wine-is-served/"
+      },
+      {
+        "body": "مكتب مفتي الأقاليم الاتحادية — ماليزيا",
+        "decision_ref": "إرشاد الفتوى رقم 224",
+        "position_ar": "يحرم على المسلم حضور المناسبات التي تُقدَّم فيها المشروبات الكحولية، استدلالاً بآيتي المائدة 90 والنساء 140 والأحاديث.",
+        "position_en": "A Muslim is prohibited from attending events where alcoholic drinks are served, based on 5:90, 4:140 and the hadiths.",
+        "source_url": "https://www.muftiwp.gov.my/en/artikel/irsyad-fatwa/irsyad-fatwa-umum-cat/2384-irsyad-al-fatwa-series-224-the-ruling-of-sitting-in-an-event-where-alcoholic-beverages-are-served"
+      },
+      {
+        "body": "الموسوعة الفقهية (الدرر السنية)",
+        "decision_ref": "كتاب النكاح — الوليمة: حكم الإجابة إذا كان فيها منكر",
+        "position_ar": "حكت اتفاق المذاهب الأربعة على سقوط وجوب الإجابة إذا علم بالمنكر ولم يستطع إنكاره، ونقلت قول ابن العربي: «اتفق العلماء على أنه إذا رأى منكراً، أو خاف أن يراه: أنه لا يجيب».",
+        "position_en": "Reports agreement of the four schools that the duty to attend lapses when one knows of wrongdoing he cannot stop, quoting Ibn al-Arabi's report of scholarly agreement.",
+        "source_url": "https://dorar.net/feqhia/4398"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "عند النَّخْب: اعتذر بلطف وابتسامة: «شكراً، لا أشرب الكحول، سأرفع معكم كأس عصير»، ثم ارفع كأس عصير أو ماء مع الجميع.",
+        "قبل الحفل: أخبر مديرك أو منظّم الحفل بلطف أنك لا تشرب لأسباب دينية، واطلب مقعداً على طاولة بلا خمر؛ وطلب المراعاة الدينية مقبول في كثير من بيئات العمل.",
+        "احضر الجزء المهم: الكلمات الرسمية والتكريم والطعام، ثم استأذن بأدب قبل أن يتحول الحفل إلى شرب.",
+        "لا تشارك في حمل الكؤوس أو صبّها أو إحضارها لغيرك، وإن بدأ الشرب على طاولتك فانتقل بهدوء إلى طاولة أخرى دون إحراج أحد أو وعظه علناً.",
+        "اقترح على فريقك أنشطة شاملة في المستقبل، مثل غداء الفريق أو نزهة أو مسابقة؛ فكثير من الشركات ترحّب بالفعاليات الخالية من الكحول."
+      ],
+      "en": [
+        "At the toast: decline kindly with a smile, \"Thanks, I don't drink alcohol, I'll raise a juice with you,\" then raise juice or water with everyone.",
+        "Before the party, kindly tell your manager or the organizer that you don't drink for religious reasons, and ask for a seat at an alcohol-free table; religious accommodation is accepted in many workplaces.",
+        "Attend the important part, the speeches, awards and the meal, then politely excuse yourself before the party turns into drinking.",
+        "Don't carry, pour or fetch alcohol for others; if drinking starts at your table, quietly move to another table without embarrassing or publicly lecturing anyone.",
+        "Suggest inclusive activities for future team events, such as a team lunch, an outing or a quiz; many companies welcome alcohol-free events."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "كأس عصير أو ماء في النَّخْب",
+        "طاولة خالية من الخمر داخل الحفل نفسه",
+        "حضور الجزء الرسمي فقط",
+        "دعوة الفريق لغداء أو نشاط بديل"
+      ],
+      "en": [
+        "A glass of juice or water for the toast",
+        "An alcohol-free table at the same party",
+        "Attending only the formal portion",
+        "Inviting the team to a lunch or alternative activity"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "إذا كان حضور مناسبات فيها خمر جزءاً لازماً من وظيفتك (مبيعات، استقبال عملاء) وتخشى على رزقك، أو طُلب منك تقديم الخمر أو شراؤه للفريق.",
+      "en": "If attending events with alcohol is a required part of your job (sales, client entertainment) and you fear for your livelihood, or you are asked to serve or buy alcohol for the team."
+    },
+    "confidence": "medium",
+    "review_status": "ai_verified",
+    "notes_for_reviewer": "درجة حديث الترمذي 2801 مختلف فيها (ليث بن أبي سليم)، والحكم عند المذاهب مبني أيضاً على باب الوليمة التي فيها منكر لا على هذا الحديث وحده. أرقام الأجزاء والصفحات للمذاهب منقولة من الموسوعة الفقهية بالدرر السنية (dorar.net/feqhia/4398) ونص المحيط البرهاني من المكتبة الشاملة (shamela.ws/book/10875/2001) — ولم نطابق بقية المراجع في المطبوع. لم نجد فتوى منشورة لـ AMJA أو مجمع الفقه الدولي في هذه الجزئية بعينها. التفريق بين «حضور المناسبة» و«الجلوس على المائدة» اجتهاد معاصر يحتاج تأكيد المراجع. أثر عمر بن عبد العزيز في جلد من جالس الشاربة وإن كان صائماً مذكور في كتب التفسير عند النساء 140 — لم نُدرجه لعدم مطالعة النص.\n\n[تدقيق المرحلة 1 — 2026-10-05] الحكم منسجم مع نصوص المذاهب في الوليمة ذات المنكر، ودرجة حديث الترمذي 2801 معروضة بأمانة (الألباني: حسن؛ بشار عواد وزبير علي زئي: ضعيف — بحسب hadith-api). نجحت الفحوص الآلية.\n\n[مراجعة الأحاديث 2026-10-06 — حزمة المرجعية العلمية]\n- أُزيل من الأدلة المعروضة (مختلف فيه): سنن أبي داود 3774 «نهى عن مطعمين...» — قال أبو داود نفسه: «لم يسمعه جعفر من الزهري وهو منكر»؛ وللألباني فيه حكمان على الدرر: «منكر» (إرواء الغليل 1982، https://dorar.net/h/EFWNcs6P) و«صحيح» (صحيح أبي داود 3774، https://dorar.net/h/8Z1qYuJj). يكفي في الحكم حديث الترمذي 2801 (حسن).\n- جامع الترمذي 2801: الحكم المعروض «حسن» هو حكم الألباني (صحيح الترمذي 2801، https://dorar.net/h/dj7SxMcL)؛ وفي إسناده ليث بن أبي سليم (نقله الترمذي)، وقال ابن حجر: إسناده جيد (فتح الباري 9/159).\n\n[تحديث المحتوى 2026-10-06 — موقف النَّخْب] صار هذا الحكم يخدم موقف «رفض كأس النخب في حفل الشركة». أُعيدت صياغة الحقول: title, question, verdict_scope, summary, newcomer_explainer, practical_guidance, halal_alternatives (إضافة جملة تحريم الشرب في المقدمة، وحذف الإطار الأمريكي والعبارات الإنجليزية من النص العربي). لم تتغير الأدلة: quran, hadith, madhahib, contemporary. عبارة «شرب الخمر محرّم بنص القرآن، قليلها وكثيرها» مستندة إلى آية المائدة المدرجة؛ لم نكتب لفظ الإجماع لعدم توفر مصدر موثّق له في سجل المصادر (يمكن إضافته في consensus_sources إن وُثّق).",
+    "newcomer_explainer": {
+      "ar": "يرى الإسلام أن العقل من أثمن ما وُهب للإنسان، ولذلك يحرّم الخمر قليلَها وكثيرَها، ولو مجاملةً في نَخْب؛ فالمسلم يرفع كأس عصير مع زملائه ولا يشرب الخمر. وقد نهى النبي ﷺ عن الجلوس على مائدة يُشرب عليها الخمر (الترمذي 2801 وحسّنه هو والألباني، مع كلام لبعض العلماء في إسناده). والحكمة الابتعاد عمّا يضر، وألا يبدو المسلم مُقِرّاً له. ويجيز بعض المعاصرين حضور مناسبة العمل مع اختيار طاولة خالية من الخمر أو المغادرة عند بدء الشرب، بينما يرى آخرون عدم حضور مثل هذه المناسبات أصلاً. والزميل المسلم الذي ينتقل إلى طاولة أخرى يتبع دينه ولا يحكم على أحد.",
+      "en": "Islam sees the mind as one of the most precious gifts a person has, so it forbids alcohol, a little or a lot, even as a courtesy in a toast; a Muslim raises juice with colleagues instead. The Prophet ﷺ forbade sitting at a table where wine is being drunk (Tirmidhi 2801, graded hasan by al-Tirmidhi and al-Albani, though some scholars discuss its chain). The wisdom is keeping a distance from what harms and not appearing to approve of it. Some contemporary scholars allow attending a work event while choosing an alcohol-free table or leaving when the drinking starts, while others advise not attending such events at all. A Muslim colleague who moves to another table is following his faith, not judging anyone."
+    }
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "home.purity_mosque",
+    "location": "home",
+    "title": {
+      "ar": "الطهارة للصلاة وآداب المسجد: الوُضُوء، ونظافة البدن والثوب والمكان، وخلع الحذاء",
+      "en": "Purity for Prayer and Mosque Etiquette: Wudu, a Clean Body, Clothes and Place, and Shoes"
+    },
+    "question": {
+      "ar": "هل الوُضُوء شرطٌ لصحة الصلاة؟ وهل تُشترط طهارة البدن والثوب والمكان؟ وهل يجب خلع الحذاء في المسجد؟",
+      "en": "Is wudu a condition for prayer to be valid? Must the body, clothes and place be clean? And is removing one's shoes in the mosque required?"
+    },
+    "verdict": "wajib",
+    "content_level": "B",
+    "verdict_scope": {
+      "ar": "الوجوب هنا للطهارة من الحدث (الوُضُوء) قبل الصلاة، وهي شرطٌ لصحتها بالإجماع. وطهارة البدن والثوب والمكان من النجاسة شرطٌ عند الجمهور، وللمالكية فيها تفصيل. أما خلع الحذاء في المساجد المفروشة فأدبٌ مستحسن لحفظ نظافتها، وليس شرطاً للصلاة.",
+      "en": "The obligation here is purity from ritual impurity (wudu) before prayer, a condition of its validity by consensus. Cleanliness of body, clothes and place from impurity is a condition according to the majority, with a detailed Maliki view. Removing shoes in carpeted mosques is recommended etiquette to keep them clean, not a condition of prayer."
+    },
+    "consensus_sources": [
+      "إسلام سؤال وجواب، شروط صحة الصلاة: https://islamqa.info/en/answers/107701 — بطلان صلاة المُحدِث بإجماع العلماء",
+      "الموسوعة الفقهية (الدرر السنية)، المطلب الأول: الطهارة من الحدث: https://dorar.net/feqhia/824 — نقل إجماع أهل العلم عن ابن المنذر"
+    ],
+    "explanatory_notes": {
+      "ar": [
+        "الصلاة في النعلين الطاهرتين جائزةٌ في أصلها، وكانت المساجد الأولى أرضها رملٌ وحصى. ولمّا فُرشت المساجد بالسجاد صار خلع الحذاء عند بابها هو الأولى، حفظاً للفرش ومراعاةً للمصلّين الذين يسجدون عليها."
+      ],
+      "en": [
+        "Praying in clean shoes is permissible in principle, and the earliest mosques had floors of sand and pebbles. Now that mosques are carpeted, taking shoes off at the door is the better practice, to protect the carpets and respect the worshippers who prostrate on them."
+      ]
+    },
+    "summary": {
+      "ar": "الوُضُوء شرطٌ لصحة الصلاة بإجماع العلماء، فمن صلّى بلا طهارة وهو قادرٌ عليها لم تصحّ صلاته. وطهارة البدن والثوب ومكان الصلاة من النجاسة شرطٌ عند جمهور الفقهاء، وللمالكية فيها تفصيل. أما خلع الحذاء في المساجد المفروشة بالسجاد فأدبٌ يحفظ نظافتها، والصلاة في حذاءٍ طاهر ليست ممنوعةً في ذاتها.",
+      "en": "Wudu is a condition of a valid prayer by scholarly consensus: whoever prays without purity while able to attain it has not prayed validly. Cleanliness of the body, clothes and place of prayer from impurity is a condition according to the majority of jurists, with a detailed Maliki view. Removing shoes in carpeted mosques is etiquette that keeps them clean; praying in clean shoes is not forbidden in itself."
+    },
+    "quran": [],
+    "hadith": [],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "الطهارة من الحدث شرطٌ لصحة الصلاة. وطهارة البدن والثوب والمكان من النجاسة شرطٌ كذلك، وهو قول الجمهور.",
+        "position_en": "Purity from ritual impurity is a condition of a valid prayer. Cleanliness of the body, clothes and place from impurity is also a condition, which is the majority view.",
+        "reference": "إسلام سؤال وجواب، رأي الجمهور في طهارة البدن والثوب والمكان: https://islamqa.info/en/answers/611327؛ الموسوعة الفقهية (الدرر السنية)، الطهارة من النجس: https://dorar.net/feqhia/826؛ الطهارة من الحدث: https://dorar.net/feqhia/824"
+      },
+      "maliki": {
+        "position_ar": "الطهارة من الحدث شرطٌ لصحة الصلاة. أما إزالة النجاسة فلهم فيها قولان مشهوران: واجبةٌ مع العلم والقدرة، أو سنّة، ومن أقوالهم أنها شرط. فمن صلّى بها عامداً قادراً أعاد أبداً، ومن صلّى ناسياً أو عاجزاً أعاد في الوقت فقط.",
+        "position_en": "Purity from ritual impurity is a condition of a valid prayer. On removing physical impurity they have two well-known views: obligatory when one knows and is able, or sunnah; another of their views makes it a condition. Whoever prays with it deliberately while able repeats the prayer at any time; whoever forgot or was unable repeats it only within its time.",
+        "reference": "إسلام سؤال وجواب، قول المالكية في الصلاة مع النجاسة: https://islamqa.info/en/answers/611327؛ الموسوعة الفقهية (الدرر السنية)، الطهارة من النجس: https://dorar.net/feqhia/826"
+      },
+      "shafii": {
+        "position_ar": "الطهارة من الحدث شرطٌ لصحة الصلاة. وطهارة البدن والثوب والمكان من النجاسة شرطٌ كذلك، وهو قول الجمهور.",
+        "position_en": "Purity from ritual impurity is a condition of a valid prayer. Cleanliness of the body, clothes and place from impurity is also a condition, which is the majority view.",
+        "reference": "إسلام سؤال وجواب، رأي الجمهور في طهارة البدن والثوب والمكان: https://islamqa.info/en/answers/611327؛ الموسوعة الفقهية (الدرر السنية)، الطهارة من النجس: https://dorar.net/feqhia/826؛ الطهارة من الحدث: https://dorar.net/feqhia/824"
+      },
+      "hanbali": {
+        "position_ar": "الطهارة من الحدث شرطٌ لصحة الصلاة. وطهارة البدن والثوب والمكان من النجاسة شرطٌ كذلك، وهو قول الجمهور.",
+        "position_en": "Purity from ritual impurity is a condition of a valid prayer. Cleanliness of the body, clothes and place from impurity is also a condition, which is the majority view.",
+        "reference": "إسلام سؤال وجواب، رأي الجمهور في طهارة البدن والثوب والمكان: https://islamqa.info/en/answers/611327؛ الموسوعة الفقهية (الدرر السنية)، الطهارة من النجس: https://dorar.net/feqhia/826؛ الطهارة من الحدث: https://dorar.net/feqhia/824"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "الموسوعة الفقهية (الدرر السنية)",
+        "decision_ref": "كتاب الصلاة، شروط الصلاة، المطلب الأول: الطهارة من الحدث",
+        "position_ar": "نقلت الموسوعة عن ابن المنذر إجماع أهل العلم على أن الصلاة لا تجزئ إلا بطهارة لمن قدر عليها.",
+        "position_en": "The encyclopedia reports, from Ibn al-Mundhir, the scholars' consensus that prayer is not valid without purity for one able to attain it.",
+        "source_url": "https://dorar.net/feqhia/824"
+      },
+      {
+        "body": "الموسوعة الفقهية (الدرر السنية)",
+        "decision_ref": "كتاب الصلاة، شروط الصلاة، المطلب الثاني: الطهارة من النجس",
+        "position_ar": "طهارة البدن والثوب والمكان من النجس شرطٌ في صحة الصلاة عند الحنفية والشافعية والحنابلة، وهو قولٌ للمالكية.",
+        "position_en": "Purity of body, clothing and place from impurity is a condition of a valid prayer for the Hanafis, Shafi'is and Hanbalis, and is one Maliki view.",
+        "source_url": "https://dorar.net/feqhia/826"
+      },
+      {
+        "body": "إسلام سؤال وجواب (islamqa.info)",
+        "decision_ref": "الجواب 107701: شروط صحة الصلاة",
+        "position_ar": "من شروط صحة الصلاة الطهارة من الحدث، وإزالة النجاسة عن البدن والثوب والمكان. ومن صلّى محدثاً فصلاته باطلة بإجماع العلماء.",
+        "position_en": "Conditions of a valid prayer include purity from ritual impurity and removing physical impurity from body, clothing and place. Praying in a state of ritual impurity is invalid by scholarly consensus.",
+        "source_url": "https://islamqa.info/en/answers/107701"
+      },
+      {
+        "body": "اللجنة الدائمة للبحوث العلمية والإفتاء (السعودية)",
+        "decision_ref": "فتوى منقولة في إسلام سؤال وجواب، السؤال 69793: الصلاة بالنعال في مسجد مفروش",
+        "position_ar": "الصلاة في النعلين الطاهرتين جائزة، لكن المساجد اليوم مفروشةٌ بالسجاد، فالأولى خلعهما عند دخولها، حفظاً للفرش من الأوساخ ولئلا يتأذى المصلّون.",
+        "position_en": "Praying in clean shoes is permissible, but mosques today are carpeted, so it is better to take shoes off on entering, to keep the carpets free of dirt and avoid putting other worshippers off.",
+        "source_url": "https://islamqa.info/en/answers/69793"
+      },
+      {
+        "body": "الشيخ عبد العزيز بن باز",
+        "decision_ref": "كلامه المنقول في إسلام سؤال وجواب، السؤال 69793",
+        "position_ar": "تُستحب الصلاة في النعلين إذا كانتا طاهرتين، لكن مع وجود الفرش في المساجد فالأولى خلعهما. ومن شقّ عليه خلعهما، كالعسكري في حذائه، صلّى فيهما إن كانتا طاهرتين.",
+        "position_en": "Praying in clean shoes is recommended, but where mosques are carpeted it is better to take them off. Someone for whom removing them is difficult, such as a soldier in boots, may pray in them if they are clean.",
+        "source_url": "https://islamqa.info/en/answers/69793"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "يتوضّأ المسلم قبل الصلاة: يغسل وجهه، ويديه إلى المرفقين، ويمسح رأسه، ويغسل رجليه.",
+        "يحرص على نظافة بدنه وثيابه ومكان صلاته من النجاسة.",
+        "عند دخول مسجدٍ مفروش بالسجاد يخلع حذاءه ويضعه في الرف المخصّص له."
+      ],
+      "en": [
+        "A Muslim performs wudu before prayer: washing the face and the arms up to the elbows, wiping over the head, and washing the feet.",
+        "He makes sure his body, clothes and place of prayer are free of impurity.",
+        "On entering a carpeted mosque, he takes off his shoes and places them on the shoe rack."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "من لم يجد الماء أو عجز عن استعماله تطهّر بالتيمّم.",
+        "من شقّ عليه خلع حذائه صلّى فيه إن كان طاهراً، مع الحرص على ألا يلوّث الفرش."
+      ],
+      "en": [
+        "Whoever finds no water or cannot use it purifies by tayammum (dry ablution with clean earth).",
+        "Someone for whom removing shoes is hard may pray in them if they are clean, taking care not to soil the carpets."
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "عند وجود عذرٍ دائم يمنع الطهارة المعتادة، كجرحٍ أو مرضٍ مستمر، أو عند الشك في نجاسة الثوب أو المكان، أو الحاجة إلى تفصيل مذهبٍ بعينه.",
+      "en": "When a lasting condition, such as a wound or chronic illness, prevents normal purification, when unsure whether clothes or a place are impure, or when you need the details of a particular school."
+    },
+    "confidence": "high",
+    "review_status": "ai_draft",
+    "notes_for_reviewer": "مسودة جديدة (2026-10-06) لموقف الطهارة والمسجد. لا نصوص قرآن أو حديث بحسب توجيه المنسّق. ما جُلب وتحقق منه مباشرة: islamqa 107701 (بطلان صلاة المحدث بالإجماع، وطهارة البدن والثوب والمكان من شروط الصلاة)، و611327 (قول الجمهور، وتفصيل المالكية: الإزالة واجبة مع العلم والقدرة أو سنة، والإعادة أبداً للعامد القادر وفي الوقت للناسي والعاجز)، و69793 (اللجنة الدائمة وابن باز: جواز الصلاة في النعل الطاهر، والأولى خلعه في المساجد المفروشة). صفحتا الدرر السنية 824 و826 أعادتا 403 عند الجلب المباشر، ومضمونهما (نقل ابن المنذر الإجماع على اشتراط الطهارة، وأن طهارة النجس شرط عند الحنفية والشافعية والحنابلة وقولٌ للمالكية) مأخوذ من مقتطف محرك بحث — يحتاج مطابقة بشرية. مواقف الحنفية والشافعية والحنابلة مختصرة من نقل «الجمهور» وليست من كتب كل مذهب مباشرة. ذكر التيمم معلوم بالإجماع لكنه غير موثّق بمصدر مجلوب هنا.",
+    "newcomer_explainer": {
+      "ar": "يربط الإسلام بين نظافة الجسد والعبادة. فقبل كل صلاة يتوضّأ المسلم، فيغسل وجهه ويديه ويمسح رأسه ويغسل قدميه، ولا تصحّ الصلاة بدون هذه الطهارة. ويحرص كذلك على نظافة ثيابه ومكان صلاته. وفي المسجد يسجد المصلّون بجباههم على السجاد، لذلك يخلعون أحذيتهم عند الباب حفاظاً على نظافته.",
+      "en": "Islam links a clean body with worship. Before each prayer a Muslim performs wudu, washing the face and hands, wiping the head and washing the feet, and the prayer is not valid without this purity. He also keeps his clothes and place of prayer clean. In the mosque, worshippers touch the carpet with their foreheads, so they take off their shoes at the door to keep it clean."
+    }
+  }
+]

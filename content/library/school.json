@@ -1,0 +1,534 @@
+[
+  {
+    "id": "school.cheating",
+    "location": "school",
+    "title": {
+      "ar": "الغش في الامتحان والواجبات",
+      "en": "Cheating on Exams and Assignments"
+    },
+    "question": {
+      "ar": "ما حكم الغش في الامتحان، ومساعدة زميل على الغش، وبيع الواجبات أو تسليم عمل كتبه الذكاء الاصطناعي دون إفصاح؟",
+      "en": "What is the ruling on cheating in an exam, helping a classmate cheat, selling homework, or submitting AI-written work without disclosure?"
+    },
+    "verdict": "haram",
+    "content_level": "B",
+    "consensus_sources": [
+      "الموسوعة الفقهية (الدرر السنية)، حكم كتمان العيب: https://dorar.net/feqhia/7472 — نقل الإجماع على تحريم الغش عن الفاكهاني (كفاية الطالب الرباني مع حاشية العدوي 6/55) والشوكاني (نيل الأوطار 5/251)"
+    ],
+    "explanatory_notes": {
+      "ar": [
+        "تطبيق حكم الغش على تقديم عمل كتبه غيرك أو كتبه الذكاء الاصطناعي على أنه عملك، حين يمنع الأستاذ ذلك أو يشترط الإفصاح، تخريجٌ منّا على أصل تحريم الغش والكذب ونقض الشرط، وليس نصاً منقولاً بعينه عن الفقهاء."
+      ],
+      "en": [
+        "Applying the ruling on cheating to presenting work written by someone else or by AI as your own, where the instructor forbids it or requires disclosure, is our own extension of the general prohibition of cheating, lying and breaking agreed terms; it is not a specific text from the jurists."
+      ]
+    },
+    "summary": {
+      "ar": "الغش محرم، ونُقل اتفاق الفقهاء على تحريمه عموماً، والغش في الامتحان من صوره لأنه كذب وخيانة للأمانة، ويدخل في عموم قوله ﷺ «من غشنا فليس منا». ومساعدة الزميل على الغش وبيع الواجبات تعاونٌ على الإثم والكسب منها غير طيب.",
+      "en": "Cheating is prohibited, and jurists' agreement on its prohibition in general has been reported (see consensus sources); cheating in exams is one of its forms because it is lying and a breach of trust, and it falls under the Prophet's ﷺ words \"Whoever cheats us is not of us.\" Helping a classmate cheat or selling assignments is cooperation in sin, and the money earned is not wholesome."
+    },
+    "quran": [
+      {
+        "surah": 5,
+        "surah_name_ar": "المائدة",
+        "ayah": "2",
+        "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تُحِلُّواْ شَعَٰٓئِرَ ٱللَّهِ وَلَا ٱلشَّهۡرَ ٱلۡحَرَامَ وَلَا ٱلۡهَدۡيَ وَلَا ٱلۡقَلَٰٓئِدَ وَلَآ ءَآمِّينَ ٱلۡبَيۡتَ ٱلۡحَرَامَ يَبۡتَغُونَ فَضۡلٗا مِّن رَّبِّهِمۡ وَرِضۡوَٰنٗاۚ وَإِذَا حَلَلۡتُمۡ فَٱصۡطَادُواْۚ وَلَا يَجۡرِمَنَّكُمۡ شَنَـَٔانُ قَوۡمٍ أَن صَدُّوكُمۡ عَنِ ٱلۡمَسۡجِدِ ٱلۡحَرَامِ أَن تَعۡتَدُواْۘ وَتَعَاوَنُواْ عَلَى ٱلۡبِرِّ وَٱلتَّقۡوَىٰۖ وَلَا تَعَاوَنُواْ عَلَى ٱلۡإِثۡمِ وَٱلۡعُدۡوَٰنِۚ وَٱتَّقُواْ ٱللَّهَۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلۡعِقَابِ",
+        "translation_en": "O you who have believed, do not violate the rites of Allāh or [the sanctity of] the sacred month or [neglect the marking of] the sacrificial animals and garlanding [them] or [violate the safety of] those coming to the Sacred House seeking bounty from their Lord and [His] approval. But when you come out of iḥrām, then [you may] hunt. And do not let the hatred of a people for having obstructed you from al-Masjid al-Ḥarām lead you to transgress. And cooperate in righteousness and piety, but do not cooperate in sin and aggression. And fear Allāh; indeed, Allāh is severe in penalty.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/5#2"
+      },
+      {
+        "surah": 8,
+        "surah_name_ar": "الأنفال",
+        "ayah": "27",
+        "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تَخُونُواْ ٱللَّهَ وَٱلرَّسُولَ وَتَخُونُوٓاْ أَمَٰنَٰتِكُمۡ وَأَنتُمۡ تَعۡلَمُونَ",
+        "translation_en": "O you who have believed, do not betray Allāh and the Messenger or betray your trusts while you know [the consequence].",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/8#27"
+      },
+      {
+        "surah": 4,
+        "surah_name_ar": "النساء",
+        "ayah": "58",
+        "text_ar": "۞ إِنَّ ٱللَّهَ يَأۡمُرُكُمۡ أَن تُؤَدُّواْ ٱلۡأَمَٰنَٰتِ إِلَىٰٓ أَهۡلِهَا وَإِذَا حَكَمۡتُم بَيۡنَ ٱلنَّاسِ أَن تَحۡكُمُواْ بِٱلۡعَدۡلِۚ إِنَّ ٱللَّهَ نِعِمَّا يَعِظُكُم بِهِۦٓۗ إِنَّ ٱللَّهَ كَانَ سَمِيعَۢا بَصِيرٗا",
+        "translation_en": "Indeed, Allāh commands you to render trusts to whom they are due and when you judge between people to judge with justice. Excellent is that which Allāh instructs you. Indeed, Allāh is ever Hearing and Seeing.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/4#58"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "مَنْ حَمَلَ عَلَيْنَا السِّلاَحَ فَلَيْسَ مِنَّا وَمَنْ غَشَّنَا فَلَيْسَ مِنَّا",
+        "translation_en": "\"He who takes up arms against us is not of us, and he who cheats us is not of us.\"",
+        "collection": "صحيح مسلم",
+        "number": "101",
+        "narrator": "أبو هريرة",
+        "grade": "صحيح",
+        "grader": "الإمام مسلم (أخرجه في صحيحه)",
+        "source_url": "https://dorar.net/h/xNJyF35K",
+        "dorar_url": "https://dorar.net/h/xNJyF35K",
+        "dorar_ref": "المحدث: مسلم | المصدر: صحيح مسلم | الرقم: 101 | خلاصة حكم المحدث: [صحيح]",
+        "sunnah_url": "https://sunnah.com/muslim:101",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم مَرَّ عَلَى صُبْرَةِ طَعَامٍ فَأَدْخَلَ يَدَهُ فِيهَا فَنَالَتْ أَصَابِعُهُ بَلَلاً فَقَالَ \" مَا هَذَا يَا صَاحِبَ الطَّعَامِ \" . قَالَ أَصَابَتْهُ السَّمَاءُ يَا رَسُولَ اللَّهِ . قَالَ \" أَفَلاَ جَعَلْتَهُ فَوْقَ الطَّعَامِ كَىْ يَرَاهُ النَّاسُ مَنْ غَشَّ فَلَيْسَ مِنِّي \"",
+        "translation_en": "The Messenger of Allah ﷺ passed by a heap of food, put his hand into it and his fingers felt wetness. He said, \"What is this, O owner of the food?\" He said, \"Rain fell on it, O Messenger of Allah.\" He said, \"Why did you not put it on top of the food so that people could see it? Whoever cheats is not of me.\"",
+        "collection": "صحيح مسلم",
+        "number": "102",
+        "narrator": "أبو هريرة",
+        "grade": "صحيح",
+        "grader": "الإمام مسلم (أخرجه في صحيحه)",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/66132",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/66132",
+        "sunnah_url": "https://sunnah.com/muslim:102",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "الْمُتَشَبِّعُ بِمَا لَمْ يُعْطَ كَلاَبِسِ ثَوْبَىْ زُورٍ",
+        "translation_en": "\"The one who pretends to have been given what he was not given is like one who wears two garments of falsehood.\"",
+        "collection": "صحيح البخاري",
+        "number": "5219",
+        "narrator": "أسماء بنت أبي بكر",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)؛ وأخرجه مسلم (2130)",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/6983",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/6983",
+        "sunnah_url": "https://sunnah.com/bukhari:5219",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "الغش حرام، والنصح في المعاملة واجب، وعدّ ابن عابدين الغش من الكبائر معلّلاً بأنه من أكل أموال الناس بالباطل. ولا يوجد نص قديم في «امتحانات الجامعات» بعينها، فتطبيق الحكم عليها تخريج على أصل تحريم الغش والكذب.",
+        "position_en": "Cheating (ghish) is prohibited and sincerity in dealings is obligatory; Ibn Abidin counted it among the major sins as a form of consuming people's wealth unjustly. Classical texts do not address university exams specifically; applying the rule to them is derived from the general prohibition of deception and lying.",
+        "reference": "رد المحتار على الدر المختار ٤/٩٨، نقلاً عن الموسوعة الفقهية الكويتية ٣١/٢١٩ (مادة: غش)"
+      },
+      "maliki": {
+        "position_ar": "الغش لا يحل، وصاحبه «ليس على هدي المسلمين وطريقتهم» وإن لم يخرج به من الإيمان؛ ولا يحل للمسلم أن يكتم عيباً أو يُظهر خلاف الحقيقة لأخيه.",
+        "position_en": "Cheating is not permissible; the cheater is \"not upon the guidance and way of the Muslims,\" though it does not take him out of faith. A Muslim may not conceal the truth or present a false picture to another.",
+        "reference": "ابن رشد الجد، المقدمات الممهدات ٢/٥٦٩، نقلاً عن الموسوعة الفقهية الكويتية ٣١/٢١٩"
+      },
+      "shafii": {
+        "position_ar": "الغش حرام، ورجّح ابن حجر الهيتمي أنه كبيرة، وذكر الغزالي أن النصح في المعاملة واجب وأن من أخفى ما يجب بيانه «كان ظالماً غاشاً».",
+        "position_en": "Cheating is prohibited; Ibn Hajar al-Haytami considered it a major sin, and al-Ghazali stated that sincerity in dealings is obligatory and whoever hides what must be disclosed \"is a wrongdoer and a cheat.\"",
+        "reference": "الزواجر عن اقتراف الكبائر ١/١٩٢-١٩٣؛ إحياء علوم الدين ٤/٧٧٩ — نقلاً عن الموسوعة الفقهية الكويتية ٣١/٢١٩-٢٢٠"
+      },
+      "hanbali": {
+        "position_ar": "الغش والتغرير محرمان ويحرم تعاطي أسبابهما؛ والموسوعة تنقل اتفاق الفقهاء على أن الغش حرام «سواء أكان بالقول أم بالفعل... وسواء أكان في المعاملات أم في غيرها».",
+        "position_en": "Deception and misleading others are prohibited, as are the means to them; the Kuwaiti Encyclopedia reports juristic agreement that cheating is prohibited \"whether by word or deed... in transactions or otherwise.\"",
+        "reference": "الروض المربع ٤/٤٣٧ (عبر الموسوعة الفقهية الكويتية ٣١/١٣٩ مادة غبن)؛ الموسوعة الفقهية الكويتية ٣١/٢١٩"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "الشيخ عبد العزيز بن باز (المفتي العام للمملكة العربية السعودية سابقاً)",
+        "decision_ref": "فتوى منشورة بالموقع الرسمي رقم 18083: «حكم الغش في الامتحانات في غير المواد الدينية»",
+        "position_ar": "لا يجوز الغش في الامتحان لا في المواد الدينية ولا في غيرها، والواجب أداء الامتحان بالأمانة؛ وحديث «من غشنا فليس منا» يعم الغش في الامتحان.",
+        "position_en": "Cheating is not permitted in any subject, religious or secular; exams must be taken with honesty, and the hadith \"Whoever cheats us is not of us\" covers exam cheating.",
+        "source_url": "https://binbaz.org.sa/fatwas/18083"
+      },
+      {
+        "body": "دار الإفتاء المصرية",
+        "decision_ref": "الفتوى رقم 3964 بتاريخ 19 فبراير 2017 (أ.د. شوقي علام)",
+        "position_ar": "الغش في الامتحانات حرام شرعاً، ومن يعين غيره على الغش بالمساعدة أو بالتهاون في منعه يكون آثماً لأنه من التعاون على الإثم والعدوان.",
+        "position_en": "Cheating in exams is religiously prohibited; whoever helps another cheat, or neglects a duty to prevent it, is sinful because it is cooperation in sin and transgression.",
+        "source_url": "https://www.dar-alifta.org/ar/fatwa/details/13501"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "اقرأ سياسة النزاهة الأكاديمية (Academic Integrity Policy) في كليتك وتعليمات كل مقرر (syllabus)، خاصةً ما يتعلق بأدوات الذكاء الاصطناعي؛ فالالتزام بها وفاءٌ بشرط قبلتَه عند التسجيل، ومخالفتها قد تؤدي إلى الرسوب أو الفصل.",
+        "إذا طلب منك زميل أن تُغشِّشه فاعتذر بلطف، واعرض عليه بديلاً نافعاً كالمذاكرة معه قبل الامتحان.",
+        "إن سمح الأستاذ بالذكاء الاصطناعي بشرط الإفصاح فأفصح عن طريقة استخدامه؛ وإن لم تكن السياسة واضحة فاسأله كتابةً (بالبريد الإلكتروني) قبل التسليم.",
+        "استعمل مصادر الدعم المشروعة: ساعات مكتب الأستاذ (office hours)، ومراكز التقوية والكتابة (tutoring / writing center) المتاحة غالباً مجاناً في الكليات الأمريكية.",
+        "عند ضغط الوقت اطلب تمديداً (extension) أو درجة «غير مكتمل» (Incomplete) بدلاً من الغش.",
+        "من وقع في الغش سابقاً فليتب ويعزم ألا يعود؛ وما كُسب من بيع الواجبات أو حلّها للآخرين كسبٌ غير طيب يُسأل أهل العلم عن طريقة التخلص منه."
+      ],
+      "en": [
+        "Read your college's Academic Integrity Policy and each course syllabus, especially regarding AI tools; abiding by them fulfils a condition you accepted at enrollment, and violations can lead to failing or dismissal.",
+        "If a classmate asks you to help them cheat, decline kindly and offer something useful instead, such as studying together before the exam.",
+        "If the instructor allows AI with disclosure, disclose how you used it; if the policy is unclear, ask the instructor in writing (email) before submitting.",
+        "Use legitimate support: instructor office hours and the tutoring or writing center, which US colleges often provide for free.",
+        "When short on time, request an extension or an Incomplete grade instead of cheating.",
+        "Anyone who cheated before should repent and resolve not to return to it; money earned from selling or doing others' assignments is not wholesome, and one should ask a scholar how to dispose of it."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "مجموعات مذاكرة جادة يشرح فيها الطلاب لبعضهم دون تبادل إجابات الامتحان أو الواجبات الفردية",
+        "استخدام الذكاء الاصطناعي للفهم والشرح والتدريب حيث يأذن الأستاذ، مع الإفصاح",
+        "العمل كمدرّس خصوصي (tutor) يشرح للطالب ولا يحل عنه",
+        "طلب تمديد الموعد أو تخفيف العبء الدراسي"
+      ],
+      "en": [
+        "Serious study groups where students explain concepts to each other without sharing exam answers or individual assignments",
+        "Using AI to understand, explain and practice where the instructor permits, with disclosure",
+        "Working as a tutor who teaches rather than doing the work for the student",
+        "Requesting a deadline extension or a lighter course load"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "إذا حصلت على شهادة أو وظيفة اعتماداً على غش سابق، أو ربحت مالاً من بيع الواجبات وتريد التخلص منه، أو التبس عليك حدّ الاستعانة المسموح بها في عمل جماعي أو بأدوات الذكاء الاصطناعي.",
+      "en": "If you obtained a degree or job based on past cheating, earned money from selling assignments and want to dispose of it, or are unsure of the permissible limits of collaboration or AI assistance."
+    },
+    "confidence": "high",
+    "review_status": "ai_verified",
+    "notes_for_reviewer": "1) نصوص الآيات منقولة آلياً من quran.com API v4 (text_uthmani + ترجمة Sahih International رقم 20). 2) نصوص الأحاديث تحقق آلياً أنها مقاطع حرفية من نسخة صحيحي البخاري ومسلم المطابقة لترقيم sunnah.com (مستودع fawazahmed0/hadith-api)، لأن sunnah.com وdorar.net حجبا الوصول الآلي (403/Cloudflare)؛ يُرجى مطابقة الروابط يدوياً. الترجمات الإنجليزية للأحاديث مقتبسة بتصرف يسير من ترجمات sunnah.com. 3) أقوال المذاهب منقولة عبر الموسوعة الفقهية الكويتية (مادتا غش ٣١/٢١٨-٢٢١ وغبن ٣١/١٣٨-١٤٢) من المكتبة الشاملة (shamela.ws/book/11430/19841)، لا من الكتب الأصلية مباشرة. 4) لا يوجد نص مذهبي قديم في الامتحانات؛ إلحاقها بالغش تخريج. 5) مسألة الذكاء الاصطناعي: لم أجد قراراً مجمعياً أو فتوى رسمية محددة؛ الحكم المكتوب تخريج على أصل الغش وحديث «المتشبع بما لم يعط» ومراعاة شرط الأستاذ — يحتاج مراجعة عالم. 6) لم أجد قراراً لمجمع الفقه الدولي أو AMJA في الغش الدراسي تحديداً. 7) حكم ما كُسب من بيع الواجبات (رده للمشتري أم التصدق به) فيه خلاف لم أحرره.\n\n[تدقيق المرحلة 1 — 2026-10-05] لا ملاحظات جوهرية؛ أقوال المذاهب عبر الموسوعة الكويتية مقبولة وفق العقد، ومسألة الذكاء الاصطناعي مخرّجة تخريجاً سليماً مع ربطها بشرط الأستاذ. نجحت الفحوص الآلية.",
+    "newcomer_explainer": {
+      "ar": "الغش في الامتحان محرّم في الإسلام، لأنه كذب وخيانة للأمانة، وقد قال النبي ﷺ: «من غشنا فليس منا» (مسلم 101). ومساعدة زميل على الغش أو بيع الواجبات تعاون على الإثم (المائدة 2)، والمال المكتسب منها غير طيب. والمقصد أن تدلّ الشهادة على علم حقيقي يعتمد عليه الناس.",
+      "en": "Cheating in exams is forbidden in Islam because it is lying and a betrayal of trust; the Prophet ﷺ said, \"Whoever cheats us is not of us\" (Muslim 101). Helping a classmate cheat or selling assignments is cooperating in wrongdoing (5:2), and money earned that way is not wholesome. The aim is that a grade or certificate truthfully reflects real knowledge that other people will rely on."
+    },
+    "library_only": true
+  },
+  {
+    "id": "school.student_loan",
+    "location": "school",
+    "title": {
+      "ar": "القرض الطلابي بفائدة وبدائله",
+      "en": "Interest-Bearing Student Loans and Their Alternatives"
+    },
+    "question": {
+      "ar": "هل يجوز للمسلم أن يأخذ قرضاً طلابياً فيدرالياً بفائدة ليكمل دراسته؟ وما البدائل المشروعة؟",
+      "en": "Is it permissible for a Muslim to take an interest-bearing federal student loan to finish his studies? What are the lawful alternatives?"
+    },
+    "verdict": "haram",
+    "content_level": "C",
+    "verdict_scope": {
+      "ar": "هذا هو الأصل وقول الجمهور. وأجاز بعض الهيئات المعاصرة (منها AMJA) الاقتراض عند الضرورة أو الحاجة الملحّة المتحققة وبقدرها، وتقدير ذلك لحالتك يكون مع عالم موثوق.",
+      "en": "This is the default ruling and the majority view. Some contemporary bodies (including AMJA) allow borrowing in a genuine necessity or pressing need, only to the extent required; whether that applies to you is for a trusted scholar to assess."
+    },
+    "consensus_sources": [
+      "الموسوعة الفقهية (الدرر السنية)، كتاب الربا، حكم الربا: https://dorar.net/feqhia/7595 — نقل الإجماع على تحريم الربا عن ابن تيمية (مجموع الفتاوى 29/418) والزيلعي (تبيين الحقائق 4/85) والشوكاني (نيل الأوطار 5/225) والصنعاني (سبل السلام 3/36)"
+    ],
+    "summary": {
+      "ar": "الأصل تحريم الاقتراض بفائدة لأنها ربا محرم بالإجماع، والمقترض («مُوكِل الربا») داخل في اللعن. ويجب استنفاد البدائل المشروعة أولاً كالمنح غير المستردة والعمل والقرض الحسن. وأجاز بعض المعاصرين كمجمع فقهاء الشريعة بأمريكا (AMJA) الاقتراض عند الضرورة أو الحاجة الملحّة المتحققة بقدرها مع بقاء وصف التحريم، وتقدير ذلك يكون مع عالم موثوق لا بالاجتهاد الشخصي.",
+      "en": "The default ruling is that borrowing with interest is prohibited, since interest is riba forbidden by consensus, and the borrower (\"the one who pays riba\") is included in the curse. Lawful alternatives such as non-repayable grants, work and interest-free loans must be exhausted first. Some contemporary bodies such as AMJA allow borrowing in a genuine necessity or pressing need, only to the extent required and while the act remains prohibited in principle; that assessment should be made with a trusted scholar, not by personal judgement."
+    },
+    "quran": [
+      {
+        "surah": 2,
+        "surah_name_ar": "البقرة",
+        "ayah": "275",
+        "text_ar": "ٱلَّذِينَ يَأۡكُلُونَ ٱلرِّبَوٰاْ لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ ٱلَّذِي يَتَخَبَّطُهُ ٱلشَّيۡطَٰنُ مِنَ ٱلۡمَسِّۚ ذَٰلِكَ بِأَنَّهُمۡ قَالُوٓاْ إِنَّمَا ٱلۡبَيۡعُ مِثۡلُ ٱلرِّبَوٰاْۗ وَأَحَلَّ ٱللَّهُ ٱلۡبَيۡعَ وَحَرَّمَ ٱلرِّبَوٰاْۚ فَمَن جَآءَهُۥ مَوۡعِظَةٞ مِّن رَّبِّهِۦ فَٱنتَهَىٰ فَلَهُۥ مَا سَلَفَ وَأَمۡرُهُۥٓ إِلَى ٱللَّهِۖ وَمَنۡ عَادَ فَأُوْلَٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+        "translation_en": "Those who consume interest cannot stand [on the Day of Resurrection] except as one stands who is being beaten by Satan into insanity. That is because they say, \"Trade is [just] like interest.\" But Allāh has permitted trade and has forbidden interest. So whoever has received an admonition from his Lord and desists may have what is past, and his affair rests with Allāh. But whoever returns [to dealing in interest or usury] - those are the companions of the Fire; they will abide eternally therein.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/2#275"
+      },
+      {
+        "surah": 2,
+        "surah_name_ar": "البقرة",
+        "ayah": "278",
+        "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ ٱتَّقُواْ ٱللَّهَ وَذَرُواْ مَا بَقِيَ مِنَ ٱلرِّبَوٰٓاْ إِن كُنتُم مُّؤۡمِنِينَ",
+        "translation_en": "O you who have believed, fear Allāh and give up what remains [due to you] of interest, if you should be believers.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/2#278"
+      },
+      {
+        "surah": 2,
+        "surah_name_ar": "البقرة",
+        "ayah": "279",
+        "text_ar": "فَإِن لَّمۡ تَفۡعَلُواْ فَأۡذَنُواْ بِحَرۡبٖ مِّنَ ٱللَّهِ وَرَسُولِهِۦۖ وَإِن تُبۡتُمۡ فَلَكُمۡ رُءُوسُ أَمۡوَٰلِكُمۡ لَا تَظۡلِمُونَ وَلَا تُظۡلَمُونَ",
+        "translation_en": "And if you do not, then be informed of a war [against you] from Allāh and His Messenger. But if you repent, you may have your principal - [thus] you do no wrong, nor are you wronged.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/2#279"
+      },
+      {
+        "surah": 6,
+        "surah_name_ar": "الأنعام",
+        "ayah": "119",
+        "text_ar": "وَمَا لَكُمۡ أَلَّا تَأۡكُلُواْ مِمَّا ذُكِرَ ٱسۡمُ ٱللَّهِ عَلَيۡهِ وَقَدۡ فَصَّلَ لَكُم مَّا حَرَّمَ عَلَيۡكُمۡ إِلَّا مَا ٱضۡطُرِرۡتُمۡ إِلَيۡهِۗ وَإِنَّ كَثِيرٗا لَّيُضِلُّونَ بِأَهۡوَآئِهِم بِغَيۡرِ عِلۡمٍۚ إِنَّ رَبَّكَ هُوَ أَعۡلَمُ بِٱلۡمُعۡتَدِينَ",
+        "translation_en": "And why should you not eat of that upon which the name of Allāh has been mentioned while He has explained in detail to you what He has forbidden you, excepting that to which you are compelled. And indeed do many lead [others] astray through their [own] inclinations without knowledge. Indeed, your Lord - He is most knowing of the transgressors.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/6#119"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "لَعَنَ رَسُولُ اللَّهِ صلى الله عليه وسلم آكِلَ الرِّبَا وَمُوكِلَهُ وَكَاتِبَهُ وَشَاهِدَيْهِ وَقَالَ هُمْ سَوَاءٌ",
+        "translation_en": "The Messenger of Allah ﷺ cursed the one who consumes riba, the one who pays it, the one who records it and its two witnesses, and he said: \"They are all equal.\"",
+        "collection": "صحيح مسلم",
+        "number": "1598",
+        "narrator": "جابر بن عبد الله",
+        "grade": "صحيح",
+        "grader": "الإمام مسلم (أخرجه في صحيحه)",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/66130",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/66130",
+        "sunnah_url": "https://sunnah.com/muslim:1598",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "الربا محرم بالكتاب والسنة والإجماع، ويشمل الإثمُ المقرضَ والمقترض. ونقل ابن نجيم في «الأشباه والنظائر» تحت قاعدة «الحاجة تنزل منزلة الضرورة» عن القنية والبغية: «يجوز للمحتاج الاستقراض بالربح»، وهو مستند من رخّص من المعاصرين للمحتاج.",
+        "position_en": "Riba is prohibited by the Quran, Sunnah and consensus, and the sin covers both lender and borrower. Ibn Nujaym, in al-Ashbah wa al-Naza'ir under the maxim \"need is treated like necessity,\" quotes al-Qunya and al-Bughya: \"It is permissible for the needy person to borrow with profit (interest),\" a text relied upon by contemporaries who grant a concession for genuine need.",
+        "reference": "المبسوط للسرخسي ١٢/١٠٩-١١٠ (عبر الموسوعة الفقهية الكويتية ٢٢/٥٠-٥٣ مادة ربا)؛ ابن نجيم، الأشباه والنظائر، قاعدة «الحاجة تنزل منزلة الضرورة»",
+        "reference_status": "pending_verification"
+      },
+      "maliki": {
+        "position_ar": "الربا محرم بالإجماع أخذاً وإعطاءً، ولا يرتفع الإثم إلا بالضرورة المعتبرة شرعاً بقدرها، عملاً بقوله تعالى ﴿إلا ما اضطررتم إليه﴾.",
+        "position_en": "Riba is prohibited by consensus, whether taking or paying it; the sin is lifted only by a genuine Sharia-recognized necessity and to its extent, per the verse \"except what you are compelled to.\"",
+        "reference": "حاشية الصعيدي (العدوي) على كفاية الطالب الرباني ٢/٩٩، نقلاً عن الموسوعة الفقهية الكويتية ٢٢/٥٣"
+      },
+      "shafii": {
+        "position_ar": "أجمعت الأمة على أصل تحريم الربا، ويحرم على المقترض الدخول في عقد القرض بزيادة مشروطة؛ والضرورة تبيح المحظور بقدرها.",
+        "position_en": "The Ummah agrees on the prohibition of riba; the borrower may not enter a loan with a stipulated increase, while genuine necessity permits the prohibited only to its extent.",
+        "reference": "المجموع شرح المهذب للنووي ٩/٣٩٠، نقلاً عن الموسوعة الفقهية الكويتية ٢٢/٥٣"
+      },
+      "hanbali": {
+        "position_ar": "الربا محرم بالكتاب والسنة والإجماع، وكل قرض شُرطت فيه زيادة فهو ربا محرم على الطرفين؛ ولا يباح إلا لضرورة معتبرة.",
+        "position_en": "Riba is prohibited by the Quran, Sunnah and consensus; any loan with a stipulated increase is riba prohibited for both parties, permitted only in a genuine necessity.",
+        "reference": "المغني لابن قدامة ٣/٣، نقلاً عن الموسوعة الفقهية الكويتية ٢٢/٥٣"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "مجمع الفقه الإسلامي الدولي",
+        "decision_ref": "القرار رقم 10 (10/2)، الدورة الثانية، جدة، 22-28 ديسمبر 1985م",
+        "position_ar": "«كل زيادة أو فائدة على الدين الذي حل أجله وعجز المدين عن الوفاء به مقابل تأجيله، وكذلك الزيادة أو الفائدة على القرض منذ بداية العقد، هاتان الصورتان ربا محرم شرعاً».",
+        "position_en": "Any increase or interest on a matured debt in exchange for extending it, and any increase or interest on a loan from the inception of the contract, are both forms of riba prohibited in Sharia.",
+        "source_url": "https://iifa-aifi.org/en/32234.html"
+      },
+      {
+        "body": "مجمع فقهاء الشريعة بأمريكا (AMJA)",
+        "decision_ref": "قرار المؤتمر السنوي السادس، كندا 2009م، كما في الفتوى رقم 87641 (د. حاتم الحاج، 2012) والفتوى رقم 81740 (د. مائن خالد القضاة، 2010)",
+        "position_ar": "الأصل حرمة القروض الربوية للطلاب وغيرهم، ويجب بذل الجهد في البدائل (المنح، العمل مع الدراسة، القروض المدعومة)؛ فإن تعيّن القرض الربوي سبيلاً لبدء الدراسة أو إكمالها أو لسدّ حاجة الأمة إلى تخصص، فهو ضرورة ترفع الإثم مع بقاء الحرمة، بشرط ألا يكون باغياً ولا عادياً، والاستمرار في طلب البديل والتخلص من القرض في أقرب وقت.",
+        "position_en": "Interest-based loans are prohibited by default for students and others; one must exhaust alternatives (scholarships, work-study, subsidized loans). If an interest loan is the only way to begin or complete education, or to meet the community's need for a profession, it is a necessity that removes the sin while the prohibition stands, provided one does not exceed the need, keeps seeking alternatives, and exits the loan as soon as possible.",
+        "source_url": "https://www.amjaonline.org/fatwa/en/87641/student-loans-for-college-university"
+      },
+      {
+        "body": "مجمع فقهاء الشريعة بأمريكا (AMJA) — مقالة د. مائن خالد القضاة",
+        "decision_ref": "Summary of Student Loans in the United States: Facts and Rulings (22 ديسمبر 2015)",
+        "position_ar": "يجوز للطالب أخذ القرض المدعوم (Subsidized) إن كانت حاجته حقيقية وغلب على ظنه سداده كاملاً خلال المدة التي لا تُحتسب فيها فائدة؛ أما غير المدعوم (Unsubsidized) فحرام لاشتماله على الفائدة ولا يباح إلا لضرورة.",
+        "position_en": "A student may take a subsidized loan if the need is genuine and he expects to repay it in full within the period in which no interest is charged; unsubsidized loans are haram because they carry interest and are permitted only in necessity.",
+        "source_url": "https://www.amjaonline.org/?p=81"
+      },
+      {
+        "body": "المجلس الأوروبي للإفتاء والبحوث",
+        "decision_ref": "القرار 4/18، الدورة الثامنة عشرة، باريس، 27 يونيو - 5 يوليو 2008م",
+        "position_ar": "أجاز للطلبة المسلمين في أوروبا الاستفادة من القروض الطلابية الحكومية «إذا كانت تلك القروض بغير زيادة ربوية»، لكونها في أصلها خالية من الربا ويُراعى في سدادها دخل الطالب. وهو قرار خاص ببنية تلك القروض الأوروبية ولا ينطبق تلقائياً على القروض الأمريكية ذات الفائدة الصريحة.",
+        "position_en": "Allowed Muslim students in Europe to use government student loans \"if those loans carry no usurious increase,\" since they were found free of riba in principle with income-contingent repayment. It concerns the structure of those European loans and does not automatically apply to US loans with explicit interest.",
+        "source_url": "https://fiqh.islamonline.net/حكم-القروض-الطلابية-في-أوروبا/"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "قدّم طلب FAFSA مبكراً كل عام؛ فهو بوابة المنح الفيدرالية غير المستردة مثل Pell Grant ومنح الولاية والكلية، وتقديمه لا يُلزمك بقبول أي قرض.",
+        "في خطاب المساعدات (award letter) اقبل المنح وارفض القروض ذات الفائدة؛ يمكنك قبول بعض البنود ورفض بعضها.",
+        "اسأل عن برنامج Federal Work-Study، وعن دعم الرسوم من صاحب العمل (Tuition Assistance / Reimbursement) — وهو مهم خاصة للطالب الذي يعمل.",
+        "كثير من الكليات تقدم خطة تقسيط للرسوم (tuition payment plan) بلا فائدة؛ تأكد أن رسومها مقطوعة لا تزيد بالأجل، وتجنب الغرامات المحسوبة كنسبة على التأخير.",
+        "رسوم كلية المجتمع أقل بكثير؛ والدراسة بدوام جزئي على قدر الدخل خير من دين ربوي.",
+        "ابحث عن صناديق القرض الحسن، ومن أمثلتها منظمة A Continuous Charity (ACC) غير الربحية التي تقدم قروضاً تعليمية بلا فائدة، وصناديق المساجد المحلية — أمثلة لا تزكية، فتحقق من شروطها.",
+        "القرض المدعوم (Direct Subsidized Loan) تتحمل الحكومة فائدته أثناء الدراسة بنصف دوام على الأقل وفي فترة السماح (6 أشهر) وأثناء التأجيل، لكن عقده يتضمن شرط الفائدة بعد ذلك؛ فلا تُقدِم عليه إلا بعد استشارة عالم.",
+        "من كان عليه قرض ربوي سابق فكثير من العلماء ينصحون بالمبادرة بسداده لتقليل الفائدة وعدم الزيادة عليه؛ وهذه معلومة عامة، ولحالتك الخاصة استشر عالماً موثوقاً."
+      ],
+      "en": [
+        "File the FAFSA early each year; it is the gateway to non-repayable federal grants such as the Pell Grant, plus state and college grants, and filing does not oblige you to accept any loan.",
+        "In your award letter, accept grants and decline interest-bearing loans; you can accept some items and decline others.",
+        "Ask about Federal Work-Study and employer tuition assistance/reimbursement — especially relevant for students who are also employed.",
+        "Many colleges offer interest-free tuition payment plans; make sure fees are flat and do not grow with time, and avoid late fees calculated as a percentage.",
+        "Community college tuition is much lower; studying part-time within your income is better than interest-bearing debt.",
+        "Look for interest-free (qard hasan) funds, e.g. the nonprofit A Continuous Charity (ACC), which offers interest-free education loans, and local mosque funds — examples, not endorsements; check their terms.",
+        "With a Direct Subsidized Loan the government pays the interest while you are enrolled at least half-time, during the 6-month grace period and during deferment, but the contract still stipulates interest afterwards; do not take it without consulting a scholar.",
+        "For anyone who already has an interest loan, many scholars advise repaying it early to minimize interest and not adding to it; this is general information, so consult a trusted scholar about your own situation."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "المنح غير المستردة: Pell Grant ومنح الولاية والكلية والمنح الخاصة (ومنها منح المنظمات الإسلامية)",
+        "العمل مع الدراسة (Work-Study) ودعم الرسوم من صاحب العمل",
+        "خطط التقسيط بلا فائدة لدى الكلية",
+        "القرض الحسن من الأسرة أو الصناديق الخيرية",
+        "الادخار ثم الدراسة بدوام جزئي"
+      ],
+      "en": [
+        "Non-repayable grants: Pell Grant, state and college grants, private scholarships (including those of Muslim organizations)",
+        "Work-Study and employer tuition assistance",
+        "Interest-free college payment plans",
+        "Qard hasan from family or charitable funds",
+        "Saving first and studying part-time"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "إذا لم تكفِ المنح والعمل وكانت حاجتك حقيقية فاعرض تفاصيل وضعك المالي على عالم موثوق قبل توقيع أي قرض؛ وكذلك قبل قبول القرض المدعوم، أو إن كانت عليك قروض سابقة وتريد خطة للتخلص منها.",
+      "en": "If grants and work are insufficient and your need is real, present your financial details to a trusted scholar before signing any loan; likewise before accepting a subsidized loan, or if you have existing loans and need a plan to get out of them."
+    },
+    "confidence": "medium",
+    "review_status": "ai_verified",
+    "notes_for_reviewer": "1) اسم صاحب الفتوى 81740 في موقع AMJA بالإنجليزية: Dr. Main Khalid Al-Qudah (د. معين خالد القضاة) — صُحّح الاسم في decision_ref إن لزم. 2) قرار AMJA في المؤتمر السادس (كندا 2009) نُقل عبر الفتوى 87641 وملخص البحث، ولم أطّلع على نص القرار الأصلي كاملاً. 3) نص ابن نجيم «يجوز للمحتاج الاستقراض بالربح» تحقق منه عبر مصادر ثانوية متعددة لا من نسخة الأشباه مباشرة، ولم يُحدد رقم الصفحة. 4) أقوال المالكية والشافعية والحنابلة في القرض بالفائدة مبنية على نقل الموسوعة للإجماع (٢٢/٥٣) مع مراجعها؛ أما تطبيق قاعدة الضرورة فقاعدة عامة لم أنقل لها نصاً مذهبياً خاصاً بالاقتراض — يحتاج مراجعة. 5) قرار المجلس الأوروبي 4/18 عبارته «بغير زيادة ربوية مربوطة بمؤشر معدل تكاليف المعيشة» ملتبسة (هل الربط بالتضخم يُعد زيادة ربوية؟) — يحتاج تحرير. 6) القرض المدعوم: هل يجوز توقيع عقد فيه شرط فائدة مع نية السداد قبل سريانها؟ مسألة خلافية (شرط فاسد/الرضا بالربا)، ورسوم الإصدار (origination fee) تحتاج نظراً. 7) الأمثلة على صناديق القرض الحسن: ذكر الموجّه «Ihsan / IFL» ولم أستطع التحقق من وجود جهة أمريكية بهذين الاسمين (Ihsan Trust جهة باكستانية)، فاستبدلتهما بـ A Continuous Charity (acceducate.org) بعد التحقق من موقعها. 8) لم أجد قراراً لمجلس الفقه بأمريكا الشمالية (FCNA) في القرض الطلابي.\n\n[تدقيق المرحلة 1 — 2026-10-05] صُحّح اسم المفتي في decision_ref إلى «د. مائن خالد القضاة» (مؤكَّد من موقع AMJA). الحكم منسجم مع الأدلة وعرض قول الحاجة عند AMJA أمين. تنبيه قانوني للمراجع: شروط القرض المدعوم (Direct Subsidized) ودعم فائدة فترة السماح قد تتغير بتشريعات 2025-2026؛ يُتحقق من studentaid.gov قبل النشر. نجحت الفحوص الآلية.",
+    "newcomer_explainer": {
+      "ar": "الأصل في الإسلام تحريم الاقتراض بفائدة، لأن النبي ﷺ لعن آكل الربا ومُوكِله، أي آخذه ودافعه (مسلم 1598). لذلك يبحث الطالب المسلم أولاً عن المنح والعمل والقروض الحسنة بلا فائدة. وأجاز بعض الهيئات المعاصرة كمجمع فقهاء الشريعة بأمريكا (AMJA) القرض الطلابي بفائدة عند الضرورة أو الحاجة الملحّة المتحققة وبقدرها فقط، مع بقاء وصف الفائدة محرّمة، وينصح العلماء بأن يُقدَّر ذلك مع عالم موثوق لا بالاجتهاد الشخصي. ووراء ذلك أن إقراض المحتاج في الإسلام عون له لا مصدر ربح منه.",
+      "en": "The default Islamic ruling is that borrowing with interest is not allowed, because the Prophet ﷺ cursed both the one who takes riba and the one who pays it (Muslim 1598). So a Muslim student first looks for grants, work and interest-free loans. Some contemporary bodies such as AMJA allow an interest-bearing student loan in genuine necessity or pressing need, only to the extent required, while the interest itself remains prohibited, and scholars advise making that judgment with a trusted scholar rather than alone. Behind this is the Islamic view that lending to someone in need should be help, not a source of profit."
+    },
+    "library_only": true
+  },
+  {
+    "id": "school.mixed_social",
+    "location": "school",
+    "title": {
+      "ar": "مجموعة الدراسة المختلطة ومصافحة الأستاذة",
+      "en": "Mixed Study Groups and Shaking Hands with a Female Professor"
+    },
+    "question": {
+      "ar": "ماذا يعلّم الإسلام عن التعامل بين الرجال والنساء في مجموعة الدراسة؟ وما حكم الخلوة بزميل أو زميلة؟ وهل يصافح المسلم أستاذته إذا مدّت يدها؟",
+      "en": "What does Islam teach about men and women interacting in a study group? What is the ruling on being alone with a classmate of the opposite sex? Should a Muslim shake a female professor's hand if she extends it?"
+    },
+    "verdict": "depends",
+    "content_level": "C",
+    "verdict_scope": {
+      "ar": "قول جمهور العلماء: تحرم الخلوة بالأجنبية، وتحرم مصافحة المرأة الأجنبية الشابة؛ وهو قول المذاهب الأربعة ومجمع فقهاء الشريعة بأمريكا (AMJA، الفتوى 3253). وأجازها بعض المعاصرين عند انتفاء الشهوة وأمن الفتنة، وهو قول الأقل. أما الدراسة في مجموعة مختلطة في مكان عام فجائزة بآدابها.",
+      "en": "Majority scholarly view: being alone with a non-mahram woman is prohibited, and shaking hands with a young non-mahram woman is prohibited; this is the view of the four schools and of AMJA (fatwa 3253). Some contemporary scholars allowed the handshake when there is no desire and no risk of temptation; that is the minority view. Studying in a mixed group in a public place is permissible with its etiquette."
+    },
+    "summary": {
+      "ar": "الدراسة في مجموعة مختلطة في مكان عام جائزة مع غض البصر وجدية الحديث، أما الخلوة بأجنبية فمحرمة عند المذاهب الأربعة. ومصافحة المرأة الأجنبية الشابة محرمة عند المذاهب الأربعة، واستثنى الحنفية والحنابلة العجوز التي لا تُشتهى مع أمن الفتنة، وأجازها بعض المعاصرين عند انتفاء الشهوة وأمن الفتنة، وهو قول الأقل. والأولى الاعتذار بلطف وبيان أن الامتناع احترامٌ لا إهانة.",
+      "en": "Studying in a mixed group in a public place is permissible with lowered gaze and serious conversation, while being alone (khalwa) with an unrelated woman is prohibited in the four schools. Shaking hands with a young unrelated woman is prohibited in all four schools; the Hanafis and Hanbalis exempt an elderly woman when there is no desire, and some contemporary scholars permitted it without desire and temptation, which is the minority view. The best course is to decline kindly and explain that it is out of respect, not rejection."
+    },
+    "quran": [
+      {
+        "surah": 24,
+        "surah_name_ar": "النور",
+        "ayah": "30",
+        "text_ar": "قُل لِّلۡمُؤۡمِنِينَ يَغُضُّواْ مِنۡ أَبۡصَٰرِهِمۡ وَيَحۡفَظُواْ فُرُوجَهُمۡۚ ذَٰلِكَ أَزۡكَىٰ لَهُمۡۚ إِنَّ ٱللَّهَ خَبِيرُۢ بِمَا يَصۡنَعُونَ",
+        "translation_en": "Tell the believing men to reduce [some] of their vision and guard their private parts. That is purer for them. Indeed, Allāh is [fully] Aware of what they do.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/24#30"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "لاَ يَخْلُوَنَّ رَجُلٌ بِامْرَأَةٍ إِلاَّ مَعَ ذِي مَحْرَمٍ",
+        "translation_en": "\"No man should be alone with a woman except in the presence of a mahram.\"",
+        "collection": "صحيح البخاري",
+        "number": "5233",
+        "narrator": "عبد الله بن عباس",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)؛ وأخرجه مسلم (1341)",
+        "source_url": "https://dorar.net/h/JEqPkyqF",
+        "dorar_url": "https://dorar.net/h/JEqPkyqF",
+        "dorar_ref": "المحدث: البخاري | المصدر: صحيح البخاري | الرقم: 5233 | خلاصة حكم المحدث: [صحيح]",
+        "sunnah_url": "https://sunnah.com/bukhari:5233",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "جَاءَتِ امْرَأَةٌ مِنَ الأَنْصَارِ إِلَى النَّبِيِّ صلى الله عليه وسلم فَخَلاَ بِهَا",
+        "translation_en": "A woman from the Ansar came to the Prophet ﷺ and he spoke with her aside (within sight of people).",
+        "collection": "صحيح البخاري",
+        "number": "5234",
+        "narrator": "أنس بن مالك",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه، وبوّب عليه: باب ما يجوز أن يخلو الرجل بالمرأة عند الناس)",
+        "source_url": "https://dorar.net/h/ztpEz3JJ",
+        "dorar_url": "https://dorar.net/h/ztpEz3JJ",
+        "dorar_ref": "المحدث: البخاري | المصدر: صحيح البخاري | الرقم: 5234 | خلاصة حكم المحدث: [صحيح]",
+        "sunnah_url": "https://sunnah.com/bukhari:5234",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "إِنِّي لاَ أُصَافِحُ النِّسَاءَ إِنَّمَا قَوْلِي لِمِائَةِ امْرَأَةٍ كَقَوْلِي لاِمْرَأَةٍ وَاحِدَةٍ",
+        "translation_en": "\"I do not shake hands with women. My word to a hundred women is like my word to one woman.\"",
+        "collection": "سنن النسائي",
+        "number": "4181",
+        "narrator": "أميمة بنت رقيقة",
+        "grade": "صحيح",
+        "grader": "الألباني — السلسلة الصحيحة 529: «إسناده صحيح» (الدرر السنية)؛ HadeethEnc: «صحيح»",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/66196",
+        "dorar_url": "https://dorar.net/h/lgeivGfp",
+        "dorar_ref": "المحدث: الألباني | المصدر: السلسلة الصحيحة | الرقم: 529 | خلاصة حكم المحدث: إسناده صحيح",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/66196",
+        "sunnah_url": "https://sunnah.com/nasai:4181",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "وَلاَ وَاللَّهِ مَا مَسَّتْ يَدُهُ يَدَ امْرَأَةٍ قَطُّ فِي الْمُبَايَعَةِ، مَا يُبَايِعُهُنَّ إِلاَّ بِقَوْلِهِ",
+        "translation_en": "\"By Allah, his hand never touched the hand of any woman in the pledge of allegiance; he took their pledge only by speech.\"",
+        "collection": "صحيح البخاري",
+        "number": "4891",
+        "narrator": "عائشة أم المؤمنين",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)",
+        "source_url": "https://dorar.net/h/LRNhLKAk",
+        "dorar_url": "https://dorar.net/h/LRNhLKAk",
+        "dorar_ref": "المحدث: البخاري | المصدر: صحيح البخاري | الرقم: 4891 | خلاصة حكم المحدث: [أورده في صحيحه] وقال : تابعه يونس ومعمر وعبد الرحمن بن إسحاق عن الزهري. وقال إسحاق بن راشد: عن الزهري عن عروة وعمرة.",
+        "sunnah_url": "https://sunnah.com/bukhari:4891",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "الخلوة بالأجنبية حرام، وتنتفي بوجود محرم أو امرأة ثقة قادرة أو حائل. ومصافحة الأجنبية الشابة المشتهاة حرام، وتجوز مصافحة العجوز التي لا تَشتهي ولا تُشتهى ما دامت الشهوة مأمونة من الطرفين.",
+        "position_en": "Being alone with an unrelated woman is prohibited; it ceases to be khalwa with a mahram, a trustworthy woman, or a barrier present. Shaking hands with a young, desirable unrelated woman is prohibited; shaking hands with an elderly woman who neither desires nor is desired is allowed as long as desire is absent on both sides.",
+        "reference": "رد المحتار ٥/٢٣٥-٢٣٦؛ تبيين الحقائق ٦/١٨؛ الفتاوى الهندية ٥/٣٢٩؛ بدائع الصنائع ٥/١٢٣ — عبر الموسوعة الفقهية الكويتية ١٩/٢٦٧-٢٦٨ (خلوة) و٣٧/٣٥٩ (مصافحة)"
+      },
+      "maliki": {
+        "position_ar": "الخلوة بالأجنبية حرام. ومصافحة المرأة الأجنبية حرام ولو كانت مُتجالّة (عجوزاً لا أرب للرجال فيها)، أخذاً بعموم أدلة التحريم.",
+        "position_en": "Khalwa with an unrelated woman is prohibited. Shaking hands with an unrelated woman is prohibited even if she is elderly, based on the general evidence.",
+        "reference": "الفواكه الدواني ٢/٤٠٩-٤١٠؛ كفاية الطالب الرباني مع حاشية العدوي ٢/٤٣٧ — عبر الموسوعة الفقهية الكويتية ١٩/٢٦٧ و٣٧/٣٥٩"
+      },
+      "shafii": {
+        "position_ar": "الخلوة بالأجنبية حرام، والمشهور جواز خلوة رجل بنسوة ثقات يحتشمهن، وتحريم خلوة رجلين أو رجال بامرأة إلا إن بعُد تواطؤهم. ويحرم مسّ الأجنبية مطلقاً ولو عجوزاً؛ قال النووي: «كل من حرم النظر إليه حرم مسه، بل المس أشد».",
+        "position_en": "Khalwa is prohibited; the well-known view permits a man to be with several trustworthy women whom he is reserved with, but prohibits two or more men with one woman unless collusion is unlikely. Touching an unrelated woman is prohibited absolutely, even if elderly; al-Nawawi said: \"Whoever may not be looked at may not be touched; touching is more serious.\"",
+        "reference": "المجموع ٤/١٥٥-١٥٦ و٧/٦١-٦٢؛ حاشية الجمل ٤/٤٦٦؛ مغني المحتاج ٣/١٣٢-١٣٥؛ الأذكار ص٢٢٨ — عبر الموسوعة الفقهية الكويتية ١٩/٢٦٨ و٣٧/٣٥٩-٣٦٠"
+      },
+      "hanbali": {
+        "position_ar": "الخلوة حرام، وتحرم خلوة الرجل بعدد من النساء أو العكس. ومصافحة الشابة الأجنبية حرام في الرواية المختارة ولو من وراء حائل كثوب، وتجوز مصافحة العجوز مع أمن الفتنة.",
+        "position_en": "Khalwa is prohibited, including a man alone with several women or vice versa. Shaking hands with a young unrelated woman is prohibited in the chosen narration even through a barrier such as cloth; shaking hands with an elderly woman is allowed when temptation is absent.",
+        "reference": "شرح منتهى الإرادات ٣/٧؛ مطالب أولي النهى ٥/١٤؛ الآداب الشرعية لابن مفلح ٢/٢٦٩ — عبر الموسوعة الفقهية الكويتية ١٩/٢٦٨ و٣٧/٣٥٩"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "مجمع فقهاء الشريعة بأمريكا (AMJA)",
+        "decision_ref": "الفتوى رقم 3253 (قسم الفتوى، 22/7/2007)",
+        "position_ar": "لا تجوز مصافحة الرجل للمرأة الأجنبية بحال، شابة كانت أو عجوزاً، مسلمة أو غير مسلمة، بحائل أو بدونه.",
+        "position_en": "A man may not shake hands with a non-mahram woman under any circumstances, young or old, Muslim or not, with or without a barrier.",
+        "source_url": "https://www.amjaonline.org/fatwa/en/3253/shaking-hands"
+      },
+      {
+        "body": "أ.د. عبد الفتاح إدريس (أستاذ الفقه المقارن بجامعة الأزهر)",
+        "decision_ref": "فتوى منشورة في fiqh.islamonline.net",
+        "position_ar": "تحرم مصافحة الأجنبية ولو كانت عجوزاً، لعموم النصوص وسداً للذريعة، ويرى أن حديث «كان يصافح العجائز» غير ثابت.",
+        "position_en": "Shaking hands with any unrelated woman, even elderly, is prohibited due to the general texts and blocking the means; he holds that the report \"he used to shake hands with elderly women\" is not authentic.",
+        "source_url": "https://fiqh.islamonline.net/مصافحة-الأجنبيات/"
+      },
+      {
+        "body": "د. يوسف القرضاوي (رئيس المجلس الأوروبي للإفتاء سابقاً) — فتوى شخصية",
+        "decision_ref": "فتاوى معاصرة، ج2 (ملخصها منقول في fiqh.islamonline.net)",
+        "position_ar": "تجوز المصافحة عند عدم الشهوة وأمن الفتنة، فإن خيفت الفتنة أو وُجدت الشهوة حرمت بلا شك؛ وينبغي الاقتصار على موضع الحاجة، والأفضل للمتدين ألا يبدأ بالمصافحة «ولكن إذا صوفح صافح»، والمسألة اجتهادية فلا يُنكر على من أخذ بها.",
+        "position_en": "Handshaking is permitted when there is no desire and no fear of temptation, and is clearly prohibited otherwise; it should be limited to need, and the religious person should preferably not initiate it, \"but if a hand is extended, he may shake it.\" It is a matter of ijtihad, so one who follows it should not be censured.",
+        "source_url": "https://fiqh.islamonline.net/مصافحة-الأجنبيات/"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "اختر أماكن دراسة عامة: المكتبة، أو غرف الدراسة ذات الجدران الزجاجية، أو اجتماعاً جماعياً بالفيديو؛ وتجنب الانفراد بزميلة في غرفة مغلقة أو سيارة.",
+        "اجعل الحديث في موضوع الدراسة بأدب واحترام مع غض البصر، والتواصل في مجموعة المحادثة الجماعية (group chat) بدل الرسائل الخاصة غير الضرورية.",
+        "عند التعارف: بادر بتحية لفظية وابتسامة، أو ضع يدك على صدرك، وقل مثلاً: «Nice to meet you — for religious reasons I don't shake hands, but I mean full respect.» وكثير من الجامعات الأمريكية تعرف هذه الممارسة وتحترم التنوع الديني.",
+        "إن مدّت الأستاذة يدها فجأة: من أخذ بقول الجمهور اعتذر بلطف؛ ومن أخذ بقول من أجاز عند الحرج وانتفاء الشهوة فلا يُنكَر عليه، والأحوط الترك.",
+        "ليكن امتناعك بلطف لا بنفور، فحسن الخلق مع الجميع جزء من الدين."
+      ],
+      "en": [
+        "Pick public study places: the library, glass-walled study rooms, or a group video call; avoid being alone with a female classmate in a closed room or a car.",
+        "Keep conversation on the subject, respectful, with lowered gaze, and use the group chat rather than unnecessary private messages.",
+        "When introduced, offer a verbal greeting and a smile, or place your hand on your chest, and say e.g.: \"Nice to meet you — for religious reasons I don't shake hands, but I mean full respect.\" Many US universities are familiar with this practice and respect religious diversity.",
+        "If the professor suddenly extends her hand: one following the majority view declines politely; one following the view that permits it in embarrassment and without desire should not be censured, though refraining is more cautious.",
+        "Decline gently, never with aversion; good character toward everyone is part of the religion."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "التحية اللفظية والإيماءة ووضع اليد على الصدر",
+        "الدراسة في مكان عام أو عبر اجتماع جماعي إلكتروني",
+        "ضم شخص ثالث إلى الجلسة إذا اقتضى العمل لقاءً طويلاً"
+      ],
+      "en": [
+        "A verbal greeting, a nod, or a hand on the chest",
+        "Studying in a public place or via a group online meeting",
+        "Including a third person when work requires a long meeting"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "إذا كانت المصافحة مطلوبة في مقابلة عمل أو بيئة مهنية وترتب على الامتناع ضرر حقيقي، أو نشأ تعلق عاطفي بينك وبين زميلة، أو احتجت للعمل معها منفردين في مشروع طويل.",
+      "en": "If a handshake is expected in a job interview or professional setting and declining would cause real harm, if an emotional attachment develops with a classmate, or if you must work alone with her on a long project."
+    },
+    "confidence": "medium",
+    "review_status": "ai_verified",
+    "notes_for_reviewer": "1) أقوال المذاهب منقولة عبر الموسوعة الفقهية الكويتية: مادة «خلوة» ١٩/٢٦٧-٢٦٩ (shamela.ws/book/11430/11832) ومادة «مصافحة» ٣٧/٣٥٨-٣٦٠ (shamela.ws/book/11430/24255). 2) حديث معقل بن يسار: النص من الدرر السنية (عبر واجهة dorar_api) بلفظ الطبراني، ولم أتمكن من فتح صفحة الطبراني نفسها؛ أحكام المحدثين منقولة كما في الدرر. تخريج الموسوعة يذكر الهيثمي ٤/٣٢٦ والدرر ٤/٣٢٩ (فرق طبعات). الترجمة الإنجليزية من صياغتي. 3) فتوى AMJA 3253 تقول «اتفق أئمة المذاهب الأربعة على التحريم» بإطلاق، بينما تنقل الموسوعة استثناء الحنفية والحنابلة للعجوز؛ عرضتُ الاستثناء بأمانة. 4) فتوى القرضاوي نُقل ملخصها من إسلام أونلاين لا من كتاب «فتاوى معاصرة» مباشرة؛ يُرجى مطابقة الجزء والصفحة. 5) آية النور ٣١ لم تُدرج لطولها؛ يمكن إضافتها. 6) لم أجد قراراً مجمعياً (الدولي أو الأوروبي أو FCNA) في المصافحة. 7) حكم مجموعة دراسة فيها رجل واحد وعدة نساء: المشهور عند الشافعية الجواز، والحنابلة على التحريم — يحتاج تحريراً لتطبيقه على الواقع.\n\n[تدقيق المرحلة 1 — 2026-10-05] حديث معقل بن يسار (خارج الكتب الستة) تحققتُ من لفظه وأحكام الألباني (صحيح الجامع 5045، الصحيحة 226) يدوياً؛ رمز السيوطي بالضعف لم أتحقق منه. عرض الخلاف في المصافحة أمين (استثناء الحنفية والحنابلة للعجوز، وقول القرضاوي). نجحت الفحوص الآلية.\n\n[مراجعة الأحاديث 2026-10-06 — حزمة المرجعية العلمية]\n- أُزيل من الأدلة المعروضة (مختلف فيه): المعجم الكبير للطبراني 20/212 «لأن يطعن في رأس أحدكم بمخيط من حديد خير له من أن يمس امرأة لا تحل له» — صححه الألباني (صحيح الجامع 5045، https://dorar.net/h/HSUzXvA2) وقال الهيثمي «رجاله رجال الصحيح»، لكن رمز له السيوطي بالضعف (الجامع الصغير 7198) ونوزع في دلالة «يمس». ليس في الصحيحين ولا في HadeethEnc؛ يحتاج قرار مراجع بشري قبل إعادته.",
+    "newcomer_explainer": {
+      "ar": "يجيز الإسلام للرجال والنساء الدراسة والعمل معاً في الأماكن العامة مع الاحتشام وغض البصر (النور 30)، لكنه يحرّم خلوة الرجل بامرأة أجنبية عنه (البخاري 5233). والحكمة التي يذكرها العلماء حفظ الأعراض والقلوب وسدّ باب الفتنة والريبة. ومصافحة المرأة الأجنبية الشابة محرمة عند المذاهب الأربعة، مع استثناءات عند بعضهم، وأجازها بعض المعاصرين عند انتفاء الشهوة والأحوط تركها؛ لذلك يضع كثير من المسلمين يدهم على صدورهم تحية بدلاً منها. والمسلم الذي يعتذر عن المصافحة يفعل ذلك احتراماً لا رفضاً.",
+      "en": "Islam allows men and women to study and work together in public settings with modest conduct and a lowered gaze (24:30), but forbids a man and an unrelated woman from being alone together in private (Bukhari 5233). The wisdom scholars mention is protecting people's honour and hearts and closing the door to temptation and suspicion. Shaking hands with a young unrelated woman is forbidden in the four classical schools, with some exceptions, while some contemporary scholars allow it where there is no desire, though avoiding it is more cautious; so many Muslims place a hand on the chest as a greeting instead. A Muslim who declines a handshake does so out of respect, not rejection."
+    },
+    "library_only": true
+  }
+]

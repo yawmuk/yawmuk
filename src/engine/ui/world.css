@@ -1,0 +1,45 @@
+/* Integrated neighbourhood: persistent HUD slots (prayer times, guide button, next-stop chip). Prefix: yk-world- */
+.yk-world-layer, #ui > .yk-world-layer { position: absolute; inset: 0; pointer-events: none; }
+#ui:has(> .overlay-screen:not(.leaving)) .yk-world-layer { display: none; }
+.yk-world-layer.hidden { display: none; }
+.yk-world-layer > * { pointer-events: auto; }
+
+/* prayer-times slot: top inline-end corner, under the HUD bar */
+#yk-hud-prayer { position: absolute; top: calc(66px + var(--safe-t, 0px)); inset-inline-end: 12px; max-width: min(320px, 60vw); }
+#yk-hud-prayer:empty { display: none; }
+
+/* floating "Ask the guide" button: bottom inline-end, above the touch interact button */
+.yk-world-fab {
+  position: absolute; inset-inline-end: 18px; bottom: calc(22px + var(--safe-b, 0px));
+  display: inline-flex; align-items: center; gap: 0.5em; min-height: 48px; padding: 0 1.1em 0 0.8em;
+  border-radius: 999px; border: 1px solid rgba(116, 207, 174, 0.65); cursor: pointer;
+  background: linear-gradient(180deg, rgba(31, 107, 92, 0.95), rgba(14, 38, 40, 0.95));
+  color: var(--sand-100, #f3ead7); font: inherit; font-weight: 700; font-size: 0.98rem;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 3px 0 rgba(0, 0, 0, 0.45), 0 10px 22px rgba(0, 0, 0, 0.35);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+[dir='rtl'] .yk-world-fab { padding: 0 0.8em 0 1.1em; }
+.yk-world-fab:hover { transform: translateY(-2px); }
+.yk-world-fab:focus-visible { outline: 3px solid var(--brass-300, #f2cf86); outline-offset: 3px; }
+.yk-world-fab-icon { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--brass-400, #e0ae52); color: #1d1404; font-size: 1rem; }
+body.touch .yk-world-fab { bottom: calc(150px + var(--safe-b, 0px)); inset-inline-end: auto; right: 22px; }
+body.touch .yk-world-fab-text { display: none; }
+body.touch .yk-world-fab { padding: 0; width: 56px; height: 56px; justify-content: center; }
+body.touch .yk-world-fab-icon { width: 40px; height: 40px; font-size: 1.2rem; }
+
+/* next-stop chip in the HUD bar */
+.yk-world-next { border-color: rgba(255, 211, 77, 0.55); }
+.yk-world-next-icon { color: #ffd34d; font-size: 0.85em; }
+[dir='rtl'] .yk-world-next-icon { display: inline-block; transform: scaleX(-1); }
+.yk-world-next-val { color: #ffd34d; font-weight: 700; }
+
+@media (max-width: 560px) {
+  #yk-hud-prayer { top: calc(150px + var(--safe-t, 0px)); inset-inline-end: 8px; max-width: 70vw; }
+}
+@media (prefers-reduced-motion: reduce) { .yk-world-fab { transition: none; } }
+
+/* phones: keep the HUD bar to two rows so the prayer slot sits right under it */
+@media (max-width: 560px) {
+  .yk-world-next .lbl { display: none; }
+  .yk-world-next-val { max-width: 44vw; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+}

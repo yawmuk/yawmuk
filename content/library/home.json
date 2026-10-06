@@ -1,0 +1,540 @@
+[
+  {
+    "id": "home.mortgage",
+    "location": "home",
+    "title": {
+      "ar": "شراء البيت: القرض العقاري الربوي أم التمويل الإسلامي؟",
+      "en": "Buying a Home: Interest-Based Mortgage vs. Islamic Financing"
+    },
+    "question": {
+      "ar": "هل يجوز لمسلم في أمريكا أن يشتري بيتاً بقرض عقاري تقليدي بفائدة، أم يلزمه التمويل الإسلامي (المرابحة، المشاركة المتناقصة، الإجارة المنتهية بالتمليك)؟",
+      "en": "May a Muslim in the US buy a home with a conventional interest-bearing mortgage, or must he use Islamic financing (murabaha, diminishing musharaka, lease-to-own ijara)?"
+    },
+    "verdict": "haram",
+    "content_level": "C",
+    "verdict_scope": {
+      "ar": "قول جمهور العلماء: القرض العقاري بفائدة من الربا المحرم؛ وهو قول المذاهب الأربعة، ومجمع الفقه الإسلامي الدولي (القرار 50 (1/6)، جدة 1990)، ومجمع فقهاء الشريعة بأمريكا (هيوستن 2014). وأجازه المجلس الأوروبي للإفتاء (الدورة الرابعة، دبلن 1999) استثناءً لمسكن الحاجة بشروط مشددة، وهو قول الأقل. نعرض الأقوال ولا نرجّح بينها لحالة بعينها.",
+      "en": "Majority scholarly view: an interest-bearing mortgage is prohibited riba. This is the view of the four schools, the International Islamic Fiqh Academy (Resolution 50 (1/6), Jeddah 1990) and AMJA (Houston 2014). The European Council for Fatwa (4th session, Dublin 1999) allowed it as an exception for a needed family home under strict conditions; that is the minority view. We present the views and do not decide between them for any individual case."
+    },
+    "consensus_sources": [
+      "الموسوعة الفقهية (الدرر السنية)، كتاب الربا، حكم الربا: https://dorar.net/feqhia/7595 — نقل الإجماع على تحريم الربا عن ابن تيمية (مجموع الفتاوى 29/418) والزيلعي (تبيين الحقائق 4/85) والشوكاني (نيل الأوطار 5/225) والصنعاني (سبل السلام 3/36)"
+    ],
+    "summary": {
+      "ar": "الربا محرم بنص القرآن، ونُقل الإجماع على تحريمه في الجملة. وقول الجمهور، ومنهم المذاهب الأربعة ومجمع الفقه الإسلامي الدولي ومجمع فقهاء الشريعة بأمريكا، أن القرض العقاري بفائدة من الربا المحرم. وفي المقابل أجاز المجلس الأوروبي للإفتاء (1999) القرض الربوي لمسكن الحاجة بشروط مشددة عند فقد البديل، وهو قول الأقل من المجامع والعلماء. ويلجأ كثير من المسلمين في أمريكا إلى شركات التمويل الإسلامي، مع التحقق من عقودها.",
+      "en": "Riba is prohibited by the text of the Quran, and scholars have transmitted consensus on its prohibition in general. The majority view, held by the four schools, the International Islamic Fiqh Academy and AMJA, is that an interest-bearing mortgage is prohibited riba. A minority view, from the European Council for Fatwa (1999), permitted an interest mortgage for a needed family home under strict conditions when no alternative exists. Many Muslims in the US use Islamic home-finance providers, checking their contracts."
+    },
+    "quran": [
+      {
+        "surah": 2,
+        "surah_name_ar": "البقرة",
+        "ayah": "275",
+        "text_ar": "ٱلَّذِينَ يَأۡكُلُونَ ٱلرِّبَوٰاْ لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ ٱلَّذِي يَتَخَبَّطُهُ ٱلشَّيۡطَٰنُ مِنَ ٱلۡمَسِّۚ ذَٰلِكَ بِأَنَّهُمۡ قَالُوٓاْ إِنَّمَا ٱلۡبَيۡعُ مِثۡلُ ٱلرِّبَوٰاْۗ وَأَحَلَّ ٱللَّهُ ٱلۡبَيۡعَ وَحَرَّمَ ٱلرِّبَوٰاْۚ فَمَن جَآءَهُۥ مَوۡعِظَةٞ مِّن رَّبِّهِۦ فَٱنتَهَىٰ فَلَهُۥ مَا سَلَفَ وَأَمۡرُهُۥٓ إِلَى ٱللَّهِۖ وَمَنۡ عَادَ فَأُوْلَٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+        "translation_en": "Those who consume interest cannot stand [on the Day of Resurrection] except as one stands who is being beaten by Satan into insanity. That is because they say, \"Trade is [just] like interest.\" But Allāh has permitted trade and has forbidden interest. So whoever has received an admonition from his Lord and desists may have what is past, and his affair rests with Allāh. But whoever returns [to dealing in interest or usury] - those are the companions of the Fire; they will abide eternally therein.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/2#275"
+      },
+      {
+        "surah": 2,
+        "surah_name_ar": "البقرة",
+        "ayah": "278",
+        "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ ٱتَّقُواْ ٱللَّهَ وَذَرُواْ مَا بَقِيَ مِنَ ٱلرِّبَوٰٓاْ إِن كُنتُم مُّؤۡمِنِينَ",
+        "translation_en": "O you who have believed, fear Allāh and give up what remains [due to you] of interest, if you should be believers.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/2#278"
+      },
+      {
+        "surah": 2,
+        "surah_name_ar": "البقرة",
+        "ayah": "279",
+        "text_ar": "فَإِن لَّمۡ تَفۡعَلُواْ فَأۡذَنُواْ بِحَرۡبٖ مِّنَ ٱللَّهِ وَرَسُولِهِۦۖ وَإِن تُبۡتُمۡ فَلَكُمۡ رُءُوسُ أَمۡوَٰلِكُمۡ لَا تَظۡلِمُونَ وَلَا تُظۡلَمُونَ",
+        "translation_en": "And if you do not, then be informed of a war [against you] from Allāh and His Messenger. But if you repent, you may have your principal - [thus] you do no wrong, nor are you wronged.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/2#279"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "لَعَنَ رَسُولُ اللَّهِ صلى الله عليه وسلم آكِلَ الرِّبَا وَمُوكِلَهُ وَكَاتِبَهُ وَشَاهِدَيْهِ وَقَالَ هُمْ سَوَاءٌ",
+        "translation_en": "Jabir said that Allah's Messenger (ﷺ) cursed the accepter of interest and its payer, and the one who records it, and the two witnesses, and he said: They are all equal.",
+        "collection": "صحيح مسلم",
+        "number": "1598",
+        "narrator": "جابر بن عبد الله",
+        "grade": "صحيح",
+        "grader": "أخرجه مسلم في صحيحه",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/66130",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/66130",
+        "sunnah_url": "https://sunnah.com/muslim:1598",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "الربا محرم، وكل زيادة مشروطة في القرض ربا. لكن عند أبي حنيفة ومحمد بن الحسن «لا ربا بين المسلم والحربي في دار الحرب»، وخالفهما أبو يوسف. واعتبرت دار الإفتاء المصرية قولهما هو المعتمد عند الحنفية. أما تطبيقه على أمريكا اليوم وعلى حالة يكون فيها المسلم هو دافع الفائدة لا آخذها، فمحل خلاف: يمنعه كثير من الحنفية المعاصرين، واعتمده المجلس الأوروبي سنداً ثانوياً.",
+        "position_en": "Riba is prohibited and any stipulated increase on a loan is riba. However, Abu Hanifa and Muhammad held \"there is no riba between a Muslim and a harbi in dar al-harb\", against Abu Yusuf. Egypt's Dar al-Ifta describes their view as the relied-upon Hanafi position. Whether it applies to the US today, and to a Muslim who pays interest rather than receives it, is disputed: many contemporary Hanafis reject that application, while the ECFR used it as a secondary basis.",
+        "reference": "الهداية للمرغيناني (باب الربا) 3/86 والمبسوط للسرخسي 14/98 — بحسب نقل islamqa.org/hanafi/askimam/84171؛ دار الإفتاء المصرية: https://www.dar-alifta.org/ar/fatwa/details/13073",
+        "reference_status": "pending_verification"
+      },
+      "maliki": {
+        "position_ar": "الربا حرام في دار الحرب كحرمته في دار الإسلام، بين المسلم والحربي وبين المسلمين، لأن نصوص تحريم الربا عامة لم تفرّق بين دار ودار. وهذا قول الجمهور، ومنهم مالك.",
+        "position_en": "Riba is prohibited in dar al-harb just as in dar al-Islam, whether between a Muslim and a harbi or between Muslims, since the texts are general. This is the majority view, Malik among them.",
+        "reference": "موسوعة المفاهيم الإسلامية العامة (المجلس الأعلى للشؤون الإسلامية بمصر)، مادة «دار الحرب»: https://shamela.ws/book/433/279",
+        "reference_status": "pending_verification"
+      },
+      "shafii": {
+        "position_ar": "الربا يجري في دار الحرب كما يجري في دار الإسلام، وحديث مكحول «لا ربا بين المسلمين وأهل دار الحرب» مرسل ضعيف لا حجة فيه.",
+        "position_en": "Riba applies in dar al-harb exactly as in dar al-Islam; the Makhul report \"no riba between Muslims and the people of dar al-harb\" is a weak mursal report and not evidence.",
+        "reference": "المجموع شرح المهذب للنووي 9/488 — بحسب نقل islamqa.info/ar/ref/126056"
+      },
+      "hanbali": {
+        "position_ar": "كل قرض شُرط فيه أن يزيده فهو حرام بغير خلاف، ويحرم الربا في دار الحرب كتحريمه في دار الإسلام.",
+        "position_en": "Every loan in which an increase is stipulated is prohibited without disagreement, and riba is prohibited in dar al-harb just as in dar al-Islam.",
+        "reference": "المغني لابن قدامة، كتاب القرض («وكل قرض شرط فيه أن يزيده فهو حرام بغير خلاف»)، وباب الربا 4/47 بحسب نقل islamqa.info/ar/ref/126056"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "مجمع الفقه الإسلامي الدولي",
+        "decision_ref": "القرار 10 (10/2)، الدورة الثانية، جدة، ديسمبر 1985",
+        "position_ar": "كل زيادة أو فائدة على الدين عند حلول أجله مقابل تأجيله، وكل زيادة مشروطة في القرض عند التعاقد، كلاهما ربا محرم شرعاً.",
+        "position_en": "Any increase or interest on a matured debt in exchange for extending it, and any increase stipulated on a loan at inception, are both forms of prohibited riba.",
+        "source_url": "https://iifa-aifi.org/en/32234.html"
+      },
+      {
+        "body": "مجمع الفقه الإسلامي الدولي",
+        "decision_ref": "القرار 50 (1/6)، الدورة السادسة، جدة، مارس 1990 (التمويل العقاري لبناء المساكن وشرائها)",
+        "position_ar": "المسكن حاجة أساسية تُلبّى بالطرق والأموال المشروعة. والتمويل العقاري بفائدة ربا محرم أياً كان سعر الفائدة. ومن البدائل المشروعة: البيع بالتقسيط والاستصناع.",
+        "position_en": "Housing is a basic need to be met by lawful means. Interest-based real-estate financing is prohibited riba at any rate. Lawful alternatives include deferred-payment sale and istisna'.",
+        "source_url": "https://iifa-aifi.org/en/32395.html"
+      },
+      {
+        "body": "مجمع الفقه الإسلامي الدولي",
+        "decision_ref": "القراران 40-41 (2/5، 3/5) الدورة الخامسة، الكويت 1988 (المرابحة للآمر بالشراء)؛ والقرار 136 (2/15) الدورة الخامسة عشرة، مسقط 2004 (المشاركة المتناقصة)",
+        "position_ar": "تجوز المرابحة للآمر بالشراء إذا تملك المصرف السلعة وقبضها وتحمّل تبعة هلاكها قبل التسليم. وتجوز المشاركة المتناقصة بضوابط، منها أن يتحمل كل شريك الخسارة بقدر حصته، وألا يكون الوعد بشراء الحصة ملزماً إلا لطرف واحد.",
+        "position_en": "Murabaha to the purchase orderer is permissible if the financier owns and possesses the asset and bears its risk before delivery. Diminishing musharaka is permissible under criteria, including that each partner bears loss in proportion to its share, and that the binding promise to buy out shares is on one party only.",
+        "source_url": "https://iifa-aifi.org/en/32878.html"
+      },
+      {
+        "body": "مجمع فقهاء الشريعة بأمريكا (AMJA)",
+        "decision_ref": "قرار لجنة الفتوى الدائمة بشأن شركات التمويل الإسلامي للمساكن في أمريكا، هيوستن، 15-17 سبتمبر 2014",
+        "position_ar": "الاقتراض بفائدة محرم قليله وكثيره. وصنّف القرار الشركات ثلاث فئات: ما عقوده موافقة للشريعة في الجملة فيجوز (Ameen Housing بعد تعديل عقودها في يناير 2015، وMubarak Mortgage وNeeyah)، وما فيه مخالفات دون الفائدة الصريحة فيجوز عند الحاجة أو الحاجة الشديدة (Guidance Residential للحاجة؛ Devon Bank وUIF للحاجة الشديدة)، وما هو قرض ربوي في حقيقته فلا يجوز (LARIBA وIjara Loan). والحكم خاص بالعقود القائمة وقت صدوره.",
+        "position_en": "Borrowing on interest is prohibited in any amount. The resolution sorted providers into three tiers: contracts broadly Shariah-compliant, so permissible (Ameen Housing after amending its contracts in January 2015, plus Mubarak Mortgage and Neeyah); contracts with some violations but no explicit interest, so permissible in need or dire need (Guidance Residential for need; Devon Bank and UIF for dire need); and contracts that are interest loans in substance, so not permitted (LARIBA, Ijara Loan). The ruling covers only the contracts in force at that time.",
+        "source_url": "https://www.amjaonline.org/amja-resident-fatwa-committee-resolution-about-islamic-home-financing-companies-in-the-us/"
+      },
+      {
+        "body": "المجلس الأوروبي للإفتاء والبحوث",
+        "decision_ref": "الدورة العادية الرابعة، دبلن، 18-22 رجب 1420هـ / 27-31 أكتوبر 1999",
+        "position_ar": "أكّد المجلس تحريم الربا، ثم أجاز استثناءً للمسلم في أوروبا شراء مسكن بقرض ربوي بشروط: أن يكون البيت لسكناه وأسرته، وألا يملك بيتاً آخر، وألا يكون عنده من المال ما يكفي لشرائه بغير قرض، وعند فقد البديل الإسلامي. وبنى ذلك على أصلين: تنزيل الحاجة منزلة الضرورة، وقول أبي حنيفة ومحمد في المعاملة في غير دار الإسلام. وخالفه في ذلك جمهور المجامع والعلماء.",
+        "position_en": "The Council affirmed that riba is prohibited, then made an exception for a Muslim in Europe to buy a home with an interest loan under conditions: the house is for himself and his family, he owns no other house, he lacks the money to buy without a loan, and no Islamic alternative is available. It rested this on two bases: need treated as necessity, and the view of Abu Hanifa and Muhammad on transactions outside dar al-Islam. Most fiqh bodies and scholars disagreed.",
+        "source_url": "https://fiqh.islamonline.net/en/purchasing-houses-with-usurious-loans-in-the-west/"
+      },
+      {
+        "body": "مؤتمر فقهي في ديترويت 1999 (بحسب د. منذر قحف) — لم يُتحقق من صدوره رسمياً عن Fiqh Council of North America",
+        "decision_ref": "المؤتمر الفقهي الدولي الثاني، ديترويت 1999 (نقل غير مباشر)",
+        "position_ar": "نقل د. منذر قحف أن هذا المؤتمر أجاز للأسر المسلمة في أمريكا الشمالية القرض العقاري التقليدي عند الحاجة للمسكن وفقد العقد الشرعي، لأن السكن اللائق حاجة أساسية.",
+        "position_en": "Dr. Monzer Kahf reports that this conference permitted North American Muslim families a conventional mortgage when they need housing and cannot find a Shariah-compliant contract, since decent housing is an essential need.",
+        "source_url": "https://fiqh.islamonline.net/en/buying-a-house-through-mortgage"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "ابدأ بالادخار والاستئجار حتى يتيسر بديل شرعي، فالاستئجار ليس حراماً ولا عيباً.",
+        "قارن عروض شركات التمويل الإسلامي العاملة في أمريكا، مثل Guidance Residential وUniversity Islamic Financial (UIF) وDevon Bank وAmeen Housing (أمثلة وليست تزكية)، واطلب نسخة العقد وفتوى هيئتها الشرعية.",
+        "اسأل عن: من يتحمل الصيانة والتأمين والضرائب؟ وكيف تُحسب غرامة التأخير؟ وهل تذهب للخيرية أم للشركة؟ وهل تملك الشركة حصتها فعلاً؟",
+        "قرار AMJA صدر سنة 2014 والعقود تتغير، فتحقق من الوضع الحالي قبل التوقيع.",
+        "ما سبق معلومات عامة وليس حكماً على حالة بعينها؛ فإن كان لديك قرض عقاري قائم فاستشر عالماً موثوقاً في وضعك الخاص، ومنه إمكان إعادة التمويل (refinance) بعقد شرعي."
+      ],
+      "en": [
+        "Start by saving and renting until a lawful alternative is feasible; renting is neither sinful nor shameful.",
+        "Compare US Islamic home-finance providers such as Guidance Residential, University Islamic Financial (UIF), Devon Bank and Ameen Housing (examples, not endorsements); request the contract and the Shariah board's fatwa.",
+        "Ask who bears maintenance, insurance and taxes, how late fees are computed and whether they go to charity or to the company, and whether the provider truly owns its share.",
+        "AMJA's resolution dates from 2014 and contracts change, so verify the current situation before signing.",
+        "The above is general information, not a ruling on any individual case; if you already hold a mortgage, consult a trusted scholar about your own situation, including whether refinancing into a Shariah-compliant contract is possible."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "المشاركة المتناقصة (شراكة في البيت مع شراء حصة الممول تدريجياً)",
+        "المرابحة (يشتري الممول البيت ثم يبيعه لك بربح معلوم مقسطاً)",
+        "الإجارة المنتهية بالتمليك",
+        "الادخار والشراء نقداً أو الاستئجار مؤقتاً",
+        "القرض الحسن من الأهل أو صناديق المجتمع"
+      ],
+      "en": [
+        "Diminishing musharaka (co-ownership with gradual buy-out of the financier's share)",
+        "Murabaha (the financier buys the house and resells it to you at a disclosed markup in installments)",
+        "Ijara ending in ownership (lease-to-own)",
+        "Saving to buy in cash, or renting meanwhile",
+        "Interest-free loans (qard hasan) from family or community funds"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "إن كنت تفكر في الأخذ بقول الحاجة بسبب ظرف خاص (أسرة كبيرة، أو لا تجد بديلاً في ولايتك، أو تواجه إخلاءً)، أو عند المفاضلة بين عقود الشركات الإسلامية، أو إن كان عليك قرض ربوي قائم.",
+      "en": "If you are considering the need-based exception because of special circumstances (large family, no alternative in your state, facing eviction), when comparing Islamic providers' contracts, or if you already hold an interest mortgage."
+    },
+    "confidence": "medium",
+    "review_status": "ai_verified",
+    "notes_for_reviewer": "ثقة عالية في أصل الحكم (تحريم القرض بفائدة) وفي نصوص الأدلة. تحتاج مراجعة: (1) الإحالات المذهبية للحنفية والشافعية والحنابلة منقولة بأرقام أجزاء وصفحات من مواقع فتوى (askimam، islamqa) ولم تُطابق على طبعة محددة. (2) المرجع المالكي من موسوعة عامة مصرية وليس من كتاب مالكي معتمد. (3) نسبة فتوى ديترويت 1999 إلى Fiqh Council of North America لم يُتحقق منها رسمياً، فوُضعت بوصف «مؤتمر فقهي». (4) تصنيف AMJA للشركات من 2014 وقد يكون تغيّر. (5) لم نجد نصاً عربياً رسمياً لقرار المجمع 50 (1/6) فصيغ الموقف العربي بالمعنى من النص الإنجليزي الرسمي. (6) الإجارة المنتهية بالتمليك: لم يُتحقق من رقم قرار المجمع فيها فلم يُذكر. نصوص الآيات من Tanzil (رسم عثماني) عبر api.alquran.cloud مع ترجمة Sahih International. نص الحديث منقول آلياً من hadith-api (مصدر sunnah.com) وتُحقق من الرقم 1598 بالبحث، لأن sunnah.com يمنع الجلب المباشر (403).\n\n[تدقيق المرحلة 1 — 2026-10-05] تحققتُ مباشرة من قرار AMJA (هيوستن 15-17 سبتمبر 2014): التصنيف مطابق (Guidance: يجوز للحاجة؛ Devon Bank بعقديه وUIF: للحاجة الشديدة؛ LARIBA وIjara Loan: لا يجوز؛ Ameen Housing: جائز بعد تعديل يناير 2015)، وأُضيفت شركتان صنّفهما القرار جائزتين (Mubarak Mortgage، Neeyah). أرقام قرارات المجمع 10 (10/2)، 50 (1/6)، 40-41 (2/5، 3/5)، 136 (2/15) صحيحة. ملاحظات الباحث بشأن المراجع المذهبية الثانوية (islamqa/askimam) ما تزال قائمة لكنها لا تمس الحكم المجمع عليه. نجحت الفحوص الآلية.",
+    "newcomer_explainer": {
+      "ar": "يحرّم الإسلام الربا، أي اشتراط زيادة على القرض أخذاً أو دفعاً، ولذلك لا يجوز القرض العقاري بفائدة عند المذاهب الأربعة وأكثر المجامع الفقهية المعاصرة. ويذكر العلماء أن الحكمة هي العدل: فالمقرض بفائدة يضمن ربحه ويحمّل المقترض المحتاج كل المخاطرة، أما التجارة فيتقاسم فيها الطرفان الربح والخسارة، ولهذا فرّق القرآن بين البيع والربا (البقرة 275). لذلك يلجأ كثير من المسلمين في أمريكا إلى عقود التمويل الإسلامي القائمة على البيع أو المشاركة أو الإجارة. وقد أجاز المجلس الأوروبي للإفتاء القرض الربوي لمسكن الحاجة عند فقد البديل وبشروط مشددة، لكنه قول لا يأخذ به جمهور العلماء.",
+      "en": "Islam forbids riba — stipulating any increase on a loan, whether receiving or paying it — so a conventional interest-bearing mortgage is not allowed according to the four classical schools and most contemporary fiqh bodies. Scholars explain the wisdom as fairness: an interest lender secures a guaranteed gain while the borrower in need carries all the risk, whereas in trade both sides share profit and loss, which is why the Quran distinguishes trade from riba (2:275). For this reason many Muslims in the US use Islamic home-finance contracts based on sale, partnership or lease instead. The European Council for Fatwa allowed an interest mortgage for a needed family home under strict conditions when no alternative exists, but most scholars do not accept that view."
+    },
+    "library_only": true
+  },
+  {
+    "id": "home.food_ingredients",
+    "location": "home",
+    "title": {
+      "ar": "طعام البيت: لحم السوبرماركت والجيلاتين وخلاصة الفانيليا",
+      "en": "Home Food: Supermarket Meat, Gelatin and Vanilla Extract"
+    },
+    "question": {
+      "ar": "هل يحل لحم الدجاج والبقر في السوبرماركت الأمريكي (ذبائح أهل الكتاب)؟ وما حكم الجيلاتين، والكحول في المنكّهات مثل خلاصة الفانيليا؟",
+      "en": "Is chicken and beef from a US supermarket (slaughtered by People of the Book) halal? And what about gelatin, and alcohol in flavorings such as vanilla extract?"
+    },
+    "verdict": "depends",
+    "content_level": "C",
+    "verdict_scope": {
+      "ar": "يختلف الحكم بحسب المكوّن: الأصل حِلّ اللحم المذكّى ذكاة شرعية، أما لحوم المسالخ الأمريكية والجيلاتين والكحول المستعمل مذيباً ففيها خلاف بين المجامع المعاصرة (مجمع الفقه الإسلامي الدولي القراران 95 و210، ومجمع فقهاء الشريعة بأمريكا). نعرض الأقوال المنسوبة إلى أصحابها ولا نرجّح بينها.",
+      "en": "Depends on the ingredient: properly slaughtered meat is permissible in principle, while US slaughterhouse meat, gelatin and alcohol used as a solvent are disputed among contemporary councils (International Islamic Fiqh Academy resolutions 95 and 210; AMJA). We present each view with its source and do not choose between them."
+    },
+    "summary": {
+      "ar": "ذبائح أهل الكتاب حلال بنص القرآن إذا ذُبحت ذبحاً شرعياً، لكن المجامع اختلفت في لحم المسالخ الأمريكية بسبب الصعق وطريقة الذبح: شدّد AMJA في البقر والغنم وتسامح في الدواجن. والجيلاتين الخنزيري محل خلاف مبني على الاستحالة، والأحوط اجتنابه. والكحول المستعمل مذيباً للنكهات في الصناعة معفو عنه عند كثير من المعاصرين، أما إضافة الخمر للطعام قصداً فممنوعة.",
+      "en": "Meat slaughtered by People of the Book is halal by the Quran if properly slaughtered, but fiqh bodies differ on US slaughterhouse meat because of stunning and method: AMJA is strict on beef and lamb and lenient on poultry. Pork gelatin is disputed, depending on whether transformation (istihala) occurs, and avoiding it is safer. Alcohol used industrially as a solvent for flavors is excused by many contemporary scholars, but deliberately adding alcohol to food is not allowed."
+    },
+    "quran": [
+      {
+        "surah": 5,
+        "surah_name_ar": "المائدة",
+        "ayah": "5",
+        "text_ar": "ٱلۡيَوۡمَ أُحِلَّ لَكُمُ ٱلطَّيِّبَٰتُۖ وَطَعَامُ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَٰبَ حِلّٞ لَّكُمۡ وَطَعَامُكُمۡ حِلّٞ لَّهُمۡۖ وَٱلۡمُحۡصَنَٰتُ مِنَ ٱلۡمُؤۡمِنَٰتِ وَٱلۡمُحۡصَنَٰتُ مِنَ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَٰبَ مِن قَبۡلِكُمۡ إِذَآ ءَاتَيۡتُمُوهُنَّ أُجُورَهُنَّ مُحۡصِنِينَ غَيۡرَ مُسَٰفِحِينَ وَلَا مُتَّخِذِيٓ أَخۡدَانٖۗ وَمَن يَكۡفُرۡ بِٱلۡإِيمَٰنِ فَقَدۡ حَبِطَ عَمَلُهُۥ وَهُوَ فِي ٱلۡأٓخِرَةِ مِنَ ٱلۡخَٰسِرِينَ",
+        "translation_en": "This day [all] good foods have been made lawful, and the food of those who were given the Scripture is lawful for you and your food is lawful for them. And [lawful in marriage are] chaste women from among the believers and chaste women from among those who were given the Scripture before you, when you have given them their due compensation, desiring chastity, not unlawful sexual intercourse or taking [secret] lovers. And whoever denies the faith - his work has become worthless, and he, in the Hereafter, will be among the losers.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/5#5"
+      },
+      {
+        "surah": 5,
+        "surah_name_ar": "المائدة",
+        "ayah": "3",
+        "text_ar": "حُرِّمَتۡ عَلَيۡكُمُ ٱلۡمَيۡتَةُ وَٱلدَّمُ وَلَحۡمُ ٱلۡخِنزِيرِ وَمَآ أُهِلَّ لِغَيۡرِ ٱللَّهِ بِهِۦ وَٱلۡمُنۡخَنِقَةُ وَٱلۡمَوۡقُوذَةُ وَٱلۡمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ وَمَآ أَكَلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيۡتُمۡ وَمَا ذُبِحَ عَلَى ٱلنُّصُبِ وَأَن تَسۡتَقۡسِمُواْ بِٱلۡأَزۡلَٰمِۚ ذَٰلِكُمۡ فِسۡقٌۗ ٱلۡيَوۡمَ يَئِسَ ٱلَّذِينَ كَفَرُواْ مِن دِينِكُمۡ فَلَا تَخۡشَوۡهُمۡ وَٱخۡشَوۡنِۚ ٱلۡيَوۡمَ أَكۡمَلۡتُ لَكُمۡ دِينَكُمۡ وَأَتۡمَمۡتُ عَلَيۡكُمۡ نِعۡمَتِي وَرَضِيتُ لَكُمُ ٱلۡإِسۡلَٰمَ دِينٗاۚ فَمَنِ ٱضۡطُرَّ فِي مَخۡمَصَةٍ غَيۡرَ مُتَجَانِفٖ لِّإِثۡمٖ فَإِنَّ ٱللَّهَ غَفُورٞ رَّحِيمٞ",
+        "translation_en": "Prohibited to you are dead animals, blood, the flesh of swine, and that which has been dedicated to other than Allāh, and [those animals] killed by strangling or by a violent blow or by a head-long fall or by the goring of horns, and those from which a wild animal has eaten, except what you [are able to] slaughter [before its death], and those which are sacrificed on stone altars, and [prohibited is] that you seek decision through divining arrows. That is grave disobedience. This day those who disbelieve have despaired of [defeating] your religion; so fear them not, but fear Me. This day I have perfected for you your religion and completed My favor upon you and have approved for you Islām as religion. But whoever is forced by severe hunger with no inclination to sin - then indeed, Allāh is Forgiving and Merciful.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/5#3"
+      },
+      {
+        "surah": 6,
+        "surah_name_ar": "الأنعام",
+        "ayah": "121",
+        "text_ar": "وَلَا تَأۡكُلُواْ مِمَّا لَمۡ يُذۡكَرِ ٱسۡمُ ٱللَّهِ عَلَيۡهِ وَإِنَّهُۥ لَفِسۡقٞۗ وَإِنَّ ٱلشَّيَٰطِينَ لَيُوحُونَ إِلَىٰٓ أَوۡلِيَآئِهِمۡ لِيُجَٰدِلُوكُمۡۖ وَإِنۡ أَطَعۡتُمُوهُمۡ إِنَّكُمۡ لَمُشۡرِكُونَ",
+        "translation_en": "And do not eat of that upon which the name of Allāh has not been mentioned, for indeed, it is grave disobedience. And indeed do the devils inspire their allies [among men] to dispute with you. And if you were to obey them, indeed, you would be associators [of others with Him].",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/6#121"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "أَنَّ قَوْمًا، قَالُوا لِلنَّبِيِّ صلى الله عليه وسلم إِنَّ قَوْمًا يَأْتُونَا بِاللَّحْمِ لاَ نَدْرِي أَذُكِرَ اسْمُ اللَّهِ عَلَيْهِ أَمْ لاَ فَقَالَ \"سَمُّوا عَلَيْهِ أَنْتُمْ وَكُلُوهُ\". قَالَتْ وَكَانُوا حَدِيثِي عَهْدٍ بِالْكُفْرِ",
+        "translation_en": "Narrated 'Aisha: A group of people said to the Prophet (ﷺ), \"Some people bring us meat and we do not know whether they have mentioned Allah's Name or not on slaughtering the animal.\" He said, \"Mention Allah's Name on it and eat.\" Those people had embraced Islam recently.",
+        "collection": "صحيح البخاري",
+        "number": "5507",
+        "narrator": "عائشة أم المؤمنين",
+        "grade": "صحيح",
+        "grader": "أخرجه البخاري في صحيحه",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/64653",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/64653",
+        "sunnah_url": "https://sunnah.com/bukhari:5507",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "مَا أَسْكَرَ كَثِيرُهُ فَقَلِيلُهُ حَرَامٌ",
+        "translation_en": "Jābir ibn ‘Abdullah (may Allah be pleased with him and his father) reported: The Messenger of Allah (may Allah's peace and blessings be upon him) said: \"Whatever intoxicates in large amounts, its small amount is forbidden.\"",
+        "collection": "سنن أبي داود",
+        "number": "3681",
+        "narrator": "جابر بن عبد الله",
+        "grade": "حسن صحيح",
+        "grader": "الألباني — صحيح أبي داود 3681: «حسن صحيح» (الدرر السنية)؛ HadeethEnc: «حسن»",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/66036",
+        "dorar_url": "https://dorar.net/h/pem09lGM",
+        "dorar_ref": "المحدث: الألباني | المصدر: صحيح أبي داود | الرقم: 3681 | خلاصة حكم المحدث: حسن صحيح",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/66036",
+        "sunnah_url": "https://sunnah.com/abudawud:3681",
+        "translation_source": "HadeethEnc.com (https://hadeethenc.com/en/browse/hadith/66036)"
+      },
+      {
+        "text_ar": "الْحَلاَلُ بَيِّنٌ وَالْحَرَامُ بَيِّنٌ، وَبَيْنَهُمَا مُشَبَّهَاتٌ لاَ يَعْلَمُهَا كَثِيرٌ مِنَ النَّاسِ، فَمَنِ اتَّقَى الْمُشَبَّهَاتِ اسْتَبْرَأَ لِدِيِنِهِ وَعِرْضِهِ، وَمَنْ وَقَعَ فِي الشُّبُهَاتِ كَرَاعٍ يَرْعَى حَوْلَ الْحِمَى، يُوشِكُ أَنْ يُوَاقِعَهُ",
+        "translation_en": "Narrated An-Nu'man bin Bashir: I heard Allah's Messenger (ﷺ) saying, \"Both legal and illegal things are evident but in between them there are doubtful (suspicious) things and most of the people have no knowledge about them. So whoever saves himself from these suspicious things saves his religion and his honor. And whoever indulges in these suspicious things is like a shepherd who grazes (his animals) near the Hima (private pasture) of someone else and at any moment he is liable to get in it...\"",
+        "collection": "صحيح البخاري",
+        "number": "52",
+        "narrator": "النعمان بن بشير",
+        "grade": "صحيح",
+        "grader": "أخرجه البخاري في صحيحه (ومسلم 1599)",
+        "source_url": "https://dorar.net/h/wrjvh9Lg",
+        "dorar_url": "https://dorar.net/h/wrjvh9Lg",
+        "dorar_ref": "المحدث: البخاري | المصدر: صحيح البخاري | الرقم: 52 | خلاصة حكم المحدث: [صحيح]",
+        "sunnah_url": "https://sunnah.com/bukhari:52",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "ذبيحة الكتابي حلال إذا ذكّاها تذكية شرعية. والتسمية شرط عند التذكر، فإن تُركت عمداً لم تحل. والنجاسة تطهر بالاستحالة (كالخنزير إذا صار ملحاً). وأما الأشربة من غير العنب والتمر فعند أبي حنيفة وأبي يوسف لا يحرم منها إلا القدر المسكر، وعليه بنى بعض الحنفية المعاصرين جواز الكحول الصناعي في الأدوية والعطور.",
+        "position_en": "A Kitabi's slaughter is lawful if properly performed. Tasmiya is a condition when remembered, and deliberate omission makes the meat unlawful. Impurity is purified by transformation (e.g., a pig turned into salt). For drinks not made from grapes or dates, Abu Hanifa and Abu Yusuf prohibit only the intoxicating amount; some contemporary Hanafis base on this the permissibility of industrial alcohol in medicines and perfumes.",
+        "reference": "تيسير التفسير للقطان (تفسير الأنعام 121، أقوال الأئمة في التسمية): https://shamela.ws/book/29/503؛ الفقه على المذاهب الأربعة للجزيري ج2 (مباحث الصيد والذبائح)؛ في الاستحالة: الموسوعة الفقهية (الدرر السنية) https://dorar.net/feqhia/189؛ في الكحول: تكملة فتح الملهم لمحمد تقي العثماني بحسب نقل https://islamqa.org/hanafi/daruliftaa/7755"
+      },
+      "maliki": {
+        "position_ar": "ذبيحة الكتابي حلال، والتسمية لا تُشترط في حقه وتُشترط في حق المسلم عند التذكر (المشهور). والنجاسة تطهر بالاستحالة عند المالكية. وكل مسكر خمر، فيحرم قليله وكثيره.",
+        "position_en": "A Kitabi's slaughter is lawful. Tasmiya is not required of him but is required of a Muslim when remembered (the well-known view). Malikis hold that impurity is purified by transformation. Every intoxicant is khamr, so a little of it is as prohibited as a lot.",
+        "reference": "الفقه على المذاهب الأربعة للجزيري ج2 ص27 (مباحث الصيد والذبائح): https://shamela.ws/book/9849/679؛ الموسوعة الفقهية (الدرر السنية)، الاستحالة"
+      },
+      "shafii": {
+        "position_ar": "التسمية سنة وليست شرطاً، فلا يضر تركها عمداً أو نسياناً، فتحل ذبيحة الكتابي ولو لم يُسمِّ إذا ذكّى في الحلق. ولا تطهر النجاسة بالاستحالة إلا في صور محدودة كتخلل الخمر بنفسها، فمشتقات الخنزير تبقى على التحريم. وكل مسكر حرام قليله وكثيره.",
+        "position_en": "Tasmiya is sunna, not a condition, so omitting it deliberately or by forgetting does not matter; a Kitabi's slaughter is lawful even without tasmiya if the throat is cut. Impurity is not purified by transformation except in limited cases such as wine turning to vinegar by itself, so pig derivatives remain prohibited. Every intoxicant is prohibited in small and large amounts.",
+        "reference": "الفقه على المذاهب الأربعة للجزيري ج2 ص27؛ تيسير التفسير للقطان (الأنعام 121)؛ الموسوعة الفقهية (الدرر السنية)، الاستحالة"
+      },
+      "hanbali": {
+        "position_ar": "ذبيحة الكتابي حلال إن ذكّاها، لقوله تعالى ﴿وطعام الذين أوتوا الكتاب حل لكم﴾ (المائدة 5). والتسمية شرط، فإن تركها عمداً حرمت، وسهواً حلّت. والمعتمد أن النجاسة لا تطهر بالاستحالة إلا الخمر إذا تخللت بنفسها. وكل مسكر حرام قليله وكثيره.",
+        "position_en": "A Kitabi's slaughter is lawful if properly performed, per the verse \"the food of those who were given the Scripture is lawful for you\" (5:5). Tasmiya is a condition: deliberate omission makes it unlawful, forgetting does not. The relied-upon view is that impurity is not purified by transformation except wine turning to vinegar by itself. Every intoxicant is prohibited in small and large amounts.",
+        "reference": "الفقه على المذاهب الأربعة للجزيري ج2 ص27؛ المغني لابن قدامة (كتاب الصيد والذبائح)؛ الموسوعة الفقهية (الدرر السنية)، الاستحالة"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "مجمع الفقه الإسلامي الدولي",
+        "decision_ref": "القرار 95 (3/10) بشأن الذبائح، الدورة العاشرة، جدة، 1997",
+        "position_ar": "يحل للمسلم المقيم في بلد غير مسلم أكل ذبائح أهل الكتاب من الحيوان المباح بعد التأكد من خلوها من المحرمات، وتحرم إن ثبت أنها لم تُذبح على الطريقة الشرعية. ويجوز أكل ما ذُبح بعد صعق لا يقتله قبل الذبح، ويُمنع صعق الدواجن بالكهرباء لأنه يميت كثيراً منها. ويحل اللحم المستورد من بلاد أكثرها أهل كتاب إذا ذُبح في المسالخ الحديثة ذبحاً شرعياً.",
+        "position_en": "A Muslim living in a non-Muslim country may eat the meat of lawful animals slaughtered by People of the Book after ensuring it is free of prohibited elements; it is prohibited if proven not to be slaughtered the Islamic way. Meat slaughtered after stunning that does not kill the animal beforehand is lawful; electric stunning of poultry is prohibited because many die from it. Imported meat from countries whose majority are People of the Book is lawful if slaughtered in modern slaughterhouses according to Shariah conditions.",
+        "source_url": "https://iifa-aifi.org/en/32542.html"
+      },
+      {
+        "body": "مجمع فقهاء الشريعة بأمريكا (AMJA)",
+        "decision_ref": "قرارات وتوصيات المؤتمر السنوي التاسع لمجمع فقهاء الشريعة بأمريكا: الأطعمة والأدوية المباحة والمحرمة في غير بلاد المسلمين (اسم ملف الموقع «13th»)",
+        "position_ar": "ذبائح أهل الكتاب في أمريكا مقبولة ما لم يقم دليل على خلافه، ولا تُشترط تسميتهم على الراجح. لكن يحرم أكل الأبقار والأغنام المذبوحة في المسالخ الأمريكية لقوة الشبهة، إذ يموت بعضها بالصعق قبل الذبح ثم يختلط بغيره. ويُرخَّص في الدواجن لضعف الشبهة فيها، والأفضل التورع. ولا يجوز الجيلاتين من مصدر محرم إلا إن استهلك تماماً أو استحال. ولا يجوز وضع الكحول في الطعام قصداً، وما فيه كحول يسير مستهلك لا أثر له ولا يُسكر فيُعفى عنه.",
+        "position_en": "Slaughter by People of the Book in the US is accepted unless proven otherwise, and their tasmiya is not required on the stronger view. However, cattle and sheep slaughtered in US plants are forbidden because of strong doubt: some die from stunning before slaughter and get mixed with the rest. Poultry is permitted because the doubt is weak, though abstaining is better. Gelatin from forbidden sources is not allowed unless fully absorbed or transformed. Alcohol may not be added to food intentionally; a trace that is fully absorbed, leaves no trace and does not intoxicate is overlooked.",
+        "source_url": "https://www.amjaonline.org/wp-content/uploads/2019/04/AMJA-13th-Annual-Conference-Final-Decisions-Food-and-Medicine-In-The-West-En.pdf"
+      },
+      {
+        "body": "مجمع الفقه الإسلامي الدولي (تبنياً لتوصية المنظمة الإسلامية للعلوم الطبية 1995)",
+        "decision_ref": "القرار 210 (6/22)، الدورة الثانية والعشرون، الكويت، مارس 2015",
+        "position_ar": "لا يجوز تناول الأطعمة التي فيها خمر ولو بنسبة ضئيلة. ويجوز تناول الأطعمة التي يُستعمل فيها قليل من الكحول لإذابة ما لا يذوب بالماء من الملونات والحافظات ونحوها، لعموم البلوى وتطاير معظم الكحول أثناء التصنيع. أما الجيلاتين فأرجأه المجمع لمزيد من الدراسة.",
+        "position_en": "Foods containing wine are not permissible even in a tiny ratio. Foods in which a little alcohol is used to dissolve water-insoluble colorants, preservatives and the like are permissible because of widespread affliction (umum al-balwa) and because most alcohol evaporates during manufacture. The Academy deferred the gelatin question for further study.",
+        "source_url": "https://iifa-aifi.org/en/33099.html"
+      },
+      {
+        "body": "مجلس الإفتاء الأردني",
+        "decision_ref": "القرار 128 (6/2009)، بتاريخ 23/7/2009",
+        "position_ar": "الجيلاتين المستخرج من الخنزير أو من الحيوانات النجسة نجس، ولا يجوز استعماله في الدواء والمكملات إلا لضرورة مع فقد البديل.",
+        "position_en": "Gelatin extracted from pork or impure animals is impure and may not be used in medicine or supplements except in necessity when no alternative exists.",
+        "source_url": "https://www.aliftaa.jo/decision-en/314/Resolution-No128-Gelatin-Extracted-from-Pork-Bone-or-Skin-or-from-Impure-Substances-is-Impure"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "الأيسر والأحوط شراء اللحم من محلات حلال موثوقة أو منتجات عليها شهادة حلال من جهة معروفة.",
+        "لحم الدجاج في السوبرماركت فيه خلاف معتبر: من أخذ بقرار المجمع وAMJA في الترخيص فله ذلك، والتورع أفضل. أما البقر والغنم التجاري فقد منعه AMJA.",
+        "اقرأ المكوّنات: gelatin بلا بيان مصدره قد يكون خنزيرياً، فاختر beef/fish gelatin المعتمد حلالاً أو البدائل النباتية (agar, pectin).",
+        "خلاصة الفانيليا (vanilla extract) فيها نسبة كحول عالية: الأحوط استعمال vanilla powder أو alcohol-free vanilla flavor، أو vanilla bean.",
+        "لا تُضف الخمر (wine, beer, rum) إلى الطبخ ولو قيل إنها تتطاير.",
+        "تطبيقات فحص المكونات وقواعد بيانات شهادات الحلال تساعد، لكن الشهادة يُعتمد فيها على الجهة المانحة."
+      ],
+      "en": [
+        "The easiest and safest choice is meat from trusted halal stores or with certification from a known body.",
+        "Supermarket chicken is subject to valid disagreement: following the Academy's and AMJA's leniency is acceptable, though abstaining is better. AMJA prohibits commercial beef and lamb.",
+        "Read labels: gelatin of unstated source may be porcine; choose certified-halal beef or fish gelatin, or plant alternatives (agar, pectin).",
+        "Vanilla extract has a high alcohol content; the safer option is vanilla powder, alcohol-free vanilla flavor, or a vanilla bean.",
+        "Do not add wine, beer or rum to cooking, even if it is said to evaporate.",
+        "Ingredient-scanning apps and halal certification databases help, but rely on the credibility of the certifier."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "لحم مذبوح حلال (zabiha) من محل موثوق",
+        "جيلاتين بقري أو سمكي معتمد، أو agar/pectin",
+        "فانيليا بلا كحول أو مسحوق الفانيليا أو أعواد الفانيليا"
+      ],
+      "en": [
+        "Zabiha meat from a trusted store",
+        "Certified bovine or fish gelatin, or agar/pectin",
+        "Alcohol-free vanilla, vanilla powder or vanilla beans"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "عند الحاجة إلى دواء أو مكمل فيه جيلاتين خنزيري أو كحول ولا بديل له، أو إن كنت تتبع مذهباً معيناً في التسمية والاستحالة، أو تدير مطعماً أو مطبخاً تجارياً.",
+      "en": "When you need a medicine or supplement containing porcine gelatin or alcohol with no alternative, if you follow a specific madhhab on tasmiya and transformation, or if you run a restaurant or commercial kitchen."
+    },
+    "confidence": "medium",
+    "review_status": "ai_draft",
+    "notes_for_reviewer": "المسألة مركّبة وفيها خلاف واسع، فوُضع الحكم «depends». تحتاج مراجعة: (1) أقوال المذاهب في الاستحالة أُخذت من ملخص الموسوعة الفقهية (الدرر السنية) عبر نتيجة بحث، لأن الموقع حجب الجلب المباشر؛ ومسائل التسمية من الجزيري وتيسير التفسير للقطان، وهما مرجعان ثانويان، فينبغي توثيقها من كتب كل مذهب. (2) قول أبي حنيفة وأبي يوسف في الأشربة نُقل عن تكملة فتح الملهم بواسطة فتوى، ولم نطّلع على النص. (3) وثيقة AMJA عنوانها الداخلي «المؤتمر التاسع» واسم ملفها «13th»، ولم نتحقق من سنة انعقاده. (4) تطبيق قرار المجمع 210 على خلاصة الفانيليا اجتهاد منا: القرار يعفو عن الكحول المذيب في التصنيع، وخلاصة الفانيليا كحول مضاف بنسبة كبيرة يستعمله المستهلك مباشرة، فيحتاج حكماً صريحاً من عالم. لم نتمكن من فتح نص لائحة FDA (21 CFR 169.175) لتوثيق نسبة 35% فلم نذكر الرقم. (5) نص حديث «ما أسكر كثيره فقليله حرام» ورد في سنن أبي داود 3681 وحكم عليه الألباني «حسن صحيح» والأرناؤوط «صحيح لغيره» (من بيانات hadith-api).\n\n[تدقيق المرحلة 1 — 2026-10-05] تحققتُ من نص وثيقة AMJA (قراءة PDF): عنوانها «المؤتمر السنوي التاسع»، وفيها حرفياً تحريم أبقار وأغنام المسالخ الأمريكية لقوة الشبهة والترخيص في الدواجن مع استحباب التورع، والجيلاتين والكحول كما لُخّص — فصُحّح decision_ref. وتحققتُ من قرار المجمع 210 (6/22) الكويت مارس 2015: المنع من الأطعمة المحتوية على خمر ولو قليلاً، وجواز الكحول المذيب لعموم البلوى، وإرجاء الجيلاتين — مطابق. يبقى ai_draft لأن تنزيل القرار على «خلاصة الفانيليا» (كحول بنسبة كبيرة يضيفه المستهلك) اجتهاد من الباحث، ولأن أقوال المذاهب في الاستحالة والتسمية منقولة من مراجع ثانوية (الجزيري، تيسير التفسير) — يحتاج عالماً.",
+    "newcomer_explainer": {
+      "ar": "يبيح الإسلام أكثر الأطعمة، ومنها ذبائح اليهود والنصارى إذا ذُبحت ذبحاً شرعياً إذ نصّ القرآن على حِلّ طعام الذين أوتوا الكتاب (المائدة 5)، ويحرّم الخنزير والدم والميتة والخمر. ويربط العلماء هذه الحدود بالعبادة والطهارة: فالذبيحة تُذكّى بذكر اسم الله وإنهار الدم، والمسكر يُجتنب قليله وكثيره. ويختلف العلماء المعاصرون في لحوم المسالخ الأمريكية بسبب الصعق وطريقة الذبح، وفي الجيلاتين الخنزيري، وفي الكحول المستعمل مذيباً للنكهات، فقد تختلف اختيارات أصدقاء آدم المسلمين. ومن لم يتبيّن الأمر فالأحوط عنده ترك المشتبه (البخاري 52).",
+      "en": "Islam permits most foods, including meat slaughtered by Jews and Christians when properly slaughtered (\"the food of those who were given the Scripture is lawful for you\", 5:5), while forbidding pork, blood, carrion and alcohol. Scholars connect these limits to worship and purity: an animal is slaughtered with God's name mentioned and its blood drained, and intoxicants are avoided in small and large amounts alike. Contemporary scholars differ on ordinary US slaughterhouse meat because of stunning and method, on pork gelatin, and on alcohol used as a flavour solvent, so Adam's Muslim friends may make different choices. When unsure, many prefer to avoid what is doubtful (Bukhari 52)."
+    },
+    "library_only": true
+  },
+  {
+    "id": "home.credit_card",
+    "location": "home",
+    "title": {
+      "ar": "بطاقة الائتمان و«اشترِ الآن وادفع لاحقاً»",
+      "en": "Credit Cards and \"Buy Now, Pay Later\""
+    },
+    "question": {
+      "ar": "هل يجوز استعمال بطاقة ائتمان تقليدية إذا كنت أسدد الرصيد كاملاً قبل احتساب الفائدة؟ وما حكم خدمات BNPL مثل الدفع على أربعة أقساط بلا فائدة لكن مع غرامة تأخير؟",
+      "en": "May I use a conventional credit card if I pay the full balance before interest accrues? And what about BNPL services such as pay-in-4 with no interest but with late fees?"
+    },
+    "verdict": "disputed",
+    "content_level": "C",
+    "verdict_scope": {
+      "ar": "دفع الفائدة ربا محرم (انظر مصادر نقل الإجماع). أما توقيع عقد بطاقة فيه شرط فائدة مع العزم على السداد في فترة السماح فمسألة خلافية: منعه مجمع الفقه الإسلامي الدولي (القرار 108 (2/12)، الرياض 2000)، وأجازه مجمع فقهاء الشريعة بأمريكا (AMJA، الفتوى 80196) للحاجة بشرط السداد الكامل دائماً.",
+      "en": "Paying interest is prohibited riba (see the sources reporting consensus). Signing a card agreement that contains an interest clause while intending always to pay within the grace period is disputed: the International Islamic Fiqh Academy prohibited it (Resolution 108 (2/12), Riyadh 2000), while AMJA (fatwa 80196) allowed it out of need, on condition of always paying the full balance."
+    },
+    "consensus_sources": [
+      "الموسوعة الفقهية (الدرر السنية)، كتاب الربا، حكم الربا: https://dorar.net/feqhia/7595 — نقل الإجماع على تحريم الربا عن ابن تيمية (مجموع الفتاوى 29/418) والزيلعي (تبيين الحقائق 4/85) والشوكاني (نيل الأوطار 5/225) والصنعاني (سبل السلام 3/36)",
+      "المغني لابن قدامة، كتاب القرض: نقلُ ابن المنذر الإجماعَ على أن الزيادة المشروطة في القرض ربا (المرجع قيد التحقق من الجزء والصفحة)"
+    ],
+    "summary": {
+      "ar": "دفع الفائدة على الدين من الربا الذي نُقل الإجماع على تحريمه، وكذلك غرامة التأخير المالية المشروطة لصالح الدائن عند مجمع الفقه الإسلامي الدولي (القرار 51) وجمهور المعاصرين، مع خلاف معاصر في التعويض عن ضرر المماطلة وفي الغرامة التي تُصرف للخير. أما توقيع عقد بطاقة فيه شرط فائدة مع العزم على السداد في فترة السماح، فقد منعه مجمع الفقه الإسلامي الدولي (القرار 108)، وأجازه AMJA للمسلم في أمريكا للحاجة بشرط السداد الكامل دائماً. وتقسيط BNPL بلا فائدة جائز في أصله، ويبقى الإشكال في شرط غرامة التأخير.",
+      "en": "Paying interest on a debt is riba, whose prohibition scholars report as a matter of consensus, and so is a stipulated monetary late penalty paid to the creditor according to the International Islamic Fiqh Academy (Resolution 51) and most contemporary scholars, though some contemporaries debate compensation for a solvent debtor's delay and penalties that are paid to charity. Signing a card agreement that contains an interest clause while intending to pay within the grace period was prohibited by the International Islamic Fiqh Academy (Resolution 108), but AMJA permitted it for Muslims in the US due to need, provided the balance is always paid in full. Interest-free BNPL installments are permissible in principle; the problem is the late-fee clause."
+    },
+    "quran": [
+      {
+        "surah": 2,
+        "surah_name_ar": "البقرة",
+        "ayah": "275",
+        "text_ar": "ٱلَّذِينَ يَأۡكُلُونَ ٱلرِّبَوٰاْ لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ ٱلَّذِي يَتَخَبَّطُهُ ٱلشَّيۡطَٰنُ مِنَ ٱلۡمَسِّۚ ذَٰلِكَ بِأَنَّهُمۡ قَالُوٓاْ إِنَّمَا ٱلۡبَيۡعُ مِثۡلُ ٱلرِّبَوٰاْۗ وَأَحَلَّ ٱللَّهُ ٱلۡبَيۡعَ وَحَرَّمَ ٱلرِّبَوٰاْۚ فَمَن جَآءَهُۥ مَوۡعِظَةٞ مِّن رَّبِّهِۦ فَٱنتَهَىٰ فَلَهُۥ مَا سَلَفَ وَأَمۡرُهُۥٓ إِلَى ٱللَّهِۖ وَمَنۡ عَادَ فَأُوْلَٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+        "translation_en": "Those who consume interest cannot stand [on the Day of Resurrection] except as one stands who is being beaten by Satan into insanity. That is because they say, \"Trade is [just] like interest.\" But Allāh has permitted trade and has forbidden interest. So whoever has received an admonition from his Lord and desists may have what is past, and his affair rests with Allāh. But whoever returns [to dealing in interest or usury] - those are the companions of the Fire; they will abide eternally therein.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/2#275"
+      },
+      {
+        "surah": 2,
+        "surah_name_ar": "البقرة",
+        "ayah": "278",
+        "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ ٱتَّقُواْ ٱللَّهَ وَذَرُواْ مَا بَقِيَ مِنَ ٱلرِّبَوٰٓاْ إِن كُنتُم مُّؤۡمِنِينَ",
+        "translation_en": "O you who have believed, fear Allāh and give up what remains [due to you] of interest, if you should be believers.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/2#278"
+      },
+      {
+        "surah": 2,
+        "surah_name_ar": "البقرة",
+        "ayah": "279",
+        "text_ar": "فَإِن لَّمۡ تَفۡعَلُواْ فَأۡذَنُواْ بِحَرۡبٖ مِّنَ ٱللَّهِ وَرَسُولِهِۦۖ وَإِن تُبۡتُمۡ فَلَكُمۡ رُءُوسُ أَمۡوَٰلِكُمۡ لَا تَظۡلِمُونَ وَلَا تُظۡلَمُونَ",
+        "translation_en": "And if you do not, then be informed of a war [against you] from Allāh and His Messenger. But if you repent, you may have your principal - [thus] you do no wrong, nor are you wronged.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/2#279"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "لَعَنَ رَسُولُ اللَّهِ صلى الله عليه وسلم آكِلَ الرِّبَا وَمُوكِلَهُ وَكَاتِبَهُ وَشَاهِدَيْهِ وَقَالَ هُمْ سَوَاءٌ",
+        "translation_en": "Jabir said that Allah's Messenger (ﷺ) cursed the accepter of interest and its payer, and the one who records it, and the two witnesses, and he said: They are all equal.",
+        "collection": "صحيح مسلم",
+        "number": "1598",
+        "narrator": "جابر بن عبد الله",
+        "grade": "صحيح",
+        "grader": "أخرجه مسلم في صحيحه",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/66130",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/66130",
+        "sunnah_url": "https://sunnah.com/muslim:1598",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "مَطْلُ الْغَنِيِّ ظُلْمٌ، فَإِذَا أُتْبِعَ أَحَدُكُمْ عَلَى مَلِيٍّ فَلْيَتْبَعْ",
+        "translation_en": "Narrated Abu Huraira: The Prophet (ﷺ) said, \"Procrastination (delay) in paying debts by a wealthy man is injustice. So, if your debt is transferred from your debtor to a rich debtor, you should agree.\"",
+        "collection": "صحيح البخاري",
+        "number": "2287",
+        "narrator": "أبو هريرة",
+        "grade": "صحيح",
+        "grader": "أخرجه البخاري في صحيحه",
+        "source_url": "https://dorar.net/h/cMKuE1gB",
+        "dorar_url": "https://dorar.net/h/cMKuE1gB",
+        "dorar_ref": "المحدث: البخاري | المصدر: صحيح البخاري | الرقم: 2287 | خلاصة حكم المحدث: [صحيح]",
+        "sunnah_url": "https://sunnah.com/bukhari:2287",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "مسألة معاصرة لا نص فيها للمذهب. والأصل المبني عليه أن الزيادة المشروطة في القرض ربا، وهذا محل إجماع نقله ابن المنذر.",
+        "position_en": "A contemporary issue with no text in the school. The underlying principle is that any stipulated increase on a loan is riba, a point of consensus reported by Ibn al-Mundhir.",
+        "reference": "الأصل: الإجماع على تحريم الزيادة المشروطة في القرض، نقله ابن قدامة في المغني (كتاب القرض) عن ابن المنذر"
+      },
+      "maliki": {
+        "position_ar": "مسألة معاصرة لا نص فيها للمذهب. والأصل: تحريم الزيادة المشروطة في القرض (إجماعاً)، وتشدد المالكية في سد الذرائع إلى الربا.",
+        "position_en": "A contemporary issue with no text in the school. Principle: stipulated increase on a loan is prohibited (by consensus), and Malikis are strict in blocking means to riba (sadd al-dhara'i).",
+        "reference": "الأصل: الإجماع المنقول في المغني (كتاب القرض)؛ قاعدة سد الذرائع",
+        "reference_status": "pending_verification"
+      },
+      "shafii": {
+        "position_ar": "مسألة معاصرة لا نص فيها للمذهب. والأصل: تحريم القرض الذي يجر نفعاً مشروطاً للمقرض.",
+        "position_en": "A contemporary issue with no text in the school. Principle: a loan that brings the lender a stipulated benefit is prohibited.",
+        "reference": "الأصل: الإجماع المنقول في المغني (كتاب القرض)",
+        "reference_status": "pending_verification"
+      },
+      "hanbali": {
+        "position_ar": "كل قرض شُرط فيه أن يزيده فهو حرام بغير خلاف، وأخذ الزيادة على ذلك ربا بالإجماع.",
+        "position_en": "Every loan in which an increase is stipulated is prohibited without disagreement, and taking that increase is riba by consensus.",
+        "reference": "المغني لابن قدامة، كتاب القرض"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "مجمع الفقه الإسلامي الدولي",
+        "decision_ref": "القرار 108 (2/12)، الدورة الثانية عشرة، الرياض، سبتمبر 2000 (بطاقة الائتمان غير المغطاة)",
+        "position_ar": "لا يجوز إصدار بطاقة الائتمان غير المغطاة ولا التعامل بها إذا كانت مشروطة بزيادة فائدة ربوية، حتى لو كان طالبها عازماً على السداد في فترة السماح المجاني. ويجوز إصدارها إذا خلت من شرط الزيادة، مع جواز الرسوم المقطوعة أجراً على الخدمة. ولا يجوز شراء الذهب والفضة والعملات بها.",
+        "position_en": "It is not permissible to issue or use an uncovered credit card conditioned on an interest increase, even if the holder intends to pay within the free grace period. Issuing it is permissible if it carries no such condition, and flat fees for actual services are allowed. Gold, silver and currencies may not be bought with it.",
+        "source_url": "https://islamqa.info/ar/97530"
+      },
+      {
+        "body": "مجمع الفقه الإسلامي الدولي",
+        "decision_ref": "القرار 51 (2/6)، الدورة السادسة، جدة، مارس 1990 (البيع بالتقسيط)",
+        "position_ar": "إذا تأخر المدين في دفع الأقساط فلا يجوز إلزامه بأي زيادة على الدين، بشرط سابق أو بدون شرط، لأن ذلك ربا محرم. ويحرم على المدين المليء المماطلة.",
+        "position_en": "If the debtor delays installments, no increase on the debt may be imposed, with or without a prior condition, because that is prohibited riba. A solvent debtor is forbidden to procrastinate.",
+        "source_url": "https://iifa-aifi.org/en/32398.html"
+      },
+      {
+        "body": "مجمع فقهاء الشريعة بأمريكا (AMJA)",
+        "decision_ref": "الفتوى 80196، د. مائن خالد القضاة (Dr. Main Khalid Al-Qudah)، 10/10/2009",
+        "position_ar": "يُستثنى المسلمون في أمريكا من منع البطاقات الائتمانية للحاجة الشديدة إليها في هذا المجتمع، بشرط سداد الرصيد كاملاً قبل موعده وتجنب كل معاملة تترتب عليها فائدة.",
+        "position_en": "Muslims in the US are exempted from the prohibition on credit cards because of the pressing need for them in this society, provided the full balance is paid before the due date and any interest-incurring transaction is avoided.",
+        "source_url": "https://www.amjaonline.org/fatwa/en/80196/are-credit-cards-haram"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "إن أمكن فاستعمل بطاقة خصم (debit card) فهي تكفي في أغلب الحاجات بلا شبهة.",
+        "إن أخذت بقول AMJA فاجعل السداد الكامل التلقائي (autopay – statement balance) إلزامياً، ولا تحمل رصيداً أبداً.",
+        "تجنب السحب النقدي (cash advance) لأن الفائدة عليه تُحتسب فوراً، وتجنب عروض balance transfer.",
+        "إذا دفعت فائدة بالخطأ فتب واستغفر، وقد تستطيع طلب إلغائها من البنك (waiver) في المرة الأولى.",
+        "مكافآت الاسترداد النقدي (cashback) والنقاط من التاجر أو الشبكة فيها خلاف بين المعاصرين، فاسأل عنها.",
+        "BNPL: اختر خطط 0% فقط، واجعل السداد تلقائياً لتتجنب غرامة التأخير، وابتعد كلياً عن الخطط ذات الفائدة (APR).",
+        "لا تشترِ بالبطاقة ذهباً أو فضة أو عملات."
+      ],
+      "en": [
+        "If possible, use a debit card, which covers most needs without any doubt.",
+        "If following AMJA's view, make full automatic payment (autopay on statement balance) mandatory and never carry a balance.",
+        "Avoid cash advances, which accrue interest immediately, and avoid balance-transfer offers.",
+        "If you paid interest by mistake, repent; banks often waive the first charge on request.",
+        "Cashback and points are disputed among contemporary scholars; ask about them.",
+        "BNPL: use only 0% plans, set automatic payments to avoid late fees, and stay away from APR plans entirely.",
+        "Do not buy gold, silver or currencies with a credit card."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "بطاقة الخصم (debit card)",
+        "بطاقات مسبقة الدفع (prepaid)",
+        "بطاقات ائتمان مصممة وفق الشريعة إن توفرت",
+        "الشراء نقداً أو الادخار قبل الشراء"
+      ],
+      "en": [
+        "Debit card",
+        "Prepaid cards",
+        "Shariah-structured credit cards where available",
+        "Paying cash or saving before buying"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "إن كنت تحتاج البطاقة لبناء سجل ائتماني (credit score) لغرض مهم كالسكن أو العمل، أو كان عليك رصيد بفائدة وتريد خطة للتخلص منه، أو في حكم المكافآت والنقاط.",
+      "en": "If you need the card to build a credit score for an important purpose such as housing or work, if you already carry an interest balance and need a plan to clear it, or about rewards and points."
+    },
+    "confidence": "medium",
+    "review_status": "ai_verified",
+    "notes_for_reviewer": "وُضع الحكم «disputed» لأن الخلاف معتبر بين المجمع الدولي (القرار 108: المنع حتى مع نية السداد) وAMJA (الإجازة للحاجة بشرط السداد الكامل). تحتاج مراجعة: (1) لم نفتح النص الرسمي للقرار 108 على موقع المجمع، فنُقل عن islamqa.info/ar/97530 الذي ينقل نصه. (2) اسم المفتي في فتوى AMJA 80196 جاء في الصفحة «Dr. Main Khalid Al-Qudah» (د. مائن خالد القضاة)؛ صحّح الكتابة العربية للاسم. (3) لم نجد قراراً مجمعياً صريحاً في BNPL، فالحكم مبني على القرار 51 في غرامات التأخير، والخلاصة في الإرشاد اجتهاد يحتاج مراجعة. (4) أقوال المذاهب هنا «أصول» لا نصوص في المسألة، والإحالة للمالكية والشافعية عبر الإجماع المنقول في المغني تحتاج توثيقاً من كتبهم.\n\n[تدقيق المرحلة 1 — 2026-10-05] صُحّح الملخص: عبارة «غرامة التأخير المشروطة ربا باتفاق» تعميم غير دقيق؛ فالمنع قول المجمع (القرار 51) والجمهور، وفي المسألة خلاف معاصر معروف (التعويض عن ضرر المماطلة عند بعض المعاصرين، والتزام التصدق بغرامة التأخير في معايير AAOIFI). يُستحسن أن يضيف المراجع مرجعاً لهذا الخلاف. تعارض مع السيناريو: الخيار c (بطاقة ائتمان مع سداد تلقائي) موسوم best والخيار b (بطاقة خصم) acceptable، بينما الحكم «disputed» والإرشاد العملي يقدّم بطاقة الخصم لأنها «بلا شبهة» — انظر docs/audit/phase1_audit.md. نجحت الفحوص الآلية.",
+    "newcomer_explainer": {
+      "ar": "الشراء بالتقسيط بلا فائدة جائز في الإسلام، وبطاقة الخصم (debit) لا إشكال فيها، لكن دفع الفائدة ربا، وغرامة التأخير المشروطة لصالح الدائن يعدّها مجمع الفقه الإسلامي الدولي وجمهور المعاصرين من الربا أيضاً. ويختلف العلماء في توقيع عقد فيه شرط فائدة مع العزم على السداد الكامل دائماً: فمنعه مجمع الفقه الإسلامي الدولي، وأجازه مجمع فقهاء الشريعة بأمريكا (AMJA) للمسلمين هناك للحاجة. والقيم التي وراء ذلك: تجنّب الدَّين الاستغلالي، وأداء الحقوق في وقتها، فقد قال النبي ﷺ: «مطل الغني ظلم» (البخاري 2287).",
+      "en": "Buying in interest-free instalments is permissible in Islam and a debit card raises no issue, but paying interest is riba, and a stipulated late fee paid to the lender is treated as riba too by the International Islamic Fiqh Academy and most contemporary scholars. Scholars differ on signing an agreement that contains an interest clause while always paying in full: the International Islamic Fiqh Academy forbade it, while AMJA allowed it for Muslims in the US because of need. The values behind this are avoiding exploitative debt and paying what you owe on time; the Prophet ﷺ called a wealthy person's delay in repaying an injustice (Bukhari 2287)."
+    },
+    "library_only": true
+  }
+]

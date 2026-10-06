@@ -1,0 +1,23 @@
+node_modules/
+dist/
+tools/audit/.cache/
+scratch/
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+/dMQxOMZrPKCQCiP1BBNgD6sdPSyAXIwItPHMGlb9.pdf
+
+/da2OrbRMEsNrIQaoq8z6jEv26opKXdQmq1i0XfXo.pdf
+/ZA1IoQnh5S1tuLFiBghyT7U2HYN6IpzNDg9vamHW.pdf
+
+# local secrets (Netlify / Claude API key)
+.env
+.env.*
+!.env.example
+.netlify/
+
+# runtime data (questions, study records) — never commit
+/data/*
+!/data/.gitignore

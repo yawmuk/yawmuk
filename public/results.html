@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>يومك — نتائج التجربة | Yawmuk study results</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="./favicon.svg">
+<style>
+  :root {
+    --bg: #0a1d1f; --panel: #0f2a2c; --panel-2: #143335; --text: #f3ead7; --muted: #b8c6c0;
+    --accent: #e0ae52; --teal: #74cfae; --line: rgba(243, 234, 215, 0.16); --danger: #e8846b;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: "IBM Plex Sans Arabic", "Segoe UI", system-ui, -apple-system, sans-serif; line-height: 1.6; }
+  main { max-width: 1040px; margin: 0 auto; padding: 20px 16px 48px; }
+  header { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; }
+  h1 { margin: 0; font-size: 1.5rem; }
+  h1 small { display: block; font-size: 0.9rem; color: var(--muted); font-weight: 400; }
+  h2 { font-size: 1.1rem; color: var(--accent); margin: 28px 0 10px; }
+  .btn { min-height: 40px; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--text); font: inherit; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; }
+  .btn.primary { background: var(--accent); color: #1d1404; border-color: var(--accent); font-weight: 700; }
+  .btn:focus-visible, input:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+  .kpi { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; }
+  .kpi b { display: block; font-size: 1.6rem; font-variant-numeric: tabular-nums; }
+  .kpi span { color: var(--muted); font-size: 0.85rem; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; min-width: 560px; font-variant-numeric: tabular-nums; }
+  th, td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: start; vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 0.85rem; }
+  .ci { color: var(--muted); font-size: 0.82rem; white-space: nowrap; }
+  .na { color: var(--muted); font-style: italic; }
+  .bars { display: grid; gap: 10px; }
+  .bar-row { display: grid; grid-template-columns: minmax(120px, 1.2fr) 3fr; gap: 10px; align-items: center; }
+  .bar-row .lbl { font-size: 0.9rem; }
+  .bar-row .lbl small { display: block; color: var(--muted); direction: ltr; text-align: start; }
+  .track { display: grid; gap: 3px; }
+  .bar { height: 14px; border-radius: 7px; background: var(--panel-2); position: relative; overflow: hidden; }
+  .bar i { position: absolute; inset-block: 0; inset-inline-start: 0; border-radius: 7px; }
+  .bar.pre i { background: var(--muted); }
+  .bar.post i { background: var(--teal); }
+  .legend { display: flex; gap: 14px; color: var(--muted); font-size: 0.85rem; margin-bottom: 8px; }
+  .legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: middle; margin-inline-end: 4px; }
+  .warn { border: 1px solid rgba(232, 132, 107, 0.45); background: rgba(232, 132, 107, 0.1); color: var(--text); border-radius: 12px; padding: 10px 12px; margin-top: 12px; }
+  .empty { text-align: center; padding: 28px 12px; color: var(--muted); }
+  ul.lim { margin: 0; padding-inline-start: 1.2em; }
+  input[type=text] { min-height: 40px; border-radius: 10px; border: 1px solid var(--line); background: var(--panel-2); color: var(--text); padding: 6px 10px; font: inherit; letter-spacing: 0.06em; direction: ltr; }
+  .muted { color: var(--muted); }
+  footer { margin-top: 36px; color: var(--muted); font-size: 0.85rem; }
+  @media (max-width: 520px) { .bar-row { grid-template-columns: 1fr; } h1 { font-size: 1.25rem; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1 id="title">نتائج التجربة المباشرة<small id="subtitle">يومك — قياس أثر المسار الشخصي بالذكاء الاصطناعي مقابل المسار الثابت</small></h1>
+    <div class="row">
+      <button class="btn" id="lang" type="button">English</button>
+      <button class="btn" id="refresh" type="button">تحديث</button>
+      <a class="btn primary" id="csv" href="./.netlify/functions/study?view=csv" download="yawmuk-study.csv">CSV</a>
+    </div>
+  </header>
+  <p class="muted" id="stamp" aria-live="polite"></p>
+  <div id="app" aria-live="polite"><p class="empty">…</p></div>
+
+  <h2 id="wTitle">سحب المشاركة</h2>
+  <form class="card row" id="withdraw">
+    <label for="code" id="wLabel">أدخل رمزك المجهول لحذف بياناتك:</label>
+    <input type="text" id="code" autocomplete="off" maxlength="12" placeholder="XXXXX-XXXXX">
+    <button class="btn" type="submit" id="wBtn">حذف</button>
+    <span id="wMsg" class="muted" role="status"></span>
+  </form>
+  <footer id="foot"></footer>
+</main>
+<script>
+(() => {
+  const API = './.netlify/functions/study';
+  const T = {
+    title: { ar: 'نتائج التجربة المباشرة', en: 'Live study results' },
+    subtitle: { ar: 'يومك — قياس أثر المسار الشخصي بالذكاء الاصطناعي مقابل المسار الثابت', en: 'Yawmuk — AI-personalised journey vs fixed journey' },
+    refresh: { ar: 'تحديث', en: 'Refresh' }, switchTo: { ar: 'English', en: 'العربية' },
+    stamp: { ar: 'آخر تحديث', en: 'Updated' }, store: { ar: 'التخزين', en: 'store' },
+    empty: { ar: 'لا توجد مشاركات مكتملة بعد. هذه الصفحة تعرض المشاركات الحقيقية فقط، ولا تحتوي أي بيانات تجريبية أو مصطنعة.', en: 'No completed submissions yet. This page shows real submissions only — no sample or synthetic data.' },
+    error: { ar: 'تعذّر تحميل النتائج من الخادم.', en: 'Could not load results from the server.' },
+    enrolled: { ar: 'سجّلوا وأجابوا القبلي', en: 'Enrolled (pre-test done)' }, completed: { ar: 'أكملوا القبلي والبعدي', en: 'Completed pre + post' },
+    rate: { ar: 'نسبة الإكمال', en: 'Completion rate' }, mismatch: { ar: 'اختلاف المجموعة المخصصة عن الفعلية', en: 'Assigned ≠ realized arm' },
+    pilot: { ar: 'تجارب تجريبية مستبعدة', en: 'Pilot runs excluded' },
+    realized: { ar: 'حسب المسار الذي حصل عليه المشارك فعلاً', en: 'By the journey the participant actually got' },
+    assigned: { ar: 'حسب المجموعة المخصصة (نية المعالجة)', en: 'By assigned group (intention-to-treat)' },
+    arm: { ar: 'المجموعة', en: 'Arm' }, ai: { ar: 'مسار شخصي (ذكاء اصطناعي)', en: 'Personalised (AI)' }, fixed: { ar: 'مسار ثابت', en: 'Fixed route' },
+    n: { ar: 'العدد', en: 'N' }, pre: { ar: 'قبل (من ٥)', en: 'Pre (of 5)' }, post: { ar: 'بعد (من ٥)', en: 'Post (of 5)' },
+    gain: { ar: 'التحسن', en: 'Gain' }, clarity: { ar: 'الوضوح', en: 'Clarity' }, respect: { ar: 'احترام النبرة', en: 'Respectful tone' },
+    next_step: { ar: 'معرفة الخطوة التالية', en: 'Knew next step' }, sits: { ar: 'مواقف منجزة', en: 'Situations done' },
+    insufficient: { ar: 'بيانات غير كافية', en: 'insufficient data' }, ci: { ar: 'فترة ثقة 95%', en: '95% CI' },
+    diff: { ar: 'الفرق في التحسن (شخصي − ثابت)', en: 'Difference in gain (AI − fixed)' },
+    items: { ar: 'نسبة الإجابات الصحيحة لكل مفهوم', en: 'Correct answers per concept' },
+    before: { ar: 'قبل', en: 'Before' }, after: { ar: 'بعد', en: 'After' },
+    tele: { ar: 'سلامة المساعد والاستمرارية (عدّادات مجهولة، دون نص الأسئلة)', en: 'Assistant safety & journey continuity (anonymous counts, no question text)' },
+    asks: { ar: 'أسئلة للمساعد', en: 'Assistant questions' }, answered: { ar: 'أُجيبت من نصوص مراجعة', en: 'Answered from reviewed passages' },
+    abstain: { ar: 'امتنع (لا مصدر)', en: 'Abstained (no source)' }, refer: { ar: 'أُحيلت إلى عالم', en: 'Referred to a scholar' },
+    aor: { ar: 'نسبة الامتناع أو الإحالة', en: 'Abstain-or-refer rate' }, started: { ar: 'أيام بدأت', en: 'Days started' },
+    jdone: { ar: 'أيام اكتملت', en: 'Days completed' }, sdone: { ar: 'مواقف أُنجزت', en: 'Situations completed' },
+    ingame: { ar: 'قياس نهاية اليوم داخل اللعبة (بموافقة اللاعب، ٣ أسئلة)', en: 'In-game end-of-day measure (player consent, 3 items)' },
+    days: { ar: 'جلسات', en: 'Sessions' }, dayDone: { ar: 'أكملوا اليوم', en: 'Finished the day' },
+    lim: { ar: 'حدود هذه النتائج', en: 'Limitations' },
+    ephemeral: { ar: 'تنبيه: التخزين الحالي ملفات محلية؛ على Cloud Run بلا قرص دائم قد تُفقد البيانات عند إعادة التشغيل. استخدم STORE=firestore.', en: 'Note: the current store is local files; on Cloud Run without a persistent volume data can be lost on restart. Use STORE=firestore.' },
+    wTitle: { ar: 'سحب المشاركة', en: 'Withdraw' }, wLabel: { ar: 'أدخل رمزك المجهول لحذف بياناتك:', en: 'Enter your anonymous code to delete your data:' },
+    wBtn: { ar: 'حذف', en: 'Delete' }, wOk: { ar: 'تم الحذف.', en: 'Deleted.' }, wNo: { ar: 'لم يُعثر على هذا الرمز.', en: 'Code not found.' },
+    foot: { ar: 'البيانات مجهولة الهوية: رمز عشوائي فقط، دون اسم أو تواصل أو موقع أو ديانة. التعليقات الحرة لا تُنشر هنا ولا في ملف CSV العام. التحسن = الدرجة البعدية − القبلية لكل مشارك؛ فترات الثقة بتوزيع t، وفرق المجموعتين بطريقة Welch.', en: 'Anonymous data: a random code only — no name, contact, location or religion. Free-text comments are never published here or in the public CSV. Gain = post − pre per participant; t-intervals; between-arm difference by Welch.' }
+  };
+  let lang = 'ar';
+  try { const q = new URLSearchParams(location.search).get('lang'); if (q === 'en' || q === 'ar') lang = q; else if (localStorage.getItem('yk-results-lang') === 'en') lang = 'en'; } catch {}
+  const t = (k) => (T[k] ? T[k][lang] : k);
+  const tr = (o) => (o ? (o[lang] ?? o.en ?? '') : '');
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const num = (x) => (x == null ? '—' : String(x));
+  const pct = (x) => (x == null ? '—' : `${Math.round(x * 100)}%`);
+  const est = (e) => {
+    if (!e) return '—';
+    if (e.insufficient) return `${num(e.mean)} <span class="na">(${t('insufficient')}, n=${e.n})</span>`;
+    return `${num(e.mean)} <span class="ci">[${num(e.lo)}, ${num(e.hi)}]</span>`;
+  };
+  let data = null;
+
+  function armTable(block, caption) {
+    const rows = ['ai', 'fixed'].map((a) => {
+      const b = block[a];
+      return `<tr><th scope="row">${t(a)}</th><td>${b.completed}</td><td>${est(b.pre)}</td><td>${est(b.post)}</td><td><b>${est(b.gain)}</b></td>
+        <td>${est(b.likert.clarity)}</td><td>${est(b.likert.respect)}</td><td>${est(b.likert.next_step)}</td><td>${est(b.situations_done)}</td></tr>`;
+    }).join('');
+    return `<h2>${caption}</h2><div class="card"><table><caption class="muted" style="text-align:start">${t('ci')} — ${lang === 'ar' ? 'المتوسط [الحد الأدنى، الحد الأعلى]' : 'mean [low, high]'}</caption>
+      <thead><tr><th>${t('arm')}</th><th>${t('n')}</th><th>${t('pre')}</th><th>${t('post')}</th><th>${t('gain')}</th><th>${t('clarity')} (1–5)</th><th>${t('respect')} (1–5)</th><th>${t('next_step')} (1–5)</th><th>${t('sits')}</th></tr></thead>
+      <tbody>${rows}</tbody></table></div>`;
+  }
+
+  function render() {
+    for (const id of ['title', 'refresh', 'wTitle', 'wLabel', 'wBtn', 'foot']) {
+      const el = document.getElementById(id);
+      if (id === 'title') el.innerHTML = `${esc(t('title'))}<small>${esc(t('subtitle'))}</small>`; else el.textContent = t(id);
+    }
+    document.getElementById('lang').textContent = t('switchTo');
+    document.documentElement.lang = lang; document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    const app = document.getElementById('app');
+    if (!data) return;
+    if (data.error) { app.innerHTML = `<p class="warn">${t('error')}</p>`; return; }
+    const P = data.participants;
+    document.getElementById('stamp').textContent = `${t('stamp')}: ${new Date(data.generated_at).toLocaleString(lang === 'ar' ? 'ar' : 'en')} · ${t('store')}: ${data.store}`;
+    let html = `<div class="kpis">
+      <div class="kpi"><b>${P.pre_done}</b><span>${t('enrolled')}</span></div>
+      <div class="kpi"><b>${P.completed}</b><span>${t('completed')}</span></div>
+      <div class="kpi"><b>${pct(P.completion_rate)}</b><span>${t('rate')}</span></div>
+      <div class="kpi"><b>${P.arm_mismatch}</b><span>${t('mismatch')}</span></div>
+      <div class="kpi"><b>${P.pilot_excluded}</b><span>${t('pilot')}</span></div></div>`;
+    if (data.store === 'file' || data.store === 'study-file') html += `<p class="warn">${t('ephemeral')}</p>`;
+    if (!P.completed) html += `<p class="empty">${t('empty')}</p>`;
+    else {
+      html += armTable(data.by_realized, t('realized'));
+      const d = data.gain_diff_ai_minus_fixed;
+      html += `<div class="card" style="margin-top:10px"><b>${t('diff')}:</b> ${d.insufficient ? `<span class="na">${t('insufficient')} (n=${d.na} / ${d.nb})</span>` : `${num(d.diff)} <span class="ci">[${num(d.lo)}, ${num(d.hi)}] · Welch df=${num(d.df)}</span>`}</div>`;
+      html += armTable(data.by_assigned, t('assigned'));
+      const qById = Object.fromEntries((data.items || []).map((i) => [i.id, i]));
+      html += `<h2>${t('items')}</h2><div class="card"><div class="legend"><span><i style="background:var(--muted)"></i>${t('before')}</span><span><i style="background:var(--teal)"></i>${t('after')}</span></div><div class="bars">` +
+        data.per_item.map((it) => `<div class="bar-row"><div class="lbl">${esc(tr(qById[it.id]?.q))}<small>${esc(it.ruling_id)}</small></div>
+          <div class="track"><div class="bar pre" title="${t('before')} ${pct(it.pre_correct)}"><i style="inline-size:${(it.pre_correct || 0) * 100}%"></i></div>
+          <div class="bar post" title="${t('after')} ${pct(it.post_correct)}"><i style="inline-size:${(it.post_correct || 0) * 100}%"></i></div>
+          <span class="ci">${t('before')} ${pct(it.pre_correct)} → ${t('after')} ${pct(it.post_correct)} (n=${it.n})</span></div></div>`).join('') + '</div></div>';
+    }
+    const tm = data.telemetry;
+    html += `<h2>${t('tele')}</h2><div class="kpis">
+      <div class="kpi"><b>${tm.ask_total}</b><span>${t('asks')}</span></div>
+      <div class="kpi"><b>${tm.ask.answered}</b><span>${t('answered')}</span></div>
+      <div class="kpi"><b>${tm.ask.abstain}</b><span>${t('abstain')}</span></div>
+      <div class="kpi"><b>${tm.ask.refer}</b><span>${t('refer')}</span></div>
+      <div class="kpi"><b>${pct(tm.abstain_or_refer_rate)}</b><span>${t('aor')}</span></div>
+      <div class="kpi"><b>${tm.session_start}</b><span>${t('started')}</span></div>
+      <div class="kpi"><b>${tm.journey_done}</b><span>${t('jdone')}</span></div>
+      <div class="kpi"><b>${tm.situation_done}</b><span>${t('sdone')}</span></div></div>`;
+    const ig = data.in_game_measure;
+    if (ig && (ig.ai.n + ig.fixed.n) > 0) {
+      html += `<h2>${t('ingame')}</h2><div class="card"><table><thead><tr><th>${t('arm')}</th><th>${t('days')}</th><th>${t('dayDone')}</th><th>${t('gain')} (0–3)</th><th>${t('next_step')} (1–5)</th></tr></thead><tbody>` +
+        ['ai', 'fixed'].map((a) => `<tr><th scope="row">${t(a)}</th><td>${ig[a].n}</td><td>${ig[a].completed_day}</td><td>${est(ig[a].gain)}</td><td>${est(ig[a].clarity)}</td></tr>`).join('') + '</tbody></table></div>';
+    }
+    html += `<h2>${t('lim')}</h2><div class="card"><ul class="lim">${(data.limitations || []).map((l) => `<li>${esc(tr(l))}</li>`).join('')}</ul></div>`;
+    app.innerHTML = html;
+  }
+
+  async function load() {
+    try {
+      const r = await fetch(`${API}?view=aggregate`, { cache: 'no-store' });
+      data = r.ok ? await r.json() : { error: true };
+    } catch { data = { error: true }; }
+    render();
+  }
+  document.getElementById('lang').addEventListener('click', () => { lang = lang === 'ar' ? 'en' : 'ar'; try { localStorage.setItem('yk-results-lang', lang); } catch {} render(); });
+  document.getElementById('refresh').addEventListener('click', load);
+  document.getElementById('withdraw').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const code = document.getElementById('code').value.trim();
+    const msg = document.getElementById('wMsg');
+    if (!code) return;
+    try {
+      const r = await fetch(API, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ action: 'withdraw', code }) });
+      const j = await r.json().catch(() => ({}));
+      msg.textContent = j.deleted ? t('wOk') : t('wNo');
+      if (j.deleted) load();
+    } catch { msg.textContent = t('error'); }
+  });
+  render();
+  load();
+  setInterval(() => { if (document.visibilityState === 'visible') load(); }, 30000);
+})();
+</script>
+</body>
+</html>

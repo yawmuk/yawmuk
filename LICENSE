@@ -1,0 +1,61 @@
+MIT License
+
+Copyright (c) 2026 Yawmuk team (Lemonada)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+Scope of this licence
+-------------------------------------------------------------------------------
+
+The MIT licence above covers the source code written by the team: src/, tools/,
+tests/, netlify/, index.html, vite.config.js and the build/config files.
+
+Content (content/: rulings, story script, UI strings, source log) and the
+documentation written by the team (docs/) are licensed under
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+(CC BY-NC-SA 4.0): https://creativecommons.org/licenses/by-nc-sa/4.0/
+Copyright (c) 2026 Yawmuk team (Lemonada).
+
+The rulings are AI-prepared drafts pending scholarly review; they are an
+educational aid, not a fatwa.
+
+-------------------------------------------------------------------------------
+Third-party material (not covered by the licences above)
+-------------------------------------------------------------------------------
+
+- Quran text and translation: quoted verbatim for reference with a link to the
+  source of each verse (quran.com / Tanzil / QuranEnc - Saheeh International).
+  They remain under their publishers' terms.
+- Hadith texts: quoted verbatim with collection, number and grade, linking to
+  sunnah.com, dorar.net and the hadith-api data set; they remain under their
+  publishers' terms.
+- 3D assets in public/assets/: 242 CC0 1.0 assets (Kenney, Poly Haven,
+  Quaternius and other poly.pizza authors) and 11 CC-BY 3.0 models that require
+  attribution. Each asset's author, source URL and licence is in
+  public/assets/catalog.json and public/assets/LICENSES.md; the CC-BY credits
+  are shown in the in-game Credits screen.
+- Animated characters in public/assets/characters/: Quaternius, CC0 1.0
+  (public/assets/characters/LICENSES.md).
+- Fonts (Amiri, Amiri Quran, IBM Plex Sans Arabic, Reem Kufi), loaded from
+  Google Fonts: SIL Open Font License 1.1.
+- npm dependencies keep their own licences: three (MIT), postprocessing (Zlib),
+  n8ao (ISC), @anthropic-ai/sdk (MIT); development only: vite (MIT),
+  puppeteer-core (Apache-2.0), @gltf-transform/* (MIT), meshoptimizer (MIT).
+  See node_modules/<package>/LICENSE.

@@ -1,0 +1,7562 @@
+{
+ "version": 1,
+ "generated": "2026-10-06",
+ "units": "metres",
+ "up_axis": "+Y",
+ "notes": [
+  "All props are pre-scaled to real-world metres and pre-pivoted to bottom-centre: add to the scene at scale 1, y = 0.",
+  "GLBs use EXT_meshopt_compression + KHR_mesh_quantization (and EXT_texture_webp where textured): call loader.setMeshoptDecoder(MeshoptDecoder) from three/examples/jsm/libs/meshopt_decoder.module.js.",
+  "Facing direction is whatever the source model used (Kenney furniture/vehicles mostly face +Z); rotate per scene as needed.",
+  "HDRIs: load with RGBELoader and PMREMGenerator. Textures: diff = sRGB colour, nor = OpenGL normal map, rough = roughness (linear). real_size_m tells how many metres one texture tile covers."
+ ],
+ "assets": [
+  {
+   "id": "sofa",
+   "file": "assets/props/kenney-furniture/sofa.glb",
+   "kind": "prop",
+   "tags": [
+    "sofa",
+    "couch",
+    "seating",
+    "living room"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    2.16,
+    1.01,
+    0.9
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 128,
+   "meshes": 2,
+   "bytes": 4736,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / loungeSofa"
+  },
+  {
+   "id": "sofa_long",
+   "file": "assets/props/kenney-furniture/sofa_long.glb",
+   "kind": "prop",
+   "tags": [
+    "sofa",
+    "couch",
+    "seating"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    2.16,
+    1.01,
+    1.8
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 186,
+   "meshes": 2,
+   "bytes": 5364,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / loungeSofaLong"
+  },
+  {
+   "id": "sofa_corner",
+   "file": "assets/props/kenney-furniture/sofa_corner.glb",
+   "kind": "prop",
+   "tags": [
+    "sofa",
+    "sectional",
+    "seating"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    2.16,
+    1.01,
+    2.16
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 190,
+   "meshes": 2,
+   "bytes": 5456,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / loungeSofaCorner"
+  },
+  {
+   "id": "sofa_modern",
+   "file": "assets/props/kenney-furniture/sofa_modern.glb",
+   "kind": "prop",
+   "tags": [
+    "sofa",
+    "modern",
+    "lobby",
+    "seating"
+   ],
+   "suggested_locations": [
+    "work",
+    "public_events"
+   ],
+   "dims_m": [
+    2.46,
+    0.88,
+    0.9
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 116,
+   "meshes": 2,
+   "bytes": 4572,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / loungeDesignSofa"
+  },
+  {
+   "id": "armchair",
+   "file": "assets/props/kenney-furniture/armchair.glb",
+   "kind": "prop",
+   "tags": [
+    "armchair",
+    "seating",
+    "living room"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    1.08,
+    1.01,
+    0.9
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 128,
+   "meshes": 2,
+   "bytes": 4748,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / loungeChair"
+  },
+  {
+   "id": "armchair_relax",
+   "file": "assets/props/kenney-furniture/armchair_relax.glb",
+   "kind": "prop",
+   "tags": [
+    "armchair",
+    "recliner",
+    "seating"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    1.08,
+    1.39,
+    1.48
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 188,
+   "meshes": 3,
+   "bytes": 6556,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / loungeChairRelax"
+  },
+  {
+   "id": "armchair_modern",
+   "file": "assets/props/kenney-furniture/armchair_modern.glb",
+   "kind": "prop",
+   "tags": [
+    "armchair",
+    "modern",
+    "lobby"
+   ],
+   "suggested_locations": [
+    "work",
+    "public_events"
+   ],
+   "dims_m": [
+    1.61,
+    0.88,
+    0.9
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 116,
+   "meshes": 2,
+   "bytes": 4620,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / loungeDesignChair"
+  },
+  {
+   "id": "ottoman",
+   "file": "assets/props/kenney-furniture/ottoman.glb",
+   "kind": "prop",
+   "tags": [
+    "ottoman",
+    "footstool"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    0.97,
+    0.51,
+    0.99
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 84,
+   "meshes": 2,
+   "bytes": 4184,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / loungeSofaOttoman"
+  },
+  {
+   "id": "dining_table",
+   "file": "assets/props/kenney-furniture/dining_table.glb",
+   "kind": "prop",
+   "tags": [
+    "table",
+    "dining",
+    "wood"
+   ],
+   "suggested_locations": [
+    "home",
+    "school"
+   ],
+   "dims_m": [
+    1.85,
+    0.72,
+    0.98
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 120,
+   "meshes": 1,
+   "bytes": 3248,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / table"
+  },
+  {
+   "id": "table_round",
+   "file": "assets/props/kenney-furniture/table_round.glb",
+   "kind": "prop",
+   "tags": [
+    "table",
+    "round",
+    "cafe"
+   ],
+   "suggested_locations": [
+    "home",
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    1.52,
+    0.81,
+    1.76
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 80,
+   "meshes": 1,
+   "bytes": 3068,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / tableRound"
+  },
+  {
+   "id": "table_cloth",
+   "file": "assets/props/kenney-furniture/table_cloth.glb",
+   "kind": "prop",
+   "tags": [
+    "table",
+    "tablecloth",
+    "banquet",
+    "buffet"
+   ],
+   "suggested_locations": [
+    "public_events",
+    "private_events"
+   ],
+   "dims_m": [
+    1.85,
+    0.72,
+    0.98
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 144,
+   "meshes": 2,
+   "bytes": 4564,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / tableCloth"
+  },
+  {
+   "id": "table_cross_cloth",
+   "file": "assets/props/kenney-furniture/table_cross_cloth.glb",
+   "kind": "prop",
+   "tags": [
+    "table",
+    "tablecloth",
+    "banquet"
+   ],
+   "suggested_locations": [
+    "public_events",
+    "private_events"
+   ],
+   "dims_m": [
+    1.87,
+    0.76,
+    0.98
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 202,
+   "meshes": 2,
+   "bytes": 5376,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / tableCrossCloth"
+  },
+  {
+   "id": "table_glass",
+   "file": "assets/props/kenney-furniture/table_glass.glb",
+   "kind": "prop",
+   "tags": [
+    "table",
+    "glass",
+    "meeting"
+   ],
+   "suggested_locations": [
+    "work"
+   ],
+   "dims_m": [
+    1.85,
+    0.72,
+    0.98
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 144,
+   "meshes": 2,
+   "bytes": 4500,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / tableGlass"
+  },
+  {
+   "id": "coffee_table",
+   "file": "assets/props/kenney-furniture/coffee_table.glb",
+   "kind": "prop",
+   "tags": [
+    "coffee table",
+    "living room"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    1.45,
+    0.51,
+    0.88
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 124,
+   "meshes": 1,
+   "bytes": 3252,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / tableCoffee"
+  },
+  {
+   "id": "coffee_table_glass",
+   "file": "assets/props/kenney-furniture/coffee_table_glass.glb",
+   "kind": "prop",
+   "tags": [
+    "coffee table",
+    "glass"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    1.45,
+    0.51,
+    0.88
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 140,
+   "meshes": 2,
+   "bytes": 4448,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / tableCoffeeGlass"
+  },
+  {
+   "id": "side_table",
+   "file": "assets/props/kenney-furniture/side_table.glb",
+   "kind": "prop",
+   "tags": [
+    "side table",
+    "nightstand"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    1.18,
+    0.85,
+    0.48
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 118,
+   "meshes": 2,
+   "bytes": 4368,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / sideTable"
+  },
+  {
+   "id": "side_table_drawers",
+   "file": "assets/props/kenney-furniture/side_table_drawers.glb",
+   "kind": "prop",
+   "tags": [
+    "side table",
+    "drawers",
+    "nightstand"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    1.18,
+    0.85,
+    0.49
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 238,
+   "meshes": 6,
+   "bytes": 7676,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / sideTableDrawers"
+  },
+  {
+   "id": "chair",
+   "file": "assets/props/kenney-furniture/chair.glb",
+   "kind": "prop",
+   "tags": [
+    "chair",
+    "wood",
+    "dining"
+   ],
+   "suggested_locations": [
+    "home",
+    "school",
+    "private_events"
+   ],
+   "dims_m": [
+    0.44,
+    1.03,
+    0.44
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 170,
+   "meshes": 1,
+   "bytes": 3744,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / chair"
+  },
+  {
+   "id": "chair_cushion",
+   "file": "assets/props/kenney-furniture/chair_cushion.glb",
+   "kind": "prop",
+   "tags": [
+    "chair",
+    "cushion",
+    "dining",
+    "banquet"
+   ],
+   "suggested_locations": [
+    "home",
+    "public_events",
+    "private_events"
+   ],
+   "dims_m": [
+    0.44,
+    1.01,
+    0.44
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 198,
+   "meshes": 2,
+   "bytes": 5112,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / chairCushion"
+  },
+  {
+   "id": "chair_modern",
+   "file": "assets/props/kenney-furniture/chair_modern.glb",
+   "kind": "prop",
+   "tags": [
+    "chair",
+    "modern",
+    "cushion"
+   ],
+   "suggested_locations": [
+    "work",
+    "school",
+    "public_events"
+   ],
+   "dims_m": [
+    0.44,
+    1.01,
+    0.44
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 92,
+   "meshes": 2,
+   "bytes": 4244,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / chairModernCushion"
+  },
+  {
+   "id": "chair_modern_frame",
+   "file": "assets/props/kenney-furniture/chair_modern_frame.glb",
+   "kind": "prop",
+   "tags": [
+    "chair",
+    "modern",
+    "metal frame"
+   ],
+   "suggested_locations": [
+    "work",
+    "school",
+    "public_events"
+   ],
+   "dims_m": [
+    0.44,
+    1.01,
+    0.44
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 284,
+   "meshes": 2,
+   "bytes": 6568,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / chairModernFrameCushion"
+  },
+  {
+   "id": "chair_rounded",
+   "file": "assets/props/kenney-furniture/chair_rounded.glb",
+   "kind": "prop",
+   "tags": [
+    "chair",
+    "plastic",
+    "school"
+   ],
+   "suggested_locations": [
+    "school",
+    "private_events"
+   ],
+   "dims_m": [
+    0.44,
+    1,
+    0.44
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 280,
+   "meshes": 1,
+   "bytes": 5196,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / chairRounded"
+  },
+  {
+   "id": "chair_desk",
+   "file": "assets/props/kenney-furniture/chair_desk.glb",
+   "kind": "prop",
+   "tags": [
+    "office chair",
+    "desk chair",
+    "swivel"
+   ],
+   "suggested_locations": [
+    "work",
+    "school",
+    "home"
+   ],
+   "dims_m": [
+    0.74,
+    1.34,
+    0.69
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 588,
+   "meshes": 3,
+   "bytes": 11784,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / chairDesk"
+  },
+  {
+   "id": "stool_bar",
+   "file": "assets/props/kenney-furniture/stool_bar.glb",
+   "kind": "prop",
+   "tags": [
+    "bar stool",
+    "kitchen"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.58,
+    0.96,
+    0.51
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 176,
+   "meshes": 2,
+   "bytes": 4948,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / stoolBar"
+  },
+  {
+   "id": "bench_cushion",
+   "file": "assets/props/kenney-furniture/bench_cushion.glb",
+   "kind": "prop",
+   "tags": [
+    "bench",
+    "cushion",
+    "hallway"
+   ],
+   "suggested_locations": [
+    "home",
+    "school",
+    "work"
+   ],
+   "dims_m": [
+    0.88,
+    1.01,
+    0.44
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 196,
+   "meshes": 2,
+   "bytes": 5096,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / benchCushion"
+  },
+  {
+   "id": "desk",
+   "file": "assets/props/kenney-furniture/desk.glb",
+   "kind": "prop",
+   "tags": [
+    "desk",
+    "office",
+    "study"
+   ],
+   "suggested_locations": [
+    "work",
+    "school",
+    "home"
+   ],
+   "dims_m": [
+    1.62,
+    0.85,
+    0.86
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 198,
+   "meshes": 3,
+   "bytes": 6480,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / desk"
+  },
+  {
+   "id": "desk_corner",
+   "file": "assets/props/kenney-furniture/desk_corner.glb",
+   "kind": "prop",
+   "tags": [
+    "desk",
+    "corner",
+    "office",
+    "L-shape"
+   ],
+   "suggested_locations": [
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    2.14,
+    0.85,
+    2.14
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 250,
+   "meshes": 3,
+   "bytes": 7088,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / deskCorner"
+  },
+  {
+   "id": "kitchen_cabinet",
+   "file": "assets/props/kenney-furniture/kitchen_cabinet.glb",
+   "kind": "prop",
+   "tags": [
+    "kitchen",
+    "cabinet",
+    "counter"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.95,
+    0.99,
+    0.99
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 114,
+   "meshes": 5,
+   "bytes": 7668,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / kitchenCabinet"
+  },
+  {
+   "id": "kitchen_cabinet_drawer",
+   "file": "assets/props/kenney-furniture/kitchen_cabinet_drawer.glb",
+   "kind": "prop",
+   "tags": [
+    "kitchen",
+    "cabinet",
+    "drawers",
+    "counter"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.95,
+    0.99,
+    0.99
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 174,
+   "meshes": 8,
+   "bytes": 10916,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / kitchenCabinetDrawer"
+  },
+  {
+   "id": "kitchen_cabinet_corner",
+   "file": "assets/props/kenney-furniture/kitchen_cabinet_corner.glb",
+   "kind": "prop",
+   "tags": [
+    "kitchen",
+    "cabinet",
+    "corner"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    1.01,
+    0.99,
+    1.01
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 54,
+   "meshes": 2,
+   "bytes": 3852,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / kitchenCabinetCornerInner"
+  },
+  {
+   "id": "kitchen_cabinet_upper",
+   "file": "assets/props/kenney-furniture/kitchen_cabinet_upper.glb",
+   "kind": "prop",
+   "tags": [
+    "kitchen",
+    "wall cabinet"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.95,
+    0.86,
+    0.48
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 80,
+   "meshes": 4,
+   "bytes": 6308,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / kitchenCabinetUpper"
+  },
+  {
+   "id": "kitchen_cabinet_upper_double",
+   "file": "assets/props/kenney-furniture/kitchen_cabinet_upper_double.glb",
+   "kind": "prop",
+   "tags": [
+    "kitchen",
+    "wall cabinet"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.95,
+    0.86,
+    0.48
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 234,
+   "meshes": 7,
+   "bytes": 9700,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / kitchenCabinetUpperDouble"
+  },
+  {
+   "id": "kitchen_bar",
+   "file": "assets/props/kenney-furniture/kitchen_bar.glb",
+   "kind": "prop",
+   "tags": [
+    "kitchen",
+    "island",
+    "bar counter"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.95,
+    0.92,
+    0.46
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 76,
+   "meshes": 3,
+   "bytes": 4876,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / kitchenBar"
+  },
+  {
+   "id": "kitchen_bar_end",
+   "file": "assets/props/kenney-furniture/kitchen_bar_end.glb",
+   "kind": "prop",
+   "tags": [
+    "kitchen",
+    "island",
+    "bar counter",
+    "end"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.22,
+    0.92,
+    0.46
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 152,
+   "meshes": 2,
+   "bytes": 5316,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / kitchenBarEnd"
+  },
+  {
+   "id": "kitchen_sink",
+   "file": "assets/props/kenney-furniture/kitchen_sink.glb",
+   "kind": "prop",
+   "tags": [
+    "kitchen",
+    "sink"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.95,
+    1.08,
+    0.99
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 318,
+   "meshes": 8,
+   "bytes": 13200,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / kitchenSink"
+  },
+  {
+   "id": "stove",
+   "file": "assets/props/kenney-furniture/stove.glb",
+   "kind": "prop",
+   "tags": [
+    "kitchen",
+    "stove",
+    "oven",
+    "range"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    0.95,
+    0.99,
+    0.99
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 830,
+   "meshes": 6,
+   "bytes": 16820,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / kitchenStove"
+  },
+  {
+   "id": "stove_electric",
+   "file": "assets/props/kenney-furniture/stove_electric.glb",
+   "kind": "prop",
+   "tags": [
+    "kitchen",
+    "stove",
+    "electric",
+    "cooktop"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.95,
+    0.99,
+    0.99
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 338,
+   "meshes": 6,
+   "bytes": 10308,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / kitchenStoveElectric"
+  },
+  {
+   "id": "range_hood",
+   "file": "assets/props/kenney-furniture/range_hood.glb",
+   "kind": "prop",
+   "tags": [
+    "kitchen",
+    "hood",
+    "extractor"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    0.95,
+    0.88,
+    0.63
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 28,
+   "meshes": 2,
+   "bytes": 3492,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / hoodModern"
+  },
+  {
+   "id": "fridge",
+   "file": "assets/props/kenney-furniture/fridge.glb",
+   "kind": "prop",
+   "tags": [
+    "kitchen",
+    "fridge",
+    "refrigerator"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    1.14,
+    2.02,
+    0.89
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 436,
+   "meshes": 5,
+   "bytes": 11520,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / kitchenFridgeLarge"
+  },
+  {
+   "id": "fridge_small",
+   "file": "assets/props/kenney-furniture/fridge_small.glb",
+   "kind": "prop",
+   "tags": [
+    "kitchen",
+    "fridge",
+    "mini fridge"
+   ],
+   "suggested_locations": [
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    0.95,
+    1.32,
+    0.64
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 152,
+   "meshes": 5,
+   "bytes": 8108,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / kitchenFridgeSmall"
+  },
+  {
+   "id": "microwave",
+   "file": "assets/props/kenney-furniture/microwave.glb",
+   "kind": "prop",
+   "tags": [
+    "kitchen",
+    "microwave"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.64,
+    0.4,
+    0.51
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 152,
+   "meshes": 6,
+   "bytes": 8860,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / kitchenMicrowave"
+  },
+  {
+   "id": "coffee_machine",
+   "file": "assets/props/kenney-furniture/coffee_machine.glb",
+   "kind": "prop",
+   "tags": [
+    "kitchen",
+    "coffee machine",
+    "espresso"
+   ],
+   "suggested_locations": [
+    "work",
+    "home"
+   ],
+   "dims_m": [
+    0.42,
+    0.39,
+    0.53
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 166,
+   "meshes": 3,
+   "bytes": 6660,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / kitchenCoffeeMachine"
+  },
+  {
+   "id": "blender",
+   "file": "assets/props/kenney-furniture/blender.glb",
+   "kind": "prop",
+   "tags": [
+    "kitchen",
+    "blender"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    0.3,
+    0.5,
+    0.24
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 246,
+   "meshes": 4,
+   "bytes": 8980,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / kitchenBlender"
+  },
+  {
+   "id": "toaster",
+   "file": "assets/props/kenney-furniture/toaster.glb",
+   "kind": "prop",
+   "tags": [
+    "kitchen",
+    "toaster"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    0.41,
+    0.29,
+    0.22
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 220,
+   "meshes": 2,
+   "bytes": 5824,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / toaster"
+  },
+  {
+   "id": "bookcase",
+   "file": "assets/props/kenney-furniture/bookcase.glb",
+   "kind": "prop",
+   "tags": [
+    "bookcase",
+    "bookshelf",
+    "shelf"
+   ],
+   "suggested_locations": [
+    "home",
+    "school",
+    "work"
+   ],
+   "dims_m": [
+    0.88,
+    1.94,
+    0.55
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 320,
+   "meshes": 1,
+   "bytes": 4660,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / bookcaseOpen"
+  },
+  {
+   "id": "bookcase_low",
+   "file": "assets/props/kenney-furniture/bookcase_low.glb",
+   "kind": "prop",
+   "tags": [
+    "bookcase",
+    "low shelf"
+   ],
+   "suggested_locations": [
+    "home",
+    "school",
+    "work"
+   ],
+   "dims_m": [
+    0.88,
+    0.88,
+    0.55
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 184,
+   "meshes": 1,
+   "bytes": 3744,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / bookcaseOpenLow"
+  },
+  {
+   "id": "bookcase_wide_closed",
+   "file": "assets/props/kenney-furniture/bookcase_wide_closed.glb",
+   "kind": "prop",
+   "tags": [
+    "bookcase",
+    "cabinet",
+    "library"
+   ],
+   "suggested_locations": [
+    "school",
+    "work"
+   ],
+   "dims_m": [
+    1.76,
+    1.74,
+    0.55
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 372,
+   "meshes": 1,
+   "bytes": 5848,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / bookcaseClosedWide"
+  },
+  {
+   "id": "bookcase_doors",
+   "file": "assets/props/kenney-furniture/bookcase_doors.glb",
+   "kind": "prop",
+   "tags": [
+    "cabinet",
+    "cupboard",
+    "storage"
+   ],
+   "suggested_locations": [
+    "work",
+    "school",
+    "home"
+   ],
+   "dims_m": [
+    0.88,
+    1.87,
+    0.55
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 296,
+   "meshes": 5,
+   "bytes": 9512,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / bookcaseClosedDoors"
+  },
+  {
+   "id": "books",
+   "file": "assets/props/kenney-furniture/books.glb",
+   "kind": "prop",
+   "tags": [
+    "books",
+    "stack"
+   ],
+   "suggested_locations": [
+    "home",
+    "school",
+    "work"
+   ],
+   "dims_m": [
+    0.33,
+    0.23,
+    0.21
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 62,
+   "meshes": 4,
+   "bytes": 6044,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / books"
+  },
+  {
+   "id": "bed_double",
+   "file": "assets/props/kenney-furniture/bed_double.glb",
+   "kind": "prop",
+   "tags": [
+    "bed",
+    "bedroom"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    2.1,
+    0.82,
+    2.48
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 264,
+   "meshes": 7,
+   "bytes": 10580,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / bedDouble"
+  },
+  {
+   "id": "tv",
+   "file": "assets/props/kenney-furniture/tv.glb",
+   "kind": "prop",
+   "tags": [
+    "tv",
+    "television",
+    "screen",
+    "flat"
+   ],
+   "suggested_locations": [
+    "home",
+    "work",
+    "public_events"
+   ],
+   "dims_m": [
+    1.51,
+    1,
+    0.28
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 72,
+   "meshes": 2,
+   "bytes": 3836,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / televisionModern"
+  },
+  {
+   "id": "tv_cabinet",
+   "file": "assets/props/kenney-furniture/tv_cabinet.glb",
+   "kind": "prop",
+   "tags": [
+    "tv stand",
+    "media console"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    1.76,
+    0.68,
+    0.55
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 154,
+   "meshes": 1,
+   "bytes": 3636,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / cabinetTelevision"
+  },
+  {
+   "id": "lamp_floor_round",
+   "file": "assets/props/kenney-furniture/lamp_floor_round.glb",
+   "kind": "prop",
+   "tags": [
+    "lamp",
+    "floor lamp"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.33,
+    1.89,
+    0.39
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 76,
+   "meshes": 2,
+   "bytes": 4108,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / lampRoundFloor"
+  },
+  {
+   "id": "lamp_floor_square",
+   "file": "assets/props/kenney-furniture/lamp_floor_square.glb",
+   "kind": "prop",
+   "tags": [
+    "lamp",
+    "floor lamp"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.26,
+    1.89,
+    0.26
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 60,
+   "meshes": 2,
+   "bytes": 3848,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / lampSquareFloor"
+  },
+  {
+   "id": "lamp_table_round",
+   "file": "assets/props/kenney-furniture/lamp_table_round.glb",
+   "kind": "prop",
+   "tags": [
+    "lamp",
+    "table lamp"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    0.33,
+    0.69,
+    0.39
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 76,
+   "meshes": 2,
+   "bytes": 4132,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / lampRoundTable"
+  },
+  {
+   "id": "lamp_table_square",
+   "file": "assets/props/kenney-furniture/lamp_table_square.glb",
+   "kind": "prop",
+   "tags": [
+    "lamp",
+    "table lamp",
+    "desk lamp"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.26,
+    0.64,
+    0.26
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 60,
+   "meshes": 2,
+   "bytes": 3880,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / lampSquareTable"
+  },
+  {
+   "id": "lamp_ceiling",
+   "file": "assets/props/kenney-furniture/lamp_ceiling.glb",
+   "kind": "prop",
+   "tags": [
+    "lamp",
+    "ceiling light"
+   ],
+   "suggested_locations": [
+    "home",
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    0.26,
+    0.51,
+    0.26
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 60,
+   "meshes": 2,
+   "bytes": 3860,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / lampSquareCeiling"
+  },
+  {
+   "id": "lamp_wall",
+   "file": "assets/props/kenney-furniture/lamp_wall.glb",
+   "kind": "prop",
+   "tags": [
+    "lamp",
+    "wall light",
+    "sconce"
+   ],
+   "suggested_locations": [
+    "home",
+    "public_events"
+   ],
+   "dims_m": [
+    0.5,
+    0.2,
+    0.33
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 42,
+   "meshes": 2,
+   "bytes": 3804,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / lampWall"
+  },
+  {
+   "id": "ceiling_fan",
+   "file": "assets/props/kenney-furniture/ceiling_fan.glb",
+   "kind": "prop",
+   "tags": [
+    "ceiling fan"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    1,
+    0.29,
+    1.16
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 214,
+   "meshes": 3,
+   "bytes": 7024,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / ceilingFan"
+  },
+  {
+   "id": "plant_potted",
+   "file": "assets/props/kenney-furniture/plant_potted.glb",
+   "kind": "prop",
+   "tags": [
+    "plant",
+    "potted",
+    "indoor"
+   ],
+   "suggested_locations": [
+    "home",
+    "work",
+    "school",
+    "public_events"
+   ],
+   "dims_m": [
+    0.47,
+    1.44,
+    0.53
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 60,
+   "meshes": 3,
+   "bytes": 5464,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / pottedPlant"
+  },
+  {
+   "id": "plant_small_1",
+   "file": "assets/props/kenney-furniture/plant_small_1.glb",
+   "kind": "prop",
+   "tags": [
+    "plant",
+    "small",
+    "succulent"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.21,
+    0.31,
+    0.21
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 102,
+   "meshes": 2,
+   "bytes": 4544,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / plantSmall1"
+  },
+  {
+   "id": "plant_small_2",
+   "file": "assets/props/kenney-furniture/plant_small_2.glb",
+   "kind": "prop",
+   "tags": [
+    "plant",
+    "small"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.21,
+    0.31,
+    0.21
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 158,
+   "meshes": 2,
+   "bytes": 5752,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / plantSmall2"
+  },
+  {
+   "id": "plant_small_3",
+   "file": "assets/props/kenney-furniture/plant_small_3.glb",
+   "kind": "prop",
+   "tags": [
+    "plant",
+    "small"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.22,
+    0.32,
+    0.19
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 98,
+   "meshes": 2,
+   "bytes": 4648,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / plantSmall3"
+  },
+  {
+   "id": "rug_rect",
+   "file": "assets/props/kenney-furniture/rug_rect.glb",
+   "kind": "prop",
+   "tags": [
+    "rug",
+    "carpet"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    3.45,
+    0.02,
+    2.02
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 28,
+   "meshes": 2,
+   "bytes": 3388,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / rugRectangle"
+  },
+  {
+   "id": "rug_round",
+   "file": "assets/props/kenney-furniture/rug_round.glb",
+   "kind": "prop",
+   "tags": [
+    "rug",
+    "round"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    2.02,
+    0.02,
+    2.02
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 188,
+   "meshes": 2,
+   "bytes": 4880,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / rugRound"
+  },
+  {
+   "id": "rug_rounded",
+   "file": "assets/props/kenney-furniture/rug_rounded.glb",
+   "kind": "prop",
+   "tags": [
+    "rug"
+   ],
+   "suggested_locations": [
+    "home",
+    "private_events"
+   ],
+   "dims_m": [
+    3.45,
+    0.02,
+    2.02
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 204,
+   "meshes": 2,
+   "bytes": 5012,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / rugRounded"
+  },
+  {
+   "id": "doormat",
+   "file": "assets/props/kenney-furniture/doormat.glb",
+   "kind": "prop",
+   "tags": [
+    "doormat",
+    "entrance"
+   ],
+   "suggested_locations": [
+    "home",
+    "private_events"
+   ],
+   "dims_m": [
+    0.94,
+    0.02,
+    0.52
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 204,
+   "meshes": 1,
+   "bytes": 4464,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / rugDoormat"
+  },
+  {
+   "id": "laptop",
+   "file": "assets/props/kenney-furniture/laptop.glb",
+   "kind": "prop",
+   "tags": [
+    "laptop",
+    "computer"
+   ],
+   "suggested_locations": [
+    "home",
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    0.58,
+    0.36,
+    0.53
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 68,
+   "meshes": 3,
+   "bytes": 4928,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / laptop"
+  },
+  {
+   "id": "monitor",
+   "file": "assets/props/kenney-furniture/monitor.glb",
+   "kind": "prop",
+   "tags": [
+    "monitor",
+    "computer screen"
+   ],
+   "suggested_locations": [
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    0.86,
+    0.65,
+    0.23
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 72,
+   "meshes": 2,
+   "bytes": 4128,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / computerScreen"
+  },
+  {
+   "id": "keyboard",
+   "file": "assets/props/kenney-furniture/keyboard.glb",
+   "kind": "prop",
+   "tags": [
+    "keyboard",
+    "computer"
+   ],
+   "suggested_locations": [
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    0.62,
+    0.06,
+    0.26
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 32,
+   "meshes": 2,
+   "bytes": 3528,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / computerKeyboard"
+  },
+  {
+   "id": "mouse",
+   "file": "assets/props/kenney-furniture/mouse.glb",
+   "kind": "prop",
+   "tags": [
+    "mouse",
+    "computer"
+   ],
+   "suggested_locations": [
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    0.11,
+    0.05,
+    0.19
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 71,
+   "meshes": 1,
+   "bytes": 3056,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / computerMouse"
+  },
+  {
+   "id": "speaker_small",
+   "file": "assets/props/kenney-furniture/speaker_small.glb",
+   "kind": "prop",
+   "tags": [
+    "speaker",
+    "audio"
+   ],
+   "suggested_locations": [
+    "work",
+    "public_events"
+   ],
+   "dims_m": [
+    0.33,
+    0.66,
+    0.29
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 220,
+   "meshes": 2,
+   "bytes": 6216,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / speakerSmall"
+  },
+  {
+   "id": "speaker_tall",
+   "file": "assets/props/kenney-furniture/speaker_tall.glb",
+   "kind": "prop",
+   "tags": [
+    "speaker",
+    "audio",
+    "PA"
+   ],
+   "suggested_locations": [
+    "public_events",
+    "private_events"
+   ],
+   "dims_m": [
+    0.33,
+    1.4,
+    0.33
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 228,
+   "meshes": 2,
+   "bytes": 6216,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / speaker"
+  },
+  {
+   "id": "radio",
+   "file": "assets/props/kenney-furniture/radio.glb",
+   "kind": "prop",
+   "tags": [
+    "radio"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    0.69,
+    0.5,
+    0.21
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 432,
+   "meshes": 3,
+   "bytes": 8668,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / radio"
+  },
+  {
+   "id": "stairs",
+   "file": "assets/props/kenney-furniture/stairs.glb",
+   "kind": "prop",
+   "tags": [
+    "stairs",
+    "staircase"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    4.01,
+    2.95,
+    1.74
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 308,
+   "meshes": 2,
+   "bytes": 6504,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / stairs"
+  },
+  {
+   "id": "stairs_open",
+   "file": "assets/props/kenney-furniture/stairs_open.glb",
+   "kind": "prop",
+   "tags": [
+    "stairs",
+    "open riser"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    4.01,
+    2.95,
+    1.74
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 558,
+   "meshes": 5,
+   "bytes": 8720,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / stairsOpen"
+  },
+  {
+   "id": "doorway",
+   "file": "assets/props/kenney-furniture/doorway.glb",
+   "kind": "prop",
+   "tags": [
+    "door",
+    "doorway",
+    "interior"
+   ],
+   "suggested_locations": [
+    "home",
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    1.07,
+    2.22,
+    0.25
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 188,
+   "meshes": 3,
+   "bytes": 6584,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / doorway"
+  },
+  {
+   "id": "doorway_front",
+   "file": "assets/props/kenney-furniture/doorway_front.glb",
+   "kind": "prop",
+   "tags": [
+    "door",
+    "front door",
+    "entrance"
+   ],
+   "suggested_locations": [
+    "home",
+    "private_events"
+   ],
+   "dims_m": [
+    1.07,
+    2.22,
+    0.25
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 156,
+   "meshes": 4,
+   "bytes": 7232,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / doorwayFront"
+  },
+  {
+   "id": "doorway_open",
+   "file": "assets/props/kenney-furniture/doorway_open.glb",
+   "kind": "prop",
+   "tags": [
+    "doorway",
+    "open",
+    "frame"
+   ],
+   "suggested_locations": [
+    "home",
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    1.07,
+    2.22,
+    0.2
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 28,
+   "meshes": 1,
+   "bytes": 2400,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / doorwayOpen"
+  },
+  {
+   "id": "wall_window",
+   "file": "assets/props/kenney-furniture/wall_window.glb",
+   "kind": "prop",
+   "tags": [
+    "wall",
+    "window"
+   ],
+   "suggested_locations": [
+    "home",
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    2.2,
+    2.84,
+    0.2
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 108,
+   "meshes": 5,
+   "bytes": 7620,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / wallWindow"
+  },
+  {
+   "id": "wall_window_slide",
+   "file": "assets/props/kenney-furniture/wall_window_slide.glb",
+   "kind": "prop",
+   "tags": [
+    "wall",
+    "window",
+    "sliding"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    2.2,
+    2.84,
+    0.2
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 152,
+   "meshes": 7,
+   "bytes": 7844,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / wallWindowSlide"
+  },
+  {
+   "id": "wall",
+   "file": "assets/props/kenney-furniture/wall.glb",
+   "kind": "prop",
+   "tags": [
+    "wall",
+    "panel"
+   ],
+   "suggested_locations": [
+    "home",
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    2.2,
+    2.84,
+    0.11
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 12,
+   "meshes": 3,
+   "bytes": 4240,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / wall"
+  },
+  {
+   "id": "wall_doorway",
+   "file": "assets/props/kenney-furniture/wall_doorway.glb",
+   "kind": "prop",
+   "tags": [
+    "wall",
+    "doorway"
+   ],
+   "suggested_locations": [
+    "home",
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    2.2,
+    2.84,
+    0.2
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 60,
+   "meshes": 3,
+   "bytes": 4792,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / wallDoorway"
+  },
+  {
+   "id": "coat_rack_standing",
+   "file": "assets/props/kenney-furniture/coat_rack_standing.glb",
+   "kind": "prop",
+   "tags": [
+    "coat rack",
+    "hallway"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.6,
+    1.69,
+    0.6
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 190,
+   "meshes": 1,
+   "bytes": 4332,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / coatRackStanding"
+  },
+  {
+   "id": "coat_rack_wall",
+   "file": "assets/props/kenney-furniture/coat_rack_wall.glb",
+   "kind": "prop",
+   "tags": [
+    "coat rack",
+    "hooks",
+    "hallway"
+   ],
+   "suggested_locations": [
+    "home",
+    "school"
+   ],
+   "dims_m": [
+    0.99,
+    0.62,
+    0.3
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 132,
+   "meshes": 2,
+   "bytes": 4728,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / coatRack"
+  },
+  {
+   "id": "shoe_rack",
+   "file": "assets/props/kenney-furniture/shoe_rack.glb",
+   "kind": "prop",
+   "tags": [
+    "shoe rack",
+    "low shelf",
+    "hallway"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    0.88,
+    0.88,
+    0.55
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 184,
+   "meshes": 1,
+   "bytes": 3736,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / bookcaseOpenLow",
+   "note": "Same mesh as bookcase_low; use as a shoe rack by the door."
+  },
+  {
+   "id": "cardboard_box",
+   "file": "assets/props/kenney-furniture/cardboard_box.glb",
+   "kind": "prop",
+   "tags": [
+    "box",
+    "cardboard",
+    "package"
+   ],
+   "suggested_locations": [
+    "home",
+    "work",
+    "street"
+   ],
+   "dims_m": [
+    0.47,
+    0.62,
+    0.47
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 60,
+   "meshes": 2,
+   "bytes": 3852,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / cardboardBoxClosed"
+  },
+  {
+   "id": "cardboard_box_open",
+   "file": "assets/props/kenney-furniture/cardboard_box_open.glb",
+   "kind": "prop",
+   "tags": [
+    "box",
+    "cardboard",
+    "open"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.82,
+    0.62,
+    0.47
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 60,
+   "meshes": 2,
+   "bytes": 3860,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / cardboardBoxOpen"
+  },
+  {
+   "id": "trashcan_small",
+   "file": "assets/props/kenney-furniture/trashcan_small.glb",
+   "kind": "prop",
+   "tags": [
+    "trash can",
+    "bin",
+    "indoor"
+   ],
+   "suggested_locations": [
+    "home",
+    "work",
+    "school",
+    "public_events"
+   ],
+   "dims_m": [
+    0.46,
+    0.94,
+    0.52
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 68,
+   "meshes": 2,
+   "bytes": 4300,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / trashcan"
+  },
+  {
+   "id": "pillow",
+   "file": "assets/props/kenney-furniture/pillow.glb",
+   "kind": "prop",
+   "tags": [
+    "pillow",
+    "cushion"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    0.51,
+    0.49,
+    0.19
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 50,
+   "meshes": 1,
+   "bytes": 2980,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / pillow"
+  },
+  {
+   "id": "bench_wood",
+   "file": "assets/props/kenney-furniture/bench_wood.glb",
+   "kind": "prop",
+   "tags": [
+    "bench",
+    "wood"
+   ],
+   "suggested_locations": [
+    "school",
+    "private_events"
+   ],
+   "dims_m": [
+    0.88,
+    1.03,
+    0.44
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 170,
+   "meshes": 1,
+   "bytes": 3748,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/furniture-kit",
+   "source_title": "Furniture Kit / bench"
+  },
+  {
+   "id": "mug",
+   "file": "assets/props/kenney-food/mug.glb",
+   "kind": "prop",
+   "tags": [
+    "mug",
+    "coffee",
+    "cup"
+   ],
+   "suggested_locations": [
+    "home",
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    0.13,
+    0.1,
+    0.1
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.36582,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 232,
+   "meshes": 1,
+   "bytes": 8704,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / mug"
+  },
+  {
+   "id": "coffee_cup",
+   "file": "assets/props/kenney-food/coffee_cup.glb",
+   "kind": "prop",
+   "tags": [
+    "coffee cup",
+    "takeaway"
+   ],
+   "suggested_locations": [
+    "work",
+    "school",
+    "street"
+   ],
+   "dims_m": [
+    0.19,
+    0.12,
+    0.25
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.85714,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 108,
+   "meshes": 1,
+   "bytes": 6428,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / cup-coffee"
+  },
+  {
+   "id": "cake_birthday",
+   "file": "assets/props/kenney-food/cake_birthday.glb",
+   "kind": "prop",
+   "tags": [
+    "cake",
+    "birthday",
+    "candles"
+   ],
+   "suggested_locations": [
+    "private_events",
+    "public_events"
+   ],
+   "dims_m": [
+    0.3,
+    0.17,
+    0.3
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.46934,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1146,
+   "meshes": 6,
+   "bytes": 34788,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / cake-birthday"
+  },
+  {
+   "id": "cake",
+   "file": "assets/props/kenney-food/cake.glb",
+   "kind": "prop",
+   "tags": [
+    "cake",
+    "dessert",
+    "wedding"
+   ],
+   "suggested_locations": [
+    "private_events",
+    "public_events"
+   ],
+   "dims_m": [
+    0.3,
+    0.13,
+    0.3
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.46934,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 750,
+   "meshes": 6,
+   "bytes": 30696,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / cake"
+  },
+  {
+   "id": "cupcake",
+   "file": "assets/props/kenney-food/cupcake.glb",
+   "kind": "prop",
+   "tags": [
+    "cupcake",
+    "dessert"
+   ],
+   "suggested_locations": [
+    "private_events",
+    "public_events"
+   ],
+   "dims_m": [
+    0.07,
+    0.08,
+    0.06
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.18877,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 204,
+   "meshes": 3,
+   "bytes": 12484,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / cupcake"
+  },
+  {
+   "id": "plate",
+   "file": "assets/props/kenney-food/plate.glb",
+   "kind": "prop",
+   "tags": [
+    "plate",
+    "dish"
+   ],
+   "suggested_locations": [
+    "home",
+    "public_events",
+    "private_events"
+   ],
+   "dims_m": [
+    0.27,
+    0.07,
+    0.27
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.30277,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 354,
+   "meshes": 1,
+   "bytes": 11436,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / plate-dinner"
+  },
+  {
+   "id": "wine_bottle_red",
+   "file": "assets/props/kenney-food/wine_bottle_red.glb",
+   "kind": "prop",
+   "tags": [
+    "wine",
+    "bottle",
+    "alcohol"
+   ],
+   "suggested_locations": [
+    "home",
+    "public_events",
+    "street"
+   ],
+   "dims_m": [
+    0.08,
+    0.3,
+    0.07
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.42926,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 132,
+   "meshes": 1,
+   "bytes": 8500,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / wine-red"
+  },
+  {
+   "id": "wine_glass",
+   "file": "assets/props/kenney-food/wine_glass.glb",
+   "kind": "prop",
+   "tags": [
+    "glass",
+    "wine glass",
+    "alcohol"
+   ],
+   "suggested_locations": [
+    "public_events",
+    "private_events"
+   ],
+   "dims_m": [
+    0.09,
+    0.2,
+    0.08
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.40011,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 232,
+   "meshes": 1,
+   "bytes": 10036,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / glass-wine"
+  },
+  {
+   "id": "soda_can",
+   "file": "assets/props/kenney-food/soda_can.glb",
+   "kind": "prop",
+   "tags": [
+    "soda",
+    "can",
+    "drink"
+   ],
+   "suggested_locations": [
+    "street",
+    "school",
+    "private_events"
+   ],
+   "dims_m": [
+    0.08,
+    0.12,
+    0.08
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.34227,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 164,
+   "meshes": 1,
+   "bytes": 8420,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / soda-can"
+  },
+  {
+   "id": "soda_bottle",
+   "file": "assets/props/kenney-food/soda_bottle.glb",
+   "kind": "prop",
+   "tags": [
+    "soda",
+    "bottle",
+    "drink"
+   ],
+   "suggested_locations": [
+    "street",
+    "private_events"
+   ],
+   "dims_m": [
+    0.09,
+    0.3,
+    0.08
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.51687,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 100,
+   "meshes": 1,
+   "bytes": 7440,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / soda-bottle"
+  },
+  {
+   "id": "bread",
+   "file": "assets/props/kenney-food/bread.glb",
+   "kind": "prop",
+   "tags": [
+    "bread",
+    "loaf"
+   ],
+   "suggested_locations": [
+    "home",
+    "street"
+   ],
+   "dims_m": [
+    0.3,
+    0.23,
+    0.19
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.51747,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 116,
+   "meshes": 1,
+   "bytes": 6536,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / loaf"
+  },
+  {
+   "id": "turkey",
+   "file": "assets/props/kenney-food/turkey.glb",
+   "kind": "prop",
+   "tags": [
+    "turkey",
+    "roast",
+    "buffet"
+   ],
+   "suggested_locations": [
+    "public_events"
+   ],
+   "dims_m": [
+    0.46,
+    0.18,
+    0.34
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.48138,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 368,
+   "meshes": 3,
+   "bytes": 17252,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / turkey"
+  },
+  {
+   "id": "ham",
+   "file": "assets/props/kenney-food/ham.glb",
+   "kind": "prop",
+   "tags": [
+    "ham",
+    "pork",
+    "buffet"
+   ],
+   "suggested_locations": [
+    "public_events"
+   ],
+   "dims_m": [
+    0.21,
+    0.24,
+    0.35
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.5471,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 128,
+   "meshes": 1,
+   "bytes": 7580,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / whole-ham"
+  },
+  {
+   "id": "meat_raw",
+   "file": "assets/props/kenney-food/meat_raw.glb",
+   "kind": "prop",
+   "tags": [
+    "meat",
+    "raw",
+    "wrapped"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    0.21,
+    0.03,
+    0.25
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.4345,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 110,
+   "meshes": 1,
+   "bytes": 7008,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / meat-raw"
+  },
+  {
+   "id": "salad_bowl",
+   "file": "assets/props/kenney-food/salad_bowl.glb",
+   "kind": "prop",
+   "tags": [
+    "salad",
+    "bowl",
+    "buffet"
+   ],
+   "suggested_locations": [
+    "public_events",
+    "private_events"
+   ],
+   "dims_m": [
+    0.22,
+    0.12,
+    0.25
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.43116,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 170,
+   "meshes": 1,
+   "bytes": 8592,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / salad"
+  },
+  {
+   "id": "pizza_box",
+   "file": "assets/props/kenney-food/pizza_box.glb",
+   "kind": "prop",
+   "tags": [
+    "pizza",
+    "box",
+    "delivery"
+   ],
+   "suggested_locations": [
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    0.4,
+    0.37,
+    0.4
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.42026,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 84,
+   "meshes": 2,
+   "bytes": 7664,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / pizza-box"
+  },
+  {
+   "id": "sandwich",
+   "file": "assets/props/kenney-food/sandwich.glb",
+   "kind": "prop",
+   "tags": [
+    "sandwich"
+   ],
+   "suggested_locations": [
+    "work",
+    "street"
+   ],
+   "dims_m": [
+    0.15,
+    0.06,
+    0.15
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.34574,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 176,
+   "meshes": 4,
+   "bytes": 10324,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / sandwich"
+  },
+  {
+   "id": "hot_dog",
+   "file": "assets/props/kenney-food/hot_dog.glb",
+   "kind": "prop",
+   "tags": [
+    "hot dog",
+    "food"
+   ],
+   "suggested_locations": [
+    "street",
+    "private_events"
+   ],
+   "dims_m": [
+    0.18,
+    0.05,
+    0.06
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.30722,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 272,
+   "meshes": 3,
+   "bytes": 14088,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / hot-dog"
+  },
+  {
+   "id": "donut",
+   "file": "assets/props/kenney-food/donut.glb",
+   "kind": "prop",
+   "tags": [
+    "donut",
+    "snack"
+   ],
+   "suggested_locations": [
+    "work",
+    "street"
+   ],
+   "dims_m": [
+    0.09,
+    0.03,
+    0.1
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.3534,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 180,
+   "meshes": 1,
+   "bytes": 10012,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / donut-sprinkles"
+  },
+  {
+   "id": "chips_bag",
+   "file": "assets/props/kenney-food/chips_bag.glb",
+   "kind": "prop",
+   "tags": [
+    "chips",
+    "snack",
+    "bag"
+   ],
+   "suggested_locations": [
+    "street",
+    "school"
+   ],
+   "dims_m": [
+    0.09,
+    0.25,
+    0.17
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.41683,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 46,
+   "meshes": 1,
+   "bytes": 6216,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / bag"
+  },
+  {
+   "id": "candy_bar",
+   "file": "assets/props/kenney-food/candy_bar.glb",
+   "kind": "prop",
+   "tags": [
+    "candy",
+    "chocolate",
+    "snack"
+   ],
+   "suggested_locations": [
+    "street",
+    "home"
+   ],
+   "dims_m": [
+    0.14,
+    0.03,
+    0.04
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.47872,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 72,
+   "meshes": 1,
+   "bytes": 6180,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / candy-bar"
+  },
+  {
+   "id": "ketchup",
+   "file": "assets/props/kenney-food/ketchup.glb",
+   "kind": "prop",
+   "tags": [
+    "ketchup",
+    "condiment"
+   ],
+   "suggested_locations": [
+    "private_events"
+   ],
+   "dims_m": [
+    0.07,
+    0.2,
+    0.08
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.50875,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 96,
+   "meshes": 1,
+   "bytes": 6852,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / bottle-ketchup"
+  },
+  {
+   "id": "frying_pan",
+   "file": "assets/props/kenney-food/frying_pan.glb",
+   "kind": "prop",
+   "tags": [
+    "pan",
+    "cooking"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    0.29,
+    0.05,
+    0.45
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.44031,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 200,
+   "meshes": 1,
+   "bytes": 9256,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / frying-pan"
+  },
+  {
+   "id": "pot",
+   "file": "assets/props/kenney-food/pot.glb",
+   "kind": "prop",
+   "tags": [
+    "pot",
+    "cooking"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    0.3,
+    0.05,
+    0.29
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.45631,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 176,
+   "meshes": 2,
+   "bytes": 9068,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/food-kit",
+   "source_title": "Food Kit / pot-stew-lid"
+  },
+  {
+   "id": "christmas_tree",
+   "file": "assets/props/kenney-holiday/christmas_tree.glb",
+   "kind": "prop",
+   "tags": [
+    "christmas tree",
+    "decorated",
+    "holiday"
+   ],
+   "suggested_locations": [
+    "public_events",
+    "home"
+   ],
+   "dims_m": [
+    1.82,
+    3.5,
+    1.82
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.52861,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 670,
+   "meshes": 1,
+   "bytes": 23840,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/holiday-kit",
+   "source_title": "Holiday Kit / tree-decorated"
+  },
+  {
+   "id": "christmas_tree_small",
+   "file": "assets/props/kenney-holiday/christmas_tree_small.glb",
+   "kind": "prop",
+   "tags": [
+    "christmas tree",
+    "decorated",
+    "small"
+   ],
+   "suggested_locations": [
+    "home",
+    "work"
+   ],
+   "dims_m": [
+    0.83,
+    1.6,
+    0.83
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.69879,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 670,
+   "meshes": 1,
+   "bytes": 23852,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/holiday-kit",
+   "source_title": "Holiday Kit / tree-decorated"
+  },
+  {
+   "id": "tree_snow",
+   "file": "assets/props/kenney-holiday/tree_snow.glb",
+   "kind": "prop",
+   "tags": [
+    "pine",
+    "snow",
+    "tree",
+    "outdoor"
+   ],
+   "suggested_locations": [
+    "home",
+    "private_events",
+    "street"
+   ],
+   "dims_m": [
+    3.1,
+    5,
+    3.1
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.60355,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 378,
+   "meshes": 1,
+   "bytes": 14460,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/holiday-kit",
+   "source_title": "Holiday Kit / tree-snow-a"
+  },
+  {
+   "id": "gift_cube",
+   "file": "assets/props/kenney-holiday/gift_cube.glb",
+   "kind": "prop",
+   "tags": [
+    "gift",
+    "present",
+    "box"
+   ],
+   "suggested_locations": [
+    "public_events",
+    "private_events",
+    "home"
+   ],
+   "dims_m": [
+    0.28,
+    0.35,
+    0.28
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.61327,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 238,
+   "meshes": 2,
+   "bytes": 10152,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/holiday-kit",
+   "source_title": "Holiday Kit / present-a-cube"
+  },
+  {
+   "id": "gift_rect",
+   "file": "assets/props/kenney-holiday/gift_rect.glb",
+   "kind": "prop",
+   "tags": [
+    "gift",
+    "present",
+    "box"
+   ],
+   "suggested_locations": [
+    "public_events",
+    "private_events",
+    "home"
+   ],
+   "dims_m": [
+    0.35,
+    0.25,
+    0.24
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.53111,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 238,
+   "meshes": 2,
+   "bytes": 10844,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/holiday-kit",
+   "source_title": "Holiday Kit / present-b-rectangle"
+  },
+  {
+   "id": "gift_round",
+   "file": "assets/props/kenney-holiday/gift_round.glb",
+   "kind": "prop",
+   "tags": [
+    "gift",
+    "present",
+    "round box"
+   ],
+   "suggested_locations": [
+    "public_events",
+    "private_events",
+    "home"
+   ],
+   "dims_m": [
+    0.29,
+    0.3,
+    0.29
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.52566,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 238,
+   "meshes": 2,
+   "bytes": 10200,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/holiday-kit",
+   "source_title": "Holiday Kit / present-a-round"
+  },
+  {
+   "id": "wreath",
+   "file": "assets/props/kenney-holiday/wreath.glb",
+   "kind": "prop",
+   "tags": [
+    "wreath",
+    "door",
+    "holiday"
+   ],
+   "suggested_locations": [
+    "home",
+    "public_events"
+   ],
+   "dims_m": [
+    0.53,
+    0.6,
+    0.2
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.78695,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 828,
+   "meshes": 1,
+   "bytes": 30724,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/holiday-kit",
+   "source_title": "Holiday Kit / wreath-decorated"
+  },
+  {
+   "id": "string_lights",
+   "file": "assets/props/kenney-holiday/string_lights.glb",
+   "kind": "prop",
+   "tags": [
+    "string lights",
+    "fairy lights",
+    "garland"
+   ],
+   "suggested_locations": [
+    "public_events",
+    "private_events",
+    "home"
+   ],
+   "dims_m": [
+    2.02,
+    0.63,
+    0.13
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 760,
+   "meshes": 1,
+   "bytes": 25660,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/holiday-kit",
+   "source_title": "Holiday Kit / lights-colored",
+   "note": "A ~2 m strand; tile it along walls / eaves."
+  },
+  {
+   "id": "string_lights_red",
+   "file": "assets/props/kenney-holiday/string_lights_red.glb",
+   "kind": "prop",
+   "tags": [
+    "string lights",
+    "garland",
+    "red"
+   ],
+   "suggested_locations": [
+    "public_events",
+    "home"
+   ],
+   "dims_m": [
+    2.02,
+    0.63,
+    0.13
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 760,
+   "meshes": 1,
+   "bytes": 25656,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/holiday-kit",
+   "source_title": "Holiday Kit / lights-red"
+  },
+  {
+   "id": "lantern_post",
+   "file": "assets/props/kenney-holiday/lantern_post.glb",
+   "kind": "prop",
+   "tags": [
+    "lantern",
+    "lamp post",
+    "path light"
+   ],
+   "suggested_locations": [
+    "private_events",
+    "home"
+   ],
+   "dims_m": [
+    0.67,
+    2.2,
+    0.58
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.26635,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 172,
+   "meshes": 1,
+   "bytes": 9280,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/holiday-kit",
+   "source_title": "Holiday Kit / lantern"
+  },
+  {
+   "id": "stocking",
+   "file": "assets/props/kenney-holiday/stocking.glb",
+   "kind": "prop",
+   "tags": [
+    "stocking",
+    "holiday"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": [
+    0.22,
+    0.45,
+    0.14
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.72247,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 168,
+   "meshes": 1,
+   "bytes": 8904,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/holiday-kit",
+   "source_title": "Holiday Kit / sock-red"
+  },
+  {
+   "id": "snowman",
+   "file": "assets/props/kenney-holiday/snowman.glb",
+   "kind": "prop",
+   "tags": [
+    "snowman",
+    "snow",
+    "yard"
+   ],
+   "suggested_locations": [
+    "home",
+    "private_events"
+   ],
+   "dims_m": [
+    1.56,
+    1.5,
+    0.97
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.40924,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 446,
+   "meshes": 1,
+   "bytes": 17684,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/holiday-kit",
+   "source_title": "Holiday Kit / snowman"
+  },
+  {
+   "id": "snow_pile",
+   "file": "assets/props/kenney-holiday/snow_pile.glb",
+   "kind": "prop",
+   "tags": [
+    "snow",
+    "pile",
+    "yard"
+   ],
+   "suggested_locations": [
+    "home",
+    "street",
+    "private_events"
+   ],
+   "dims_m": [
+    1.49,
+    0.3,
+    1.67
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.5,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 132,
+   "meshes": 1,
+   "bytes": 8616,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/holiday-kit",
+   "source_title": "Holiday Kit / snow-pile"
+  },
+  {
+   "id": "candy_cane",
+   "file": "assets/props/kenney-holiday/candy_cane.glb",
+   "kind": "prop",
+   "tags": [
+    "candy cane",
+    "decoration"
+   ],
+   "suggested_locations": [
+    "public_events"
+   ],
+   "dims_m": [
+    0.4,
+    0.6,
+    0.13
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.32813,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 84,
+   "meshes": 1,
+   "bytes": 7272,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/holiday-kit",
+   "source_title": "Holiday Kit / candy-cane-red"
+  },
+  {
+   "id": "store_shelf_boxes",
+   "file": "assets/props/kenney-market/store_shelf_boxes.glb",
+   "kind": "prop",
+   "tags": [
+    "store shelf",
+    "grocery",
+    "shelving"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    1.6,
+    1.7,
+    1.4
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 436,
+   "meshes": 11,
+   "bytes": 14816,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/mini-market",
+   "source_title": "Mini Market / shelf-boxes"
+  },
+  {
+   "id": "store_shelf_bags",
+   "file": "assets/props/kenney-market/store_shelf_bags.glb",
+   "kind": "prop",
+   "tags": [
+    "store shelf",
+    "snacks",
+    "shelving"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    1.6,
+    1.78,
+    1.4
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 892,
+   "meshes": 9,
+   "bytes": 18124,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/mini-market",
+   "source_title": "Mini Market / shelf-bags"
+  },
+  {
+   "id": "store_shelf_end",
+   "file": "assets/props/kenney-market/store_shelf_end.glb",
+   "kind": "prop",
+   "tags": [
+    "store shelf",
+    "end cap"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    1.6,
+    2.1,
+    0.8
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 362,
+   "meshes": 8,
+   "bytes": 13796,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/mini-market",
+   "source_title": "Mini Market / shelf-end"
+  },
+  {
+   "id": "store_cooler",
+   "file": "assets/props/kenney-market/store_cooler.glb",
+   "kind": "prop",
+   "tags": [
+    "drinks cooler",
+    "fridge",
+    "glass door"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    2,
+    1.8,
+    1
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 156,
+   "meshes": 1,
+   "bytes": 7424,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/mini-market",
+   "source_title": "Mini Market / freezers-standing"
+  },
+  {
+   "id": "store_freezer",
+   "file": "assets/props/kenney-market/store_freezer.glb",
+   "kind": "prop",
+   "tags": [
+    "chest freezer",
+    "ice cream"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    1.6,
+    0.7,
+    1.2
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 180,
+   "meshes": 1,
+   "bytes": 7640,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/mini-market",
+   "source_title": "Mini Market / freezer"
+  },
+  {
+   "id": "store_checkout",
+   "file": "assets/props/kenney-market/store_checkout.glb",
+   "kind": "prop",
+   "tags": [
+    "checkout counter",
+    "cash register",
+    "till"
+   ],
+   "suggested_locations": [
+    "street",
+    "school"
+   ],
+   "dims_m": [
+    1.7,
+    1.19,
+    1.7
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 203,
+   "meshes": 1,
+   "bytes": 9284,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/mini-market",
+   "source_title": "Mini Market / cash-register"
+  },
+  {
+   "id": "store_display_fruit",
+   "file": "assets/props/kenney-market/store_display_fruit.glb",
+   "kind": "prop",
+   "tags": [
+    "fruit display",
+    "produce"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    1.2,
+    1.03,
+    1.2
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 650,
+   "meshes": 1,
+   "bytes": 21556,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/mini-market",
+   "source_title": "Mini Market / display-fruit"
+  },
+  {
+   "id": "store_display_bread",
+   "file": "assets/props/kenney-market/store_display_bread.glb",
+   "kind": "prop",
+   "tags": [
+    "bread display",
+    "bakery"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    1.4,
+    1,
+    1.2
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 362,
+   "meshes": 3,
+   "bytes": 15928,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/mini-market",
+   "source_title": "Mini Market / display-bread"
+  },
+  {
+   "id": "shopping_basket",
+   "file": "assets/props/kenney-market/shopping_basket.glb",
+   "kind": "prop",
+   "tags": [
+    "basket",
+    "shopping"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    0.7,
+    0.5,
+    0.7
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 288,
+   "meshes": 1,
+   "bytes": 9572,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/mini-market",
+   "source_title": "Mini Market / shopping-basket"
+  },
+  {
+   "id": "shopping_cart",
+   "file": "assets/props/kenney-market/shopping_cart.glb",
+   "kind": "prop",
+   "tags": [
+    "cart",
+    "shopping",
+    "trolley"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    0.6,
+    0.78,
+    0.96
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 384,
+   "meshes": 1,
+   "bytes": 11636,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/mini-market",
+   "source_title": "Mini Market / shopping-cart"
+  },
+  {
+   "id": "store_wall",
+   "file": "assets/props/kenney-market/store_wall.glb",
+   "kind": "prop",
+   "tags": [
+    "wall",
+    "store"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    2,
+    2,
+    1.2
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 32,
+   "meshes": 1,
+   "bytes": 5272,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/mini-market",
+   "source_title": "Mini Market / wall"
+  },
+  {
+   "id": "store_wall_window",
+   "file": "assets/props/kenney-market/store_wall_window.glb",
+   "kind": "prop",
+   "tags": [
+    "wall",
+    "store",
+    "shop window"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    2,
+    2,
+    1.2
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 146,
+   "meshes": 2,
+   "bytes": 8548,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/mini-market",
+   "source_title": "Mini Market / wall-window"
+  },
+  {
+   "id": "store_wall_door",
+   "file": "assets/props/kenney-market/store_wall_door.glb",
+   "kind": "prop",
+   "tags": [
+    "wall",
+    "store",
+    "door"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    2,
+    2,
+    1.2
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 316,
+   "meshes": 4,
+   "bytes": 18540,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/mini-market",
+   "source_title": "Mini Market / wall-door-rotate"
+  },
+  {
+   "id": "store_wall_corner",
+   "file": "assets/props/kenney-market/store_wall_corner.glb",
+   "kind": "prop",
+   "tags": [
+    "wall",
+    "store",
+    "corner"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    1.6,
+    2,
+    1.6
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 66,
+   "meshes": 1,
+   "bytes": 6308,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/mini-market",
+   "source_title": "Mini Market / wall-corner"
+  },
+  {
+   "id": "store_floor",
+   "file": "assets/props/kenney-market/store_floor.glb",
+   "kind": "prop",
+   "tags": [
+    "floor tile",
+    "store"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    2,
+    0.05,
+    2
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 24,
+   "meshes": 1,
+   "bytes": 5064,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/mini-market",
+   "source_title": "Mini Market / floor"
+  },
+  {
+   "id": "store_column",
+   "file": "assets/props/kenney-market/store_column.glb",
+   "kind": "prop",
+   "tags": [
+    "column",
+    "pillar"
+   ],
+   "suggested_locations": [
+    "street",
+    "public_events"
+   ],
+   "dims_m": [
+    1.45,
+    2,
+    1.45
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 188,
+   "meshes": 1,
+   "bytes": 9092,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/mini-market",
+   "source_title": "Mini Market / column"
+  },
+  {
+   "id": "house_a",
+   "file": "assets/props/kenney-suburban/house_a.glb",
+   "kind": "prop",
+   "tags": [
+    "house",
+    "suburban",
+    "two storey"
+   ],
+   "suggested_locations": [
+    "private_events",
+    "home"
+   ],
+   "dims_m": [
+    10.4,
+    6.67,
+    8.23
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1174,
+   "meshes": 1,
+   "bytes": 25712,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-suburban",
+   "source_title": "City Kit (Suburban) / building-type-a"
+  },
+  {
+   "id": "house_b",
+   "file": "assets/props/kenney-suburban/house_b.glb",
+   "kind": "prop",
+   "tags": [
+    "house",
+    "suburban",
+    "two storey"
+   ],
+   "suggested_locations": [
+    "private_events"
+   ],
+   "dims_m": [
+    14.62,
+    9.1,
+    9.12
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1748,
+   "meshes": 1,
+   "bytes": 34852,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-suburban",
+   "source_title": "City Kit (Suburban) / building-type-b"
+  },
+  {
+   "id": "house_g",
+   "file": "assets/props/kenney-suburban/house_g.glb",
+   "kind": "prop",
+   "tags": [
+    "house",
+    "suburban",
+    "ranch",
+    "single storey"
+   ],
+   "suggested_locations": [
+    "private_events"
+   ],
+   "dims_m": [
+    11.6,
+    6.15,
+    9.42
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1067,
+   "meshes": 1,
+   "bytes": 25452,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-suburban",
+   "source_title": "City Kit (Suburban) / building-type-g"
+  },
+  {
+   "id": "house_m",
+   "file": "assets/props/kenney-suburban/house_m.glb",
+   "kind": "prop",
+   "tags": [
+    "house",
+    "suburban",
+    "garage"
+   ],
+   "suggested_locations": [
+    "private_events"
+   ],
+   "dims_m": [
+    11.42,
+    5.9,
+    11.42
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1112,
+   "meshes": 1,
+   "bytes": 25456,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-suburban",
+   "source_title": "City Kit (Suburban) / building-type-m"
+  },
+  {
+   "id": "house_n",
+   "file": "assets/props/kenney-suburban/house_n.glb",
+   "kind": "prop",
+   "tags": [
+    "house",
+    "suburban"
+   ],
+   "suggested_locations": [
+    "private_events"
+   ],
+   "dims_m": [
+    14.27,
+    9.1,
+    11.02
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1612,
+   "meshes": 1,
+   "bytes": 33224,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-suburban",
+   "source_title": "City Kit (Suburban) / building-type-n"
+  },
+  {
+   "id": "house_s",
+   "file": "assets/props/kenney-suburban/house_s.glb",
+   "kind": "prop",
+   "tags": [
+    "house",
+    "suburban",
+    "two storey"
+   ],
+   "suggested_locations": [
+    "private_events",
+    "home"
+   ],
+   "dims_m": [
+    11.25,
+    9.1,
+    8.69
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1212,
+   "meshes": 1,
+   "bytes": 26068,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-suburban",
+   "source_title": "City Kit (Suburban) / building-type-s"
+  },
+  {
+   "id": "fence_privacy",
+   "file": "assets/props/kenney-suburban/fence_privacy.glb",
+   "kind": "prop",
+   "tags": [
+    "fence",
+    "privacy fence",
+    "wood"
+   ],
+   "suggested_locations": [
+    "private_events"
+   ],
+   "dims_m": [
+    3.8,
+    2.16,
+    0.6
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 88,
+   "meshes": 1,
+   "bytes": 6960,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-suburban",
+   "source_title": "City Kit (Suburban) / fence"
+  },
+  {
+   "id": "fence_yard_1x3",
+   "file": "assets/props/kenney-suburban/fence_yard_1x3.glb",
+   "kind": "prop",
+   "tags": [
+    "fence",
+    "yard enclosure"
+   ],
+   "suggested_locations": [
+    "private_events"
+   ],
+   "dims_m": [
+    10.2,
+    2.16,
+    3.5
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 204,
+   "meshes": 1,
+   "bytes": 9040,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-suburban",
+   "source_title": "City Kit (Suburban) / fence-1x3"
+  },
+  {
+   "id": "picket_fence",
+   "file": "assets/props/nature/picket_fence.glb",
+   "kind": "prop",
+   "tags": [
+    "fence",
+    "picket fence",
+    "wood"
+   ],
+   "suggested_locations": [
+    "private_events",
+    "home"
+   ],
+   "dims_m": [
+    5.02,
+    1,
+    0.14
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.85224,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 324,
+   "meshes": 1,
+   "bytes": 6120,
+   "license": "CC0 1.0",
+   "author": "Quaternius",
+   "source_url": "https://poly.pizza/m/U7g0Wxpt63",
+   "source_title": "Fence",
+   "note": "Brown wood; tint white for a classic picket fence."
+  },
+  {
+   "id": "driveway",
+   "file": "assets/props/kenney-suburban/driveway.glb",
+   "kind": "prop",
+   "tags": [
+    "driveway",
+    "pavement"
+   ],
+   "suggested_locations": [
+    "private_events"
+   ],
+   "dims_m": [
+    2.88,
+    0.08,
+    3.2
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 12,
+   "meshes": 1,
+   "bytes": 5580,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-suburban",
+   "source_title": "City Kit (Suburban) / driveway-long"
+  },
+  {
+   "id": "garden_path",
+   "file": "assets/props/kenney-suburban/garden_path.glb",
+   "kind": "prop",
+   "tags": [
+    "path",
+    "walkway"
+   ],
+   "suggested_locations": [
+    "private_events"
+   ],
+   "dims_m": [
+    1.6,
+    0.08,
+    3.2
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 12,
+   "meshes": 1,
+   "bytes": 5584,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-suburban",
+   "source_title": "City Kit (Suburban) / path-long"
+  },
+  {
+   "id": "garden_path_stones",
+   "file": "assets/props/kenney-suburban/garden_path_stones.glb",
+   "kind": "prop",
+   "tags": [
+    "path",
+    "stepping stones"
+   ],
+   "suggested_locations": [
+    "private_events"
+   ],
+   "dims_m": [
+    1.12,
+    0.08,
+    3.2
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 48,
+   "meshes": 1,
+   "bytes": 6624,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-suburban",
+   "source_title": "City Kit (Suburban) / path-stones-long"
+  },
+  {
+   "id": "planter",
+   "file": "assets/props/kenney-suburban/planter.glb",
+   "kind": "prop",
+   "tags": [
+    "planter",
+    "shrubs",
+    "flower bed"
+   ],
+   "suggested_locations": [
+    "private_events",
+    "street"
+   ],
+   "dims_m": [
+    3.2,
+    1.42,
+    2.4
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 204,
+   "meshes": 1,
+   "bytes": 9876,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-suburban",
+   "source_title": "City Kit (Suburban) / planter"
+  },
+  {
+   "id": "tree_suburban_large",
+   "file": "assets/props/kenney-suburban/tree_suburban_large.glb",
+   "kind": "prop",
+   "tags": [
+    "tree",
+    "cypress",
+    "stylised"
+   ],
+   "suggested_locations": [
+    "private_events",
+    "street"
+   ],
+   "dims_m": [
+    1.68,
+    6.14,
+    1.94
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 42,
+   "meshes": 1,
+   "bytes": 6428,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-suburban",
+   "source_title": "City Kit (Suburban) / tree-large"
+  },
+  {
+   "id": "tree_suburban_small",
+   "file": "assets/props/kenney-suburban/tree_suburban_small.glb",
+   "kind": "prop",
+   "tags": [
+    "tree",
+    "stylised",
+    "small"
+   ],
+   "suggested_locations": [
+    "private_events",
+    "street"
+   ],
+   "dims_m": [
+    1.68,
+    4.54,
+    1.94
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 42,
+   "meshes": 1,
+   "bytes": 6424,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-suburban",
+   "source_title": "City Kit (Suburban) / tree-small"
+  },
+  {
+   "id": "store_building_a",
+   "file": "assets/props/kenney-commercial/store_building_a.glb",
+   "kind": "prop",
+   "tags": [
+    "building",
+    "storefront",
+    "downtown"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    7.07,
+    10.34,
+    7.52
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1252,
+   "meshes": 1,
+   "bytes": 25892,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-commercial",
+   "source_title": "City Kit (Commercial) / building-a"
+  },
+  {
+   "id": "store_building_c",
+   "file": "assets/props/kenney-commercial/store_building_c.glb",
+   "kind": "prop",
+   "tags": [
+    "building",
+    "storefront",
+    "low-rise"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    7.07,
+    7.14,
+    8.72
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1195,
+   "meshes": 1,
+   "bytes": 25572,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-commercial",
+   "source_title": "City Kit (Commercial) / building-c"
+  },
+  {
+   "id": "store_building_e",
+   "file": "assets/props/kenney-commercial/store_building_e.glb",
+   "kind": "prop",
+   "tags": [
+    "building",
+    "storefront",
+    "wide",
+    "convenience store"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    13.12,
+    7.14,
+    8.06
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1509,
+   "meshes": 1,
+   "bytes": 29176,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-commercial",
+   "source_title": "City Kit (Commercial) / building-e"
+  },
+  {
+   "id": "office_building_f",
+   "file": "assets/props/kenney-commercial/office_building_f.glb",
+   "kind": "prop",
+   "tags": [
+    "building",
+    "mid-rise"
+   ],
+   "suggested_locations": [
+    "street",
+    "work"
+   ],
+   "dims_m": [
+    6.72,
+    13.54,
+    8.24
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1794,
+   "meshes": 1,
+   "bytes": 33272,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-commercial",
+   "source_title": "City Kit (Commercial) / building-f"
+  },
+  {
+   "id": "office_building_h",
+   "file": "assets/props/kenney-commercial/office_building_h.glb",
+   "kind": "prop",
+   "tags": [
+    "building",
+    "mid-rise",
+    "dark"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    7.07,
+    10.34,
+    8.06
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1512,
+   "meshes": 1,
+   "bytes": 29732,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-commercial",
+   "source_title": "City Kit (Commercial) / building-h"
+  },
+  {
+   "id": "apartment_building_k",
+   "file": "assets/props/kenney-commercial/apartment_building_k.glb",
+   "kind": "prop",
+   "tags": [
+    "building",
+    "apartments",
+    "wide"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    16.67,
+    11.76,
+    7.54
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 2960,
+   "meshes": 1,
+   "bytes": 51744,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-commercial",
+   "source_title": "City Kit (Commercial) / building-k"
+  },
+  {
+   "id": "skyscraper_a",
+   "file": "assets/props/kenney-commercial/skyscraper_a.glb",
+   "kind": "prop",
+   "tags": [
+    "building",
+    "skyscraper",
+    "backdrop"
+   ],
+   "suggested_locations": [
+    "street",
+    "work"
+   ],
+   "dims_m": [
+    10.88,
+    23.04,
+    10.88
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1292,
+   "meshes": 1,
+   "bytes": 25092,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-commercial",
+   "source_title": "City Kit (Commercial) / building-skyscraper-a"
+  },
+  {
+   "id": "backdrop_tower_a",
+   "file": "assets/props/kenney-commercial/backdrop_tower_a.glb",
+   "kind": "prop",
+   "tags": [
+    "building",
+    "backdrop",
+    "low detail"
+   ],
+   "suggested_locations": [
+    "street",
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    4,
+    16,
+    4
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 188,
+   "meshes": 1,
+   "bytes": 7276,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-commercial",
+   "source_title": "City Kit (Commercial) / low-detail-building-a"
+  },
+  {
+   "id": "backdrop_tower_wide",
+   "file": "assets/props/kenney-commercial/backdrop_tower_wide.glb",
+   "kind": "prop",
+   "tags": [
+    "building",
+    "backdrop",
+    "low detail"
+   ],
+   "suggested_locations": [
+    "street",
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    8,
+    8.8,
+    4
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 156,
+   "meshes": 1,
+   "bytes": 7108,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-commercial",
+   "source_title": "City Kit (Commercial) / low-detail-building-wide-a"
+  },
+  {
+   "id": "awning",
+   "file": "assets/props/kenney-commercial/awning.glb",
+   "kind": "prop",
+   "tags": [
+    "awning",
+    "shop"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    3.2,
+    3.2,
+    1.18
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 40,
+   "meshes": 1,
+   "bytes": 5872,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-commercial",
+   "source_title": "City Kit (Commercial) / detail-awning"
+  },
+  {
+   "id": "awning_wide",
+   "file": "assets/props/kenney-commercial/awning_wide.glb",
+   "kind": "prop",
+   "tags": [
+    "awning",
+    "shop",
+    "wide"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    6.4,
+    3.2,
+    1.18
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 40,
+   "meshes": 1,
+   "bytes": 5876,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-commercial",
+   "source_title": "City Kit (Commercial) / detail-awning-wide"
+  },
+  {
+   "id": "canopy_wide",
+   "file": "assets/props/kenney-commercial/canopy_wide.glb",
+   "kind": "prop",
+   "tags": [
+    "canopy",
+    "overhang",
+    "gas station canopy"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    8,
+    3.2,
+    1.6
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 64,
+   "meshes": 1,
+   "bytes": 5972,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-commercial",
+   "source_title": "City Kit (Commercial) / detail-overhang-wide",
+   "note": "Usable as a gas-station canopy when scaled up (e.g. x2.5)."
+  },
+  {
+   "id": "parasol",
+   "file": "assets/props/kenney-commercial/parasol.glb",
+   "kind": "prop",
+   "tags": [
+    "parasol",
+    "patio table",
+    "umbrella"
+   ],
+   "suggested_locations": [
+    "street",
+    "private_events"
+   ],
+   "dims_m": [
+    2.77,
+    3.6,
+    3.2
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 96,
+   "meshes": 1,
+   "bytes": 7036,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-commercial",
+   "source_title": "City Kit (Commercial) / detail-parasol-a"
+  },
+  {
+   "id": "road_straight",
+   "file": "assets/props/kenney-roads/road_straight.glb",
+   "kind": "prop",
+   "tags": [
+    "road",
+    "tile",
+    "straight",
+    "8 m"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    8,
+    0.16,
+    8
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 44,
+   "meshes": 1,
+   "bytes": 5524,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / road-straight"
+  },
+  {
+   "id": "road_crossroad",
+   "file": "assets/props/kenney-roads/road_crossroad.glb",
+   "kind": "prop",
+   "tags": [
+    "road",
+    "tile",
+    "intersection",
+    "4-way"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    8,
+    0.16,
+    8
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 116,
+   "meshes": 1,
+   "bytes": 6272,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / road-crossroad"
+  },
+  {
+   "id": "road_intersection",
+   "file": "assets/props/kenney-roads/road_intersection.glb",
+   "kind": "prop",
+   "tags": [
+    "road",
+    "tile",
+    "T-junction"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    8,
+    0.16,
+    8
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 84,
+   "meshes": 1,
+   "bytes": 6032,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / road-intersection"
+  },
+  {
+   "id": "road_crossing",
+   "file": "assets/props/kenney-roads/road_crossing.glb",
+   "kind": "prop",
+   "tags": [
+    "road",
+    "tile",
+    "crosswalk"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    8,
+    0.16,
+    8
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 104,
+   "meshes": 1,
+   "bytes": 5880,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / road-crossing"
+  },
+  {
+   "id": "road_bend",
+   "file": "assets/props/kenney-roads/road_bend.glb",
+   "kind": "prop",
+   "tags": [
+    "road",
+    "tile",
+    "corner"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    8,
+    0.16,
+    8
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 260,
+   "meshes": 1,
+   "bytes": 8056,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / road-bend"
+  },
+  {
+   "id": "road_end",
+   "file": "assets/props/kenney-roads/road_end.glb",
+   "kind": "prop",
+   "tags": [
+    "road",
+    "tile",
+    "dead end"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    8,
+    0.16,
+    8
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 42,
+   "meshes": 1,
+   "bytes": 5492,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / road-end"
+  },
+  {
+   "id": "road_driveway",
+   "file": "assets/props/kenney-roads/road_driveway.glb",
+   "kind": "prop",
+   "tags": [
+    "road",
+    "tile",
+    "driveway entry"
+   ],
+   "suggested_locations": [
+    "street",
+    "private_events"
+   ],
+   "dims_m": [
+    8,
+    0.16,
+    8
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 60,
+   "meshes": 1,
+   "bytes": 5784,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / road-driveway-single"
+  },
+  {
+   "id": "road_side",
+   "file": "assets/props/kenney-roads/road_side.glb",
+   "kind": "prop",
+   "tags": [
+    "road",
+    "tile",
+    "sidewalk edge"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    8,
+    0.16,
+    10.48
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 44,
+   "meshes": 1,
+   "bytes": 5664,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / road-side"
+  },
+  {
+   "id": "sidewalk_tile",
+   "file": "assets/props/kenney-roads/sidewalk_tile.glb",
+   "kind": "prop",
+   "tags": [
+    "sidewalk",
+    "pavement",
+    "tile"
+   ],
+   "suggested_locations": [
+    "street",
+    "private_events"
+   ],
+   "dims_m": [
+    8,
+    0.16,
+    8
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 12,
+   "meshes": 1,
+   "bytes": 5140,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / tile-low"
+  },
+  {
+   "id": "street_light_double",
+   "file": "assets/props/kenney-roads/street_light_double.glb",
+   "kind": "prop",
+   "tags": [
+    "street light",
+    "lamp post",
+    "double"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    0.4,
+    4.8,
+    3.4
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 88,
+   "meshes": 1,
+   "bytes": 6640,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / light-square-double"
+  },
+  {
+   "id": "street_light_curved",
+   "file": "assets/props/kenney-roads/street_light_curved.glb",
+   "kind": "prop",
+   "tags": [
+    "street light",
+    "lamp post"
+   ],
+   "suggested_locations": [
+    "street",
+    "school"
+   ],
+   "dims_m": [
+    0.4,
+    5.4,
+    1.8
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 92,
+   "meshes": 1,
+   "bytes": 6920,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / light-curved"
+  },
+  {
+   "id": "traffic_light",
+   "file": "assets/props/kenney-roads/traffic_light.glb",
+   "kind": "prop",
+   "tags": [
+    "traffic light",
+    "signal"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    0.94,
+    4.12,
+    0.72
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 212,
+   "meshes": 1,
+   "bytes": 9056,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / traffic-light"
+  },
+  {
+   "id": "traffic_light_hanging",
+   "file": "assets/props/kenney-roads/traffic_light_hanging.glb",
+   "kind": "prop",
+   "tags": [
+    "traffic light",
+    "overhead"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    0.94,
+    4.07,
+    2.36
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 230,
+   "meshes": 1,
+   "bytes": 9480,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / traffic-light-hanging"
+  },
+  {
+   "id": "stop_sign",
+   "file": "assets/props/kenney-roads/stop_sign.glb",
+   "kind": "prop",
+   "tags": [
+    "stop sign",
+    "road sign"
+   ],
+   "suggested_locations": [
+    "street",
+    "private_events"
+   ],
+   "dims_m": [
+    0.62,
+    3.95,
+    1.11
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 104,
+   "meshes": 1,
+   "bytes": 7144,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / road-sign-stop"
+  },
+  {
+   "id": "street_sign",
+   "file": "assets/props/kenney-roads/street_sign.glb",
+   "kind": "prop",
+   "tags": [
+    "street name sign"
+   ],
+   "suggested_locations": [
+    "street",
+    "private_events"
+   ],
+   "dims_m": [
+    1.57,
+    3.8,
+    1.57
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 154,
+   "meshes": 1,
+   "bytes": 8164,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / road-sign-street"
+  },
+  {
+   "id": "cone",
+   "file": "assets/props/kenney-roads/cone.glb",
+   "kind": "prop",
+   "tags": [
+    "traffic cone"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    0.6,
+    0.75,
+    0.6
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 66,
+   "meshes": 1,
+   "bytes": 6236,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / construction-cone"
+  },
+  {
+   "id": "barrier",
+   "file": "assets/props/kenney-roads/barrier.glb",
+   "kind": "prop",
+   "tags": [
+    "barrier",
+    "roadworks"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    1.08,
+    1.04,
+    1.8
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 60,
+   "meshes": 1,
+   "bytes": 6492,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / construction-barrier"
+  },
+  {
+   "id": "dumpster",
+   "file": "assets/props/kenney-roads/dumpster.glb",
+   "kind": "prop",
+   "tags": [
+    "dumpster",
+    "trash"
+   ],
+   "suggested_locations": [
+    "street",
+    "school"
+   ],
+   "dims_m": [
+    2.2,
+    1.68,
+    2.96
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 234,
+   "meshes": 3,
+   "bytes": 12876,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / dumpster"
+  },
+  {
+   "id": "utility_pole",
+   "file": "assets/props/kenney-roads/utility_pole.glb",
+   "kind": "prop",
+   "tags": [
+    "utility pole",
+    "power line"
+   ],
+   "suggested_locations": [
+    "street",
+    "private_events"
+   ],
+   "dims_m": [
+    4.63,
+    4.2,
+    1.71
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 8,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 416,
+   "meshes": 1,
+   "bytes": 15604,
+   "license": "CC0 1.0",
+   "author": "Kenney (kenney.nl)",
+   "source_url": "https://kenney.nl/assets/city-kit-roads",
+   "source_title": "City Kit (Roads) / electricity-pole"
+  },
+  {
+   "id": "car_sedan",
+   "file": "assets/props/vehicles/car_sedan.glb",
+   "kind": "prop",
+   "tags": [
+    "car",
+    "sedan"
+   ],
+   "suggested_locations": [
+    "street",
+    "private_events",
+    "work"
+   ],
+   "dims_m": [
+    1.97,
+    1.28,
+    4.6
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.08986,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 2954,
+   "meshes": 12,
+   "bytes": 63676,
+   "license": "CC0 1.0",
+   "author": "Quaternius",
+   "source_url": "https://poly.pizza/m/Cz6yDaUcM9",
+   "source_title": "Car"
+  },
+  {
+   "id": "car_hatchback",
+   "file": "assets/props/vehicles/car_hatchback.glb",
+   "kind": "prop",
+   "tags": [
+    "car",
+    "hatchback"
+   ],
+   "suggested_locations": [
+    "street",
+    "private_events",
+    "school"
+   ],
+   "dims_m": [
+    2.03,
+    1.42,
+    4.1
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.23881,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 3124,
+   "meshes": 13,
+   "bytes": 67844,
+   "license": "CC0 1.0",
+   "author": "Quaternius",
+   "source_url": "https://poly.pizza/m/unqqkULtRU",
+   "source_title": "Car"
+  },
+  {
+   "id": "car_suv",
+   "file": "assets/props/vehicles/car_suv.glb",
+   "kind": "prop",
+   "tags": [
+    "car",
+    "suv"
+   ],
+   "suggested_locations": [
+    "street",
+    "private_events"
+   ],
+   "dims_m": [
+    2.41,
+    1.74,
+    4.8
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.14032,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 3294,
+   "meshes": 12,
+   "bytes": 68888,
+   "license": "CC0 1.0",
+   "author": "Quaternius",
+   "source_url": "https://poly.pizza/m/xsMtZhBkxL",
+   "source_title": "SUV"
+  },
+  {
+   "id": "car_police",
+   "file": "assets/props/vehicles/car_police.glb",
+   "kind": "prop",
+   "tags": [
+    "car",
+    "police",
+    "cruiser"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    2.38,
+    1.66,
+    5
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.34031,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 3232,
+   "meshes": 14,
+   "bytes": 70648,
+   "license": "CC0 1.0",
+   "author": "Quaternius",
+   "source_url": "https://poly.pizza/m/BwwnUrWGmV",
+   "source_title": "Police Car"
+  },
+  {
+   "id": "fire_hydrant",
+   "file": "assets/props/street/fire_hydrant.glb",
+   "kind": "prop",
+   "tags": [
+    "fire hydrant"
+   ],
+   "suggested_locations": [
+    "street",
+    "private_events"
+   ],
+   "dims_m": [
+    0.5,
+    0.75,
+    0.39
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.97105,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 976,
+   "meshes": 1,
+   "bytes": 14308,
+   "license": "CC0 1.0",
+   "author": "Quaternius",
+   "source_url": "https://poly.pizza/m/DKkMQbEklp",
+   "source_title": "Fire Hydrant"
+  },
+  {
+   "id": "park_bench",
+   "file": "assets/props/street/park_bench.glb",
+   "kind": "prop",
+   "tags": [
+    "bench",
+    "park",
+    "wood"
+   ],
+   "suggested_locations": [
+    "street",
+    "school",
+    "private_events"
+   ],
+   "dims_m": [
+    1.8,
+    0.85,
+    0.66
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.70688,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 376,
+   "meshes": 1,
+   "bytes": 8520,
+   "license": "CC0 1.0",
+   "author": "Quaternius",
+   "source_url": "https://poly.pizza/m/jLxjFxFRpw",
+   "source_title": "Bench"
+  },
+  {
+   "id": "trash_can_street",
+   "file": "assets/props/street/trash_can_street.glb",
+   "kind": "prop",
+   "tags": [
+    "trash can",
+    "metal",
+    "outdoor"
+   ],
+   "suggested_locations": [
+    "street",
+    "school",
+    "private_events"
+   ],
+   "dims_m": [
+    0.63,
+    0.95,
+    0.63
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.51455,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 646,
+   "meshes": 1,
+   "bytes": 8560,
+   "license": "CC0 1.0",
+   "author": "Quaternius",
+   "source_url": "https://poly.pizza/m/eYNKnGlhon",
+   "source_title": "Trashcan Large"
+  },
+  {
+   "id": "street_light",
+   "file": "assets/props/street/street_light.glb",
+   "kind": "prop",
+   "tags": [
+    "street light",
+    "lamp post"
+   ],
+   "suggested_locations": [
+    "street",
+    "school",
+    "private_events"
+   ],
+   "dims_m": [
+    1.82,
+    6.5,
+    0.47
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 6.77143,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 176,
+   "meshes": 1,
+   "bytes": 14060,
+   "license": "CC0 1.0",
+   "author": "Kay Lousberg",
+   "source_url": "https://poly.pizza/m/vPFSLYh6sg",
+   "source_title": "Streetlight"
+  },
+  {
+   "id": "traffic_light_pole",
+   "file": "assets/props/street/traffic_light_pole.glb",
+   "kind": "prop",
+   "tags": [
+    "traffic light",
+    "mast arm"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    4.94,
+    6,
+    1.68
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 6.18885,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 444,
+   "meshes": 1,
+   "bytes": 20128,
+   "license": "CC0 1.0",
+   "author": "Kay Lousberg",
+   "source_url": "https://poly.pizza/m/aYC3t5ymln",
+   "source_title": "Traffic light"
+  },
+  {
+   "id": "mailbox",
+   "file": "assets/props/street/mailbox.glb",
+   "kind": "prop",
+   "tags": [
+    "mailbox",
+    "post",
+    "US"
+   ],
+   "suggested_locations": [
+    "private_events",
+    "home"
+   ],
+   "dims_m": [
+    0.19,
+    1.2,
+    0.59
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.2419,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 242,
+   "meshes": 1,
+   "bytes": 9620,
+   "license": "CC0 1.0",
+   "author": "CreativeTrio",
+   "source_url": "https://poly.pizza/m/2olZ0G8iur",
+   "source_title": "Mailbox"
+  },
+  {
+   "id": "tree_leafy",
+   "file": "assets/props/nature/tree_leafy.glb",
+   "kind": "prop",
+   "tags": [
+    "tree",
+    "deciduous"
+   ],
+   "suggested_locations": [
+    "private_events",
+    "street",
+    "school"
+   ],
+   "dims_m": [
+    4.15,
+    7,
+    4.41
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.96355,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 3439,
+   "meshes": 2,
+   "bytes": 239784,
+   "license": "CC0 1.0",
+   "author": "Quaternius",
+   "source_url": "https://poly.pizza/m/qZtx0AHhcy",
+   "source_title": "Tree"
+  },
+  {
+   "id": "tree_pine",
+   "file": "assets/props/nature/tree_pine.glb",
+   "kind": "prop",
+   "tags": [
+    "tree",
+    "pine",
+    "evergreen"
+   ],
+   "suggested_locations": [
+    "home",
+    "private_events",
+    "street"
+   ],
+   "dims_m": [
+    4.53,
+    8,
+    4.2
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.78152,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1912,
+   "meshes": 2,
+   "bytes": 128748,
+   "license": "CC0 1.0",
+   "author": "Quaternius",
+   "source_url": "https://poly.pizza/m/79gmlLnweB",
+   "source_title": "Pine"
+  },
+  {
+   "id": "bush",
+   "file": "assets/props/nature/bush.glb",
+   "kind": "prop",
+   "tags": [
+    "bush",
+    "shrub"
+   ],
+   "suggested_locations": [
+    "private_events",
+    "home",
+    "street",
+    "school"
+   ],
+   "dims_m": [
+    1.74,
+    1,
+    1.74
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.84159,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 360,
+   "meshes": 1,
+   "bytes": 23724,
+   "license": "CC0 1.0",
+   "author": "Quaternius",
+   "source_url": "https://poly.pizza/m/ooG6CkLyE8",
+   "source_title": "Bush"
+  },
+  {
+   "id": "bush_flowers",
+   "file": "assets/props/nature/bush_flowers.glb",
+   "kind": "prop",
+   "tags": [
+    "bush",
+    "flowers",
+    "garden"
+   ],
+   "suggested_locations": [
+    "private_events"
+   ],
+   "dims_m": [
+    1.09,
+    0.9,
+    1.12
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.56898,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1368,
+   "meshes": 2,
+   "bytes": 198776,
+   "license": "CC0 1.0",
+   "author": "Quaternius",
+   "source_url": "https://poly.pizza/m/U1ymDy8tbY",
+   "source_title": "Bush with Flowers"
+  },
+  {
+   "id": "hedge",
+   "file": "assets/props/nature/hedge.glb",
+   "kind": "prop",
+   "tags": [
+    "hedge",
+    "garden"
+   ],
+   "suggested_locations": [
+    "private_events",
+    "school"
+   ],
+   "dims_m": [
+    2.67,
+    1,
+    1
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.66667,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 372,
+   "meshes": 1,
+   "bytes": 14156,
+   "license": "CC0 1.0",
+   "author": "Isa Lousberg",
+   "source_url": "https://poly.pizza/m/So5EAOMoNy",
+   "source_title": "Hedge Straight Long"
+  },
+  {
+   "id": "houseplant_big",
+   "file": "assets/props/interior/houseplant_big.glb",
+   "kind": "prop",
+   "tags": [
+    "plant",
+    "monstera",
+    "indoor"
+   ],
+   "suggested_locations": [
+    "work",
+    "home",
+    "school",
+    "public_events"
+   ],
+   "dims_m": [
+    1.45,
+    1.1,
+    1.52
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.24737,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 449,
+   "meshes": 3,
+   "bytes": 9660,
+   "license": "CC0 1.0",
+   "author": "Quaternius",
+   "source_url": "https://poly.pizza/m/bfLOqIV5uP",
+   "source_title": "Houseplant"
+  },
+  {
+   "id": "office_chair",
+   "file": "assets/props/interior/office_chair.glb",
+   "kind": "prop",
+   "tags": [
+    "office chair",
+    "swivel",
+    "ergonomic"
+   ],
+   "suggested_locations": [
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    0.7,
+    1.1,
+    0.79
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.97556,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 2116,
+   "meshes": 3,
+   "bytes": 39216,
+   "license": "CC0 1.0",
+   "author": "Quaternius",
+   "source_url": "https://poly.pizza/m/UfKvrZBK6C",
+   "source_title": "Office Chair"
+  },
+  {
+   "id": "couch_leather",
+   "file": "assets/props/interior/couch_leather.glb",
+   "kind": "prop",
+   "tags": [
+    "couch",
+    "sofa",
+    "leather",
+    "lounge"
+   ],
+   "suggested_locations": [
+    "work",
+    "home",
+    "school"
+   ],
+   "dims_m": [
+    2.2,
+    0.85,
+    0.8
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.40179,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1460,
+   "meshes": 2,
+   "bytes": 14172,
+   "license": "CC0 1.0",
+   "author": "Quaternius",
+   "source_url": "https://poly.pizza/m/6MoOyPtetL",
+   "source_title": "Couch Large"
+  },
+  {
+   "id": "picture_frame",
+   "file": "assets/props/interior/picture_frame.glb",
+   "kind": "prop",
+   "tags": [
+    "picture frame",
+    "painting",
+    "wall art"
+   ],
+   "suggested_locations": [
+    "home",
+    "work",
+    "public_events"
+   ],
+   "dims_m": [
+    0.36,
+    0.5,
+    0.02
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.86663,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 164,
+   "meshes": 1,
+   "bytes": 8260,
+   "license": "CC0 1.0",
+   "author": "CreativeTrio",
+   "source_url": "https://poly.pizza/m/Pi6oReAizt",
+   "source_title": "Painting",
+   "note": "Stood upright; the picture faces +Z or -Z — check and rotate 180 deg if needed."
+  },
+  {
+   "id": "corkboard",
+   "file": "assets/props/interior/corkboard.glb",
+   "kind": "prop",
+   "tags": [
+    "corkboard",
+    "notice board",
+    "bulletin board"
+   ],
+   "suggested_locations": [
+    "school",
+    "work"
+   ],
+   "dims_m": [
+    1.2,
+    0.83,
+    0.05
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.57366,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 218,
+   "meshes": 1,
+   "bytes": 9080,
+   "license": "CC0 1.0",
+   "author": "CreativeTrio",
+   "source_url": "https://poly.pizza/m/U8yQZ9l0HZ",
+   "source_title": "Wall Corkboard"
+  },
+  {
+   "id": "printer",
+   "file": "assets/props/interior/printer.glb",
+   "kind": "prop",
+   "tags": [
+    "printer",
+    "office"
+   ],
+   "suggested_locations": [
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    0.35,
+    0.26,
+    0.5
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.31925,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 182,
+   "meshes": 1,
+   "bytes": 8572,
+   "license": "CC0 1.0",
+   "author": "CreativeTrio",
+   "source_url": "https://poly.pizza/m/77K2TCL5Lz",
+   "source_title": "Printer"
+  },
+  {
+   "id": "table_lamp_shade",
+   "file": "assets/props/interior/table_lamp_shade.glb",
+   "kind": "prop",
+   "tags": [
+    "lamp",
+    "table lamp",
+    "shade"
+   ],
+   "suggested_locations": [
+    "home",
+    "public_events"
+   ],
+   "dims_m": [
+    0.29,
+    0.6,
+    0.29
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.84655,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 786,
+   "meshes": 1,
+   "bytes": 23220,
+   "license": "CC0 1.0",
+   "author": "CreativeTrio",
+   "source_url": "https://poly.pizza/m/1nKtMmYxLT",
+   "source_title": "Lamp With Shade"
+  },
+  {
+   "id": "pendant_light",
+   "file": "assets/props/interior/pendant_light.glb",
+   "kind": "prop",
+   "tags": [
+    "ceiling light",
+    "pendant"
+   ],
+   "suggested_locations": [
+    "work",
+    "home",
+    "school"
+   ],
+   "dims_m": [
+    0.32,
+    0.9,
+    0.32
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.88923,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 196,
+   "meshes": 3,
+   "bytes": 6432,
+   "license": "CC0 1.0",
+   "author": "Quaternius",
+   "source_url": "https://poly.pizza/m/sRNcgQFbLB",
+   "source_title": "Ceiling Light"
+  },
+  {
+   "id": "chandelier",
+   "file": "assets/props/events/chandelier.glb",
+   "kind": "prop",
+   "tags": [
+    "chandelier",
+    "ballroom"
+   ],
+   "suggested_locations": [
+    "public_events",
+    "private_events"
+   ],
+   "dims_m": [
+    1.4,
+    1.23,
+    1.4
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.844,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1204,
+   "meshes": 1,
+   "bytes": 27392,
+   "license": "CC0 1.0",
+   "author": "CreativeTrio",
+   "source_url": "https://poly.pizza/m/RPLTkXHOOM",
+   "source_title": "Chandelier"
+  },
+  {
+   "id": "drinks_fridge",
+   "file": "assets/props/interior/drinks_fridge.glb",
+   "kind": "prop",
+   "tags": [
+    "drinks fridge",
+    "glass door",
+    "cooler"
+   ],
+   "suggested_locations": [
+    "street",
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    1.02,
+    1.9,
+    0.58
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.43327,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 3004,
+   "meshes": 3,
+   "bytes": 45840,
+   "license": "CC0 1.0",
+   "author": "Quaternius",
+   "source_url": "https://poly.pizza/m/8OHbykvREu",
+   "source_title": "Can Fridge"
+  },
+  {
+   "id": "bbq_grill",
+   "file": "assets/props/events/bbq_grill.glb",
+   "kind": "prop",
+   "tags": [
+    "barbecue",
+    "grill",
+    "backyard"
+   ],
+   "suggested_locations": [
+    "private_events"
+   ],
+   "dims_m": [
+    1.23,
+    1.15,
+    0.5
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.6221,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 655,
+   "meshes": 1,
+   "bytes": 20020,
+   "license": "CC0 1.0",
+   "author": "CreativeTrio",
+   "source_url": "https://poly.pizza/m/ZZyQvAYY5L",
+   "source_title": "Barbecue"
+  },
+  {
+   "id": "wedding_arch",
+   "file": "assets/props/events/wedding_arch.glb",
+   "kind": "prop",
+   "tags": [
+    "arch",
+    "wedding arch",
+    "white"
+   ],
+   "suggested_locations": [
+    "private_events"
+   ],
+   "dims_m": [
+    0.47,
+    2.6,
+    1.75
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 9.81438,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 898,
+   "meshes": 1,
+   "bytes": 32064,
+   "license": "CC0 1.0",
+   "author": "CreativeTrio",
+   "source_url": "https://poly.pizza/m/UNjhI7hudt",
+   "source_title": "Arch"
+  },
+  {
+   "id": "stage",
+   "file": "assets/props/events/stage.glb",
+   "kind": "prop",
+   "tags": [
+    "stage",
+    "platform",
+    "screen"
+   ],
+   "suggested_locations": [
+    "public_events"
+   ],
+   "dims_m": [
+    5,
+    1.96,
+    4.73
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.16021,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 6388,
+   "meshes": 5,
+   "bytes": 97024,
+   "license": "CC0 1.0",
+   "author": "iPoly3D",
+   "source_url": "https://poly.pizza/m/dGRAisemWy",
+   "source_title": "Stage"
+  },
+  {
+   "id": "mic_stand",
+   "file": "assets/props/events/mic_stand.glb",
+   "kind": "prop",
+   "tags": [
+    "microphone",
+    "mic stand"
+   ],
+   "suggested_locations": [
+    "public_events",
+    "private_events"
+   ],
+   "dims_m": [
+    0.25,
+    1.6,
+    0.3
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.9848,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1426,
+   "meshes": 4,
+   "bytes": 19564,
+   "license": "CC0 1.0",
+   "author": "iPoly3D",
+   "source_url": "https://poly.pizza/m/yqbacXdPsg",
+   "source_title": "Mic"
+  },
+  {
+   "id": "pa_speaker",
+   "file": "assets/props/events/pa_speaker.glb",
+   "kind": "prop",
+   "tags": [
+    "speaker",
+    "PA",
+    "audio"
+   ],
+   "suggested_locations": [
+    "public_events",
+    "private_events"
+   ],
+   "dims_m": [
+    0.69,
+    0.9,
+    0.49
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.25718,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 794,
+   "meshes": 4,
+   "bytes": 13132,
+   "license": "CC0 1.0",
+   "author": "iPoly3D",
+   "source_url": "https://poly.pizza/m/zOQOThSpuo",
+   "source_title": "Speaker"
+  },
+  {
+   "id": "gift_bow",
+   "file": "assets/props/events/gift_bow.glb",
+   "kind": "prop",
+   "tags": [
+    "gift",
+    "present",
+    "bow"
+   ],
+   "suggested_locations": [
+    "public_events",
+    "private_events",
+    "home"
+   ],
+   "dims_m": [
+    0.41,
+    0.4,
+    0.4
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.43918,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 228,
+   "meshes": 1,
+   "bytes": 9760,
+   "license": "CC0 1.0",
+   "author": "CreativeTrio",
+   "source_url": "https://poly.pizza/m/LVg3ynJDxa",
+   "source_title": "Present"
+  },
+  {
+   "id": "cake_birthday_tall",
+   "file": "assets/props/events/cake_birthday_tall.glb",
+   "kind": "prop",
+   "tags": [
+    "cake",
+    "birthday",
+    "candles"
+   ],
+   "suggested_locations": [
+    "private_events"
+   ],
+   "dims_m": [
+    0.32,
+    0.21,
+    0.32
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.26235,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 3040,
+   "meshes": 2,
+   "bytes": 49576,
+   "license": "CC0 1.0",
+   "author": "Isa Lousberg",
+   "source_url": "https://poly.pizza/m/JCT2SAoBud",
+   "source_title": "Cake Birthday"
+  },
+  {
+   "id": "whiteboard",
+   "file": "assets/props/interior/whiteboard.glb",
+   "kind": "prop",
+   "tags": [
+    "whiteboard",
+    "dry erase board"
+   ],
+   "suggested_locations": [
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    0.15,
+    1.26,
+    1.8
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 1.57895,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 52,
+   "meshes": 2,
+   "bytes": 3924,
+   "license": "CC-BY 3.0",
+   "author": "Jarlan Perez",
+   "source_url": "https://poly.pizza/m/cgrhoDImyFt",
+   "source_title": "Dry Erase Board"
+  },
+  {
+   "id": "locker",
+   "file": "assets/props/interior/locker.glb",
+   "kind": "prop",
+   "tags": [
+    "locker",
+    "school",
+    "metal"
+   ],
+   "suggested_locations": [
+    "school",
+    "work"
+   ],
+   "dims_m": [
+    0.61,
+    1.8,
+    0.56
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 2.25438,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 542,
+   "meshes": 3,
+   "bytes": 9548,
+   "license": "CC-BY 3.0",
+   "author": "J-Toastie",
+   "source_url": "https://poly.pizza/m/aGmZ4jQD2y",
+   "source_title": "Locker"
+  },
+  {
+   "id": "water_cooler",
+   "file": "assets/props/interior/water_cooler.glb",
+   "kind": "prop",
+   "tags": [
+    "water cooler",
+    "dispenser"
+   ],
+   "suggested_locations": [
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    0.27,
+    1.15,
+    0.31
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.29117,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1566,
+   "meshes": 4,
+   "bytes": 20440,
+   "license": "CC-BY 3.0",
+   "author": "J-Toastie",
+   "source_url": "https://poly.pizza/m/zWi9p5FSxD",
+   "source_title": "Water Cooler"
+  },
+  {
+   "id": "file_cabinet",
+   "file": "assets/props/interior/file_cabinet.glb",
+   "kind": "prop",
+   "tags": [
+    "file cabinet",
+    "office",
+    "metal"
+   ],
+   "suggested_locations": [
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    0.64,
+    1.3,
+    0.55
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.84103,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 876,
+   "meshes": 13,
+   "bytes": 21392,
+   "license": "CC-BY 3.0",
+   "author": "J-Toastie",
+   "source_url": "https://poly.pizza/m/9732ObD3OY",
+   "source_title": "File Cabinet"
+  },
+  {
+   "id": "vending_machine",
+   "file": "assets/props/interior/vending_machine.glb",
+   "kind": "prop",
+   "tags": [
+    "vending machine",
+    "drinks",
+    "snacks"
+   ],
+   "suggested_locations": [
+    "school",
+    "work",
+    "street"
+   ],
+   "dims_m": [
+    1,
+    1.85,
+    0.48
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 4.74359,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 2212,
+   "meshes": 48,
+   "bytes": 75328,
+   "license": "CC-BY 3.0",
+   "author": "Anastasiia Ku",
+   "source_url": "https://poly.pizza/m/aZcNr5-opYI",
+   "source_title": "Low poly vending machine"
+  },
+  {
+   "id": "school_desk",
+   "file": "assets/props/interior/school_desk.glb",
+   "kind": "prop",
+   "tags": [
+    "school desk",
+    "student desk",
+    "chair"
+   ],
+   "suggested_locations": [
+    "school"
+   ],
+   "dims_m": [
+    0.62,
+    0.85,
+    0.92
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.62547,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 1004,
+   "meshes": 13,
+   "bytes": 27260,
+   "license": "CC-BY 3.0",
+   "author": "Jonathan Granskog",
+   "source_url": "https://poly.pizza/m/eP6XIy9ox83",
+   "source_title": "school desk"
+  },
+  {
+   "id": "podium",
+   "file": "assets/props/events/podium.glb",
+   "kind": "prop",
+   "tags": [
+    "podium",
+    "lectern",
+    "pulpit"
+   ],
+   "suggested_locations": [
+    "public_events",
+    "school"
+   ],
+   "dims_m": [
+    0.67,
+    1.2,
+    0.72
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.06784,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 68,
+   "meshes": 1,
+   "bytes": 3220,
+   "license": "CC-BY 3.0",
+   "author": "4444ESOUSA",
+   "source_url": "https://poly.pizza/m/3nHkaEsTGL",
+   "source_title": "Pulpit"
+  },
+  {
+   "id": "balloons",
+   "file": "assets/props/events/balloons.glb",
+   "kind": "prop",
+   "tags": [
+    "balloons",
+    "party",
+    "bunch"
+   ],
+   "suggested_locations": [
+    "private_events",
+    "public_events"
+   ],
+   "dims_m": [
+    1.12,
+    1.7,
+    1.35
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.76436,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 5024,
+   "meshes": 8,
+   "bytes": 63288,
+   "license": "CC-BY 3.0",
+   "author": "Jarlan Perez",
+   "source_url": "https://poly.pizza/m/eRag_AC3KiS",
+   "source_title": "Balloons"
+  },
+  {
+   "id": "bounce_house",
+   "file": "assets/props/events/bounce_house.glb",
+   "kind": "prop",
+   "tags": [
+    "bounce house",
+    "bouncy castle",
+    "inflatable",
+    "kids party"
+   ],
+   "suggested_locations": [
+    "private_events"
+   ],
+   "dims_m": [
+    2.72,
+    2.56,
+    4.5
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 4752,
+   "meshes": 31,
+   "bytes": 44492,
+   "license": "CC-BY 3.0",
+   "author": "Poly by Google",
+   "source_url": "https://poly.pizza/m/0oKmmPJ_cD8",
+   "source_title": "Bouncy castle"
+  },
+  {
+   "id": "bus_shelter",
+   "file": "assets/props/street/bus_shelter.glb",
+   "kind": "prop",
+   "tags": [
+    "bus stop",
+    "bus shelter"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    3.66,
+    2.6,
+    2.37
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.09559,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 456,
+   "meshes": 2,
+   "bytes": 11100,
+   "license": "CC-BY 3.0",
+   "author": "Zsky",
+   "source_url": "https://poly.pizza/m/OWczicNWhO",
+   "source_title": "Bus Stop"
+  },
+  {
+   "id": "ebike",
+   "file": "assets/props/vehicles/ebike.glb",
+   "kind": "prop",
+   "tags": [
+    "e-bike",
+    "bicycle",
+    "fat tire"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": [
+    0.64,
+    1.07,
+    1.85
+   ],
+   "scale_to_meters": 1,
+   "baked_scale": 0.38318,
+   "up_axis": "+Y",
+   "pivot": "bottom-center",
+   "triangles": 2320,
+   "meshes": 4,
+   "bytes": 41184,
+   "license": "CC-BY 3.0",
+   "author": "Zsky",
+   "source_url": "https://poly.pizza/m/NHjJnFYYCc",
+   "source_title": "Bike"
+  },
+  {
+   "id": "hdri_snow_day",
+   "file": "assets/env/hdri/hdri_snow_day.hdr",
+   "kind": "hdri",
+   "tags": [
+    "day",
+    "overcast",
+    "snow",
+    "winter morning"
+   ],
+   "suggested_locations": [
+    "home"
+   ],
+   "dims_m": null,
+   "scale_to_meters": null,
+   "up_axis": "+Y",
+   "pivot": null,
+   "resolution": "1k (1024x512)",
+   "bytes": 1211017,
+   "license": "CC0 1.0",
+   "author": "Oliksiy Yakovlyev",
+   "source_url": "https://polyhaven.com/a/snowy_park_01",
+   "source_title": "Snowy Park 01"
+  },
+  {
+   "id": "hdri_suburb_day",
+   "file": "assets/env/hdri/hdri_suburb_day.hdr",
+   "kind": "hdri",
+   "tags": [
+    "day",
+    "overcast",
+    "suburban",
+    "garden"
+   ],
+   "suggested_locations": [
+    "private_events",
+    "work"
+   ],
+   "dims_m": null,
+   "scale_to_meters": null,
+   "up_axis": "+Y",
+   "pivot": null,
+   "resolution": "1k (1024x512)",
+   "bytes": 1641210,
+   "license": "CC0 1.0",
+   "author": "Greg Zaal, Rico Cilliers",
+   "source_url": "https://polyhaven.com/a/residential_garden",
+   "source_title": "Residential Garden"
+  },
+  {
+   "id": "hdri_suburb_dusk",
+   "file": "assets/env/hdri/hdri_suburb_dusk.hdr",
+   "kind": "hdri",
+   "tags": [
+    "evening",
+    "dusk",
+    "suburban",
+    "sunset"
+   ],
+   "suggested_locations": [
+    "school",
+    "public_events"
+   ],
+   "dims_m": null,
+   "scale_to_meters": null,
+   "up_axis": "+Y",
+   "pivot": null,
+   "resolution": "1k (1024x512)",
+   "bytes": 1721025,
+   "license": "CC0 1.0",
+   "author": "Andreas Mischok",
+   "source_url": "https://polyhaven.com/a/stuttgart_suburbs",
+   "source_title": "Stuttgart Suburbs"
+  },
+  {
+   "id": "hdri_city_night",
+   "file": "assets/env/hdri/hdri_city_night.hdr",
+   "kind": "hdri",
+   "tags": [
+    "night",
+    "urban",
+    "city lights"
+   ],
+   "suggested_locations": [
+    "street"
+   ],
+   "dims_m": null,
+   "scale_to_meters": null,
+   "up_axis": "+Y",
+   "pivot": null,
+   "resolution": "1k (1024x512)",
+   "bytes": 1655510,
+   "license": "CC0 1.0",
+   "author": "Greg Zaal",
+   "source_url": "https://polyhaven.com/a/modern_buildings_night",
+   "source_title": "Modern Buildings Night"
+  },
+  {
+   "id": "hdri_ballroom",
+   "file": "assets/env/hdri/hdri_ballroom.hdr",
+   "kind": "hdri",
+   "tags": [
+    "indoor",
+    "ballroom",
+    "warm",
+    "artificial light"
+   ],
+   "suggested_locations": [
+    "public_events"
+   ],
+   "dims_m": null,
+   "scale_to_meters": null,
+   "up_axis": "+Y",
+   "pivot": null,
+   "resolution": "1k (1024x512)",
+   "bytes": 1670493,
+   "license": "CC0 1.0",
+   "author": "Sergej Majboroda",
+   "source_url": "https://polyhaven.com/a/ballroom",
+   "source_title": "Ballroom"
+  },
+  {
+   "id": "hdri_studio",
+   "file": "assets/env/hdri/hdri_studio.hdr",
+   "kind": "hdri",
+   "tags": [
+    "studio",
+    "neutral",
+    "interior fill"
+   ],
+   "suggested_locations": [
+    "home",
+    "work",
+    "school",
+    "public_events"
+   ],
+   "dims_m": null,
+   "scale_to_meters": null,
+   "up_axis": "+Y",
+   "pivot": null,
+   "resolution": "1k (1024x512)",
+   "bytes": 1615248,
+   "license": "CC0 1.0",
+   "author": "Sergej Majboroda",
+   "source_url": "https://polyhaven.com/a/studio_small_09",
+   "source_title": "Studio Small 09"
+  },
+  {
+   "id": "tex_wood_floor",
+   "file": "assets/textures/wood_floor/",
+   "kind": "texture",
+   "maps": {
+    "diff": "assets/textures/wood_floor/diff.webp",
+    "nor": "assets/textures/wood_floor/nor.webp",
+    "rough": "assets/textures/wood_floor/rough.webp"
+   },
+   "tags": [
+    "floor",
+    "wood",
+    "planks"
+   ],
+   "suggested_locations": [
+    "home",
+    "private_events"
+   ],
+   "dims_m": [
+    1.7,
+    0,
+    1.7
+   ],
+   "real_size_m": [
+    1.7,
+    1.7
+   ],
+   "scale_to_meters": null,
+   "up_axis": null,
+   "pivot": null,
+   "normal_convention": "OpenGL",
+   "bytes": 121546,
+   "license": "CC0 1.0",
+   "author": "Dimitrios Savva",
+   "source_url": "https://polyhaven.com/a/wood_floor",
+   "source_title": "Wood Floor"
+  },
+  {
+   "id": "tex_laminate",
+   "file": "assets/textures/laminate/",
+   "kind": "texture",
+   "maps": {
+    "diff": "assets/textures/laminate/diff.webp",
+    "nor": "assets/textures/laminate/nor.webp",
+    "rough": "assets/textures/laminate/rough.webp"
+   },
+   "tags": [
+    "floor",
+    "laminate",
+    "light wood"
+   ],
+   "suggested_locations": [
+    "work",
+    "school"
+   ],
+   "dims_m": [
+    1.7,
+    0,
+    1.7
+   ],
+   "real_size_m": [
+    1.7,
+    1.7
+   ],
+   "scale_to_meters": null,
+   "up_axis": null,
+   "pivot": null,
+   "normal_convention": "OpenGL",
+   "bytes": 145020,
+   "license": "CC0 1.0",
+   "author": "Dario Barresi, Charlotte Baglioni",
+   "source_url": "https://polyhaven.com/a/laminate_floor_02",
+   "source_title": "Laminate Floor 02"
+  },
+  {
+   "id": "tex_parquet",
+   "file": "assets/textures/parquet/",
+   "kind": "texture",
+   "maps": {
+    "diff": "assets/textures/parquet/diff.webp",
+    "nor": "assets/textures/parquet/nor.webp",
+    "rough": "assets/textures/parquet/rough.webp"
+   },
+   "tags": [
+    "floor",
+    "parquet",
+    "herringbone",
+    "ballroom"
+   ],
+   "suggested_locations": [
+    "public_events",
+    "private_events"
+   ],
+   "dims_m": [
+    3.4,
+    0,
+    3.4
+   ],
+   "real_size_m": [
+    3.4,
+    3.4
+   ],
+   "scale_to_meters": null,
+   "up_axis": null,
+   "pivot": null,
+   "normal_convention": "OpenGL",
+   "bytes": 156170,
+   "license": "CC0 1.0",
+   "author": "Jenelle van Heerden, Sergej Majboroda",
+   "source_url": "https://polyhaven.com/a/herringbone_parquet",
+   "source_title": "Herringbone Parquet"
+  },
+  {
+   "id": "tex_floor_tiles",
+   "file": "assets/textures/floor_tiles/",
+   "kind": "texture",
+   "maps": {
+    "diff": "assets/textures/floor_tiles/diff.webp",
+    "nor": "assets/textures/floor_tiles/nor.webp",
+    "rough": "assets/textures/floor_tiles/rough.webp"
+   },
+   "tags": [
+    "floor",
+    "tiles",
+    "kitchen",
+    "corridor"
+   ],
+   "suggested_locations": [
+    "home",
+    "school",
+    "street"
+   ],
+   "dims_m": [
+    4,
+    0,
+    4
+   ],
+   "real_size_m": [
+    4,
+    4
+   ],
+   "scale_to_meters": null,
+   "up_axis": null,
+   "pivot": null,
+   "normal_convention": "OpenGL",
+   "bytes": 93160,
+   "license": "CC0 1.0",
+   "author": "Rob Tuytel",
+   "source_url": "https://polyhaven.com/a/floor_tiles_02",
+   "source_title": "Floor Tiles 02"
+  },
+  {
+   "id": "tex_carpet",
+   "file": "assets/textures/carpet/",
+   "kind": "texture",
+   "maps": {
+    "diff": "assets/textures/carpet/diff.webp",
+    "nor": "assets/textures/carpet/nor.webp",
+    "rough": "assets/textures/carpet/rough.webp"
+   },
+   "tags": [
+    "floor",
+    "carpet",
+    "office"
+   ],
+   "suggested_locations": [
+    "work",
+    "public_events",
+    "school"
+   ],
+   "dims_m": [
+    0.6,
+    0,
+    0.6
+   ],
+   "real_size_m": [
+    0.6,
+    0.6
+   ],
+   "scale_to_meters": null,
+   "up_axis": null,
+   "pivot": null,
+   "normal_convention": "OpenGL",
+   "bytes": 472366,
+   "license": "CC0 1.0",
+   "author": "Rohit Seervi",
+   "source_url": "https://polyhaven.com/a/dirty_carpet",
+   "source_title": "Dirty Carpet"
+  },
+  {
+   "id": "tex_plaster",
+   "file": "assets/textures/plaster/",
+   "kind": "texture",
+   "maps": {
+    "diff": "assets/textures/plaster/diff.webp",
+    "nor": "assets/textures/plaster/nor.webp",
+    "rough": "assets/textures/plaster/rough.webp"
+   },
+   "tags": [
+    "wall",
+    "plaster",
+    "painted",
+    "interior"
+   ],
+   "suggested_locations": [
+    "home",
+    "work",
+    "school",
+    "public_events",
+    "private_events"
+   ],
+   "dims_m": [
+    2,
+    0,
+    2
+   ],
+   "real_size_m": [
+    2,
+    2
+   ],
+   "scale_to_meters": null,
+   "up_axis": null,
+   "pivot": null,
+   "normal_convention": "OpenGL",
+   "bytes": 227992,
+   "license": "CC0 1.0",
+   "author": "Amal Kumar",
+   "source_url": "https://polyhaven.com/a/painted_plaster_wall",
+   "source_title": "Painted Plaster Wall"
+  },
+  {
+   "id": "tex_asphalt",
+   "file": "assets/textures/asphalt/",
+   "kind": "texture",
+   "maps": {
+    "diff": "assets/textures/asphalt/diff.webp",
+    "nor": "assets/textures/asphalt/nor.webp",
+    "rough": "assets/textures/asphalt/rough.webp"
+   },
+   "tags": [
+    "road",
+    "asphalt"
+   ],
+   "suggested_locations": [
+    "street",
+    "private_events"
+   ],
+   "dims_m": [
+    3,
+    0,
+    3
+   ],
+   "real_size_m": [
+    3,
+    3
+   ],
+   "scale_to_meters": null,
+   "up_axis": null,
+   "pivot": null,
+   "normal_convention": "OpenGL",
+   "bytes": 675968,
+   "license": "CC0 1.0",
+   "author": "Rob Tuytel",
+   "source_url": "https://polyhaven.com/a/asphalt_02",
+   "source_title": "Asphalt 02"
+  },
+  {
+   "id": "tex_sidewalk",
+   "file": "assets/textures/sidewalk/",
+   "kind": "texture",
+   "maps": {
+    "diff": "assets/textures/sidewalk/diff.webp",
+    "nor": "assets/textures/sidewalk/nor.webp",
+    "rough": "assets/textures/sidewalk/rough.webp"
+   },
+   "tags": [
+    "sidewalk",
+    "concrete",
+    "pavement"
+   ],
+   "suggested_locations": [
+    "street",
+    "private_events",
+    "school"
+   ],
+   "dims_m": [
+    1.8,
+    0,
+    1.8
+   ],
+   "real_size_m": [
+    1.8,
+    1.8
+   ],
+   "scale_to_meters": null,
+   "up_axis": null,
+   "pivot": null,
+   "normal_convention": "OpenGL",
+   "bytes": 479240,
+   "license": "CC0 1.0",
+   "author": "Charlotte Baglioni",
+   "source_url": "https://polyhaven.com/a/concrete_pavement",
+   "source_title": "Concrete Pavement"
+  },
+  {
+   "id": "tex_brick",
+   "file": "assets/textures/brick/",
+   "kind": "texture",
+   "maps": {
+    "diff": "assets/textures/brick/diff.webp",
+    "nor": "assets/textures/brick/nor.webp",
+    "rough": "assets/textures/brick/rough.webp"
+   },
+   "tags": [
+    "wall",
+    "brick",
+    "exterior"
+   ],
+   "suggested_locations": [
+    "street",
+    "school",
+    "private_events"
+   ],
+   "dims_m": [
+    1.4,
+    0,
+    1.4
+   ],
+   "real_size_m": [
+    1.4,
+    1.4
+   ],
+   "scale_to_meters": null,
+   "up_axis": null,
+   "pivot": null,
+   "normal_convention": "OpenGL",
+   "bytes": 271214,
+   "license": "CC0 1.0",
+   "author": "Rob Tuytel",
+   "source_url": "https://polyhaven.com/a/red_brick",
+   "source_title": "Red Brick"
+  },
+  {
+   "id": "tex_siding",
+   "file": "assets/textures/siding/",
+   "kind": "texture",
+   "maps": {
+    "diff": "assets/textures/siding/diff.webp",
+    "nor": "assets/textures/siding/nor.webp",
+    "rough": "assets/textures/siding/rough.webp"
+   },
+   "tags": [
+    "wall",
+    "siding",
+    "white planks",
+    "exterior"
+   ],
+   "suggested_locations": [
+    "private_events",
+    "home"
+   ],
+   "dims_m": [
+    1.8,
+    0,
+    1.8
+   ],
+   "real_size_m": [
+    1.8,
+    1.8
+   ],
+   "scale_to_meters": null,
+   "up_axis": null,
+   "pivot": null,
+   "normal_convention": "OpenGL",
+   "bytes": 33552,
+   "license": "CC0 1.0",
+   "author": "Rob Tuytel",
+   "source_url": "https://polyhaven.com/a/white_planks_clean",
+   "source_title": "White Planks Clean"
+  },
+  {
+   "id": "tex_grass",
+   "file": "assets/textures/grass/",
+   "kind": "texture",
+   "maps": {
+    "diff": "assets/textures/grass/diff.webp",
+    "nor": "assets/textures/grass/nor.webp",
+    "rough": "assets/textures/grass/rough.webp"
+   },
+   "tags": [
+    "ground",
+    "grass",
+    "lawn"
+   ],
+   "suggested_locations": [
+    "private_events",
+    "school"
+   ],
+   "dims_m": [
+    2,
+    0,
+    2
+   ],
+   "real_size_m": [
+    2,
+    2
+   ],
+   "scale_to_meters": null,
+   "up_axis": null,
+   "pivot": null,
+   "normal_convention": "OpenGL",
+   "bytes": 701426,
+   "license": "CC0 1.0",
+   "author": "Charlotte Baglioni",
+   "source_url": "https://polyhaven.com/a/leafy_grass",
+   "source_title": "Leafy Grass"
+  },
+  {
+   "id": "tex_snow",
+   "file": "assets/textures/snow/",
+   "kind": "texture",
+   "maps": {
+    "diff": "assets/textures/snow/diff.webp",
+    "nor": "assets/textures/snow/nor.webp",
+    "rough": "assets/textures/snow/rough.webp"
+   },
+   "tags": [
+    "ground",
+    "snow"
+   ],
+   "suggested_locations": [
+    "home",
+    "street"
+   ],
+   "dims_m": [
+    2,
+    0,
+    2
+   ],
+   "real_size_m": [
+    2,
+    2
+   ],
+   "scale_to_meters": null,
+   "up_axis": null,
+   "pivot": null,
+   "normal_convention": "OpenGL",
+   "bytes": 270896,
+   "license": "CC0 1.0",
+   "author": "Rob Tuytel",
+   "source_url": "https://polyhaven.com/a/snow_02",
+   "source_title": "Snow 02"
+  }
+ ]
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "work.amulet",
+    "location": "work",
+    "title": {
+      "ar": "التَّمائم وقلائد الحظ: قلادة لجلب الترقية",
+      "en": "Amulets and Lucky Charms: A Necklace for a Promotion"
+    },
+    "question": {
+      "ar": "هل يجوز للمسلم أن يلبس تَمِيمَة أو قلادة حظٍّ يعتقد أنها تجلب النفع أو تدفع الضرر، كأن تجلب له ترقية؟",
+      "en": "May a Muslim wear an amulet or lucky-charm necklace believing it brings benefit or wards off harm, such as winning a promotion?"
+    },
+    "verdict": "haram",
+    "content_level": "B",
+    "verdict_scope": {
+      "ar": "الحكم هنا للتميمة التي ليست من القرآن (خرزة أو تعويذة أو رمز حظ): محرمة باتفاق العلماء، ومن الشرك إن اعتُقد أنها تنفع بذاتها. أما تعليق ما كُتب فيه قرآن فمسألة خلافية بين السلف، والأرجح عند كثير من العلماء المنع.",
+      "en": "This ruling covers amulets that are not Quranic (a bead, talisman or luck symbol): forbidden by scholarly agreement, and shirk if one believes the object itself brings benefit. Hanging Quranic text is a separate question on which early scholars differed; many scholars prefer prohibition."
+    },
+    "consensus_sources": [
+      "الإسلام سؤال وجواب، فتوى 10543 «أحكام التمائم وتعليقها»: «اتفق العلماء على تحريم لبس التمائم إذا كانت من غير القرآن» — https://islamqa.info/ar/10543"
+    ],
+    "summary": {
+      "ar": "يؤمن المسلم أن النفع والضرر بيد الله وحده. لذلك اتفق العلماء على تحريم لبس التمائم التي ليست من القرآن، كالخرز والتعاويذ ورموز الحظ، وعدّوها شركاً إذا اعتقد لابسها أنها تجلب الخير أو تدفع الشر بذاتها. أما ما كُتب فيه قرآن فاختلفوا فيه، ورجّح كثير منهم المنع سداً للذريعة. والبديل المشروع: الأخذ بالأسباب الحقيقية، والدعاء، والتوكل على الله.",
+      "en": "A Muslim believes benefit and harm are in God's hands alone. Scholars therefore agree that wearing non-Quranic amulets, such as beads, talismans or luck symbols, is forbidden, and they count it as shirk if the wearer believes the object itself brings good or repels harm. Amulets containing Quranic text are disputed; many scholars prefer prohibition to close the door to misuse. The lawful alternative is to take real means, make supplication, and rely on God."
+    },
+    "quran": [],
+    "hadith": [],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "يحرم تعليق التميمة التي ليست من القرآن وذكر الله، باتفاق العلماء. وفي تعليق ما كُتب فيه قرآن خلاف مشهور.",
+        "position_en": "Hanging a non-Quranic amulet is forbidden by scholarly agreement. Hanging Quranic text is a well-known point of disagreement.",
+        "reference": "الإسلام سؤال وجواب، فتوى 10543 «أحكام التمائم وتعليقها» (حكاية اتفاق العلماء على تحريم التمائم من غير القرآن، والخلاف فيما كان من القرآن): https://islamqa.info/ar/10543",
+        "reference_status": "pending_verification"
+      },
+      "maliki": {
+        "position_ar": "يحرم تعليق التميمة التي ليست من القرآن، باتفاق العلماء. وفي تعليق ما كُتب فيه قرآن خلاف مشهور.",
+        "position_en": "Hanging a non-Quranic amulet is forbidden by scholarly agreement. Hanging Quranic text is a well-known point of disagreement.",
+        "reference": "الإسلام سؤال وجواب، فتوى 10543 «أحكام التمائم وتعليقها» (حكاية اتفاق العلماء على تحريم التمائم من غير القرآن، والخلاف فيما كان من القرآن): https://islamqa.info/ar/10543",
+        "reference_status": "pending_verification"
+      },
+      "shafii": {
+        "position_ar": "يحرم تعليق التميمة التي ليست من القرآن، باتفاق العلماء. وفي تعليق ما كُتب فيه قرآن خلاف مشهور.",
+        "position_en": "Hanging a non-Quranic amulet is forbidden by scholarly agreement. Hanging Quranic text is a well-known point of disagreement.",
+        "reference": "الإسلام سؤال وجواب، فتوى 10543 «أحكام التمائم وتعليقها» (حكاية اتفاق العلماء على تحريم التمائم من غير القرآن، والخلاف فيما كان من القرآن): https://islamqa.info/ar/10543",
+        "reference_status": "pending_verification"
+      },
+      "hanbali": {
+        "position_ar": "يحرم تعليق التميمة التي ليست من القرآن، باتفاق العلماء. وفي تعليق ما كُتب فيه قرآن روايتان مشهورتان بين المنع والجواز، ويرجّح كثير من المعاصرين المنع.",
+        "position_en": "Hanging a non-Quranic amulet is forbidden by scholarly agreement. On Quranic text there are two well-known views, prohibition and permission; many contemporary scholars prefer prohibition.",
+        "reference": "الإسلام سؤال وجواب، فتوى 10543 «أحكام التمائم وتعليقها» (حكاية اتفاق العلماء على تحريم التمائم من غير القرآن، والخلاف فيما كان من القرآن): https://islamqa.info/ar/10543",
+        "reference_status": "pending_verification"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "الإسلام سؤال وجواب (islamqa.info)",
+        "decision_ref": "فتوى رقم 10543: «أحكام التمائم وتعليقها وهل تدفع التميمة العين والحسد»",
+        "position_ar": "اتفق العلماء على تحريم لبس التمائم إذا كانت من غير القرآن، وهي من الشرك. واختلفوا فيما كان من القرآن، والقول بالنهي أرجح لعموم الأحاديث ولسدّ الذريعة.",
+        "position_en": "Scholars agree that wearing non-Quranic amulets is forbidden, and that it is a form of shirk. They differ on Quranic ones; the fatwa prefers prohibition because of the general texts and to close the door to misuse.",
+        "source_url": "https://islamqa.info/ar/10543"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "إن أهداك زميل تميمة حظ بنية طيبة، فاشكره على لطفه واعتذر عن لبسها بهدوء.",
+        "لا تحتاج إلى محاضرة: جملة قصيرة مثل «أنا أتوكّل على الله» تكفي وتحفظ الودّ.",
+        "خذ بالأسباب الحقيقية للنجاح: الاستعداد الجيد، والتدرّب، وطلب النصيحة.",
+        "التوكّل لا يعني ترك العمل، بل العمل الجادّ مع تفويض النتيجة إلى الله.",
+        "إذا شعرت بالقلق قبل موقف مهم، فالدعاء والذكر هما ما يلجأ إليه المسلم بدل الرموز."
+      ],
+      "en": [
+        "If a colleague kindly gives you a lucky charm, thank them for the thought and politely decline to wear it.",
+        "No lecture needed: a short line such as I put my trust in God is enough and keeps the friendship warm.",
+        "Take the real means of success: good preparation, practice, and asking for advice.",
+        "Tawakkul does not mean skipping the work; it means working hard and leaving the outcome to God.",
+        "When anxious before a big moment, a Muslim turns to supplication and remembrance of God instead of symbols."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "الاستعداد الجيد والتدرّب مع زميل",
+        "الدعاء قبل المقابلة",
+        "شكر صاحب الهدية مع الاعتذار عن لبسها"
+      ],
+      "en": [
+        "Solid preparation and rehearsing with a colleague",
+        "Supplication before the interview",
+        "Thanking the giver while declining to wear it"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "إن كانت القلادة أو الحرز فيها آيات من القرآن، أو كنت تتعامل مع رقية أو علاج روحي ولا تعرف حكمه، أو وجدت في نفسك تعلّقاً بالرموز يصعب تركه.",
+      "en": "If the necklace or charm contains Quranic verses, if you are dealing with ruqya or spiritual healing and are unsure of its ruling, or if you find yourself attached to symbols and struggle to let go."
+    },
+    "confidence": "high",
+    "review_status": "ai_draft",
+    "notes_for_reviewer": "مسودة جديدة (2026-10-06) لموقف «تميمة الحظ للترقية». أصل الحكم (تحريم التمائم من غير القرآن باتفاق، والخلاف فيما كان من القرآن) موثق من فتوى الإسلام سؤال وجواب 10543 بعد فتحها والتحقق من العبارتين: «اتفق العلماء على تحريم لبس التمائم إذا كانت من غير القرآن» و«والقول بالنهي أرجح لعموم الأحاديث ولسدّ الذريعة». تحتاج مراجعة: (1) خانات المذاهب الأربعة عامة ومنقولة عن حكاية الاتفاق، لا من كتب كل مذهب، فوُسمت pending_verification؛ ونسبة «روايتان» للحنابلة في القرآني تحتاج توثيقاً من كتب المذهب. (2) لم تُدرج نصوص آيات أو أحاديث عمداً (التزاماً بسياسة عدم توليد النصوص)؛ يمكن للمراجع إضافة الأدلة من sources.json إن رغب. (3) الدرر السنية حجبت الجلب الآلي (403).",
+    "newcomer_explainer": {
+      "ar": "في الإسلام، لا يملك شيءٌ من الخرز أو الرموز نفعاً ولا ضراً؛ الخير كله بيد الله وحده. لذلك لا يلبس المسلم تميمة حظ، بل يجتهد في عمله ثم يتوكّل على الله. هذا التوكّل يحرّر العقل من الخرافة ومن القلق: فالمسلم يبذل ما يستطيع، ويطمئن إلى أن النتيجة عند ربه.",
+      "en": "In Islam, no bead or symbol holds any power to help or harm; all good is in God's hands alone. So a Muslim does not wear a lucky charm; he works hard and then relies on God. This reliance, called tawakkul, frees the mind from superstition and anxiety: a Muslim does his best and trusts the outcome to his Lord."
+    }
+  },
+  {
+    "id": "work.hijab",
+    "location": "work",
+    "title": {
+      "ar": "الحِجَاب في العمل: الاحترام والتكريم",
+      "en": "Hijab at Work: Respect and Dignity"
+    },
+    "question": {
+      "ar": "هل الحجاب واجب على المرأة المسلمة البالغة، وهل لها أن تخلعه في العمل أو في صورة رسمية إذا طُلب منها ذلك؟",
+      "en": "Is hijab required of an adult Muslim woman, and may she take it off at work or for an official photo if asked?"
+    },
+    "verdict": "wajib",
+    "content_level": "B",
+    "verdict_scope": {
+      "ar": "ستر المرأة المسلمة البالغة جسدها وشعرها أمام الرجال الأجانب واجب عند المذاهب الأربعة. واختلف الفقهاء في وجوب ستر الوجه والكفين. ولا يُبيح طلبُ المصوّر أو الزميل خلعَ الحجاب.",
+      "en": "Covering the body and hair in front of unrelated men is required of an adult Muslim woman according to the four schools. Jurists differ on whether the face and hands must also be covered. A photographer's or colleague's request does not make removing it permissible."
+    },
+    "consensus_sources": [
+      "دار الإفتاء المصرية، فتوى 8832 «حكم الحجاب في الإسلام» (د. نظير محمد عياد، 16 نوفمبر 2025): «حجاب المرأة المسلمة البالغة واجبٌ شرعًا» «بإجماع علماء المسلمين» — https://dar-alifta.org/ar/fatwa/details/22525"
+    ],
+    "summary": {
+      "ar": "الحجاب، ومنه ستر الشعر، واجب على كل امرأة مسلمة بلغت، وهذا محل إجماع عند الفقهاء على اختلاف مذاهبهم، مع خلاف في الوجه والكفين. وهو عبادة تؤديها المرأة طاعةً لله، وليس عادة اجتماعية. ومن مقاصده أن تُعامَل المرأة بعقلها وخلقها وعملها، لا بجسدها.",
+      "en": "Hijab, including covering the hair, is required of every Muslim woman who has reached adulthood; jurists of all schools agree on this, while differing about the face and hands. It is worship she performs in obedience to God, not a social custom. One of its aims is that a woman is treated for her mind, character and work, not her body."
+    },
+    "quran": [],
+    "hadith": [],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "يجب على المرأة البالغة ستر جسدها وشعرها أمام الأجانب. والوجه والكفان ليسا من العورة عندهم في الأصل.",
+        "position_en": "An adult woman must cover her body and hair before unrelated men. In principle the face and hands are not part of the awra in this school.",
+        "reference": "دار الإفتاء المصرية، فتوى 8832 «حكم الحجاب في الإسلام» (الوجوب بإجماع العلماء «على اختلاف مذاهبهم الفقهية»): https://dar-alifta.org/ar/fatwa/details/22525",
+        "reference_status": "pending_verification"
+      },
+      "maliki": {
+        "position_ar": "يجب على المرأة البالغة ستر جسدها وشعرها أمام الأجانب. والوجه والكفان ليسا من العورة عندهم.",
+        "position_en": "An adult woman must cover her body and hair before unrelated men. The face and hands are not part of the awra in this school.",
+        "reference": "دار الإفتاء المصرية، فتوى 8832 «حكم الحجاب في الإسلام» (الوجوب بإجماع العلماء «على اختلاف مذاهبهم الفقهية»): https://dar-alifta.org/ar/fatwa/details/22525",
+        "reference_status": "pending_verification"
+      },
+      "shafii": {
+        "position_ar": "يجب على المرأة البالغة ستر جسدها وشعرها أمام الأجانب. وفي الوجه والكفين تفصيل وخلاف داخل المذهب.",
+        "position_en": "An adult woman must cover her body and hair before unrelated men. On the face and hands there is detail and internal disagreement in the school.",
+        "reference": "دار الإفتاء المصرية، فتوى 8832 «حكم الحجاب في الإسلام» (الوجوب بإجماع العلماء «على اختلاف مذاهبهم الفقهية»): https://dar-alifta.org/ar/fatwa/details/22525",
+        "reference_status": "pending_verification"
+      },
+      "hanbali": {
+        "position_ar": "يجب على المرأة البالغة ستر جسدها وشعرها أمام الأجانب. وفي الوجه والكفين خلاف داخل المذهب.",
+        "position_en": "An adult woman must cover her body and hair before unrelated men. On the face and hands there is internal disagreement in the school.",
+        "reference": "دار الإفتاء المصرية، فتوى 8832 «حكم الحجاب في الإسلام» (الوجوب بإجماع العلماء «على اختلاف مذاهبهم الفقهية»): https://dar-alifta.org/ar/fatwa/details/22525",
+        "reference_status": "pending_verification"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "دار الإفتاء المصرية — د. نظير محمد عياد، مفتي الجمهورية",
+        "decision_ref": "فتوى رقم 8832 «حكم الحجاب في الإسلام»، 16 نوفمبر 2025",
+        "position_ar": "حجاب المرأة المسلمة البالغة، ومنه ستر الشعر، واجب شرعاً على كل من بلغت سن التكليف بإجماع علماء المسلمين، ويجب عليها ستر جسدها ما عدا الوجه والكفين.",
+        "position_en": "The hijab of an adult Muslim woman, including covering the hair, is a religious obligation on everyone who reaches the age of accountability, by consensus of Muslim scholars; she must cover her body except the face and hands.",
+        "source_url": "https://dar-alifta.org/ar/fatwa/details/22525"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "إذا طُلب منكِ خلع الحجاب في صورة أو حدث، فاعتذري بلطف ووضوح، واشكري صاحب الطلب على حسن نيته.",
+        "كثير من جهات العمل تحترم اللباس الديني؛ ويمكنكِ أن تسألي قسم الموارد البشرية عن سياسة الشركة.",
+        "يمكن أن يكون الحجاب أنيقاً ومناسباً للعمل: ألوان هادئة أو مشرقة، وتصاميم مهنية.",
+        "إن سألكِ زميل عن الحجاب، فهذه فرصة لشرح معناه باختصار وابتسامة."
+      ],
+      "en": [
+        "If you are asked to remove your hijab for a photo or event, decline kindly and clearly, and thank the person for their good intent.",
+        "Many workplaces respect religious dress; you can ask HR about the company's policy.",
+        "Hijab can be elegant and work-appropriate: calm or bright colours and professional styles.",
+        "If a colleague asks about your hijab, it's a chance to explain its meaning briefly and with a smile."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "الظهور في الصورة بالحجاب بلون يناسب الفريق",
+        "طلب صورة فردية بديلة إن لزم"
+      ],
+      "en": [
+        "Appearing in the photo wearing hijab in a colour that suits the team",
+        "Asking for an alternative individual photo if needed"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "إذا واجهتِ اشتراطاً وظيفياً صريحاً بخلع الحجاب يهدد عملكِ أو رزقكِ، أو كانت لديكِ ضرورة طبية أو أمنية، أو سألتِ عن ستر الوجه والكفين تحديداً.",
+      "en": "If you face an explicit job requirement to remove hijab that threatens your livelihood, if there is a medical or security necessity, or if you are asking specifically about covering the face and hands."
+    },
+    "confidence": "high",
+    "review_status": "ai_draft",
+    "notes_for_reviewer": "مسودة جديدة (2026-10-06) لموقف «الزميلة المعتزّة بحجابها». أصل الحكم موثق من فتوى دار الإفتاء المصرية 8832 بعد فتحها: الوجوب «بإجماع علماء المسلمين» وستر الجسد «ما عدا الوجه والكفين». تحتاج مراجعة: (1) خانات المذاهب عامة؛ نسبة أن الوجه والكفين ليسا عورة عند الحنفية والمالكية، ووجود الخلاف عند الشافعية والحنابلة، من المعلوم المشهور لكنها لم تُوثَّق من كتب المذاهب (الدرر السنية حجبت الجلب الآلي 403)، فوُسمت pending_verification. (2) لم تُدرج نصوص آيات أو أحاديث عمداً. (3) الإرشاد العملي عن سياسات جهات العمل عام وغير مرتبط ببلد.",
+    "newcomer_explainer": {
+      "ar": "الحجاب عبادة تؤديها المرأة المسلمة البالغة طاعةً لله، وقد اتفق الفقهاء على وجوب ستر جسدها وشعرها أمام الرجال الأجانب. وكثير من المسلمات يرين فيه حريةً لا قيداً: فهو يحرّر المرأة من أن تُقاس بجسدها، ويطلب من الآخرين أن يحترموا عقلها وشخصها وعملها.",
+      "en": "Hijab is an act of worship that an adult Muslim woman performs in obedience to God; jurists agree she must cover her body and hair in front of unrelated men. Many Muslim women see it as freedom rather than restriction: it frees a woman from being measured by her body and asks others to respect her mind, her person and her work."
+    }
+  }
+]

@@ -1,0 +1,819 @@
+{
+  "game_title": {
+    "ar": "يومك",
+    "en": "Yawmuk — Your Day"
+  },
+  "game_subtitle": {
+    "ar": "أسبوع مع جيران وأصدقاء مسلمين: تعرّف على الإسلام من مواقف الحياة اليومية",
+    "en": "A week with Muslim neighbors and friends: get to know Islam through everyday life"
+  },
+  "start": {
+    "basics": {
+      "ar": "ابدأ بالأساس: التوحيد",
+      "en": "Start with the basics: Tawhid"
+    },
+    "basics_item": "qa.basics.tawhid",
+    "play": {
+      "ar": "ابدأ اليوم",
+      "en": "Start the Day"
+    },
+    "continue": {
+      "ar": "متابعة",
+      "en": "Continue"
+    },
+    "how_to_play": {
+      "ar": "طريقة اللعب",
+      "en": "How to Play"
+    },
+    "about": {
+      "ar": "عن اللعبة",
+      "en": "About"
+    },
+    "settings": {
+      "ar": "الإعدادات",
+      "en": "Settings"
+    },
+    "intro_title": {
+      "ar": "تعرّف على آدم",
+      "en": "Meet Adam"
+    },
+    "intro_body": {
+      "ar": "آدم، 28 سنة، مبرمج يعيش مع أمه وأخيه في حيّ السلام. حوله جيران وزملاء مسلمون — صديقه عمر، زميله سمير، زميلته نور وغيرهم — وقد صار يتساءل: لماذا يختارون ما يختارونه؟ في هذه اللعبة ترافق آدم أسبوعاً، وتختار كيف يسأل ويتصرف، ثم تعرف ما يقوله الإسلام ولماذا.",
+      "en": "Adam, 28, is a programmer living with his mom and his brother in the Al-Salam neighbourhood. Around him are Muslim neighbors and coworkers — his friend Omar, his teammate Samir, his classmate Noor and others — and he's started to wonder: why do they make the choices they make? In this game you spend a week with Adam, choose how he asks and responds, and then learn what Islam says and why."
+    },
+    "intro_note": {
+      "ar": "لا يُطلب منك أن تكون مسلماً أو غير مسلم لتلعب. اللعبة للتعرّف والفهم فقط.",
+      "en": "You don't need to be Muslim — or not Muslim — to play. This game is simply about learning and understanding."
+    }
+  },
+  "language": {
+    "choose": {
+      "ar": "اختر اللغة",
+      "en": "Choose your language"
+    },
+    "arabic": {
+      "ar": "العربية",
+      "en": "Arabic"
+    },
+    "english": {
+      "ar": "الإنجليزية",
+      "en": "English"
+    },
+    "switch": {
+      "ar": "English",
+      "en": "العربية"
+    }
+  },
+  "instructions": {
+    "title": {
+      "ar": "طريقة اللعب",
+      "en": "How to Play"
+    },
+    "desktop": {
+      "ar": [
+        "تحرّك بالأسهم أو W A S D.",
+        "اسحب بالفأرة للالتفات.",
+        "اقترب من العلامة المضيئة واضغط E أو انقر عليها لبدء الموقف."
+      ],
+      "en": [
+        "Move with the arrow keys or W A S D.",
+        "Drag with the mouse to look around.",
+        "Walk up to a glowing marker and press E or click it to start a situation."
+      ]
+    },
+    "mobile": {
+      "ar": [
+        "استعمل عصا التحكم أسفل الشاشة للتحرك.",
+        "اسحب بإصبعك على الشاشة للالتفات.",
+        "المس العلامة المضيئة لبدء الموقف."
+      ],
+      "en": [
+        "Use the on-screen joystick to move.",
+        "Swipe the screen to look around.",
+        "Tap a glowing marker to start a situation."
+      ]
+    },
+    "flow": {
+      "ar": [
+        "في كل محطة ثلاثة مواقف يلتقي فيها آدم بصديق أو جار مسلم.",
+        "اختر كيف يسأل آدم أو يتصرف. أفضل الخيارات هي الأكثر احتراماً وفضولاً، والتي تقود إلى فهم صحيح.",
+        "بعد اختيارك سترى أثره في القصة، ثم بطاقة تشرح موقف الإسلام ببساطة، مع أدلته وأقوال العلماء.",
+        "أجب عن سؤال الفهم القصير لتحصل على نقاط إضافية.",
+        "حين تنتهي المواقف الثلاثة، اتجه إلى الباب للانتقال إلى المحطة التالية."
+      ],
+      "en": [
+        "Each stop has three situations where Adam meets a Muslim friend or neighbor.",
+        "Choose how Adam asks or responds. The best choices are the most respectful and curious ones — the ones that lead to real understanding.",
+        "After you choose, you'll see how it plays out, then a card explaining Islam's position in plain words, with its evidence and scholars' views.",
+        "Answer the short check question for bonus points.",
+        "Once all three situations are done, head to the exit to move to the next stop."
+      ]
+    },
+    "got_it": {
+      "ar": "فهمت، لنبدأ",
+      "en": "Got it, let's go"
+    }
+  },
+  "hud": {
+    "location": {
+      "ar": "المكان",
+      "en": "Location"
+    },
+    "time": {
+      "ar": "الوقت",
+      "en": "Time"
+    },
+    "score": {
+      "ar": "نقاط الفهم",
+      "en": "Understanding"
+    },
+    "progress": {
+      "ar": "المواقف",
+      "en": "Situations"
+    },
+    "interact_hint": {
+      "ar": "اضغط E للتفاعل",
+      "en": "Press E to interact"
+    },
+    "interact_hint_mobile": {
+      "ar": "المس للتفاعل",
+      "en": "Tap to interact"
+    },
+    "exit_locked": {
+      "ar": "أكمل مواقف هذا المكان أولاً",
+      "en": "Finish this location's situations first"
+    },
+    "exit_ready": {
+      "ar": "الطريق مفتوح — اتجه إلى الباب",
+      "en": "You're all set — head for the exit"
+    },
+    "pause": {
+      "ar": "إيقاف مؤقت",
+      "en": "Pause"
+    },
+    "resume": {
+      "ar": "استئناف",
+      "en": "Resume"
+    },
+    "mute": {
+      "ar": "كتم الصوت",
+      "en": "Mute"
+    },
+    "unmute": {
+      "ar": "تشغيل الصوت",
+      "en": "Unmute"
+    }
+  },
+  "locations": {
+    "home": {
+      "ar": "البيت",
+      "en": "Home"
+    },
+    "work": {
+      "ar": "العمل",
+      "en": "Work"
+    },
+    "school": {
+      "ar": "الكلية",
+      "en": "College"
+    },
+    "street": {
+      "ar": "الشارع",
+      "en": "The Street"
+    },
+    "public_events": {
+      "ar": "حفل الشركة",
+      "en": "Company Party"
+    },
+    "private_events": {
+      "ar": "الجيران والعرس",
+      "en": "Neighbors & Wedding"
+    }
+  },
+  "dialogue": {
+    "next": {
+      "ar": "التالي",
+      "en": "Next"
+    },
+    "skip": {
+      "ar": "تخطّي",
+      "en": "Skip"
+    },
+    "skip_line": {
+      "ar": "أظهر الجملة كاملة",
+      "en": "Show the full line"
+    },
+    "choice_hint": {
+      "ar": "اختر بالنقر أو بالأرقام 1–4",
+      "en": "Tap a choice or press 1–4"
+    },
+    "narrator": {
+      "ar": "الراوي",
+      "en": "Narrator"
+    },
+    "adam": {
+      "ar": "آدم",
+      "en": "Adam"
+    },
+    "what_do_you_do": {
+      "ar": "ماذا سيفعل آدم؟",
+      "en": "What does Adam do?"
+    }
+  },
+  "result": {
+    "best": {
+      "ar": "فهم واحترام",
+      "en": "Curious and respectful"
+    },
+    "acceptable": {
+      "ar": "مهذب لكن ناقص",
+      "en": "Polite, but missed something"
+    },
+    "wrong": {
+      "ar": "افتراض خاطئ أو موقف محرج",
+      "en": "A wrong assumption or awkward moment"
+    },
+    "points_earned": {
+      "ar": "نقاط مكتسبة",
+      "en": "Points earned"
+    },
+    "see_ruling": {
+      "ar": "ماذا يقول الإسلام؟",
+      "en": "What does Islam say?"
+    }
+  },
+  "ruling_card": {
+    "title": {
+      "ar": "بطاقة الحكم",
+      "en": "Ruling Card"
+    },
+    "question": {
+      "ar": "المسألة",
+      "en": "The question"
+    },
+    "newcomer_explainer": {
+      "ar": "ببساطة",
+      "en": "In plain words"
+    },
+    "verdict": {
+      "ar": "الحكم الإجمالي",
+      "en": "Overall ruling"
+    },
+    "verdict_level_c": {
+      "ar": "قول جمهور العلماء",
+      "en": "Majority scholarly view"
+    },
+    "content_level": {
+      "ar": "مستوى المحتوى",
+      "en": "Content level"
+    },
+    "content_levels": {
+      "A": {
+        "ar": "أ: معلومة أصلية مستقرة",
+        "en": "A: stable core information"
+      },
+      "B": {
+        "ar": "ب: شرح واستدلال",
+        "en": "B: explanation & reasoning"
+      },
+      "C": {
+        "ar": "ج: مسألة خلافية أو حساسة",
+        "en": "C: disputed or sensitive"
+      },
+      "D": {
+        "ar": "د: حالة شخصية — لا فتوى",
+        "en": "D: personal case — no fatwa"
+      }
+    },
+    "source_tiers": {
+      "approved_package": {
+        "ar": "من مراجع الحزمة العلمية المعتمدة",
+        "en": "From the challenge's approved reference package"
+      },
+      "secondary": {
+        "ar": "مرجع مساند (خارج قائمة الحزمة)",
+        "en": "Supporting reference (outside the package list)"
+      }
+    },
+    "summary": {
+      "ar": "الخلاصة",
+      "en": "Summary"
+    },
+    "quran": {
+      "ar": "من القرآن الكريم",
+      "en": "From the Qur'an"
+    },
+    "hadith": {
+      "ar": "من السنة النبوية",
+      "en": "From the Prophet's teachings (Hadith)"
+    },
+    "madhahib": {
+      "ar": "أقوال المذاهب الأربعة",
+      "en": "The four schools of Islamic law"
+    },
+    "hanafi": {
+      "ar": "الحنفية",
+      "en": "Hanafi"
+    },
+    "maliki": {
+      "ar": "المالكية",
+      "en": "Maliki"
+    },
+    "shafii": {
+      "ar": "الشافعية",
+      "en": "Shafi'i"
+    },
+    "hanbali": {
+      "ar": "الحنابلة",
+      "en": "Hanbali"
+    },
+    "contemporary": {
+      "ar": "المجامع والهيئات المعاصرة",
+      "en": "Contemporary fiqh councils"
+    },
+    "practical": {
+      "ar": "كيف يطبّق المسلمون ذلك",
+      "en": "How Muslims put it into practice"
+    },
+    "alternatives": {
+      "ar": "البدائل الحلال",
+      "en": "Halal alternatives"
+    },
+    "refer": {
+      "ar": "متى يسأل المسلم عالماً؟",
+      "en": "When a Muslim asks a scholar"
+    },
+    "show_details": {
+      "ar": "التفاصيل والأدلة",
+      "en": "Details and evidence"
+    },
+    "hide_details": {
+      "ar": "إخفاء التفاصيل",
+      "en": "Hide details"
+    },
+    "source": {
+      "ar": "المصدر",
+      "en": "Source"
+    },
+    "grade": {
+      "ar": "الدرجة",
+      "en": "Grade"
+    },
+    "reference": {
+      "ar": "المرجع",
+      "en": "Reference"
+    },
+    "text_pending": {
+      "ar": "النص قيد التحقق ولم يُعرض بعد",
+      "en": "Text pending verification — not shown yet"
+    },
+    "confidence": {
+      "ar": "درجة الثقة",
+      "en": "Confidence"
+    },
+    "review_status_ai_draft": {
+      "ar": "مسودة بالذكاء الاصطناعي — بانتظار مراجعة بشرية",
+      "en": "AI draft — awaiting human review"
+    },
+    "close": {
+      "ar": "إغلاق",
+      "en": "Close"
+    },
+    "expand": {
+      "ar": "إظهار",
+      "en": "Show"
+    },
+    "collapse": {
+      "ar": "إخفاء",
+      "en": "Hide"
+    },
+    "external_link": {
+      "ar": "يفتح في نافذة جديدة",
+      "en": "opens in a new tab"
+    },
+    "verdicts": {
+      "haram": {
+        "ar": "حرام",
+        "en": "Prohibited (haram)"
+      },
+      "halal": {
+        "ar": "حلال",
+        "en": "Permissible (halal)"
+      },
+      "makruh": {
+        "ar": "مكروه",
+        "en": "Discouraged (makruh)"
+      },
+      "mubah": {
+        "ar": "مباح",
+        "en": "Permissible (mubah)"
+      },
+      "mustahab": {
+        "ar": "مستحب",
+        "en": "Recommended (mustahab)"
+      },
+      "wajib": {
+        "ar": "واجب",
+        "en": "Obligatory (wajib)"
+      },
+      "disputed": {
+        "ar": "مسألة خلافية",
+        "en": "Scholars differ"
+      },
+      "depends": {
+        "ar": "يختلف بحسب الحال",
+        "en": "Depends on the situation"
+      }
+    },
+    "confidence_levels": {
+      "high": {
+        "ar": "عالية",
+        "en": "High"
+      },
+      "medium": {
+        "ar": "متوسطة",
+        "en": "Medium"
+      },
+      "low": {
+        "ar": "منخفضة",
+        "en": "Low"
+      }
+    }
+  },
+  "glossary": {
+    "title": {
+      "ar": "مصطلحات",
+      "en": "Glossary"
+    },
+    "halal": {
+      "ar": "حلال: المباح في الإسلام.",
+      "en": "Halal: permissible in Islam."
+    },
+    "haram": {
+      "ar": "حرام: الممنوع في الإسلام.",
+      "en": "Haram: prohibited in Islam."
+    },
+    "riba": {
+      "ar": "ربا: الزيادة المشروطة على الدَّين (الفائدة).",
+      "en": "Riba: a stipulated increase on a debt (interest)."
+    },
+    "madhhab": {
+      "ar": "مذهب: مدرسة فقهية؛ أشهرها عند أهل السنة أربعة.",
+      "en": "Madhhab: a school of Islamic law; the four best known among Sunni Muslims."
+    },
+    "imam": {
+      "ar": "إمام: من يؤم الصلاة ويُرجع إليه في المسجد.",
+      "en": "Imam: the person who leads prayer and serves as a guide at the mosque."
+    },
+    "mahr": {
+      "ar": "مهر: هدية واجبة من العريس للعروس، وهي حقها وحدها.",
+      "en": "Mahr: a required gift from the groom to the bride, which belongs to her alone."
+    },
+    "eid": {
+      "ar": "عيد: عيدا المسلمين هما الفطر والأضحى.",
+      "en": "Eid: the two Muslim holidays, Eid al-Fitr and Eid al-Adha."
+    },
+    "tawhid": {
+      "ar": "التوحيد (Tawhid): إفراد الله بالربوبية والألوهية (العبادة)، ووصفه بما جاء به الوحي من أسمائه الحسنى وصفاته؛ ولا يُختزل في مجرد الوحدانية العددية.",
+      "en": "Tawhid (Oneness of God): singling out Allah in His lordship, in worship, and in His names and attributes as revealed; it is not reduced to mere numerical oneness."
+    },
+    "sharia": {
+      "ar": "الشريعة: ما شرعه الله لعباده من العقائد والعبادات والأخلاق والمعاملات؛ تُشرح بحسب السياق ولا تُختزل في العقوبات أو القانون الجنائي.",
+      "en": "Sharia (Islamic law and guidance): what Allah has prescribed for people in belief, worship, character and dealings; explained by context and not reduced to penalties or criminal law."
+    },
+    "hadith": {
+      "ar": "الحديث: ما نُقل عن النبي عليه الصلاة والسلام من قول أو فعل أو تقرير ونحو ذلك، مع بيان درجة ثبوته (صحيح، حسن، ضعيف) عند الاستدلال به.",
+      "en": "Hadith: what is reported from the Prophet (peace be upon him) of his words, actions or tacit approvals, cited together with its grade of authenticity (sahih, hasan, da'if)."
+    },
+    "sunnah": {
+      "ar": "السنة: هدي النبي عليه الصلاة والسلام وطريقته، ويُحدَّد المقصود بها بحسب السياق العلمي (قد تعني مصدر التشريع، أو المستحب في الفقه).",
+      "en": "Sunnah: the guidance and way of the Prophet (peace be upon him); its exact meaning depends on the scholarly context (a source of law, or a recommended act in fiqh)."
+    },
+    "fatwa": {
+      "ar": "الفتوى: جواب شرعي يصدره عالم مؤهل في واقعة أو سؤال بعينه، ولا تُساوى بالمعلومة العامة؛ وما في هذه اللعبة معلومات عامة وليس فتوى.",
+      "en": "Fatwa: a religious answer issued by a qualified scholar on a specific case or question; it is not the same as general information. What this game offers is general information, not a fatwa."
+    },
+    "ibadah": {
+      "ar": "العبادة: تشمل أعمال القلب والقول والعمل التي يتقرب بها العبد إلى الله، ولا تُحصر في الشعائر فقط.",
+      "en": "'Ibadah (worship): every act of the heart, word and deed by which a person draws near to Allah; it is not limited to rituals."
+    },
+    "ijtihad": {
+      "ar": "الاجتهاد: بذل العالم المؤهل وسعه في استنباط الحكم الشرعي من أدلته فيما لا نص قاطع فيه؛ ونتيجته قد تختلف من عالم إلى آخر.",
+      "en": "Ijtihad: a qualified scholar's utmost effort to derive a ruling from its evidence where there is no decisive text; its results may differ between scholars."
+    },
+    "khilaf": {
+      "ar": "الخلاف: اختلاف العلماء المعتبر في مسألة اجتهادية بحسب الأدلة؛ وهو اختلاف في الفهم والترجيح، لا تناقض في الدين.",
+      "en": "Khilaf: recognised disagreement among scholars on a matter open to ijtihad; it is a difference in understanding and weighing evidence, not a contradiction in the religion."
+    },
+    "qibla": {
+      "ar": "القبلة: الكعبة المشرفة في مكة، وهي الجهة التي يستقبلها المسلمون في صلاتهم أينما كانوا.",
+      "en": "Qibla: the Ka'bah in Makkah, the direction Muslims face in prayer wherever they are."
+    }
+  },
+  "check": {
+    "title": {
+      "ar": "سؤال للفهم",
+      "en": "Quick Check"
+    },
+    "correct": {
+      "ar": "إجابة صحيحة! +5",
+      "en": "Correct! +5"
+    },
+    "incorrect": {
+      "ar": "ليست هذه. الإجابة الصحيحة مظللة.",
+      "en": "Not quite. The correct answer is highlighted."
+    },
+    "submit": {
+      "ar": "تأكيد",
+      "en": "Submit"
+    }
+  },
+  "transition": {
+    "next_stop": {
+      "ar": "المحطة التالية",
+      "en": "Next stop"
+    },
+    "loading": {
+      "ar": "جارٍ التحميل...",
+      "en": "Loading..."
+    },
+    "later_that_week": {
+      "ar": "بعد أيام...",
+      "en": "A few days later..."
+    },
+    "stop": {
+      "ar": "المحطة",
+      "en": "Stop"
+    },
+    "loading_title": {
+      "ar": "نجهّز أسبوع آدم…",
+      "en": "Setting up Adam's week…"
+    },
+    "tip_label": {
+      "ar": "هل تعلم؟",
+      "en": "Good to know"
+    },
+    "loading_tips": {
+      "ar": [
+        "كل موقف ينتهي ببطاقة تشرح موقف الإسلام ببساطة، مع أدلته وأقوال المذاهب الأربعة.",
+        "لا يوجد جواب «ذكي» واحد: الأسئلة المحترمة الفضولية هي التي تقود إلى فهم أعمق.",
+        "على الحاسوب: استعمل الأرقام 1–4 لاختيار الرد بسرعة.",
+        "حين يختلف العلماء تعرض البطاقة الأقوال بإنصاف — والمسلمون أنفسهم يتنوعون في التطبيق.",
+        "الأحكام في اللعبة مسودات أُعدّت بمساعدة الذكاء الاصطناعي وتنتظر مراجعة أهل العلم."
+      ],
+      "en": [
+        "Every situation ends with a card that explains Islam's position in plain words, with its evidence and the views of the four schools.",
+        "There's no single 'clever' answer: respectful, curious questions lead to real understanding.",
+        "On a computer, press 1–4 to pick a reply quickly.",
+        "Where scholars differ, the card presents the views fairly — Muslims themselves vary in practice.",
+        "The rulings in this game are AI-prepared drafts awaiting review by qualified scholars."
+      ]
+    }
+  },
+  "end": {
+    "title": {
+      "ar": "انتهى الأسبوع",
+      "en": "That's a Wrap"
+    },
+    "progress_title": {
+      "ar": "تقدّمك حتى الآن",
+      "en": "Your progress so far"
+    },
+    "progress_message": {
+      "ar": "أسبوع آدم لم ينتهِ بعد. هذا ما تعلّمه حتى الآن — تابع اللعب لتكمل بقية المواقف.",
+      "en": "Adam's week isn't over yet. Here's what he has learned so far — keep playing to explore the rest."
+    },
+    "progress_score": {
+      "ar": "النقاط حتى الآن",
+      "en": "Score so far"
+    },
+    "message": {
+      "ar": "عاش آدم أسبوعاً عادياً مع جيران وأصدقاء مسلمين، وتعلّم أن يسأل بدل أن يفترض. لم يتغير هو، ولم يتغير أصدقاؤه — لكنهم صاروا يفهمون بعضهم أكثر.",
+      "en": "Adam spent an ordinary week with Muslim neighbors and friends, and learned to ask instead of assume. He didn't change who he is, and neither did they — but they understand each other a lot better now."
+    },
+    "summary_title": {
+      "ar": "ما تعلّمه آدم هذا الأسبوع",
+      "en": "What Adam learned this week"
+    },
+    "summary_points": {
+      "ar": [
+        "الإسلام يحرّم الفائدة (الربا)، ولذلك يبحث المسلمون عن تمويل قائم على البيع أو الشراكة.",
+        "المسلمون يتجنبون لحم الخنزير والخمر، ولا يقدّمونهما ولا يبيعونهما، ويتحققون من المكونات.",
+        "الأمانة في العمل والدراسة والبيع جزء من الدين: لا غش، ولا هدايا بسبب المنصب، ولا إخفاء للعيوب.",
+        "القمار — ومنه اليانصيب والمراهنات وتذاكر السحب المدفوعة — ممنوع، أما التبرع المباشر والسحب المجاني فلا بأس بهما.",
+        "رعاية الجار ومواساته وقبول هديته من صميم الأخلاق الإسلامية، مسلماً كان أو غير مسلم.",
+        "في مسائل كثيرة يختلف العلماء، ويسأل المسلم عالماً موثوقاً عن حالته."
+      ],
+      "en": [
+        "Islam prohibits interest (riba), so Muslims look for financing based on sale or partnership.",
+        "Muslims avoid pork and alcohol, don't serve or sell them, and check ingredients.",
+        "Honesty at work, at school, and in trade is part of the faith: no cheating, no gifts tied to your position, no hiding defects.",
+        "Gambling — including lotteries, betting, and paid raffle tickets — is off-limits; direct donations and free drawings are fine.",
+        "Caring for neighbors, comforting them, and accepting their gifts is core to Islamic character, whether the neighbor is Muslim or not.",
+        "On many questions scholars differ, and a Muslim asks a trusted scholar about their own situation."
+      ]
+    },
+    "total_score": {
+      "ar": "مجموع النقاط",
+      "en": "Total score"
+    },
+    "best_choices": {
+      "ar": "مواقف فهم واحترام",
+      "en": "Curious & respectful choices"
+    },
+    "correct_checks": {
+      "ar": "أسئلة الفهم الصحيحة",
+      "en": "Correct check answers"
+    },
+    "next_topic_title": {
+      "ar": "موضوع مقترح للتعرّف عليه بعد ذلك",
+      "en": "A topic to explore next"
+    },
+    "next_topics": {
+      "ar": [
+        "رمضان: لماذا يصوم المسلمون، وكيف يبدو يوم الصائم في أمريكا؟",
+        "الصلوات الخمس: كيف يصلي المسلم في العمل والمدرسة؟",
+        "عيسى ومريم في الإسلام: ما الذي يؤمن به المسلمون عنهما؟",
+        "الزكاة: كيف ينظر الإسلام إلى المال والصدقة؟"
+      ],
+      "en": [
+        "Ramadan: why Muslims fast, and what a fasting day looks like in America.",
+        "The five daily prayers: how Muslims pray at work and school.",
+        "Jesus and Mary in Islam: what Muslims believe about them.",
+        "Zakat: how Islam views wealth and giving."
+      ]
+    },
+    "referral_title": {
+      "ar": "تريد أن تعرف أكثر؟",
+      "en": "Want to learn more?"
+    },
+    "referral_body": {
+      "ar": "كثير من المساجد والمراكز الإسلامية في أمريكا تنظم «يوم المسجد المفتوح» وجلسات تعريفية للجميع، وترحب بأسئلتك دون أي التزام. ابحث عن مسجد أو مركز تعريف بالإسلام قريب منك، أو اسأل صديقاً مسلماً — غالباً سيسعده سؤالك.",
+      "en": "Many mosques and Islamic centers across the US host open houses and intro sessions for everyone, and welcome your questions with no strings attached. Look up a mosque or Islamic information center near you — or just ask a Muslim friend. They'll most likely be glad you asked."
+    },
+    "referral_button": {
+      "ar": "ابحث عن مسجد قريب",
+      "en": "Find a mosque near you"
+    },
+    "referral_search_query": {
+      "ar": "مسجد قريب مني يوم مفتوح",
+      "en": "mosque open house near me"
+    },
+    "review_rulings": {
+      "ar": "راجع بطاقات الأحكام",
+      "en": "Review the ruling cards"
+    },
+    "play_again": {
+      "ar": "العب مرة أخرى",
+      "en": "Play again"
+    },
+    "share": {
+      "ar": "شارك",
+      "en": "Share"
+    },
+    "tiers": {
+      "high": {
+        "ar": "أسبوع رائع! أسئلتك المحترمة فتحت أبواب الفهم.",
+        "en": "Great week! Your respectful questions opened real doors to understanding."
+      },
+      "mid": {
+        "ar": "أسبوع جيد، وفيه دروس. راجع البطاقات لتعرف المزيد.",
+        "en": "A good week with some lessons. Check the cards to learn more."
+      },
+      "low": {
+        "ar": "كل أسبوع بداية جديدة. راجع البطاقات وجرّب مرة أخرى.",
+        "en": "Every week's a fresh start. Review the cards and give it another go."
+      }
+    }
+  },
+  "disclaimers": {
+    "purpose": {
+      "ar": "هذه لعبة تعليمية للتعرّف على الإسلام من خلال الحياة اليومية. هي لا تطلب منك أي معلومة عن دينك أو معتقدك، ولا تخزّن شيئاً من ذلك.",
+      "en": "This is an educational game for getting to know Islam through everyday life. It never asks for, and never stores, anything about your religion or beliefs."
+    },
+    "respect": {
+      "ar": "نعرض موقف الإسلام بأمانة ووضوح، ونحترم كل لاعب أياً كانت خلفيته، دون جدل أو ضغط.",
+      "en": "We present Islam's position honestly and clearly, and respect every player whatever their background — no debate, no pressure."
+    },
+    "general_info": {
+      "ar": "هذه معلومة عامة عن موقف الإسلام. للمسلم في حالته الخاصة: اسأل عالماً موثوقاً.",
+      "en": "This is general information about Islam's position. For a Muslim's specific situation, ask a trusted scholar."
+    },
+    "fiction": {
+      "ar": "القصة والشخصيات والشركات والمؤسسات في هذه اللعبة تخييلية، وأي تشابه مع الواقع غير مقصود. والشخصيات المسلمة تمثل نفسها، لا كل المسلمين.",
+      "en": "The story, characters, companies, and institutions in this game are fictional; any resemblance to real ones is unintended. The Muslim characters speak for themselves, not for all Muslims."
+    },
+    "ai_review": {
+      "ar": "الأحكام الشرعية والنصوص في هذه اللعبة أُعدّت وروجعت بمساعدة الذكاء الاصطناعي، وتحتاج إلى مراجعة بشرية من أهل العلم قبل الاعتماد عليها.",
+      "en": "The rulings and texts in this game were prepared and reviewed with the help of AI and still need human review by qualified scholars before being relied upon."
+    },
+    "disagreement": {
+      "ar": "حين يختلف علماء المسلمين نعرض الأقوال بإنصاف، فالمسلمون أنفسهم يتنوعون في التطبيق.",
+      "en": "Where Muslim scholars differ, we present the views fairly — Muslims themselves vary in how they practice."
+    },
+    "ai_journey": {
+      "ar": "قد يرتّب الذكاء الاصطناعي محطات يومك ويشرح من مكتبة مواقف وأحكام مراجَعة فقط؛ لا يكتب نصوصاً شرعية ولا يُفتي، وما يعرضه ليس فتوى.",
+      "en": "AI may arrange the stops of your day and explain things only from a reviewed library of situations and rulings; it never writes religious texts, and nothing it shows is a fatwa."
+    },
+    "accept": {
+      "ar": "فهمت",
+      "en": "I understand"
+    }
+  },
+  "about": {
+    "title": {
+      "ar": "عن «يومك»",
+      "en": "About Yawmuk"
+    },
+    "body": {
+      "ar": "لعبة تعليمية ثلاثية الأبعاد تعرّفك بالإسلام من خلال أسبوع في حياة آدم، شاب من أوهايو، مع جيرانه وأصدقائه المسلمين: المال، العمل، الدراسة، الشارع، والمناسبات. كل بطاقة تشرح موقف الإسلام ببساطة، مع أدلته من القرآن والسنة وأقوال المذاهب الأربعة والمجامع الفقهية المعاصرة، مع روابط للمصادر.",
+      "en": "An educational 3D game that introduces Islam through a week in the life of Adam, a young man from Ohio, and his Muslim neighbors and friends: money, work, school, the street, and social events. Each card explains Islam's position in plain words, with evidence from the Qur'an and Sunnah, the four schools, and contemporary fiqh councils, with links to sources."
+    }
+  },
+  "settings": {
+    "title": {
+      "ar": "الإعدادات",
+      "en": "Settings"
+    },
+    "language": {
+      "ar": "اللغة",
+      "en": "Language"
+    },
+    "sound": {
+      "ar": "الصوت",
+      "en": "Sound"
+    },
+    "quality": {
+      "ar": "جودة الرسوم",
+      "en": "Graphics quality"
+    },
+    "quality_low": {
+      "ar": "منخفضة",
+      "en": "Low"
+    },
+    "quality_high": {
+      "ar": "عالية",
+      "en": "High"
+    },
+    "text_size": {
+      "ar": "حجم النص",
+      "en": "Text size"
+    },
+    "reset_progress": {
+      "ar": "إعادة التقدم",
+      "en": "Reset progress"
+    },
+    "back": {
+      "ar": "رجوع",
+      "en": "Back"
+    }
+  },
+  "credits": {
+    "title": {
+      "ar": "حقوق وشكر",
+      "en": "Credits"
+    },
+    "intro": {
+      "ar": "بُنيت مشاهد اللعبة بنماذج ثلاثية الأبعاد وخامات من مبدعين يشاركون أعمالهم مجاناً. شكراً لهم.",
+      "en": "The game's scenes are built with 3D models and textures shared freely by their creators. Thank you."
+    },
+    "cc_by": {
+      "ar": "نماذج برخصة CC-BY 3.0 (يلزم ذكر المؤلف)",
+      "en": "Models licensed CC-BY 3.0 (attribution required)"
+    },
+    "characters": {
+      "ar": "الشخصيات",
+      "en": "Characters"
+    },
+    "cc0_title": {
+      "ar": "شكر خاص (CC0)",
+      "en": "Special thanks (CC0)"
+    },
+    "cc0": {
+      "ar": "شكر خاص لـ Kenney وQuaternius وPoly Haven ولمؤلفي نماذج poly.pizza الذين أتاحوا أعمالهم ملكاً عاماً (CC0).",
+      "en": "Special thanks to Kenney, Quaternius, Poly Haven and the poly.pizza authors who released their work into the public domain (CC0)."
+    },
+    "fonts_title": {
+      "ar": "الخطوط",
+      "en": "Fonts"
+    },
+    "fonts": {
+      "ar": "Amiri وAmiri Quran وIBM Plex Sans Arabic وReem Kufi — برخصة SIL Open Font License، عبر Google Fonts.",
+      "en": "Amiri, Amiri Quran, IBM Plex Sans Arabic and Reem Kufi — SIL Open Font License, via Google Fonts."
+    }
+  },
+  "errors": {
+    "webgl": {
+      "ar": "متصفحك لا يدعم WebGL. جرّب متصفحاً أحدث.",
+      "en": "Your browser doesn't support WebGL. Try a newer browser."
+    },
+    "load_failed": {
+      "ar": "تعذّر تحميل المحتوى. أعد المحاولة.",
+      "en": "Couldn't load content. Please try again."
+    },
+    "retry": {
+      "ar": "إعادة المحاولة",
+      "en": "Retry"
+    }
+  }
+}

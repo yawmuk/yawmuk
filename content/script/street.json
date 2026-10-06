@@ -1,0 +1,134 @@
+{
+  "location": "street",
+  "title": {
+    "ar": "الشارع — طريق العودة",
+    "en": "The Street — Heading Home"
+  },
+  "time_of_day": "21:00",
+  "intro": {
+    "ar": "ليلٌ شتويٌّ هادئ في حيّ السلام. أضواءُ محطةِ الوقودِ الحمراءُ تنعكسُ على الرصيفِ المبلَّل. نزلَ آدم من الحافلةِ قربَ المحطة، وعُمَرُ ينتظرُه عند المقعدِ ليُوصِلَه إلى البيت. لكنّ آدم يريدُ أولاً كوبَ شايٍ ساخناً من متجرِ طارق.",
+    "en": "A quiet winter night in the Al-Salam neighborhood. The gas station's red lights shimmer on the wet sidewalk. Adam steps off the bus near the station, and Omar waits at the bench to drive him home. But first, Adam wants a hot tea from Tariq's store."
+  },
+  "situations": [
+    {
+      "ruling_id": "street.lottery",
+      "hotspot": "gas_station_counter",
+      "npc": {
+        "id": "tariq",
+        "name": {
+          "ar": "طارق",
+          "en": "Tariq"
+        },
+        "role": {
+          "ar": "صاحب محطة الوقود",
+          "en": "Gas station owner"
+        }
+      },
+      "setup": {
+        "ar": "داخلَ متجرِ طارقٍ الدافئ. على الطريقِ لوحةٌ مضيئةٌ تُعلِنُ جائزةَ يَانَصِيبٍ ضخمة. على طاولةِ البيعِ تذكرةٌ ملوَّنةٌ، ونَرْدٌ دعائيٌّ كُتِبَ عليه: جرِّبْ حظَّك. تركَهما مندوبُ شركةِ اليَانَصِيبِ عصراً، بعد أن رفضَ طارقٌ عرضَه.",
+        "en": "Inside Tariq's warm store. Down the road, a glowing billboard announces a huge lottery jackpot. On the counter sit a colorful ticket and a promo die that reads: Try your luck. A lottery company rep left them this afternoon, after Tariq turned down his offer."
+      },
+      "dialogue": [
+        {
+          "speaker": "adam",
+          "ar": "مساءُ الخيرِ يا طارق! هل تبيعُ هذه التذكرة؟ الجائزةُ الليلةَ عشرةُ ملايين.",
+          "en": "Evening, Tariq! Are you selling this ticket? Tonight's jackpot is ten million."
+        },
+        {
+          "speaker": "tariq",
+          "ar": "لا يا صديقي. تركَها المندوبُ هنا، وسأُعيدُها إليه غداً. أنا لا أبيعُ اليَانَصِيب.",
+          "en": "No, my friend. The rep left it here, and I'm returning it tomorrow. I don't sell lottery tickets."
+        },
+        {
+          "speaker": "adam",
+          "ar": "تذكرةٌ واحدةٌ فقط! أقساطُ السيارةِ تُتعِبُني، وربما تتغيّرُ حياتي في ليلةٍ واحدة.",
+          "en": "Just one ticket! The car payments are wearing me down. Maybe my life changes in a single night."
+        },
+        {
+          "speaker": "tariq",
+          "ar": "في الإسلام، هذا من المَيْسِر، أي القِمَار: تدفعُ مالاً على أملِ ربحٍ يتوقّفُ على الحظِّ وحدَه.",
+          "en": "In Islam, this is maysir, which means gambling: you pay money hoping for a win that depends on luck alone."
+        },
+        {
+          "speaker": "tariq",
+          "ar": "آلافُ الناسِ يدفعون، ويربحُ واحدٌ فقط. ورأيتُ أُسَراً أثقلَتْها الديونُ وهي تطاردُ هذا الأمل.",
+          "en": "Thousands of people pay, and only one wins. I've seen families sink into debt chasing that hope."
+        },
+        {
+          "speaker": "tariq",
+          "ar": "هذا المتجرُ بنيتُه بالعملِ سنةً بعد سنة، لا بضربةِ حظّ.",
+          "en": "I built this store with work, year after year, not with a lucky break."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": {
+            "ar": "أُعيدُ التذكرةَ إلى مكانِها وأقول: «معك حقّ، لن أشتريَها». ثم أسألُه: «فكيف أُسدِّدُ ديوني أسرع؟»",
+            "en": "Put the ticket back and say: 'You're right, I won't buy it.' Then ask: 'So how do I pay off my debts faster?'"
+          },
+          "quality": "best",
+          "consequence": {
+            "ar": "ابتسمَ طارقٌ وصبَّ له كوبَ شاي. قال: «ضَعْ ثمنَ التذكرةِ جانباً كلَّ أسبوع، وابحثْ عن عملٍ إضافيٍّ صغير». ثم شرح: الإسلامُ يحمي الأُسرةَ من الخسارةِ المفاجئة، ويُعلي الكسبَ بالعملِ والتجارةِ العادلة. خرجَ آدم وفي يدِه شاي، وفي رأسِه خطّة.",
+            "en": "Tariq smiled and poured him a cup of tea. 'Set the ticket money aside every week, and look for a small side job.' Then he explained: Islam shields families from sudden ruin, and honors earning through work and fair trade. Adam left with a tea in his hand and a plan in his head."
+          },
+          "points": 10
+        },
+        {
+          "id": "b",
+          "label": {
+            "ar": "«يا رجل، الدِّينُ لا علاقةَ له بالتِّجارة. سأشتريها من الكُشْكِ المجاور».",
+            "en": "'Come on, religion has nothing to do with business. I'll buy one at the kiosk next door.'"
+          },
+          "quality": "wrong",
+          "consequence": {
+            "ar": "ابتسمَ طارقٌ بهدوء: «عندي، التِّجارةُ جزءٌ من الدِّين». اشترى آدم التذكرة، وفي الصباحِ لم تربح، كأكثرِ التذاكر. وتذكَّرَ أنّ رجلاً يتركُ ربحاً من أجلِ قناعتِه يستحقُّ سؤالاً، لا حُكماً.",
+            "en": "Tariq smiled calmly: 'For me, business is part of faith.' Adam bought the ticket, and by morning it hadn't won, like most tickets. He remembered that a man who gives up profit for his convictions deserves a question, not a verdict."
+          },
+          "points": 0
+        },
+        {
+          "id": "c",
+          "label": {
+            "ar": "«حسناً، ربما ليس الليلة». أشتري شاياً وأخرج.",
+            "en": "'Fine, maybe not tonight.' Buy a tea and leave."
+          },
+          "quality": "acceptable",
+          "consequence": {
+            "ar": "لم يشترِ آدم التذكرة، وهذا قرارٌ حكيم. لكنه لم يسألْ لماذا يرفضُ طارقٌ ربحاً سهلاً، فبقيتْ فكرةُ الثراءِ السريعِ تلمعُ في رأسِه.",
+            "en": "Adam didn't buy the ticket, and that was a wise call. But he never asked why Tariq turns down easy money, so the dream of quick wealth kept glittering in his head."
+          },
+          "points": 5
+        }
+      ],
+      "check_question": {
+        "q": {
+          "ar": "لماذا يتجنب المسلمون اليانصيب والمراهنات؟",
+          "en": "Why do Muslims avoid lotteries and betting?"
+        },
+        "options": [
+          {
+            "ar": "لأنها قمار: دفع مال مقابل احتمال ربح أو خسارة يتوقف على الحظ، وهو محرم في الإسلام",
+            "en": "Because it's gambling: paying money for a chance to win or lose based on luck, which Islam prohibits",
+            "correct": true
+          },
+          {
+            "ar": "لأنها تُباع في محطات الوقود",
+            "en": "Because they're sold at gas stations",
+            "correct": false
+          },
+          {
+            "ar": "لأن المسلمين لا يحبون الرياضة",
+            "en": "Because Muslims don't like sports",
+            "correct": false
+          }
+        ]
+      }
+    }
+  ],
+  "outro": {
+    "ar": "في سيارةِ عُمَر، تعملُ التدفئةُ أخيراً. «يومٌ طويلٌ يا صاحبي». «طويل… وتعلّمتُ فيه أكثرَ ممّا توقّعت». في البيت ينتظرُه طبقُ عشاءٍ دافئ. وبعد أيامٍ حفلُ الشركة، ثم زيارةٌ لبيتِ الجيران.",
+    "en": "In Omar's car, the heater finally kicks in. 'Long day, man.' 'Long... and I learned more than I expected.' At home, a warm plate of dinner is waiting. Soon comes the company party, then a visit to the neighbors' home."
+  },
+  "next_location": "public_events"
+}

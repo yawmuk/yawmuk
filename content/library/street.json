@@ -1,0 +1,366 @@
+[
+  {
+    "id": "street.lost_wallet",
+    "location": "street",
+    "title": {
+      "ar": "محفظة ضائعة في الشارع (اللُّقَطة)",
+      "en": "A Lost Wallet on the Street (Luqata)"
+    },
+    "question": {
+      "ar": "إذا وجد المسلم محفظة فيها نقود وبطاقات وهوية صاحبها، فماذا يجب عليه؟ وما حكم تملّكها إن لم يظهر صاحبها؟",
+      "en": "If a Muslim finds a wallet containing cash, cards and the owner's ID, what must he do, and may he keep it if the owner never appears?"
+    },
+    "verdict": "wajib",
+    "content_level": "B",
+    "verdict_scope": {
+      "ar": "الواجب بعد الالتقاط: حفظ اللقطة وتعريفها (الإعلان عنها) وردّها إلى صاحبها، ويحرم أخذها بنية التملك. أما حكم الالتقاط نفسه فيختلف بحسب الحال والمذهب: يُندب أو يجب إن خيف ضياعها، ويحرم على من لا يأمن نفسه عليها، ورأى الإمام أحمد أن الأفضل تركها.",
+      "en": "What is obligatory once it has been picked up: keeping it safe, announcing it (ta'rif) and returning it to its owner; taking it with intent to keep it is prohibited. The ruling on picking it up in the first place varies by situation and school: recommended, or obligatory if it would otherwise be lost; prohibited for one who does not trust himself with it; and Imam Ahmad held that leaving it is preferable."
+    },
+    "summary": {
+      "ar": "من وجد محفظة وأمِن نفسه عليها وجب عليه حفظها وتعريفها وردّها إلى صاحبها، ويحرم أخذها بنية التملك أو استعمال شيء منها. فإن كان فيها ما يدل على صاحبها كالهوية والبطاقات فالواجب إيصالها إليه مباشرة أو عبر الشرطة دون انتظار حولٍ كامل. وما لا يُعرف صاحبه يُعرَّف سنة عند جمهور الفقهاء، ثم يجوز تملكه أو التصدق به مع ضمانه لصاحبه إن ظهر، على تفصيل بين المذاهب.",
+      "en": "Whoever finds a wallet and trusts himself with it must safeguard it, announce it and return it to its owner; taking it with intent to keep it, or using anything in it, is prohibited. If it contains identifying items such as an ID or cards, the duty is to get it to the owner directly or through the police, without waiting a full year. If the owner is unknown, the majority require announcing it for a year, after which the finder may keep it or give it in charity while remaining liable to the owner if he appears, with differences among the schools."
+    },
+    "quran": [
+      {
+        "surah": 4,
+        "surah_name_ar": "النساء",
+        "ayah": "58",
+        "text_ar": "۞ إِنَّ ٱللَّهَ يَأۡمُرُكُمۡ أَن تُؤَدُّواْ ٱلۡأَمَٰنَٰتِ إِلَىٰٓ أَهۡلِهَا وَإِذَا حَكَمۡتُم بَيۡنَ ٱلنَّاسِ أَن تَحۡكُمُواْ بِٱلۡعَدۡلِۚ إِنَّ ٱللَّهَ نِعِمَّا يَعِظُكُم بِهِۦٓۗ إِنَّ ٱللَّهَ كَانَ سَمِيعَۢا بَصِيرٗا",
+        "translation_en": "Indeed, Allāh commands you to render trusts to whom they are due and when you judge between people to judge with justice. Excellent is that which Allāh instructs you. Indeed, Allāh is ever Hearing and Seeing.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/4#58"
+      },
+      {
+        "surah": 5,
+        "surah_name_ar": "المائدة",
+        "ayah": "2",
+        "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تُحِلُّواْ شَعَٰٓئِرَ ٱللَّهِ وَلَا ٱلشَّهۡرَ ٱلۡحَرَامَ وَلَا ٱلۡهَدۡيَ وَلَا ٱلۡقَلَٰٓئِدَ وَلَآ ءَآمِّينَ ٱلۡبَيۡتَ ٱلۡحَرَامَ يَبۡتَغُونَ فَضۡلٗا مِّن رَّبِّهِمۡ وَرِضۡوَٰنٗاۚ وَإِذَا حَلَلۡتُمۡ فَٱصۡطَادُواْۚ وَلَا يَجۡرِمَنَّكُمۡ شَنَـَٔانُ قَوۡمٍ أَن صَدُّوكُمۡ عَنِ ٱلۡمَسۡجِدِ ٱلۡحَرَامِ أَن تَعۡتَدُواْۘ وَتَعَاوَنُواْ عَلَى ٱلۡبِرِّ وَٱلتَّقۡوَىٰۖ وَلَا تَعَاوَنُواْ عَلَى ٱلۡإِثۡمِ وَٱلۡعُدۡوَٰنِۚ وَٱتَّقُواْ ٱللَّهَۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلۡعِقَابِ",
+        "translation_en": "O you who have believed, do not violate the rites of Allāh or [the sanctity of] the sacred month or [neglect the marking of] the sacrificial animals and garlanding [them] or [violate the safety of] those coming to the Sacred House seeking bounty from their Lord and [His] approval. But when you come out of iḥrām, then [you may] hunt. And do not let the hatred of a people for having obstructed you from al-Masjid al-Ḥarām lead you to transgress. And cooperate in righteousness and piety, but do not cooperate in sin and aggression. And fear Allāh; indeed, Allāh is severe in penalty.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/5#2"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "اعْرِفْ عِفَاصَهَا وَوِكَاءَهَا، ثُمَّ عَرِّفْهَا سَنَةً، فَإِنْ جَاءَ صَاحِبُهَا وَإِلاَّ فَشَأْنَكَ بِهَا",
+        "translation_en": "\"Know its container and its tie, then announce it for a year; if its owner comes (give it to him), otherwise it is up to you.\"",
+        "collection": "صحيح البخاري",
+        "number": "2372",
+        "narrator": "زيد بن خالد الجهني",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)؛ وأخرجه مسلم (1722)",
+        "source_url": "https://dorar.net/h/7ekxa6sj",
+        "dorar_url": "https://dorar.net/h/7ekxa6sj",
+        "dorar_ref": "المحدث: البخاري | المصدر: صحيح البخاري | الرقم: 2372 | خلاصة حكم المحدث: [صحيح]",
+        "sunnah_url": "https://sunnah.com/bukhari:2372",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "اعْرِفْ وِكَاءَهَا وَعِفَاصَهَا ثُمَّ عَرِّفْهَا سَنَةً فَإِنْ لَمْ تَعْرِفْ فَاسْتَنْفِقْهَا وَلْتَكُنْ وَدِيعَةً عِنْدَكَ فَإِنْ جَاءَ طَالِبُهَا يَوْمًا مِنَ الدَّهْرِ فَأَدِّهَا إِلَيْهِ",
+        "translation_en": "\"Know its tie and its container, then announce it for a year. If it is not claimed, spend it, but let it be a trust with you; if the one seeking it comes one day, give it back to him.\"",
+        "collection": "صحيح مسلم",
+        "number": "1722 (الرواية الخامسة في الباب)",
+        "narrator": "زيد بن خالد الجهني",
+        "grade": "صحيح",
+        "grader": "الإمام مسلم (أخرجه في صحيحه)",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/6048",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/6048",
+        "sunnah_url": "https://sunnah.com/muslim:1722e",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "وَلاَ تُلْتَقَطُ لُقَطَتُهَا إِلاَّ لِمُعَرِّفٍ",
+        "translation_en": "(About Makkah:) \"...and its lost property may not be picked up except by one who will announce it.\"",
+        "collection": "صحيح البخاري",
+        "number": "1349",
+        "narrator": "عبد الله بن عباس",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)",
+        "source_url": "https://dorar.net/h/KwEfs2oP",
+        "dorar_url": "https://dorar.net/h/KwEfs2oP",
+        "dorar_ref": "المحدث: البخاري | المصدر: صحيح البخاري | الرقم: 1349 | خلاصة حكم المحدث: [صحيح] [قوله: قال أبان بن صالح... معلق][قوله: قال مجاهد... معلق وصله في موضع آخر]",
+        "sunnah_url": "https://sunnah.com/bukhari:1349",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "يُندب الالتقاط لمن أمن نفسه، ويُفرض إن خاف ضياعها، ويحرم إن أخذها لنفسه لأنها كالغصب. ويجب الإشهاد عند أبي حنيفة ومحمد. والمدة عند أبي حنيفة بحسب القيمة: ما دون عشرة دراهم يُعرَّف أياماً يرى أنها كافية، والعشرة فأكثر حولاً (وعند محمد حولاً مطلقاً). وبعد التعريف لا يتملكها إلا الفقير، والغني يتصدق بها على الفقراء، فإن جاء صاحبها خُيِّر بين إمضاء الصدقة (وثوابها له) أو تضمين الملتقط.",
+        "position_en": "Picking it up is recommended for one who trusts himself, obligatory if it would otherwise be lost, and prohibited if taken for oneself. Abu Hanifa and Muhammad require calling witnesses. Per Abu Hanifa the announcement period depends on value: under ten dirhams, some days deemed sufficient; ten or more, a year (Muhammad: a year in all cases). Afterwards only a poor finder may use it; a wealthy finder gives it in charity to the poor, and if the owner appears he may either accept the charity (its reward being his) or claim compensation from the finder.",
+        "reference": "الموسوعة الفقهية الكويتية ٣٥/٢٩٥-٣٠٦ (مادة لقطة) نقلاً عن رد المحتار ٣/٣١٩ و٤/٢٧٧، وفتح القدير ٦/١٢٢-١٢٤، وبدائع الصنائع ٦/٢٠٠-٢٠٢، وتبيين الحقائق ٣/٣٠٤"
+      },
+      "maliki": {
+        "position_ar": "يحرم الالتقاط على من يعلم من نفسه الخيانة، ويُكره لمن يخشى ذلك، ويجب إن خاف عليها من الخونة. وتُعرَّف سنة، ثم يخيَّر الملتقط بين حبسها لصاحبها، أو التصدق بها، أو تملكها — ولو كانت بمكة — ويضمنها لصاحبها إن جاء في حالتي التصدق والتملك. وتُدفع لمن وصف عفاصها ووكاءها دون حاجة إلى بيّنة.",
+        "position_en": "Picking it up is prohibited for one who knows he would betray it, disliked for one who fears that, and obligatory if it would fall to dishonest people. It is announced for a year; then the finder chooses to keep holding it for the owner, give it in charity, or take ownership — even in Makkah — and is liable to the owner if he appears in the latter two cases. It is handed to whoever correctly describes its container and tie, without other proof.",
+        "reference": "الموسوعة الفقهية الكويتية ٣٥/٢٩٥-٣٠٧ نقلاً عن حاشية الدسوقي ٤/١٢٠-١٢٦ ومواهب الجليل للحطاب ٦/٧١؛ ونص مختصر خليل «وله حبسها... أو التصدق أو التملك ولو بمكة» مع نقل المواق عن الجلاب «تصدق بها وضمنها» كما في «مواهب الجليل من أدلة خليل» للشنقيطي ٤/١٩١"
+      },
+      "shafii": {
+        "position_ar": "الأفضل أخذها لمن وجدها بمضيعة وأمن نفسه، وتُعرَّف سنة. ولا تدخل في ملكه بعد الحول إلا إذا اختار التملك بلفظ يدل عليه مثل «تملكتُ»، ويضمنها إن جاء صاحبها. وله دفعها إلى حاكم أمين ويلزمه قبولها. ولقطة الحرم (مكة) لا يحل أخذها إلا للتعريف، وتُعرَّف على الدوام ولا تُملك.",
+        "position_en": "It is better to take it if found where it may be lost and one trusts oneself; it is announced for a year. It does not become the finder's after the year unless he explicitly chooses ownership (e.g., \"I take ownership\"), and he is liable if the owner appears. He may hand it to a trustworthy authority, which must accept it. Lost property in the Haram of Makkah may only be picked up to announce it, is announced indefinitely, and can never be owned.",
+        "reference": "الموسوعة الفقهية الكويتية ٣٥/٢٩٦-٣٠٨ نقلاً عن مغني المحتاج ٢/٤٠٦-٤١٧، وروضة الطالبين ٥/٤٠٨-٤١٥، والأم ٤/٦٧"
+      },
+      "hanbali": {
+        "position_ar": "يرى أحمد أن الأفضل ترك الالتقاط. وتُعرَّف سنة، ثم تدخل في ملك الملتقط بتمام الحول غنياً كان أو فقيراً، ملكاً «مُراعى» يزول بمجيء صاحبها فيردّها أو بدلها. وتُدفع لمن وصفها ولو بلا بيّنة. واليسير الذي لا تتبعه همة أوساط الناس كالسوط والعصا يجوز أخذه والانتفاع به بلا تعريف.",
+        "position_en": "Ahmad held that leaving it is preferable. It is announced for a year, after which it enters the finder's ownership, rich or poor, as a conditional ownership that lapses if the owner appears, who then receives it or its equivalent. It is handed to whoever describes it, even without other proof. Trivial items people do not search for, such as a whip or stick, may be taken and used without announcement.",
+        "reference": "الموسوعة الفقهية الكويتية ٣٥/٢٩٦-٣٠٨ نقلاً عن المغني والشرح الكبير ٦/٣١٨-٣٤٩، والمغني ٥/٦٩٣، وكشاف القناع ٤/٢٠٩، ومنتهى الإرادات ١/٥٥٤"
+      }
+    },
+    "contemporary": [],
+    "practical_guidance": {
+      "ar": [
+        "لا تفتح المحفظة إلا بقدر ما تعرف به صاحبها، وصوّر محتوياتها أو سجّلها بحضور شاهد إن أمكن، ولا تستعمل أي بطاقة أو نقود منها.",
+        "إن وجدت هوية أو رخصة قيادة أو بطاقة فيها اسم: حاول الوصول إلى صاحبها (عنوان الرخصة، أو الاتصال بالبنك المُصدِر للبطاقة ليبلغه)، أو سلّمها لأقرب مركز شرطة (non-emergency line) واطلب إيصالاً برقم البلاغ.",
+        "إن وجدتها داخل متجر أو جامعة أو حافلة فسلّمها لمكتب المفقودات (Lost & Found) في المكان، فهو مظنة سؤال صاحبها.",
+        "في ولاية أوهايو لا يوجد قانون عام شامل للّقطة بل تحكمها السوابق القضائية (common law) التي تحفظ حق المالك الحقيقي، والاحتفاظ بمال يمكن معرفة صاحبه قد يُعدّ سرقة في القانون الأمريكي — فالتسليم يوافق الشرع والقانون معاً. (معلومة قانونية عامة، وليست استشارة قانونية.)",
+        "إن لم يُعرف صاحبها وأعادت الشرطة المال إليك بعد المدة، فاعمل بأحكام اللقطة: أكمل التعريف، وإن تملكته أو تصدقت به فاحفظ وصفه، وردّه أو بدله إن ظهر صاحبه يوماً.",
+        "إن عرض صاحبها مكافأة فلك قبولها، وإن لم يعرض فلا تطالبه بشيء."
+      ],
+      "en": [
+        "Open the wallet only enough to identify the owner, photograph or list its contents with a witness if possible, and never use any card or cash in it.",
+        "If there is an ID, driver's license or named card, try to reach the owner (address on the license, or call the issuing bank so it can notify the cardholder), or hand it to the nearest police station (non-emergency line) and ask for a receipt or report number.",
+        "If found inside a store, campus or bus, give it to that place's Lost & Found, where the owner is most likely to ask.",
+        "Ohio has no comprehensive general statute on found property; it is governed by case law (common law) that protects the true owner, and keeping property whose owner can be identified may amount to theft under US law — so turning it in satisfies both Sharia and the law. (General legal information, not legal advice.)",
+        "If the owner is never found and the police return the money to you after their holding period, still follow the luqata rules: complete the announcement, and if you keep it or give it in charity, record its description and repay the owner if he ever appears.",
+        "If the owner offers a reward you may accept it; if not, do not demand anything."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "تسليمها للشرطة أو لمكتب المفقودات بدل الاحتفاظ بها",
+        "إن لم تأمن نفسك عليها ولم تخشَ ضياعها فاتركها أو أبلغ عنها"
+      ],
+      "en": [
+        "Hand it to the police or the Lost & Found instead of keeping it",
+        "If you do not trust yourself with it and it is not at risk of being lost, leave it or report it"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "إذا لم يُعرف صاحبها بعد التعريف وأردت تملكها أو التصدق بها، أو كان المبلغ كبيراً، أو أنفقت منها شيئاً قبل التعريف، أو وجدت اللقطة في الحرم المكي.",
+      "en": "If the owner remains unknown after the announcement period and you want to keep it or give it in charity, if the amount is large, if you spent some of it before announcing, or if you found it in the Haram of Makkah."
+    },
+    "confidence": "high",
+    "review_status": "ai_verified",
+    "notes_for_reviewer": "1) أقوال المذاهب منقولة من الموسوعة الفقهية الكويتية مادة «لقطة» ٣٥/٢٩٥-٣٠٨ (shamela.ws/book/11430/22668 وما بعدها) مع إحالاتها، لا من المصادر الأصلية مباشرة. 2) الموسوعة تنقل عن أبي حنيفة التفريق بين ما دون عشرة دراهم والعشرة فأكثر؛ والمشهور في متون المتأخرين (الدر المختار) أن التعريف «إلى أن يغلب على ظنه أن صاحبها لا يطلبها بعد ذلك» — لم أتحقق من نص الدر بنفسي؛ يُرجى تحرير المعتمد عند الحنفية. 3) قول المالكية في الخيار بعد السنة تحقق من نص مختصر خليل عبر كتاب «مواهب الجليل من أدلة خليل» للشنقيطي (shamela.ws/book/784/1374)، وليس «مواهب الجليل» للحطاب. 4) لقطة الحرم: الموسوعة تنسب لجمهور (ومنهم الحنابلة) عدم التفريق؛ وأذكر أن عن أحمد رواية كقول الشافعي اختارها بعض الأصحاب — لم أتحقق منها فلم أذكرها في المتن. 5) القول بأن وجود الهوية يوجب الإيصال المباشر دون انتظار سنة تطبيق للمقصد من التعريف (الوصول إلى المالك) وأداء الأمانة، لا نص مذهبي منقول — يحتاج تأكيداً. 6) لم أجد قراراً مجمعياً معاصراً (IIFA/AMJA/ECFR/FCNA) في اللقطة، فبقي حقل contemporary فارغاً؛ انقطع بحثي في موقع AMJA بسبب حد الاستخدام. 7) معلومة قانون أوهايو مصدرها نتائج بحث (law.justia.com لـ ORC 737.29 ومقالة قانونية) لا مراجعة قانونية مختصة. 8) رابط مسلم 1722e مبني على اصطلاح sunnah.com في ترقيم الروايات بالأحرف ولم أفتحه (حجب 403).\n\n[تدقيق المرحلة 1 — 2026-10-05] أقوال المذاهب الأربعة في اللقطة منقولة من الموسوعة الكويتية ومطابقة للمشهور. ملاحظة: معلومة قانون أوهايو (ORC 737.29 وما بعدها تنظم المفقودات لدى الشرطة) تحتاج مراجعة قانونية. نجحت الفحوص الآلية.",
+    "newcomer_explainer": {
+      "ar": "المحفظة الضائعة في الإسلام أمانة: يجب على من التقطها أن يحفظها ويعرّفها ويردّها، ولا يحل له أخذ شيء منها أو استعماله (البخاري 2372). فإن كان فيها هوية أو بطاقات فالواجب إيصالها إلى صاحبها مباشرة أو عبر الشرطة دون انتظار. وإن لم يُعرف صاحبها فجمهور العلماء على تعريفها سنة، ثم يجوز للملتقط الانتفاع بها أو التصدق بها، مع ضمانها لصاحبها إن ظهر يوماً، على تفصيل بين المذاهب. والمقصد حفظ أموال الناس وبناء مجتمع تعود فيه المفقودات إلى أهلها.",
+      "en": "In Islam a found wallet is a trust: the finder must keep it safe, announce it and return it, and may not take or use anything in it (Bukhari 2372). If it contains an ID or cards, the duty is to get it back to the owner directly or through the police without waiting. If the owner is unknown, the majority of scholars require announcing it for a year, after which the finder may use it or give it in charity, while still owing it to the owner if he ever appears, with details differing among the schools. The aim is to protect people's property and build a society where lost things find their way home."
+    },
+    "library_only": true
+  },
+  {
+    "id": "street.buying_selling",
+    "location": "street",
+    "title": {
+      "ar": "البيع والشراء: إخفاء العيب والغبن والإكرامية والتقييم الكاذب",
+      "en": "Buying and Selling: Hidden Defects, Overcharging, Tips and Fake Reviews"
+    },
+    "question": {
+      "ar": "هل يلزم المسلمَ الذي يبيع سلعة مستعملة فيها عيب (كبطارية هاتف ضعيفة) أن يبيّنه؟ وما حكم الغبن في السعر، والإكرامية (tip)، وكتابة تقييم كاذب لمتجر صديق مقابل خصم؟",
+      "en": "Must a Muslim selling a used item with a defect (such as a weak phone battery) disclose it? And what about overcharging, tipping, and writing a fake review for a friend's store in exchange for a discount?"
+    },
+    "verdict": "haram",
+    "content_level": "B",
+    "verdict_scope": {
+      "ar": "يخص هذا الحكم كتمان العيب والكذب في وصف السلعة أو سعرها والتقييمات الكاذبة. أما الإكرامية فمستحبة، والغبن الفاحش بلا تغرير مختلف في إثباته حق الفسخ.",
+      "en": "This ruling covers concealing defects, lying about an item or its price, and fake reviews. Tipping is recommended, and gross overcharging without deception is disputed as grounds for cancellation."
+    },
+    "consensus_sources": [
+      "الموسوعة الفقهية (الدرر السنية)، حكم كتمان العيب: https://dorar.net/feqhia/7472 — نقل الإجماع على تحريم كتمان العيب عن السبكي (تكملة المجموع 12/115) وابن جزي (القوانين الفقهية ص175)، وعلى تحريم الغش عن الفاكهاني والشوكاني (نيل الأوطار 5/251)"
+    ],
+    "summary": {
+      "ar": "يحرم كتمان العيب في السلعة باتفاق الفقهاء، ويثبت للمشتري به حق الرد (خيار العيب)، وكذلك يحرم الكذب في وصفها أو سعرها وكتابة التقييمات الكاذبة لأنها غش وقول زور. أما الغبن اليسير الذي يتغابن الناس بمثله فمعفو عنه، والفاحش مختلف في إثباته حق الفسخ ويحرم إن صاحبه تغرير. والإكرامية هدية مستحبة وإحسان، فإن أُضيفت إلى الفاتورة معلنةً صارت جزءاً من الثمن.",
+      "en": "Concealing a defect in goods is prohibited by agreement of the jurists and gives the buyer a right to return (khiyar al-'ayb); lying about the item or its price and writing fake reviews are likewise prohibited as deception and false statement. Minor price disparity that people normally tolerate is excused, while gross overcharging is disputed as grounds for cancellation and is prohibited when accompanied by deception. A tip is a recommended gift and kindness, and if disclosed as a charge on the bill it becomes part of the price."
+    },
+    "quran": [
+      {
+        "surah": 4,
+        "surah_name_ar": "النساء",
+        "ayah": "29",
+        "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تَأۡكُلُوٓاْ أَمۡوَٰلَكُم بَيۡنَكُم بِٱلۡبَٰطِلِ إِلَّآ أَن تَكُونَ تِجَٰرَةً عَن تَرَاضٖ مِّنكُمۡۚ وَلَا تَقۡتُلُوٓاْ أَنفُسَكُمۡۚ إِنَّ ٱللَّهَ كَانَ بِكُمۡ رَحِيمٗا",
+        "translation_en": "O you who have believed, do not consume one another's wealth unjustly but only [in lawful] business by mutual consent. And do not kill yourselves [or one another]. Indeed, Allāh is to you ever Merciful.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/4#29"
+      },
+      {
+        "surah": 83,
+        "surah_name_ar": "المطففين",
+        "ayah": "1",
+        "text_ar": "وَيۡلٞ لِّلۡمُطَفِّفِينَ",
+        "translation_en": "Woe to those who give less [than due],",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/83#1"
+      },
+      {
+        "surah": 83,
+        "surah_name_ar": "المطففين",
+        "ayah": "2",
+        "text_ar": "ٱلَّذِينَ إِذَا ٱكۡتَالُواْ عَلَى ٱلنَّاسِ يَسۡتَوۡفُونَ",
+        "translation_en": "Who, when they take a measure from people, take in full.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/83#2"
+      },
+      {
+        "surah": 83,
+        "surah_name_ar": "المطففين",
+        "ayah": "3",
+        "text_ar": "وَإِذَا كَالُوهُمۡ أَو وَّزَنُوهُمۡ يُخۡسِرُونَ",
+        "translation_en": "But if they give by measure or by weight to them, they cause loss.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/83#3"
+      },
+      {
+        "surah": 22,
+        "surah_name_ar": "الحج",
+        "ayah": "30",
+        "text_ar": "ذَٰلِكَۖ وَمَن يُعَظِّمۡ حُرُمَٰتِ ٱللَّهِ فَهُوَ خَيۡرٞ لَّهُۥ عِندَ رَبِّهِۦۗ وَأُحِلَّتۡ لَكُمُ ٱلۡأَنۡعَٰمُ إِلَّا مَا يُتۡلَىٰ عَلَيۡكُمۡۖ فَٱجۡتَنِبُواْ ٱلرِّجۡسَ مِنَ ٱلۡأَوۡثَٰنِ وَٱجۡتَنِبُواْ قَوۡلَ ٱلزُّورِ",
+        "translation_en": "That [has been commanded], and whoever honors the sacred ordinances of Allāh - it is best for him in the sight of his Lord. And permitted to you are the grazing livestock, except what is recited to you. So avoid the uncleanliness of idols and avoid false statement,",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/22#30"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "الْبَيِّعَانِ بِالْخِيَارِ مَا لَمْ يَتَفَرَّقَا ـ أَوْ قَالَ حَتَّى يَتَفَرَّقَا ـ فَإِنْ صَدَقَا وَبَيَّنَا بُورِكَ لَهُمَا فِي بَيْعِهِمَا، وَإِنْ كَتَمَا وَكَذَبَا مُحِقَتْ بَرَكَةُ بَيْعِهِمَا",
+        "translation_en": "\"The buyer and seller have the option (to cancel) as long as they have not parted. If they are truthful and disclose (defects), their sale will be blessed; if they conceal and lie, the blessing of their sale will be erased.\"",
+        "collection": "صحيح البخاري",
+        "number": "2079",
+        "narrator": "حكيم بن حزام",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)؛ وأخرجه مسلم (1532)",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/66126",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/66126",
+        "sunnah_url": "https://sunnah.com/bukhari:2079",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "الْمُسْلِمُ أَخُو الْمُسْلِمِ وَلاَ يَحِلُّ لِمُسْلِمٍ بَاعَ مِنْ أَخِيهِ بَيْعًا فِيهِ عَيْبٌ إِلاَّ بَيَّنَهُ لَهُ",
+        "translation_en": "\"A Muslim is the brother of a Muslim, and it is not lawful for a Muslim to sell his brother something with a defect without pointing it out to him.\"",
+        "collection": "سنن ابن ماجه",
+        "number": "2246",
+        "narrator": "عقبة بن عامر",
+        "grade": "صحيح",
+        "grader": "الألباني — صحيح ابن ماجه 1837: «صحيح» (الدرر السنية)؛ HadeethEnc: «حسن»",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/66144",
+        "dorar_url": "https://dorar.net/h/mpUbeq5I",
+        "dorar_ref": "المحدث: الألباني | المصدر: صحيح ابن ماجه | الرقم: 1837 | خلاصة حكم المحدث: صحيح",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/66144",
+        "sunnah_url": "https://sunnah.com/ibnmajah:2246",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "أَفَلاَ جَعَلْتَهُ فَوْقَ الطَّعَامِ كَىْ يَرَاهُ النَّاسُ مَنْ غَشَّ فَلَيْسَ مِنِّي",
+        "translation_en": "\"Why did you not put it on top of the food so that people could see it? Whoever cheats is not of me.\"",
+        "collection": "صحيح مسلم",
+        "number": "102",
+        "narrator": "أبو هريرة",
+        "grade": "صحيح",
+        "grader": "الإمام مسلم (أخرجه في صحيحه)",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/66132",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/66132",
+        "sunnah_url": "https://sunnah.com/muslim:102",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "أَلاَ أُنَبِّئُكُمْ بِأَكْبَرِ الْكَبَائِرِ \". ثَلاَثًا. قَالُوا بَلَى يَا رَسُولَ اللَّهِ. قَالَ \" الإِشْرَاكُ بِاللَّهِ، وَعُقُوقُ الْوَالِدَيْنِ \". وَجَلَسَ وَكَانَ مُتَّكِئًا فَقَالَ \" أَلاَ وَقَوْلُ الزُّورِ \". قَالَ فَمَا زَالَ يُكَرِّرُهَا حَتَّى قُلْنَا لَيْتَهُ سَكَتَ",
+        "translation_en": "\"Shall I not tell you of the greatest of the major sins?\" (three times). They said, \"Yes, O Messenger of Allah.\" He said, \"Associating partners with Allah and disobedience to parents.\" He was reclining, then sat up and said, \"And beware of false statement,\" and he kept repeating it until we wished he would stop.",
+        "collection": "صحيح البخاري",
+        "number": "2654",
+        "narrator": "أبو بكرة نفيع بن الحارث",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)؛ وأخرجه مسلم (87)",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/2941",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/2941",
+        "sunnah_url": "https://sunnah.com/bukhari:2654",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "رَحِمَ اللَّهُ رَجُلاً سَمْحًا إِذَا بَاعَ، وَإِذَا اشْتَرَى، وَإِذَا اقْتَضَى",
+        "translation_en": "\"May Allah have mercy on a man who is generous when he sells, when he buys, and when he asks for repayment.\"",
+        "collection": "صحيح البخاري",
+        "number": "2076",
+        "narrator": "جابر بن عبد الله",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/3716",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/3716",
+        "sunnah_url": "https://sunnah.com/bukhari:2076",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "الغش وكتمان العيب حرام، والتدليس عيب يثبت به الخيار. والغبن اليسير ما يدخل تحت تقويم المقومين ولا أثر له، وفي السلع معلومة السعر كالخبز واللحم لا يُعفى عن الغبن وإن قل. ولا رد بالغبن الفاحش في ظاهر الرواية، وصحّح الزيلعي وأفتى صدر الإسلام وغيره بالرد إذا صاحبه تغرير.",
+        "position_en": "Deception and concealing defects are prohibited, and misrepresentation is a defect giving the option to return. Minor disparity is what falls within appraisers' estimates and has no effect, but for goods with known prices like bread and meat even small overcharging is not excused. In the zahir al-riwaya gross disparity alone gives no right to return; al-Zayla'i and others gave fatwa that it does when accompanied by deception.",
+        "reference": "رد المحتار ٤/٧١ و٤/٩٨؛ الدر المختار ٤/١٥٩؛ تبيين الحقائق ٤/٧٩ و٤/٢٧٢؛ البحر الرائق ٦/١٢٦ — عبر الموسوعة الفقهية الكويتية ٣١/١٣٩-١٤٢ (غبن) و٣١/٢١٩-٢٢١ (غش)"
+      },
+      "maliki": {
+        "position_ar": "لا يحل لمسلم أن يبيع شيئاً يعلم فيه عيباً قل أو كثر حتى يبيّنه للمشتري (ابن رشد الجد). والغبن الفاحش ما زاد على الثلث، والمشهور أنه لا يُرد به إلا إذا استسلم المغبون واسترسل فأخبر بجهله بالقيمة، فله الرد حينئذ.",
+        "position_en": "A Muslim may not sell anything in which he knows of a defect, small or great, without explaining it to the buyer (Ibn Rushd al-Jadd). Gross disparity is more than one third; the well-known view is that it does not allow return unless the cheated party trusted the other and declared his ignorance of the value, in which case he may return it.",
+        "reference": "المقدمات الممهدات ٢/٥٦٩؛ حاشية الدسوقي على الشرح الكبير ٣/١٤٠ و٣/٣٢٨؛ مواهب الجليل ٤/٤٦٨-٤٧٢؛ الشرح الصغير ٣/١٩٠ — عبر الموسوعة الفقهية الكويتية ٣١/١٣٩-١٤١ و٣١/٢١٩"
+      },
+      "shafii": {
+        "position_ar": "الغش حرام، والتدليس وكتمان العيب يثبت به الخيار. والغبن الفاحش ما لا يُحتمل غالباً بحسب عرف البلد، ومجرد الغبن لا يثبت الخيار وإن تفاحش، لتقصير المغبون في سؤال أهل الخبرة.",
+        "position_en": "Deception is prohibited, and concealing a defect gives the right to return. Gross disparity is what is not normally tolerated by local custom, but disparity alone gives no option to cancel, however large, since the cheated party failed to consult experts.",
+        "reference": "روضة الطالبين ٣/٤٦٩-٤٧٠؛ مغني المحتاج ٢/٢٢٤ — عبر الموسوعة الفقهية الكويتية ٣١/١٣٩-١٤٠ و٣١/٢٢٠"
+      },
+      "hanbali": {
+        "position_ar": "الغبن محرم ويحرم تعاطي أسبابه، والمرجع في قدره إلى العرف (وقيل الثلث). ويثبت للمغبون خيار الفسخ في ثلاث صور: تلقي الركبان، وبيع النجش، والمسترسل الذي اطمأن إلى البائع فغُبن. والتدليس وكتمان العيب يثبت بهما الخيار.",
+        "position_en": "Overcharging by deceit is prohibited along with its means; its measure is custom (or, in another view, one third). The cheated party may cancel in three cases: meeting traders before they reach the market, artificial bidding (najash), and the trusting buyer (mustarsil) who relied on the seller. Misrepresentation and concealment of defects also give the option to cancel.",
+        "reference": "الإنصاف ٤/٣٩٤؛ المغني ٣/٥٨٤ و٤/١٥٧؛ كشاف القناع ٣/٢١١؛ الروض المربع ٤/٤٣٣-٤٣٧ — عبر الموسوعة الفقهية الكويتية ٣١/١٣٩-١٤٢"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "دار الإفتاء المصرية",
+        "decision_ref": "الفتوى رقم 8298 بتاريخ 8 مارس 2024 (أ.د. شوقي علام): حكم الشراء الوهمي لمنتجات بعض التجار لزيادة رواج بضاعتهم",
+        "position_ar": "الشراء الوهمي وما يصحبه من «تعليقات وهمية تمدح السلع» محرم لاشتماله على الصورية والكذب والغش والخداع والنجش وتغرير المشترين.",
+        "position_en": "Fake purchases and the accompanying \"fake comments praising products\" are prohibited because they involve sham transactions, lying, deception, artificial inflation (najash) and misleading buyers.",
+        "source_url": "https://www.dar-alifta.org/ar/fatwa/details/20671"
+      },
+      {
+        "body": "المفتي إسماعيل باسا (TheMufti.com، جنوب أفريقيا) — فتوى فردية",
+        "decision_ref": "Giving Tips at Restaurants، 24 أكتوبر 2019",
+        "position_ar": "الإكرامية في المطعم هبة (هدية) للمطعم أو للنادل، مستحبة غير واجبة، وليست جزءاً من عقد البيع.",
+        "position_en": "A restaurant tip is a gift (hiba) to the restaurant or waiter, encouraged but not obligatory, and not part of the sale contract.",
+        "source_url": "https://islamqa.org/hanafi/themufti/153465/giving-tips-at-restaurants/"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "عند بيع غرض مستعمل (عبر Facebook Marketplace أو Craigslist أو OfferUp) اكتب العيوب صراحة في الإعلان، مثل: «البطارية تدوم ساعتين فقط»، وأرِها للمشتري عند المعاينة.",
+        "لا تمسح ولا تخفِ العيب ولا تقل «لا يوجد فيه شيء»؛ والبيع «كما هو» (as is) يجوز إذا كان صادقاً لا ستاراً لعيب تعرفه وتكتمه.",
+        "سعّر بقريب من سعر السوق، ولا تستغل جهل المشتري أو ثقته بك؛ وإن غبنته غبناً فاحشاً بتغرير فرُدّ له الفرق.",
+        "الإكرامية في أمريكا عُرف قوي، وكثير من عمّال المطاعم أجورهم الأساسية منخفضة ويعتمدون عليها؛ فإعطاؤها إحسان مستحب يتأكد بالعرف، وإن أُضيفت رسوم خدمة (service charge) معلنة في الفاتورة فهي جزء من الثمن المتفق عليه.",
+        "لا تكتب تقييماً (review) لمتجر لم تتعامل معه أو بخلاف تجربتك الحقيقية ولو مقابل خصم؛ وإن حصلت على مقابل لتقييم صادق فأفصح عنه — وهيئة التجارة الفيدرالية (FTC) تحظر التقييمات المزيفة أيضاً.",
+        "إن بعت سابقاً سلعة كتمت عيبها فتواصل مع المشتري إن أمكن، واعرض الرد أو التعويض."
+      ],
+      "en": [
+        "When selling a used item (Facebook Marketplace, Craigslist, OfferUp), state its defects clearly in the listing, e.g. \"battery lasts only two hours,\" and show the buyer at inspection.",
+        "Do not hide or disguise the defect or say \"nothing is wrong with it\"; selling \"as is\" is fine when honest, not as a cover for a defect you know and conceal.",
+        "Price close to market value and do not exploit the buyer's ignorance or trust; if you grossly overcharged through deception, refund the difference.",
+        "Tipping is a strong custom in the US, and many restaurant workers have low base wages and rely on tips; giving a tip is a recommended kindness reinforced by custom, and a disclosed service charge on the bill is part of the agreed price.",
+        "Do not write a review for a store you never used or one that contradicts your real experience, even for a discount; if you receive something for an honest review, disclose it — the Federal Trade Commission (FTC) also prohibits fake reviews.",
+        "If you previously sold an item while hiding its defect, contact the buyer if possible and offer a return or compensation."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "البيع بخصم مع بيان العيب",
+        "إصلاح العيب قبل البيع",
+        "كتابة تقييم صادق مع الإفصاح عن أي مقابل",
+        "دعم متجر الصديق بالشراء منه والتوصية الصادقة"
+      ],
+      "en": [
+        "Selling at a discount with the defect disclosed",
+        "Fixing the defect before selling",
+        "Writing an honest review and disclosing any incentive",
+        "Supporting a friend's store by buying from it and recommending it honestly"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "إذا بعت سلعة بعيب مكتوم ولا تستطيع الوصول إلى المشتري، أو اختلفت مع المشتري في وجود العيب أو قدر التعويض، أو كنت تعمل في التجارة الإلكترونية وتُطلب منك أساليب تسويق تشك في مشروعيتها.",
+      "en": "If you sold an item with a concealed defect and cannot reach the buyer, if you and the buyer dispute the defect or compensation, or if you work in e-commerce and are asked to use marketing practices whose legitimacy you doubt."
+    },
+    "confidence": "high",
+    "review_status": "ai_verified",
+    "notes_for_reviewer": "1) أقوال المذاهب عبر الموسوعة الفقهية الكويتية مادتي «غبن» ٣١/١٣٨-١٤٢ (shamela.ws/book/11430/19679) و«غش» ٣١/٢١٨-٢٢١ (shamela.ws/book/11430/19840). 2) جانب الإكرامية أضعف توثيقاً: لم أجد قراراً مجمعياً، والفتوى المذكورة فردية من مفتٍ حنفي في جنوب أفريقيا؛ وعبارة «يتأكد بالعرف» اجتهاد مني مبني على قاعدة العادة محكّمة — يحتاج مراجعة، ويمكن الاستدلال بحديث «المسلمون على شروطهم» (أبو داود 3594، حسن صحيح عند الألباني) لرسوم الخدمة المعلنة. 3) حظر FTC للتقييمات المزيفة (قاعدة 2024) معلومة عامة لم أفتح مصدرها الرسمي في هذه الجلسة. 4) حديث ابن ماجه 2246 صححه الألباني كما في بيانات الدرجات المرفقة بنسخة السنن (fawazahmed0/hadith-api). 5) آية الحج ٣٠ أُدرجت كاملة والشاهد في آخرها ﴿واجتنبوا قول الزور﴾.\n\n[تدقيق المرحلة 1 — 2026-10-05] لا ملاحظات جوهرية؛ أقوال المذاهب في الغبن والعيب مطابقة للموسوعة الكويتية. قاعدة FTC بحظر التقييمات المزيفة صدرت في أغسطس 2024 (صحيح). نجحت الفحوص الآلية.",
+    "newcomer_explainer": {
+      "ar": "يعدّ الإسلام الصدق في التجارة جزءاً من الدين: فكتمان عيب السلعة محرّم باتفاق الفقهاء ويعطي المشتري حق الردّ، وقد قال النبي ﷺ إن البيّعين إن صدقا وبيّنا بورك لهما في بيعهما (البخاري 2079). والكذب في وصف السلعة أو سعرها، وكتابة التقييمات الكاذبة، محرّمة لأنها غش وقول زور. والغبن اليسير الذي يتسامح فيه الناس معفو عنه، أما الفاحش ففي إثباته حق الفسخ خلاف، ويحرم إذا صاحبه تغرير. والإكرامية إحسان مستحب، فإن أُعلنت في الفاتورة صارت جزءاً من الثمن.",
+      "en": "Islam treats honest trade as part of faith: concealing a defect is forbidden by agreement of the jurists and gives the buyer a right to return the item, and the Prophet ﷺ said that if buyer and seller are truthful and disclose, their deal is blessed (Bukhari 2079). Lying about an item or its price, and posting fake reviews, are forbidden as deception and false statement. A small price difference that people normally tolerate is excused, while gross overcharging is debated as grounds for cancellation and is forbidden when it involves deception. A tip is a recommended kindness, and if it is disclosed as a charge on the bill it becomes part of the price."
+    },
+    "library_only": true
+  }
+]

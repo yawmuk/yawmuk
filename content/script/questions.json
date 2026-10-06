@@ -1,0 +1,1093 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "qa.basics.tawhid",
+      "case_id": 7,
+      "location": "home",
+      "asker": {
+        "ar": "آدم",
+        "en": "Adam"
+      },
+      "level": "A",
+      "question": {
+        "ar": "ابدأ بالأساس: ما الفكرة الأولى في الإسلام التي تُبنى عليها كل الأحكام؟",
+        "en": "Start with the basics: what is the first idea in Islam that every ruling builds on?"
+      },
+      "answer": {
+        "ar": "قبل أي حكم في البيت أو العمل يأتي الأصل: أن الله واحد، لا شريك له، وهو وحده الذي يُعبد. ويسمّي المسلمون هذا «التوحيد»، ويعرّفه معجم الجمهرة بأنه إفراد الله بالربوبية والألوهية والأسماء والصفات. وسورة الإخلاص تلخّصه (الإخلاص 112:1-4)، وكذلك قوله تعالى إن إلهكم إله واحد (البقرة 2:163). وكل ما ستراه في يوم آدم، من الصلاة إلى المعاملات، فرعٌ عن هذا الأصل.",
+        "en": "Before any ruling at home or at work comes the root: God is One, with no partner, and He alone is worshipped. Muslims call this Tawhid; the Jamhara dictionary defines it as singling out Allah in His lordship, His right to worship, and His names and attributes. Surah al-Ikhlas sums it up (112:1-4), as does the verse saying your God is one God (2:163). Everything in Adam's day, from prayer to money, branches from this root."
+      },
+      "source_ids": [
+        "quran:112:1",
+        "quran:112:2",
+        "quran:112:3",
+        "quran:112:4",
+        "quran:2:163",
+        "other:jamhara-tawhid"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.transparency.home",
+      "case_id": 0,
+      "location": "home",
+      "asker": {
+        "ar": "كارول",
+        "en": "Carol"
+      },
+      "level": "B",
+      "question": {
+        "ar": "هل هذه الإجابات من الذكاء الاصطناعي؟ ومن راجعها؟",
+        "en": "Are these answers written by AI? Who reviewed them?"
+      },
+      "answer": {
+        "ar": "سؤال في محله. هذه الإجابات كُتبت بمساعدة الذكاء الاصطناعي، ثم رُبط كل ادعاء شرعي فيها بمصدر في مكتبتنا الموثّقة: الآيات من quranenc.com (مجمع الملك فهد)، والأحاديث من صحيحي البخاري ومسلم بعد مطابقتها على dorar.net. لم يراجعها عالم شرعي بعد، فهي للتعريف العام وليست فتوى. وإن لم نجد مصدراً موثّقاً قلنا ذلك بصراحة.",
+        "en": "Fair question. These answers were drafted with AI help, then every religious claim was tied to a source in our verified library: Quran verses from quranenc.com (King Fahd Complex) and hadith only from Sahih al-Bukhari or Sahih Muslim, checked on dorar.net. No scholar has reviewed them yet, so they are general information, not a fatwa. When we can't find a verified source, we say so plainly."
+      },
+      "source_ids": [],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.transparency.work",
+      "case_id": 0,
+      "location": "work",
+      "asker": {
+        "ar": "ليندا",
+        "en": "Linda"
+      },
+      "level": "B",
+      "question": {
+        "ar": "قبل أن أشارك هذا مع الفريق: هل هذا محتوى آلي؟ ومن تحقق منه؟",
+        "en": "Before I share this with the team: is this AI content? Who checked it?"
+      },
+      "answer": {
+        "ar": "نعم، صيغت الإجابات بمساعدة الذكاء الاصطناعي، ولهذا نُظهر المصادر بجانب كل إجابة: رقم السورة والآية، أو رقم الحديث، أو رابط الصفحة. تحقق فريق المشروع آلياً ويدوياً من أن كل مصدر موجود ويقول ما ننسبه إليه، لكن لم يراجعها عالم شرعي بعد. شاركها على أنها مدخل تعريفي، ولأي قرار شخصي يُسأل عالم مؤهل.",
+        "en": "Yes, the answers were drafted with AI help, which is why each one shows its sources: surah and verse number, hadith number, or page link. The project team checked, by script and by hand, that each source exists and says what we attribute to it, but no scholar has reviewed them yet. Share them as an introduction; for any personal decision, a qualified scholar should be asked."
+      },
+      "source_ids": [],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.transparency.school",
+      "case_id": 0,
+      "location": "school",
+      "asker": {
+        "ar": "د. كارين ميتشل",
+        "en": "Dr. Karen Mitchell"
+      },
+      "level": "B",
+      "question": {
+        "ar": "بصفتي أستاذة: ما منهجية هذه الإجابات؟ هل وراءها نموذج لغوي؟",
+        "en": "As a professor: what's the method behind these answers? Is a language model involved?"
+      },
+      "answer": {
+        "ar": "نعم، استُخدم نموذج لغوي في الصياغة. المنهجية: لا نكتب نص آية أو حديث داخل الإجابة، بل نشير إليه بمعرّف يُعرض من مكتبة مصادر موثّقة؛ الآيات بنصها من quranenc.com، والأحاديث من الصحيحين فقط بعد مطابقتها على dorar.net. اختبارات آلية تمنع أي مرجع غير موجود. حالة المراجعة: مسودة بمساعدة الذكاء الاصطناعي، لم يراجعها عالم بعد.",
+        "en": "Yes, a language model helped with the wording. The method: we never paste verse or hadith text into an answer; we point to it by an ID that is shown from a verified source library, with verses taken verbatim from quranenc.com and hadith only from Bukhari or Muslim, checked on dorar.net. Automated tests block any reference that doesn't exist. Review status: AI-assisted draft, not yet reviewed by a scholar."
+      },
+      "source_ids": [],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.transparency.street",
+      "case_id": 0,
+      "location": "street",
+      "asker": {
+        "ar": "الضابط راي دانيالز",
+        "en": "Officer Ray Daniels"
+      },
+      "level": "B",
+      "question": {
+        "ar": "من أين تأتي هذه المعلومات؟ هل هو تطبيق ذكاء اصطناعي يخترع الكلام؟",
+        "en": "Where does this info come from? Is it an AI app making things up?"
+      },
+      "answer": {
+        "ar": "الذكاء الاصطناعي ساعد في الصياغة، لكنه لا يُترك ليخترع: كل معلومة شرعية مربوطة بمصدر نعرضه لك، من القرآن الكريم (quranenc.com) أو صحيحي البخاري ومسلم أو مواقع علمية معروفة. وحين يُطلب منا حديث لم نجده في مكتبتنا نقول «لم نجده» ولا نؤلف شيئاً. لم يراجع المحتوى عالم شرعي بعد.",
+        "en": "AI helped with the wording, but it isn't left to invent: every religious point is tied to a source we show you, from the Quran (quranenc.com), Sahih al-Bukhari or Sahih Muslim, or well-known scholarly sites. When someone asks for a hadith we can't find in our library, we say 'not found' instead of making one up. No scholar has reviewed this content yet."
+      },
+      "source_ids": [],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.transparency.public_events",
+      "case_id": 0,
+      "location": "public_events",
+      "asker": {
+        "ar": "ديف",
+        "en": "Dave"
+      },
+      "level": "B",
+      "question": {
+        "ar": "سؤال سريع: هل راجع أحد من أهل الاختصاص هذه الإجابات؟",
+        "en": "Quick one: has an actual expert reviewed these answers?"
+      },
+      "answer": {
+        "ar": "ليس بعد، ونقولها بوضوح. الإجابات مسودة كُتبت بمساعدة الذكاء الاصطناعي، وتحقق فريق المشروع من مصادرها: أن الآية موجودة برقمها ونصها، وأن الحديث صحيح في البخاري أو مسلم، وأن الصفحة المذكورة تقول ما ننقله. المراجعة الشرعية من عالم مؤهل خطوة قادمة. لذلك لا تُعامَل أي إجابة هنا كفتوى.",
+        "en": "Not yet, and we say so clearly. The answers are an AI-assisted draft whose sources the project team checked: that each verse exists with that number and wording, that each hadith is authentic in Bukhari or Muslim, and that each cited page says what we report. Review by a qualified scholar is a next step, so no answer here should be treated as a fatwa."
+      },
+      "source_ids": [],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.transparency.private_events",
+      "case_id": 0,
+      "location": "private_events",
+      "asker": {
+        "ar": "ماريا غارسيا",
+        "en": "Maria Garcia"
+      },
+      "level": "B",
+      "question": {
+        "ar": "هل هذا رأي عمر الشخصي، أم آلة، أم كلام علماء؟",
+        "en": "Is this Omar's personal opinion, a machine, or what scholars say?"
+      },
+      "answer": {
+        "ar": "الإجابات ليست رأي شخصية في القصة. صاغها الذكاء الاصطناعي بمساعدة فريق المشروع، وكل حكم فيها مستند إلى القرآن أو حديث صحيح أو صفحة من مواقع علمية معروفة، ونعرض المصدر معها. ونفرّق دائماً بين ما اتفق عليه العلماء وما اختلفوا فيه. لم يراجعها عالم بعد؛ والإمام حمزة في القصة يمثل من ينبغي سؤاله في الحالات الشخصية.",
+        "en": "The answers aren't any character's personal opinion. They were drafted with AI help by the project team, and each religious point rests on the Quran, an authentic hadith, or a page from well-known scholarly sites, shown alongside. We always separate what scholars agree on from what they differ on. No scholar has reviewed them yet; in the story, Imam Hamza stands for the kind of person to ask about personal cases."
+      },
+      "source_ids": [],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.kaaba.home",
+      "case_id": 1,
+      "location": "home",
+      "asker": {
+        "ar": "بن",
+        "en": "Ben"
+      },
+      "level": "B",
+      "question": {
+        "ar": "لماذا يعبد المسلمون الكعبة، ذلك المكعب الأسود في مكة؟",
+        "en": "Why do Muslims worship the Kaaba, that black cube in Mecca?"
+      },
+      "answer": {
+        "ar": "سؤال جيد، والخلط فيه شائع. المسلمون لا يعبدون الكعبة؛ العبادة في الإسلام لله وحده (الذاريات 51:56). الكعبة هي «القبلة»: الاتجاه الذي يتوجه إليه المسلمون جميعاً في صلاتهم أينما كانوا (البقرة 2:150). والقرآن يأمر بعبادة «ربّ هذا البيت» لا البيت نفسه (قريش 106:3). وقال عمر بن الخطاب عن الحجر الأسود إنه حجر لا يضر ولا ينفع (صحيح البخاري 1597) (بينات، المسألة 9).",
+        "en": "Good question, and a common mix-up. Muslims don't worship the Kaaba; in Islam, worship is for Allah alone (51:56). The Kaaba is the qibla: the direction all Muslims face when they pray, wherever they are (2:150). The Quran asks people to worship 'the Lord of this House', not the House itself (106:3). The caliph Umar even said of the Black Stone that it is a stone that can neither harm nor benefit (Sahih al-Bukhari 1597) (Bayyinat, Q9)."
+      },
+      "source_ids": [
+        "quran:51:56",
+        "quran:2:150",
+        "quran:106:3",
+        "hadith:صحيح-البخاري:1597",
+        "other:bayyinat-q9"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.kaaba.school",
+      "case_id": 1,
+      "location": "school",
+      "asker": {
+        "ar": "هانا",
+        "en": "Hannah"
+      },
+      "level": "B",
+      "question": {
+        "ar": "رأيت في فيلم وثائقي ناساً يطوفون حول الكعبة ويقبّلون حجراً. أليست هذه عبادة لشيء مادي؟",
+        "en": "In a documentary I saw people circling the Kaaba and kissing a stone. Isn't that worshipping an object?"
+      },
+      "answer": {
+        "ar": "قد تبدو كذلك من الخارج، فالسؤال مفهوم. الطواف حول الكعبة والصلاة نحوها عبادتان يُقصد بهما الله وحده، اتباعاً لما فعله النبي ﷺ؛ المبنى ليس هو المعبود. وقد بُني البيت على أصل «لا تشرك بي شيئاً» (الحج 22:26). وقال عمر بن الخطاب صراحة إن الحجر الأسود لا يضر ولا ينفع، وإنه قبّله فقط لأنه رأى النبي ﷺ يقبّله (صحيح البخاري 1597) (بينات، المسألة 9).",
+        "en": "It can look that way from outside, so it's a fair question. Circling the Kaaba and praying toward it are acts of worship directed to Allah alone, following what the Prophet ﷺ did; the building is not what is worshipped. The House was founded on the principle 'do not associate anything with Me' (22:26). Umar said plainly that the Black Stone can neither harm nor benefit, and that he kissed it only because he had seen the Prophet ﷺ do so (Sahih al-Bukhari 1597) (Bayyinat, Q9)."
+      },
+      "source_ids": [
+        "quran:22:26",
+        "quran:106:3",
+        "hadith:صحيح-البخاري:1597",
+        "other:bayyinat-q9"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.quran_author.work",
+      "case_id": 2,
+      "location": "work",
+      "asker": {
+        "ar": "جيك",
+        "en": "Jake"
+      },
+      "level": "B",
+      "question": {
+        "ar": "سؤال صريح: هل كتب محمد القرآن بنفسه؟",
+        "en": "Honest question: did Muhammad write the Quran himself?"
+      },
+      "answer": {
+        "ar": "يؤمن المسلمون أن القرآن كلام الله، أوحاه إلى النبي محمد ﷺ فبلّغه ولم يؤلفه. هذه مسألة إيمان، والقرآن نفسه يذكر أسباباً للتأمل: أن النبي لم يكن يقرأ كتاباً ولا يخطه قبله (العنكبوت 29:48)، ويدعو إلى تدبّره والبحث فيه عن اختلاف (النساء 4:82)، ويتحدى من يشك أن يأتي بسورة مثله (البقرة 2:23؛ الإسراء 17:88). هذا ما يعتقده المسلمون ولماذا، ولك أن تقرأ وتكوّن رأيك (بينات، المسألة 27).",
+        "en": "Muslims believe the Quran is the word of Allah, revealed to the Prophet Muhammad ﷺ, who conveyed it but did not author it. That is a matter of faith, and the Quran itself offers reasons to reflect: it says he did not read or write any scripture before it (29:48), invites readers to look for contradictions in it (4:82), and challenges anyone in doubt to produce a single chapter like it (2:23; 17:88). That's what Muslims hold and why; you're free to read and form your own view (Bayyinat, Q27)."
+      },
+      "source_ids": [
+        "quran:29:48",
+        "quran:4:82",
+        "quran:2:23",
+        "quran:17:88",
+        "other:bayyinat-q27"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.quran_author.school",
+      "case_id": 2,
+      "location": "school",
+      "asker": {
+        "ar": "تايلر",
+        "en": "Tyler"
+      },
+      "level": "B",
+      "question": {
+        "ar": "أليس القرآن مجرد أفكار محمد الشخصية مكتوبة؟",
+        "en": "Isn't the Quran just Muhammad's own ideas written down?"
+      },
+      "answer": {
+        "ar": "من وجهة نظر المسلمين: لا. هم يعتقدون أن القرآن نزل من الله على «عبده» محمد ﷺ (البقرة 2:23). ولن نذكر هنا ادعاءات تاريخية لا نملك لها مصدراً موثّقاً؛ نكتفي بما يقوله القرآن عن نفسه: لو كان من عند غير الله لوجدوا فيه اختلافاً كثيراً (النساء 4:82)، وإن الإنس والجن لا يأتون بمثله (الإسراء 17:88). السؤال نفسه مشروع، ويناقشه المؤرخون والقراء كذلك (بينات، المسألة 27).",
+        "en": "From the Muslim point of view, no. Muslims believe the Quran was sent down by Allah upon 'Our Servant', Muhammad ﷺ (2:23). We won't add historical claims we can't back with a verified source; we'll stick to what the Quran says about itself: had it come from anyone other than Allah, people would find much contradiction in it (4:82), and humans and jinn together could not produce its like (17:88). The question itself is a fair one, and historians and readers discuss it too (Bayyinat, Q27)."
+      },
+      "source_ids": [
+        "quran:2:23",
+        "quran:4:82",
+        "quran:17:88",
+        "other:bayyinat-q27"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.sword.street",
+      "case_id": 3,
+      "location": "street",
+      "asker": {
+        "ar": "الضابط راي دانيالز",
+        "en": "Officer Ray Daniels"
+      },
+      "level": "C",
+      "question": {
+        "ar": "قرأت أن الإسلام انتشر بالسيف. هل هذا وصف عادل؟",
+        "en": "I read that Islam spread by the sword. Is that fair?"
+      },
+      "answer": {
+        "ar": "يفيد هنا أن نفصل بين أمرين. التاريخ: الدول الإسلامية الأولى خاضت حروباً وحكمت أراضي جديدة. والإيمان: فتح الأرض ليس إكراهاً على العقيدة؛ فالقرآن يقرر «لا إكراه في الدين» (البقرة 2:256)، ويسأل: أفأنت تُكره الناس حتى يكونوا مؤمنين؟ (يونس 10:99). وكثيرون عاشوا قروناً تحت حكم المسلمين على دينهم، وإندونيسيا، أكبر بلد مسلم سكاناً، أسلمت دون جيش (IslamHouse). وكل حدث تاريخي يُحكم عليه بأدلته (بينات، المسألة 229).",
+        "en": "It helps to separate two things. History: early Muslim states fought wars and ruled new lands. Belief: ruling land is not forcing faith. The Quran states there is no compulsion in religion (2:256) and asks whether anyone could compel people to believe (10:99); scholars stress that faith cannot be compelled (IslamQA 178756). Many people kept their own faith for centuries under Muslim rule, and Indonesia, the largest Muslim population today, embraced Islam without any Muslim army (IslamHouse). Each historical event should be judged on its own evidence (Bayyinat, Q229)."
+      },
+      "source_ids": [
+        "quran:2:256",
+        "quran:10:99",
+        "other:islamqa-178756",
+        "other:islamhouse-429880",
+        "other:bayyinat-q229"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.sword.public_events",
+      "case_id": 3,
+      "location": "public_events",
+      "asker": {
+        "ar": "مايك",
+        "en": "Mike"
+      },
+      "level": "C",
+      "question": {
+        "ar": "بصراحة، ألم ينتشر الإسلام أساساً بالغزو؟",
+        "en": "Come on, wasn't Islam basically spread by conquest?"
+      },
+      "answer": {
+        "ar": "الصورة أوسع من كلمة واحدة. القرآن أذن بقتال من يقاتل، مع النهي عن الاعتداء (البقرة 2:190)، وفرّق بين الحرب والعقيدة: «لا إكراه في الدين» (البقرة 2:256)؛ ويبيّن العلماء أن الحكم السياسي شيء وإجبار القلب على الإيمان شيء آخر (IslamQA 178756). ومن الشواهد أن المسلمين حكموا الهند قروناً وبقي أكثر أهلها على أديانهم، وأن الإسلام وصل جنوب شرق آسيا بالتجار (IslamHouse). لا «بالسيف وحده» دقيق، ولا «بلا أي حرب» (بينات، المسألة 229).",
+        "en": "The picture is wider than one word. The Quran permits fighting those who fight you while forbidding transgression (2:190), and it separates war from belief: there is no compulsion in religion (2:256). Scholars explain that political rule is one thing and forcing a heart to believe is another (IslamQA 178756). For example, Muslims ruled much of India for centuries while most people there kept their own faiths, and Islam reached Southeast Asia through traders (IslamHouse). Neither 'only by the sword' nor 'never any war' is accurate (Bayyinat, Q229)."
+      },
+      "source_ids": [
+        "quran:2:190",
+        "quran:2:256",
+        "other:islamqa-178756",
+        "other:islamhouse-429880",
+        "other:bayyinat-q229"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.khilaf.school",
+      "case_id": 4,
+      "location": "school",
+      "asker": {
+        "ar": "كارلوس",
+        "en": "Carlos"
+      },
+      "level": "B",
+      "question": {
+        "ar": "إذا كان للمسلمين قرآن واحد، فلماذا يختلف علماؤهم؟",
+        "en": "If Muslims have one Quran, why do their scholars disagree?"
+      },
+      "answer": {
+        "ar": "لأن بعض النصوص تحتمل أكثر من فهم. حين لا يوجد نص قاطع في مسألة، يجتهد العلماء المؤهلون، أي يبذلون جهداً منضبطاً للوصول إلى الحكم. وقد يختلفون لأن حديثاً بلغ عالماً ولم يبلغ آخر، أو لاختلافهم في صحته، أو في فهم لفظه (IslamQA 128658). وأخبر النبي ﷺ أن الحاكم إذا اجتهد فأصاب فله أجران، وإن أخطأ فله أجر (صحيح البخاري 7352). فهذا «الخلاف» ليس تناقضاً في الدين، والأصول متفق عليها.",
+        "en": "Because some texts can be read in more than one way. Where no clear-cut text settles a matter, qualified scholars do ijtihad: a careful, disciplined effort to reach the ruling. They may differ because a hadith reached one scholar and not another, or they judged its authenticity or wording differently (IslamQA 128658). The Prophet ﷺ said a judge who strives and is right gets two rewards, and one who strives and errs gets one (Sahih al-Bukhari 7352). So this difference, khilaf, is not a contradiction; the core is agreed."
+      },
+      "source_ids": [
+        "other:islamqa-128658",
+        "hadith:صحيح-البخاري:7352",
+        "other:islamqa-70491",
+        "other:bayyinat-q239"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.khilaf.private_events",
+      "case_id": 4,
+      "location": "private_events",
+      "asker": {
+        "ar": "ماريا غارسيا",
+        "en": "Maria Garcia"
+      },
+      "level": "B",
+      "question": {
+        "ar": "في عرس يوسف قال بعض الضيوف إن الموسيقى جائزة وقال آخرون لا. كيف يكون الرأيان إسلاميين؟",
+        "en": "At Yusuf's wedding some guests said music is fine and others said no. How can both be Muslim views?"
+      },
+      "answer": {
+        "ar": "الرأيان صدرا عن علماء مؤهلين قرؤوا المصادر نفسها. في تفاصيل مثل موسيقى العرس تحتمل الأدلة أكثر من قراءة، فوصل علماء أمناء إلى نتائج مختلفة باجتهادهم، ويتبع كل مسلم من يثق بعلمه دون إنكار على الآخر (IslamQA 70491). وهذا غير التناقض: ما ثبت بنص قاطع، كفرض الصلاة (البقرة 2:43)، لا يدخل في هذا النوع من الخلاف. ويأمر القرآن بردّ ما يُتنازع فيه إلى الله والرسول (النساء 4:59) (بينات، المسألة 239).",
+        "en": "Both views come from qualified scholars reading the same sources. On details like wedding music, the evidence can be read more than one way, so honest scholars reached different conclusions through ijtihad, and each Muslim follows the scholar they trust without condemning the other (IslamQA 70491). That isn't contradiction: matters settled by a clear, decisive text, like the duty of prayer (2:43), are not open to this kind of difference. The Quran tells believers to refer their disputes back to Allah and the Messenger (4:59) (Bayyinat, Q239)."
+      },
+      "source_ids": [
+        "other:islamqa-70491",
+        "quran:2:43",
+        "quran:4:59",
+        "other:bayyinat-q239"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": "private_events.wedding"
+    },
+    {
+      "id": "qa.marriage.home",
+      "case_id": 5,
+      "location": "home",
+      "asker": {
+        "ar": "سارة",
+        "en": "Sarah"
+      },
+      "level": "D",
+      "question": {
+        "ar": "ابنة خالة رانيا ستتزوج في كندا، لكن والدها يعيش في بلد آخر. هل يصح زواجها دون حضوره؟",
+        "en": "Rania's cousin is getting married in Canada, but her father lives in another country. Is the marriage valid without him there?"
+      },
+      "answer": {
+        "ar": "هذه حالة شخصية تحتاج إلى «فتوى»: جواب من عالم مؤهل يسمع كل التفاصيل ويعرف قانون البلد. على سبيل المعلومة العامة فقط: الزواج في الإسلام عقد له شروط، منها المهر وهو حق للعروس نفسها (النساء 4:4)، وإعلانه بوليمة (صحيح البخاري 5167). أما مسائل الولي والتوكيل والتسجيل المدني فتختلف باختلاف الحالة والمذاهب، فلن نصدر حكماً هنا.",
+        "en": "This is a personal case, and it needs a fatwa: an answer from a qualified scholar who hears every detail and knows the local law. As general information only: marriage in Islam is a contract with conditions, such as the mahr, a gift that is the bride's own right (4:4), and celebrating it openly with a wedding meal (Sahih al-Bukhari 5167). Questions about the guardian, appointing a representative and civil registration differ from case to case and between schools, so we won't give a verdict here."
+      },
+      "source_ids": [
+        "quran:4:4",
+        "hadith:صحيح-البخاري:5167"
+      ],
+      "refer": true,
+      "refer_text": {
+        "ar": "اسألوا إمام المركز الإسلامي المحلي أو جهة فتوى معتمدة، مع ذكر كل التفاصيل، واسألوا محامي أسرة عن الشق القانوني في البلد.",
+        "en": "Ask the imam of a local Islamic center or a recognised fatwa council, giving all the details, and ask a family lawyer about the legal side in that country."
+      },
+      "related_ruling": "private_events.wedding"
+    },
+    {
+      "id": "qa.marriage.work",
+      "case_id": 5,
+      "location": "work",
+      "asker": {
+        "ar": "ليندا",
+        "en": "Linda"
+      },
+      "level": "D",
+      "question": {
+        "ar": "موظف سألني: عقد زواجه في بلده الأصلي عبر الهاتف ولم يُسجَّل هنا. هل زواجه صحيح؟ بماذا أجيبه؟",
+        "en": "An employee asked me: his marriage contract was done by phone in his home country and never registered here. Is it valid? What do I tell him?"
+      },
+      "answer": {
+        "ar": "الأفضل ألا تجيبي عن الحكم الشرعي، وهذا ما نفعله نحن أيضاً: صحة عقد بعينه مسألة فتوى تحتاج عالماً مؤهلاً يسمع التفاصيل. معلومة عامة فقط: الزواج في الإسلام عقد جاد له شروط، منها المهر حقاً للزوجة (النساء 4:4). أما العقد عن بُعد وأثره القانوني في أمريكا فيتوقف على تفاصيل الحالة وقانون البلدين. يمكنك توجيهه بلطف إلى المختصين.",
+        "en": "Best not to answer the religious ruling yourself, and we won't either: whether a specific contract is valid is a fatwa question for a qualified scholar who hears the details. General information only: marriage in Islam is a serious contract with conditions, including the mahr as the wife's right (4:4). Whether a remote contract is valid, and what it means legally in the US, depends on the details and the laws of both countries. You can kindly point him to the right specialists."
+      },
+      "source_ids": [
+        "quran:4:4"
+      ],
+      "refer": true,
+      "refer_text": {
+        "ar": "وجّهيه إلى إمام مسجده أو جهة فتوى معتمدة للشق الشرعي، وإلى محامي هجرة أو أسرة للشق القانوني.",
+        "en": "Refer him to his local imam or a recognised fatwa council for the religious side, and to an immigration or family lawyer for the legal side."
+      },
+      "related_ruling": null
+    },
+    {
+      "id": "qa.marriage.private_events",
+      "case_id": 5,
+      "location": "private_events",
+      "asker": {
+        "ar": "آدم",
+        "en": "Adam"
+      },
+      "level": "D",
+      "question": {
+        "ar": "صديق ليوسف من المسجد يريد أن يتزوج في المكسيك حيث تعيش خطيبته. ما المطلوب ليكون زواجه صحيحاً؟",
+        "en": "A friend of Yusuf from the mosque wants to marry in Mexico, where his fiancée lives. What does he need for the marriage to be valid?"
+      },
+      "answer": {
+        "ar": "هذا سؤال عن حالة بعينها، وجوابه «فتوى» يقدّمها عالم مؤهل بعد سماع التفاصيل ومعرفة قانون البلد. كمعلومة عامة فقط: الزواج في الإسلام عقد له شروط وأركان، منها المهر حقاً للزوجة (النساء 4:4)، ويُستحب إعلانه بوليمة كما في عرس يوسف (صحيح البخاري 5167). أما ما يلزم في المكسيك تحديداً، شرعياً وقانونياً، فلن نجيب عنه هنا.",
+        "en": "This is about one specific case, and the answer is a fatwa: something a qualified scholar gives after hearing the details and knowing the local law. As general information only: marriage in Islam is a contract with conditions, including the mahr as the wife's right (4:4), and it is celebrated openly with a wedding meal, as at Yusuf's wedding (Sahih al-Bukhari 5167). What is required in Mexico specifically, religiously and legally, we won't answer here."
+      },
+      "source_ids": [
+        "quran:4:4",
+        "hadith:صحيح-البخاري:5167"
+      ],
+      "refer": true,
+      "refer_text": {
+        "ar": "ليسأل إمام مسجده أو جهة فتوى معتمدة مع ذكر كل التفاصيل، ومحامياً يعرف قانون الزواج في المكسيك.",
+        "en": "He should ask his imam or a recognised fatwa council, giving all the details, and a lawyer who knows marriage law in Mexico."
+      },
+      "related_ruling": "private_events.wedding"
+    },
+    {
+      "id": "qa.nohadith.school",
+      "case_id": 6,
+      "location": "school",
+      "asker": {
+        "ar": "تايلر",
+        "en": "Tyler"
+      },
+      "level": "C",
+      "question": {
+        "ar": "أعطني حديثاً يقول إن استخدام الذكاء الاصطناعي في الواجبات حرام.",
+        "en": "Give me a hadith that says using AI for homework is haram."
+      },
+      "answer": {
+        "ar": "بحثنا في مكتبتنا الموثّقة فلم نجد حديثاً بهذا المعنى، ولن نخترع حديثاً أو ننسب كلاماً إلى النبي ﷺ لا نستطيع التحقق منه. للإسلام تعاليم عامة في الأمانة والغش، مشروحة بأدلتها في بطاقة الحكم الخاصة بموقف الغش. أما حكم أداة بعينها في مادتك، فاسأل عنه عالماً مؤهلاً، وراجع سياسة الأمانة الأكاديمية في كليتك.",
+        "en": "We searched our verified library and found no hadith that says this, and we won't make one up or attribute words to the Prophet ﷺ that we can't verify. Islam does have general teachings on honesty and cheating, explained with their evidence on the ruling card for the cheating situation. For a ruling on a specific tool in your class, ask a qualified scholar, and check your college's academic honesty policy."
+      },
+      "source_ids": [],
+      "refer": true,
+      "refer_text": {
+        "ar": "لسؤال محدد عن حكم أداة أو عمل بعينه، اسأل عالماً مؤهلاً أو إمام المركز الإسلامي المحلي.",
+        "en": "For a specific question about a particular tool or task, ask a qualified scholar or the imam of a local Islamic center."
+      },
+      "related_ruling": "school.cheating"
+    },
+    {
+      "id": "qa.nohadith.street",
+      "case_id": 6,
+      "location": "street",
+      "asker": {
+        "ar": "زبون في متجر طارق",
+        "en": "A customer at Tariq's store"
+      },
+      "level": "C",
+      "question": {
+        "ar": "هات لي حديثاً يثبت أن بطاقات الكشط تحت خمسة دولارات مسموحة.",
+        "en": "Give me a hadith proving scratch cards under five dollars are allowed."
+      },
+      "answer": {
+        "ar": "لم نجد في مكتبتنا الموثّقة أي حديث بهذا المعنى، ولن نصنع واحداً. ولا نعرف نصاً يفرّق في هذا بين المبلغ الصغير والكبير، لكن لا نبني حكماً على ما لم نجده. حكم اليانصيب وبطاقات الكشط مشروح بأدلته الموثّقة في بطاقة الحكم الخاصة بهذا الموقف. ولحالتك تحديداً اسأل عالماً مؤهلاً.",
+        "en": "We found no hadith saying this in our verified library, and we won't produce one. We know of no text that treats a small amount differently from a large one here, but we don't build a ruling on what we didn't find. The ruling on lotteries and scratch cards is explained with its verified evidence on the ruling card for this situation. For your own case, ask a qualified scholar."
+      },
+      "source_ids": [],
+      "refer": true,
+      "refer_text": {
+        "ar": "لحالة شخصية، اسأل عالماً مؤهلاً أو إمام المركز الإسلامي المحلي.",
+        "en": "For a personal case, ask a qualified scholar or the imam of a local Islamic center."
+      },
+      "related_ruling": "street.lottery"
+    },
+    {
+      "id": "qa.nohadith.work",
+      "case_id": 6,
+      "location": "work",
+      "asker": {
+        "ar": "جيك",
+        "en": "Jake"
+      },
+      "level": "C",
+      "question": {
+        "ar": "هل يوجد حديث يمنع خطط التقاعد 401(k)؟ أرسل لي نصه بالضبط.",
+        "en": "Is there a hadith that bans 401(k) plans? Send me the exact one."
+      },
+      "answer": {
+        "ar": "لا يوجد في مكتبتنا الموثّقة حديث يذكر خطط التقاعد، ولن نقدّم نصاً لا نستطيع التحقق منه. الموجود مبادئ عامة في الربا والتعامل المالي، يطبّقها العلماء على صناديق التقاعد الحديثة باجتهادهم، وهي مشروحة بأدلتها في بطاقة الحكم الخاصة بهذا الموقف. ولقرار يخص مالك، اسأل عالماً مؤهلاً ومستشاراً مالياً.",
+        "en": "Our verified library has no hadith that mentions retirement plans, and we won't offer a text we can't verify. What exists are general principles about interest and finance, which scholars apply to modern retirement funds through ijtihad; they're explained with their evidence on the ruling card for this situation. For a decision about your own money, ask a qualified scholar and a financial adviser."
+      },
+      "source_ids": [],
+      "refer": true,
+      "refer_text": {
+        "ar": "لقرار مالي شخصي، اسأل عالماً مؤهلاً في المعاملات المالية ومستشاراً مالياً.",
+        "en": "For a personal financial decision, ask a scholar qualified in Islamic finance and a financial adviser."
+      },
+      "related_ruling": "work.retirement_401k"
+    },
+    {
+      "id": "qa.tawhid_plain.home",
+      "case_id": 7,
+      "location": "home",
+      "asker": {
+        "ar": "كارول",
+        "en": "Carol"
+      },
+      "level": "A",
+      "question": {
+        "ar": "عمر يذكر كلمة «توحيد» كثيراً. ماذا تعني بكلمات بسيطة؟",
+        "en": "Omar keeps mentioning 'tawhid'. What does it mean, in simple words?"
+      },
+      "answer": {
+        "ar": "بكلمات بسيطة: الله واحد، لا شريك له، ولا شيء مثله، وهو وحده يستحق العبادة، وكل ما سواه مخلوق. لهذه الفكرة اسم بالعربية: «التوحيد» (Tawhid)، أي الإيمان بوحدانية الله، وهو قلب الإسلام. وتلخّصه سورة قصيرة: الله أحد، لم يلد ولم يولد، ولم يكن له كفواً أحد (الإخلاص 112:1-4).",
+        "en": "In simple words: there is one God, with no partner and nothing like Him; He alone deserves worship, and everything else is His creation. That idea has an Arabic name: Tawhid, the Oneness of God. It's the heart of Islam. A short chapter of the Quran sums it up: He is One; He neither begets nor is born; and nothing is equal to Him (112:1-4)."
+      },
+      "source_ids": [
+        "quran:112:1",
+        "quran:112:2",
+        "quran:112:3",
+        "quran:112:4",
+        "quran:2:163",
+        "other:jamhara-tawhid"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.tawhid_plain.street",
+      "case_id": 7,
+      "location": "street",
+      "asker": {
+        "ar": "آدم",
+        "en": "Adam"
+      },
+      "level": "A",
+      "question": {
+        "ar": "لو أردت تلخيص أهم فكرة في الإسلام في جملة واحدة، ماذا تكون؟",
+        "en": "If you had to sum up the main idea of Islam in one sentence, what would it be?"
+      },
+      "answer": {
+        "ar": "في جملة: اعبد الله وحده. يؤمن المسلمون أن الله واحد، خالق كل شيء، وأن البشر خُلقوا ليعبدوه وحده (البقرة 2:163؛ الذاريات 51:56). ويسمّي المسلمون هذا المعتقد «التوحيد» (Tawhid)، أي وحدانية الله في ذاته وفي عبادته. ومنه تنبع بقية تفاصيل الحياة اليومية التي تراها عند أصدقائك.",
+        "en": "In one sentence: worship the one God alone. Muslims believe God is One, the Creator of everything, and that people were created to worship Him alone (2:163; 51:56). Muslims call this belief Tawhid, the Oneness of God, both in who He is and in who is worshipped. Much of the everyday practice you notice in your friends flows from it."
+      },
+      "source_ids": [
+        "quran:2:163",
+        "quran:51:56",
+        "other:jamhara-tawhid"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.tawhid_translate.work",
+      "case_id": 8,
+      "location": "work",
+      "asker": {
+        "ar": "ليندا",
+        "en": "Linda"
+      },
+      "level": "A",
+      "question": {
+        "ar": "في قاموس المصطلحات لفريقنا: كيف نترجم «التوحيد»؟ هل نكتب monotheism فقط؟",
+        "en": "For our team's glossary, how should we translate 'Tawhid'? Just 'monotheism'?"
+      },
+      "answer": {
+        "en": "The Jamhara dictionary of Islamic terms gives 'Monotheism' with the transliteration 'Tawheed', defined as singling out Allah in His lordship, His sole right to worship, and His names and attributes. Because the one English word can suggest mere numerical oneness, we suggest the term plus a gloss: 'Tawhid (monotheism: the Oneness of God, worshipping Him alone)' (112:1-4; 2:163; 20:14).",
+        "ar": "يعطي معجم الجمهرة للمصطلحات الشرعية المقابل Monotheism مع النقحرة Tawheed، ويعرّفه بإفراد الله بالربوبية والألوهية والأسماء والصفات. ولأن الكلمة الإنجليزية وحدها قد توحي بمجرد الوحدانية العددية، نقترح المصطلح مع شرح موجز: «Tawhid (monotheism: the Oneness of God, worshipping Him alone)» (الإخلاص 112:1-4؛ البقرة 2:163؛ طه 20:14)."
+      },
+      "source_ids": [
+        "quran:112:1",
+        "quran:112:2",
+        "quran:112:3",
+        "quran:112:4",
+        "quran:2:163",
+        "quran:20:14",
+        "other:jamhara-tawhid"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.tawhid_translate.school",
+      "case_id": 8,
+      "location": "school",
+      "asker": {
+        "ar": "كريم",
+        "en": "Kareem"
+      },
+      "level": "A",
+      "question": {
+        "ar": "في مقالي بالإنجليزية: أكتب Tawhid أم أترجمها إلى «وحدة الله»؟",
+        "en": "In my English essay, do I write 'Tawhid' or just translate it as 'God's unity'?"
+      },
+      "answer": {
+        "en": "The Jamhara dictionary of Islamic terms gives 'Monotheism' (Tawheed) as the English equivalent. In an essay, write 'Tawhid (monotheism, the Oneness of God)' the first time, then 'Tawhid'. If you need one line, say it is the belief that God is One, with no partner and nothing like Him, and that He alone deserves worship (112:1-4; 20:14). The word 'God' alone would lose the meaning.",
+        "ar": "يعطي معجم الجمهرة للمصطلحات الشرعية المقابل الإنجليزي Monotheism (Tawheed). في المقال اكتب أول مرة «Tawhid (monotheism, the Oneness of God)» ثم Tawhid بعد ذلك. وإن احتجت سطر شرح، فاذكر أنه الإيمان بأن الله واحد لا شريك له ولا مثيل، وأنه وحده يستحق العبادة (الإخلاص 112:1-4؛ طه 20:14). وكلمة God وحدها تُفقد المعنى."
+      },
+      "source_ids": [
+        "quran:112:1",
+        "quran:112:2",
+        "quran:112:3",
+        "quran:112:4",
+        "quran:20:14",
+        "other:jamhara-tawhid"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.hostile.alcohol",
+      "case_id": 9,
+      "location": "public_events",
+      "asker": {
+        "ar": "مايك",
+        "en": "Mike"
+      },
+      "level": "B",
+      "question": {
+        "ar": "لماذا يمنع الإسلام كأس بيرة بسيطاً؟ تبدو قواعد للتحكم بالناس.",
+        "en": "Why does Islam forbid a simple beer? Sounds like control-freak rules."
+      },
+      "answer": {
+        "ar": "سؤال مفهوم حتى لو قيل بانزعاج. هذا حكم في الشريعة، يستند فيه المسلمون إلى القرآن الذي يصف المسكرات بأنها رجس يُجتنب (المائدة 5:90)، ويذكر أن إثمها أكبر من نفعها (البقرة 2:219)، وأنها قد توقع العداوة بين الناس (المائدة 5:91). عند المسلم ليس الأمر تحكماً من بشر، بل ثقة بهداية الله، ويراه حمايةً للعقل والأسرة والعمل. والحكم يخص المسلمين أنفسهم.",
+        "en": "Fair to ask, even when it's frustrating. This is a ruling of Islamic law, and Muslims base it on the Quran, which calls intoxicants something to avoid (5:90), says their harm is greater than their benefit (2:219), and notes they can stir up hostility between people (5:91). For a Muslim it isn't control by other people; it's trust in God's guidance, seen as protecting the mind, family and work. The rule applies to Muslims themselves."
+      },
+      "source_ids": [
+        "quran:5:90",
+        "quran:2:219",
+        "quran:5:91"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": "public_events.alcohol_table"
+    },
+    {
+      "id": "qa.hostile.interest",
+      "case_id": 9,
+      "location": "home",
+      "asker": {
+        "ar": "بن",
+        "en": "Ben"
+      },
+      "level": "B",
+      "question": {
+        "ar": "لماذا يحرّم الإسلام الفائدة؟ الاقتصاد كله قائم عليها. يبدو هذا متخلفاً.",
+        "en": "Why does Islam forbid interest? The whole economy runs on it. Sounds backward."
+      },
+      "answer": {
+        "ar": "السؤال في الحقيقة عن التمويل في الشريعة، والجواب أن الإسلام لا يرفض التجارة ولا الربح؛ القرآن يقرر أن الله أحلّ البيع وحرّم الربا (البقرة 2:275)، ويأمر المؤمنين بترك ما بقي منه (البقرة 2:278). الفكرة: أن يأتي الربح من تجارة حقيقية ومشاركة في المخاطرة، لا من مجرد إقراض المال. ولهذا يستخدم المسلمون بدائل كالتمويل الإسلامي للمساكن. لك ألا توافق، لكنه موقف مدروس لا رفض للاقتصاد.",
+        "en": "It's really a question about finance in Islamic law, and the answer is that Islam doesn't reject trade or profit: the Quran says Allah has permitted trade and forbidden interest (2:275), and tells believers to give up what remains of it (2:278). The idea is that profit should come from real trade and shared risk, not from lending money alone. That's why Muslims use alternatives like Islamic home financing. You needn't agree, but it's a reasoned position, not a rejection of the economy."
+      },
+      "source_ids": [
+        "quran:2:275",
+        "quran:2:278"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": "home.mortgage",
+      "keywords": {
+        "ar": "لماذا يمنع دينكم الفائدة الربا تخلف اقتصادي",
+        "en": "why does your religion ban interest backward economics"
+      }
+    },
+    {
+      "id": "qa.hostile.gambling",
+      "case_id": 9,
+      "location": "street",
+      "asker": {
+        "ar": "زبون في متجر طارق",
+        "en": "A customer at Tariq's store"
+      },
+      "level": "B",
+      "question": {
+        "ar": "تذكرة يانصيب بدولارين «حرام»؟ دينك يكره المتعة فقط.",
+        "en": "A two-dollar lottery ticket is 'forbidden'? Your religion just hates fun."
+      },
+      "answer": {
+        "ar": "الإسلام لا يمنع المتعة؛ النبي ﷺ نفسه سأل في عرس: أما كان معكم لهو؟ (صحيح البخاري 5162). الممنوع هو الميسر: أن يدفع المرء مالاً على أمل ربح أكبر أو خسارته. القرآن يذكره مع الخمر مما يُجتنب (المائدة 5:90)، ويبيّن أن إثمه أكبر من نفعه (البقرة 2:219)، وأنه قد يوقع العداوة (المائدة 5:91). لذلك لا يبيع طارق التذاكر رغم ربحها.",
+        "en": "Islam doesn't ban fun; at a wedding the Prophet ﷺ himself asked whether there was any entertainment (Sahih al-Bukhari 5162). What's forbidden is gambling: paying money in the hope of winning more or losing it. The Quran lists it with intoxicants as something to avoid (5:90), says its harm outweighs its benefit (2:219), and that it can stir up hostility (5:91). That's why Tariq doesn't sell tickets, even though they'd make him money."
+      },
+      "source_ids": [
+        "hadith:صحيح-البخاري:5162",
+        "quran:5:90",
+        "quran:2:219",
+        "quran:5:91"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": "street.lottery"
+    },
+    {
+      "id": "qa.consensus.school",
+      "case_id": 10,
+      "location": "school",
+      "asker": {
+        "ar": "هانا",
+        "en": "Hannah"
+      },
+      "level": "C",
+      "question": {
+        "ar": "نور لا تصافح الرجال، لكن طالباً مسلماً آخر يصافح. هل يتفق كل المسلمين على هذا؟",
+        "en": "Noor doesn't shake hands with men, but another Muslim student does. Do all Muslims agree on this?"
+      },
+      "answer": {
+        "ar": "لا، والصدق يقتضي قول ذلك. في الإسلام نوعان من المسائل: مسائل قطعية بنص واضح يتفق عليها المسلمون، كفرض الصلاة (البقرة 2:43)؛ ومسائل اجتهادية اختلف فيها العلماء المؤهلون. والمصافحة بين الرجل والمرأة الأجنبية من الثانية: منعتها المذاهب الأربعة مع استثناءات، وأجازها بعض المعاصرين بشروط. يتبع كل شخص من يثق بعلمه، ولا يُنكَر عليه (IslamQA 70491) (بينات، المسألة 239).",
+        "en": "No, and it's honest to say so. Islam has two kinds of questions: definitive ones settled by clear texts that Muslims agree on, like the duty of prayer (2:43); and matters of ijtihad where qualified scholars differ. Handshaking between unrelated men and women is the second kind: the four classical schools disallowed it with some exceptions, while some contemporary scholars allowed it under conditions. Each person follows the scholar they trust, without being condemned for it (IslamQA 70491) (Bayyinat, Q239)."
+      },
+      "source_ids": [
+        "quran:2:43",
+        "other:islamqa-70491",
+        "madhhab:hanafi:school.mixed_social",
+        "contemporary:د-يوسف-القرضاوي-رئيس-المجلس-ال:فتاوى-معاصرة-ج2-ملخصها-منقول-في-fiqh-isl",
+        "other:bayyinat-q239"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": "school.mixed_social"
+    },
+    {
+      "id": "qa.consensus.home",
+      "case_id": 10,
+      "location": "home",
+      "asker": {
+        "ar": "سارة",
+        "en": "Sarah"
+      },
+      "level": "C",
+      "question": {
+        "ar": "هل كل المسلمين يرفضون القرض العقاري؟",
+        "en": "Are all Muslims against mortgages?"
+      },
+      "answer": {
+        "ar": "هنا جزءان مختلفان. تحريم الربا (الفائدة) ثابت بنص القرآن ومتفق عليه (البقرة 2:275 و2:278)، فلا خلاف في الأصل. أما التطبيق على شراء بيت في أمريكا فاجتهادي: جمهور العلماء وجهات مثل مجمع فقهاء الشريعة بأمريكا يرون اللجوء إلى التمويل الإسلامي، بينما أجاز المجلس الأوروبي للإفتاء القرض بشروط صارمة عند الحاجة وعدم البديل. فلا يصح القول إن الجميع متفقون على كل التفاصيل (بينات، المسألة 239).",
+        "en": "There are two different layers here. The ban on interest (riba) is set by clear Quran texts and agreed upon (2:275; 2:278), so the principle isn't disputed. Applying it to buying a home in the US is a matter of ijtihad: most scholars, and bodies like AMJA, point to Islamic home financing, while the European Council for Fatwa allowed a conventional mortgage under strict conditions when there's real need and no alternative. So it would be wrong to claim everyone agrees on every detail (Bayyinat, Q239)."
+      },
+      "source_ids": [
+        "quran:2:275",
+        "quran:2:278",
+        "contemporary:مجمع-فقهاء-الشريعة-بأمريكا-AMJ:قرار-لجنة-الفتوى-الدائمة-بشأن-شركات-التم",
+        "contemporary:المجلس-الأوروبي-للإفتاء-والبحو:الدورة-العادية-الرابعة-دبلن-18-22-رجب-14",
+        "other:bayyinat-q239"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": "home.mortgage"
+    },
+    {
+      "id": "qa.consensus.work",
+      "case_id": 10,
+      "location": "work",
+      "asker": {
+        "ar": "ديف",
+        "en": "Dave"
+      },
+      "level": "C",
+      "question": {
+        "ar": "سمير لا يشرب أبداً. هل يتفق كل المسلمين على هذا، أم هو متشدد فقط؟",
+        "en": "Samir never drinks. Do all Muslims agree on that, or is he just strict?"
+      },
+      "answer": {
+        "ar": "هذه من المسائل القطعية: تحريم الخمر ثابت بنص القرآن (المائدة 5:90-91)، فليس سمير متشدداً، بل يتبع حكماً متفقاً عليه. قد يختلف المسلمون في التزامهم الشخصي، لكن هذا لا يغيّر الحكم. أما التفاصيل الأبعد، مثل العمل في مطعم يقدّم الخمر أو برمجة تطبيق لشركة خمور، ففيها اجتهاد واختلاف بين العلماء، وهي مشروحة في بطاقة الحكم (بينات، المسألة 239).",
+        "en": "This one is definitive: the ban on alcohol is set by a clear Quran text (5:90-91), so Samir isn't being extra strict; he's following an agreed ruling. Individual Muslims may differ in how they practise, but that doesn't change the ruling. Further-out details, like working in a restaurant that serves alcohol or coding an app for a brewery, do involve ijtihad and scholarly difference, explained on the ruling card (Bayyinat, Q239)."
+      },
+      "source_ids": [
+        "quran:5:90",
+        "quran:5:91",
+        "other:islamqa-70491",
+        "other:bayyinat-q239"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": "work.alcohol_pork_job"
+    },
+    {
+      "id": "qa.misquote.interest_doubled",
+      "case_id": 11,
+      "location": "school",
+      "asker": {
+        "ar": "تايلر",
+        "en": "Tyler"
+      },
+      "level": "A",
+      "question": {
+        "ar": "أليس الممنوع هو الفائدة الفاحشة فقط؟ القرآن يقول «أضعافاً مضاعفة»، إذن الفائدة الصغيرة مسموحة.",
+        "en": "Isn't only crazy interest forbidden? The Quran says 'doubled and multiplied', so small interest is fine."
+      },
+      "answer": {
+        "ar": "العبارة موجودة فعلاً في آل عمران 3:130، لكن لا يصح بناء حكم على جزء منها وحده. الآية تصف صورة الربا الشائعة آنذاك، بينما آيات البقرة تحرّم الربا كله: «وأحلّ الله البيع وحرّم الربا» (2:275)، وتأمر بترك «ما بقي من الربا» قليلاً كان أو كثيراً (2:278). لهذا يرى العلماء أن الفائدة الصغيرة داخلة في التحريم. التفاصيل في بطاقة الحكم.",
+        "en": "Those words really are in 3:130, but a ruling can't be built on that phrase alone. That verse describes the common form of interest at the time, while the verses in al-Baqarah forbid interest as a whole: Allah has permitted trade and forbidden interest (2:275), and believers are told to give up 'what remains' of it, small or large (2:278). That's why scholars hold that small interest is included. Details are on the ruling card."
+      },
+      "source_ids": [
+        "quran:3:130",
+        "quran:2:275",
+        "quran:2:278"
+      ],
+      "correction": {
+        "source_id": "quran:3:130"
+      },
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": "school.student_loan"
+    },
+    {
+      "id": "qa.misquote.drink_prayer",
+      "case_id": 11,
+      "location": "public_events",
+      "asker": {
+        "ar": "جيك",
+        "en": "Jake"
+      },
+      "level": "A",
+      "question": {
+        "ar": "قرأت أن القرآن يقول فقط «لا تصلّوا وأنتم سكارى»، يعني الشرب مسموح خارج الصلاة؟",
+        "en": "I read the Quran only says 'don't pray while drunk', so drinking is fine outside prayer?"
+      },
+      "answer": {
+        "ar": "هذه الآية موجودة (النساء 4:43) لكنها ليست آخر ما نزل في المسألة. التحريم جاء بالتدريج، ثم نزلت آية المائدة تأمر باجتناب الخمر كلياً (المائدة 5:90)، ويبيّن المترجمون والمفسرون أن المنع صار تاماً بها. فلا يصح أخذ آية مرحلية وترك الحكم النهائي. ولهذا يجلس سمير عند طاولة العصير.",
+        "en": "That verse exists (4:43), but it isn't the last word on the matter. The prohibition came in stages, and later a verse commanded avoiding intoxicants completely (5:90); translators and commentators note that this made the ban total. So an earlier, interim verse can't be used while leaving out the final ruling. That's why Samir sits at the juice table."
+      },
+      "source_ids": [
+        "quran:4:43",
+        "quran:5:90",
+        "quran:2:219"
+      ],
+      "correction": {
+        "source_id": "quran:4:43"
+      },
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": "public_events.alcohol_table"
+    },
+    {
+      "id": "qa.misquote.help_themselves",
+      "case_id": 11,
+      "location": "street",
+      "asker": {
+        "ar": "طارق",
+        "en": "Tariq"
+      },
+      "level": "A",
+      "question": {
+        "ar": "زبون قال لي إن في القرآن آية «الله يساعد من يساعد نفسه». هل هذا صحيح؟",
+        "en": "A customer told me the Quran says 'God helps those who help themselves.' Is that right?"
+      },
+      "answer": {
+        "ar": "هذه العبارة ليست آية من القرآن. الآية التي تُخلط بها غالباً هي الرعد 13:11، ومعناها مختلف: «إن الله لا يغيّر ما بقوم حتى يغيّروا ما بأنفسهم». فهي تتحدث عن تغيير ما في النفوس، لا عن «مساعدة النفس». من الأفضل أن نرجع إلى النص برقم السورة والآية قبل الاستشهاد بأي جملة.",
+        "en": "That phrase isn't a verse of the Quran. The verse it's often confused with is 13:11, and it says something different: Allah will not change the condition of a people until they change what is in themselves. It's about inner change, not 'helping yourself'. It's always best to check the text by surah and verse number before quoting a line."
+      },
+      "source_ids": [
+        "quran:13:11"
+      ],
+      "correction": {
+        "source_id": "quran:13:11"
+      },
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.misquote.kill_them",
+      "case_id": 11,
+      "location": "work",
+      "asker": {
+        "ar": "مايك",
+        "en": "Mike"
+      },
+      "level": "A",
+      "question": {
+        "ar": "رأيت منشوراً يقول إن القرآن يأمر: «اقتلوهم حيث ثقفتموهم». كيف تفسرون هذا؟",
+        "en": "I saw a post saying the Quran commands 'kill them wherever you find them.' How do you explain that?"
+      },
+      "answer": {
+        "ar": "الجملة من البقرة 2:191، لكنها اقتُطعت من سياقها. المقطع يبدأ بآية قبلها: «وقاتلوا في سبيل الله الذين يقاتلونكم ولا تعتدوا» (2:190)، فالحديث عن حرب قائمة مع من يقاتل المسلمين ويُخرجهم من ديارهم، وبعدها: فإن انتهوا فإن الله غفور رحيم (2:192). اقتطاع سطر من نص عن حرب محددة يغيّر معناه، والقرآن نفسه يقرر «لا إكراه في الدين» (2:256).",
+        "en": "Those words are from 2:191, but they've been cut out of their passage. It begins one verse earlier: fight in the way of Allah those who fight you, but do not transgress (2:190). So it concerns an ongoing war with those fighting Muslims and driving them from their homes, and it continues: if they stop, Allah is Forgiving and Merciful (2:192). Lifting one line from a passage about a specific war changes its meaning; the Quran also states there is no compulsion in religion (2:256)."
+      },
+      "source_ids": [
+        "quran:2:190",
+        "quran:2:191",
+        "quran:2:192",
+        "quran:2:256"
+      ],
+      "correction": {
+        "source_id": "quran:2:191"
+      },
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.misquote.mothers",
+      "case_id": 11,
+      "location": "home",
+      "asker": {
+        "ar": "كارول",
+        "en": "Carol"
+      },
+      "level": "A",
+      "question": {
+        "ar": "عمر قال إن «الجنة تحت أقدام الأمهات». هل هذه آية في القرآن؟",
+        "en": "Omar said 'Paradise lies at the feet of mothers.' Is that a verse in the Quran?"
+      },
+      "answer": {
+        "ar": "ليست آية من القرآن. هي عبارة تُروى في كتب الحديث، ولم نتحقق من لفظها ودرجتها في مكتبتنا، لذلك لا ننقلها هنا. أما ما يقوله القرآن نفسه عن الوالدين فواضح: يقرن الأمر بعبادة الله وحده بالإحسان إلى الوالدين، وينهى عن قول «أفّ» لهما عند الكبر (الإسراء 17:23). فإكرام الأم ثابت، لكن ينبغي نسبة كل عبارة إلى مصدرها الصحيح.",
+        "en": "It isn't a verse of the Quran. It's a saying reported in hadith collections, and we haven't verified its wording and grade in our library, so we don't quote it here. What the Quran itself says about parents is clear: it pairs worshipping Allah alone with being good to parents, and forbids even saying 'uff' to them in old age (17:23). Honouring mothers is firmly established; each saying just needs to be credited to its real source."
+      },
+      "source_ids": [
+        "quran:17:23"
+      ],
+      "correction": {
+        "source_id": "quran:17:23"
+      },
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.misquote.inshallah_maybe",
+      "case_id": 11,
+      "location": "private_events",
+      "asker": {
+        "ar": "ماريا غارسيا",
+        "en": "Maria Garcia"
+      },
+      "level": "A",
+      "question": {
+        "ar": "سمعت أن القرآن يقول إن من لا يريد أن يفعل شيئاً يقول «إن شاء الله». صحيح؟",
+        "en": "I heard the Quran says to say 'inshallah' when you don't really intend to do something. True?"
+      },
+      "answer": {
+        "ar": "لا، المعنى معكوس. الآيتان في سورة الكهف تقولان: لا تقل عن شيء إني فاعل ذلك غداً إلا أن تقول «إن شاء الله» (الكهف 18:23-24). أي أن المسلم يقولها عن شيء ينوي فعله فعلاً، تواضعاً واعترافاً بأن المستقبل بيد الله، لا تهرّباً. فإن قال لك عمر «سآتي إن شاء الله» فهو ينوي المجيء.",
+        "en": "No, it's the other way round. The verses in Surat al-Kahf say: never say of anything 'I will do that tomorrow' without adding 'if Allah wills' (18:23-24). So a Muslim says it about something they really intend to do, out of humility and the recognition that the future is in God's hands, not as a way out. If Omar tells you 'I'll come, inshallah', he means to come."
+      },
+      "source_ids": [
+        "quran:18:23",
+        "quran:18:24"
+      ],
+      "correction": {
+        "source_id": "quran:18:23"
+      },
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.term.allah",
+      "case_id": 12,
+      "location": "school",
+      "asker": {
+        "ar": "د. كارين ميتشل",
+        "en": "Dr. Karen Mitchell"
+      },
+      "level": "B",
+      "question": {
+        "ar": "في عرض نور كتبت «Allah». هل هو إله مختلف؟ وهل أترجمه إلى God؟",
+        "en": "Noor wrote 'Allah' in her presentation. Is that a different god? Should I translate it as 'God'?"
+      },
+      "answer": {
+        "ar": "«الله» في الإسلام هو اسم الإله الواحد، خالق كل شيء، الذي لا شريك له (الإخلاص 112:1؛ طه 20:14)، وليس إلهاً خاصاً بشعب. كلمة God مناسبة للشرح بالإنجليزية، لكن كثيراً من المسلمين يبقون «Allah» لأنه الاسم الذي سمّى الله به نفسه في القرآن. صيغة عملية: «Allah (God)» في أول مرة.",
+        "en": "In Islam, 'Allah' is the name of the one God, the Creator of everything, who has no partner (112:1; 20:14); not a god belonging to one people. 'God' works well for explaining in English, but many Muslims keep 'Allah' because it's the name by which God names Himself in the Quran. A practical form: 'Allah (God)' the first time."
+      },
+      "source_ids": [
+        "quran:112:1",
+        "quran:20:14",
+        "quran:1:2"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.term.inshallah",
+      "case_id": 12,
+      "location": "work",
+      "asker": {
+        "ar": "ديف",
+        "en": "Dave"
+      },
+      "level": "B",
+      "question": {
+        "ar": "سمير قال «إن شاء الله» عن موعد التسليم. هل يعني «غالباً لا»؟",
+        "en": "Samir said 'inshallah' about the deadline. Does that mean 'probably not'?"
+      },
+      "answer": {
+        "ar": "أبداً. «إن شاء الله» تعني «إذا شاء الله». يقولها المسلمون عن خططهم المستقبلية لأن القرآن يعلّم ألا يقول المرء إنه سيفعل شيئاً غداً دون أن يضيف «إن شاء الله» (الكهف 18:23-24). هي تعبير عن التواضع لا عن الشك: سمير يعدك ببذل جهده مع الاعتراف بأن المستقبل بيد الله. ترجمتها بـ maybe تُضيّع هذا المعنى.",
+        "en": "Not at all. 'Inshallah' means 'if God wills'. Muslims say it about future plans because the Quran teaches not to say you'll do something tomorrow without adding 'if Allah wills' (18:23-24). It expresses humility, not doubt: Samir is committing to do his best while acknowledging the future is in God's hands. Translating it as 'maybe' loses that meaning."
+      },
+      "source_ids": [
+        "quran:18:23",
+        "quran:18:24"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.term.salam",
+      "case_id": 12,
+      "location": "street",
+      "asker": {
+        "ar": "الضابط راي دانيالز",
+        "en": "Officer Ray Daniels"
+      },
+      "level": "B",
+      "question": {
+        "ar": "عمر حيّاني بـ«السلام عليكم». ماذا تعني؟ وبماذا أرد؟",
+        "en": "Omar greeted me with 'as-salamu alaykum'. What does it mean, and what do I say back?"
+      },
+      "answer": {
+        "ar": "تعني «السلام عليكم»: تحية ودعاء بالسلام والأمان، وليست مجرد hello. والمسلمون مأمورون بأن يردّوا التحية بأحسن منها أو بمثلها (النساء 4:86). إن أحببت الرد فالرد المعتاد «وعليكم السلام»، ويكفي أيضاً قول peace to you too بودّ. لا يُنتظر منك أكثر من ذلك.",
+        "en": "It means 'peace be upon you': a greeting and a wish for peace and safety, more than just 'hello'. Muslims are taught to return a greeting with a better one or at least an equal one (4:86). If you'd like to answer, the usual reply is 'wa alaykum as-salam' (and upon you be peace), and a warm 'peace to you too' is perfectly fine. Nothing more is expected of you."
+      },
+      "source_ids": [
+        "quran:4:86"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    },
+    {
+      "id": "qa.term.alhamdulillah",
+      "case_id": 12,
+      "location": "home",
+      "asker": {
+        "ar": "كارول",
+        "en": "Carol"
+      },
+      "level": "B",
+      "question": {
+        "ar": "عمر يقول «الحمد لله» كثيراً. هل تعني thank God فقط؟",
+        "en": "Omar says 'alhamdulillah' a lot. Does it just mean 'thank God'?"
+      },
+      "answer": {
+        "ar": "قريبة، لكنها أوسع. «الحمد لله» تعني «كل الحمد والثناء لله»، شكراً ومدحاً معاً. وهي أول آية بعد البسملة في الفاتحة، السورة التي يقرؤها المسلم في كل صلاة (صحيح البخاري 756): «الحمد لله رب العالمين» (الفاتحة 1:2). لذلك يقولها المسلمون في الأمور الكبيرة والصغيرة، تذكيراً بأن كل خير من الله. ترجمة thank God مقبولة كتقريب، مع ذكر هذا المعنى الأعمق.",
+        "en": "Close, but wider. 'Alhamdulillah' means 'all praise belongs to Allah': thanks and praise together. It's the opening line, after the basmala, of al-Fatiha, the chapter Muslims recite in every prayer (Sahih al-Bukhari 756): 'All praise is due to Allah, Lord of the worlds' (1:2). So Muslims say it about big and small things, as a reminder that every good comes from God. 'Thank God' works as an approximation, with that deeper sense in mind."
+      },
+      "source_ids": [
+        "quran:1:2",
+        "hadith:صحيح-البخاري:756"
+      ],
+      "refer": false,
+      "refer_text": null,
+      "related_ruling": null
+    }
+  ]
+}

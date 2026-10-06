@@ -1,0 +1,398 @@
+[
+  {
+    "id": "public_events.holiday_greetings",
+    "location": "public_events",
+    "title": {
+      "ar": "الكريسماس وعيد الشكر: التهنئة والحفل والهدايا",
+      "en": "Christmas & Thanksgiving: Greetings, Office Party, Gifts"
+    },
+    "question": {
+      "ar": "هل يجوز للمسلم أن يهنئ زملاءه بالكريسماس، وأن يحضر حفل نهاية العام في العمل، وأن يشارك في تبادل الهدايا، وأن يجلس مع أسرة صديقه على عشاء عيد الشكر؟",
+      "en": "May a Muslim wish coworkers \"Merry Christmas\", attend the end-of-year office party, join the gift exchange, and sit with a friend's family for Thanksgiving dinner?"
+    },
+    "verdict": "disputed",
+    "content_level": "C",
+    "verdict_scope": {
+      "ar": "قول جمهور العلماء: المنع من التهنئة بالأعياد الدينية الخاصة بغير المسلمين ومن مشاركتهم فيها؛ وهو قول فقهاء المذاهب الأربعة، وحكى ابن القيم الاتفاق على تحريم التهنئة بها (أحكام أهل الذمة 1/441)، وبه أفتى الشيخ ابن عثيمين (مجموع الفتاوى 3/44)، وأفتت اللجنة الدائمة للإفتاء بالسعودية بعدم جواز مشاركتهم أعيادهم وإظهار الفرح بها. وأجاز المجلس الأوروبي للإفتاء وبعض المعاصرين التهنئة بألفاظ عامة لا تتضمن إقراراً بعقيدة، وهو قول الأقل، مع منعهم المشاركة في الاحتفال.",
+      "en": "Majority scholarly view: greeting non-Muslims on their religious festivals, and joining those festivals, is not permitted. This is the position of the jurists of the four schools; Ibn al-Qayyim reported agreement on the prohibition of such greetings (Ahkam Ahl al-Dhimma 1/441); Shaykh Ibn Uthaymeen ruled so (Majmu' al-Fatawa 3/44); and Saudi Arabia's Standing Committee for Scientific Research and Ifta ruled that joining their festivals and expressing joy at them is not permissible. The European Council for Fatwa and some contemporary scholars allowed a general greeting that affirms no belief; that is the minority view, and they too prohibit joining the celebration."
+    },
+    "consensus_sources": [
+      "ابن القيم، أحكام أهل الذمة (1/441) — حكايته الاتفاق على تحريم التهنئة بالشعائر المختصة بغير المسلمين وعلى منع حضور أعيادهم (قولٌ منسوب إلى ابن القيم، لا إجماعٌ نحكيه نحن)"
+    ],
+    "summary": {
+      "ar": "قول جمهور العلماء، ومنهم فقهاء المذاهب الأربعة، المنع من مشاركة غير المسلمين في شعائر أعيادهم الدينية ومن التهنئة بها؛ وحكى ابن القيم الاتفاق على تحريم التهنئة بالشعائر المختصة بهم، وبالمنع أفتى الشيخ ابن عثيمين، وأفتت اللجنة الدائمة للإفتاء بالسعودية بعدم جواز مشاركتهم أعيادهم. وأجاز المجلس الأوروبي للإفتاء وبعض المعاصرين التهنئة بألفاظ عامة لمن تربطه بهم صلة، وهو قول الأقل، مع منعهم المشاركة في الاحتفال. وعيد الشكر مختلَف فيه: يراه بعضهم مناسبة عرفية يجوز حضور عشائها بلا طقوس، ويراه آخرون عيداً ذا أصل ديني لا يُحتفل به (فتاوى AMJA). وقبول هدية الزميل جائز ما لم تكن شعاراً دينياً أو شيئاً محرّماً.",
+      "en": "The majority of scholars, including the jurists of the four schools, hold that joining the religious rites of other faiths' festivals, and greeting people on those festivals, is not permitted. Ibn al-Qayyim reported agreement on prohibiting greetings for rites specific to them; Shaykh Ibn Uthaymeen ruled likewise, and Saudi Arabia's Standing Committee ruled that joining their festivals is not permissible. The European Council for Fatwa and some contemporary scholars allowed a general greeting for those with close ties; that is the minority view, and they too prohibit joining the celebration. Thanksgiving is disputed: some treat it as a civic custom whose family dinner may be attended without rituals, others (AMJA fatwas) consider it religiously rooted and not to be celebrated. Accepting a coworker's gift is permissible unless it is a religious symbol or something prohibited."
+    },
+    "quran": [
+      {
+        "surah": 60,
+        "surah_name_ar": "الممتحنة",
+        "ayah": "8",
+        "text_ar": "لَّا يَنۡهَىٰكُمُ ٱللَّهُ عَنِ ٱلَّذِينَ لَمۡ يُقَٰتِلُوكُمۡ فِي ٱلدِّينِ وَلَمۡ يُخۡرِجُوكُم مِّن دِيَٰرِكُمۡ أَن تَبَرُّوهُمۡ وَتُقۡسِطُوٓاْ إِلَيۡهِمۡۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلۡمُقۡسِطِينَ",
+        "translation_en": "Allāh does not forbid you from those who do not fight you because of religion and do not expel you from your homes - from being righteous toward them and acting justly toward them. Indeed, Allāh loves those who act justly.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/60#8"
+      },
+      {
+        "surah": 25,
+        "surah_name_ar": "الفرقان",
+        "ayah": "72",
+        "text_ar": "وَٱلَّذِينَ لَا يَشۡهَدُونَ ٱلزُّورَ وَإِذَا مَرُّواْ بِٱللَّغۡوِ مَرُّواْ كِرَامٗا",
+        "translation_en": "And [they are] those who do not testify to falsehood, and when they pass near ill speech, they pass by with dignity.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/25#72"
+      },
+      {
+        "surah": 4,
+        "surah_name_ar": "النساء",
+        "ayah": "86",
+        "text_ar": "وَإِذَا حُيِّيتُم بِتَحِيَّةٖ فَحَيُّواْ بِأَحۡسَنَ مِنۡهَآ أَوۡ رُدُّوهَآۗ إِنَّ ٱللَّهَ كَانَ عَلَىٰ كُلِّ شَيۡءٍ حَسِيبًا",
+        "translation_en": "And when you are greeted with a greeting, greet [in return] with one better than it or [at least] return it [in a like manner]. Indeed Allāh is ever, over all things, an Accountant.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/4#86"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "أَتَتْنِي أُمِّي رَاغِبَةً فِي عَهْدِ النَّبِيِّ صلى الله عليه وسلم فَسَأَلْتُ النَّبِيَّ صلى الله عليه وسلم آصِلُهَا قَالَ «نَعَمْ». قَالَ ابْنُ عُيَيْنَةَ فَأَنْزَلَ اللَّهُ تَعَالَى فِيهَا {لاَ يَنْهَاكُمُ اللَّهُ عَنِ الَّذِينَ لَمْ يُقَاتِلُوكُمْ فِي الدِّينِ}",
+        "translation_en": "My mother came to me, hoping (for my favor) during the lifetime of the Prophet. I asked the Prophet, \"May I treat her kindly?\" He replied, \"Yes.\" Ibn 'Uyaina said, \"Then Allah revealed: 'Allah forbids you not with regards to those who fought not against you because of religion, and drove you not out from your homes, that you should show them kindness and deal justly with them.'.......(60.8)",
+        "collection": "صحيح البخاري",
+        "number": "5978",
+        "narrator": "أسماء بنت أبي بكر رضي الله عنهما",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)",
+        "source_url": "https://dorar.net/h/0r5CM08Q",
+        "dorar_url": "https://dorar.net/h/0r5CM08Q",
+        "dorar_ref": "المحدث: البخاري | المصدر: صحيح البخاري | الرقم: 5978 | خلاصة حكم المحدث: [صحيح]",
+        "sunnah_url": "https://sunnah.com/bukhari:5978",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "قَدِمَ رَسُولُ اللَّهِ صلى الله عليه وسلم الْمَدِينَةَ وَلَهُمْ يَوْمَانِ يَلْعَبُونَ فِيهِمَا فَقَالَ «مَا هَذَانِ الْيَوْمَانِ» . قَالُوا كُنَّا نَلْعَبُ فِيهِمَا فِي الْجَاهِلِيَّةِ . فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم «إِنَّ اللَّهَ قَدْ أَبْدَلَكُمْ بِهِمَا خَيْرًا مِنْهُمَا يَوْمَ الأَضْحَى وَيَوْمَ الْفِطْرِ» .",
+        "translation_en": "When the Messenger of Allah (ﷺ) came to Medina, the people had two days on which they engaged in games. He asked: What are these two days (what is the significance)? They said: We used to engage ourselves on them in the pre-Islamic period. The Messenger of Allah (ﷺ) said: Allah has substituted for them something better than them, the day of sacrifice and the day of the breaking of the fast.",
+        "collection": "سنن أبي داود",
+        "number": "1134",
+        "narrator": "أنس بن مالك رضي الله عنه",
+        "grade": "صحيح",
+        "grader": "الألباني — صحيح أبي داود 1134: «صحيح» (الدرر السنية)؛ HadeethEnc: «صحيح»",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/65485",
+        "dorar_url": "https://dorar.net/h/QxMsqi4E",
+        "dorar_ref": "المحدث: الألباني | المصدر: صحيح أبي داود | الرقم: 1134 | خلاصة حكم المحدث: صحيح",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/65485",
+        "sunnah_url": "https://sunnah.com/abudawud:1134",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "دَخَلَ أَبُو بَكْرٍ وَعِنْدِي جَارِيَتَانِ مِنْ جَوَارِي الأَنْصَارِ تُغَنِّيَانِ بِمَا تَقَاوَلَتِ الأَنْصَارُ يَوْمَ بُعَاثَ ـ قَالَتْ وَلَيْسَتَا بِمُغَنِّيَتَيْنِ ـ فَقَالَ أَبُو بَكْرٍ أَمَزَامِيرُ الشَّيْطَانِ فِي بَيْتِ رَسُولِ اللَّهِ صلى الله عليه وسلم وَذَلِكَ فِي يَوْمِ عِيدٍ. فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم «يَا أَبَا بَكْرٍ إِنَّ لِكُلِّ قَوْمٍ عِيدًا، وَهَذَا عِيدُنَا»",
+        "translation_en": "Abu Bakr came to my house while two small Ansari girls were singing beside me the stories of the Ansar concerning the Day of Buath. And they were not singers. Abu Bakr said protestingly, \"Musical instruments of Satan in the house of Allah's Messenger (ﷺ) !\" It happened on the `Id day and Allah's Messenger (ﷺ) said, \"O Abu Bakr! There is an `Id for every nation and this is our `Id.\"",
+        "collection": "صحيح البخاري",
+        "number": "952",
+        "narrator": "عائشة رضي الله عنها",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)",
+        "source_url": "https://dorar.net/h/YPxrjOvv",
+        "dorar_url": "https://dorar.net/h/YPxrjOvv",
+        "dorar_ref": "المحدث: البخاري | المصدر: صحيح البخاري | الرقم: 952 | خلاصة حكم المحدث: [صحيح]",
+        "sunnah_url": "https://sunnah.com/bukhari:952",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم «مَنْ تَشَبَّهَ بِقَوْمٍ فَهُوَ مِنْهُمْ» .",
+        "translation_en": "Ibn ‘Umar (may Allah be pleased with him) reported: The Messenger of Allah (may Allah's peace and blessings be upon him) said: \"Whoever imitates a people is one of them.\"",
+        "collection": "سنن أبي داود",
+        "number": "4031",
+        "narrator": "عبد الله بن عمر رضي الله عنهما",
+        "grade": "حسن صحيح",
+        "grader": "الألباني — صحيح أبي داود 4031: «حسن صحيح» (الدرر السنية)؛ HadeethEnc: «حسن»",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/5353",
+        "dorar_url": "https://dorar.net/h/F8Sv9OZi",
+        "dorar_ref": "المحدث: الألباني | المصدر: صحيح أبي داود | الرقم: 4031 | خلاصة حكم المحدث: حسن صحيح",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/5353",
+        "sunnah_url": "https://sunnah.com/abudawud:4031 ; https://dorar.net/hadith/search?q=%D9%85%D9%86%20%D8%AA%D8%B4%D8%A8%D9%87%20%D8%A8%D9%82%D9%88%D9%85",
+        "translation_source": "HadeethEnc.com (https://hadeethenc.com/en/browse/hadith/5353)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "المنع من تعظيم أعياد غير المسلمين ومشاركتهم فيها؛ ونقلت الموسوعة الفقهية عن قاضي خان: من اشترى يوم النيروز ما لم يكن يشتريه يريد تعظيم اليوم كما يعظمه الكفرة كان كفراً، ومن أهدى فيه على عادة الناس دون قصد التعظيم لم يكن كفراً، وينبغي أن يحترز عن التشبه. ولم نقف على نص حنفي صريح في مجرد التهنئة اللفظية.",
+        "position_en": "Prohibits honoring or joining non-Muslim festivals. The Kuwaiti Encyclopedia quotes Qadi Khan: buying something on Nayruz intending to honor the day as disbelievers do is disbelief, whereas gifting on that day out of mere social custom without intending to honor it is not, though one should avoid imitation. We did not locate an explicit Hanafi text on a mere verbal greeting.",
+        "reference": "الموسوعة الفقهية الكويتية، مادة «تشبّه» (12/7) نقلاً عن فتاوى قاضي خان — منقول عبر islamqa.info/ar/answers/101404"
+      },
+      "maliki": {
+        "position_ar": "المنع؛ ونقلت الموسوعة الفقهية أن ابن القاسم كره للمسلم أن يهدي إلى النصراني في عيده مكافأةً، ورآه من تعظيم عيده وعوناً له على كفره.",
+        "position_en": "Prohibits participation; the Kuwaiti Encyclopedia reports that Ibn al-Qasim disliked a Muslim giving a Christian a reciprocal gift on his festival, considering it a form of honoring the festival.",
+        "reference": "الموسوعة الفقهية الكويتية (12/7)"
+      },
+      "shafii": {
+        "position_ar": "المنع؛ ويُنقل عن الخطيب الشربيني: «ويُعزَّر من وافق الكفار في أعيادهم... ومن هنّأه بعيده».",
+        "position_en": "Prohibits; al-Khatib al-Sharbini is quoted as saying that whoever conforms with non-Muslims in their festivals, or congratulates a dhimmi on his festival, is subject to discretionary punishment.",
+        "reference": "مغني المحتاج للخطيب الشربيني (5/526)",
+        "reference_status": "pending_verification"
+      },
+      "hanbali": {
+        "position_ar": "المنع: قال ابن القيم: «وأما التهنئة بشعائر الكفر المختصة به فحرام بالاتفاق، مثل أن يهنئهم بأعيادهم وصومهم»، وقال: لا يجوز للمسلمين حضور أعياد المشركين باتفاق أهل العلم، وصرّح به فقهاء المذاهب الأربعة. وأجاز ابن تيمية قبول هديتهم يوم عيدهم مستدلاً بقبول علي رضي الله عنه هدية النيروز، ما لم تكن مما يُستعان به على شعائرهم.",
+        "position_en": "Prohibits. Ibn al-Qayyim: \"Congratulating them on the rites specific to their disbelief is forbidden by agreement, such as congratulating them on their festivals and fasts\", and attending their festivals is not allowed by agreement of the scholars of the four schools. Ibn Taymiyya nonetheless allowed accepting their gifts on their festival day, citing Ali accepting a Nayruz gift, provided it does not aid their rites.",
+        "reference": "ابن القيم، أحكام أهل الذمة (1/441) و(1/723)؛ ابن تيمية، اقتضاء الصراط المستقيم (فصل قبول الهدية يوم عيدهم)"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "اللجنة الدائمة للبحوث العلمية والإفتاء (السعودية)",
+        "decision_ref": "فتوى في حكم مشاركة غير المسلمين أعيادهم (ترجمة إنجليزية منشورة في IslamHouse؛ رقم الفتوى غير مذكور في الصفحة المنشورة)",
+        "position_ar": "لا يجوز للمسلم مشاركة غير المسلمين في أعيادهم وإظهار الفرح والسرور بها، واستدلت بآية التعاون على البر والتقوى (المائدة 2).",
+        "position_en": "It is not permissible for a Muslim to join non-Muslims in their festivals and to express joy and happiness on these occasions; the Committee cites the verse on cooperating in righteousness and not in sin (5:2).",
+        "source_url": "https://islamhouse.com/en/fatwa/409853"
+      },
+      {
+        "body": "الشيخ محمد بن صالح العثيمين (فتوى فردية)",
+        "decision_ref": "مجموع فتاوى ورسائل العثيمين (3/44)",
+        "position_ar": "تهنئة الكفار بعيد الكريسماس أو غيره من أعيادهم الدينية حرام، وإجابة دعوتهم بهذه المناسبة حرام، ولا يُجابون إذا هنؤونا بها.",
+        "position_en": "Congratulating non-Muslims on Christmas or their other religious festivals is forbidden, as is accepting their invitations for the occasion.",
+        "source_url": "https://islamqa.info/ar/answers/947 ; https://www.alukah.net/sharia/0/140636/"
+      },
+      {
+        "body": "المجلس الأوروبي للإفتاء والبحوث",
+        "decision_ref": "فتوى المجلس في تهنئة غير المسلمين بأعيادهم (لم نتحقق من رقم الدورة)",
+        "position_ar": "لا بأس بتهنئة غير المسلمين بأعيادهم لمن بينه وبينهم صلة قرابة أو جوار أو زمالة، بألفاظ لا تتضمن إقراراً بعقيدة مخالفة ولا شعاراً دينياً كالصليب؛ مع التأكيد على أنه «لا تجوز مشاركتهم في احتفالاتهم بأعيادهم». وخالف من الأعضاء د. محمد فؤاد البرازي.",
+        "position_en": "Greeting non-Muslims on their holidays is acceptable for those with ties of kinship, neighborhood or work, using words that do not affirm contrary beliefs and without religious symbols; but participating in their festival celebrations is not permitted. Dr. Muhammad Fu'ad al-Barazi dissented.",
+        "source_url": "https://fiqh.islamonline.net/%D8%AA%D9%87%D9%86%D8%A6%D8%A9-%D8%BA%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85%D9%8A%D9%86-%D8%A8%D8%A3%D8%B9%D9%8A%D8%A7%D8%AF%D9%87%D9%85-%D8%A7%D9%84%D8%AD%D9%83%D9%85-%D9%88%D8%A7%D9%84/"
+      },
+      {
+        "body": "Fiqh Council of North America (د. مزمل صديقي، رئيس المجلس آنذاك)",
+        "decision_ref": "فتوى «Muslims celebrating the holidays of other religions» + مقال «An Islamic Thanksgiving»",
+        "position_ar": "لا يجوز للمسلمين الاحتفال بأعياد الأديان الأخرى ولا وضع شجرة الميلاد، لكن يجوز تمنّي «أعياد سعيدة» للأصدقاء والجيران والأقارب، وقبول هداياهم بشكر ومكافأتهم في أعياد المسلمين. ويرى أن عيد الشكر ليس عيداً لدين بعينه وأن معنى الشكر فيه موافق للإسلام.",
+        "position_en": "Muslims may not celebrate other religions' holidays or put up Christmas trees, but may wish \"happy holidays\" to friends, neighbors and relatives, accept their gifts graciously and reciprocate on Islamic holidays. He views Thanksgiving as not belonging to any particular religion and its gratitude theme as consonant with Islam.",
+        "source_url": "https://fiqh.islamonline.net/en/muslims-celebrating-the-holidays-of-other-religions/"
+      },
+      {
+        "body": "AMJA — مجمع فقهاء الشريعة بأمريكا",
+        "decision_ref": "فتوى 22994 (2006) وفتوى 76974 (2008) — د. مائن خالد القضاة",
+        "position_ar": "عيد الشكر وعيد الأم وعيد الأب لها صلة بأديان أخرى بوجه ما، فالاحتفال بها غير مشروع للمسلمين؛ وفي فتوى 2008: «عيد الشكر من الأعياد النصرانية؛ ولذا لا نحتفل به، وللمسلمين أعيادهم».",
+        "position_en": "Thanksgiving, Mother's Day and Father's Day are affiliated with other religions in some way, so celebrating them is not lawful for Muslims; the 2008 fatwa states Thanksgiving is historically a Christian holiday and Muslims have their own Eids.",
+        "source_url": "https://www.amjaonline.org/fatwa/en/22994/celebrating-non-muslim-holidays ; https://www.amjaonline.org/fatwa-76974/info"
+      },
+      {
+        "body": "AMJA — د. حاتم الحاج (عضو اللجنة الدائمة للإفتاء)",
+        "decision_ref": "جواب في قبول هدايا الكريسماس من الزملاء (aboutislam.net)",
+        "position_ar": "إن كانت الهدية متعلقة مباشرة بشعائرهم في ذلك اليوم فله ردّها، وإن لم تكن كذلك فله قبولها، بنية التأليف، مع وضوح أنه لا يحتفل بعيدهم.",
+        "position_en": "If the gift is directly tied to their rituals of the day, one may decline it; otherwise one may accept it, intending goodwill, while making clear one does not celebrate the holiday.",
+        "source_url": "https://aboutislam.net/counseling/ask-the-scholar/muslim-creed/accepting-christmas-gifts-co-workers-permissible/"
+      },
+      {
+        "body": "الشيخ أحمد كتي (المعهد الإسلامي بتورنتو)",
+        "decision_ref": "جواب «Is it permissible for American Muslims to celebrate Thanksgiving?»",
+        "position_ar": "لا مانع من عيد الشكر ما دام عادةً لا صلة لها بالشعائر الدينية؛ فيجوز للمسلم المشاركة في الوجبة مع اجتناب أي طقوس دينية والمحرّمات من طعام وشراب.",
+        "position_en": "No objection to Thanksgiving as long as it is a custom unconnected to religious rituals; a Muslim may share the meal while avoiding any rituals and prohibited food and drink.",
+        "source_url": "https://aboutislam.net/counseling/ask-the-scholar/muslim-and-non-muslim-relations/is-it-permissible-for-american-muslims-to-celebrate-thanksgiving/"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "إذا قال لك زميل «Merry Christmas» فرُدّ بلطف بما لا خلاف فيه: «Thank you! Enjoy the time with your family» أو «Happy holidays to you too» عند من يجيز ذلك.",
+        "حفل نهاية العام في الشركة غالباً مناسبة عمل اجتماعية: يمكنك حضور الغداء والتعارف، واجتنب أي فقرة دينية (ترانيم/صلوات) ومائدة الخمر (انظر موقف «حفلة الشركة»).",
+        "في Secret Santa: اختر هدية عامة نافعة (كتاب، قهوة، أدوات مكتب) بلا رموز دينية، واقبل ما يُهدى لك واشكر عليه.",
+        "عيد الشكر مع أسرة صديقك: إن أخذت بقول من يجيز، فاحضر العشاء بلا طقوس، واعتذر بلطف عن الديك الرومي غير المذكّى إن لم تكن مطمئناً لحِلّه، أو أحضر طبقاً حلالاً تشاركهم به.",
+        "ردّ الجميل في أعياد المسلمين: ادعُ زملاءك لحلوى العيد أو إفطار رمضاني؛ فهذا من البر والدعوة بالحال."
+      ],
+      "en": [
+        "If a coworker says \"Merry Christmas\", reply kindly with something no one objects to: \"Thank you! Enjoy the time with your family\", or \"Happy holidays to you too\" if you follow the permissive view.",
+        "The company year-end party is usually a work-social event: you may attend the lunch and networking, while skipping any religious segment (carols/prayers) and the alcohol table (see \"Company party\").",
+        "For Secret Santa, pick a neutral useful gift (book, coffee, office supplies) without religious symbols, and accept gifts you receive with thanks.",
+        "Thanksgiving with a friend's family: if you follow the permissive view, attend the dinner without rituals, politely skip turkey whose slaughter you are unsure of, or bring a halal dish to share.",
+        "Return the kindness on Muslim holidays: invite coworkers for Eid sweets or an iftar — kindness and good example."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "تهنئة عامة غير دينية بنهاية العام أو بالإجازة",
+        "إهداء الزملاء في العيدين أو في رأس السنة الهجرية",
+        "المشاركة في أعمال تطوعية مجتمعية في موسم الأعياد (بنوك الطعام، ملاجئ)"
+      ],
+      "en": [
+        "A general non-religious end-of-year or vacation greeting",
+        "Giving coworkers gifts on Eid or the Islamic new year",
+        "Joining community volunteering during the holiday season (food banks, shelters)"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "إذا طُلب منك حضور شعيرة دينية لغير المسلمين، أو كان عملك يقتضي المشاركة في طقوس، أو كانت لك أسرة غير مسلمة (والدان/زوجة كتابية) وتريد ترتيب علاقتك بأعيادهم.",
+      "en": "If you are asked to attend a religious service or rite of another faith, if your job requires taking part in rituals, or if you have non-Muslim family (parents/spouse) and need to navigate their holidays."
+    },
+    "confidence": "medium",
+    "review_status": "ai_verified",
+    "notes_for_reviewer": "نصوص الآيات من api.quran.com (رسم عثماني) والترجمة Sahih International (resource 20). الأحاديث مأخوذة حرفياً من sunnah.com (حُذف الإسناد واحتُفظ بالمتن من الصحابي). (1) نسبة قول الشافعية إلى مغني المحتاج 5/526 منقولة عن مصدر ثانوي (منشور د. محمد التميمي) ولم نطابقها في المطبوع. (2) نصوص الحنفية والمالكية منقولة عبر الموسوعة الفقهية الكويتية 12/7 بواسطة islamqa، لم نفتح الموسوعة نفسها. (3) لم نتحقق من رقم دورة قرار المجلس الأوروبي؛ المصدر موقع إسلام أون لاين. (4) آية الفرقان 72: تفسير «الزور» بأعياد المشركين قول بعض السلف (مجاهد والضحاك وابن سيرين وغيرهم كما في التفاسير) — لم ننقل نص التفسير، فالمرجع يحتاج إضافة. (5) فتوى دار الإفتاء المصرية بجواز التهنئة موجودة (dar-alifta.org/ar/articles/details/5603) ولم نُدرجها لاختصار القائمة. (6) د. مزمل صديقي يُعرَّف في مقال 2012 بأنه نائب رئيس المجلس، وفي الفتوى الأخرى رئيسه — يُرجى توحيد الصفة.\n\n[تدقيق المرحلة 1 — 2026-10-05] صُحّح اسم المفتي في decision_ref إلى «د. مائن خالد القضاة». عرض الخلاف متوازن (ابن القيم/العثيمين مقابل المجلس الأوروبي/FCNA). نص الشربيني «ويعزر من وافق الكفار في أعيادهم... ومن هنأه بعيده» معروف في مغني المحتاج (باب الجزية) لكن لم يُطابق الجزء والصفحة. نجحت الفحوص الآلية.\n\n[مراجعة الأحاديث 2026-10-06 — حزمة المرجعية العلمية]\n- أُبقي سنن أبي داود 4031 «من تشبه بقوم فهو منهم» لأن مصدرين معتمدين في الحزمة يحكمان عليه: الألباني «حسن صحيح» (صحيح أبي داود 4031، https://dorar.net/h/F8Sv9OZi) وHadeethEnc «حسن» (https://hadeethenc.com/ar/browse/hadith/5353)؛ مع العلم أن المنذري والزيلعي ضعّفاه لحال عبد الرحمن بن ثابت بن ثوبان. للمراجع البشري حذفه إن رأى أنه مختلف فيه.",
+    "newcomer_explainer": {
+      "ar": "يأمر الإسلام بالبر والعدل مع الجيران من أهل الأديان الأخرى (الممتحنة 8) وبردّ التحية بأحسن منها (النساء 86)، لكنه لا يجيز المشاركة في الشعائر الدينية لأعياد الأديان الأخرى. ويختلف العلماء في التهنئة اللفظية بالعيد الديني: فمنعها ابن القيم وكثير من المتقدمين والمعاصرين، وأجازها المجلس الأوروبي للإفتاء وآخرون بضوابط من باب البر. وعيد الشكر مختلف فيه أيضاً: فمنهم من يراه مناسبة وطنية عائلية، ومنهم من يرى له أصلاً دينياً. والمسلمون يحبون المسيح عيسى ويجلّونه نبياً عظيماً، لكنهم لا يشاركون الاعتقاد بألوهيته الذي يحتفل به عيد الميلاد، ولذلك يبقي كثير منهم مشاركتهم اجتماعية لا دينية.",
+      "en": "Islam asks Muslims to be kind and just to neighbours of other faiths (60:8) and to return greetings with something better (4:86), but not to take part in the religious rites of another faith's holidays. Scholars differ on verbally congratulating someone on a religious holiday: Ibn al-Qayyim and many classical and contemporary scholars did not allow it, while the European Council for Fatwa and others allow it with conditions as an act of kindness. Thanksgiving is debated too: some see it as a civic family occasion, others consider it to have a religious origin. Muslims love and honour Jesus as a great prophet but do not share the belief in his divinity that Christmas celebrates, which is why many keep their participation social rather than religious."
+    },
+    "library_only": true
+  },
+  {
+    "id": "public_events.raffle",
+    "location": "public_events",
+    "title": {
+      "ar": "السحب الخيري (Raffle)",
+      "en": "Charity Raffle"
+    },
+    "question": {
+      "ar": "في الحفل تبيع جمعية خيرية تذاكر raffle بخمسة دولارات للتذكرة والجائزة جهاز iPad، والريع للأطفال المرضى. وفي الوقت نفسه تمنح الشركة كل الحاضرين رقماً مجانياً للسحب على بطاقة هدايا. ما الحكم في الحالتين؟",
+      "en": "At the party a charity sells $5 raffle tickets for an iPad, with proceeds going to sick children. Meanwhile, the company gives every attendee a free number for a gift-card draw. What is the ruling in each case?"
+    },
+    "verdict": "haram",
+    "content_level": "B",
+    "verdict_scope": {
+      "ar": "يخص هذا الحكم شراء تذكرة سحب مدفوعة تموَّل منها الجوائز؛ أما الرقم المجاني الذي تموّل الشركة جائزته فجائز.",
+      "en": "This ruling covers buying a paid raffle ticket that funds the prizes; the free number whose prize the company funds is permissible."
+    },
+    "consensus_sources": [
+      "الموسوعة الفقهية (الدرر السنية)، حكم القمار: https://dorar.net/feqhia/11561 — نقل الإجماع على تحريم القمار عن الجصاص (أحكام القرآن 1/450) وابن عبد البر (التمهيد 13/180) والقرطبي (تفسيره 3/52) وابن تيمية (الفتاوى الكبرى 4/459) وابن حجر (فتح الباري 8/613)"
+    ],
+    "explanatory_notes": {
+      "ar": [
+        "إذا كانت التذكرة مدمجة في ثمن دخول الحفل وكان الثمن كله مقابل الطعام والحفل والسحب مجاني تبعاً، فقد يشبه ذلك الرقم المجاني الذي تمنحه الشركة فيكون الأمر أخف. هذا قياس منّا للتوضيح، وليس نصاً ولا قول جهة علمية، فراجع عالماً في التفاصيل."
+      ],
+      "en": [
+        "If a ticket is bundled into the event admission and the whole price is for the food and event while the draw is a free add-on, it may resemble the free company number and so be lighter. This is an analogy we drew to explain, not a source text or the view of a scholarly body; check the details with a scholar."
+      ]
+    },
+    "summary": {
+      "ar": "شراء تذكرة سحب تُدفع قيمتها وتدخل في تمويل الجوائز ميسر (قمار) محرّم ولو كان الريع لعمل خيري، وبهذا صدر قرار مجمع الفقه الإسلامي الدولي 127 (14/1). أما السحب المجاني الذي لا يدفع فيه المشارك شيئاً والجائزة من طرف ثالث كالشركة فجائز. والبديل: تبرع مباشر دون تذكرة.",
+      "en": "Buying a paid raffle ticket whose price funds the prizes is maysir (gambling) and forbidden even when proceeds go to charity, as stated in International Islamic Fiqh Academy resolution 127 (14/1). A free draw where participants pay nothing and a third party such as the company funds the prize is permissible. The alternative is a direct donation without a ticket."
+    },
+    "quran": [
+      {
+        "surah": 5,
+        "surah_name_ar": "المائدة",
+        "ayah": "90",
+        "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓاْ إِنَّمَا ٱلۡخَمۡرُ وَٱلۡمَيۡسِرُ وَٱلۡأَنصَابُ وَٱلۡأَزۡلَٰمُ رِجۡسٞ مِّنۡ عَمَلِ ٱلشَّيۡطَٰنِ فَٱجۡتَنِبُوهُ لَعَلَّكُمۡ تُفۡلِحُونَ",
+        "translation_en": "O you who have believed, indeed, intoxicants, gambling, [sacrificing on] stone alters [to other than Allāh], and divining arrows are but defilement from the work of Satan, so avoid it that you may be successful.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/5#90"
+      },
+      {
+        "surah": 5,
+        "surah_name_ar": "المائدة",
+        "ayah": "91",
+        "text_ar": "إِنَّمَا يُرِيدُ ٱلشَّيۡطَٰنُ أَن يُوقِعَ بَيۡنَكُمُ ٱلۡعَدَٰوَةَ وَٱلۡبَغۡضَآءَ فِي ٱلۡخَمۡرِ وَٱلۡمَيۡسِرِ وَيَصُدَّكُمۡ عَن ذِكۡرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِۖ فَهَلۡ أَنتُم مُّنتَهُونَ",
+        "translation_en": "Satan only wants to cause between you animosity and hatred through intoxicants and gambling and to avert you from the remembrance of Allāh and from prayer. So will you not desist?",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/5#91"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم «مَنْ حَلَفَ فَقَالَ فِي حَلِفِهِ وَاللاَّتِ وَالْعُزَّى. فَلْيَقُلْ لاَ إِلَهَ إِلاَّ اللَّهُ. وَمَنْ قَالَ لِصَاحِبِهِ تَعَالَ أُقَامِرْكَ. فَلْيَتَصَدَّقْ»",
+        "translation_en": "Allah's Messenger (ﷺ) said, \"Whomever takes an oath in which he mentions Lat and `Uzza (forgetfully), should say: None has the right to be worshipped but Allah, and whoever says to his companion. 'Come along, let us gamble' must give alms (as an expiation).",
+        "collection": "صحيح البخاري",
+        "number": "4860",
+        "narrator": "أبو هريرة رضي الله عنه",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري؛ وأخرجه مسلم (1647)",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/6379",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/6379",
+        "sunnah_url": "https://sunnah.com/bukhari:4860",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنْ بَيْعِ الْحَصَاةِ وَعَنْ بَيْعِ الْغَرَرِ",
+        "translation_en": "Abu Huraira (Allah be pleased with him) reported that Allah's Messenger (ﷺ) forbade a transaction determined by throwing stones, and the type which involves some uncertainty.",
+        "collection": "صحيح مسلم",
+        "number": "1513",
+        "narrator": "أبو هريرة رضي الله عنه",
+        "grade": "صحيح",
+        "grader": "الإمام مسلم (أخرجه في صحيحه)",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/66136",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/66136",
+        "sunnah_url": "https://sunnah.com/muslim:1513",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم نَهَى عَنِ الْخَمْرِ وَالْمَيْسِرِ وَالْكُوبَةِ وَالْغُبَيْرَاءِ وَقَالَ «كُلُّ مُسْكِرٍ حَرَامٌ»",
+        "translation_en": "The Prophet (ﷺ) forbade wine (khamr), game of chance (maysir), drum (kubah), and wine made from millet (ghubayrah), saying: Every intoxicant is forbidden. Abu Dawud said: Ibn Sallam Abu 'Ubaid said: Ghubairah was an intoxicant liquor made from millet. This wine was made by the Abyssinians",
+        "collection": "سنن أبي داود",
+        "number": "3685",
+        "narrator": "عبد الله بن عمرو رضي الله عنهما",
+        "grade": "صحيح",
+        "grader": "الألباني — صحيح أبي داود 3685: «صحيح» (الدرر السنية)",
+        "source_url": "https://dorar.net/h/WgIeVlUd",
+        "dorar_url": "https://dorar.net/h/WgIeVlUd",
+        "dorar_ref": "المحدث: الألباني | المصدر: صحيح أبي داود | الرقم: 3685 | خلاصة حكم المحدث: صحيح",
+        "sunnah_url": "https://sunnah.com/abudawud:3685",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "القمار محرّم، والميسر في الآية هو القمار؛ واستدل الجصاص بقوله «رجس من عمل الشيطان» و«فاجتنبوه» و«فهل أنتم منتهون» على التحريم المؤكد. وكل عقد يدفع فيه كل مشارك مالاً على احتمال أن يغنم أو يغرم فهو قمار.",
+        "position_en": "Gambling is forbidden and the maysir of the verse is gambling; al-Jassas inferred emphatic prohibition from \"defilement from the work of Satan\", \"avoid it\" and \"will you not desist?\". Any arrangement where each participant pays on the chance of winning or losing is gambling.",
+        "reference": "أحكام القرآن للجصاص (2/2) — بواسطة الموسوعة الفقهية بالدرر السنية"
+      },
+      "maliki": {
+        "position_ar": "قال مالك: الميسر ميسران: ميسر اللهو وميسر القمار، وهو «ما يتخاطر الناس عليه»، و«كل ما قومر به فهو ميسر عند مالك وغيره». وحكى ابن عبد البر: «لم يختلف العلماء أن القمار من الميسر المحرّم».",
+        "position_en": "Malik: maysir is of two kinds, amusement and gambling — \"that on which people stake\"; \"everything gambled on is maysir according to Malik and others\". Ibn Abd al-Barr: scholars do not differ that gambling is the forbidden maysir.",
+        "reference": "تفسير القرطبي (3/52)؛ التمهيد لابن عبد البر (13/180)"
+      },
+      "shafii": {
+        "position_ar": "القمار من الكبائر؛ واستدل ابن حجر الهيتمي بحديث «من قال لصاحبه تعال أقامرك فليتصدق» على أن مجرد الدعوة إليه تستوجب الصدقة، فكيف بفعله.",
+        "position_en": "Gambling is a major sin; Ibn Hajar al-Haytami reasoned from the hadith \"whoever says come let me gamble with you, let him give charity\" that if merely inviting to it requires expiation, doing it is graver.",
+        "reference": "الزواجر عن اقتراف الكبائر لابن حجر الهيتمي (2/329)"
+      },
+      "hanbali": {
+        "position_ar": "الميسر هو القمار وهو محرّم بالنص والإجماع، ومنه كل مغالبة بعوض من الطرفين على وجه المخاطرة في غير ما استثناه الشرع (السبق في الخيل والإبل والسهام).",
+        "position_en": "Maysir is gambling, forbidden by text and consensus, including any wager-funded contest of chance outside the exceptions allowed by the Sharia (horse, camel and archery races).",
+        "reference": "مجموع فتاوى ابن تيمية (32/220) — بواسطة الموسوعة الفقهية بالدرر السنية"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "مجمع الفقه الإسلامي الدولي",
+        "decision_ref": "القرار رقم 127 (14/1) بشأن بطاقات المسابقات — الدورة الرابعة عشرة، الدوحة، ذو القعدة 1423هـ / يناير 2003م",
+        "position_ar": "«بطاقات (كوبونات) المسابقات التي تدخل قيمتها أو جزءٌ منها في مجموع الجوائز لا تجوز شرعًا؛ لأنها ضربٌ من ضروب الميسر». و«المسابقة بلا عوض (جائزة) مشروعة...»، ويجوز العوض بشرط «أن لا يكون العوض (الجائزة) فيها من جميع المتسابقين»، و«لا مانع من استفادة مقدمي الجوائز من ترويج سلعهم... شريطة أن لا تكون قيمة الجوائز أو جزء منها من المتسابقين».",
+        "position_en": "Competition tickets whose price, wholly or partly, goes into the prize pool are impermissible as a form of maysir. Competitions without a fee are lawful, and prizes are allowed if not funded by all contestants; sponsors may offer prizes for promotion provided no part of the prizes comes from the contestants.",
+        "source_url": "https://iifa-aifi.org/ar/2114.html"
+      },
+      {
+        "body": "المفتي محمد بن آدم الكوثري (دار الإفتاء — ليستر، بريطانيا)",
+        "decision_ref": "Fundraising by selling tickets and giving prizes through a draw",
+        "position_ar": "جمع التبرعات ببيع تذاكر وسحب جوائز قمار محرّم، وكونه لمسجد أو مصلى يزيده إثماً؛ والبديل عشاء خيري بتذكرة يحصل فيها المشتري على الطعام مقابل ما دفع ويذهب الفائض للجهة الخيرية.",
+        "position_en": "Fundraising by selling tickets for a prize draw is gambling and unlawful, worse when done for a mosque; the alternative is a fundraising dinner where the ticket buys the meal and the surplus goes to the cause.",
+        "source_url": "https://islamqa.org/hanafi/daruliftaa/7943/fundraising-by-selling-tickets-and-giving-prizes-through-a-draw/"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "اعتذر عن شراء التذكرة وتبرّع مباشرة: «I'd love to support the cause — can I just donate $10 directly without a ticket?» وهذا يُقدَّر عادة.",
+        "الرقم المجاني من الشركة لكل الحاضرين جائز لأنك لم تدفع شيئاً والجائزة من الشركة؛ فإن فزت فلا حرج في أخذها.",
+        "إن كانت التذكرة مدمجة في ثمن دخول الحفل، فاسأل: هل يُرفع السعر لأجل السحب؟ وراجع عالماً في التفاصيل (انظر الشرح التوضيحي).",
+        "إن أُهديت لك تذكرة مدفوعة من زميل فالأحوط ألا تدخل بها السحب أو أن تردها بلطف."
+      ],
+      "en": [
+        "Decline the ticket and donate directly: \"I'd love to support the cause — can I just donate $10 directly without a ticket?\" This is usually appreciated.",
+        "The free number the company gives every attendee is permissible: you paid nothing and the company funds the prize; if you win, you may keep it.",
+        "If a ticket is bundled into the event admission, ask whether the price is raised because of the draw, and check the details with a scholar (see the explanatory note).",
+        "If a coworker gifts you a paid ticket, the cautious course is not to enter it or to return it kindly."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "التبرع المباشر للجمعية",
+        "سحب مجاني بلا شرط شراء تموّله جهة راعية",
+        "عشاء خيري بتذكرة مقابل الطعام",
+        "مزاد خيري علني يشتري فيه المزايد السلعة بثمن معلوم"
+      ],
+      "en": [
+        "Donating directly to the charity",
+        "A free, no-purchase-necessary draw funded by a sponsor",
+        "A charity dinner where the ticket pays for the meal",
+        "A charity auction where the bidder buys a known item at a known price"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "إذا كانت الصورة مركّبة (تذكرة دخول تشمل سحباً، اشتراك نادٍ يمنح سحوبات، برامج نقاط مدفوعة)، أو كنت أنت منظم الفعالية الخيرية وتريد تصميمها بطريقة جائزة.",
+      "en": "If the arrangement is mixed (admission that includes a draw, club memberships with prize draws, paid points programs), or if you are organizing the charity event and want to design it permissibly."
+    },
+    "confidence": "high",
+    "review_status": "ai_verified",
+    "notes_for_reviewer": "نص القرار 127 منقول حرفياً من موقع المجمع الرسمي (iifa-aifi.org/ar/2114.html). نصوص المذاهب منقولة من الموسوعة الفقهية بالدرر السنية (dorar.net/feqhia/11561، 11564، 11566) ولم نطابق المطبوعات؛ ومرجع الحنابلة عام (ابن تيمية) — يُستحسن إضافة نص من كشاف القناع أو المغني في تعريف القمار. حكم التذكرة المدمجة في ثمن الدخول اجتهاد عملي منا يحتاج تأكيد العالم المراجع. لم نجد فتوى AMJA منشورة بخصوص raffle تحديداً.\n\n[تدقيق المرحلة 1 — 2026-10-05] نص القرار 127 مطابق للموقع الرسمي (الموقع العربي يكتب الرقم (14/1) والإنجليزي (1/14)، فكلا الترقيمين وارد). نجحت الفحوص الآلية.",
+    "newcomer_explainer": {
+      "ar": "شراء تذكرة سحب تُدفع قيمتها وتموَّل منها الجوائز يعدّه الإسلام من الميسر (القمار) المحرّم ولو ذهب الريع لعمل خيري، وبهذا صدر قرار مجمع الفقه الإسلامي الدولي 127. والعلة أن كل مشارك يدفع ماله رجاء أن يربح على حساب غيره، وقد ذكر القرآن أن الميسر يوقع العداوة والبغضاء (المائدة 91). أما السحب المجاني الذي لا يدفع فيه أحد شيئاً والجائزة فيه من الشركة فجائز. والمسلم الذي يريد دعم القضية الخيرية يتبرع مباشرة دون تذكرة.",
+      "en": "In Islam, buying a paid raffle ticket whose price funds the prizes counts as maysir (gambling) and is forbidden even when the proceeds go to charity, as stated in International Islamic Fiqh Academy Resolution 127. The reason is that each participant pays hoping to win at others' expense, and the Quran says gambling stirs up enmity and hatred (5:91). A free draw where nobody pays and the company funds the prize is permissible. A Muslim who wants to support the cause simply donates directly, without a ticket."
+    },
+    "library_only": true
+  }
+]

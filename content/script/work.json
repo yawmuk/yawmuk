@@ -1,0 +1,239 @@
+{
+  "location": "work",
+  "title": {
+    "ar": "العمل — Salam Freight Tech",
+    "en": "Work — Salam Freight Tech"
+  },
+  "time_of_day": "10:00",
+  "intro": {
+    "ar": "مكتب مفتوح في الطابق الثالث، شاشات مزدوجة، ونبتة صناعية لم يسقها أحد قط. سمير وضع على طاولة المطبخ إبريق قهوة عربية بالهيل كعادته كل اثنين. الزملاء يتحدثون عن مباراة الأمس وحفل الجمعة. ويبدأ يوم مليء بالأسئلة.",
+    "en": "An open-plan office on the third floor, dual monitors, and a fake plant nobody has ever watered. Samir left a pot of cardamom Arabic coffee in the kitchenette, like every Monday. Coworkers are talking about last night's game and Friday's party. And a day full of questions begins."
+  },
+  "situations": [
+    {
+      "ruling_id": "work.amulet",
+      "hotspot": "adam_desk",
+      "npc": {
+        "id": "samir",
+        "name": {
+          "ar": "سمير",
+          "en": "Samir"
+        },
+        "role": {
+          "ar": "زميل مبرمج مسلم",
+          "en": "Muslim fellow developer"
+        }
+      },
+      "setup": {
+        "ar": "عند مكتب آدم، يراجع سمير عرضه لمقابلة الترقية بعد الظهر. ترك جيك على المكتب قلادةً صغيرة بخرزةٍ زرقاء، ومعها ورقة: تَمِيمَةُ حظٍّ للترقية!",
+        "en": "At Adam's desk, Samir is going over his slides for this afternoon's promotion interview. Jake left a small necklace with a blue bead on the desk, with a note: A lucky charm for the promotion!"
+      },
+      "dialogue": [
+        {
+          "speaker": "adam",
+          "ar": "جيك يريد أن يساعدك. ارتدِها، لن تخسر شيئاً!",
+          "en": "Jake's trying to help. Wear it, what have you got to lose?"
+        },
+        {
+          "speaker": "samir",
+          "ar": "لفتةٌ لطيفة من جيك، وسأشكره عليها. لكنني لن أرتديها.",
+          "en": "That's sweet of Jake, and I'll thank him for it. But I won't wear it."
+        },
+        {
+          "speaker": "samir",
+          "ar": "في الإسلام، النَّفْعُ والضَّرُّ بيد الله وحده. والعلماء متفقون على تحريم التَّمِيمَة التي يُظَنُّ أنها تجلب الحظ.",
+          "en": "In Islam, benefit and harm are in God's hands alone. Scholars agree that wearing a charm believed to bring luck is forbidden."
+        },
+        {
+          "speaker": "samir",
+          "ar": "أستعدُّ جيداً، ثم أتوكَّل على الله. هذا هو التَّوَكُّل، وهو يريحني من القلق أكثر من أي خرزة.",
+          "en": "I prepare well, then I rely on God. That's tawakkul, and it calms my nerves more than any bead could."
+        },
+        {
+          "speaker": "narrator",
+          "ar": "يضع سمير القلادة جانباً بلطف، وينظر إلى آدم.",
+          "en": "Samir gently sets the necklace aside and looks at Adam."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": {
+            "ar": "«فهمت، الثقة بالله لا بالخرزة. دعني أساعدك في التدرُّب على المقابلة، وسأخبر جيك أنك شكرته.»",
+            "en": "'Got it: trust in God, not in a bead. Let me help you rehearse, and I'll tell Jake you appreciated it.'"
+          },
+          "quality": "best",
+          "consequence": {
+            "ar": "ابتسم سمير: هذا هو التَّوَكُّل بعينه، عملٌ جادّ وقلبٌ مطمئن. تدرَّبا نصف ساعة، ودخل سمير مقابلته هادئاً.",
+            "en": "Samir smiled: that's tawakkul exactly, hard work and a calm heart. They rehearsed for half an hour, and Samir walked into his interview calm."
+          },
+          "points": 10
+        },
+        {
+          "id": "b",
+          "label": {
+            "ar": "«حسناً، لكلٍّ قناعاته. سأعيدها إلى جيك.»",
+            "en": "'Okay, to each their own. I'll give it back to Jake.'"
+          },
+          "quality": "acceptable",
+          "consequence": {
+            "ar": "شكره سمير. كان الردُّ لطيفاً، لكن آدم ظنَّ الأمر مجرد ذوق، وفاته أن الإسلام يحرِّر العقل من الخوف والخرافة.",
+            "en": "Samir thanked him. It was a kind reply, but Adam took it as a matter of taste and missed how Islam frees the mind from fear and superstition."
+          },
+          "points": 5
+        },
+        {
+          "id": "c",
+          "label": {
+            "ar": "«مجرد احتياط! ضعها في جيبك، ولن يعرف أحد.»",
+            "en": "'Just in case! Slip it in your pocket, nobody will know.'"
+          },
+          "quality": "wrong",
+          "consequence": {
+            "ar": "ضحك سمير بأدب: الله يعلم، وهذا يكفيني. الضغط على صديق ليخالف عقيدته، ولو بمزاح، يُثقِل عليه في يومٍ متوتر أصلاً.",
+            "en": "Samir laughed politely: God knows, and that's enough for me. Nudging a friend against his beliefs, even jokingly, weighs on him on an already tense day."
+          },
+          "points": 0
+        }
+      ],
+      "check_question": {
+        "q": {
+          "ar": "لماذا رفض سمير تَمِيمَة الحظ؟",
+          "en": "Why did Samir turn down the lucky charm?"
+        },
+        "options": [
+          {
+            "ar": "لأنه لا يحب الإكسسوارات",
+            "en": "Because he doesn't like accessories",
+            "correct": false
+          },
+          {
+            "ar": "لأن المسلم يؤمن أن النفع والضرر بيد الله وحده، فيجتهد ثم يتوكَّل عليه",
+            "en": "Because a Muslim believes benefit and harm are in God's hands alone, so he works hard and relies on Him",
+            "correct": true
+          },
+          {
+            "ar": "لأنه لا يريد الترقية",
+            "en": "Because he doesn't want the promotion",
+            "correct": false
+          }
+        ]
+      }
+    },
+    {
+      "ruling_id": "work.hijab",
+      "hotspot": "hr_desk",
+      "npc": {
+        "id": "maryam",
+        "name": {
+          "ar": "مَرْيَم",
+          "en": "Maryam"
+        },
+        "role": {
+          "ar": "زميلة مسلمة في الموارد البشرية",
+          "en": "Muslim colleague in HR"
+        }
+      },
+      "setup": {
+        "ar": "في مكتب الموارد البشرية الزجاجي، اليوم يوم تصوير الفريق لموقع الشركة. على مكتب مَرْيَم وشاحٌ مطويّ بلونٍ فيروزي، والمصوِّر خرج للتو.",
+        "en": "In the glass HR office, it's team photo day for the company website. A folded turquoise headscarf sits on Maryam's desk, and the photographer has just stepped out."
+      },
+      "dialogue": [
+        {
+          "speaker": "maryam",
+          "ar": "اقترح المصوِّر بلطف أن أخلع الحِجَاب في الصورة، ليبدو المظهر أحدث. شكرته، وقلت: لا.",
+          "en": "The photographer kindly suggested I take off my hijab for the photo, for a more modern look. I thanked him and said no."
+        },
+        {
+          "speaker": "adam",
+          "ar": "حقاً؟ إنها مجرد صورة. ألا يزعجكِ أن تظهري مختلفة عن الباقين؟",
+          "en": "Really? It's just a photo. Doesn't it bother you to look different from everyone else?"
+        },
+        {
+          "speaker": "maryam",
+          "ar": "بالعكس، أنا فخورة به. الحِجَاب عبادةٌ أؤدّيها لله، والمذاهب الأربعة على وجوبه على المرأة المسلمة البالغة.",
+          "en": "Quite the opposite, I'm proud of it. Hijab is an act of worship I do for God, and all four schools of law hold it's required for adult Muslim women."
+        },
+        {
+          "speaker": "maryam",
+          "ar": "وهو يقول للناس: احكموا على عقلي وعملي، لا على جسدي. لذلك أحضرتُ اليوم وشاحاً جديداً للصورة.",
+          "en": "And it tells people: judge my mind and my work, not my body. That's why I brought a new scarf for the photo today."
+        },
+        {
+          "speaker": "narrator",
+          "ar": "تبتسم مَرْيَم، وتنتظر ما سيقوله آدم.",
+          "en": "Maryam smiles and waits for Adam's reply."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": {
+            "ar": "«أحترم قراركِ. هل تخبرينني ماذا يعني لكِ الحِجَاب؟ وأنا معكِ إن تكرَّر الطلب.»",
+            "en": "'I respect that. Would you tell me what hijab means to you? And I've got your back if it comes up again.'"
+          },
+          "quality": "best",
+          "consequence": {
+            "ar": "أشرق وجه مَرْيَم: الحِجَاب يحرِّرها من أن تُقاس بجسدها، ويجعل الحديث معها عن أفكارها. وخرجت صورة الفريق جميلة: زملاء مختلفون يحترم بعضهم بعضاً.",
+            "en": "Maryam lit up: hijab frees her from being measured by her body and keeps the focus on her ideas. The team photo came out great: different colleagues, respecting each other."
+          },
+          "points": 10
+        },
+        {
+          "id": "b",
+          "label": {
+            "ar": "«هذا شأنكِ، افعلي ما يريحكِ.»",
+            "en": "'Your call, do whatever feels right.'"
+          },
+          "quality": "acceptable",
+          "consequence": {
+            "ar": "شكرته مَرْيَم بلطف. كان ردُّه محترماً، لكنه ظنَّ الحِجَاب ذوقاً شخصياً، وفاته أنه عبادةٌ وكرامةٌ تعتزُّ بهما.",
+            "en": "Maryam thanked him warmly. His reply was respectful, but he took hijab for a style choice and missed that it's worship and dignity she holds dear."
+          },
+          "points": 5
+        },
+        {
+          "id": "c",
+          "label": {
+            "ar": "«ألا يجبركِ أحدٌ عليه؟ اخلعيه للصورة فقط، لن يراكِ أحد من أهلكِ.»",
+            "en": "'Isn't someone making you wear it? Take it off just for the photo, no one from your family will see.'"
+          },
+          "quality": "wrong",
+          "consequence": {
+            "ar": "هزَّت مَرْيَم رأسها بهدوء: لا أحد يجبرني، أنا أرتديه لله. افتراض أنها مُكرَهة يتجاهل اختيارها، ويطلب منها أن تتخلّى عن جزءٍ من نفسها.",
+            "en": "Maryam shook her head calmly: nobody makes me, I wear it for God. Assuming she's forced ignores her choice, and asks her to give up part of herself."
+          },
+          "points": 0
+        }
+      ],
+      "check_question": {
+        "q": {
+          "ar": "لماذا تتمسَّك مَرْيَم بحِجَابها في العمل؟",
+          "en": "Why does Maryam keep her hijab on at work?"
+        },
+        "options": [
+          {
+            "ar": "لأن قواعد الشركة تفرضه",
+            "en": "Because company rules require it",
+            "correct": false
+          },
+          {
+            "ar": "لأنه عبادةٌ واجبة عند الفقهاء، ويطلب من الناس احترام عقلها وشخصها لا مظهرها",
+            "en": "Because jurists hold it's a required act of worship, and it asks people to respect her mind and person, not her looks",
+            "correct": true
+          },
+          {
+            "ar": "لأنها لا تهتم بمظهرها في الصور",
+            "en": "Because she doesn't care how she looks in photos",
+            "correct": false
+          }
+        ]
+      }
+    }
+  ],
+  "outro": {
+    "ar": "الخامسة مساءً. يُطفئ آدم شاشته. سمير يلوِّح من المصعد: جرت المقابلة على خير، والحمد لله. ومَرْيَم تقول: بالتوفيق في محاضرتك! أمامه ساعةٌ ليصل.",
+    "en": "Five o'clock. Adam shuts down his monitors. Samir waves from the elevator: the interview went well, praise be to God. Maryam adds: good luck in class! An hour to get there."
+  },
+  "next_location": "school"
+}

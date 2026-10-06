@@ -1,0 +1,149 @@
+[
+  {
+    "id": "school.pork",
+    "location": "school",
+    "title": {
+      "ar": "أكل لحم الخنزير ومشتقاته",
+      "en": "Eating Pork and Its Derivatives"
+    },
+    "question": {
+      "ar": "ما حكم أكل لحم الخنزير إذا قُدِّم للمسلم مجاناً أو مجاملةً من زملائه؟ وما حكم مشتقاته المصنّعة كالجيلاتين؟",
+      "en": "What is the ruling on eating pork when classmates offer it to a Muslim for free or out of courtesy? And what about processed derivatives such as gelatin?"
+    },
+    "verdict": "haram",
+    "content_level": "B",
+    "verdict_scope": {
+      "ar": "التحريم هنا للحم الخنزير وشحمه وسائر أجزائه، وهو قول المذاهب الأربعة. أما مشتقاته المصنّعة كالجيلاتين ففيها خلاف مبنيّ على الاستحالة، نعرضه منسوباً إلى أصحابه ولا نرجّح بينها.",
+      "en": "The prohibition covers pork meat, fat and every part of the pig; this is the position of all four schools. Processed derivatives such as gelatin are disputed, depending on whether transformation (istihala) occurs; each view is attributed below without choosing between them."
+    },
+    "summary": {
+      "ar": "أكل لحم الخنزير محرّم بنص القرآن، ويشمل التحريم شحمه وسائر أجزائه عند المذاهب الأربعة، ولو قُدِّم مجاناً أو مجاملةً. ويُستثنى المضطرّ الذي لا يجد غيره ويخشى على نفسه، كما في الآية نفسها. أما المشتقات المصنّعة كالجيلاتين ففيها خلاف مبنيّ على الاستحالة، والأحوط اجتنابها.",
+      "en": "Eating pork is prohibited by the text of the Quran, and in all four schools the prohibition covers its fat and every part of the pig, even when it is offered free or out of courtesy. The exception is a person in genuine necessity who finds nothing else and fears for himself, as the same verse states. Processed derivatives such as gelatin are disputed, depending on whether transformation (istihala) occurs, and avoiding them is the safer course."
+    },
+    "quran": [
+      {
+        "surah": 5,
+        "surah_name_ar": "المائدة",
+        "ayah": "3",
+        "text_ar": "حُرِّمَتۡ عَلَيۡكُمُ ٱلۡمَيۡتَةُ وَٱلدَّمُ وَلَحۡمُ ٱلۡخِنزِيرِ وَمَآ أُهِلَّ لِغَيۡرِ ٱللَّهِ بِهِۦ وَٱلۡمُنۡخَنِقَةُ وَٱلۡمَوۡقُوذَةُ وَٱلۡمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ وَمَآ أَكَلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيۡتُمۡ وَمَا ذُبِحَ عَلَى ٱلنُّصُبِ وَأَن تَسۡتَقۡسِمُواْ بِٱلۡأَزۡلَٰمِۚ ذَٰلِكُمۡ فِسۡقٌۗ ٱلۡيَوۡمَ يَئِسَ ٱلَّذِينَ كَفَرُواْ مِن دِينِكُمۡ فَلَا تَخۡشَوۡهُمۡ وَٱخۡشَوۡنِۚ ٱلۡيَوۡمَ أَكۡمَلۡتُ لَكُمۡ دِينَكُمۡ وَأَتۡمَمۡتُ عَلَيۡكُمۡ نِعۡمَتِي وَرَضِيتُ لَكُمُ ٱلۡإِسۡلَٰمَ دِينٗاۚ فَمَنِ ٱضۡطُرَّ فِي مَخۡمَصَةٍ غَيۡرَ مُتَجَانِفٖ لِّإِثۡمٖ فَإِنَّ ٱللَّهَ غَفُورٞ رَّحِيمٞ",
+        "translation_en": "Prohibited to you are dead animals, blood, the flesh of swine, and that which has been dedicated to other than Allāh, and [those animals] killed by strangling or by a violent blow or by a head-long fall or by the goring of horns, and those from which a wild animal has eaten, except what you [are able to] slaughter [before its death], and those which are sacrificed on stone altars, and [prohibited is] that you seek decision through divining arrows. That is grave disobedience. This day those who disbelieve have despaired of [defeating] your religion; so fear them not, but fear Me. This day I have perfected for you your religion and completed My favor upon you and have approved for you Islām as religion. But whoever is forced by severe hunger with no inclination to sin - then indeed, Allāh is Forgiving and Merciful.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/5#3"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "إِنَّ اللَّهَ وَرَسُولَهُ حَرَّمَ بَيْعَ الْخَمْرِ وَالْمَيْتَةِ وَالْخِنْزِيرِ وَالأَصْنَامِ",
+        "translation_en": "Narrated Jabir bin Abdullah: I heard Allah's Messenger (ﷺ), in the year of the Conquest of Mecca, saying, \"Allah and His Apostle made illegal the trade of alcohol, dead animals, pigs and idols.\"",
+        "collection": "صحيح البخاري",
+        "number": "2236",
+        "narrator": "جابر بن عبد الله",
+        "grade": "صحيح",
+        "grader": "أخرجه البخاري في صحيحه (ومسلم 1581)",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/4556",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/4556",
+        "sunnah_url": "https://sunnah.com/bukhari:2236",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "الْحَلاَلُ بَيِّنٌ وَالْحَرَامُ بَيِّنٌ، وَبَيْنَهُمَا مُشَبَّهَاتٌ لاَ يَعْلَمُهَا كَثِيرٌ مِنَ النَّاسِ، فَمَنِ اتَّقَى الْمُشَبَّهَاتِ اسْتَبْرَأَ لِدِيِنِهِ وَعِرْضِهِ، وَمَنْ وَقَعَ فِي الشُّبُهَاتِ كَرَاعٍ يَرْعَى حَوْلَ الْحِمَى، يُوشِكُ أَنْ يُوَاقِعَهُ",
+        "translation_en": "Narrated An-Nu'man bin Bashir: I heard Allah's Messenger (ﷺ) saying, \"Both legal and illegal things are evident but in between them there are doubtful (suspicious) things and most of the people have no knowledge about them. So whoever saves himself from these suspicious things saves his religion and his honor. And whoever indulges in these suspicious things is like a shepherd who grazes (his animals) near the Hima (private pasture) of someone else and at any moment he is liable to get in it...\"",
+        "collection": "صحيح البخاري",
+        "number": "52",
+        "narrator": "النعمان بن بشير",
+        "grade": "صحيح",
+        "grader": "أخرجه البخاري في صحيحه (ومسلم 1599)",
+        "source_url": "https://dorar.net/h/wrjvh9Lg",
+        "dorar_url": "https://dorar.net/h/wrjvh9Lg",
+        "dorar_ref": "المحدث: البخاري | المصدر: صحيح البخاري | الرقم: 52 | خلاصة حكم المحدث: [صحيح]",
+        "sunnah_url": "https://sunnah.com/bukhari:52",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "لحم الخنزير وسائر أجزائه محرّم نجس. والنجاسة تطهر عندهم بالاستحالة (كالخنزير إذا صار ملحاً)، فإن تحوّلت مادة المشتقّ إلى مادة أخرى تحوّلاً تاماً تغيّر حكمها.",
+        "position_en": "Pork and every part of the pig are prohibited and impure. In this school impurity is purified by transformation (e.g., a pig turned into salt), so if a derivative is fully transformed into a different substance, its ruling changes.",
+        "reference": "في الاستحالة: الموسوعة الفقهية (الدرر السنية) https://dorar.net/feqhia/189"
+      },
+      "maliki": {
+        "position_ar": "لحم الخنزير وسائر أجزائه محرّم الأكل. والنجاسة تطهر بالاستحالة عند المالكية، فيتغيّر حكم المشتقّ إذا تحوّل تحوّلاً تاماً.",
+        "position_en": "Eating pork or any part of the pig is prohibited. Malikis hold that impurity is purified by transformation, so a fully transformed derivative takes a different ruling.",
+        "reference": "الموسوعة الفقهية (الدرر السنية)، الاستحالة"
+      },
+      "shafii": {
+        "position_ar": "لحم الخنزير وسائر أجزائه محرّم نجس. ولا تطهر النجاسة بالاستحالة إلا في صور محدودة كتخلل الخمر بنفسها، فمشتقات الخنزير تبقى على التحريم.",
+        "position_en": "Pork and every part of the pig are prohibited and impure. Impurity is not purified by transformation except in limited cases such as wine turning to vinegar by itself, so pig derivatives remain prohibited.",
+        "reference": "الموسوعة الفقهية (الدرر السنية)، الاستحالة"
+      },
+      "hanbali": {
+        "position_ar": "لحم الخنزير وسائر أجزائه محرّم نجس. والمعتمد أن النجاسة لا تطهر بالاستحالة إلا الخمر إذا تخللت بنفسها، فمشتقات الخنزير تبقى على التحريم.",
+        "position_en": "Pork and every part of the pig are prohibited and impure. The relied-upon view is that impurity is not purified by transformation except wine turning to vinegar by itself, so pig derivatives remain prohibited.",
+        "reference": "الموسوعة الفقهية (الدرر السنية)، الاستحالة"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "مجلس الإفتاء الأردني",
+        "decision_ref": "القرار 128 (6/2009)، بتاريخ 23/7/2009",
+        "position_ar": "الجيلاتين المستخرج من الخنزير أو من الحيوانات النجسة نجس، ولا يجوز استعماله في الدواء والمكملات إلا لضرورة مع فقد البديل.",
+        "position_en": "Gelatin extracted from pork or impure animals is impure and may not be used in medicine or supplements except in necessity when no alternative exists.",
+        "source_url": "https://www.aliftaa.jo/decision-en/314/Resolution-No128-Gelatin-Extracted-from-Pork-Bone-or-Skin-or-from-Impure-Substances-is-Impure"
+      },
+      {
+        "body": "مجمع فقهاء الشريعة بأمريكا (AMJA)",
+        "decision_ref": "قرارات وتوصيات المؤتمر السنوي التاسع لمجمع فقهاء الشريعة بأمريكا: الأطعمة والأدوية المباحة والمحرمة في غير بلاد المسلمين (اسم ملف الموقع «13th»)",
+        "position_ar": "لا يجوز الجيلاتين من مصدر محرّم إلا إن استُهلك تماماً أو استحال.",
+        "position_en": "Gelatin from forbidden sources is not allowed unless fully absorbed or transformed.",
+        "source_url": "https://www.amjaonline.org/wp-content/uploads/2019/04/AMJA-13th-Annual-Conference-Final-Decisions-Food-and-Medicine-In-The-West-En.pdf"
+      },
+      {
+        "body": "مجمع الفقه الإسلامي الدولي (تبنياً لتوصية المنظمة الإسلامية للعلوم الطبية 1995)",
+        "decision_ref": "القرار 210 (6/22)، الدورة الثانية والعشرون، الكويت، مارس 2015",
+        "position_ar": "أرجأ المجمع البتّ في مسألة الجيلاتين لمزيد من الدراسة.",
+        "position_en": "The Academy deferred the gelatin question for further study.",
+        "source_url": "https://iifa-aifi.org/en/33099.html"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "إذا عُرض عليك طعام فيه خنزير فاشكر صاحبه، واعتذر بلطف وبجملة قصيرة: لا آكل لحم الخنزير لسبب ديني.",
+        "اقرأ المكوّنات: لحم الخنزير يظهر بأسماء كثيرة، مثل لحم الخنزير المدخّن والمقدد والببروني وشحم الخنزير.",
+        "انتبه للجيلاتين في الحلوى والزبادي والكبسولات، وابحث عن بديل نباتي أو حلال معتمد.",
+        "في المقصف أو المطعم اسأل عن الخيار النباتي أو الحلال، وعن استعمال الأدوات نفسها للخنزير.",
+        "زملاؤك غالباً لا يعرفون؛ الشرح الهادئ يجعلهم يتذكّرونك في المرة القادمة."
+      ],
+      "en": [
+        "If you are offered food containing pork, thank the person and decline kindly in one short sentence: I don't eat pork for religious reasons.",
+        "Read ingredient labels: pork appears under many names, such as ham, bacon, pepperoni, prosciutto and lard.",
+        "Watch for gelatin in sweets, yogurt and capsules, and look for a plant-based or certified halal alternative.",
+        "In a cafeteria or restaurant, ask for the vegetarian or halal option, and whether the same utensils are used for pork.",
+        "Classmates usually just don't know; a calm explanation means they will remember you next time."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "شطائر الخضار أو الفلافل أو التونة",
+        "اللحوم المذبوحة ذبحاً شرعياً من مصدر موثوق",
+        "حلوى بجيلاتين نباتي أو بقري حلال معتمد",
+        "إحضار وجبتك معك ومشاركتها مع زملائك"
+      ],
+      "en": [
+        "Vegetable, falafel or tuna sandwiches",
+        "Meat slaughtered according to Islamic rules from a trusted source",
+        "Sweets made with plant-based or certified halal beef gelatin",
+        "Bringing your own meal and sharing it with classmates"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "إذا احتجت دواءً أو مكمّلاً فيه جيلاتين خنزيري ولا بديل له، أو التبس عليك مكوّن مصنّع لا تعرف أصله، أو كنت في حالة اضطرار حقيقية.",
+      "en": "If you need a medicine or supplement containing pork gelatin with no alternative, are unsure about a processed ingredient of unknown origin, or face a genuine necessity."
+    },
+    "confidence": "high",
+    "review_status": "ai_draft",
+    "notes_for_reviewer": "مسودة مكيَّفة (2026-10-06) من الحكمين المراجَعين home.food_ingredients وwork.alcohol_pork_job لموقف مدرسي: زملاء يعرضون شطيرة خنزير. 1) نُسخت المصادر حرفياً دون إضافة: آية المائدة 3 (من home.food_ingredients)، وحديث البخاري 2236 (من work.alcohol_pork_job)، وحديث البخاري 52 (من home.food_ingredients)، والجهات المعاصرة (مجلس الإفتاء الأردني 128، قرارات AMJA، مجمع الفقه الدولي 210) بنفس decision_ref وsource_url، مع اختصار نص الموقف على ما يخص الخنزير والجيلاتين. 2) مراجع المذاهب تخص مسألة الاستحالة فقط (منقولة من home.food_ingredients)؛ أصل تحريم الخنزير مستنده النص القرآني في مصفوفة quran. 3) لم نضع consensus_sources لعدم وجود مصدر إجماع موثَّق في المحتوى، فتجنّبنا لفظ الإجماع في النصوص الظاهرة للاعب واكتفينا بـ«المذاهب الأربعة»؛ يُستحسن إضافة مصدر إجماع موثق (مثل الموسوعة الفقهية في الدرر). 4) لم ننقل موقف AMJA في مجالسة من يُقدَّم عندهم الخنزير (المذكور في work.alcohol_pork_job) لأن المشهد زملاء يأكلون طعامهم في مكان عام؛ يُرجى تقدير الحاجة لذكره. 5) نجاسة الخنزير عند المالكية حال الحياة محل نظر، فلم نصفه بالنجاسة في موقفهم. 6) عبارة «الجسد أمانة» في القصة تعبير تربوي عام، لا نص منقول.",
+    "newcomer_explainer": {
+      "ar": "يمتنع المسلم عن لحم الخنزير لأن القرآن حرّمه صراحة. ولا يشترط أن يعرف كل الحكمة ليطيع؛ فالجسد أمانة عنده، وترك الشيء المتاح الشهيّ طاعةً لله هو معنى الإسلام: الاستسلام لله. ويُستثنى من اضطر إليه خوفاً على حياته ولم يجد غيره.",
+      "en": "A Muslim avoids pork because the Quran explicitly prohibits it. He does not need to know every reason in order to obey: the body is a trust, and leaving something available and tempting for God's sake is what Islam means, submission to God. The exception is someone forced by necessity who fears for his life and finds nothing else."
+    }
+  }
+]

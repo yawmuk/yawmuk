@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>يومك · Yawmuk</title>
+  <meta name="description" content="يومك: لعبة ثلاثية الأبعاد تعرّفك بالإسلام من مواقف الحياة اليومية. تتجوّل في حيّ واحد، وتتحدث مع الناس صوتاً أو كتابةً، وكل جواب ديني من مصدر معتمد أو يُحال إلى أهل العلم." />
+  <meta name="theme-color" content="#FCF8EF" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0A1D1F" media="(prefers-color-scheme: dark)" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="يومك · Yawmuk" />
+  <meta property="og:title" content="يومك · يومٌ واحد يعرّفك بالإسلام كما يُعاش" />
+  <meta property="og:description" content="لعبة ثلاثية الأبعاد: البيت والكلية والعمل والسوق والبنك والمسجد في حيّ واحد، مع مرشد يجيب من مصادر موثّقة." />
+  <meta property="og:image" content="/brand/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/brand/logo/yawmuk-app-icon-180.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Reem+Kufi:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/landing/landing.css" />
+  <script>
+    // theme + language before first paint (per-viewer conveniences only)
+    try {
+      var t = localStorage.getItem('yawmuk.landing.theme');
+      if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      var q = new URLSearchParams(location.search).get('lang');
+      var l = q || localStorage.getItem('yawmuk.landing.lang');
+      if (l === 'en') { document.documentElement.lang = 'en'; document.documentElement.dir = 'ltr'; }
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">تخطَّ إلى المحتوى</a>
+
+  <header class="site-header">
+    <nav class="pill-nav" aria-label="الرئيسية" data-i18n-aria="navLabel">
+      <a class="brand" href="#top" aria-label="يومك · Yawmuk">
+        <img class="logo logo-ar logo-on-light" src="/brand/logo/yawmuk-ar-light.svg" alt="" width="132" height="40" />
+        <img class="logo logo-ar logo-on-dark" src="/brand/logo/yawmuk-ar-dark.svg" alt="" width="132" height="40" />
+        <img class="logo logo-en logo-on-light" src="/brand/logo/yawmuk-en-light.svg" alt="" width="150" height="40" />
+        <img class="logo logo-en logo-on-dark" src="/brand/logo/yawmuk-en-dark.svg" alt="" width="150" height="40" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#day" data-i18n="navDay">الحيّ</a></li>
+        <li><a href="#inside" data-i18n="navInside">ماذا تجد</a></li>
+        <li><a href="#trust" data-i18n="navTrust">الموثوقية</a></li>
+        <li><a href="#ask" data-i18n="navAsk">اسأل أهل العلم</a></li>
+        <li><a href="#verify" data-i18n="navVerify">للمحكّمين</a></li>
+      </ul>
+      <div class="nav-tools">
+        <a class="prayer-chip" href="#inside" id="prayer-chip" aria-live="polite">
+          <span class="dot" aria-hidden="true"></span>
+          <span id="prayer-chip-text" data-i18n="chipFallback">مواقيت الصلاة</span>
+        </a>
+        <button class="icon-btn" type="button" id="theme-toggle" aria-label="تبديل المظهر" data-i18n-aria="themeLabel">
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.7 4.7l1.6 1.6M17.7 17.7l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.7 19.3l1.6-1.6M17.7 6.3l1.6-1.6"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+        </button>
+        <button class="text-btn" type="button" id="lang-toggle" lang="en" data-i18n="langSwitch">English</button>
+        <a class="btn btn-primary btn-sm" href="/" data-play data-i18n="ctaPlayShort">ابدأ يومك</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="landing">
+    <!-- ───────── hero ───────── -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow reveal" data-i18n="eyebrow">تحدّي الذكاء الاصطناعي في خدمة المحتوى الإسلامي · فريق ليموندا</p>
+        <h1 id="hero-title" class="hero-title">
+          <span class="hero-line"><span data-i18n="heroL1">يومٌ واحد في الحيّ..</span></span>
+          <span class="hero-line"><span data-i18n="heroL2">يعرّفك بالإسلام كما يُعاش</span></span>
+        </h1>
+        <p class="hero-sub reveal" data-i18n="heroSub">لعبة ثلاثية الأبعاد في المتصفح: تخرج من البيت إلى الكلية والعمل والسوق والبنك والمسجد، وتحاور الناس بصوتك أو كتابةً. وكل جواب ديني تقرؤه منقولٌ من مصدر معتمد، أو يُحال إلى أهل العلم.</p>
+        <div class="hero-ctas reveal">
+          <a class="btn btn-primary" href="/" data-play data-i18n="ctaPlay">ابدأ يومك</a>
+          <a class="btn btn-ghost" href="#how" data-i18n="ctaHow">شوف كيف يعمل</a>
+        </div>
+        <a class="hero-tertiary reveal" href="#ask"><span data-i18n="ctaAsk">أو أرسل سؤالك إلى لوحة المراجعين الشرعيين</span> <span class="arrow" aria-hidden="true">←</span></a>
+      </div>
+
+      <div class="hero-stage" aria-hidden="true">
+        <div class="hero-glow"></div>
+        <div class="hero-ring">
+          <!-- the sun's path: sunrise on the east (right) horizon, dhuhr at the zenith, maghrib on the west horizon;
+               fajr and isha sit just below the horizon. The next prayer lights up. -->
+          <span class="arc-point" data-prayer="fajr" style="--a:-14deg"><i></i><b data-i18n="pFajr">الفجر</b></span>
+          <span class="arc-point" data-prayer="dhuhr" style="--a:90deg"><i></i><b data-i18n="pDhuhr">الظهر</b></span>
+          <span class="arc-point" data-prayer="asr" style="--a:128deg"><i></i><b data-i18n="pAsr">العصر</b></span>
+          <span class="arc-point" data-prayer="maghrib" style="--a:180deg"><i></i><b data-i18n="pMaghrib">المغرب</b></span>
+          <span class="arc-point" data-prayer="isha" style="--a:194deg"><i></i><b data-i18n="pIsha">العشاء</b></span>
+        </div>
+
+        <div class="device">
+          <div class="device-screen">
+            <img class="device-media" src="/brand/imagery/keyart-town-golden-hour.jpg" alt="" width="1600" height="900" />
+            <span class="device-tag tag-left"><span class="live-dot"></span><span data-i18n="devTagGuide">المرشد</span></span>
+            <span class="device-tag tag-right"><span data-i18n="devTagScene">مكتب العمل</span></span>
+            <div class="device-card">
+              <p class="bubble bubble-user" data-i18n="devQ">سمير قال «إن شاء الله» عن موعد التسليم. هل يعني «غالباً لا»؟</p>
+              <p class="bubble bubble-guide" data-i18n="devA">أبداً. «إن شاء الله» تعني «إذا شاء الله». … هي تعبير عن التواضع لا عن الشك.</p>
+              <p class="cite"><span class="cite-mark"></span><span data-i18n="devCite">الكهف 18:23-24 · مقطع مراجَع</span></p>
+              <div class="talk-bar">
+                <svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21"/></svg>
+                <span data-i18n="devTalk">تحدّث مع المرشد</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="float f-places">
+          <img src="/brand/landing/icon-lantern.webp" alt="" width="84" height="84" />
+          <div><strong data-i18n="fPlacesN">8 أماكن</strong><span data-i18n="fPlaces">في حيّ واحد تمشي بينها</span></div>
+        </div>
+        <div class="float f-quote">
+          <span class="avatar" data-i18n="fQuoteAv">ق</span>
+          <div><small data-i18n="fQuoteWho">قاعة المناسبات · بطاقة حكم</small><p data-i18n="fQuote">شرب الخمر: نخب الحفل وحفظ العقل</p></div>
+        </div>
+        <figure class="float f-mosque">
+          <img src="/brand/imagery/keyart-mosque-courtyard.jpg" alt="" width="1600" height="900" />
+          <figcaption data-i18n="fMosque">المسجد · تلاوة وترجمة معانٍ</figcaption>
+        </figure>
+        <div class="float f-voice">
+          <svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21"/></svg>
+          <span data-i18n="fVoice">بالصوت أو بالكتابة</span>
+        </div>
+        <div class="float f-sources">
+          <small data-i18n="fSourcesLbl">مرجعاً بإحالته في قاعدة المصادر</small>
+          <strong><span data-count="sources">273</span></strong>
+          <span class="bars"><i></i><i></i><i></i><i></i></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── sources strip ───────── -->
+    <section class="sources-strip" aria-labelledby="sources-title">
+      <h2 id="sources-title" data-i18n="sourcesTitle">كل نصٍّ ديني منقولٌ حرفياً من مصدره، مع إحالته</h2>
+      <ul class="sources-list">
+        <li data-i18n="src1">مصحف المدينة النبوية · مجمع الملك فهد</li>
+        <li data-i18n="src2">موسوعة القرآن الكريم المترجمة · QuranEnc</li>
+        <li data-i18n="src3">الدرر السنية</li>
+        <li data-i18n="src4">موسوعة الأحاديث النبوية · HadeethEnc</li>
+        <li data-i18n="src5">مجمع الفقه الإسلامي الدولي</li>
+        <li data-i18n="src6">مجمع فقهاء الشريعة بأمريكا · AMJA</li>
+      </ul>
+    </section>
+
+    <!-- ───────── how it works ───────── -->
+    <section class="section how" id="how" aria-labelledby="how-title">
+      <p class="eyebrow" data-i18n="howEyebrow">كيف يعمل</p>
+      <h2 id="how-title" class="section-title" data-i18n="howTitle">تعيش الموقف أولاً، ثم تسأل</h2>
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="step-n">1</span>
+          <h3 data-i18n="how1T">تمشي في الحيّ</h3>
+          <p data-i18n="how1">تخرج من بيت آدم، وتختار وجهتك: الكلية، أو المكتب، أو السوق، أو البنك، أو المسجد. كل باب يفتح موقفاً حقيقياً من يوم المسلم.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step-n">2</span>
+          <h3 data-i18n="how2T">تحاور الناس</h3>
+          <p data-i18n="how2">زميلة بحجابها في العمل، وجارٌ يتقدّم للخطبة، ونخبٌ في حفلة. تختار ما تفعله، أو تسأل بصوتك، ثم ترى أثر اختيارك.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step-n">3</span>
+          <h3 data-i18n="how3T">تقرأ الجواب الموثّق</h3>
+          <p data-i18n="how3">بطاقة الحكم تعرض النص الأصلي والمصدر والمذاهب. وما لا تجد له المصادر جواباً، يمتنع المرشد عنه ويحيله إلى أهل العلم.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ───────── the neighbourhood ───────── -->
+    <section class="section day" id="day" aria-labelledby="day-title">
+      <p class="eyebrow" data-i18n="dayEyebrow">بيئة واحدة متكاملة</p>
+      <h2 id="day-title" class="section-title" data-i18n="dayTitle">حيٌّ واحد، تمشي فيه من بابٍ إلى باب</h2>
+      <p class="section-sub" data-i18n="daySub">سبعة مواقف في ثمانية أماكن على شارعين، وفي الساحة أربع محطات: مكتب الإرشاد، واسأل أهل العلم، ومواقيت الصلاة، والأذكار.</p>
+      <div class="day-grid">
+        <figure class="day-hero reveal">
+          <img src="/brand/imagery/keyart-town-golden-hour.jpg" alt="رسم توضيحي لحيّ سكني وقت الغروب" data-i18n-alt="dayImgAlt" loading="lazy" width="1600" height="900" />
+        </figure>
+        <ul class="places">
+          <li><b data-i18n="pl1">بيت آدم</b><span data-i18n="pl1d">الطهارة والمسجد: الوضوء وخلع الحذاء</span></li>
+          <li><b data-i18n="pl2">الكلية</b><span data-i18n="pl2d">الامتناع عن أكل الخنزير طاعةً لله</span></li>
+          <li><b data-i18n="pl3">مكتب العمل</b><span data-i18n="pl3d">رفض تميمة الحظ، والحجاب في العمل</span></li>
+          <li><b data-i18n="pl4">سوق الحيّ</b><span data-i18n="pl4d">القمار واليانصيب وحفظ المجتمع</span></li>
+          <li><b data-i18n="pl5">البنك الإسلامي</b><span data-i18n="pl5d">المرابحة والإجارة والتكافل والصكوك، وحاسبة الزكاة</span></li>
+          <li><b data-i18n="pl6">المسجد</b><span data-i18n="pl6d">الإمام، والمصحف المرتّل، وترجمة المعاني</span></li>
+          <li><b data-i18n="pl7">قاعة المناسبات</b><span data-i18n="pl7d">نخب الحفل وشرب الخمر</span></li>
+          <li><b data-i18n="pl8">بيت الجيران</b><span data-i18n="pl8d">الخطبة والولي والمهر</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ───────── inside ───────── -->
+    <section class="section inside" id="inside" aria-labelledby="inside-title">
+      <p class="eyebrow" data-i18n="insideEyebrow">ماذا تجد داخل الحيّ</p>
+      <h2 id="inside-title" class="section-title" data-i18n="insideTitle">يوم المسلم كاملاً، من الأذان إلى الأذكار</h2>
+      <div class="features">
+        <article class="feature reveal">
+          <img src="/brand/landing/icon-mic.webp" alt="" width="96" height="96" loading="lazy" />
+          <h3 data-i18n="ft1T">حوار بالصوت والكتابة</h3>
+          <p data-i18n="ft1">تختار ردّك على شخصيات الحيّ بصوتك، وتسأل المرشد صوتاً أو كتابةً. والمرشد مقيّد بالنصوص المراجَعة، ويرفض الخروج عن السياق.</p>
+        </article>
+        <article class="feature reveal">
+          <img src="/brand/landing/icon-clock.webp" alt="" width="96" height="96" loading="lazy" />
+          <h3 data-i18n="ft2T">مواقيت الصلاة والأذان</h3>
+          <p data-i18n="ft2">تُحسب المواقيت فلكياً على جهازك بمكتبة adhan-js مفتوحة المصدر، ويُرفع الأذان عند دخول الوقت.</p>
+          <p class="live-times" id="live-times" aria-live="polite"></p>
+        </article>
+        <article class="feature reveal">
+          <img src="/brand/landing/icon-lantern.webp" alt="" width="96" height="96" loading="lazy" />
+          <h3 data-i18n="ft3T">المصحف المرتّل وترجمة المعاني</h3>
+          <p data-i18n="ft3">في المسجد تستمع إلى 114 سورة آيةً آية، مع ترجمة المعاني من موسوعة QuranEnc المعتمدة من مجمع الملك فهد.</p>
+        </article>
+        <article class="feature reveal">
+          <img src="/brand/landing/icon-tasbih.webp" alt="" width="96" height="96" loading="lazy" />
+          <h3 data-i18n="ft4T">أذكار الصباح والمساء</h3>
+          <p data-i18n="ft4">27 ذكراً للصباح والمساء واليوم، بمصادرها وعدد تكرارها، مع عدّاد يحسب لك.</p>
+        </article>
+        <article class="feature reveal">
+          <img src="/brand/landing/icon-bank.webp" alt="" width="96" height="96" loading="lazy" />
+          <h3 data-i18n="ft5T">البنك الإسلامي</h3>
+          <p data-i18n="ft5">تسع بطاقات تشرح الربا والبيع والمرابحة والإجارة والمشاركة والتكافل والصكوك، وحاسبة للزكاة.</p>
+        </article>
+        <article class="feature reveal">
+          <img src="/brand/landing/icon-prayer.webp" alt="" width="96" height="96" loading="lazy" />
+          <h3 data-i18n="ft6T">اسأل أهل العلم</h3>
+          <p data-i18n="ft6">سؤالك الذي لا تجيب عنه المصادر يصل إلى لوحة مراجعين شرعيين، وتجد الجواب برمز تذكرة دون أي حساب.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ───────── trust ───────── -->
+    <section class="section trust" id="trust" aria-labelledby="trust-title">
+      <div class="trust-head">
+        <p class="eyebrow" data-i18n="trustEyebrow">الموثوقية والسلامة العلمية</p>
+        <h2 id="trust-title" class="section-title" data-i18n="trustTitle">الذكاء الاصطناعي يصوغ، ولا يُفتي</h2>
+        <p class="section-sub" data-i18n="trustSub">النموذج لا يرى إلا مقاطع مراجَعة يختارها النظام، والخادم يتحقق من كل جواب قبل أن يصلك.</p>
+      </div>
+      <ol class="pipeline">
+        <li class="reveal"><span class="pn">1</span><h3 data-i18n="tr1T">فرز السؤال قبل النموذج</h3><p data-i18n="tr1">الفتوى الشخصية ومحاولات التلاعب بالتعليمات تُحال مباشرة، ولا تصل إلى النموذج أصلاً.</p></li>
+        <li class="reveal"><span class="pn">2</span><h3 data-i18n="tr2T">استرجاع من نصوص مراجَعة فقط</h3><p data-i18n="tr2">يبحث النظام في المقاطع الموثّقة وبطاقات الأحكام، فإن لم يجد شيئاً فلا جواب.</p></li>
+        <li class="reveal"><span class="pn">3</span><h3 data-i18n="tr3T">صياغة مع استشهاد إلزامي</h3><p data-i18n="tr3">يجيب النموذج من المقاطع التي أُعطيها فقط، ويذكر معرّف كل مقطع استند إليه.</p></li>
+        <li class="reveal"><span class="pn">4</span><h3 data-i18n="tr4T">تحقّق الخادم</h3><p data-i18n="tr4">يُرفض الجواب إذا استشهد بمقطع لم يُعطَه، أو أورد نص آية أو حديث من عنده.</p></li>
+        <li class="reveal"><span class="pn">5</span><h3 data-i18n="tr5T">امتناع وإحالة بشرية</h3><p data-i18n="tr5">عند الشك يقول المرشد «لا أعلم»، ويعرض إرسال السؤال إلى أهل العلم.</p></li>
+      </ol>
+      <ul class="levels">
+        <li><b>أ</b><span data-i18n="lvA">نصوص قطعية تُنقل حرفياً</span></li>
+        <li><b>ب</b><span data-i18n="lvB">أحكام مستقرة منسوبة لمصادرها</span></li>
+        <li><b>ج</b><span data-i18n="lvC">مسائل خلافية تُعرض بأقوالها</span></li>
+        <li><b>د</b><span data-i18n="lvD">فتوى شخصية تُحال إلى أهل العلم</span></li>
+      </ul>
+      <p class="levels-note" data-i18n="levelsNote">مستويات المحتوى الأربعة كما حددتها الحزمة العلمية للمسابقة.</p>
+    </section>
+
+    <!-- ───────── ask ───────── -->
+    <section class="section ask" id="ask" aria-labelledby="ask-title">
+      <div class="ask-card">
+        <div class="ask-copy">
+          <p class="eyebrow" data-i18n="askEyebrow">مراجعة بشرية</p>
+          <h2 id="ask-title" class="section-title" data-i18n="askTitle">اسأل أهل العلم</h2>
+          <p data-i18n="askSub">يصل سؤالك إلى لوحة المراجعين الشرعيين. لا نطلب بريداً ولا هاتفاً: تحصل على رمز تذكرة، وتجد الجواب في اللعبة تحت «أسئلتي».</p>
+          <img class="ask-art" src="/brand/landing/icon-prayer.webp" alt="" width="160" height="160" loading="lazy" />
+        </div>
+        <form class="ask-form" id="ask-form" novalidate>
+          <label for="ask-q" data-i18n="askLabel">سؤالك</label>
+          <textarea id="ask-q" name="question" rows="5" minlength="8" maxlength="1000" required data-i18n-ph="askPh" placeholder="مثال: هل يجوز لي العمل في مطعم يقدّم الخمر إذا لم أقدّمها بنفسي؟"></textarea>
+          <div class="ask-row">
+            <span class="ask-count" id="ask-count">0 / 1000</span>
+            <button class="btn btn-primary" type="submit" id="ask-submit" data-i18n="askSend">أرسل السؤال</button>
+          </div>
+          <p class="ask-note" data-i18n="askNote">لا تكتب اسمك الكامل أو أي بيانات تعرّف بك. يمكنك حذف سؤالك في أي وقت برمز التذكرة.</p>
+          <div class="ask-result" id="ask-result" role="status" aria-live="polite" hidden></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ───────── verify ───────── -->
+    <section class="section verify" id="verify" aria-labelledby="verify-title">
+      <p class="eyebrow" data-i18n="verifyEyebrow">وضوح العرض وإتاحة التحقق</p>
+      <h2 id="verify-title" class="section-title" data-i18n="verifyTitle">للمحكّمين: تحقّقوا بأنفسكم</h2>
+      <div class="verify-grid">
+        <a class="vcard" href="/" data-play><b data-i18n="v1T">العب يوماً كاملاً</b><span data-i18n="v1">النسخة الحية، بالعربية والإنجليزية، على الجوال والحاسب.</span></a>
+        <a class="vcard" href="/experts"><b data-i18n="v2T">لوحة المراجعين الشرعيين</b><span data-i18n="v2">قائمة الأسئلة، والفرز حسب المستوى، والرد مع المصادر.</span></a>
+        <a class="vcard" href="/?study=1"><b data-i18n="v3T">وضع الدراسة القصيرة</b><span data-i18n="v3">اختبار قبلي وبعدي لقياس الأثر، دون جمع بيانات شخصية.</span></a>
+        <a class="vcard" href="/results"><b data-i18n="v4T">نتائج القياس</b><span data-i18n="v4">النتائج المجمّعة كما هي، دون تجميل.</span></a>
+        <a class="vcard" href="https://github.com/yawmuk/yawmuk#reliability--scientific-safety--الموثوقية-والسلامة-العلمية" rel="noopener"><b data-i18n="v5T">تقييم حالات الحزمة العلمية</b><span data-i18n="v5">الحالات الاثنتا عشرة باللغتين، والإخفاقات منشورة مع النجاحات.</span></a>
+        <a class="vcard" href="https://github.com/yawmuk/yawmuk" rel="noopener"><b data-i18n="v6T">الشيفرة المصدرية</b><span data-i18n="v6">مستودع عام: الاختبارات، والمصادر، ووثائق التشغيل.</span></a>
+      </div>
+    </section>
+
+    <!-- ───────── faq ───────── -->
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title" class="section-title" data-i18n="faqTitle">أسئلة شائعة</h2>
+      <details><summary data-i18n="q1">هل «يومك» تُفتي؟</summary><p data-i18n="a1">لا. اللعبة تعرض ما تذكره المصادر المعتمدة مع روابطها، وتُحيل الفتوى الشخصية إلى أهل العلم.</p></details>
+      <details><summary data-i18n="q2">لمن صُممت اللعبة؟</summary><p data-i18n="a2">لمن يريد أن يعرف كيف يعيش المسلم يومه، خصوصاً غير المسلمين في الغرب، وللمسلم الجديد. ولا تسألك اللعبة عن دينك ولا تستنتجه.</p></details>
+      <details><summary data-i18n="q3">ماذا لو لم يجد المرشد جواباً؟</summary><p data-i18n="a3">يقول ذلك صراحة، ولا يخمّن. ثم يعرض عليك إرسال السؤال إلى لوحة المراجعين.</p></details>
+      <details><summary data-i18n="q4">هل يُسجَّل صوتي؟</summary><p data-i18n="a4">لا. متصفحك يحوّل كلامك إلى نص بخدمة التعرّف الصوتي المدمجة فيه، واللعبة لا تسجّل صوتك ولا ترفعه ولا تحفظه.</p></details>
+      <details><summary data-i18n="q5">هل أحتاج إلى حساب أو تثبيت؟</summary><p data-i18n="a5">لا. تعمل في المتصفح مباشرة على الجوال والحاسب، ويُحفظ تقدّمك في متصفحك فقط.</p></details>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <img class="footer-mark" src="/brand/logo/yawmuk-mark-mono.svg" alt="" width="40" height="40" />
+      <p data-i18n="footer1">«يومك» من فريق ليموندا، ضمن تحدّي الذكاء الاصطناعي في خدمة المحتوى الإسلامي 2026.</p>
+      <p class="muted" data-i18n="footer2">الصور التوضيحية والأيقونات مولّدة بالذكاء الاصطناعي ومُفصَح عنها في ملف المصادر. النصوص الشرعية منقولة من مصادرها كما هي.</p>
+      <p class="muted" data-i18n="footer3">المرشد يصوغ إجاباته بنموذج Gemini عبر Google Vertex AI، من المقاطع المراجَعة فقط.</p>
+      <nav class="footer-links" aria-label="روابط" data-i18n-aria="footerNav">
+        <a href="/" data-play data-i18n="ctaPlay">ابدأ يومك</a>
+        <a href="https://github.com/yawmuk/yawmuk/blob/main/content/sources.json" rel="noopener" data-i18n="fSources">المصادر</a>
+        <a href="https://github.com/yawmuk/yawmuk/tree/main/src/brand" rel="noopener" data-i18n="fBrand">دليل الهوية</a>
+        <a href="https://github.com/yawmuk/yawmuk" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script type="module" src="/landing/landing.js"></script>
+</body>
+</html>

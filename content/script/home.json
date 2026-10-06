@@ -1,0 +1,129 @@
+{
+  "location": "home",
+  "title": {
+    "ar": "البيت — صباح الاثنين",
+    "en": "Home — Monday Morning"
+  },
+  "time_of_day": "07:00",
+  "intro": {
+    "ar": "صباحٌ باردٌ في حيّ السلام. رائحة القهوة تملأ المطبخ، وآدم يستعد ليومٍ طويل. يطرق الباب جاره وصديقه عُمَر. المسجد على بُعد خطوات، وهو يدعو آدم أن يرافقه ويرى المسجد من الداخل قبل العمل.",
+    "en": "A cold morning in Al-Salam neighbourhood. The kitchen smells of coffee, and Adam is getting ready for a long day. His neighbour and friend Omar knocks at the door. The mosque is a short walk away, and Omar invites Adam to come along and see it from the inside before work."
+  },
+  "situations": [
+    {
+      "ruling_id": "home.purity_mosque",
+      "hotspot": "fridge",
+      "npc": {
+        "id": "omar",
+        "name": {
+          "ar": "عُمَر",
+          "en": "Omar"
+        },
+        "role": {
+          "ar": "جار آدم وصديقه المسلم",
+          "en": "Adam's neighbour and Muslim friend"
+        }
+      },
+      "setup": {
+        "ar": "يقف عُمَر عند حوض المطبخ وقد شمّر كُمَّيْه. سيتوضّأ قبل أن يمشيا معاً إلى المسجد القريب. الماء يجري من الصنبور، ومنشفةٌ صغيرة تنتظر على الرخامة.",
+        "en": "Omar stands at the kitchen sink with his sleeves rolled up. He will do wudu before they walk to the nearby mosque together. Water runs from the tap, and a small towel waits on the counter."
+      },
+      "dialogue": [
+        {
+          "speaker": "omar",
+          "ar": "عن إذنك يا آدم، سأتوضّأ هنا قبل أن نخرج. الوُضُوء شرطٌ لصحة الصلاة، فلا تصحّ صلاتي بدونه.",
+          "en": "Mind if I use your sink, Adam? I need to do wudu before we go. My prayer isn't valid without it."
+        },
+        {
+          "speaker": "narrator",
+          "ar": "يغسل عُمَر كفّيه، ثم يتمضمض، ويغسل وجهه وذراعيه إلى المِرْفَقَيْن، ويمسح رأسه، ثم يغسل قدميه.",
+          "en": "Omar washes his hands, rinses his mouth, washes his face and his arms up to the elbows, wipes over his head, then washes his feet."
+        },
+        {
+          "speaker": "adam",
+          "ar": "وجهك نظيفٌ أصلاً! هل هذا مجرّد غسيل، أم شيءٌ أكبر من ذلك؟",
+          "en": "Your face is already clean! Is this just washing, or something more?"
+        },
+        {
+          "speaker": "omar",
+          "ar": "الاثنان معاً. نظافةٌ للجسد، واستعدادٌ للوقوف بين يدي الله. وعند باب المسجد سترى خطوةً أخرى.",
+          "en": "Both. It cleans the body, and it prepares me to stand before God. At the mosque door, you'll see one more step."
+        },
+        {
+          "speaker": "narrator",
+          "ar": "بعد دقائق يصلان إلى باب المسجد. رفوفٌ خشبية مليئة بالأحذية، وفي الداخل سجادٌ نظيف يسجد عليه المصلّون. يخلع عُمَر حذاءه.",
+          "en": "Minutes later they reach the mosque door. Wooden racks are full of shoes, and inside is a clean carpet where people touch their foreheads to the ground. Omar slips off his shoes."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": {
+            "ar": "أخلع حذائي وأضعه في الرف، وأسأل عُمَر: لماذا كل هذا الحرص على النظافة؟",
+            "en": "I take off my shoes, put them on the rack, and ask Omar: why all this care about cleanliness?"
+          },
+          "quality": "best",
+          "consequence": {
+            "ar": "ابتسم عُمَر وقال: على هذا السجاد نضع جباهنا، فنحفظه نظيفاً. وأوضح أن الصلاة في حذاءٍ نظيف ليست ممنوعةً في ذاتها، لكن خلعه هنا أدبٌ يحفظ السجاد ويحترم المصلّين. فهم آدم أن طهارة الجسد عند المسلمين خطوةٌ أولى نحو الصلاة.",
+            "en": "Omar smiled and said, we put our foreheads on this carpet, so we keep it clean. He explained that praying in clean shoes isn't forbidden in itself, but taking them off here keeps the carpet clean and respects other worshippers. Adam understood that for Muslims, a clean body is the first step toward prayer."
+          },
+          "points": 10
+        },
+        {
+          "id": "b",
+          "label": {
+            "ar": "أنتظر عُمَر عند الباب بأدب، دون أن أسأل شيئاً.",
+            "en": "I wait politely for Omar by the door, without asking anything."
+          },
+          "quality": "acceptable",
+          "consequence": {
+            "ar": "احترم آدم المكان، وخرج عُمَر بعد دقائق شاكراً صبره. لكن آدم بقي لا يعرف لماذا غسل صديقه أطرافه، ولماذا خلع الجميع أحذيتهم.",
+            "en": "Adam respected the place, and Omar came out a few minutes later, thankful for his patience. But Adam still didn't know why his friend washed his limbs, or why everyone took off their shoes."
+          },
+          "points": 5
+        },
+        {
+          "id": "c",
+          "label": {
+            "ar": "أدخل بحذائي لألقي نظرةً سريعة، فالأرض تبدو نظيفة.",
+            "en": "I step in with my shoes on for a quick look. The floor looks clean anyway."
+          },
+          "quality": "wrong",
+          "consequence": {
+            "ar": "أشار رجلٌ مسنّ بلطف إلى رف الأحذية، فاعتذر آدم وخلع حذاءه. شرح عُمَر أن المصلّين يسجدون على هذا السجاد، فيحرصون ألا يصل إليه غبار الطريق. لم ينزعج أحد، لكن السؤال قبل الدخول كان أيسر.",
+            "en": "An older man gently pointed to the shoe rack, so Adam apologized and took his shoes off. Omar explained that people put their foreheads on this carpet, so they keep street dust off it. Nobody was upset, but asking first would have been easier."
+          },
+          "points": 0
+        }
+      ],
+      "check_question": {
+        "q": {
+          "ar": "ما علاقة الوُضُوء بالصلاة عند المسلمين؟",
+          "en": "How is wudu related to prayer for Muslims?"
+        },
+        "options": [
+          {
+            "ar": "عادةٌ ثقافية لا علاقة لها بالصلاة",
+            "en": "It's a cultural habit with no link to prayer",
+            "correct": false
+          },
+          {
+            "ar": "الوُضُوء شرطٌ لصحة الصلاة، فلا تصحّ الصلاة بدونه",
+            "en": "Wudu is a condition of prayer: without it, the prayer isn't valid",
+            "correct": true
+          },
+          {
+            "ar": "خلع الحذاء عند باب المسجد يُغني عن الوُضُوء",
+            "en": "Taking off your shoes at the mosque door replaces wudu",
+            "correct": false
+          }
+        ]
+      }
+    }
+  ],
+  "outro": {
+    "ar": "يعود آدم من المسجد، وفي ذهنه رفوف الأحذية والسجاد النظيف. تقبّله أمه وتقول: انتبه للطريق. السيارة باردة، والطريق إلى العمل مزدحمٌ كالعادة.",
+    "en": "Adam walks back from the mosque, still picturing the shoe racks and the clean carpet. His mom kisses his cheek and says, drive safe. The car is freezing, and the commute is jammed as usual."
+  },
+  "next_location": "work"
+}

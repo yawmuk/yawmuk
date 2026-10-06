@@ -1,0 +1,111 @@
+[
+  {
+    "id": "home.mortgage",
+    "location": "home",
+    "title": {
+      "ar": "[بيانات اختبار] القرض العقاري",
+      "en": "[FIXTURE] Mortgage"
+    },
+    "question": {
+      "ar": "[بيانات اختبار] هذا سؤال تجريبي لاختبار عرض البطاقة فقط.",
+      "en": "[FIXTURE] A placeholder question used only to test the card layout."
+    },
+    "verdict": "disputed",
+    "summary": {
+      "ar": "[بيانات اختبار] نص تجريبي — ليس حكماً شرعياً. يُستبدل تلقائياً عند وجود content/rulings/home.json.",
+      "en": "[FIXTURE] Placeholder text — NOT a ruling. Replaced automatically once content/rulings/home.json exists."
+    },
+    "quran": [
+      {
+        "surah": 0,
+        "surah_name_ar": "اختبار",
+        "ayah": "0",
+        "text_ar": "[نص تجريبي لاختبار الخط — ليس آية]",
+        "translation_en": "[Fixture text to test the font — not a verse]",
+        "source_url": "https://quran.com"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "[نص تجريبي — ليس حديثاً]",
+        "translation_en": "[Fixture text — not a hadith]",
+        "collection": "fixture",
+        "number": "0",
+        "narrator": "fixture",
+        "grade": "—",
+        "grader": "",
+        "source_url": "https://sunnah.com"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "[تجريبي] قول الحنفية",
+        "position_en": "[fixture] Hanafi position",
+        "reference": "fixture"
+      },
+      "maliki": {
+        "position_ar": "[تجريبي] قول المالكية",
+        "position_en": "[fixture] Maliki position",
+        "reference": "fixture"
+      },
+      "shafii": {
+        "position_ar": "[تجريبي] قول الشافعية",
+        "position_en": "[fixture] Shafi'i position",
+        "reference": "fixture"
+      },
+      "hanbali": {
+        "position_ar": "",
+        "position_en": "",
+        "reference": ""
+      }
+    },
+    "contemporary": [
+      {
+        "body": "fixture body",
+        "decision_ref": "0/0",
+        "position_ar": "[تجريبي]",
+        "position_en": "[fixture]",
+        "source_url": ""
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "[تجريبي] خطوة أولى",
+        "[تجريبي] خطوة ثانية"
+      ],
+      "en": [
+        "[fixture] step one",
+        "[fixture] step two"
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "[تجريبي] بديل"
+      ],
+      "en": [
+        "[fixture] alternative"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "[تجريبي] عند وجود تفاصيل شخصية.",
+      "en": "[fixture] when personal details matter."
+    },
+    "confidence": "low",
+    "review_status": "ai_draft",
+    "notes_for_reviewer": "Engine test fixture. Never shipped as content.",
+    "_fixture": true,
+    "newcomer_explainer": {
+      "ar": "[بيانات اختبار] شرح مبسط تجريبي لغير المسلم.",
+      "en": "[FIXTURE] A placeholder plain-words explanation for a newcomer."
+    },
+    "content_level": "C",
+    "verdict_scope": {
+      "ar": "[بيانات اختبار] نطاق حكم تجريبي.",
+      "en": "[FIXTURE] A placeholder verdict scope."
+    },
+    "explanatory_notes": {
+      "ar": ["[بيانات اختبار] شرح توضيحي تجريبي."],
+      "en": ["[FIXTURE] A placeholder explanatory note."]
+    }
+  }
+]

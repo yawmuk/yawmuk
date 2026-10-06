@@ -1,0 +1,159 @@
+[
+  {
+    "id": "street.lottery",
+    "location": "street",
+    "title": {
+      "ar": "اليانصيب وبطاقات الكشط والمراهنات الرياضية",
+      "en": "Lottery, Scratch Cards and Sports Betting"
+    },
+    "question": {
+      "ar": "ما حكم شراء تذكرة يانصيب أو بطاقة كشط (scratch card) من محطة الوقود، أو المراهنة على مباراة عبر تطبيقات المراهنات الرياضية؟",
+      "en": "What is the ruling on buying a lottery ticket or scratch card at a gas station, or betting on a game through a sports-betting app?"
+    },
+    "verdict": "haram",
+    "content_level": "B",
+    "consensus_sources": [
+      "الموسوعة الفقهية (الدرر السنية)، حكم القمار: https://dorar.net/feqhia/11561 — نقل الإجماع على تحريم القمار عن الجصاص (أحكام القرآن 1/450) وابن عبد البر (التمهيد 13/180) والقرطبي (تفسيره 3/52) وابن تيمية (الفتاوى الكبرى 4/459) وابن حجر (فتح الباري 8/613)"
+    ],
+    "explanatory_notes": {
+      "ar": [
+        "«الرهان المجاني» (free bet) في تطبيقات المراهنات ليس كالسحب المجاني الذي «لا يشترط شراءً» في نظرنا: فهو رهان على نتيجة مباراة يقوم بها غيرك، وقد نص قرار مجمع الفقه الإسلامي الدولي 127 على تحريم «المراهنة بين طرفين أو أكثر على نتيجة فعل يقوم به غيرهم»، وهو يقتضي فتح حساب في منصة قمار، وغالباً ما يُربط بإيداع أو بشرط مراهنة لاحقة. تطبيق القرار على هذه العروض استنتاج منّا للتوضيح، وليس نصاً في المسألة بعينها."
+      ],
+      "en": [
+        "In our view a promotional \"free bet\" in a betting app is not like a \"no purchase necessary\" sweepstakes: it is a wager on the outcome of a game played by others, and IIFA Resolution 127 prohibits \"betting between two or more parties on the result of an act performed by others\"; it also requires opening an account on a gambling platform and is often tied to a deposit or further wagering. Applying the resolution to these offers is our own explanatory inference, not a text on this specific case."
+      ]
+    },
+    "summary": {
+      "ar": "اليانصيب وبطاقات الكشط والمراهنات الرياضية من الميسر (القمار) المحرم بنص القرآن وباتفاق الفقهاء، لأن المشارك يدفع مالاً رجاء أن يربح أكثر منه أو يخسره. وما يُربح منها كسب خبيث يجب التخلص منه بإعطائه للفقراء لا بقصد الثواب. أما المسابقات المجانية التي لا يدفع فيها المشارك شيئاً فلا تدخل في القمار.",
+      "en": "Lotteries, scratch cards and sports betting are maysir (gambling), prohibited by the text of the Quran and the agreement of the jurists, because the participant pays money hoping to win more or lose it. Winnings from them are impure earnings that must be disposed of by giving them to the poor without intending reward. Free sweepstakes in which the participant pays nothing are not gambling."
+    },
+    "quran": [
+      {
+        "surah": 5,
+        "surah_name_ar": "المائدة",
+        "ayah": "90",
+        "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓاْ إِنَّمَا ٱلۡخَمۡرُ وَٱلۡمَيۡسِرُ وَٱلۡأَنصَابُ وَٱلۡأَزۡلَٰمُ رِجۡسٞ مِّنۡ عَمَلِ ٱلشَّيۡطَٰنِ فَٱجۡتَنِبُوهُ لَعَلَّكُمۡ تُفۡلِحُونَ",
+        "translation_en": "O you who have believed, indeed, intoxicants, gambling, [sacrificing on] stone alters [to other than Allāh], and divining arrows are but defilement from the work of Satan, so avoid it that you may be successful.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/5#90"
+      },
+      {
+        "surah": 5,
+        "surah_name_ar": "المائدة",
+        "ayah": "91",
+        "text_ar": "إِنَّمَا يُرِيدُ ٱلشَّيۡطَٰنُ أَن يُوقِعَ بَيۡنَكُمُ ٱلۡعَدَٰوَةَ وَٱلۡبَغۡضَآءَ فِي ٱلۡخَمۡرِ وَٱلۡمَيۡسِرِ وَيَصُدَّكُمۡ عَن ذِكۡرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِۖ فَهَلۡ أَنتُم مُّنتَهُونَ",
+        "translation_en": "Satan only wants to cause between you animosity and hatred through intoxicants and gambling and to avert you from the remembrance of Allāh and from prayer. So will you not desist?",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/5#91"
+      },
+      {
+        "surah": 2,
+        "surah_name_ar": "البقرة",
+        "ayah": "219",
+        "text_ar": "۞ يَسۡـَٔلُونَكَ عَنِ ٱلۡخَمۡرِ وَٱلۡمَيۡسِرِۖ قُلۡ فِيهِمَآ إِثۡمٞ كَبِيرٞ وَمَنَٰفِعُ لِلنَّاسِ وَإِثۡمُهُمَآ أَكۡبَرُ مِن نَّفۡعِهِمَاۗ وَيَسۡـَٔلُونَكَ مَاذَا يُنفِقُونَۖ قُلِ ٱلۡعَفۡوَۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلۡأٓيَٰتِ لَعَلَّكُمۡ تَتَفَكَّرُونَ",
+        "translation_en": "They ask you about wine and gambling. Say, \"In them is great sin and [yet, some] benefit for people. But their sin is greater than their benefit.\" And they ask you what they should spend. Say, \"The excess [beyond needs].\" Thus Allāh makes clear to you the verses [of revelation] that you might give thought",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/2#219"
+      },
+      {
+        "surah": 4,
+        "surah_name_ar": "النساء",
+        "ayah": "29",
+        "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تَأۡكُلُوٓاْ أَمۡوَٰلَكُم بَيۡنَكُم بِٱلۡبَٰطِلِ إِلَّآ أَن تَكُونَ تِجَٰرَةً عَن تَرَاضٖ مِّنكُمۡۚ وَلَا تَقۡتُلُوٓاْ أَنفُسَكُمۡۚ إِنَّ ٱللَّهَ كَانَ بِكُمۡ رَحِيمٗا",
+        "translation_en": "O you who have believed, do not consume one another's wealth unjustly but only [in lawful] business by mutual consent. And do not kill yourselves [or one another]. Indeed, Allāh is to you ever Merciful.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/4#29"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "مَنْ حَلَفَ فَقَالَ فِي حَلِفِهِ وَاللاَّتِ وَالْعُزَّى. فَلْيَقُلْ لاَ إِلَهَ إِلاَّ اللَّهُ. وَمَنْ قَالَ لِصَاحِبِهِ تَعَالَ أُقَامِرْكَ. فَلْيَتَصَدَّقْ",
+        "translation_en": "\"Whoever swears saying in his oath 'By al-Lat and al-'Uzza' should say 'There is no god but Allah'; and whoever says to his companion 'Come, let me gamble with you' should give charity.\"",
+        "collection": "صحيح البخاري",
+        "number": "4860",
+        "narrator": "أبو هريرة",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)؛ وأخرجه مسلم (1647) وفي بعض رواياته «فليتصدق بشيء»",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/6379",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/6379",
+        "sunnah_url": "https://sunnah.com/bukhari:4860",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "القمار (ميسر القمار) محرم باتفاق، وما يكسبه المقامر كسب خبيث؛ ولاعب القمار تسقط عدالته وتُرد شهادته.",
+        "position_en": "Gambling for money is prohibited by agreement; the gambler's gains are impure, and gambling invalidates a person's integrity as a witness.",
+        "reference": "بدائع الصنائع ٥/١٢٧؛ تكملة فتح القدير ٨/١٣٢ — عبر الموسوعة الفقهية الكويتية ٣٩/٤٠٤-٤٠٨ (مادة ميسر)"
+      },
+      "maliki": {
+        "position_ar": "قال مالك: الميسر ميسران: ميسر اللهو، وميسر القمار «وهو ما يتخاطر الناس عليه»، والثاني محرم باتفاق.",
+        "position_en": "Malik said there are two kinds of maysir: the maysir of amusement, and the maysir of gambling, \"which is what people stake against each other\"; the latter is prohibited by agreement.",
+        "reference": "تفسير القرطبي ٣/٥٢؛ القوانين الفقهية لابن جزي ص١٠٥ — عبر الموسوعة الفقهية الكويتية ٣٩/٤٠٤-٤٠٧"
+      },
+      "shafii": {
+        "position_ar": "إن شُرط المال من الجانبين بحيث يأخذه الغالب فهو القمار المحرم، وهو كبيرة؛ قال الرملي: «والمحرم العقد وأخذ المال، لأنه غصب من الجانبين أو أحدهما». وضابطه عند المحلّي: التردد بين أن يغنم وأن يغرم.",
+        "position_en": "If money is staked by both sides so that the winner takes it, it is the prohibited gambling and a major sin; al-Ramli said both the contract and taking the money are prohibited, as it is usurpation. Al-Mahalli defined it as wavering between gaining and losing.",
+        "reference": "حاشية القليوبي على شرح المحلي ٤/٢٢٦ و٤/٣١٩؛ الزواجر لابن حجر الهيتمي ٢/٢٠٠ — عبر الموسوعة الفقهية الكويتية ٣٩/٤٠٤-٤٠٧"
+      },
+      "hanbali": {
+        "position_ar": "القمار محرم باتفاق، وقال ابن تيمية: مفسدة الميسر أعظم من مفسدة الربا لاشتماله على أكل المال بالباطل واللهو المحرم الصادّ عن ذكر الله.",
+        "position_en": "Gambling is prohibited by agreement; Ibn Taymiyya said its harm exceeds that of riba because it combines unjust consumption of wealth with forbidden amusement that diverts from remembrance of Allah.",
+        "reference": "المغني لابن قدامة ٩/٤٧٢؛ مجموع فتاوى ابن تيمية ٣٢/٣٣٧ — عبر الموسوعة الفقهية الكويتية ٣٩/٤٠٦-٤٠٧"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "مجمع الفقه الإسلامي الدولي",
+        "decision_ref": "القرار رقم 127 (1/14)، الدورة الرابعة عشرة، الدوحة، 11-16 يناير 2003م (بطاقات المسابقات)",
+        "position_ar": "بطاقات (كوبونات) المسابقات التي تدخل قيمتها أو جزء منها في الجوائز لا تجوز لأنها ضرب من القمار؛ والمراهنة بين طرفين أو أكثر على نتيجة فعل يقوم به غيرهم محرمة بنصوص القرآن والسنة المحرِّمة للقمار؛ وتحرم رسوم الاتصالات للمشاركة إذا دخلت في الجوائز.",
+        "position_en": "Contest cards (coupons) whose price, wholly or partly, funds the prizes are impermissible as a form of gambling; betting between two or more parties on the result of an act performed by others is prohibited by the Quran and Sunnah texts forbidding gambling; paid calls to enter contests are prohibited when they fund the prizes.",
+        "source_url": "https://iifa-aifi.org/en/32854.html"
+      },
+      {
+        "body": "مجمع فقهاء الشريعة بأمريكا (AMJA)",
+        "decision_ref": "الفتوى رقم 1645 (د. حاتم الحاج، 2006)",
+        "position_ar": "السحب الترويجي المجاني الذي لا يدفع فيه المشارك شيئاً ولا يلتزم بشراء ليس قماراً إن كان الأمر كما وُصف.",
+        "position_en": "A free promotional draw in which the participant pays nothing and has no purchase obligation is not gambling, if it is truly as described.",
+        "source_url": "https://www.amjaonline.org/fatwa/en/1645/participating-in-lottery-competitions"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "لا تشترِ تذاكر اليانصيب ولا بطاقات الكشط، ولا تحمّل تطبيقات المراهنات الرياضية أو «الفانتازي» المدفوع، حتى لو كانت قانونية في بلدك.",
+        "لا تسجّل في تطبيقات المراهنات لأجل عروض «الرهان المجاني» (free bet)، فالمسلم مأمور باجتناب الميسر ﴿فاجتنبوه﴾ (المائدة 90)، وقد أمر النبي ﷺ من قال لصاحبه «تعال أقامرك» أن يتصدق (البخاري 4860). (انظر الشرح التوضيحي.)",
+        "إن أُهديت تذكرة يانصيب فلا تستعملها؛ وإن ربحت سابقاً فتخلّص من الربح بإعطائه للفقراء والمساكين دون نية الأجر، وتب إلى الله.",
+        "أما استرداد ما دفعته ثمناً للتذكرة من الربح قبل التخلص من الباقي فمسألة خلافية؛ فاسأل عالماً قبل التصرف في مبلغ كبير.",
+        "المسابقات المجانية (No purchase necessary sweepstakes) جائزة إذا لم تدفع شيئاً ولم يكن الدخول مشروطاً بشراء زائد عن حاجتك.",
+        "إن شعرت بإدمان المراهنة فاطلب المساعدة من خط مساعدة أو مركز إرشاد متخصص في مشكلات القمار في بلدك."
+      ],
+      "en": [
+        "Do not buy lottery tickets or scratch cards, and do not install sports-betting or paid fantasy apps, even where they are legal.",
+        "Do not sign up to betting apps for their \"free bet\" offers: Muslims are commanded to avoid maysir (\"so avoid it\", 5:90), and the Prophet ﷺ ordered whoever merely says \"come, let me gamble with you\" to give charity (Bukhari 4860). (See the explanatory note.)",
+        "If someone gifts you a lottery ticket, do not use it; if you won before, dispose of the winnings by giving them to the poor without intending reward, and repent.",
+        "Whether you may first take back the amount you paid is a matter of scholarly difference; ask a scholar before handling a large sum.",
+        "Free sweepstakes (\"no purchase necessary\") are permissible if you pay nothing and entry is not tied to buying something you do not need.",
+        "If you feel addicted to betting, seek help from a problem-gambling helpline or counselling service in your country."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "المسابقات المجانية التي يدفع جوائزها طرف ثالث",
+        "التنافس الرياضي بلا رهان مالي",
+        "الاستثمار الحلال في الأسهم المتوافقة مع الشريعة بدلاً من «الربح السريع»"
+      ],
+      "en": [
+        "Free contests whose prizes are paid by a third party",
+        "Sports competition without money stakes",
+        "Halal investing in Sharia-compliant equities instead of \"quick wins\""
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "إذا ربحت مبلغاً كبيراً سابقاً وتريد معرفة طريقة التخلص منه، أو عُرضت عليك مسابقة أو سحب خيري (raffle) أو لعبة فيها رسوم دخول وجوائز ولم يتضح لك هل هي من القمار.",
+      "en": "If you previously won a large sum and need to know how to dispose of it, or if offered a contest, charity raffle or game with entry fees and prizes and you are unsure whether it is gambling."
+    },
+    "confidence": "high",
+    "review_status": "ai_verified",
+    "notes_for_reviewer": "1) أقوال المذاهب عبر الموسوعة الفقهية الكويتية مادة «ميسر» ٣٩/٤٠٤-٤٠٨ (shamela.ws/book/11430/25825)؛ نص «المحرم العقد وأخذ المال» منسوب للرملي كما في الموسوعة. 2) قرار المجمع 127 منقول من النسخة الإنجليزية الرسمية على iifa-aifi.org، وصياغة العربية ترجمة بالمعنى مع نقل جملة «لا تجوز شرعاً» كما في مصادر ثانوية؛ يُرجى مطابقة النص العربي الرسمي. 3) حكم التخلص من مال القمار (للفقراء) من الموسوعة ٣٩/٤٠٧ نقلاً عن إحياء علوم الدين ٢/١٢٧؛ ومسألة استرداد رأس المال خلافية لم أحررها. 4) قانونية المراهنات الرياضية في أوهايو منذ 1 يناير 2023 من معرفتي العامة ولم أتحقق منها بمصدر في هذه الجلسة، وكذلك رقم 1-800-GAMBLER — يُرجى التحقق.\n\n[تدقيق المرحلة 1 — 2026-10-05] قرار المجمع 127 صحيح (الموقع العربي يرقّمه (14/1) والإنجليزي (1/14)). تحقق: المراهنات الرياضية قانونية في أوهايو منذ 1/1/2023 (صحيح). تنبيه: الملخص يقول «المسابقات المجانية ليست قماراً»، والسيناريو يسم «الرهان المجاني» في تطبيق مراهنات بـ wrong ويحيل إلى البطاقة — يُستحسن إضافة جملة صريحة في الحكم عن «الرهانات المجانية الترويجية» في تطبيقات القمار (ذريعة إلى الإيداع، وتسجيل في منصة قمار). الخط الوطني الصحيح للمساعدة: 1-800-GAMBLER (أو 1-800-522-4700) وخط أوهايو 1-800-589-9966 — للمراجع. نجحت الفحوص الآلية.\n\n[تدقيق — إضافة «الرهان المجاني»، 2026-10-05] أُضيف بند في practical_guidance (عربي/إنجليزي) عن الرهانات المجانية الترويجية في تطبيقات المراهنة، مبني حصراً على أدلة موجودة في الملف: قرار المجمع 127 (تحريم المراهنة على نتيجة فعل الغير)، والمائدة 90 (الأمر بالاجتناب)، وحديث البخاري 4860. هو تخريج من المدقق لا فتوى منقولة؛ وعبارة «غالباً ما يُربط بإيداع أو بشرط مراهنة» وصف عام لممارسة السوق يحتاج تأكيد المراجع. يسند هذا وسم السيناريو wrong لخيار «الرهان المجاني».\n\n[تحديث المحتوى — 2026-10-06] صار هذا الحكم يخدم موقفاً واحداً (رفض شراء تذكرة يانصيب طمعاً في الثراء السريع، عند كاونتر متجر طارق). حُذفت الإحالة إلى موقف public_events.raffle (أُزيل من اللعبة)، وعُمِّم بندان في practical_guidance (حُذف ذكر أوهايو وPowerball وأرقام خطوط المساعدة الأمريكية) لأن إطار اللعبة صار عاماً «حيّ السلام». لم يتغير الحكم ولا الأدلة ولا المصادر. ما ورد في notes أعلاه عن أوهايو و1-800-GAMBLER أصبح غير مستعمل في النص.",
+    "newcomer_explainer": {
+      "ar": "اليانصيب وبطاقات الكشط والمراهنات الرياضية من الميسر (القمار) الذي حرّمه القرآن (المائدة 90–91). والعلة التي ذكرها القرآن نفسه أنه يوقع العداوة والبغضاء ويصدّ عن ذكر الله وعن الصلاة، ويضيف العلماء أنه نقل للمال بلا عمل ولا مقابل عادل، فربح أحدهم خسارة غيره. ومن ربح منه شيئاً تخلّص منه بإعطائه للفقراء دون قصد الثواب. أما المسابقات المجانية التي لا يدفع فيها المشارك شيئاً فليست قماراً.",
+      "en": "Lotteries, scratch cards and sports betting are forms of maysir (gambling), which the Quran forbids (5:90–91). The Quran itself gives the reasons — gambling stirs up enmity and hatred and turns people away from remembering God and from prayer — and scholars add that it moves wealth without work or fair exchange, so one person's gain is another's loss. Anyone who wins must give the winnings away to the poor without seeking reward. A free sweepstakes that requires no payment is not gambling."
+    }
+  }
+]

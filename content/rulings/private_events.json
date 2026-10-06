@@ -1,0 +1,123 @@
+[
+  {
+    "id": "private_events.proposal",
+    "location": "private_events",
+    "title": {
+      "ar": "الخِطبة والزواج: الوَلِيّ والإيمان المشترك والمَهْر والعقد",
+      "en": "Proposing Marriage: the Wali, Shared Faith, the Mahr and the Contract"
+    },
+    "question": {
+      "ar": "رجلٌ غير مسلم يريد الزواج من امرأة مسلمة: لماذا توجّهه إلى أبيها؟ وهل يصحّ زواجها منه؟ وما المَهْر؟ وكيف يُعقد الزواج؟",
+      "en": "A non-Muslim man wishes to marry a Muslim woman: why does she direct him to her father? Can she marry him? What is the mahr? And how is the marriage contracted?"
+    },
+    "verdict": "depends",
+    "content_level": "C",
+    "verdict_scope": {
+      "ar": "لا يصحّ زواج المسلمة من غير المسلم بإجماع العلماء. والمَهْر واجب للزوجة وهو حقّها. واشتراط الوَلِيّ لصحّة العقد قول الجمهور (المالكية والشافعية والحنابلة)، وخالفهم الحنفية فأجازوا للبالغة العاقلة أن تعقد لنفسها مع كُفْءٍ. والإشهاد شرط عند الحنفية والشافعية والحنابلة.",
+      "en": "A Muslim woman may not marry a non-Muslim man, by scholarly consensus. The mahr is obligatory and belongs to the wife. Requiring the wali for a valid contract is the majority view (Maliki, Shafi'i, Hanbali); the Hanafis differ and allow an adult, sane woman to contract her own marriage with a suitable match. Witnesses are a condition for the Hanafis, Shafi'is and Hanbalis."
+    },
+    "summary": {
+      "ar": "تبدأ الخِطبة عادةً عند وَلِيّ المرأة، فهو يسأل عن الخاطب ويحفظ حقوقها، ورأيها أساسٌ في القرار. وأجمع العلماء على أن المسلمة لا تتزوّج إلا مسلمًا، لأن البيت يقوم على إيمانٍ مشترك. والمَهْر واجبٌ يقدّمه الزوج لزوجته، وهو حقّها وحدها، تكريمًا لها ودليلًا على الجدّية. ويُعقد النكاح عند الجمهور بوَلِيّ وشاهِدَيْن، ويرى الحنفية أن البالغة العاقلة تعقد لنفسها مع كُفْء.",
+      "en": "A proposal usually begins with the woman's wali, who asks about the suitor and protects her rights, while her own consent is central to the decision. Scholars agree that a Muslim woman marries only a Muslim man, because the home rests on a shared faith. The mahr is an obligatory gift from the husband to the wife; it is hers alone, honouring her and showing his seriousness. Per the majority, the contract requires a wali and two witnesses, while the Hanafis hold that an adult, sane woman may contract her own marriage with a suitable match."
+    },
+    "quran": [],
+    "hadith": [],
+    "consensus_sources": [
+      "https://dorar.net/feqhia/4274",
+      "https://dorar.net/feqhia/4301"
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "المسلمة لا تتزوّج غير المسلم، والمَهْر واجب. ولا يُشترط الوَلِيّ عند أبي حنيفة لصحّة نكاح البالغة العاقلة، فلها أن تعقد لنفسها، ويصحّ إن كان الزوج كُفْئًا وبمَهْر المِثْل. ويُشترط حضور شاهِدَيْن عند العقد.",
+        "position_en": "A Muslim woman may not marry a non-Muslim, and the mahr is obligatory. Abu Hanifa did not require a wali for an adult, sane woman, so she may contract her own marriage; it is valid with a suitable match (kafa'a) and the customary mahr. Two witnesses must attend the contract.",
+        "reference": "دار الإفتاء المصرية، الفتوى 4545 «A woman marrying without wali» (https://www.dar-alifta.org/en/fatwa/details/4545/a-woman-marrying-without-wali)؛ الموسوعة الفقهية — الدرر السنية: حكم النكاح بدون شهود (dorar.net/feqhia/4149)",
+        "reference_status": "pending_verification"
+      },
+      "maliki": {
+        "position_ar": "لا يصحّ النكاح بلا وَلِيّ، والوَلِيّ ركنٌ من أركانه. والمسلمة لا تتزوّج غير المسلم، والمَهْر واجب. والإشهاد عندهم لازم قبل الدخول، والإعلان مطلوب.",
+        "position_en": "A marriage without a wali is invalid; the wali is one of its pillars. A Muslim woman may not marry a non-Muslim, and the mahr is obligatory. Witnessing is required before consummation, and announcement is required.",
+        "reference": "الموسوعة الفقهية — الدرر السنية: حكم الولي في النكاح؛ حكم النكاح بدون شهود (dorar.net/feqhia/4098 ; dorar.net/feqhia/4149)",
+        "reference_status": "pending_verification"
+      },
+      "shafii": {
+        "position_ar": "لا يصحّ النكاح بلا وَلِيّ، وهو ركنٌ من أركانه، ولا يصحّ بلا شاهِدَيْن. والمسلمة لا تتزوّج غير المسلم، والمَهْر واجب.",
+        "position_en": "A marriage without a wali is invalid; the wali is one of its pillars, and it is invalid without two witnesses. A Muslim woman may not marry a non-Muslim, and the mahr is obligatory.",
+        "reference": "الموسوعة الفقهية — الدرر السنية: حكم الولي في النكاح؛ حكم النكاح بدون شهود (dorar.net/feqhia/4098 ; dorar.net/feqhia/4149)",
+        "reference_status": "pending_verification"
+      },
+      "hanbali": {
+        "position_ar": "الوَلِيّ شرطٌ لصحّة النكاح، ولا يصحّ بلا شاهِدَيْن. والمسلمة لا تتزوّج غير المسلم، والمَهْر واجب.",
+        "position_en": "The wali is a condition for a valid marriage, and it is invalid without two witnesses. A Muslim woman may not marry a non-Muslim, and the mahr is obligatory.",
+        "reference": "الموسوعة الفقهية — الدرر السنية: حكم الولي في النكاح؛ حكم النكاح بدون شهود (dorar.net/feqhia/4098 ; dorar.net/feqhia/4149)",
+        "reference_status": "pending_verification"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "الموسوعة الفقهية (الدرر السنية)",
+        "decision_ref": "كتاب النكاح — نكاح المسلمة من الكافر",
+        "position_ar": "يحرم تزويج المسلمة من غير المسلم ولو كان كتابيًّا، ونقلت الموسوعة الإجماع على ذلك عن الشافعي وابن المنذر وابن قدامة والقرطبي وابن تيمية.",
+        "position_en": "It is prohibited to marry a Muslim woman to a non-Muslim man, even a Christian or Jew; the encyclopedia reports consensus on this from al-Shafi'i, Ibn al-Mundhir, Ibn Qudama, al-Qurtubi and Ibn Taymiyya.",
+        "source_url": "https://dorar.net/feqhia/4274"
+      },
+      {
+        "body": "الموسوعة الفقهية (الدرر السنية)",
+        "decision_ref": "كتاب النكاح — حكم الصداق",
+        "position_ar": "الصداق (المَهْر) واجبٌ للمرأة، ولا حدّ لأكثره، ويُستحبّ تخفيفه.",
+        "position_en": "The sadaq (mahr) is obligatory for the woman; it has no upper limit, and keeping it modest is recommended.",
+        "source_url": "https://dorar.net/feqhia/4301 ; https://dorar.net/feqhia/4163"
+      },
+      {
+        "body": "الموسوعة الفقهية (الدرر السنية)",
+        "decision_ref": "كتاب النكاح — حكم الولي في النكاح؛ حكم النكاح بدون شهود",
+        "position_ar": "لا يصحّ النكاح بلا وَلِيّ عند الجمهور (المالكية والشافعية والحنابلة)، ولا يصحّ بلا شهود عند الحنفية والشافعية والحنابلة.",
+        "position_en": "A marriage without a wali is invalid per the majority (Maliki, Shafi'i, Hanbali), and invalid without witnesses per the Hanafis, Shafi'is and Hanbalis.",
+        "source_url": "https://dorar.net/feqhia/4098 ; https://dorar.net/feqhia/4149"
+      },
+      {
+        "body": "دار الإفتاء المصرية",
+        "decision_ref": "الفتوى رقم 4545 «A woman marrying without wali»",
+        "position_ar": "نقلت قول الإمام أبي حنيفة أن البالغة العاقلة لا يلزمها وَلِيّ ولها أن تعقد زواجها، وأن القانون المصري أخذ به، ويصحّ العقد إذا كان الزوج كُفْئًا وبمَهْر المِثْل.",
+        "position_en": "Reports Imam Abu Hanifa's view that a sane, adult woman is not required to have a wali and may contract her own marriage, which Egyptian law follows; the contract is valid with a suitable match and the customary mahr.",
+        "source_url": "https://www.dar-alifta.org/en/fatwa/details/4545/a-woman-marrying-without-wali"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "من أراد الزواج من امرأة مسلمة يتقدّم إلى وَلِيّها بوضوح واحترام، لا في الخفاء.",
+        "رأي المرأة ورضاها أساسٌ في القرار، والوَلِيّ سندٌ لها لا بديلٌ عنها.",
+        "الإسلام قناعةُ قلب يختارها الإنسان بحرّية، فلا يُعلَن من أجل زواجٍ فقط.",
+        "المَهْر حقٌّ خالص للزوجة يُسمّى في العقد، ويُستحبّ تيسيره.",
+        "يُوثَّق الزواج رسميًّا مع العقد الشرعيّ حفظًا للحقوق."
+      ],
+      "en": [
+        "A man who wishes to marry a Muslim woman approaches her wali openly and respectfully, not in secret.",
+        "The woman's opinion and consent are central to the decision; the wali supports her and does not replace her.",
+        "Islam is a conviction freely chosen by the heart, so it is not declared only for the sake of a marriage.",
+        "The mahr is the wife's own right, named in the contract, and keeping it easy is recommended.",
+        "Register the marriage officially alongside the Islamic contract to protect everyone's rights."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "التعارف عبر الأسرة وبحضور الوَلِيّ",
+        "زيارة مسجدٍ أو درسٍ تعريفيّ لفهم الإسلام بلا استعجال"
+      ],
+      "en": [
+        "Getting to know each other through the family, with the wali involved",
+        "Visiting a mosque or an introductory class to understand Islam without rushing"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "عند غياب الوَلِيّ أو رفضه بلا سبب مقبول، أو الاختلاف في المَهْر وشروط العقد، أو عند الرغبة في الدخول في الإسلام ومعرفة ما يترتّب عليه.",
+      "en": "When the wali is absent or refuses without a valid reason, when there is disagreement over the mahr or contract conditions, or when someone wishes to embrace Islam and understand what follows."
+    },
+    "confidence": "medium",
+    "review_status": "ai_draft",
+    "notes_for_reviewer": "مسودة بالذكاء الاصطناعي (2026-10-06) — بانتظار مراجعة بشرية. لم تُدرج نصوص قرآن أو حديث عمدًا. صفحات الموسوعة الفقهية بالدرر السنية حجبها Cloudflare عند الجلب المباشر، فجُلبت عبر وسيط القراءة r.jina.ai وطوبق مضمونها: 4274 (يحرم تزويج المسلمة من الكافر ولو كتابيًّا؛ الإجماع عن الشافعي وابن المنذر والبغوي وابن قدامة والقرطبي وابن تيمية)، 4301 (يجب الصداق للمرأة)، 4098 (لا يصح النكاح بدون ولي عند الجمهور: المالكية والشافعية والحنابلة)، 4149 (لا يصح بدون شهود عند الحنفية والشافعية والحنابلة). قول أبي حنيفة مؤكَّد من فتوى دار الإفتاء المصرية 4545 (WebFetch). لم يُطابَق: تفصيل المالكية في الإشهاد قبل الدخول، وصفحتا 4163 و4113 (مقتطف بحث فقط). مسألة إجبار البكر البالغة لم تُذكر عمدًا لأنها خلافية؛ عبارة «رأيها أساس» في الحوار موقف الشخصية.",
+    "newcomer_explainer": {
+      "ar": "في الإسلام يُطلب الزواج عادةً من وَلِيّ المرأة، وهو غالبًا أبوها، ليسأل عن الخاطب ويحفظ حقوقها، مع أن رأيها أساس. وأجمع العلماء على أن المسلمة لا تتزوّج إلا مسلمًا، لأن الأسرة تقوم على إيمانٍ مشترك. ويقدّم الزوج لزوجته مَهْرًا هو حقّها وحدها، تكريمًا لها ودليلًا على جدّيته. ويُعقد الزواج عند جمهور العلماء بوَلِيّ وشاهِدَيْن، ويُعلَن ولا يُخفى، ويرى الحنفية أن المرأة البالغة العاقلة تعقد زواجها بنفسها.",
+      "en": "In Islam a proposal usually goes to the woman's wali, often her father, who asks about the suitor and protects her rights, while her own consent remains central. Scholars agree that a Muslim woman marries only a Muslim man, because the family rests on a shared faith. The husband gives his wife a mahr, a marriage gift that belongs to her alone, honouring her and showing his seriousness. Per the majority of scholars the contract needs a wali and two witnesses and is announced publicly; the Hanafis hold that an adult, sane woman may contract her own marriage."
+    }
+  }
+]

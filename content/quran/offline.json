@@ -1,0 +1,265 @@
+{
+ "fetchedAt": "2026-10-06T15:53:30.344Z",
+ "textEdition": "QPC Hafs (King Fahd Glorious Quran Printing Complex), api.quran.com field text_qpc_hafs",
+ "crossCheck": "Every ayah matched quranenc.com arabic_text (whitespace and verse number ignored) at fetch time",
+ "translations": {
+  "english_saheeh": {
+   "version": "1.1.2",
+   "title": "English Translation - Noor International Center",
+   "lastUpdate": 1750772247
+  },
+  "english_hilali_khan": {
+   "version": "1.1.2",
+   "title": "English Translation - Hilali and Khan",
+   "lastUpdate": 1756933433
+  }
+ },
+ "surahs": [
+  {
+   "n": 1,
+   "ar": "الفاتحة",
+   "en": "Al-Fatihah",
+   "ayahs": [
+    {
+     "n": 1,
+     "key": "1:1",
+     "ar": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+     "english_saheeh": "In the name of Allāh,[2] the Entirely Merciful, the Especially Merciful.[3]",
+     "english_saheeh_footnotes": "[2] Allāh is a proper name belonging only to the one Almighty God, Creator and Sustainer of the heavens and the earth and all that is within them, the Eternal and Absolute, to whom alone all worship is due.\n[3] Ar-Raḥmān and ar-Raḥeem are two names of Allāh derived from the word \"raḥmah\" (mercy) . In Arabic grammar both are intensive forms of \"merciful\" (i.e., extremely merciful) . A complimentary and comprehensive meaning is intended by using both together. Raḥmān is used only to describe Allāh, while raḥeem might be used to describe a person as well. The Prophet (ﷺ) was described in the Qur’ān as raḥeem. Raḥmān is above the human level (i.e., intensely merciful) . Since one usually understands intensity to be something of short duration, Allāh describes Himself also as raḥeem (i.e., continually merciful) . Raḥmān also carries a wider meaning - merciful to all creation. Justice is a part of this mercy. Raḥeem includes the concept of speciality - especially and specifically merciful to the believers. Forgiveness is a part of this mercy. In addition, Raḥmān is adjectival, referring to an attribute of Allāh and is part of His essence. Raḥeem is verbal, indicating what He does: i.e., bestowing and implementing mercy.",
+     "arabic_moyassar": "أبتدئ قراءة القرآن باسم الله مستعينا به، (اللهِ) علم على الرب -تبارك وتعالى- المعبود بحق دون سواه، وهو أخص أسماء الله تعالى، ولا يسمى به غيره سبحانه. (الرَّحْمَنِ) ذي الرحمة العامة الذي وسعت رحمته جميع الخلق، (الرَّحِيمِ) بالمؤمنين، وهما اسمان من أسمائه تعالى، يتضمنان إثبات صفة الرحمة لله تعالى كما يليق بجلاله.",
+     "arabic_moyassar_footnotes": ""
+    },
+    {
+     "n": 2,
+     "key": "1:2",
+     "ar": "ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ",
+     "english_saheeh": "[All] praise is [due] to Allāh, Lord[4] of the worlds -",
+     "english_saheeh_footnotes": "[4] When referring to Allāh (subḥānahu wa taʿālā) , the Arabic term \"rabb\" (translated as \"Lord\") includes all of the following meanings: \"owner, master, ruler, controller, sustainer, provider, guardian and caretaker.\"",
+     "arabic_moyassar": "الثناء على الله بصفاته التي كلُّها أوصاف كمال، وبنعمه الظاهرة والباطنة، الدينية والدنيوية، وفي ضمنه أَمْرٌ لعباده أن يحمدوه، فهو المستحق له وحده، وهو سبحانه المنشئ للخلق، القائم بأمورهم، المربي لجميع خلقه بنعمه، ولأوليائه بالإيمان والعمل الصالح.",
+     "arabic_moyassar_footnotes": ""
+    },
+    {
+     "n": 3,
+     "key": "1:3",
+     "ar": "ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+     "english_saheeh": "The Entirely Merciful, the Especially Merciful,",
+     "english_saheeh_footnotes": "",
+     "arabic_moyassar": "(الرَّحْمَنِ) ذي الرحمة العامة الذي وسعت رحمته جميع الخلق، (الرَّحِيمِ) ، بالمؤمنين، وهما اسمان من أسماء الله تعالى.",
+     "arabic_moyassar_footnotes": ""
+    },
+    {
+     "n": 4,
+     "key": "1:4",
+     "ar": "مَٰلِكِ يَوۡمِ ٱلدِّينِ",
+     "english_saheeh": "Sovereign of the Day of Recompense.[5]",
+     "english_saheeh_footnotes": "[5] i.e., repayment and compensation for whatever was earned of good or evil during life on this earth.",
+     "arabic_moyassar": "وهو سبحانه وحده مالك يوم القيامة، وهو يوم الجزاء على الأعمال. وفي قراءة المسلم لهذه الآية في كل ركعة من صلواته تذكير له باليوم الآخر، وحثٌّ له على الاستعداد بالعمل الصالح، والكف عن المعاصي والسيئات.",
+     "arabic_moyassar_footnotes": ""
+    },
+    {
+     "n": 5,
+     "key": "1:5",
+     "ar": "إِيَّاكَ نَعۡبُدُ وَإِيَّاكَ نَسۡتَعِينُ",
+     "english_saheeh": "It is You we worship and You we ask for help.",
+     "english_saheeh_footnotes": "",
+     "arabic_moyassar": "إنا نخصك وحدك بالعبادة، ونستعين بك وحدك في جميع أمورنا، فالأمر كله بيدك، لا يملك منه أحد مثقال ذرة. وفي هذه الآية دليل على أن العبد لا يجوز له أن يصرف شيئًا من أنواع العبادة كالدعاء والاستغاثة والذبح والطواف إلا لله وحده، وفيها شفاء القلوب من داء التعلق بغير الله، ومن أمراض الرياء والعجب، والكبرياء.",
+     "arabic_moyassar_footnotes": ""
+    },
+    {
+     "n": 6,
+     "key": "1:6",
+     "ar": "ٱهۡدِنَا ٱلصِّرَٰطَ ٱلۡمُسۡتَقِيمَ",
+     "english_saheeh": "Guide us to the straight path -",
+     "english_saheeh_footnotes": "",
+     "arabic_moyassar": "دُلَّنا، وأرشدنا، ووفقنا إلى الطريق المستقيم، وثبتنا عليه حتى نلقاك، وهو الإسلام، الذي هو الطريق الواضح الموصل إلى رضوان الله وإلى جنته، الذي دلّ عليه خاتم رسله وأنبيائه محمد صلى الله عليه وسلم، فلا سبيل إلى سعادة العبد إلا بالاستقامة عليه.",
+     "arabic_moyassar_footnotes": ""
+    },
+    {
+     "n": 7,
+     "key": "1:7",
+     "ar": "صِرَٰطَ ٱلَّذِينَ أَنۡعَمۡتَ عَلَيۡهِمۡ غَيۡرِ ٱلۡمَغۡضُوبِ عَلَيۡهِمۡ وَلَا ٱلضَّآلِّينَ",
+     "english_saheeh": "The path of those upon whom You have bestowed favor, not of those who have earned [Your] anger or of those who are astray.",
+     "english_saheeh_footnotes": "",
+     "arabic_moyassar": "طريق الذين أنعمت عليهم من النبيين والصدِّيقين والشهداء والصالحين، فهم أهل الهداية والاستقامة، ولا تجعلنا ممن سلك طريق المغضوب عليهم، الذين عرفوا الحق ولم يعملوا به، وهم اليهود، ومن كان على شاكلتهم، والضالين، وهم الذين لم يهتدوا عن جهل منهم، فضلوا الطريق، وهم النصارى، ومن اتبع سنتهم. وفي هذا الدعاء شفاء لقلب المسلم من مرض الجحود والجهل والضلال، ودلالة على أن أعظم نعمة على الإطلاق هي نعمة الإسلام، فمن كان أعرف للحق وأتبع له، كان أولى بالصراط المستقيم، ولا ريب أن أصحاب رسول الله صلى الله عليه وسلم هم أولى الناس بذلك بعد الأنبياء عليهم السلام، فدلت الآية على فضلهم، وعظيم منزلتهم، رضي الله عنهم.",
+     "arabic_moyassar_footnotes": ""
+    }
+   ],
+   "sources": {
+    "text": "https://api.quran.com/api/v4/verses/by_chapter/1?fields=text_qpc_hafs&per_page=300&page=1",
+    "english_saheeh": "https://quranenc.com/api/v1/translation/sura/english_saheeh/1",
+    "arabic_moyassar": "https://quranenc.com/api/v1/translation/sura/arabic_moyassar/1"
+   }
+  },
+  {
+   "n": 112,
+   "ar": "الإخلاص",
+   "en": "Al-Ikhlas",
+   "ayahs": [
+    {
+     "n": 1,
+     "key": "112:1",
+     "ar": "قُلۡ هُوَ ٱللَّهُ أَحَدٌ",
+     "english_saheeh": "Say, \"He is Allāh, [who is] One,[2011]",
+     "english_saheeh_footnotes": "[2011] Alone, without another, indivisible with absolute and permanent unity and distinct from all else. The one and only true deity, unique in His essence, attributes and deeds.",
+     "arabic_moyassar": "قل -أيها الرسول-: هو الله المتفرد بالألوهية والربوبية والأسماء والصفات، لا يشاركه أحد فيها.",
+     "arabic_moyassar_footnotes": ""
+    },
+    {
+     "n": 2,
+     "key": "112:2",
+     "ar": "ٱللَّهُ ٱلصَّمَدُ",
+     "english_saheeh": "Allāh, the Eternal Refuge.[2012]",
+     "english_saheeh_footnotes": "[2012] He who is absolute, perfect, complete, essential, self-sufficient and sufficient to meet the needs of all creation; the one eternally and constantly required and sought, depended upon by all existence and to whom all matters will ultimately return.",
+     "arabic_moyassar": "الله الذي كَمُل في صفات الشَّرَف والمجد والعظمة، الذي يقصده الخلائق في قضاء الحوائج والرغائب.",
+     "arabic_moyassar_footnotes": ""
+    },
+    {
+     "n": 3,
+     "key": "112:3",
+     "ar": "لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ",
+     "english_saheeh": "He neither begets nor is born,",
+     "english_saheeh_footnotes": "",
+     "arabic_moyassar": "ليس له ولد ولا والد ولا صاحبة.",
+     "arabic_moyassar_footnotes": ""
+    },
+    {
+     "n": 4,
+     "key": "112:4",
+     "ar": "وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ",
+     "english_saheeh": "Nor is there to Him any equivalent.\"",
+     "english_saheeh_footnotes": "",
+     "arabic_moyassar": "ولم يكن له مماثلا ولا مشابهًا أحد من خلقه، لا في أسمائه ولا في صفاته، ولا في أفعاله، تبارك وتعالى وتقدَّس.",
+     "arabic_moyassar_footnotes": ""
+    }
+   ],
+   "sources": {
+    "text": "https://api.quran.com/api/v4/verses/by_chapter/112?fields=text_qpc_hafs&per_page=300&page=1",
+    "english_saheeh": "https://quranenc.com/api/v1/translation/sura/english_saheeh/112",
+    "arabic_moyassar": "https://quranenc.com/api/v1/translation/sura/arabic_moyassar/112"
+   }
+  },
+  {
+   "n": 113,
+   "ar": "الفلق",
+   "en": "Al-Falaq",
+   "ayahs": [
+    {
+     "n": 1,
+     "key": "113:1",
+     "ar": "قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ",
+     "english_saheeh": "Say, \"I seek refuge in the Lord of daybreak",
+     "english_saheeh_footnotes": "",
+     "arabic_moyassar": "قل -أيها الرسول-: أعوذ وأعتصم برب الفلق، وهو الصبح.",
+     "arabic_moyassar_footnotes": ""
+    },
+    {
+     "n": 2,
+     "key": "113:2",
+     "ar": "مِن شَرِّ مَا خَلَقَ",
+     "english_saheeh": "From the evil of that which He created",
+     "english_saheeh_footnotes": "",
+     "arabic_moyassar": "من شر جميع المخلوقات وأذاها.",
+     "arabic_moyassar_footnotes": ""
+    },
+    {
+     "n": 3,
+     "key": "113:3",
+     "ar": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+     "english_saheeh": "And from the evil of darkness when it settles",
+     "english_saheeh_footnotes": "",
+     "arabic_moyassar": "ومن شر ليل شديد الظلمة إذا دخل وتغلغل، وما فيه من الشرور والمؤذيات.",
+     "arabic_moyassar_footnotes": ""
+    },
+    {
+     "n": 4,
+     "key": "113:4",
+     "ar": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ",
+     "english_saheeh": "And from the evil of the blowers in knots[2014]",
+     "english_saheeh_footnotes": "[2014] i.e., those who practice magic.",
+     "arabic_moyassar": "ومن شر الساحرات اللاتي ينفخن فيما يعقدن من عُقَد بقصد السحر.",
+     "arabic_moyassar_footnotes": ""
+    },
+    {
+     "n": 5,
+     "key": "113:5",
+     "ar": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+     "english_saheeh": "And from the evil of an envier when he envies.\"",
+     "english_saheeh_footnotes": "",
+     "arabic_moyassar": "ومن شر حاسد مبغض للناس إذا حسدهم على ما وهبهم الله من نعم، وأراد زوالها عنهم، وإيقاع الأذى بهم.",
+     "arabic_moyassar_footnotes": ""
+    }
+   ],
+   "sources": {
+    "text": "https://api.quran.com/api/v4/verses/by_chapter/113?fields=text_qpc_hafs&per_page=300&page=1",
+    "english_saheeh": "https://quranenc.com/api/v1/translation/sura/english_saheeh/113",
+    "arabic_moyassar": "https://quranenc.com/api/v1/translation/sura/arabic_moyassar/113"
+   }
+  },
+  {
+   "n": 114,
+   "ar": "الناس",
+   "en": "An-Nas",
+   "ayahs": [
+    {
+     "n": 1,
+     "key": "114:1",
+     "ar": "قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+     "english_saheeh": "Say, \"I seek refuge in the Lord of mankind,",
+     "english_saheeh_footnotes": "",
+     "arabic_moyassar": "قل -أيها الرسول-: أعوذ وأعتصم برب الناس، القادر وحده على ردِّ شر الوسواس.",
+     "arabic_moyassar_footnotes": ""
+    },
+    {
+     "n": 2,
+     "key": "114:2",
+     "ar": "مَلِكِ ٱلنَّاسِ",
+     "english_saheeh": "The Sovereign of mankind,",
+     "english_saheeh_footnotes": "",
+     "arabic_moyassar": "ملك الناس المتصرف في كل شؤونهم، الغنيِّ عنهم.",
+     "arabic_moyassar_footnotes": ""
+    },
+    {
+     "n": 3,
+     "key": "114:3",
+     "ar": "إِلَٰهِ ٱلنَّاسِ",
+     "english_saheeh": "The God of mankind,",
+     "english_saheeh_footnotes": "",
+     "arabic_moyassar": "إله الناس الذي لا معبود بحق سواه.",
+     "arabic_moyassar_footnotes": ""
+    },
+    {
+     "n": 4,
+     "key": "114:4",
+     "ar": "مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ",
+     "english_saheeh": "From the evil of the retreating whisperer[2016] -",
+     "english_saheeh_footnotes": "[2016] i.e., a devil who makes evil suggestions to man but disappears when one remembers Allāh.",
+     "arabic_moyassar": "من أذى الشيطان الذي يوسوس عند الغفلة، ويختفي عند ذكر الله.",
+     "arabic_moyassar_footnotes": ""
+    },
+    {
+     "n": 5,
+     "key": "114:5",
+     "ar": "ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ",
+     "english_saheeh": "Who whispers [evil] into the breasts of mankind -",
+     "english_saheeh_footnotes": "",
+     "arabic_moyassar": "الذي يبثُّ الشر والشكوك في صدور الناس.",
+     "arabic_moyassar_footnotes": ""
+    },
+    {
+     "n": 6,
+     "key": "114:6",
+     "ar": "مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ",
+     "english_saheeh": "From among the jinn and mankind.\"[2017]",
+     "english_saheeh_footnotes": "[2017] Evil prompters may be from men as well as from jinn.",
+     "arabic_moyassar": "من شياطين الجن والإنس.",
+     "arabic_moyassar_footnotes": ""
+    }
+   ],
+   "sources": {
+    "text": "https://api.quran.com/api/v4/verses/by_chapter/114?fields=text_qpc_hafs&per_page=300&page=1",
+    "english_saheeh": "https://quranenc.com/api/v1/translation/sura/english_saheeh/114",
+    "arabic_moyassar": "https://quranenc.com/api/v1/translation/sura/arabic_moyassar/114"
+   }
+  }
+ ]
+}

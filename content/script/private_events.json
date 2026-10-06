@@ -1,0 +1,149 @@
+{
+  "location": "private_events",
+  "title": {
+    "ar": "السبت — بيت الجيران",
+    "en": "Saturday — The Neighbours' Home"
+  },
+  "time_of_day": "10:00",
+  "intro": {
+    "ar": "صباحُ السبت في حيّ السلام. الشارع السكنيّ هادئ، وعلى الحواف بقايا ثلج. في أحد بيوت الجيران يعيش العمّ صالح وابنته سَلْمى. واليوم يطرق آدم بابهم لأمرٍ مهمّ.",
+    "en": "Saturday morning in Al-Salam neighbourhood. The residential street is quiet, with old snow along the edges. In one of the neighbours' homes live Uncle Saleh and his daughter Salma. Today Adam knocks on their door for something important."
+  },
+  "situations": [
+    {
+      "ruling_id": "private_events.proposal",
+      "hotspot": "harris_porch",
+      "npc": {
+        "id": "omar",
+        "name": {
+          "ar": "العمّ صالح",
+          "en": "Uncle Saleh"
+        },
+        "role": {
+          "ar": "والد سَلْمى وجار آدم",
+          "en": "Salma's father and Adam's neighbour"
+        }
+      },
+      "setup": {
+        "ar": "أمسِ قال آدم لجارته سَلْمى إنه يريد الزواج منها. أجابته بهدوء: إن كنتَ جادًّا فكلِّمْ أبي. وأضافت بوضوح: أنا لا أتزوّج إلا مسلمًا. اليوم يقف آدم عند باب أبيها، ومعه علبة صغيرة فيها خاتم، وضعها على الطاولة قرب الباب.",
+        "en": "Yesterday Adam told his neighbour Salma that he wished to marry her. She answered calmly: if you are serious, speak to my father. Then she added clearly: I will only marry a Muslim. Today Adam stands at her father's door. He has brought a small box with a ring, and set it on the table by the door."
+      },
+      "dialogue": [
+        {
+          "speaker": "omar",
+          "ar": "أهلًا بك يا آدم، تفضّل. أخبرتني سَلْمى بما قلتَه لها. أشكرك لأنك جئتَ إلى الباب بوضوحٍ واحترام.",
+          "en": "Welcome, Adam, please come in. Salma told me what you said to her. Thank you for coming to the door openly and respectfully."
+        },
+        {
+          "speaker": "adam",
+          "ar": "كنتُ متوتّرًا يا عمّ صالح. لماذا أرسلتني إليك؟ أليس القرار قرارها؟",
+          "en": "I was nervous, Uncle Saleh. Why did she send me to you? Isn't it her decision?"
+        },
+        {
+          "speaker": "omar",
+          "ar": "رأيُها أساسٌ لا نتجاوزه. لكنّ الوَلِيّ يقف معها: يسأل عن الخاطب، ويحفظ حقوقها، ويحمل معها المسؤولية.",
+          "en": "Her choice is essential, and we never go around it. But the wali stands beside her. He asks about the suitor, protects her rights, and shares the responsibility with her."
+        },
+        {
+          "speaker": "adam",
+          "ar": "وماذا قصدتْ حين قالت إنها لا تتزوّج إلا مسلمًا؟",
+          "en": "And what did she mean when she said she will only marry a Muslim?"
+        },
+        {
+          "speaker": "omar",
+          "ar": "علماءُ المسلمين مُجمِعون على أنّ المسلمة لا تتزوّج إلا مسلمًا. فالبيت يقوم على إيمانٍ مشترك، يُربّي عليه الوالدان أبناءهما.",
+          "en": "Muslim scholars agree that a Muslim woman marries only a Muslim man. A home rests on a shared faith, and both parents raise their children on it."
+        },
+        {
+          "speaker": "omar",
+          "ar": "وليس هذا حُكمًا عليك يا بُنيّ، فأنت جارٌ كريم. لكنّ الإسلام قناعةُ قلب، لا ورقةٌ تُوقَّع من أجل زواج.",
+          "en": "This is not a judgement on you, son. You are a good neighbour. But Islam is a conviction of the heart, not a paper signed for a wedding."
+        },
+        {
+          "speaker": "narrator",
+          "ar": "ينظر آدم إلى علبة الخاتم على الطاولة الصغيرة. يبتسم العمّ صالح ابتسامةً هادئة.",
+          "en": "Adam glances at the ring box on the small table. Uncle Saleh gives a calm smile."
+        },
+        {
+          "speaker": "omar",
+          "ar": "الخاتم هديّةٌ لطيفة. أمّا المَهْر فواجب: مالٌ يقدّمه الزوج لزوجته، وهو حقّها وحدها، لا يأخذه أبوها ولا غيره.",
+          "en": "The ring is a kind gift. The mahr, though, is required. It is wealth the husband gives his wife, and it is hers alone, not her father's or anyone else's."
+        },
+        {
+          "speaker": "omar",
+          "ar": "ثم يأتي العَقْد. عند جمهور العلماء يعقده الوَلِيّ بحضور شاهِدَيْن، ويُعلَن الزواج ولا يُخفى.",
+          "en": "Then comes the contract. Most scholars hold that the wali concludes it before two witnesses, and the marriage is announced, never hidden."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": {
+            "ar": "أشكره بأدب، وأستأذن لأفكّر وحدي.",
+            "en": "Thank him politely and excuse yourself to think it over alone."
+          },
+          "quality": "acceptable",
+          "consequence": {
+            "ar": "ودّعه العمّ صالح بلطف، وقال إنّ بيتهم مفتوحٌ له جارًا في كل حال. مشى آدم إلى بيته يفكّر. كان موقفه مهذّبًا، لكنه لم يسأل عن معنى المَهْر والعقد، ولا عن سبب أهمية الإيمان المشترك.",
+            "en": "Uncle Saleh saw him off kindly and said their home is open to him as a neighbour, whatever happens. Adam walked home thinking. He was polite, but he never asked what the mahr and the contract mean, or why shared faith matters so much."
+          },
+          "points": 5
+        },
+        {
+          "id": "b",
+          "label": {
+            "ar": "شكرًا لصراحتك يا عمّ صالح. لن أدّعي إيمانًا لا أحمله. هل تساعدني أن أفهم الإسلام بنفسي، دون استعجال؟",
+            "en": "Thank you for being honest, Uncle Saleh. I won't claim a faith I don't hold. Will you help me understand Islam for myself, without rushing?"
+          },
+          "quality": "best",
+          "consequence": {
+            "ar": "أشرق وجه العمّ صالح وقال: هذا جوابُ رجلٍ صادق. ثم دعاه إلى درسٍ تعريفيّ في المسجد. قال: ادرسْ لنفسك أوّلًا، لا من أجل أحد. فإن اقتنعتَ فالباب مفتوح، والقرار بعد ذلك لسَلْمى. خرج آدم وفي قلبه سؤالٌ صادق.",
+            "en": "Uncle Saleh's face brightened. That is the answer of an honest man, he said, and invited Adam to an introductory class at the mosque. Study for yourself first, not for anyone else. If you become convinced, the door is open, and then the choice is Salma's. Adam left with an honest question in his heart."
+          },
+          "points": 10
+        },
+        {
+          "id": "c",
+          "label": {
+            "ar": "لا مشكلة، سأقول إنني مسلم من أجل الأوراق فقط، ثم نتزوّج.",
+            "en": "No problem. I'll just say I'm Muslim for the paperwork, and then we can marry."
+          },
+          "quality": "wrong",
+          "consequence": {
+            "ar": "هزّ العمّ صالح رأسه بهدوء وقال: لا يا بُنيّ، لا أريدك أن تقول ما لا تؤمن به، ولا أريد لابنتي بيتًا يبدأ بشيءٍ غير صادق. فالإيمان عند المسلمين قناعةٌ يختارها الإنسان بحرّية، لا إجراءٌ يُكمَل من أجل زواج.",
+            "en": "Uncle Saleh gently shook his head. No, son. I don't want you to say what you don't believe, and I don't want my daughter's home to begin with something untrue. For Muslims, faith is a conviction freely chosen, not a step completed for a wedding."
+          },
+          "points": 0
+        }
+      ],
+      "check_question": {
+        "q": {
+          "ar": "أيُّ عبارةٍ صحيحة عن الزواج في الإسلام؟",
+          "en": "Which statement about marriage in Islam is correct?"
+        },
+        "options": [
+          {
+            "ar": "المَهْر مالٌ يدفعه أهل العروس إلى العريس",
+            "en": "The mahr is money the bride's family pays to the groom",
+            "correct": false
+          },
+          {
+            "ar": "المسلمة لا تتزوّج إلا مسلمًا بإجماع العلماء، والمَهْر حقٌّ لها وحدها",
+            "en": "By scholarly consensus a Muslim woman marries only a Muslim man, and the mahr belongs to her alone",
+            "correct": true
+          },
+          {
+            "ar": "الوَلِيّ يأخذ المَهْر لنفسه مقابل موافقته",
+            "en": "The wali keeps the mahr for himself in return for his consent",
+            "correct": false
+          }
+        ]
+      }
+    }
+  ],
+  "outro": {
+    "ar": "في المساء يعود آدم إلى بيته في الشارع الهادئ، وعلبة الخاتم في جيبه. يتذكّر كلمات العمّ صالح: المَهْر حقّ للمرأة، والعقد أمانة، والإيمان قناعة لا مجاملة. لم يتغيّر كل شيء في يوم واحد، لكنه صار يفهم جيرانه أكثر.",
+    "en": "In the evening Adam walks home along the quiet street, the ring box in his pocket. He remembers Uncle Saleh's words: the mahr is the woman's right, the contract is a trust, and faith is a conviction, not a courtesy. Not everything changed in one day, but he understands his neighbours better now."
+  },
+  "next_location": null
+}

@@ -1,0 +1,141 @@
+/* GENERATED from src/brand/tokens.json by `node src/brand/build.mjs` — edit the JSON, not this file.
+   Yawmuk (يومك) design tokens. Prefix --yk-*. Dark (lantern glass over the 3D scene) is the default theme;
+   add data-yk-theme='light' (or class yk-theme-light) to any container for the paper theme. See docs/BRAND.md. */
+:root {
+  /* primitives */
+  --yk-ink-950: #061314;
+  --yk-ink-900: #0A1D1F;
+  --yk-ink-800: #0E2628;
+  --yk-ink-700: #143335;
+  --yk-ink-600: #1B4143;
+  --yk-ink-500: #2A5658;
+  --yk-sun-200: #FCE6B0;
+  --yk-sun-300: #F6CF7E;
+  --yk-sun-400: #EDB04A;
+  --yk-sun-600: #A8742A;
+  --yk-sun-800: #6B4812;
+  --yk-sun-ink: #1E1404;
+  --yk-olive-300: #78D1B0;
+  --yk-olive-500: #2F8F74;
+  --yk-olive-700: #1C6352;
+  --yk-sand-50: #FCF8EF;
+  --yk-sand-100: #F4ECDB;
+  --yk-sand-300: #DCCDB0;
+  --yk-mist: #B9C7C1;
+  --yk-clay-300: #F2A68E;
+  --yk-clay-400: #E8846B;
+  --yk-clay-700: #A63F26;
+  --yk-dusk-300: #A9C9EC;
+  --yk-dusk-700: #2C5A85;
+  --yk-leaf-400: #62D08E;
+  --yk-leaf-700: #1B6E40;
+  --yk-white: #FFFFFF;
+  /* semantic roles — dark (default) */
+  --yk-bg: #0A1D1F;
+  --yk-surface: #0E2628;
+  --yk-raised: #143335;
+  --yk-sunken: #061314;
+  --yk-line: rgba(244, 236, 219, 0.13);
+  --yk-line-strong: #6A8984;
+  --yk-text: #F4ECDB;
+  --yk-text-soft: #DCCDB0;
+  --yk-muted: #B9C7C1;
+  --yk-accent: #EDB04A;
+  --yk-accent-hi: #F6CF7E;
+  --yk-on-accent: #1E1404;
+  --yk-teal: #78D1B0;
+  --yk-info: #A9C9EC;
+  --yk-ok: #62D08E;
+  --yk-warn: #F6CF7E;
+  --yk-danger: #F2A68E;
+  --yk-focus: #F6CF7E;
+  /* ruling verdict fills */
+  --yk-verdict-haram: #B8352A;
+  --yk-verdict-makruh: #B04A0C;
+  --yk-verdict-mubah: #22704A;
+  --yk-verdict-halal: #1D7A45;
+  --yk-verdict-mustahab: #0F7060;
+  --yk-verdict-wajib: #1F5F8B;
+  --yk-verdict-disputed: #E2C25A;
+  --yk-verdict-depends: #276FA0;
+  --yk-verdict-unknown: #56677A;
+  /* day-cycle scene palette (one set per prayer time) */
+  --yk-scene-fajr-sky: #2B3D66;
+  --yk-scene-fajr-horizon: #E9A27C;
+  --yk-scene-fajr-sun: #FFD9A8;
+  --yk-scene-fajr-ambient: #5A6A8E;
+  --yk-scene-duha-sky: #9CCBEB;
+  --yk-scene-duha-horizon: #F4E6C8;
+  --yk-scene-duha-sun: #FFF1CF;
+  --yk-scene-duha-ambient: #CFE0E6;
+  --yk-scene-dhuhr-sky: #7FB8E6;
+  --yk-scene-dhuhr-horizon: #E8F1F4;
+  --yk-scene-dhuhr-sun: #FFFFFF;
+  --yk-scene-dhuhr-ambient: #E4ECEA;
+  --yk-scene-asr-sky: #8DB9DA;
+  --yk-scene-asr-horizon: #F6D9A0;
+  --yk-scene-asr-sun: #FFE3A3;
+  --yk-scene-asr-ambient: #E9D8B6;
+  --yk-scene-maghrib-sky: #4F4C7E;
+  --yk-scene-maghrib-horizon: #EE8E5E;
+  --yk-scene-maghrib-sun: #FFB27A;
+  --yk-scene-maghrib-ambient: #9C7B86;
+  --yk-scene-isha-sky: #0B1A33;
+  --yk-scene-isha-horizon: #1F3557;
+  --yk-scene-isha-sun: #C9D6F0;
+  --yk-scene-isha-ambient: #2A3A55;
+  /* type */
+  --yk-font-ui: 'IBM Plex Sans Arabic', 'Segoe UI', Tahoma, system-ui, sans-serif;
+  --yk-font-display: 'Reem Kufi', 'IBM Plex Sans Arabic', 'Segoe UI', Tahoma, sans-serif;
+  --yk-font-quran: 'Amiri Quran', Amiri, 'Noto Naskh Arabic', 'Scheherazade New', 'Traditional Arabic', serif;
+  --yk-font-hadith: Amiri, 'Noto Naskh Arabic', 'Scheherazade New', 'Traditional Arabic', serif;
+  --yk-font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --yk-size-hero: clamp(2.6rem, 6vw, 3.6rem);
+  --yk-size-h-1: clamp(1.6rem, 3.4vw, 2.2rem);
+  --yk-size-h-2: 1.4rem;
+  --yk-size-h-3: 1.04rem;
+  --yk-size-body: 1rem;
+  --yk-size-small: 0.88rem;
+  --yk-size-caption: 0.8rem;
+  /* shape, depth, motion */
+  --yk-radius-control: 12px;
+  --yk-radius-card: 14px;
+  --yk-radius-panel: 22px;
+  --yk-radius-pill: 999px;
+  --yk-shadow-edge-hi: inset 0 1px 0 rgba(255, 255, 255, 0.09);
+  --yk-shadow-edge-lo: inset 0 -1px 0 rgba(0, 0, 0, 0.35);
+  --yk-shadow-depth-1: 0 1px 2px rgba(0, 0, 0, 0.3), 0 4px 10px -2px rgba(0, 0, 0, 0.35);
+  --yk-shadow-depth-2: 0 2px 4px rgba(0, 0, 0, 0.25), 0 12px 28px -6px rgba(0, 0, 0, 0.5);
+  --yk-shadow-depth-3: 0 4px 8px rgba(0, 0, 0, 0.25), 0 28px 70px -14px rgba(0, 0, 0, 0.7);
+  --yk-shadow-glow: 0 0 14px rgba(237, 176, 74, 0.55);
+  --yk-motion-fast: 120ms;
+  --yk-motion-base: 220ms;
+  --yk-motion-slow: 450ms;
+  --yk-motion-ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --yk-motion-spring: cubic-bezier(0.2, 1.25, 0.35, 1);
+  --yk-motion-day-arc: 2.4s;
+}
+:where([data-yk-theme='light'], .yk-theme-light) {
+  --yk-bg: #FCF8EF;
+  --yk-surface: #F4ECDB;
+  --yk-raised: #FFFFFF;
+  --yk-sunken: #EFE5CF;
+  --yk-line: #E4D8BF;
+  --yk-line-strong: #8C7F66;
+  --yk-text: #0A1D1F;
+  --yk-text-soft: #2E4442;
+  --yk-muted: #4F5F5B;
+  --yk-accent: #1C6352;
+  --yk-accent-hi: #134A3D;
+  --yk-on-accent: #FFFFFF;
+  --yk-teal: #1C6352;
+  --yk-info: #2C5A85;
+  --yk-ok: #1B6E40;
+  --yk-warn: #7D4E06;
+  --yk-danger: #A63F26;
+  --yk-focus: #1C6352;
+  color-scheme: light;
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --yk-motion-fast: 0ms; --yk-motion-base: 0ms; --yk-motion-slow: 0ms; }
+}

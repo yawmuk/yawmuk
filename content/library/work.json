@@ -1,0 +1,583 @@
+[
+  {
+    "id": "work.alcohol_pork_job",
+    "location": "work",
+    "title": {
+      "ar": "وظيفة جانبية: تقديم الخمر والخنزير أو برمجة تطبيق لمصنع جعة",
+      "en": "Side Job: Serving Alcohol and Pork, or Building an App for a Brewery"
+    },
+    "question": {
+      "ar": "هل يجوز العمل نادلاً يقدّم الخمر أو لحم الخنزير، أو سائق توصيل يحملهما، أو مبرمجاً يكتب تطبيقاً لمصنع جعة أو متجر خمور؟",
+      "en": "May a Muslim work as a server bringing alcohol or pork, as a delivery driver carrying them, or as a programmer building an app for a brewery or liquor store?"
+    },
+    "verdict": "depends",
+    "content_level": "C",
+    "verdict_scope": {
+      "ar": "تقديم الخمر وسقيها وبيعها وحملها لمن يشربها محرم بالنص عند الجمهور. أما العمل غير المباشر (كبرمجة تطبيق لمصنع جعة) فداخل في مسألة «الإعانة على المعصية» وفيه خلاف معاصر؛ والحكم فيه يتوقف على تفاصيل العمل، فلا نرجّح فيه لحالة بعينها.",
+      "en": "Serving, pouring, selling or carrying alcohol for someone who will drink it is prohibited by the texts according to the majority. Indirect work (such as coding an app for a brewery) falls under \"aiding wrongdoing\", on which contemporary scholars differ; the answer depends on the details of the job, so we do not decide it for an individual case."
+    },
+    "summary": {
+      "ar": "تقديم الخمر وسقيها وبيعها وحملها لمن يشربها محرم بالنص، فالنبي ﷺ لعن ساقيها وحاملها وبائعها وآكل ثمنها، وهذا قول الجمهور، وخالف أبو حنيفة في الحمل بأجرة لأن المعصية تقع بفعل فاعل مختار. أما العمل غير المباشر كبرمجة تطبيق لمصنع جعة فداخل في مسألة «الإعانة على المعصية»، وفيه خلاف معاصر بين من يمنعه ومن يجيز التسبب البعيد مع الكراهة. والأسلم تركه إن وُجد بديل.",
+      "en": "Serving, pouring, selling, or carrying alcohol for someone to drink is prohibited by text: the Prophet ﷺ cursed its server, carrier, seller and the one who consumes its price. This is the majority view; Abu Hanifa differed on paid carrying, since the sin happens through another person's free choice. Indirect work, such as building an app for a brewery, falls under \"assisting in sin\", on which contemporary scholars differ: some prohibit it, others allow remote causation with dislike. The safer course is to avoid it if an alternative exists."
+    },
+    "quran": [
+      {
+        "surah": 5,
+        "surah_name_ar": "المائدة",
+        "ayah": "90",
+        "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓاْ إِنَّمَا ٱلۡخَمۡرُ وَٱلۡمَيۡسِرُ وَٱلۡأَنصَابُ وَٱلۡأَزۡلَٰمُ رِجۡسٞ مِّنۡ عَمَلِ ٱلشَّيۡطَٰنِ فَٱجۡتَنِبُوهُ لَعَلَّكُمۡ تُفۡلِحُونَ",
+        "translation_en": "O you who have believed, indeed, intoxicants, gambling, [sacrificing on] stone alters [to other than Allāh], and divining arrows are but defilement from the work of Satan, so avoid it that you may be successful.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/5#90"
+      },
+      {
+        "surah": 5,
+        "surah_name_ar": "المائدة",
+        "ayah": "2",
+        "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تُحِلُّواْ شَعَٰٓئِرَ ٱللَّهِ وَلَا ٱلشَّهۡرَ ٱلۡحَرَامَ وَلَا ٱلۡهَدۡيَ وَلَا ٱلۡقَلَٰٓئِدَ وَلَآ ءَآمِّينَ ٱلۡبَيۡتَ ٱلۡحَرَامَ يَبۡتَغُونَ فَضۡلٗا مِّن رَّبِّهِمۡ وَرِضۡوَٰنٗاۚ وَإِذَا حَلَلۡتُمۡ فَٱصۡطَادُواْۚ وَلَا يَجۡرِمَنَّكُمۡ شَنَـَٔانُ قَوۡمٍ أَن صَدُّوكُمۡ عَنِ ٱلۡمَسۡجِدِ ٱلۡحَرَامِ أَن تَعۡتَدُواْۘ وَتَعَاوَنُواْ عَلَى ٱلۡبِرِّ وَٱلتَّقۡوَىٰۖ وَلَا تَعَاوَنُواْ عَلَى ٱلۡإِثۡمِ وَٱلۡعُدۡوَٰنِۚ وَٱتَّقُواْ ٱللَّهَۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلۡعِقَابِ",
+        "translation_en": "O you who have believed, do not violate the rites of Allāh or [the sanctity of] the sacred month or [neglect the marking of] the sacrificial animals and garlanding [them] or [violate the safety of] those coming to the Sacred House seeking bounty from their Lord and [His] approval. But when you come out of iḥrām, then [you may] hunt. And do not let the hatred of a people for having obstructed you from al-Masjid al-Ḥarām lead you to transgress. And cooperate in righteousness and piety, but do not cooperate in sin and aggression. And fear Allāh; indeed, Allāh is severe in penalty.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/5#2"
+      },
+      {
+        "surah": 5,
+        "surah_name_ar": "المائدة",
+        "ayah": "3",
+        "text_ar": "حُرِّمَتۡ عَلَيۡكُمُ ٱلۡمَيۡتَةُ وَٱلدَّمُ وَلَحۡمُ ٱلۡخِنزِيرِ وَمَآ أُهِلَّ لِغَيۡرِ ٱللَّهِ بِهِۦ وَٱلۡمُنۡخَنِقَةُ وَٱلۡمَوۡقُوذَةُ وَٱلۡمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ وَمَآ أَكَلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيۡتُمۡ وَمَا ذُبِحَ عَلَى ٱلنُّصُبِ وَأَن تَسۡتَقۡسِمُواْ بِٱلۡأَزۡلَٰمِۚ ذَٰلِكُمۡ فِسۡقٌۗ ٱلۡيَوۡمَ يَئِسَ ٱلَّذِينَ كَفَرُواْ مِن دِينِكُمۡ فَلَا تَخۡشَوۡهُمۡ وَٱخۡشَوۡنِۚ ٱلۡيَوۡمَ أَكۡمَلۡتُ لَكُمۡ دِينَكُمۡ وَأَتۡمَمۡتُ عَلَيۡكُمۡ نِعۡمَتِي وَرَضِيتُ لَكُمُ ٱلۡإِسۡلَٰمَ دِينٗاۚ فَمَنِ ٱضۡطُرَّ فِي مَخۡمَصَةٍ غَيۡرَ مُتَجَانِفٖ لِّإِثۡمٖ فَإِنَّ ٱللَّهَ غَفُورٞ رَّحِيمٞ",
+        "translation_en": "Prohibited to you are dead animals, blood, the flesh of swine, and that which has been dedicated to other than Allāh, and [those animals] killed by strangling or by a violent blow or by a head-long fall or by the goring of horns, and those from which a wild animal has eaten, except what you [are able to] slaughter [before its death], and those which are sacrificed on stone altars, and [prohibited is] that you seek decision through divining arrows. That is grave disobedience. This day those who disbelieve have despaired of [defeating] your religion; so fear them not, but fear Me. This day I have perfected for you your religion and completed My favor upon you and have approved for you Islām as religion. But whoever is forced by severe hunger with no inclination to sin - then indeed, Allāh is Forgiving and Merciful.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/5#3"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "لَعَنَ اللَّهُ الْخَمْرَ وَشَارِبَهَا وَسَاقِيَهَا وَبَائِعَهَا وَمُبْتَاعَهَا وَعَاصِرَهَا وَمُعْتَصِرَهَا وَحَامِلَهَا وَالْمَحْمُولَةَ إِلَيْهِ",
+        "translation_en": "Narrated Abdullah ibn Umar: The Prophet (ﷺ) said: Allah has cursed wine, its drinker, its server, its seller, its buyer, its presser, the one for whom it is pressed, the one who conveys it, and the one to whom it is conveyed.",
+        "collection": "سنن أبي داود",
+        "number": "3674",
+        "narrator": "عبد الله بن عمر",
+        "grade": "صحيح",
+        "grader": "الألباني — صحيح أبي داود 3674: «صحيح» (الدرر السنية)",
+        "source_url": "https://dorar.net/h/i7SkXRDO",
+        "dorar_url": "https://dorar.net/h/i7SkXRDO",
+        "dorar_ref": "المحدث: الألباني | المصدر: صحيح أبي داود | الرقم: 3674 | خلاصة حكم المحدث: صحيح",
+        "sunnah_url": "https://sunnah.com/abudawud:3674",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "لَعَنَ رَسُولُ اللَّهِ صلى الله عليه وسلم فِي الْخَمْرِ عَشَرَةً عَاصِرَهَا وَمُعْتَصِرَهَا وَشَارِبَهَا وَحَامِلَهَا وَالْمَحْمُولَةَ إِلَيْهِ وَسَاقِيَهَا وَبَائِعَهَا وَآكِلَ ثَمَنِهَا وَالْمُشْتَرِيَ لَهَا وَالْمُشْتَرَاةَ لَهُ",
+        "translation_en": "Narrated Anas bin Malik: \"The Messenger of Allah (ﷺ) cursed ten involved in wine: the one who presses it, the one who has it pressed, its drinker, its carrier, the one it is carried to, its server, its seller, the one who consumes its price, the one who purchases it and the one it was purchased for.\"",
+        "collection": "جامع الترمذي",
+        "number": "1295",
+        "narrator": "أنس بن مالك",
+        "grade": "حسن صحيح",
+        "grader": "الألباني — صحيح الترمذي 1295: «حسن صحيح» (الدرر السنية)",
+        "source_url": "https://dorar.net/h/UkQRSMLH",
+        "dorar_url": "https://dorar.net/h/UkQRSMLH",
+        "dorar_ref": "المحدث: الألباني | المصدر: صحيح الترمذي | الرقم: 1295 | خلاصة حكم المحدث: حسن صحيح",
+        "sunnah_url": "https://sunnah.com/tirmidhi:1295",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "إِنَّ اللَّهَ وَرَسُولَهُ حَرَّمَ بَيْعَ الْخَمْرِ وَالْمَيْتَةِ وَالْخِنْزِيرِ وَالأَصْنَامِ",
+        "translation_en": "Narrated Jabir bin Abdullah: I heard Allah's Messenger (ﷺ), in the year of the Conquest of Mecca, saying, \"Allah and His Apostle made illegal the trade of alcohol, dead animals, pigs and idols.\"",
+        "collection": "صحيح البخاري",
+        "number": "2236",
+        "narrator": "جابر بن عبد الله",
+        "grade": "صحيح",
+        "grader": "أخرجه البخاري في صحيحه (ومسلم 1581)",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/4556",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/4556",
+        "sunnah_url": "https://sunnah.com/bukhari:2236",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "وَإِنَّ اللَّهَ إِذَا حَرَّمَ عَلَى قَوْمٍ أَكْلَ شَىْءٍ حَرَّمَ عَلَيْهِمْ ثَمَنَهُ",
+        "translation_en": "When Allah declares the eating of a thing forbidden for a people, He declares its price forbidden for them as well.",
+        "collection": "سنن أبي داود",
+        "number": "3488",
+        "narrator": "عبد الله بن عباس",
+        "grade": "صحيح",
+        "grader": "الألباني — صحيح أبي داود 3488: «صحيح» (الدرر السنية)",
+        "source_url": "https://dorar.net/h/2JGmzQ9H",
+        "dorar_url": "https://dorar.net/h/2JGmzQ9H",
+        "dorar_ref": "المحدث: الألباني | المصدر: صحيح أبي داود | الرقم: 3488 | خلاصة حكم المحدث: صحيح",
+        "sunnah_url": "https://sunnah.com/abudawud:3488",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "لأبي حنيفة: يجوز للمسلم أن يؤجر نفسه لحمل الخمر (لغير المسلم) ويطيب له الأجر، لأن العمل لا يتعين للمعصية والمعصية تحصل بعدُ بفعل فاعل مختار. وخالفه صاحباه أبو يوسف ومحمد فمنعا ذلك. وفرّق متأخرو الحنفية بين الإعانة المباشرة/القريبة (كالسقي والبيع) فتحرم، والتسبب البعيد الذي لا تقوم المعصية بعينه فلا يحرم وقد يكره. أما سقي الخمر وتقديمها للشارب فداخل في اللعن ولا يجيزه أحد.",
+        "position_en": "Abu Hanifa held that a Muslim may hire himself out to carry wine (for a non-Muslim) and the wage is lawful, because the work is not inherently sinful and the sin occurs later through another's free choice. His two companions, Abu Yusuf and Muhammad, disagreed and prohibited it. Later Hanafis distinguished direct or proximate assistance (serving, selling), which is prohibited, from remote causation (tasabbub ba'id), in which the sin is not carried out through the thing itself, which is not prohibited but may be disliked. Serving wine to a drinker falls under the curse and no one permits it.",
+        "reference": "المغني لابن قدامة، كتاب الإجارات، فصل «القسم الثاني ما منفعته محرمة» (نقل قول أبي حنيفة وخلاف صاحبيه): https://ar.wikisource.org/wiki/المغني_-_كتاب_الإجارات؛ وتفصيل التسبب القريب والبعيد منسوب إلى رد المحتار لابن عابدين بحسب SeekersGuidance: https://seekersguidance.org/answers/hanafi-fiqh/is-it-permissible-to-deliver-haram-things-to-non-muslims/",
+        "reference_status": "pending_verification"
+      },
+      "maliki": {
+        "position_ar": "الإجارة على منفعة محرمة لا تجوز. والمالكية من أشد المذاهب في سد الذرائع وفي الإعانة على المعصية. ونقل ابن قدامة قول مالك بمنع الاستئجار على المنافع المحرمة.",
+        "position_en": "Hiring for a prohibited service is not permissible. The Malikis are among the strictest schools in blocking means (sadd al-dhara'i) and in assisting sin. Ibn Qudama reports Malik's view prohibiting hire for prohibited services.",
+        "reference": "المغني لابن قدامة، كتاب الإجارات (نقل قول مالك في منع الإجارة على المحرم)",
+        "reference_status": "pending_verification"
+      },
+      "shafii": {
+        "position_ar": "لا يجوز الاستئجار على حمل الخمر لمن يشربها، ولا على حمل الخنزير والميتة لذلك.",
+        "position_en": "It is not permissible to hire someone to carry wine for one who will drink it, nor to carry pork or carrion for that purpose.",
+        "reference": "المغني لابن قدامة، كتاب الإجارات (نسب المنع إلى الشافعي وأبي يوسف ومحمد)",
+        "reference_status": "pending_verification"
+      },
+      "hanbali": {
+        "position_ar": "المذهب: لا يصح الاستئجار على حمل الخمر للشرب ولا يحل أخذ الأجرة عليه، لأنه استئجار على فعل محرم، ولأن النبي ﷺ لعن حاملها والمحمولة إليه. وروي عن أحمد في من حمل خمراً لنصراني: «أكره أكل كرائه، ولكن يقضى للحمّال بالكراء»، والمذهب خلاف هذه الرواية. ويجوز حملها لإراقتها.",
+        "position_en": "The school's position: hiring to carry wine for drinking is invalid and the wage is unlawful, because it is hire for a prohibited act and the Prophet ﷺ cursed its carrier and the one it is carried to. A report from Ahmad about carrying wine for a Christian says: \"I dislike eating its wage, but the carrier is awarded it\", yet the school's position differs from this report. Carrying it in order to pour it away is permissible.",
+        "reference": "المغني لابن قدامة، كتاب الإجارات، فصل «القسم الثاني ما منفعته محرمة»"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "دائرة الإفتاء العام الأردنية",
+        "decision_ref": "الفتوى 2037، بتاريخ 7/5/2012",
+        "position_ar": "يحرم تصميم برامج وأنظمة تساعد شركات الخمور على ترويج منتجاتها، لأنه من التعاون على الإثم والعدوان.",
+        "position_en": "It is forbidden to create programs and systems that help liquor companies promote more of their products, as this is cooperating in sin and transgression.",
+        "source_url": "https://www.aliftaa.jo/en-fatwas/2037/rss.aspx"
+      },
+      {
+        "body": "SeekersGuidance (فتوى حنفية — جهة تعليمية وليست مجمعاً)",
+        "decision_ref": "الأستاذ سلمان يونس، بمراجعة الشيخ فراز رباني: Creating Websites Selling Alcohol",
+        "position_ar": "عمل مطوّر المواقع جائز في الأصل، ومن ينشئ منصة تبيع عبرها شركة الخمر ليس هو البائع المباشر، فعمله في ذاته جائز ودخله حلال. لكن كلما اقترب العمل من الإعانة المباشرة على المعصية اشتدت الكراهة.",
+        "position_en": "Web development is permissible in principle; one who builds a platform through which a company sells alcohol is not the direct seller, so the work is permitted and the income valid. However, the closer the work comes to directly assisting sin, the more disliked it is.",
+        "source_url": "https://islamqa.org/hanafi/seekersguidance-hanafi/167441/creating-websites-selling-alcohol/"
+      },
+      {
+        "body": "مجمع فقهاء الشريعة بأمريكا (AMJA)",
+        "decision_ref": "قرارات المؤتمر السنوي في الأطعمة والأدوية في غير بلاد المسلمين",
+        "position_ar": "الأصل ألا يجالس المسلم من يُقدَّم عندهم المحرم كالخمر والخنزير ولو لم يشاركهم، إلا لضرورة مهنية ملحّة أو صلة رحم أو حاجة عامة، والضرورة تقدّر بقدرها مع السعي لإزالة المحرم أو تقليله.",
+        "position_en": "The default is not to eat with those who serve forbidden items such as alcohol and pork, even without partaking, unless there is a pressing professional necessity, family ties or general need; necessity is limited to its extent, with effort to remove or minimize the forbidden.",
+        "source_url": "https://www.amjaonline.org/wp-content/uploads/2019/04/AMJA-13th-Annual-Conference-Final-Decisions-Food-and-Medicine-In-The-West-En.pdf"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "لا تقبل وظيفة يكون فيها تقديم الخمر أو صبّها أو بيعها أو توصيلها جزءاً من عملك.",
+        "في المطعم: إن قبلت العمل فاشترط كتابياً أن تتولى الطعام الحلال فقط، أو مهاماً مثل المطبخ النباتي أو المحاسبة أو التنظيف العام. القانون الأمريكي (Title VII) يلزم صاحب العمل بالتسهيل الديني المعقول (religious accommodation) ما لم يسبب مشقة غير معقولة (معلومة قانونية عامة، وليست استشارة قانونية).",
+        "التوصيل (DoorDash/Uber Eats): ارفض الطلبات التي فيها خمر، فالتطبيقات تشترط غالباً التحقق من العمر عند تسليمها فتعرفها مسبقاً.",
+        "تطبيق مصنع الجعة: الأسلم الاعتذار ما دام لديك بديل، فالمسألة خلافية والتعاقد مباشر مع منشأة نشاطها الأساسي محرم. وإن كان عملك عاماً لعملاء كثيرين ويأتيك عميل كهذا عرضاً، فاسأل عالماً.",
+        "إن كنت مضطراً لعدم وجود عمل آخر، فابحث عن بديل بجدية واجعل بقاءك مؤقتاً."
+      ],
+      "en": [
+        "Do not accept a job in which serving, pouring, selling or delivering alcohol is part of your duties.",
+        "In a restaurant, if you accept work, request in writing to handle only halal food, or tasks such as the vegetarian kitchen, accounting or general cleaning. US law (Title VII) requires employers to provide reasonable religious accommodation unless it causes undue hardship (general legal information, not legal advice).",
+        "Delivery (DoorDash/Uber Eats): decline orders containing alcohol; apps usually require ID checks for them, so you know in advance.",
+        "Brewery app: the safer course is to decline when you have an alternative, since the issue is disputed and the contract is directly with a business whose core activity is prohibited. If your work is general, serving many clients, and such a client comes incidentally, consult a scholar.",
+        "If you are compelled because no other work exists, search seriously for an alternative and treat staying as temporary."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "مطاعم حلال أو مطاعم لا تقدم الخمر",
+        "التوصيل مع رفض طلبات الخمر",
+        "مشاريع برمجية لعملاء نشاطهم مباح (مطاعم حلال، متاجر، منظمات غير ربحية)"
+      ],
+      "en": [
+        "Halal restaurants or restaurants that do not serve alcohol",
+        "Delivery work while declining alcohol orders",
+        "Software projects for clients with lawful activities (halal restaurants, retailers, nonprofits)"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "إن كان العمل الوحيد المتاح لك فيه شيء من ذلك (حالة الضرورة)، أو كان عملك البرمجي لمنصة عامة يستعملها بعض بائعي الخمور، أو كان المطعم يقدم الخمر لكن عملك لا يمسها مباشرة.",
+      "en": "If the only available job involves some of this (necessity), if your software work is for a general platform some liquor sellers use, or if the restaurant serves alcohol but your work never touches it directly."
+    },
+    "confidence": "medium",
+    "review_status": "ai_draft",
+    "notes_for_reviewer": "رد على ملاحظة المشرف بخصوص اختيار «تطبيق مصنع الجعة» الموسوم wrong في السيناريو: الأدلة لا تدعم وصفه بالتحريم القطعي المتفق عليه. (أ) تقديم الخمر وصبّها وبيعها وحملها لمن يشربها محرم عند الجمهور بنص حديث اللعن، فوسمه wrong صحيح. (ب) أما البرمجة لمصنع جعة فإعانة غير مباشرة، وفيها خلاف معاصر موثق: دائرة الإفتاء الأردنية (فتوى 2037) تحرّم برمجة أنظمة لشركات الخمور، وSeekersGuidance (حنفي) يجيز إنشاء منصة يبيع عبرها الغير مع الكراهة كلما اقترب العمل من المباشرة. وأصل الخلاف قول أبي حنيفة في الإجارة على حمل الخمر ومخالفة صاحبيه والجمهور (المغني). نقترح: الاعتذار = best، وقبول تطبيق مصنع الجعة = acceptable مع عاقبة تشرح أنه خلافي والأحوط تركه، أو إبقاؤه wrong مع تعديل الصياغة إلى «الأحوط/الراجح عند كثير من العلماء المنع» لا «حرام قطعاً». وإن كان التطبيق نفسه للتسويق وزيادة المبيعات (كما في سؤال فتوى الأردن) فالمنع أقوى. تحتاج مراجعة: (1) نص ابن عابدين في التسبب البعيد لم نطّلع عليه مباشرة (نقلٌ عن SeekersGuidance الذي يذكر رد المحتار دون جزء وصفحة). (2) المرجعان المالكي والشافعي منقولان عن المغني لا من كتبهما. (3) عزو قول المغني لـ«ويكيمصدر» يحتاج مطابقة مع طبعة محققة. (4) Title VII وفكرة التسهيل الديني معلومة قانونية عامة، وليست فتوى.\n\n[تدقيق المرحلة 1 — 2026-10-05] يبقى ai_draft: (1) السؤال يشمل تقديم لحم الخنزير لكن الحكم والإرشاد يركزان على الخمر؛ يلزم بيان صريح لحكم تقديم الخنزير لغير المسلم وأجرته (الخلاف بين الجمهور والحنفية في بيع الخنزير لغير المسلم/خدمته). (2) قولا المالكية والشافعية منقولان عن المغني لا من كتبهما. (3) فتوى AMJA المذكورة في «مجالسة» من يقدّمون المحرم لا في «العمل» لديهم — صلتها بالمسألة غير مباشرة. وصف «تطبيق مصنع الجعة» في السيناريو (صفحة «اطلب برميلاً» وزر «أضف إلى السلة») هو صورة الإعانة القريبة على البيع، وهي أقوى من الصورة التي أجازها SeekersGuidance — انظر التقرير.",
+    "newcomer_explainer": {
+      "ar": "لا يحرّم الإسلام شرب الخمر فقط، بل يحرّم كذلك تقديمها وبيعها وحملها لمن يشربها، فقد لعن النبي ﷺ في الخمر عشرة منهم ساقيها وحاملها (الترمذي 1295)، وهذا قول الجمهور، وخالف أبو حنيفة في حملها بأجرة. والحكمة التي يذكرها العلماء أن من أعان على الضرر شارك فيه، وأن كسب المسلم ينبغي أن يكون من عمل حلال. وبيع الخنزير داخل في الحكم نفسه (البخاري 2236). أما العمل غير المباشر كبرمجة تطبيق لمصنع جعة ففيه خلاف بين المعاصرين، فقد يعتذر صديق مسلم عن وظيفة أو مناوبة بينما يقبلها آخر مع التحفظ.",
+      "en": "Islam forbids not only drinking alcohol but also serving, selling or carrying it for people to drink: the Prophet ﷺ cursed ten parties involved in wine, including its server and its carrier (Tirmidhi 1295). This is the majority view; Abu Hanifa differed on carrying it for a fee. The reasoning scholars give is that whoever helps bring about a harm shares in it, and that a Muslim's earnings should come from lawful work; selling pork falls under the same rule (Bukhari 2236). Indirect work, such as building software for a brewery, is debated among contemporary scholars, so one Muslim friend may decline such a job or shift while another accepts it with reservations."
+    },
+    "library_only": true
+  },
+  {
+    "id": "work.retirement_401k",
+    "location": "work",
+    "title": {
+      "ar": "خطة التقاعد 401(k) ومطابقة صاحب العمل",
+      "en": "401(k) Retirement Plan and Employer Match"
+    },
+    "question": {
+      "ar": "هل يجوز الاشتراك في خطة 401(k) للحصول على مطابقة صاحب العمل؟ وكيف أختار بين صناديق السندات والصناديق المتوافقة مع الشريعة؟ وما حكم الأسهم؟",
+      "en": "May I join a 401(k) plan to receive the employer match? How should I choose between bond funds and Shariah-compliant funds? And what is the ruling on stocks?"
+    },
+    "verdict": "depends",
+    "content_level": "C",
+    "verdict_scope": {
+      "ar": "الاشتراك في 401(k) جائز عند كثير من المعاصرين، ومنهم مفتو مجمع فقهاء الشريعة بأمريكا (الفتويان 1871 و1774)، بشرط اختيار استثمارات مباحة؛ والسندات والودائع بفائدة محرمة. وفي أسهم الشركات المباحة النشاط التي تتعامل بالربا أحياناً خلاف: الأصل عند مجمع الفقه الإسلامي الدولي حرمتها (القرار 63 (1/7))، وأجازها بضوابط نسبية مع التطهير معيار AAOIFI الشرعي رقم 21.",
+      "en": "Joining a 401(k) is permissible according to many contemporary scholars, including AMJA's muftis (fatwas 1871 and 1774), provided permissible investments are chosen; interest-bearing bonds and deposits are prohibited. Shares in companies with permissible core business that sometimes deal in interest are disputed: the International Islamic Fiqh Academy's default is prohibition (Resolution 63 (1/7)), while AAOIFI Shari'ah Standard No. 21 allows them within ratio limits, with purification."
+    },
+    "consensus_sources": [
+      "الموسوعة الفقهية (الدرر السنية)، كتاب الربا، حكم الربا: https://dorar.net/feqhia/7595 — نقل الإجماع على تحريم الربا عن ابن تيمية (مجموع الفتاوى 29/418) والزيلعي (تبيين الحقائق 4/85) والشوكاني (نيل الأوطار 5/225) والصنعاني (سبل السلام 3/36)"
+    ],
+    "summary": {
+      "ar": "الاشتراك في 401(k) جائز عند كثير من المعاصرين، ومنهم مفتو AMJA، حفاظاً على مطابقة صاحب العمل، بشرط اختيار استثمارات مباحة. وصناديق السندات والودائع بفائدة محرمة. والأسهم مباحة في الأصل إذا كان نشاط الشركة الأساسي مباحاً؛ أما الشركات المباحة النشاط التي تتعامل أحياناً بالربا فمنعها مجمع الفقه الدولي وأجازها آخرون بضوابط مع التطهير.",
+      "en": "Joining a 401(k) is permitted by many contemporary scholars, including AMJA muftis, to preserve the employer match, provided lawful investments are chosen. Bond and interest-bearing funds are prohibited. Stocks are permissible in principle when the company's core business is lawful; for lawful companies that sometimes deal in interest, the International Islamic Fiqh Academy prohibits them, while others permit them within limits plus purification."
+    },
+    "quran": [
+      {
+        "surah": 2,
+        "surah_name_ar": "البقرة",
+        "ayah": "275",
+        "text_ar": "ٱلَّذِينَ يَأۡكُلُونَ ٱلرِّبَوٰاْ لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ ٱلَّذِي يَتَخَبَّطُهُ ٱلشَّيۡطَٰنُ مِنَ ٱلۡمَسِّۚ ذَٰلِكَ بِأَنَّهُمۡ قَالُوٓاْ إِنَّمَا ٱلۡبَيۡعُ مِثۡلُ ٱلرِّبَوٰاْۗ وَأَحَلَّ ٱللَّهُ ٱلۡبَيۡعَ وَحَرَّمَ ٱلرِّبَوٰاْۚ فَمَن جَآءَهُۥ مَوۡعِظَةٞ مِّن رَّبِّهِۦ فَٱنتَهَىٰ فَلَهُۥ مَا سَلَفَ وَأَمۡرُهُۥٓ إِلَى ٱللَّهِۖ وَمَنۡ عَادَ فَأُوْلَٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+        "translation_en": "Those who consume interest cannot stand [on the Day of Resurrection] except as one stands who is being beaten by Satan into insanity. That is because they say, \"Trade is [just] like interest.\" But Allāh has permitted trade and has forbidden interest. So whoever has received an admonition from his Lord and desists may have what is past, and his affair rests with Allāh. But whoever returns [to dealing in interest or usury] - those are the companions of the Fire; they will abide eternally therein.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/2#275"
+      },
+      {
+        "surah": 2,
+        "surah_name_ar": "البقرة",
+        "ayah": "278",
+        "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ ٱتَّقُواْ ٱللَّهَ وَذَرُواْ مَا بَقِيَ مِنَ ٱلرِّبَوٰٓاْ إِن كُنتُم مُّؤۡمِنِينَ",
+        "translation_en": "O you who have believed, fear Allāh and give up what remains [due to you] of interest, if you should be believers.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/2#278"
+      },
+      {
+        "surah": 5,
+        "surah_name_ar": "المائدة",
+        "ayah": "2",
+        "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تُحِلُّواْ شَعَٰٓئِرَ ٱللَّهِ وَلَا ٱلشَّهۡرَ ٱلۡحَرَامَ وَلَا ٱلۡهَدۡيَ وَلَا ٱلۡقَلَٰٓئِدَ وَلَآ ءَآمِّينَ ٱلۡبَيۡتَ ٱلۡحَرَامَ يَبۡتَغُونَ فَضۡلٗا مِّن رَّبِّهِمۡ وَرِضۡوَٰنٗاۚ وَإِذَا حَلَلۡتُمۡ فَٱصۡطَادُواْۚ وَلَا يَجۡرِمَنَّكُمۡ شَنَـَٔانُ قَوۡمٍ أَن صَدُّوكُمۡ عَنِ ٱلۡمَسۡجِدِ ٱلۡحَرَامِ أَن تَعۡتَدُواْۘ وَتَعَاوَنُواْ عَلَى ٱلۡبِرِّ وَٱلتَّقۡوَىٰۖ وَلَا تَعَاوَنُواْ عَلَى ٱلۡإِثۡمِ وَٱلۡعُدۡوَٰنِۚ وَٱتَّقُواْ ٱللَّهَۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلۡعِقَابِ",
+        "translation_en": "O you who have believed, do not violate the rites of Allāh or [the sanctity of] the sacred month or [neglect the marking of] the sacrificial animals and garlanding [them] or [violate the safety of] those coming to the Sacred House seeking bounty from their Lord and [His] approval. But when you come out of iḥrām, then [you may] hunt. And do not let the hatred of a people for having obstructed you from al-Masjid al-Ḥarām lead you to transgress. And cooperate in righteousness and piety, but do not cooperate in sin and aggression. And fear Allāh; indeed, Allāh is severe in penalty.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/5#2"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "لَعَنَ رَسُولُ اللَّهِ صلى الله عليه وسلم آكِلَ الرِّبَا وَمُوكِلَهُ وَكَاتِبَهُ وَشَاهِدَيْهِ وَقَالَ هُمْ سَوَاءٌ",
+        "translation_en": "Jabir said that Allah's Messenger (ﷺ) cursed the accepter of interest and its payer, and the one who records it, and the two witnesses, and he said: They are all equal.",
+        "collection": "صحيح مسلم",
+        "number": "1598",
+        "narrator": "جابر بن عبد الله",
+        "grade": "صحيح",
+        "grader": "أخرجه مسلم في صحيحه",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/66130",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/66130",
+        "sunnah_url": "https://sunnah.com/muslim:1598",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "دَعْ مَا يَرِيبُكَ إِلَى مَا لاَ يَرِيبُكَ فَإِنَّ الصِّدْقَ طُمَأْنِينَةٌ وَإِنَّ الْكَذِبَ رِيبَةٌ",
+        "translation_en": "Al-Hasan bin 'Ali said: I remember that the Messenger of Allah (ﷺ) said: 'Leave what makes you in doubt for what does not make you in doubt. The truth brings tranquility while falsehood sows doubt.'",
+        "collection": "جامع الترمذي",
+        "number": "2518",
+        "narrator": "الحسن بن علي",
+        "grade": "صحيح",
+        "grader": "الألباني — صحيح الترمذي 2518: «صحيح» (الدرر السنية)؛ HadeethEnc: «صحيح»",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/4564",
+        "dorar_url": "https://dorar.net/h/VLBpdkoO",
+        "dorar_ref": "المحدث: الألباني | المصدر: صحيح الترمذي | الرقم: 2518 | خلاصة حكم المحدث: صحيح",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/4564",
+        "sunnah_url": "https://sunnah.com/tirmidhi:2518",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "مسألة معاصرة لا نص فيها للمذاهب. الأصل المبني عليه: الربا محرم إجماعاً، فالسندات (قروض بفائدة) محرمة؛ والسهم حصة شائعة في شركة، والشركة (المضاربة/العنان) جائزة إذا كان نشاطها مباحاً. ومحل الاجتهاد: المساهمة في شركة مباحة النشاط يدخل في معاملاتها شيء من الربا.",
+        "position_en": "A contemporary issue with no text in the classical schools. Principles: riba is prohibited by consensus, so bonds (interest-bearing loans) are prohibited; a share is an undivided stake in a company, and partnership is permissible when its business is lawful. The open question is holding shares in a lawful company whose dealings include some interest.",
+        "reference": "الأصول العامة: الإجماع على تحريم الربا (المغني، كتاب القرض)؛ تكييف السهم حصةً شائعة: قرار مجمع الفقه الدولي 63 (1/7)"
+      },
+      "maliki": {
+        "position_ar": "مسألة معاصرة لا نص فيها. الأصل: تحريم الربا وسد الذرائع إليه، وجواز الشركة في المباح.",
+        "position_en": "A contemporary issue with no text. Principles: riba is prohibited and means to it are blocked; partnership in lawful business is permissible.",
+        "reference": "الأصول العامة — لا نص مذهبي في المسألة"
+      },
+      "shafii": {
+        "position_ar": "مسألة معاصرة لا نص فيها. الأصل: تحريم الربا، وجواز الشركة في المباح.",
+        "position_en": "A contemporary issue with no text. Principles: riba is prohibited; partnership in lawful business is permissible.",
+        "reference": "الأصول العامة — لا نص مذهبي في المسألة"
+      },
+      "hanbali": {
+        "position_ar": "مسألة معاصرة لا نص فيها. الأصل: كل قرض شُرط فيه زيادة حرام بغير خلاف، فالسندات محرمة، والشركة في المباح جائزة.",
+        "position_en": "A contemporary issue with no text. Principle: every loan with a stipulated increase is prohibited without disagreement, so bonds are prohibited; partnership in lawful business is permissible.",
+        "reference": "المغني لابن قدامة، كتاب القرض"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "مجمع الفقه الإسلامي الدولي",
+        "decision_ref": "القرار 63 (1/7)، الدورة السابعة، جدة، مايو 1992 (الأسواق المالية: الأسهم)",
+        "position_ar": "إنشاء شركة مساهمة أغراضها وأنشطتها مشروعة جائز. ولا خلاف في حرمة الإسهام في شركات غرضها الأساسي محرم كالتعامل بالربا أو إنتاج المحرمات أو المتاجرة بها. والأصل حرمة الإسهام في شركات تتعامل أحياناً بالمحرمات كالربا ولو كانت أنشطتها الأساسية مشروعة. ولا يجوز شراء السهم بقرض ربوي.",
+        "position_en": "Forming a joint-stock company with lawful purposes and activities is permissible. There is no disagreement that participating in companies whose main purpose is prohibited, such as riba-based transactions or producing or trading forbidden products, is prohibited. Prohibition is the default for companies that sometimes engage in prohibited transactions such as riba even if their main activities are lawful. Buying shares with an interest-based loan is not permissible.",
+        "source_url": "https://iifa-aifi.org/en/32438.html"
+      },
+      {
+        "body": "مجمع فقهاء الشريعة بأمريكا (AMJA)",
+        "decision_ref": "الفتويان 1871 (11/08/2006) و1774 (11/07/2006)، د. حاتم الحاج",
+        "position_ar": "يجيز أكثر العلماء الاشتراك في 401(k) لئلا تضيع مساهمة صاحب العمل، مع تطهير الجزء المحرم عند الاستلام. ويُقدَّم اختيار الصناديق الإسلامية مثل Amana إن أتاحتها الخطة، ثم انتقاء شركات من المؤشرات الإسلامية، ثم أقل الصناديق اختلاطاً بالمحرم. ويجب اجتناب السندات ونحوها لأنها ربوية، والتصدق عند التقاعد بنسبة تقريبية (5-15%) بحسب درجة الاختلاط.",
+        "position_en": "Most scholars allow participation in a 401(k) so as not to lose the employer's contribution, while purifying the haram portion upon receipt. Priority goes to Islamic funds such as Amana if the plan offers them, then selecting companies on Islamic indices, then funds least mixed with the prohibited. Bonds and similar instruments must be avoided because they are interest-based, and roughly 5-15% should be given in charity at retirement depending on the degree of mixing.",
+        "source_url": "https://www.amjaonline.org/fatwa/en/1774/halal-mutual-funds-and-401k"
+      },
+      {
+        "body": "هيئة المحاسبة والمراجعة للمؤسسات المالية الإسلامية (AAOIFI)",
+        "decision_ref": "المعيار الشرعي رقم 21 (الأوراق المالية: الأسهم والسندات)",
+        "position_ar": "تعتمده أغلب أدوات الفحص الشرعي للأسهم، ويجيز التعامل في أسهم الشركات المباحة النشاط التي تقع في شيء من الربا بضوابط نسبية، مع وجوب تطهير الكسب غير المشروع. والنسب المشهورة في التطبيقات: ألا تتجاوز القروض والودائع بفائدة 30% من القيمة السوقية، والإيراد المحرم 5%.",
+        "position_en": "Used by most Shariah stock screeners, it permits dealing in shares of lawful-activity companies with some interest exposure within ratio limits, with mandatory purification of impermissible income. The commonly cited thresholds are interest-bearing debt and deposits each under 30% of market capitalization, and impermissible revenue under 5%.",
+        "source_url": "https://cis.aaoifi.com/ar/?p=1714"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "يرى كثير من المعاصرين، ومنهم مفتو AMJA، أن مطابقة صاحب العمل (employer match) جزء من الأجر وليست فائدة، ولذلك ينصحون بعدم تركها.",
+        "افتح قائمة الصناديق في خطتك وتجنب: Bond funds، Stable value، Money market، Target-date funds (فيها سندات غالباً).",
+        "إن وُجد في الخطة صندوق إسلامي فاختره، مثل Amana Growth/Income (Saturna) أو SP Funds (SPUS) أو Wahed (HLAL) (أمثلة لا تزكية، بحسب المتاح سنة 2026؛ وهذه معلومة عامة وليست استشارة مالية).",
+        "إن لم يوجد فاسأل الموارد البشرية (HR) عن إضافته، أو عن خيار حساب الوساطة الذاتي (self-directed brokerage window) لتختار أسهماً أو صناديق مفحوصة.",
+        "يمكن الاستعانة بتطبيقات الفحص، ومن أمثلتها Zoya وMusaffa (أمثلة لا تزكية، بحسب المتاح سنة 2026)، لمعرفة توافق الأسهم وحساب نسبة التطهير، مع العلم أنها اجتهادات منهجية.",
+        "إن اضطررت إلى صندوق مؤشر عام مؤقتاً فاعلم أن فيه شركات محرمة النشاط، فبادر بالتحويل وطهّر الأرباح.",
+        "تخرج زكاة المال عن رصيد 401(k) على تفصيل بين العلماء، فاسأل عنه."
+      ],
+      "en": [
+        "Many contemporary scholars, including AMJA muftis, regard the employer match as part of your compensation rather than interest, and so advise against forgoing it.",
+        "Review your plan's fund list and avoid bond funds, stable value, money market and target-date funds (which usually hold bonds).",
+        "If the plan offers an Islamic fund, choose it, e.g., Amana Growth/Income (Saturna), SP Funds (SPUS) or Wahed (HLAL) (examples, not endorsements, as of 2026; general information, not financial advice).",
+        "If none is offered, ask HR to add one, or ask about a self-directed brokerage window so you can pick screened stocks or funds.",
+        "Screening apps, e.g. Zoya or Musaffa (examples, not endorsements, as of 2026), can help check stock compliance and compute purification, knowing they apply methodological ijtihad.",
+        "If you must temporarily hold a broad index fund, know it includes companies with prohibited business; switch soon and purify the gains.",
+        "Zakat on 401(k) balances is subject to scholarly detail; ask about it."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "صناديق أسهم متوافقة مع الشريعة",
+        "صناديق صكوك (بديل السندات) إن أتاحتها الخطة",
+        "Roth IRA أو IRA مستقلة باستثمار مفحوص إذا لم توفر الخطة خياراً حلالاً"
+      ],
+      "en": [
+        "Shariah-compliant equity funds",
+        "Sukuk funds (instead of bonds) if the plan offers them",
+        "A separate Roth IRA or IRA with screened investments if the plan offers no halal option"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "عند حساب نسبة التطهير أو الزكاة، أو إذا لم تتح خطتك أي خيار متوافق، أو عند الاقتراض من الـ401(k) أو السحب المبكر، أو في توزيع الخطة بعد الوفاة.",
+      "en": "When calculating purification or zakat, if your plan offers no compliant option, when taking a 401(k) loan or early withdrawal, or about distribution of the plan after death."
+    },
+    "confidence": "medium",
+    "review_status": "ai_verified",
+    "notes_for_reviewer": "تحتاج مراجعة: (1) نص المعيار الشرعي 21 لـAAOIFI غير متاح علناً (للأعضاء فقط)، فالنسب 30%/5% منقولة عن أدوات فحص ومصادر ثانوية لا من نص المعيار، وصيغت بلفظ «المشهورة في التطبيقات». (2) قرار المجمع الفقهي لرابطة العالم الإسلامي في الأسهم (الدورة 14) لم نتمكن من فتح نصه فلم نذكره. (3) خانات المذاهب «أصول» لا نصوص لأن المسألة معاصرة. (4) نسبة التطهير 5-15% اجتهاد من مفتٍ واحد في AMJA وليست قراراً مجمعياً. (5) حكم القرض من الـ401(k) (جوازه لأنه من مال الموظف نفسه) ورد في بحث منسوب إلى د. القضاة على موقع AMJA عبر نتيجة بحث فقط، فلم يُدرج في المتن. (6) اعتبار المطابقة «جزءاً من الأجر» تكييف شائع لم نجد له قراراً مجمعياً منصوصاً.\n\n[تدقيق المرحلة 1 — 2026-10-05] المحتوى منسجم: قرار المجمع 63 (1/7) صحيح الرقم والمضمون، ونسب AAOIFI (30% ديون/ودائع ربوية من القيمة السوقية، 5% إيراد محرم) هي المعتمدة في التطبيقات. تنبيه للمراجع: الإرشاد «إن اضطررت إلى صندوق مؤشر عام مؤقتاً... طهّر الأرباح» ترخيص يستند إلى فتوى مفتٍ واحد في AMJA ويخالف أصل قرار المجمع 63؛ يحسن أن يُصاغ بوصفه قولاً لا توجيهاً عاماً. نجحت الفحوص الآلية.",
+    "newcomer_explainer": {
+      "ar": "الادخار للمستقبل أمر حسن في الإسلام، ويجيز كثير من العلماء المعاصرين، ومنهم مفتو AMJA، الاشتراك في خطة 401(k) حفاظاً على مساهمة صاحب العمل، بشرط اختيار استثمارات مباحة. فصناديق السندات والودائع بفائدة ممنوعة لأن الفائدة ربا، أما أسهم الشركات التي نشاطها الأساسي مباح فجائزة في الأصل، لأن السهم ملكية لجزء من تجارة حقيقية يشارك صاحبه في ربحها وخسارتها. ويختلف العلماء في الشركات المباحة النشاط التي تتعامل أحياناً بالفائدة: فمنعها مجمع الفقه الإسلامي الدولي، وأجازها آخرون بضوابط مع تطهير الجزء المختلط. والقاعدة الهادية: «دع ما يريبك إلى ما لا يريبك» (الترمذي 2518).",
+      "en": "Saving for the future is a good thing in Islam, and many contemporary scholars, including AMJA muftis, allow joining a 401(k) to keep the employer match, as long as the money goes into lawful investments. Bond and interest-bearing funds are excluded because interest is riba, while shares in companies whose core business is lawful are permitted in principle, since a share is ownership of part of a real business with its profit and loss. Scholars differ about lawful companies that sometimes deal in interest: the International Islamic Fiqh Academy forbids them, while others allow them within limits with purification of the tainted portion. The guiding principle is \"leave what makes you doubt for what does not\" (Tirmidhi 2518)."
+    },
+    "library_only": true
+  },
+  {
+    "id": "work.honesty_gifts",
+    "location": "work",
+    "title": {
+      "ar": "الأمانة في العمل: هدايا الموردين وتسجيل الساعات وموارد الشركة",
+      "en": "Integrity at Work: Vendor Gifts, Timesheets and Company Resources"
+    },
+    "question": {
+      "ar": "هل يجوز قبول هدية من مورّد يتعامل مع شركتي؟ وتسجيل ساعات لم أعملها؟ واستعمال حاسوب الشركة وأدواتها لأغراض شخصية؟",
+      "en": "May I accept a gift from a vendor that deals with my company? Log hours I did not work? Use the company laptop and supplies for personal purposes?"
+    },
+    "verdict": "haram",
+    "content_level": "B",
+    "summary": {
+      "ar": "الهدية التي تأتي الموظف بسبب وظيفته لا يحل له أخذها لنفسه إلا بإذن جهة العمل، بدليل حديث ابن اللتبية، وما أخذه بعد أجره غلول. وتسجيل ساعات لم تُعمل كذب وأكل للمال بالباطل. أما استعمال موارد الشركة فمقيد بإذنها الصريح أو العرفي.",
+      "en": "A gift that comes to an employee because of his position is not his to keep without the employer's permission, as the hadith of Ibn al-Lutbiyya shows, and anything taken beyond one's wage is ghulul. Logging hours not worked is lying and consuming wealth unjustly. Using company resources is limited to what the company permits, explicitly or by custom."
+    },
+    "quran": [
+      {
+        "surah": 4,
+        "surah_name_ar": "النساء",
+        "ayah": "58",
+        "text_ar": "۞ إِنَّ ٱللَّهَ يَأۡمُرُكُمۡ أَن تُؤَدُّواْ ٱلۡأَمَٰنَٰتِ إِلَىٰٓ أَهۡلِهَا وَإِذَا حَكَمۡتُم بَيۡنَ ٱلنَّاسِ أَن تَحۡكُمُواْ بِٱلۡعَدۡلِۚ إِنَّ ٱللَّهَ نِعِمَّا يَعِظُكُم بِهِۦٓۗ إِنَّ ٱللَّهَ كَانَ سَمِيعَۢا بَصِيرٗا",
+        "translation_en": "Indeed, Allāh commands you to render trusts to whom they are due and when you judge between people to judge with justice. Excellent is that which Allāh instructs you. Indeed, Allāh is ever Hearing and Seeing.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/4#58"
+      },
+      {
+        "surah": 8,
+        "surah_name_ar": "الأنفال",
+        "ayah": "27",
+        "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تَخُونُواْ ٱللَّهَ وَٱلرَّسُولَ وَتَخُونُوٓاْ أَمَٰنَٰتِكُمۡ وَأَنتُمۡ تَعۡلَمُونَ",
+        "translation_en": "O you who have believed, do not betray Allāh and the Messenger or betray your trusts while you know [the consequence].",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/8#27"
+      },
+      {
+        "surah": 2,
+        "surah_name_ar": "البقرة",
+        "ayah": "188",
+        "text_ar": "وَلَا تَأۡكُلُوٓاْ أَمۡوَٰلَكُم بَيۡنَكُم بِٱلۡبَٰطِلِ وَتُدۡلُواْ بِهَآ إِلَى ٱلۡحُكَّامِ لِتَأۡكُلُواْ فَرِيقٗا مِّنۡ أَمۡوَٰلِ ٱلنَّاسِ بِٱلۡإِثۡمِ وَأَنتُمۡ تَعۡلَمُونَ",
+        "translation_en": "And do not consume one another's wealth unjustly or send it [in bribery] to the rulers in order that [they might aid] you [to] consume a portion of the wealth of the people in sin, while you know [it is unlawful].",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/2#188"
+      },
+      {
+        "surah": 3,
+        "surah_name_ar": "آل عمران",
+        "ayah": "161",
+        "text_ar": "وَمَا كَانَ لِنَبِيٍّ أَن يَغُلَّۚ وَمَن يَغۡلُلۡ يَأۡتِ بِمَا غَلَّ يَوۡمَ ٱلۡقِيَٰمَةِۚ ثُمَّ تُوَفَّىٰ كُلُّ نَفۡسٖ مَّا كَسَبَتۡ وَهُمۡ لَا يُظۡلَمُونَ",
+        "translation_en": "It is not [attributable] to any prophet that he would act unfaithfully [in regard to war booty]. And whoever betrays, [taking unlawfully], will come with what he took on the Day of Resurrection. Then will every soul be [fully] compensated for what it earned, and they will not be wronged.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/3#161"
+      },
+      {
+        "surah": 83,
+        "surah_name_ar": "المطففين",
+        "ayah": "1",
+        "text_ar": "وَيۡلٞ لِّلۡمُطَفِّفِينَ",
+        "translation_en": "Woe to those who give less [than due],",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/83#1"
+      },
+      {
+        "surah": 83,
+        "surah_name_ar": "المطففين",
+        "ayah": "2",
+        "text_ar": "ٱلَّذِينَ إِذَا ٱكۡتَالُواْ عَلَى ٱلنَّاسِ يَسۡتَوۡفُونَ",
+        "translation_en": "Who, when they take a measure from people, take in full.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/83#2"
+      },
+      {
+        "surah": 83,
+        "surah_name_ar": "المطففين",
+        "ayah": "3",
+        "text_ar": "وَإِذَا كَالُوهُمۡ أَو وَّزَنُوهُمۡ يُخۡسِرُونَ",
+        "translation_en": "But if they give by measure or by weight to them, they cause loss.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/83#3"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "اسْتَعْمَلَ النَّبِيُّ صلى الله عليه وسلم رَجُلاً مِنَ الأَزْدِ يُقَالُ لَهُ ابْنُ اللُّتْبِيَّةِ عَلَى الصَّدَقَةِ، فَلَمَّا قَدِمَ قَالَ هَذَا لَكُمْ، وَهَذَا أُهْدِيَ لِي. قَالَ \"فَهَلاَّ جَلَسَ فِي بَيْتِ أَبِيهِ أَوْ بَيْتِ أُمِّهِ، فَيَنْظُرَ يُهْدَى لَهُ أَمْ لاَ وَالَّذِي نَفْسِي بِيَدِهِ لاَ يَأْخُذُ أَحَدٌ مِنْهُ شَيْئًا إِلاَّ جَاءَ بِهِ يَوْمَ الْقِيَامَةِ يَحْمِلُهُ عَلَى رَقَبَتِهِ، إِنْ كَانَ بَعِيرًا لَهُ رُغَاءٌ أَوْ بَقَرَةً لَهَا خُوَارٌ أَوْ شَاةً تَيْعَرُ ـ ثُمَّ رَفَعَ بِيَدِهِ، حَتَّى رَأَيْنَا عُفْرَةَ إِبْطَيْهِ ـ اللَّهُمَّ هَلْ بَلَّغْتُ اللَّهُمَّ هَلْ بَلَّغْتُ ثَلاَثًا",
+        "translation_en": "Narrated Abu Humaid As-Sa'idi: The Prophet (ﷺ) appointed a man from the tribe of Al-Azd, called Ibn al-Lutbiyya, to collect the Zakat. When he returned he said, \"This is for you and this has been given to me as a present.\" The Prophet (ﷺ) said, \"Why hadn't he stayed in his father's or mother's house to see whether he would be given presents or not? By Him in Whose Hands my life is, whoever takes something from it (unlawfully) will be carrying it on his neck on the Day of Resurrection; if it be a camel, it will be grunting; if a cow, it will be mooing; and if a sheep, it will be bleating.\" The Prophet then raised his hands till we saw the whiteness of his armpits, and he said thrice, \"O Allah! Haven't I conveyed (Your Message)?\"",
+        "collection": "صحيح البخاري",
+        "number": "2597",
+        "narrator": "أبو حميد الساعدي",
+        "grade": "صحيح",
+        "grader": "أخرجه البخاري (وانظر 6979، 7174) ومسلم (1832)",
+        "source_url": "https://sunnah.com/bukhari:2597",
+        "sunnah_url": "https://sunnah.com/bukhari:2597",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "مَنِ اسْتَعْمَلْنَاهُ مِنْكُمْ عَلَى عَمَلٍ فَكَتَمَنَا مِخْيَطًا فَمَا فَوْقَهُ كَانَ غُلُولاً يَأْتِي بِهِ يَوْمَ الْقِيَامَةِ",
+        "translation_en": "'Adi b. 'Amira al-Kindi reported: I heard the Messenger of Allah (ﷺ) say: Whoever of you is appointed by us to a position and conceals from us a needle or something more than that, it would be misappropriation (ghulul), and he will have to produce it on the Day of Judgment.",
+        "collection": "صحيح مسلم",
+        "number": "1833",
+        "narrator": "عدي بن عميرة الكندي",
+        "grade": "صحيح",
+        "grader": "أخرجه مسلم في صحيحه",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/5412",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/5412",
+        "sunnah_url": "https://sunnah.com/muslim:1833a",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "مَنِ اسْتَعْمَلْنَاهُ عَلَى عَمَلٍ فَرَزَقْنَاهُ رِزْقًا فَمَا أَخَذَ بَعْدَ ذَلِكَ فَهُوَ غُلُولٌ",
+        "translation_en": "Narrated Buraidah: The Prophet (ﷺ) said: When we appoint someone to a post and provide him with an allowance, anything he takes beyond that is ghulul (unfaithful dealing).",
+        "collection": "سنن أبي داود",
+        "number": "2943",
+        "narrator": "بريدة بن الحصيب",
+        "grade": "صحيح",
+        "grader": "الألباني — صحيح أبي داود 2943: «صحيح» (الدرر السنية)؛ HadeethEnc: «صحيح»",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/66192",
+        "dorar_url": "https://dorar.net/h/gku3Hg3V",
+        "dorar_ref": "المحدث: الألباني | المصدر: صحيح أبي داود | الرقم: 2943 | خلاصة حكم المحدث: صحيح",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/66192",
+        "sunnah_url": "https://sunnah.com/abudawud:2943",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "آيَةُ الْمُنَافِقِ ثَلاَثٌ إِذَا حَدَّثَ كَذَبَ، وَإِذَا وَعَدَ أَخْلَفَ، وَإِذَا اؤْتُمِنَ خَانَ",
+        "translation_en": "Narrated Abu Huraira: The Prophet (ﷺ) said, \"The signs of a hypocrite are three: whenever he speaks, he lies; whenever he promises, he breaks it; and whenever he is entrusted, he betrays the trust.\"",
+        "collection": "صحيح البخاري",
+        "number": "33",
+        "narrator": "أبو هريرة",
+        "grade": "صحيح",
+        "grader": "أخرجه البخاري (ومسلم 59)",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/65123",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/65123",
+        "sunnah_url": "https://sunnah.com/bukhari:33",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "مَنْ حَمَلَ عَلَيْنَا السِّلاَحَ فَلَيْسَ مِنَّا وَمَنْ غَشَّنَا فَلَيْسَ مِنَّا",
+        "translation_en": "Abu Huraira reported that the Messenger of Allah (ﷺ) said: He who took up arms against us is not of us, and he who cheats us is not of us.",
+        "collection": "صحيح مسلم",
+        "number": "101",
+        "narrator": "أبو هريرة",
+        "grade": "صحيح",
+        "grader": "أخرجه مسلم في صحيحه",
+        "source_url": "https://dorar.net/h/xNJyF35K",
+        "dorar_url": "https://dorar.net/h/xNJyF35K",
+        "dorar_ref": "المحدث: مسلم | المصدر: صحيح مسلم | الرقم: 101 | خلاصة حكم المحدث: [صحيح]",
+        "sunnah_url": "https://sunnah.com/muslim:101",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "يحرم على القاضي قبول هدية من لم تجرِ عادته بالإهداء إليه قبل الولاية، وكذا هدية من اعتادها إن كانت له خصومة عنده، لأنها في معنى الرشوة؛ ويجوز قبول هدية من اعتادها قبل الولاية إن لم تكن له خصومة. (وحكى ابن قدامة عن الحنفية الكراهة، والذي عليه الحنفية التحريم بحسب الموسوعة.) ويقيس المعاصرون عليه الموظف الذي يُهدى إليه لأجل عمله.",
+        "position_en": "A judge may not accept a gift from someone who did not customarily give him gifts before his appointment, nor from a habitual giver who has a case before him, since it resembles a bribe; a habitual giver without a case may be accepted. (Ibn Qudama reports dislike from the Hanafis, while the encyclopedia states the Hanafi position is prohibition.) Contemporary scholars apply this by analogy to an employee who is gifted because of his work.",
+        "reference": "الموسوعة الفقهية (الدرر السنية)، كتاب القضاء، قبول الهدية: https://dorar.net/feqhia/13170 و https://dorar.net/feqhia/13172 — وفيها العزو إلى: البحر الرائق لابن نجيم (6/304-305)، حاشية ابن عابدين (5/372)، الهداية للمرغيناني (3/103)"
+      },
+      "maliki": {
+        "position_ar": "يحرم على القاضي قبول هدية من لم تجرِ عادته بالإهداء إليه قبل الولاية، سواء كانت له خصومة أم لا، وكذا هدية من اعتادها إن كانت له خصومة؛ ويجوز في المعتمد قبول هدية من اعتادها إن لم تكن له خصومة.",
+        "position_en": "A judge may not accept a gift from someone who did not customarily give him gifts before his appointment, whether or not he has a case, nor from a habitual giver who has a case; per the relied-upon view, a habitual giver without a case may be accepted.",
+        "reference": "الموسوعة الفقهية (الدرر السنية): https://dorar.net/feqhia/13170 و https://dorar.net/feqhia/13172 — وفيها العزو إلى: مواهب الجليل للحطاب (6/120)، الشرح الكبير للدردير (4/140)، الكافي لابن عبد البر (2/953)"
+      },
+      "shafii": {
+        "position_ar": "يحرم على القاضي قبول هدية من لم تجرِ عادته بالإهداء إليه قبل الولاية، وهدية من له خصومة عنده؛ ويجوز قبول هدية من اعتادها إن لم تكن له خصومة.",
+        "position_en": "A judge may not accept a gift from someone who did not customarily give him gifts before his appointment, nor from anyone with a case before him; a habitual giver without a case may be accepted.",
+        "reference": "الموسوعة الفقهية (الدرر السنية): https://dorar.net/feqhia/13170 و https://dorar.net/feqhia/13172 — وفيها العزو إلى: العزيز شرح الوجيز للرافعي (12/467)، مغني المحتاج للشربيني (6/287)، نهاية المحتاج للرملي (8/255)"
+      },
+      "hanbali": {
+        "position_ar": "لا يقبل القاضي هدية من لم يكن يهدي إليه قبل ولايته، ولا هدية من له خصومة عنده، لأنها لأجل الولاية؛ ويجوز قبول هدية من اعتادها إن لم تكن له خصومة. ويقيس المعاصرون عليه الموظف الذي يُهدى إليه لأجل منصبه.",
+        "position_en": "A judge does not accept gifts from anyone who did not give him gifts before his appointment, nor from anyone with a case before him, since they are due to the office; a habitual giver without a case may be accepted. Contemporary scholars apply this by analogy to an employee gifted because of his position.",
+        "reference": "الموسوعة الفقهية (الدرر السنية): https://dorar.net/feqhia/13170 و https://dorar.net/feqhia/13172 — وفيها العزو إلى: الإقناع للحجاوي (4/381)، منتهى الإرادات لابن النجار (5/272)، المغني لابن قدامة (10/69)"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "الشيخ عبد العزيز بن باز (المفتي العام للسعودية سابقاً)",
+        "decision_ref": "فتوى «حكم الهدايا للعمال والموظفين»، binbaz.org.sa رقم 23949",
+        "position_ar": "هدايا الموظف من المراجعين أو العملاء محرمة، إلا إذا كان بينه وبين صاحب الهدية معرفة وهدايا سابقة لقرابة أو مجاورة، وهي من الغلول. أما ما يعطيه ولي الأمر (جهة العمل) فلا بأس به.",
+        "position_en": "Gifts to an employee from clients are prohibited and are ghulul, unless there was a prior relationship and prior gifts due to kinship or neighborliness. What the employer itself gives is fine.",
+        "source_url": "https://binbaz.org.sa/fatwas/23949/حكم-الهدايا-للعمال-والموظفين"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "اقرأ سياسة الهدايا في شركتك (gift policy / code of conduct)، فكثير من الشركات الأمريكية تحدد سقفاً مثل 25-100 دولار، أو تشترط الإفصاح.",
+        "إن عرض عليك مورّد هدية فأخبر مديرك أو قسم الامتثال (compliance)، فإن أذنت الشركة فلا حرج، وإلا فاعتذر بلطف أو سلّمها للشركة.",
+        "الهدايا الدعائية الرمزية (قلم أو تقويم) التي توزع على الجميع ويجري العرف بقبولها أخف، والأحوط الإفصاح عنها.",
+        "سجّل ساعاتك بدقة، وإن أخطأت فصحح السجل فوراً. والتأخر أو الانشغال الشخصي في وقت العمل يُخصم أو يُعوَّض.",
+        "موارد الشركة: الاستعمال الشخصي اليسير الذي تسمح به السياسة أو يجري به العرف (مكالمة قصيرة، طباعة ورقة) لا بأس به، أما ما يتجاوز ذلك (مشروع جانبي على حاسوب الشركة، أخذ أدوات للبيت) فلا يجوز إلا بإذن.",
+        "إن أخذت شيئاً بغير حق فالتوبة تقتضي رده أو رد قيمته للشركة ولو بطريقة لا تحرجك."
+      ],
+      "en": [
+        "Read your company's gift policy or code of conduct; many US companies set a cap such as $25-$100 or require disclosure.",
+        "If a vendor offers you a gift, tell your manager or the compliance team; if the company permits it, there is no harm; otherwise decline politely or hand it to the company.",
+        "Token promotional items (a pen or calendar) given to everyone and customarily accepted are lighter, but disclosing them is safer.",
+        "Record your hours accurately and correct mistakes immediately; personal time or lateness during work hours should be deducted or made up.",
+        "Company resources: minor personal use permitted by policy or custom (a short call, printing a page) is fine; anything beyond that (a side project on the company laptop, taking supplies home) requires permission.",
+        "If you took something without right, repentance requires returning it or its value to the company, even discreetly."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "الإفصاح عن الهدية وطلب الإذن",
+        "تحويل الهدية إلى الشركة أو إلى صندوق الفريق",
+        "العمل الإضافي المأذون به بدل تسجيل ساعات وهمية"
+      ],
+      "en": [
+        "Disclosing the gift and asking permission",
+        "Handing the gift to the company or the team fund",
+        "Authorized overtime instead of fake hours"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "إن كانت الهدية من قريب أو صديق قديم يتعامل مع شركتك، أو كانت سياسة الشركة غامضة، أو كان عليك حقوق سابقة للشركة لا تعرف كيف تردها.",
+      "en": "If the gift is from a relative or old friend who deals with your company, if company policy is unclear, or if you owe the company past dues and do not know how to return them."
+    },
+    "confidence": "high",
+    "review_status": "ai_verified",
+    "notes_for_reviewer": "ثقة عالية في أصل الحكم والأدلة (حديث ابن اللتبية في الصحيحين، وحديث عدي بن عميرة في مسلم 1833، وحديث بريدة في أبي داود 2943). تحتاج مراجعة: (1) الإحالات المذهبية في هدية القاضي والعامل لم نطّلع على نصوصها في كتب المذاهب، وإنما في نتائج بحث (نقل الطحاوي، وإشارة الدرر السنية إلى اتفاق المذاهب، وكلام ابن قدامة)، وخانة الشافعية بلا نص موثق. (2) لم نجد قراراً مجمعياً دولياً خاصاً بهدايا الموظفين في القطاع الخاص، فاكتفينا بفتوى ابن باز، ويُستحسن إضافة قرار مجمعي إن وُجد. (3) قياس موظف الشركة الخاصة على العامل العام (الوالي) قياس مشهور عند المعاصرين، لكن يُراجَع أثر إذن صاحب العمل الخاص. (4) آيات المطففين استُشهد بها على من يُنقص العمل ويستوفي الأجر، وهو تطبيق مشهور عند الوعاظ والمفسرين المعاصرين لا نص صريح. (5) رقم مسلم 1833 مأخوذ من نتيجة بحث تطابق نص hadith-api (الترقيم الداخلي 33/42)، وsunnah.com يمنع الجلب المباشر.\n\n[تدقيق المرحلة 1 — 2026-10-05] الحكم والأدلة متينة (حديث ابن اللتبية، عدي بن عميرة، بريدة). الإحالات المذهبية في هدية العامل منقولة عن نتائج بحث — يُستحسن توثيقها من الموسوعة الكويتية (مادة «هدية»/«رشوة»). نجحت الفحوص الآلية.",
+    "newcomer_explainer": {
+      "ar": "الوظيفة في الإسلام أمانة. فحين بعث النبي ﷺ ابن اللتبية لجمع الصدقات وعاد يقول «هذا لكم، وهذا أُهدي لي»، أنكر عليه وقال: «فهلّا جلس في بيت أبيه أو بيت أمه، فينظر يُهدى له أم لا» (البخاري 2597)؛ فالهدية التي تأتي بسبب الوظيفة لجهة العمل إلا إذا أذنت. وتسجيل ساعات لم تُعمل كذب وأكل للمال بالباطل، واستعمال موارد الشركة مقيّد بإذنها الصريح أو العرفي. والمقصد حفظ الأمانة، وسدّ باب الرشوة المتنكرة في صورة هدية، وتطييب الكسب.",
+      "en": "In Islam a job is an amanah, a trust. When the Prophet ﷺ sent Ibn al-Lutbiyya to collect alms and he came back saying \"this has been given to me as a present\", the Prophet ﷺ asked why he had not stayed in his father's or mother's house to see whether he would be given presents or not (Bukhari 2597); so gifts that come because of your position belong to the employer unless it allows them. Logging hours not worked is lying and taking wealth without right, and company resources may be used only as the company permits, explicitly or by custom. The aim is to protect trust, close the door to bribery dressed up as gifts, and keep one's earnings clean."
+    },
+    "library_only": true
+  }
+]

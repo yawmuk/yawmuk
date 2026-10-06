@@ -1,0 +1,105 @@
+/* «يومك» prayer feature — all classes prefixed yk-prayer-. Uses the game's design tokens with fallbacks. */
+.yk-prayer-hud, .yk-prayer-panel, .yk-prayer-banner {
+  --ykp-bg: var(--glass-solid, #0f2a2c);
+  --ykp-text: var(--sand-100, #f3ead7);
+  --ykp-muted: var(--mist, #b8c6c0);
+  --ykp-accent: var(--brass-400, #e0ae52);
+  --ykp-accent-hi: var(--brass-300, #f2cf86);
+  --ykp-teal: var(--emerald-300, #74cfae);
+  --ykp-line: var(--line-strong, rgba(243, 234, 215, 0.22));
+  font-family: var(--font-ui, system-ui, sans-serif);
+  color: var(--ykp-text);
+}
+.yk-prayer-icon { width: 1.15em; height: 1.15em; flex: none; }
+.yk-prayer-ltr, .yk-prayer-hud-count { direction: ltr; unicode-bidi: isolate; font-variant-numeric: tabular-nums; }
+
+/* ---------- HUD ---------- */
+.yk-prayer-hud { display: inline-flex; align-items: stretch; gap: 4px; pointer-events: auto; }
+.yk-prayer-hud-floating { position: fixed; z-index: 40; top: calc(64px + env(safe-area-inset-top, 0px)); inset-inline-end: 12px; }
+.yk-prayer-hud button { font: inherit; color: inherit; cursor: pointer; }
+.yk-prayer-hud-main, .yk-prayer-hud-mute {
+  display: inline-flex; align-items: center; gap: 0.5em; min-height: 44px;
+  background: linear-gradient(180deg, rgba(20, 51, 53, 0.9), rgba(9, 26, 28, 0.9));
+  border: 1px solid var(--ykp-line); border-radius: 999px; padding: 0.3em 0.9em;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.09), 0 2px 0 rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+}
+.yk-prayer-hud-main .yk-prayer-icon { color: var(--ykp-accent); }
+.yk-prayer-hud-mute { padding: 0; width: 44px; justify-content: center; }
+.yk-prayer-hud-text { display: flex; flex-direction: column; line-height: 1.2; text-align: start; }
+.yk-prayer-hud-clock { font-weight: 700; font-size: 0.9rem; }
+.yk-prayer-hud-row { font-size: 0.78rem; color: var(--ykp-muted); white-space: nowrap; }
+.yk-prayer-hud-count { color: var(--ykp-accent-hi); font-weight: 700; }
+.yk-prayer-hud button:focus-visible, .yk-prayer-panel :focus-visible, .yk-prayer-banner :focus-visible { outline: 3px solid var(--ykp-teal); outline-offset: 2px; }
+
+/* ---------- banner ---------- */
+.yk-prayer-banner {
+  position: fixed; z-index: 1000; inset-inline: 12px; top: calc(12px + env(safe-area-inset-top, 0px));
+  margin-inline: auto; max-width: 560px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  padding: 14px 16px; border-radius: 18px; border: 1px solid rgba(224, 174, 82, 0.55);
+  background: linear-gradient(160deg, #143335, #0a1d1f); box-shadow: 0 18px 50px -10px rgba(0, 0, 0, 0.7);
+  animation: yk-prayer-in 0.5s ease-out both;
+}
+.yk-prayer-banner > .yk-prayer-icon { width: 2rem; height: 2rem; color: var(--ykp-accent); }
+.yk-prayer-banner-msg { display: flex; flex-direction: column; gap: 2px; flex: 1 1 200px; }
+.yk-prayer-banner-msg strong { font-family: var(--font-head, inherit); font-size: 1.1rem; color: var(--ykp-accent-hi); }
+.yk-prayer-banner-sub { font-size: 0.85rem; color: var(--ykp-muted); }
+.yk-prayer-banner-actions { display: flex; gap: 8px; }
+@keyframes yk-prayer-in { from { opacity: 0; transform: translateY(-12px); } to { opacity: 1; transform: none; } }
+
+/* ---------- panel ---------- */
+.yk-prayer-overlay { position: fixed; inset: 0; z-index: 900; display: grid; place-items: center; padding: 16px; background: rgba(3, 10, 11, 0.62); backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); }
+.yk-prayer-panel {
+  width: min(560px, 100%); max-height: calc(100dvh - 32px); overflow: auto; overscroll-behavior: contain;
+  background: var(--ykp-bg); border: 1px solid var(--ykp-line); border-radius: 22px;
+  box-shadow: 0 28px 70px -14px rgba(0, 0, 0, 0.7); padding: 0 18px 18px; box-sizing: border-box;
+  animation: yk-prayer-in 0.35s ease-out both; line-height: 1.6;
+}
+.yk-prayer-head { position: sticky; top: 0; z-index: 1; display: flex; align-items: center; gap: 10px; padding: 14px 0 10px; background: var(--ykp-bg); border-bottom: 1px solid var(--ykp-line); }
+.yk-prayer-head .yk-prayer-icon { width: 1.6rem; height: 1.6rem; color: var(--ykp-accent); }
+.yk-prayer-head h2 { margin: 0; flex: 1; font-family: var(--font-head, inherit); font-size: 1.3rem; }
+.yk-prayer-close { width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--ykp-line); background: transparent; color: inherit; font-size: 1.5rem; line-height: 1; cursor: pointer; }
+.yk-prayer-panel h3 { margin: 1em 0 0.4em; font-family: var(--font-head, inherit); color: var(--ykp-accent); font-size: 1.02rem; }
+.yk-prayer-now { display: flex; flex-direction: column; gap: 2px; margin: 12px 0 0; }
+.yk-prayer-hijri { color: var(--ykp-muted); font-size: 0.9rem; }
+.yk-prayer-next { color: var(--ykp-accent-hi); }
+.yk-prayer-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.yk-prayer-item { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 10px 6px; border-radius: 14px; background: rgba(255, 255, 255, 0.045); border: 1px solid rgba(243, 234, 215, 0.13); }
+.yk-prayer-item-sun { opacity: 0.75; }
+.yk-prayer-item-cur { border-color: rgba(116, 207, 174, 0.5); }
+.yk-prayer-item-next { background: linear-gradient(180deg, rgba(224, 174, 82, 0.22), rgba(224, 174, 82, 0.08)); border-color: var(--ykp-accent); }
+.yk-prayer-name { font-weight: 600; }
+.yk-prayer-time { font-variant-numeric: tabular-nums; color: var(--ykp-muted); font-size: 0.92rem; }
+.yk-prayer-item-next .yk-prayer-time { color: var(--ykp-accent-hi); font-weight: 700; }
+.yk-prayer-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.yk-prayer-btn {
+  min-height: 44px; padding: 0.4em 1em; border-radius: 999px; font: inherit; font-weight: 600; cursor: pointer;
+  color: var(--ykp-text); background: rgba(255, 255, 255, 0.08); border: 1px solid var(--ykp-line);
+}
+.yk-prayer-btn-primary { background: linear-gradient(180deg, var(--ykp-accent-hi), var(--ykp-accent)); color: #1d1404; border-color: transparent; }
+.yk-prayer-btn-ghost { background: transparent; }
+.yk-prayer-field { border: 0; padding: 0; margin: 16px 0 0; }
+.yk-prayer-field legend, .yk-prayer-field > label { display: block; font-weight: 600; color: var(--ykp-accent); margin-bottom: 6px; padding: 0; }
+.yk-prayer-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.yk-prayer-chip { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--ykp-line); cursor: pointer; }
+.yk-prayer-chip:has(input:checked) { border-color: var(--ykp-accent); background: rgba(224, 174, 82, 0.14); }
+.yk-prayer-chip input { accent-color: var(--ykp-accent); width: 18px; height: 18px; margin: 0; }
+.yk-prayer-select { width: 100%; min-height: 44px; border-radius: 12px; padding: 0 10px; font: inherit; color: var(--ykp-text); background: #0a1d1f; border: 1px solid var(--ykp-line); }
+.yk-prayer-consent { margin-top: 10px; padding: 12px; border-radius: 14px; border: 1px dashed var(--ykp-accent); background: rgba(224, 174, 82, 0.06); }
+.yk-prayer-consent p { margin: 0; }
+.yk-prayer-note { font-size: 0.86rem; color: var(--ykp-muted); margin: 6px 0 0; }
+.yk-prayer-about p { margin: 0.4em 0; }
+.yk-prayer-dl { margin: 0; }
+.yk-prayer-dl dt { font-weight: 700; color: var(--ykp-accent-hi); margin-top: 10px; }
+.yk-prayer-dl dd { margin: 2px 0 0; }
+.yk-prayer-src, .yk-prayer-credit a { color: var(--ykp-teal); font-size: 0.82rem; white-space: nowrap; }
+.yk-prayer-credit { font-size: 0.8rem; color: var(--ykp-muted); margin-top: 14px; }
+.yk-prayer-live { min-height: 1.2em; margin: 10px 0 0; font-size: 0.9rem; color: var(--ykp-teal); }
+
+@media (max-width: 420px) {
+  .yk-prayer-panel { padding: 0 14px 14px; border-radius: 18px; }
+  .yk-prayer-overlay { padding: 8px; }
+  .yk-prayer-hud-floating { top: calc(60px + env(safe-area-inset-top, 0px)); inset-inline-end: 8px; }
+  .yk-prayer-src { white-space: normal; }
+}
+@media (prefers-reduced-motion: reduce) { .yk-prayer-banner, .yk-prayer-panel { animation: none; } }

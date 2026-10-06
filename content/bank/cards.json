@@ -1,0 +1,387 @@
+{
+  "meta": {
+    "purpose": {
+      "ar": "بطاقات تعليمية عامة عن عقود التمويل الإسلامي. ليست فتوى ولا حكماً على عقد بعينه. كل موقف منسوب إلى جهة مسمّاة مع رابط المصدر.",
+      "en": "General educational cards on Islamic finance contracts. Not a fatwa and not a ruling on any specific contract. Every position is attributed to a named body with a source link."
+    },
+    "levels": {
+      "A": { "ar": "أ: معلومة أصلية مستقرة", "en": "A: settled core information" },
+      "B": { "ar": "ب: شرح وتعريف واستدلال", "en": "B: explanation and comparison" },
+      "C": { "ar": "ج: مسألة خلافية: نعرض الأقوال منسوبة ولا نرجّح", "en": "C: disputed: positions shown with attribution, no verdict chosen" }
+    },
+    "prepared_by": "AI-assisted draft from the sources listed; not yet reviewed by a scholar",
+    "review_status": "ai_draft",
+    "last_verified": "2026-10-06"
+  },
+  "cards": [
+    {
+      "id": "riba_vs_bay",
+      "title": { "ar": "الربا والبيع: ما الفرق؟", "en": "Riba vs. trade: what is the difference?" },
+      "content_level": "B",
+      "disputed": false,
+      "definition": {
+        "ar": "الربا في القرض: كل زيادة مشروطة على المال المُقرَض أو على الدين مقابل تأجيله. أما البيع فمبادلة سلعة أو منفعة بثمن، يتحمل فيها البائع تبعة ما يملكه قبل أن يبيعه.",
+        "en": "Riba on a loan is any stipulated increase on money lent, or on a debt in return for more time. A sale exchanges a good or a service for a price, and the seller carries the risk of what he owns before he sells it."
+      },
+      "steps": [
+        { "ar": "في القرض الربوي: يُعطى المال نقداً، ويُردّ المال نفسه مع زيادة تحسب على الزمن.", "en": "Interest loan: money is handed over and the same money is repaid with an increase that grows with time." },
+        { "ar": "في البيع: يشتري التاجر سلعة ويملكها ويتحمل هلاكها، ثم يبيعها بربح معلوم.", "en": "Trade: the trader buys a good, owns it, carries its risk of loss, then sells it at a known profit." },
+        { "ar": "الفارق ليس في وجود الربح، بل في سببه: الربح في البيع مقابل سلعة وضمان، والزيادة في الربا مقابل الزمن على المال وحده.", "en": "The difference is not whether there is a profit but what it is paid for: in trade it is paid for a good and its risk; in riba it is paid for time on money alone." }
+      ],
+      "conditions": [
+        { "ar": "لا زيادة مشروطة على القرض منذ بداية العقد.", "en": "No stipulated increase on a loan from the start of the contract." },
+        { "ar": "لا زيادة على الدين الحالّ مقابل تأجيله عند العجز عن السداد.", "en": "No increase on a due debt in return for postponing it when the debtor cannot pay." }
+      ],
+      "status": {
+        "ar": "تحريم الربا ثابت بنص القرآن، ونقلت الموسوعة الفقهية الإجماع على تحريمه في الجملة. وقرر مجمع الفقه الإسلامي الدولي أن الزيادة على القرض منذ بداية العقد، والزيادة على الدين الحالّ مقابل تأجيله، «هاتان الصورتان ربا محرم شرعاً».",
+        "en": "The prohibition of riba is stated in the Quran, and the Fiqh Encyclopedia reports consensus on its prohibition in general. The International Islamic Fiqh Academy resolved that an increase on a loan from the start of the contract, and an increase on a due debt in return for more time, are both prohibited riba."
+      },
+      "attributed_to": [
+        { "body": { "ar": "الموسوعة الفقهية (الدرر السنية)", "en": "Fiqh Encyclopedia (Dorar)" }, "ref": { "ar": "كتاب الربا: حكم الربا", "en": "Book of Riba: its ruling" }, "url": "https://dorar.net/feqhia/7595" },
+        { "body": { "ar": "مجمع الفقه الإسلامي الدولي", "en": "International Islamic Fiqh Academy (IIFA)" }, "ref": { "ar": "القرار رقم 10 (10/2)، الدورة الثانية، جدة 1985م", "en": "Resolution 10 (10/2), 2nd session, Jeddah 1985" }, "url": "https://shamela.ws/book/968/1267" }
+      ],
+      "sources": [
+        { "title": { "ar": "الدرر السنية: حكم الربا", "en": "Dorar: ruling on riba" }, "url": "https://dorar.net/feqhia/7595" },
+        { "title": { "ar": "نص قرار المجمع 10 (10/2) منقولاً في «فقه المعاملات» (الشاملة)", "en": "Text of IIFA resolution 10 (10/2), quoted in Fiqh al-Mu'amalat (Shamela)" }, "url": "https://shamela.ws/book/968/1267" },
+        { "title": { "ar": "سورة البقرة: الآية 275 (موسوعة القرآن الكريم المترجمة)", "en": "Al-Baqarah 2:275 (QuranEnc)" }, "url": "https://quranenc.com/en/browse/english_saheeh/2#275" }
+      ],
+      "ask_scholar_when": [
+        { "ar": "عندك قرض قائم بفائدة وتريد معرفة ما يلزمك تجاهه.", "en": "You already have an interest loan and want to know what you should do about it." },
+        { "ar": "عُرض عليك منتج لا تعرف هل الزيادة فيه ثمن سلعة أم فائدة قرض.", "en": "You were offered a product and cannot tell whether the extra amount is a sale price or loan interest." }
+      ],
+      "related_rulings": ["home.mortgage", "home.credit_card", "school.student_loan"]
+    },
+    {
+      "id": "murabaha",
+      "title": { "ar": "المرابحة للآمر بالشراء", "en": "Murabaha to the purchase orderer" },
+      "content_level": "B",
+      "disputed": true,
+      "disputed_points": [
+        { "ar": "هل يجوز أن يكون الوعد بالشراء مُلزِماً؟ تنقل الموسوعة الفقهية المنع إذا كان مُلزِماً للطرفين، وفي إلزام طرف واحد خلاف بين الهيئات.", "en": "May the promise to buy be binding? The Fiqh Encyclopedia reports it is not allowed if binding on both parties; bodies differ when it binds one party only." }
+      ],
+      "definition": {
+        "ar": "يتفق العميل والمصرف على أن يشتري المصرفُ السلعةَ (كبيت أو سيارة) ثم يبيعها للعميل بثمن معلوم يشمل ربحاً معلوماً، ويُدفع بالتقسيط.",
+        "en": "The client and the bank agree that the bank buys a good (such as a house or a car) and then sells it to the client at a known price that includes a known profit, paid in instalments."
+      },
+      "steps": [
+        { "ar": "يطلب العميل السلعة ويَعِد بشرائها.", "en": "The client asks for the good and promises to buy it." },
+        { "ar": "يشتري المصرف السلعة لنفسه ويملكها ويقبضها، فتكون من ضمانه حتى يبيعها.", "en": "The bank buys the good for itself, owns and takes possession of it, so it carries the risk until it sells." },
+        { "ar": "يبيعها المصرف للعميل بثمن نهائي محدد عند العقد.", "en": "The bank sells it to the client at a final price fixed in the contract." },
+        { "ar": "يسدد العميل الأقساط. الثمن دين ثابت لا يزيد بالتأخير.", "en": "The client pays instalments. The price is a fixed debt that does not grow with delay." }
+      ],
+      "conditions": [
+        { "ar": "أن يملك المصرف السلعة ويقبضها قبل أن يبيعها.", "en": "The bank must own and take possession of the good before selling it." },
+        { "ar": "أن يكون الثمن والربح معلومين عند العقد.", "en": "The price and the profit must be known at the time of the contract." },
+        { "ar": "ألا يُزاد الثمن إذا تأخر العميل في السداد.", "en": "The price may not be increased if the client pays late." }
+      ],
+      "status": {
+        "ar": "تنقل الموسوعة الفقهية جواز المرابحة للآمر بالشراء إذا كان الوعد غير مُلزِم، ونصّ عليه مجمع الفقه الإسلامي، وأنها لا تجوز إذا كان الوعد مُلزِماً للطرفين، وبه صدر قرار المجمع. وتنظّمها هيئة المحاسبة والمراجعة (أيوفي) في المعيار الشرعي رقم 8.",
+        "en": "The Fiqh Encyclopedia reports that murabaha to the purchase orderer is permitted when the promise is not binding, as stated by the Fiqh Academy, and not permitted when the promise binds both parties, per the Academy's resolution. AAOIFI regulates it in Shari'ah Standard No. 8."
+      },
+      "attributed_to": [
+        { "body": { "ar": "مجمع الفقه الإسلامي الدولي", "en": "International Islamic Fiqh Academy (IIFA)" }, "ref": { "ar": "قرار الوفاء بالوعد والمرابحة للآمر بالشراء، الدورة الخامسة، الكويت 1988م", "en": "Resolution on keeping promises and murabaha to the purchase orderer, 5th session, Kuwait 1988" }, "url": "https://dorar.net/feqhia/7136" },
+        { "body": { "ar": "هيئة المحاسبة والمراجعة للمؤسسات المالية الإسلامية (أيوفي)", "en": "AAOIFI" }, "ref": { "ar": "المعيار الشرعي رقم 8: المرابحة", "en": "Shari'ah Standard No. 8: Murabahah" }, "url": "https://aaoifi.com/" }
+      ],
+      "sources": [
+        { "title": { "ar": "الدرر السنية: بيع المرابحة للآمر بالشراء", "en": "Dorar: murabaha to the purchase orderer" }, "url": "https://dorar.net/feqhia/7136" },
+        { "title": { "ar": "نص قرار المجمع منقولاً في «فقه المعاملات» (الشاملة)", "en": "IIFA resolution text quoted in Fiqh al-Mu'amalat (Shamela)" }, "url": "https://shamela.ws/book/968/1614" },
+        { "title": { "ar": "أيوفي: المعايير الشرعية", "en": "AAOIFI: Shari'ah Standards" }, "url": "https://aaoifi.com/" }
+      ],
+      "ask_scholar_when": [
+        { "ar": "يطلب منك العقد التوقيع على البيع قبل أن يملك المصرف السلعة.", "en": "The contract asks you to sign the sale before the bank owns the good." },
+        { "ar": "في العقد غرامة تأخير لا تعرف أين تذهب.", "en": "The contract has a late fee and you do not know where it goes." }
+      ],
+      "related_rulings": ["home.mortgage"]
+    },
+    {
+      "id": "ijara_muntahia",
+      "title": { "ar": "الإجارة المنتهية بالتمليك", "en": "Lease ending in ownership (ijara muntahia bittamleek)" },
+      "content_level": "B",
+      "disputed": false,
+      "definition": {
+        "ar": "يملك المصرفُ الأصلَ ويؤجره للعميل مدة معلومة بأجرة معلومة، ثم ينتقل الملك إلى العميل في آخر المدة بعقد مستقل (بيع أو هبة) أو بوعد بالتمليك.",
+        "en": "The bank owns the asset and leases it to the client for a known term and rent; ownership then passes to the client at the end through a separate contract (sale or gift) or a promise to transfer."
+      },
+      "steps": [
+        { "ar": "يشتري المصرف الأصل ويملكه.", "en": "The bank buys and owns the asset." },
+        { "ar": "يؤجره للعميل بأجرة معلومة لمدة معلومة.", "en": "It leases it to the client for a known rent and term." },
+        { "ar": "طوال المدة: الضمان على المالك، والتأمين إن وُجد تعاوني ويتحمله المالك.", "en": "During the term the owner carries the risk; insurance, if any, is cooperative and paid by the owner." },
+        { "ar": "في آخر المدة: يُبرم عقد تمليك مستقل.", "en": "At the end, a separate ownership-transfer contract is concluded." }
+      ],
+      "conditions": [
+        { "ar": "وجود عقدين منفصلين يستقل كل منهما عن الآخر زماناً، أو وعد بالتمليك في آخر المدة.", "en": "Two separate contracts, each independent in time, or a promise to transfer ownership at the end." },
+        { "ar": "أن تكون الإجارة فعلية لا ساترة للبيع.", "en": "The lease must be real, not a cover for a sale." },
+        { "ar": "أن يكون ضمان العين على المالك لا على المستأجر، إلا بتعدٍّ أو تفريط.", "en": "The owner, not the tenant, carries the risk of the asset, unless the tenant is at fault." },
+        { "ar": "تطبق أحكام الإجارة طوال المدة، وأحكام البيع عند التملك.", "en": "Lease rules apply during the term, and sale rules at the transfer." }
+      ],
+      "status": {
+        "ar": "قرر مجمع الفقه الإسلامي الدولي في قراره 110 (4/12) ضوابط للصور الجائزة، وجعل ضابط الصور الممنوعة أن يرد عقدان مختلفان، الإجارة والبيع، في وقت واحد على عين واحدة. وتنظمها أيوفي في المعيار الشرعي رقم 9.",
+        "en": "IIFA resolution 110 (4/12) set conditions for the permitted forms and defined the prohibited forms as two different contracts, lease and sale, applied to the same asset at the same time. AAOIFI regulates it in Shari'ah Standard No. 9."
+      },
+      "attributed_to": [
+        { "body": { "ar": "مجمع الفقه الإسلامي الدولي", "en": "International Islamic Fiqh Academy (IIFA)" }, "ref": { "ar": "القرار 110 (4/12)، الدورة الثانية عشرة، الرياض 2000م", "en": "Resolution 110 (4/12), 12th session, Riyadh 2000" }, "url": "https://dorar.net/feqhia/8182" },
+        { "body": { "ar": "أيوفي", "en": "AAOIFI" }, "ref": { "ar": "المعيار الشرعي رقم 9: الإجارة والإجارة المنتهية بالتمليك", "en": "Shari'ah Standard No. 9: Ijarah and Ijarah Muntahia Bittamleek" }, "url": "https://aaoifi.com/" }
+      ],
+      "sources": [
+        { "title": { "ar": "الدرر السنية: الصور الجائزة", "en": "Dorar: permitted forms" }, "url": "https://dorar.net/feqhia/8182" },
+        { "title": { "ar": "الدرر السنية: الصور الممنوعة", "en": "Dorar: prohibited forms" }, "url": "https://dorar.net/feqhia/8180" },
+        { "title": { "ar": "أيوفي: المعايير الشرعية", "en": "AAOIFI: Shari'ah Standards" }, "url": "https://aaoifi.com/" }
+      ],
+      "ask_scholar_when": [
+        { "ar": "يحمّلك العقد الصيانة الأساسية أو هلاك العين بلا تقصير منك.", "en": "The contract makes you bear major maintenance or loss of the asset without any fault of yours." },
+        { "ar": "لا تجد في العقد فصلاً واضحاً بين الإجارة والتمليك.", "en": "You cannot find a clear separation between the lease and the transfer in the contract." }
+      ],
+      "related_rulings": ["home.mortgage"]
+    },
+    {
+      "id": "diminishing_musharaka",
+      "title": { "ar": "المشاركة المتناقصة", "en": "Diminishing musharaka (declining partnership)" },
+      "content_level": "B",
+      "disputed": false,
+      "definition": {
+        "ar": "شركة بين طرفين في أصل أو مشروع ذي دخل، يتعهد فيها أحدهما بشراء حصة الآخر تدريجياً حتى يملك الأصل كله.",
+        "en": "A partnership between two parties in an income-producing asset or project, in which one promises to buy the other's share gradually until he owns it all."
+      },
+      "steps": [
+        { "ar": "يشتري العميل والمصرف البيت معاً، ولكلٍّ حصة (مثلاً 20٪ و80٪).", "en": "The client and the bank buy the house together, each with a share (e.g. 20% and 80%)." },
+        { "ar": "يستأجر العميل حصة المصرف ويدفع أجرة عنها.", "en": "The client rents the bank's share and pays rent for it." },
+        { "ar": "يشتري العميل جزءاً من حصة المصرف دورياً، فتقل حصة المصرف وتقل الأجرة معها.", "en": "The client periodically buys part of the bank's share, so the bank's share and the rent both fall." },
+        { "ar": "حين يشتري العميل آخر جزء يصبح البيت ملكه كاملاً.", "en": "When the client buys the last part, the house is wholly his." }
+      ],
+      "conditions": [
+        { "ar": "ألا يتحمل أحد الطرفين وحده التأمين أو الصيانة الأساسية، بل توزع بنسبة الحصص.", "en": "Neither party alone bears insurance or major maintenance; they are shared by ownership share." },
+        { "ar": "أن يكون الربح بنسب شائعة، لا مبلغاً مقطوعاً أو نسبة من رأس المال.", "en": "Profit is shared by percentage, not a fixed amount or a percentage of capital." },
+        { "ar": "الفصل الواضح بين عقود الشركة والإجارة والبيع.", "en": "A clear separation between the partnership, lease and sale contracts." },
+        { "ar": "منع النص على حق أحد الطرفين في استرداد ما قدّمه مضموناً.", "en": "No clause guaranteeing either party the return of its contribution." }
+      ],
+      "status": {
+        "ar": "تنقل الموسوعة الفقهية أن المشاركة المتناقصة مشروعة إذا التُزمت فيها الأحكام العامة للشركات وروعيت ضوابطها، ونص عليه مجمع الفقه الإسلامي الدولي (الدورة الخامسة عشرة، مسقط 2004م)، وأيوفي في المعيار الشرعي رقم 12.",
+        "en": "The Fiqh Encyclopedia reports that diminishing musharaka is permitted when the general rules of partnership and its conditions are observed, as stated by IIFA (15th session, Muscat 2004) and AAOIFI Shari'ah Standard No. 12."
+      },
+      "attributed_to": [
+        { "body": { "ar": "مجمع الفقه الإسلامي الدولي", "en": "International Islamic Fiqh Academy (IIFA)" }, "ref": { "ar": "قرار المشاركة المتناقصة وضوابطها، الدورة الخامسة عشرة، مسقط 2004م", "en": "Resolution on diminishing musharaka, 15th session, Muscat 2004" }, "url": "https://dorar.net/feqhia/8555" },
+        { "body": { "ar": "أيوفي", "en": "AAOIFI" }, "ref": { "ar": "المعيار الشرعي رقم 12: الشركة (المشاركة)", "en": "Shari'ah Standard No. 12: Sharikah (Musharakah)" }, "url": "https://aaoifi.com/" }
+      ],
+      "sources": [
+        { "title": { "ar": "الدرر السنية: حكم الشركة المتناقصة", "en": "Dorar: ruling on diminishing partnership" }, "url": "https://dorar.net/feqhia/8555" },
+        { "title": { "ar": "الدرر السنية: ضوابط المشاركة المتناقصة", "en": "Dorar: conditions of diminishing musharaka" }, "url": "https://dorar.net/feqhia/8557" },
+        { "title": { "ar": "أيوفي: المعايير الشرعية", "en": "AAOIFI: Shari'ah Standards" }, "url": "https://aaoifi.com/" }
+      ],
+      "ask_scholar_when": [
+        { "ar": "سعر شراء الحصص محدد مسبقاً بطريقة تضمن للمصرف رأس ماله أياً كانت قيمة البيت.", "en": "The share buy-back price is fixed so the bank recovers its capital whatever the house is worth." },
+        { "ar": "يحمّلك العقد وحدك تأمين البيت كله أو صيانته الأساسية.", "en": "The contract makes you alone bear insurance or major maintenance of the whole house." }
+      ],
+      "related_rulings": ["home.mortgage"]
+    },
+    {
+      "id": "mudaraba",
+      "title": { "ar": "المضاربة", "en": "Mudaraba (profit-sharing investment)" },
+      "content_level": "B",
+      "disputed": false,
+      "definition": {
+        "ar": "عقد يدفع فيه طرفٌ المالَ إلى آخر يعمل فيه، على أن يكون الربح بينهما بنسبة متفق عليها. وتسمى أيضاً القِراض.",
+        "en": "A contract in which one party gives money to another who works with it, with profit split by an agreed ratio. Also called qirad."
+      },
+      "steps": [
+        { "ar": "صاحب المال (المودِع) يقدّم المال.", "en": "The capital owner (the depositor) provides the money." },
+        { "ar": "المضارِب (المصرف أو مدير الاستثمار) يعمل فيه.", "en": "The manager (the bank or fund manager) works with it." },
+        { "ar": "الربح يُقسم بنسبة متفق عليها، كـ 60٪ و40٪.", "en": "Profit is split by an agreed ratio, such as 60% / 40%." },
+        { "ar": "الخسارة على صاحب المال، ويخسر المضارب جهده، ما لم يتعدَّ أو يقصّر.", "en": "Loss falls on the capital owner and the manager loses his effort, unless the manager is negligent or at fault." }
+      ],
+      "conditions": [
+        { "ar": "الربح نسبة شائعة لا مبلغ مقطوع.", "en": "Profit is a percentage share, not a fixed amount." },
+        { "ar": "لا يُضمن رأس المال على المضارب إلا بتعدٍّ أو تقصير.", "en": "The manager does not guarantee the capital unless he is at fault." }
+      ],
+      "status": {
+        "ar": "تنقل الموسوعة الفقهية جواز المضاربة في الجملة. وتنظمها أيوفي في المعيار الشرعي رقم 13. وعليها تقوم حسابات الاستثمار في كثير من المصارف الإسلامية.",
+        "en": "The Fiqh Encyclopedia reports that mudaraba is permitted in principle. AAOIFI regulates it in Shari'ah Standard No. 13. Many Islamic banks run investment accounts on this basis."
+      },
+      "attributed_to": [
+        { "body": { "ar": "الموسوعة الفقهية (الدرر السنية)", "en": "Fiqh Encyclopedia (Dorar)" }, "ref": { "ar": "حكم شركة المضاربة", "en": "Ruling on mudaraba" }, "url": "https://dorar.net/feqhia/8382" },
+        { "body": { "ar": "أيوفي", "en": "AAOIFI" }, "ref": { "ar": "المعيار الشرعي رقم 13: المضاربة", "en": "Shari'ah Standard No. 13: Mudarabah" }, "url": "https://aaoifi.com/" }
+      ],
+      "sources": [
+        { "title": { "ar": "الدرر السنية: تعريف المضاربة", "en": "Dorar: definition of mudaraba" }, "url": "https://dorar.net/feqhia/8380" },
+        { "title": { "ar": "الدرر السنية: حكم المضاربة", "en": "Dorar: ruling on mudaraba" }, "url": "https://dorar.net/feqhia/8382" },
+        { "title": { "ar": "أيوفي: المعايير الشرعية", "en": "AAOIFI: Shari'ah Standards" }, "url": "https://aaoifi.com/" }
+      ],
+      "ask_scholar_when": [
+        { "ar": "يَعِدك الحساب بعائد ثابت مضمون مع رأس المال.", "en": "The account promises you a fixed, guaranteed return plus your capital." },
+        { "ar": "تختار صندوق تقاعد أو استثمار ولا تعرف كيف تُستثمر أمواله.", "en": "You are choosing a retirement or investment fund and do not know how it invests." }
+      ],
+      "related_rulings": ["work.retirement_401k"]
+    },
+    {
+      "id": "tawarruq",
+      "title": { "ar": "التورّق (الفردي والمنظَّم)", "en": "Tawarruq (individual and organised)" },
+      "content_level": "C",
+      "disputed": true,
+      "disputed_points": [
+        { "ar": "التورق الفردي: أجازه الحنابلة ومجمع رابطة العالم الإسلامي، وكرهه المالكية في المشهور.", "en": "Individual tawarruq: permitted by the Hanbalis and the MWL Fiqh Council; disliked by the Malikis in their well-known view." },
+        { "ar": "التورق المصرفي المنظَّم: منعه مجمعا الفقه (الدولي والرابطة)، وتعمل به مؤسسات مالية بموافقة هيئاتها الشرعية.", "en": "Organised bank tawarruq: prohibited by both Fiqh Academies (IIFA and MWL), while some institutions offer it with approval of their own Shari'ah boards." }
+      ],
+      "definition": {
+        "ar": "أن يشتري شخصٌ سلعةً بثمن مؤجل، ثم يبيعها نقداً لغير من اشتراها منه، ليحصل على المال. وفي التورق المصرفي المنظَّم يرتّب المصرف البيعَ والشراءَ كله نيابةً عن العميل.",
+        "en": "A person buys a good on deferred payment, then sells it for cash to someone other than the seller, to obtain money. In organised bank tawarruq the bank arranges both the purchase and the resale on the client's behalf."
+      },
+      "steps": [
+        { "ar": "يشتري العميل سلعة (معدن مثلاً) من المصرف بثمن مؤجل.", "en": "The client buys a commodity (e.g. a metal) from the bank on deferred payment." },
+        { "ar": "في الصورة الفردية: يقبضها العميل ويبيعها بنفسه في السوق.", "en": "Individual form: the client takes possession and sells it himself in the market." },
+        { "ar": "في الصورة المنظمة: يوكّل العميلُ المصرفَ ببيعها فوراً لطرف ثالث، فيقبض العميل النقد.", "en": "Organised form: the client appoints the bank to sell it at once to a third party, and receives cash." },
+        { "ar": "يسدد العميل الثمن المؤجل الأكبر على أقساط.", "en": "The client repays the larger deferred price in instalments." }
+      ],
+      "conditions": [
+        { "ar": "عند من أجاز الفردي: أن يقبض المشتري السلعة قبضاً حقيقياً وتدخل في ضمانه، وألا يبيعها لمن اشتراها منه.", "en": "For those who permit the individual form: real possession and risk, and no resale to the original seller." }
+      ],
+      "status": {
+        "ar": "مسألة خلافية من المستوى ج، ولا يرجّح هذا التطبيق فيها. تنقل الموسوعة الفقهية أن التورق الفردي أجازه الحنابلة وصدر بجوازه قرار المجمع الفقهي برابطة العالم الإسلامي (الدورة 15، 1419هـ)، وكرهه المالكية في المشهور. أما التورق المصرفي المنظَّم فقرر مجمع الفقه الإسلامي الدولي في قراره 179 (5/19) والمجمع الفقهي برابطة العالم الإسلامي (الدورة 17، 2003م) عدم جوازه.",
+        "en": "A level-C disputed matter; this app does not choose a view. The Fiqh Encyclopedia reports that individual tawarruq was permitted by the Hanbalis and by the MWL Fiqh Council (15th session, 1419 AH), and disliked by the Malikis in their well-known view. Organised bank tawarruq was declared impermissible by IIFA resolution 179 (5/19) and by the MWL Fiqh Council (17th session, 2003)."
+      },
+      "attributed_to": [
+        { "body": { "ar": "مجمع الفقه الإسلامي الدولي", "en": "International Islamic Fiqh Academy (IIFA)" }, "ref": { "ar": "القرار 179 (5/19): لا يجوز التورقان المنظم والعكسي", "en": "Resolution 179 (5/19): organised and reverse tawarruq not permitted" }, "url": "https://dorar.net/feqhia/7197" },
+        { "body": { "ar": "المجمع الفقهي الإسلامي برابطة العالم الإسلامي", "en": "MWL Islamic Fiqh Council" }, "ref": { "ar": "الدورة 17 (2003م): منع التورق المصرفي المنظم؛ الدورة 15 (1419هـ): جواز التورق الفردي", "en": "17th session (2003): organised tawarruq prohibited; 15th session (1419 AH): individual tawarruq permitted" }, "url": "https://dorar.net/feqhia/7195" },
+        { "body": { "ar": "المذاهب الفقهية", "en": "The schools of law" }, "ref": { "ar": "الحنابلة: جائز؛ المالكية (المشهور): مكروه", "en": "Hanbali: permitted; Maliki (well-known view): disliked" }, "url": "https://dorar.net/feqhia/7195" }
+      ],
+      "sources": [
+        { "title": { "ar": "الدرر السنية: حكم التورق", "en": "Dorar: ruling on tawarruq" }, "url": "https://dorar.net/feqhia/7195" },
+        { "title": { "ar": "الدرر السنية: التورق المصرفي المنظم", "en": "Dorar: organised bank tawarruq" }, "url": "https://dorar.net/feqhia/7197" }
+      ],
+      "ask_scholar_when": [
+        { "ar": "عُرض عليك «تمويل شخصي نقدي» من مصرف إسلامي وتريد معرفة صورته.", "en": "An Islamic bank offers you a cash 'personal finance' product and you want to know its structure." },
+        { "ar": "تحتاج إلى قرار شخصي في حالتك: هذه مسألة خلافية تحتاج من يسمع تفاصيلك.", "en": "You need a personal decision: this is a disputed matter and needs someone who hears your details." }
+      ],
+      "related_rulings": ["home.credit_card"]
+    },
+    {
+      "id": "takaful",
+      "title": { "ar": "التأمين التعاوني (التكافلي) والتأمين التجاري", "en": "Cooperative (takaful) vs. commercial insurance" },
+      "content_level": "C",
+      "disputed": true,
+      "disputed_points": [
+        { "ar": "حكم التأمين التجاري: حرّمه أكثر المجامع والهيئات المذكورة، وفي المسألة أقوال أخرى لبعض العلماء المعاصرين.", "en": "Commercial insurance: prohibited by most of the bodies listed; some contemporary scholars hold other views." },
+        { "ar": "التأمين الذي يفرضه القانون (كتأمين السيارات) في بلد لا يتوفر فيه بديل تعاوني: يُسأل عنه أهل العلم.", "en": "Insurance required by law (such as car insurance) where no cooperative option exists: ask a scholar." }
+      ],
+      "definition": {
+        "ar": "التأمين التعاوني: تعاون مجموعة من الناس على تحمّل المخاطر باشتراكات تُجمع في صندوق، ولا يهدف إلى الربح. أما التأمين التجاري فعقد معاوضة تهدف فيه الشركة إلى الربح من نقل المخاطر إليها.",
+        "en": "Cooperative insurance: a group of people share risks through contributions to a common pool, not for profit. Commercial insurance is an exchange contract in which a company profits from taking on risk."
+      },
+      "steps": [
+        { "ar": "يدفع المشتركون اشتراكات إلى صندوق مشترك على سبيل التبرع والتعاون.", "en": "Members pay contributions into a common pool as mutual support." },
+        { "ar": "تدير الشركة الصندوق بأجر أو بنسبة من الربح، والصندوق مستقل عن أموالها.", "en": "An operator manages the pool for a fee or a profit share; the pool is separate from the operator's money." },
+        { "ar": "يُعوَّض المتضرر من الصندوق، والفائض يعود على المشتركين وفق اللائحة.", "en": "Members who suffer a loss are paid from the pool; any surplus returns to members per the rules." }
+      ],
+      "conditions": [
+        { "ar": "أن يكون الصندوق ملكاً للمشتركين لا للشركة.", "en": "The pool belongs to the members, not the operator." },
+        { "ar": "أن تُستثمر أموال الصندوق بطرق مباحة.", "en": "Pool money is invested in permitted ways." }
+      ],
+      "status": {
+        "ar": "تنقل الموسوعة الفقهية أن التأمين التعاوني جائز، ونص عليه مجمع الفقه الإسلامي الدولي والمجمع الفقهي برابطة العالم الإسلامي واللجنة الدائمة. وتنقل أن التأمين التجاري محرم في الجملة عند مجمع الفقه الإسلامي الدولي (القرار 9 (9/2)) والمجمع الفقهي بالرابطة وهيئة كبار العلماء بالسعودية، للغرر الفاحش. هذه مسألة من المستوى ج لاتصالها بحالات يفرضها القانون.",
+        "en": "The Fiqh Encyclopedia reports that cooperative insurance is permitted, as stated by IIFA, the MWL Fiqh Council and the Saudi Permanent Committee. It reports that commercial insurance is prohibited in general by IIFA (resolution 9 (9/2)), the MWL Fiqh Council and the Saudi Council of Senior Scholars, because of excessive uncertainty (gharar). This is a level-C matter because it touches cases required by law."
+      },
+      "attributed_to": [
+        { "body": { "ar": "مجمع الفقه الإسلامي الدولي", "en": "International Islamic Fiqh Academy (IIFA)" }, "ref": { "ar": "القرار 9 (9/2) بشأن التأمين وإعادة التأمين، جدة 1985م", "en": "Resolution 9 (9/2) on insurance and reinsurance, Jeddah 1985" }, "url": "https://dorar.net/feqhia/7031" },
+        { "body": { "ar": "المجمع الفقهي الإسلامي برابطة العالم الإسلامي وهيئة كبار العلماء بالسعودية", "en": "MWL Islamic Fiqh Council and the Saudi Council of Senior Scholars" }, "ref": { "ar": "منقول في الموسوعة الفقهية: عقد التأمينات", "en": "Reported in the Fiqh Encyclopedia: insurance contracts" }, "url": "https://dorar.net/feqhia/7031" }
+      ],
+      "sources": [
+        { "title": { "ar": "الدرر السنية: عقد التأمينات", "en": "Dorar: insurance contracts" }, "url": "https://dorar.net/feqhia/7031" },
+        { "title": { "ar": "أيوفي: المعايير الشرعية", "en": "AAOIFI: Shari'ah Standards" }, "url": "https://aaoifi.com/" }
+      ],
+      "ask_scholar_when": [
+        { "ar": "القانون يُلزمك بتأمين معيّن (سيارة، صحة، رهن) ولا تجد بديلاً تعاونياً.", "en": "The law requires a specific insurance (car, health, mortgage) and you find no cooperative option." },
+        { "ar": "تريد معرفة حكم وثيقة تأمين بعينها.", "en": "You want a ruling on a specific policy." }
+      ],
+      "related_rulings": ["home.mortgage"]
+    },
+    {
+      "id": "sukuk",
+      "title": { "ar": "الصكوك", "en": "Sukuk (Islamic certificates)" },
+      "content_level": "B",
+      "disputed": false,
+      "definition": {
+        "ar": "أوراق مالية متساوية القيمة تمثل حصصاً شائعة في ملكية أصول حقيقية (أعيان أو منافع أو حقوق)، يستحق حاملها نصيبه من عائدها. وهي بهذا تختلف عن السند الربوي الذي يمثل ديناً بفائدة.",
+        "en": "Equal-value certificates that represent undivided shares in real assets (things, usufruct or rights); the holder earns his share of their return. This differs from a conventional bond, which is a debt carrying interest."
+      },
+      "steps": [
+        { "ar": "تُجمع أموال المستثمرين بإصدار صكوك.", "en": "Investors' money is gathered by issuing sukuk." },
+        { "ar": "تُشترى بها أصول حقيقية أو تُستثمر في عقد مباح (إجارة، مشاركة، مضاربة...).", "en": "It buys real assets or is invested through a permitted contract (ijara, musharaka, mudaraba...)." },
+        { "ar": "يحصل حملة الصكوك على عائد الأصول بنسبة حصصهم ويتحملون مخاطرها.", "en": "Holders receive the assets' return pro rata and carry their risk." }
+      ],
+      "conditions": [
+        { "ar": "أن يمثل الصك ملكية حقيقية لا مجرد دين.", "en": "The certificate must represent real ownership, not merely a debt." },
+        { "ar": "تداول الصكوك يخضع لضوابط قرار المجمع 30 (3/4): إن كانت موجوداتها نقوداً طُبقت أحكام الصرف، وإن صارت ديوناً طُبقت أحكام الدين.", "en": "Trading follows IIFA resolution 30 (3/4): if the assets are still cash, currency-exchange rules apply; if they became debts, debt rules apply." }
+      ],
+      "status": {
+        "ar": "تنقل الموسوعة الفقهية ضوابط الصكوك وتداولها من قراري مجمع الفقه الإسلامي الدولي 30 (3/4) و178 (4/19). وتنظمها أيوفي في المعيار الشرعي رقم 17 (صكوك الاستثمار).",
+        "en": "The Fiqh Encyclopedia reports the conditions on sukuk and their trading from IIFA resolutions 30 (3/4) and 178 (4/19). AAOIFI regulates them in Shari'ah Standard No. 17 (Investment Sukuk)."
+      },
+      "attributed_to": [
+        { "body": { "ar": "مجمع الفقه الإسلامي الدولي", "en": "International Islamic Fiqh Academy (IIFA)" }, "ref": { "ar": "القراران 30 (3/4) و178 (4/19)", "en": "Resolutions 30 (3/4) and 178 (4/19)" }, "url": "https://dorar.net/feqhia/7346" },
+        { "body": { "ar": "أيوفي", "en": "AAOIFI" }, "ref": { "ar": "المعيار الشرعي رقم 17: صكوك الاستثمار", "en": "Shari'ah Standard No. 17: Investment Sukuk" }, "url": "https://aaoifi.com/" }
+      ],
+      "sources": [
+        { "title": { "ar": "الدرر السنية: تعريف التصكيك", "en": "Dorar: definition of securitisation (taskeek)" }, "url": "https://dorar.net/feqhia/7344" },
+        { "title": { "ar": "الدرر السنية: حكم تداول الصكوك", "en": "Dorar: trading sukuk" }, "url": "https://dorar.net/feqhia/7346" },
+        { "title": { "ar": "أيوفي: المعايير الشرعية", "en": "AAOIFI: Shari'ah Standards" }, "url": "https://aaoifi.com/" }
+      ],
+      "ask_scholar_when": [
+        { "ar": "يضمن مُصدر الصك رأس المال وعائداً ثابتاً بغض النظر عن أداء الأصول.", "en": "The issuer guarantees capital and a fixed return regardless of how the assets perform." }
+      ],
+      "related_rulings": ["work.retirement_401k"]
+    },
+    {
+      "id": "zakat_savings",
+      "title": { "ar": "زكاة المدخرات النقدية", "en": "Zakat on cash savings" },
+      "content_level": "B",
+      "disputed": true,
+      "disputed_points": [
+        { "ar": "بأي النصابين يُقدَّر نصاب النقود الورقية؟ تنقل الموسوعة الفقهية عن المجمع الفقهي برابطة العالم الإسلامي وهيئة كبار العلماء بالسعودية: بأدنى النصابين (الذهب أو الفضة) مراعاةً للفقراء، ومن المعاصرين من يقدّره بالذهب.", "en": "Which threshold applies to paper money? The Fiqh Encyclopedia reports from the MWL Fiqh Council and the Saudi Council of Senior Scholars: the lower of the two (gold or silver), for the benefit of the poor; some contemporary scholars use gold." }
+      ],
+      "definition": {
+        "ar": "تجب الزكاة في الذهب والفضة إذا بلغا النصاب وحال عليهما الحول، ومقدارها ربع العشر (2.5٪). والأوراق النقدية لها حكم الذهب والفضة في الزكاة.",
+        "en": "Zakat is due on gold and silver once they reach the threshold (nisab) and a lunar year passes; the rate is a quarter of a tenth (2.5%). Paper money takes the ruling of gold and silver for zakat."
+      },
+      "steps": [
+        { "ar": "اجمع ما تملكه من نقد ومدخرات وذهب وفضة للادخار، واطرح الديون الحالّة عليك (وفي حسم الديون تفصيل، فاسأل عنه).", "en": "Add up your cash, savings, and gold and silver held as savings; subtract debts due now (deducting debts has details; ask about them)." },
+        { "ar": "قارن المجموع بالنصاب: 85 غراماً من الذهب الخالص، أو 595 غراماً من الفضة الخالصة، بسعر يومك.", "en": "Compare the total with the nisab: 85 g of pure gold or 595 g of pure silver, at today's price." },
+        { "ar": "إذا بلغ النصاب وحال عليه الحول الهجري، فالواجب 2.5٪ من المجموع.", "en": "If it reaches the nisab and a lunar year has passed, 2.5% of the total is due." }
+      ],
+      "conditions": [
+        { "ar": "بلوغ النصاب.", "en": "Reaching the nisab." },
+        { "ar": "مرور حول هجري كامل على المال.", "en": "A full lunar year passing over the wealth." }
+      ],
+      "status": {
+        "ar": "وجوب زكاة الذهب والفضة منقول فيه الإجماع، والمقدار ربع العشر منقول فيه الإجماع، وفق الموسوعة الفقهية. وتقدير النصاب بالغرامات (85 غ ذهب، 595 غ فضة) قرره ابن عثيمين وهو من توصيات ندوات قضايا الزكاة المعاصرة. أما اختيار النصاب في النقود الورقية فموضع خلاف كما سبق. هذه الحاسبة تعليمية عامة وليست فتوى.",
+        "en": "Consensus is reported on zakat being due on gold and silver and on the 2.5% rate, per the Fiqh Encyclopedia. The gram values (85 g gold, 595 g silver) were stated by Ibn Uthaymeen and are among the recommendations of the Contemporary Zakat Issues seminars. Which threshold applies to paper money is disputed, as noted. This calculator is general education, not a fatwa."
+      },
+      "attributed_to": [
+        { "body": { "ar": "الموسوعة الفقهية (الدرر السنية)", "en": "Fiqh Encyclopedia (Dorar)" }, "ref": { "ar": "المقدار الواجب في زكاة الذهب والفضة", "en": "The amount due on gold and silver" }, "url": "https://dorar.net/feqhia/2157" },
+        { "body": { "ar": "ابن عثيمين وندوات قضايا الزكاة المعاصرة", "en": "Ibn Uthaymeen and the Contemporary Zakat Issues seminars" }, "ref": { "ar": "حساب النصاب بالمقاييس الحديثة", "en": "Nisab in modern units" }, "url": "https://dorar.net/feqhia/2153" },
+        { "body": { "ar": "المجمع الفقهي برابطة العالم الإسلامي وهيئة كبار العلماء بالسعودية", "en": "MWL Fiqh Council and the Saudi Council of Senior Scholars" }, "ref": { "ar": "نصاب الأوراق النقدية: أدنى النصابين", "en": "Nisab of paper money: the lower of the two" }, "url": "https://dorar.net/feqhia/2162" }
+      ],
+      "sources": [
+        { "title": { "ar": "الدرر السنية: حكم زكاة الذهب والفضة", "en": "Dorar: zakat on gold and silver" }, "url": "https://dorar.net/feqhia/2125" },
+        { "title": { "ar": "الدرر السنية: حساب النصاب بالمقاييس الحديثة", "en": "Dorar: nisab in modern units" }, "url": "https://dorar.net/feqhia/2153" },
+        { "title": { "ar": "الدرر السنية: المقدار الواجب", "en": "Dorar: amount due" }, "url": "https://dorar.net/feqhia/2157" },
+        { "title": { "ar": "الدرر السنية: زكاة الأوراق النقدية", "en": "Dorar: zakat on paper money" }, "url": "https://dorar.net/feqhia/2162" }
+      ],
+      "ask_scholar_when": [
+        { "ar": "عندك أسهم أو صناديق تقاعد أو عقار أو تجارة.", "en": "You hold shares, retirement funds, property or business stock." },
+        { "ar": "عليك ديون كبيرة أو مؤجلة.", "en": "You have large or deferred debts." },
+        { "ar": "لم تزكِّ سنوات سابقة.", "en": "You missed zakat in past years." }
+      ],
+      "related_rulings": ["work.retirement_401k"]
+    }
+  ],
+  "compare": {
+    "contested_note": {
+      "content_level": "C",
+      "ar": "النقطة الخلافية (مستوى ج): القرض العقاري بفائدة لمسكن الحاجة. قول الجمهور (المذاهب الأربعة ومجمع الفقه الإسلامي الدولي ومجمع فقهاء الشريعة بأمريكا) أنه ربا محرم، وأجازه المجلس الأوروبي للإفتاء (1999) للحاجة بشروط مشددة عند فقد البديل. انظر بطاقة «شراء البيت».",
+      "en": "The disputed point (level C): an interest mortgage for a needed home. The majority view (the four schools, IIFA and AMJA) holds it is prohibited riba; the European Council for Fatwa (1999) permitted it in need under strict conditions when no alternative exists. See the 'Buying a home' card.",
+      "ruling": "home.mortgage"
+    },
+    "explanatory_note": {
+      "ar": "شرح توضيحي، ليس حكماً: قد تتقارب الأقساط في الطرق الثلاث. الفرق الشرعي ليس في الرقم، بل في سبب الزيادة ومن يملك الأصل ومن يتحمل خطره.",
+      "en": "Explanatory note, not a ruling: the payments in all three can look similar. The Shari'ah difference is not the number but what the extra is paid for, who owns the asset and who carries its risk."
+    }
+  }
+}

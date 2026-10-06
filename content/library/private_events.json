@@ -1,0 +1,619 @@
+[
+  {
+    "id": "private_events.wedding",
+    "location": "private_events",
+    "title": {
+      "ar": "زواج صديق مسلم: المهر والوليمة والإشهار والموسيقى",
+      "en": "A Muslim Friend's Wedding: Mahr, Walima, Announcement and Music"
+    },
+    "question": {
+      "ar": "ماذا يعلّم الإسلام عن الزواج وحفله: ما الواجب في المهر والوليمة؟ وهل يجوز الدف والغناء؟ وما حكم المعازف (فرقة موسيقية/DJ)؟ وماذا يفعل المسلم المدعو إن كان في الحفل منكرات كالخمر أو الاختلاط الماجن؟",
+      "en": "What does Islam teach about a wedding and its celebration: what is required regarding mahr and walima? Are the daff and singing allowed? What about musical instruments (a band/DJ)? And what should a Muslim guest do if the party includes wrongdoing such as alcohol or indecent mixing?"
+    },
+    "verdict": "depends",
+    "content_level": "C",
+    "verdict_scope": {
+      "ar": "المهر حق واجب للزوجة، والوليمة سنة مؤكدة عند الجمهور، والدف مشروع في إعلان النكاح. أما المعازف سوى الدف فقول المذاهب الأربعة تحريمها، وأجازها بشروط ابن حزم وبعض المتأخرين ودار الإفتاء المصرية (الفتوى 11981)، وهو قول الأقل.",
+      "en": "The mahr is the bride's due, the wedding feast is a confirmed Sunnah according to the majority, and the daff is permitted to announce a marriage. Other musical instruments are prohibited according to the four schools; Ibn Hazm, some later scholars and Egypt's Dar al-Ifta (fatwa 11981) allowed them with conditions, which is the minority view."
+    },
+    "summary": {
+      "ar": "المهر حق واجب للزوجة، والوليمة سنة مؤكدة عند الجمهور، وإجابة دعوة وليمة العرس واجبة عند الجمهور ما لم يكن فيها منكر لا يُقدر على تغييره. وإعلان النكاح بالدف والغناء المباح مشروع بالحديث الحسن «فصل ما بين الحلال والحرام الدف والصوت»، أما المعازف الأخرى فمحرّمة عند المذاهب الأربعة، وأجازها بشروط ابن حزم وبعض المتأخرين ودار الإفتاء المصرية.",
+      "en": "The mahr is the bride's obligatory right, the walima is an emphasized sunnah per the majority, and accepting a wedding-feast invitation is obligatory per the majority unless it contains wrongdoing one cannot change. Announcing the marriage with the daff and permissible singing is established by the hasan hadith \"what distinguishes the lawful from the unlawful is the daff and the voice\", while other instruments are prohibited in the four schools and permitted under conditions by Ibn Hazm, some later scholars and Egypt's Dar al-Ifta."
+    },
+    "quran": [
+      {
+        "surah": 4,
+        "surah_name_ar": "النساء",
+        "ayah": "4",
+        "text_ar": "وَءَاتُواْ ٱلنِّسَآءَ صَدُقَٰتِهِنَّ نِحۡلَةٗۚ فَإِن طِبۡنَ لَكُمۡ عَن شَيۡءٖ مِّنۡهُ نَفۡسٗا فَكُلُوهُ هَنِيٓـٔٗا مَّرِيٓـٔٗا",
+        "translation_en": "And give the women [upon marriage] their [bridal] gifts graciously. But if they give up willingly to you anything of it, then take it in satisfaction and ease.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/4#4"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "سَأَلَ النَّبِيُّ صلى الله عليه وسلم عَبْدَ الرَّحْمَنِ بْنَ عَوْفٍ وَتَزَوَّجَ امْرَأَةً مِنَ الأَنْصَارِ «كَمْ أَصْدَقْتَهَا». قَالَ وَزْنَ نَوَاةٍ مِنْ ذَهَبٍ ... فَقَالَ النَّبِيُّ صلى الله عليه وسلم «أَوْلِمْ وَلَوْ بِشَاةٍ».",
+        "translation_en": "The Prophet (ﷺ) asked Abdur-Rahman bin Auf, who had married an Ansari woman, \"How much Mahr did you give her?\" He said, \"Gold equal to the weight of a date stone.\" ... The Prophet (ﷺ) said to him, \"Give a banquet, even if with one sheep.\"",
+        "collection": "صحيح البخاري",
+        "number": "5167",
+        "narrator": "أنس بن مالك رضي الله عنه",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)",
+        "source_url": "https://dorar.net/h/0qR3aIJ8",
+        "dorar_url": "https://dorar.net/h/0qR3aIJ8",
+        "dorar_ref": "المحدث: البخاري | المصدر: صحيح البخاري | الرقم: 5167 | خلاصة حكم المحدث: [صحيح]",
+        "sunnah_url": "https://sunnah.com/bukhari:5167",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "شَرُّ الطَّعَامِ طَعَامُ الْوَلِيمَةِ يُدْعَى لَهَا الأَغْنِيَاءُ، وَيُتْرَكُ الْفُقَرَاءُ، وَمَنْ تَرَكَ الدَّعْوَةَ فَقَدْ عَصَى اللَّهَ وَرَسُولَهُ صلى الله عليه وسلم.",
+        "translation_en": "The worst food is that of a wedding banquet to which only the rich are invited while the poor are not invited. And he who refuses an invitation (to a banquet) disobeys Allah and His Apostle .",
+        "collection": "صحيح البخاري",
+        "number": "5177",
+        "narrator": "أبو هريرة رضي الله عنه (موقوف لفظاً وله حكم الرفع؛ ورواه مسلم مرفوعاً 1432)",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري؛ وأخرجه مسلم (1432)",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/58113",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/58113",
+        "sunnah_url": "https://sunnah.com/bukhari:5177",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم «فَصْلُ مَا بَيْنَ الْحَرَامِ وَالْحَلاَلِ الدُّفُّ وَالصَّوْتُ»",
+        "translation_en": "The Messenger of Allah said: \"The distinction between the lawful and the unlawful is the Duff and the voice.\"",
+        "collection": "جامع الترمذي",
+        "number": "1088",
+        "narrator": "محمد بن حاطب الجمحي رضي الله عنه",
+        "grade": "حسن",
+        "grader": "الألباني — صحيح الترمذي 1088: «حسن» (الدرر السنية)",
+        "source_url": "https://dorar.net/h/Hy09vzGK",
+        "dorar_url": "https://dorar.net/h/Hy09vzGK",
+        "dorar_ref": "المحدث: الألباني | المصدر: صحيح الترمذي | الرقم: 1088 | خلاصة حكم المحدث: حسن",
+        "sunnah_url": "https://sunnah.com/tirmidhi:1088 ; https://sunnah.com/nasai:3369",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "أَنَّهَا زَفَّتِ امْرَأَةً إِلَى رَجُلٍ مِنَ الأَنْصَارِ فَقَالَ نَبِيُّ اللَّهِ صلى الله عليه وسلم «يَا عَائِشَةُ مَا كَانَ مَعَكُمْ لَهْوٌ فَإِنَّ الأَنْصَارَ يُعْجِبُهُمُ اللَّهْوُ».",
+        "translation_en": "that she prepared a lady for a man from the Ansar as his bride and the Prophet said, \"O 'Aisha! Haven't you got any amusement (during the marriage ceremony) as the Ansar like amusement?\"",
+        "collection": "صحيح البخاري",
+        "number": "5162",
+        "narrator": "عائشة رضي الله عنها",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/65949",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/65949",
+        "sunnah_url": "https://sunnah.com/bukhari:5162",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "جَاءَ النَّبِيُّ صلى الله عليه وسلم فَدَخَلَ حِينَ بُنِيَ عَلَىَّ، فَجَلَسَ عَلَى فِرَاشِي كَمَجْلِسِكَ مِنِّي، فَجَعَلَتْ جُوَيْرِيَاتٌ لَنَا يَضْرِبْنَ بِالدُّفِّ وَيَنْدُبْنَ مَنْ قُتِلَ مِنْ آبَائِي يَوْمَ بَدْرٍ، إِذْ قَالَتْ إِحْدَاهُنَّ وَفِينَا نَبِيٌّ يَعْلَمُ مَا فِي غَدٍ. فَقَالَ «دَعِي هَذِهِ، وَقُولِي بِالَّذِي كُنْتِ تَقُولِينَ».",
+        "translation_en": "(the daughter of Muawwidh bin Afra) After the consummation of my marriage, the Prophet (ﷺ) came and sat on my bed as far from me as you are sitting now, and our little girls started beating the tambourines and reciting elegiac verses mourning my father who had been killed in the battle of Badr. One of them said, \"Among us is a Prophet who knows what will happen tomorrow.\" On that the Prophet said, \"Leave this (saying) and keep on saying the verses which you had been saying before.\"",
+        "collection": "صحيح البخاري",
+        "number": "5147",
+        "narrator": "الربيّع بنت معوّذ رضي الله عنها",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)",
+        "source_url": "https://dorar.net/h/sipNUY7x",
+        "dorar_url": "https://dorar.net/h/sipNUY7x",
+        "dorar_ref": "المحدث: البخاري | المصدر: صحيح البخاري | الرقم: 5147 | خلاصة حكم المحدث: [صحيح]",
+        "sunnah_url": "https://sunnah.com/bukhari:5147",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "لَيَكُونَنَّ مِنْ أُمَّتِي أَقْوَامٌ يَسْتَحِلُّونَ الْحِرَ وَالْحَرِيرَ وَالْخَمْرَ وَالْمَعَازِفَ",
+        "translation_en": "From among my followers there will be some people who will consider illegal sexual intercourse, the wearing of silk, the drinking of alcoholic drinks and the use of musical instruments, as lawful.",
+        "collection": "صحيح البخاري",
+        "number": "5590",
+        "narrator": "أبو عامر أو أبو مالك الأشعري رضي الله عنه",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أورده في صحيحه بصيغة «وقال هشام بن عمار»، معلّقاً بصيغة الجزم)",
+        "source_url": "https://dorar.net/h/1s54U2ew",
+        "dorar_url": "https://dorar.net/h/1s54U2ew",
+        "dorar_ref": "المحدث: البخاري | المصدر: صحيح البخاري | الرقم: 5590 | خلاصة حكم المحدث: [صحيح]",
+        "sunnah_url": "https://sunnah.com/bukhari:5590",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ إِذَا رَفَّأَ الإِنْسَانَ إِذَا تَزَوَّجَ قَالَ «بَارَكَ اللَّهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ» .",
+        "translation_en": "When the Prophet (ﷺ) congratulated a man on his marriage, he said: May Allah bless for you, and may He bless on you, and combine both of you in good (works).",
+        "collection": "سنن أبي داود",
+        "number": "2130",
+        "narrator": "أبو هريرة رضي الله عنه",
+        "grade": "صحيح",
+        "grader": "الألباني — صحيح أبي داود 2130: «صحيح» (الدرر السنية)؛ HadeethEnc: «حسن»",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/65951",
+        "dorar_url": "https://dorar.net/h/LfZlCSNU",
+        "dorar_ref": "المحدث: الألباني | المصدر: صحيح أبي داود | الرقم: 2130 | خلاصة حكم المحدث: صحيح",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/65951",
+        "sunnah_url": "https://sunnah.com/abudawud:2130",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "المهر واجب؛ والوليمة سنة؛ وإجابة دعوتها سنة عند كثير منهم وواجبة عند بعضهم. والدف مباح في النكاح وما في معناه من حادث سرور، ويُكره (تحريماً) للرجال؛ وسائر المعازف محرّمة.",
+        "position_en": "Mahr is obligatory; walima is sunnah; accepting its invitation is sunnah for many Hanafis, obligatory for some. The daff is permissible at weddings and similar joyful occasions but disliked (prohibitively) for men; other instruments are prohibited.",
+        "reference": "حاشية ابن عابدين (6/347) و(5/482)؛ البحر الرائق لابن نجيم (7/88)؛ الفتاوى الهندية (5/343)"
+      },
+      "maliki": {
+        "position_ar": "الوليمة مندوبة على المعتمد، وإجابة الدعوة إليها واجبة ما لم يكن ثَمّ منكر. ويُستحب الدف للنساء في العرس، وللمالكية تفصيل في الكَبَر والمِزهر وأنواع الطبول؛ ويحرم ما سوى ذلك من المعازف.",
+        "position_en": "Walima is recommended per the relied-upon view; accepting its invitation is obligatory unless there is wrongdoing. The daff is recommended for women at weddings, with Maliki detail on the kabar, mizhar and types of drums; other instruments are prohibited.",
+        "reference": "حاشية الدسوقي على الشرح الكبير (2/337، 339)؛ مواهب الجليل للحطاب (5/241، 248)"
+      },
+      "shafii": {
+        "position_ar": "الوليمة سنة على الصحيح، وإجابة دعوتها فرض عين على الأصح بشروطها. والدف مستحب في النكاح للنساء على المعتمد؛ وتحرم الآلات المطربة كالأوتار والمزامير.",
+        "position_en": "Walima is sunnah per the sound view; attending is an individual obligation per the soundest view, with conditions. The daff is recommended at weddings for women per the relied-upon view; stringed and wind instruments are prohibited.",
+        "reference": "روضة الطالبين للنووي (7/333) و(11/228)؛ مغني المحتاج للشربيني (3/245) و(4/429)"
+      },
+      "hanbali": {
+        "position_ar": "الوليمة سنة، وإجابة دعوة وليمة العرس واجبة إن عيّنه الداعي ولا منكر. ويُستحب الدف في النكاح للنساء؛ وتحرم المعازف وآلات اللهو كالمزمار والعود.",
+        "position_en": "Walima is sunnah and attending a specific wedding invitation is obligatory if there is no wrongdoing. The daff is recommended at weddings for women; instruments of amusement such as the flute and oud are prohibited.",
+        "reference": "الإنصاف للمرداوي (8/235)؛ المغني لابن قدامة (7/276)؛ الإقناع للحجاوي (3/238)؛ كشاف القناع للبهوتي (5/183)"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "الموسوعة الفقهية (الدرر السنية)",
+        "decision_ref": "كتاب النكاح — اللهو في الأعراس: المعازف والدف",
+        "position_ar": "حكت اتفاق المذاهب الأربعة على تحريم المعازف في العرس إلا ما استثناه الشرع كالدف، واستحباب الدف للنساء عند الجمهور، وأنه لا يسمعهن الرجال.",
+        "position_en": "Reports agreement of the four schools on prohibiting instruments at weddings except what the Sharia exempted such as the daff, and the majority view recommending the daff for women out of men's hearing.",
+        "source_url": "https://dorar.net/feqhia/4423 ; https://dorar.net/feqhia/4428 ; https://dorar.net/feqhia/4430"
+      },
+      {
+        "body": "دار الإفتاء المصرية",
+        "decision_ref": "الفتوى رقم 11981 «الحكم الشرعي في الموسيقى»",
+        "position_ar": "يجوز الاستماع إلى الموسيقى بشرط ألا يقارنها محرّم كشرب الخمر أو الغناء الماجن وألا تحرك الغرائز المحرمة، ونقلت عن ابن القيسراني وابن حزم وغيرهما القول بالإباحة وتضعيف أدلة التحريم.",
+        "position_en": "Listening to music is permissible provided it is not accompanied by the prohibited (alcohol, indecent songs) and does not arouse illicit desires; it cites Ibn al-Qaysarani, Ibn Hazm and others who held it permissible and weakened the evidence for prohibition.",
+        "source_url": "https://www.dar-alifta.org/ar/fatwa/details/11981"
+      },
+      {
+        "body": "AMJA — د. حاتم الحاج",
+        "decision_ref": "الفتوى 87035 (2012) «Playing a dhol on weddings»",
+        "position_ar": "الدف جائز في العرس، وأما الطبول الكبيرة (الدهول) فمحل خلاف: أجازها الحنفية في العرس وكثير من المالكية، ومنعها أكثر الشافعية؛ والمفتي يكرهها ولا يحرّمها.",
+        "position_en": "The daff is allowed at weddings; large drums (dhol) are disputed — permitted at weddings by Hanafis and many Malikis, forbidden by most Shafi'is; the mufti discourages but does not call it haram.",
+        "source_url": "https://www.amjaonline.org/fatwa/en/87035/playing-a-dhol-on-weddings"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "هنّئ العريس بالدعاء النبوي: «بارك الله لك وبارك عليك وجمع بينكما في خير».",
+        "المهر حق للعروس يُتفق عليه ويُسمّى في العقد، ويُستحب تيسيره؛ ولا يصح إسقاطه شرطاً.",
+        "الوليمة على قدر الحال، ويُدعى إليها الفقراء لا الأغنياء وحدهم.",
+        "في أمريكا: احرص على أن يُوثَّق الزواج مدنياً (marriage license من المحكمة في Ohio) مع العقد الشرعي حفظاً للحقوق.",
+        "إن كان في الحفل خمر أو رقص ماجن: احضر العقد والوليمة والتهنئة، ثم انصرف بلطف عند المنكر، ولا تجلس على طاولة يُدار فيها الخمر.",
+        "في الموسيقى: الدف ثابت في إعلان النكاح بالحديث، والدف مع الأناشيد المباحة هو الخيار الأسلم والأبعد عن الخلاف؛ ومن أخذ بقول من يجيز المعازف بشروط فليجتنب الكلام الفاحش والاختلاط المحرم."
+      ],
+      "en": [
+        "Congratulate the groom with the Prophetic prayer: \"Barak Allahu laka wa baraka 'alayka wa jama'a baynakuma fi khayr\".",
+        "The mahr is the bride's right, agreed upon and named in the contract; keeping it easy is recommended, and it cannot be waived as a condition.",
+        "The walima should match one's means, with the poor invited and not only the wealthy.",
+        "In the US, make sure the marriage is also civilly registered (an Ohio marriage license from the probate court) alongside the Islamic contract to protect rights.",
+        "If the party includes alcohol or indecent dancing: attend the nikah, the meal and the congratulations, then leave politely when the wrongdoing starts, and never sit at a table where alcohol is served.",
+        "On music: the daff at weddings is established by hadith, and the daff with permissible nasheeds is the safest option, furthest from disagreement; whoever follows the view permitting instruments under conditions should still avoid obscene lyrics and prohibited mixing."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "الدف والأناشيد في قسم النساء",
+        "نشيد بصوت دون آلات",
+        "حفل عائلي مع فقرة دعاء وكلمة قصيرة"
+      ],
+      "en": [
+        "Daff and nasheeds in the women's section",
+        "Vocal-only nasheeds",
+        "A family celebration with a short talk and du'a"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "عند الخلاف في المهر أو شروط العقد، أو الزواج من كتابية، أو إذا كان أحد الطرفين بلا ولي، أو لترتيب التوثيق المدني والشرعي معاً.",
+      "en": "When there is disagreement over mahr or contract conditions, when marrying a woman who is not Muslim, if a party lacks a guardian (wali), or to coordinate civil and Islamic registration."
+    },
+    "confidence": "medium",
+    "review_status": "ai_draft",
+    "notes_for_reviewer": "نصوص الأحاديث من sunnah.com حرفياً. مواقف المذاهب وأرقام الصفحات منقولة من الموسوعة الفقهية بالدرر السنية (feqhia/4388، 4395، 4398، 4423، 4428، 4430) ولم نطابقها في المطبوعات. نسبة «إجابة الدعوة سنة» لكثير من الحنفية تحتاج تأكيداً (الدرر نقلت الوجوب عن بعض الحنفية فقط). حديث البخاري 5590 أوردناه بالصيغة المعلّقة كما في الصحيح؛ يُرجى أن يراجع المحدث المراجع عبارة الحكم. موقف القرضاوي وابن عاشور وغيرهما في الموسيقى لم نُدرجه لعدم مطالعة مصادرهم. الإشارة إلى رخصة الزواج المدني في أوهايو معلومة عامة (marriage license من probate court) لم نوثقها بمصدر رسمي.\n\n[تدقيق المرحلة 1 — 2026-10-05] يبقى ai_draft: (1) نسبة «إجابة الدعوة سنة عند كثير من الحنفية» و«الدف يكره تحريماً للرجال» عند الحنفية لم تُتحقق من نص معتمد. (2) فتوى دار الإفتاء المصرية 11981 في الموسيقى لم أفتحها. (3) تعارض مع السيناريو: الخيار b (البقاء حتى النهاية مع رقص مختلط وشرب في الموقف) موسوم acceptable، بينما ينص الحكم وأقوال المذاهب على الانصراف عند منكر لا يُقدر على تغييره. الأحاديث كلها اجتازت الفحص الآلي.\n\n[مراجعة الأحاديث 2026-10-06 — حزمة المرجعية العلمية]\n- أُزيل من الأدلة المعروضة (حزمة المرجعية: لا يُعرض حديث غير صحيح/حسن): جامع الترمذي 1089 «أعلنوا هذا النكاح واجعلوه في المساجد واضربوا عليه بالدفوف» — الترمذي: غريب حسن، وعيسى بن ميمون يُضعَّف؛ الألباني: «ضعيف، إلا الإعلان» (ضعيف الترمذي 1089) https://dorar.net/h/CcArveWZ\n- صحيح البخاري 5590 (المعازف) حديث معلّق بصيغة الجزم في الصحيح، والدرر تعرضه بـ[صحيح] (https://dorar.net/h/1s54U2ew)؛ أعلّه ابن حزم بالانقطاع وخالفه جمهور المحدثين — يُرجى من المراجع البشري تأكيد طريقة عرضه.",
+    "newcomer_explainer": {
+      "ar": "الزواج في الإسلام عقد وسنّة: يقدّم الزوج لزوجته مهراً هو حق خالص لها (النساء 4)، وتُقام وليمة العرس، وإجابة دعوتها واجبة عند الجمهور ما لم يكن فيها منكر لا يُقدر على تغييره. ويُعلَن الزواج ولا يُخفى، وقد قال النبي ﷺ: «فصل ما بين الحرام والحلال الدف والصوت» (الترمذي 1088). أما المعازف غير الدف ففيها خلاف: حرّمتها المذاهب الأربعة، وأجازها بشروط ابن حزم وبعض المتأخرين ودار الإفتاء المصرية. وقد ذمّ النبي ﷺ الوليمة التي يُدعى إليها الأغنياء ويُترك الفقراء (البخاري 5177).",
+      "en": "In Islam marriage is a contract and a prophetic sunnah: the groom gives the bride a mahr (marriage gift) that belongs to her alone (4:4), a walima (wedding feast) is held, and accepting the invitation is obligatory for guests according to the majority unless it involves wrongdoing one cannot change. The marriage is to be announced publicly, and the Prophet ﷺ said that what distinguishes the lawful from the unlawful is the daff (frame drum) and the voice (Tirmidhi 1088). Instruments other than the daff are disputed: the four classical schools prohibit them, while Ibn Hazm, some later scholars and Egypt's Dar al-Ifta permit them with conditions. The Prophet ﷺ also criticised a wedding feast to which the rich are invited and the poor left out (Bukhari 5177)."
+    },
+    "library_only": true
+  },
+  {
+    "id": "private_events.neighbor_funeral",
+    "location": "private_events",
+    "title": {
+      "ar": "وفاة الجار غير المسلم: التعزية والجنازة والدعاء",
+      "en": "A Non-Muslim Neighbor's Death: Condolence, Funeral, Prayer"
+    },
+    "question": {
+      "ar": "إذا توفي جار غير مسلم، فهل يجوز للمسلم أن يعزّي أسرته؟ وهل يحضر مراسم الجنازة أو الدفن؟ وبماذا يدعو؟",
+      "en": "When a non-Muslim neighbor dies, may a Muslim console the family? May he attend the funeral service or burial? And what may he pray?"
+    },
+    "verdict": "disputed",
+    "content_level": "C",
+    "verdict_scope": {
+      "ar": "الجمهور (الحنفية والمالكية والشافعية ورواية عن أحمد) على جواز التعزية، والمعتمد عند متأخري الحنابلة المنع؛ ولا خلاف بين هذه الأقوال في المنع من الاستغفار للميت غير المسلم.",
+      "en": "The majority (Hanafi, Maliki, Shafi'i and one narration from Ahmad) permit consoling; the later Hanbali relied-upon view prohibits it. These views do not differ on not seeking forgiveness for a deceased non-Muslim."
+    },
+    "summary": {
+      "ar": "تعزية غير المسلم ومواساة أهله جائزة عند جمهور الفقهاء (الحنفية والمالكية والشافعية ورواية عن أحمد، والمعتمد عند متأخري الحنابلة المنع)، استئناساً بعيادة النبي ﷺ الغلام اليهودي وبآية الممتحنة 8، وأجاز معاصرون حضور جنازته دون مشاركة في الطقوس. ولا يجوز الاستغفار للميت غير المسلم لآية التوبة 113، وإنما يُدعى لأهله بالصبر والخَلَف والهداية.",
+      "en": "Consoling a non-Muslim and comforting his family is permissible per the majority (Hanafi, Maliki, Shafi'i and one narration from Ahmad; the later Hanbali relied-upon view prohibits it), drawing on the Prophet's visit to the sick Jewish boy and verse 60:8, and contemporary scholars allow attending the funeral without joining its rites. Seeking forgiveness for a deceased non-Muslim is not permitted (9:113); rather one prays for the family's patience, recompense and guidance."
+    },
+    "quran": [
+      {
+        "surah": 60,
+        "surah_name_ar": "الممتحنة",
+        "ayah": "8",
+        "text_ar": "لَّا يَنۡهَىٰكُمُ ٱللَّهُ عَنِ ٱلَّذِينَ لَمۡ يُقَٰتِلُوكُمۡ فِي ٱلدِّينِ وَلَمۡ يُخۡرِجُوكُم مِّن دِيَٰرِكُمۡ أَن تَبَرُّوهُمۡ وَتُقۡسِطُوٓاْ إِلَيۡهِمۡۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلۡمُقۡسِطِينَ",
+        "translation_en": "Allāh does not forbid you from those who do not fight you because of religion and do not expel you from your homes - from being righteous toward them and acting justly toward them. Indeed, Allāh loves those who act justly.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/60#8"
+      },
+      {
+        "surah": 9,
+        "surah_name_ar": "التوبة",
+        "ayah": "113",
+        "text_ar": "مَا كَانَ لِلنَّبِيِّ وَٱلَّذِينَ ءَامَنُوٓاْ أَن يَسۡتَغۡفِرُواْ لِلۡمُشۡرِكِينَ وَلَوۡ كَانُوٓاْ أُوْلِي قُرۡبَىٰ مِنۢ بَعۡدِ مَا تَبَيَّنَ لَهُمۡ أَنَّهُمۡ أَصۡحَٰبُ ٱلۡجَحِيمِ",
+        "translation_en": "It is not for the Prophet and those who have believed to ask forgiveness for the polytheists, even if they were relatives, after it has become clear to them that they are companions of Hellfire.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/9#113"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "كَانَ غُلاَمٌ يَهُودِيٌّ يَخْدُمُ النَّبِيَّ صلى الله عليه وسلم فَمَرِضَ، فَأَتَاهُ النَّبِيُّ صلى الله عليه وسلم يَعُودُهُ، فَقَعَدَ عِنْدَ رَأْسِهِ فَقَالَ لَهُ «أَسْلِمْ». فَنَظَرَ إِلَى أَبِيهِ وَهْوَ عِنْدَهُ فَقَالَ لَهُ أَطِعْ أَبَا الْقَاسِمِ صلى الله عليه وسلم. فَأَسْلَمَ، فَخَرَجَ النَّبِيُّ صلى الله عليه وسلم وَهْوَ يَقُولُ «الْحَمْدُ لِلَّهِ الَّذِي أَنْقَذَهُ مِنَ النَّارِ».",
+        "translation_en": "A young Jewish boy used to serve the Prophet (ﷺ) and he became sick. So the Prophet (ﷺ) went to visit him. He sat near his head and asked him to embrace Islam. The boy looked at his father, who was sitting there; the latter told him to obey Abul-Qasim and the boy embraced Islam. The Prophet (ﷺ) came out saying: \"Praises be to Allah Who saved the boy from the Hell-fire.\"",
+        "collection": "صحيح البخاري",
+        "number": "1356",
+        "narrator": "أنس بن مالك رضي الله عنه",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/6186",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/6186",
+        "sunnah_url": "https://sunnah.com/bukhari:1356",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "إِنَّ النَّبِيَّ صلى الله عليه وسلم مَرَّتْ بِهِ جَنَازَةٌ فَقَامَ فَقِيلَ لَهُ إِنَّهَا جَنَازَةُ يَهُودِيٍّ. فَقَالَ «أَلَيْسَتْ نَفْسًا»",
+        "translation_en": "A funeral procession passed in front of the Prophet (ﷺ) and he stood up. When he was told that it was the coffin of a Jew, he said, \"Is it not a living being (soul)?\"",
+        "collection": "صحيح البخاري",
+        "number": "1312",
+        "narrator": "سهل بن حنيف وقيس بن سعد رضي الله عنهما",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)",
+        "source_url": "https://dorar.net/h/OOZHVlwC",
+        "dorar_url": "https://dorar.net/h/OOZHVlwC",
+        "dorar_ref": "المحدث: البخاري | المصدر: صحيح البخاري | الرقم: 1312 | خلاصة حكم المحدث: [صحيح] [قوله: كنت مع قيس... معلق]",
+        "sunnah_url": "https://sunnah.com/bukhari:1312",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "اسْتَأْذَنْتُ رَبِّي أَنْ أَسْتَغْفِرَ لأُمِّي فَلَمْ يَأْذَنْ لِي وَاسْتَأْذَنْتُهُ أَنْ أَزُورَ قَبْرَهَا فَأَذِنَ لِي",
+        "translation_en": "I sought permission to beg forgiveness for my mother, but He did not grant it to me. I sought permission from Him to visit her grave, and He granted it (permission) to me.",
+        "collection": "صحيح مسلم",
+        "number": "976",
+        "narrator": "أبو هريرة رضي الله عنه",
+        "grade": "صحيح",
+        "grader": "الإمام مسلم (أخرجه في صحيحه)",
+        "source_url": "https://dorar.net/h/V18P3tVY",
+        "dorar_url": "https://dorar.net/h/V18P3tVY",
+        "dorar_ref": "المحدث: مسلم | المصدر: صحيح مسلم | الرقم: 976 | خلاصة حكم المحدث: [صحيح]",
+        "sunnah_url": "https://sunnah.com/muslim:976a",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "قُلْتُ لِلنَّبِيِّ صلى الله عليه وسلم إِنَّ عَمَّكَ الشَّيْخَ الضَّالَّ قَدْ مَاتَ . قَالَ «اذْهَبْ فَوَارِ أَبَاكَ ثُمَّ لاَ تُحْدِثَنَّ شَيْئًا حَتَّى تَأْتِيَنِي» . فَذَهَبْتُ فَوَارَيْتُهُ وَجِئْتُهُ فَأَمَرَنِي فَاغْتَسَلْتُ وَدَعَا لِي .",
+        "translation_en": "I said to the Prophet (ﷺ): Your old and astray uncle has died. He said: Go and bury your father, and then do not do anything until you come to me. So I went, buried him and came to him. He ordered me (to take a bath), so I took a bath, and he prayed for me.",
+        "collection": "سنن أبي داود",
+        "number": "3214",
+        "narrator": "علي بن أبي طالب رضي الله عنه",
+        "grade": "صحيح",
+        "grader": "الألباني — صحيح أبي داود 3214: «صحيح» (الدرر السنية)؛ HadeethEnc: «حسن»",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/65582",
+        "dorar_url": "https://dorar.net/h/lVpWYSb8",
+        "dorar_ref": "المحدث: الألباني | المصدر: صحيح أبي داود | الرقم: 3214 | خلاصة حكم المحدث: صحيح",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/65582",
+        "sunnah_url": "https://sunnah.com/abudawud:3214 ; https://sunnah.com/nasai:2006",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "كَانَ الْيَهُودُ يَتَعَاطَسُونَ عِنْدَ النَّبِيِّ صلى الله عليه وسلم يَرْجُونَ أَنْ يَقُولَ لَهُمْ يَرْحَمُكُمُ اللَّهُ . فَيَقُولُ «يَهْدِيكُمُ اللَّهُ وَيُصْلِحُ بَالَكُمْ»",
+        "translation_en": "The Jews used to sneeze in the presence of the Prophet (ﷺ) hoping that he would say: 'Yarhamukumullah (May Allah have mercy upon you).' So he said: 'Yahdikumullahu Wa Yuslihu Balakum (May Allah guide you and rectify your affairs).'\"",
+        "collection": "جامع الترمذي",
+        "number": "2739",
+        "narrator": "أبو موسى الأشعري رضي الله عنه",
+        "grade": "صحيح",
+        "grader": "الألباني — صحيح الترمذي 2739: «صحيح» (الدرر السنية)",
+        "source_url": "https://dorar.net/h/WoQev0Of",
+        "dorar_url": "https://dorar.net/h/WoQev0Of",
+        "dorar_ref": "المحدث: الألباني | المصدر: صحيح الترمذي | الرقم: 2739 | خلاصة حكم المحدث: صحيح",
+        "sunnah_url": "https://sunnah.com/tirmidhi:2739",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "تجوز تعزية الكافر الذمي بقريبه.",
+        "position_en": "Consoling a non-Muslim (dhimmi) for his relative is permissible.",
+        "reference": "البناية للعيني (12/244)؛ حاشية ابن عابدين (6/388)"
+      },
+      "maliki": {
+        "position_ar": "تجوز؛ قال الحطاب: «تعزية الكافر بوليّه الكافر بجواره، فليس فيها إلا قول مالك وسحنون؛ أنه يُعزّى به».",
+        "position_en": "Permissible; al-Hattab: on consoling a non-Muslim neighbor for his non-Muslim relative, there is only the view of Malik and Sahnun that he is consoled.",
+        "reference": "مواهب الجليل للحطاب (3/41-42)؛ التاج والإكليل للمواق (2/229)"
+      },
+      "shafii": {
+        "position_ar": "تجوز، وتُندب إن رُجي إسلامه؛ قال النووي: «ويجوز للمسلم أن يعزي الذمي بقريبه الذمي، فيقول: أخلف الله عليك ولا نقص عددك».",
+        "position_en": "Permissible, and recommended if there is hope of his Islam; al-Nawawi: a Muslim may console a dhimmi for his dhimmi relative, saying \"May Allah replace your loss and not decrease your number\".",
+        "reference": "روضة الطالبين للنووي (2/145)؛ مغني المحتاج للشربيني (1/355)؛ المجموع للنووي (5/275)"
+      },
+      "hanbali": {
+        "position_ar": "توقف الإمام أحمد في تعزية أهل الذمة، وفيها عنه روايات. وخرّجها ابن قدامة على عيادتهم وفيها روايتان: المنع، والجواز لحديث عيادة الغلام اليهودي «فعلى هذا نعزيهم». والمذهب عند متأخري الحنابلة تحريم تعزيتهم وتهنئتهم وعيادتهم (الإنصاف، والإقناع وشرحه كشاف القناع: «ويحرم تهنئتهم وتعزيتهم وعيادتهم»)، وعن أحمد رواية بالكراهة، واختار ابن تيمية جوازها للمصلحة كرجاء الإسلام.",
+        "position_en": "Imam Ahmad withheld judgment, and several reports are transmitted from him. Ibn Qudama derived the issue from visiting them, on which there are two narrations: prohibition, and permission based on the Jewish boy hadith (\"accordingly we console them\"). The relied-upon position of the later Hanbali school is that consoling, congratulating and visiting them is prohibited (al-Insaf; al-Iqna' with Kashshaf al-Qina': \"it is prohibited to congratulate, console or visit them\"), with another report of mere dislike, while Ibn Taymiyya allowed it when there is a benefit such as hope of their Islam.",
+        "reference": "رواية الجواز: المغني لابن قدامة (2/406)، المبدع لابن مفلح (2/259)، الإنصاف للمرداوي (2/397) — بعزو الموسوعة الفقهية (الدرر السنية)، حكم تعزية الكافر: https://dorar.net/feqhia/2070؛ والمعتمد عند المتأخرين (التحريم): الإقناع وشرحه كشاف القناع للبهوتي، باب أحكام أهل الذمة",
+        "reference_status": "pending_verification"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "AMJA — د. مائن خالد القضاة",
+        "decision_ref": "الفتوى 78565 (2009) «Can a Muslim attend a non-Muslim funeral?»",
+        "position_ar": "حضور الجنائز عموماً للمسلمين وغير المسلمين جائز ويشمل الدفن، ما لم تقترن الجنازة بما يجعلها محرّمة.",
+        "position_en": "Attending funerals in general, of Muslims and non-Muslims alike, is allowed, including the burial, unless a specific funeral involves something that makes it prohibited.",
+        "source_url": "https://www.amjaonline.org/fatwa/en/78565/can-a-muslim-attend-a-non-muslim-funeral"
+      },
+      {
+        "body": "الشيخ فيصل مولوي (نائب رئيس المجلس الأوروبي للإفتاء والبحوث)",
+        "decision_ref": "فتوى «Attending the funerals of non-Muslims» — إسلام أون لاين",
+        "position_ar": "لا حرج في الأصل في حضور جنائز غير المسلمين وتعزيتهم، وفيه إظهار للتعايش؛ مع اجتناب المشاركة في الطقوس الدينية والاستغفار للميت غير المسلم وترديد عباراتهم الدينية.",
+        "position_en": "In principle there is nothing wrong with attending non-Muslims' funerals and consoling them, which shows peaceful coexistence; but one must avoid joining religious rites, seeking forgiveness for the deceased, or repeating their religious phrases.",
+        "source_url": "https://fiqh.islamonline.net/en/attending-the-funerals-of-non-muslims"
+      },
+      {
+        "body": "اللجنة الدائمة للبحوث العلمية والإفتاء (السعودية)",
+        "decision_ref": "فتاوى اللجنة الدائمة — المجموعة الأولى (9/132)",
+        "position_ar": "تجوز التعزية خاصة إذا كان القصد ترغيبهم في الإسلام أو دفع أذاهم.",
+        "position_en": "Condolence is permissible, especially if intended to draw them to Islam or ward off harm.",
+        "source_url": "https://dorar.net/feqhia/2070"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "اطرق الباب أو أرسل بطاقة: «I'm so sorry for your loss. He was a wonderful neighbor. May God give you patience and comfort.»",
+        "قدّم عوناً عملياً: وجبة طعام، قصّ العشب، رعاية الأطفال، توصيل للمطار — فهذا أبلغ من الكلام.",
+        "يجوز حضور الـ visitation في دار الجنازات والدفن عند من أجاز؛ قف باحترام ولا تشارك في الصلوات والترانيم والقربان، ولا تردد عباراتهم الدينية.",
+        "لا تستغفر للميت ولا تقل «May he rest in peace» بنية الدعاء له بالمغفرة؛ وادعُ لأهله: الصبر، والخلف، والهداية.",
+        "استمر في السؤال عن الأرملة بعد أسابيع؛ فوحدة كبار السن في أمريكا مصيبة ثانية، والإحسان إلى الجار من الإيمان."
+      ],
+      "en": [
+        "Knock on the door or send a card: \"I'm so sorry for your loss. He was a wonderful neighbor. May God give you patience and comfort.\"",
+        "Offer practical help: a meal, mowing the lawn, babysitting, an airport ride — it speaks louder than words.",
+        "Per those who permit it, you may attend the visitation at the funeral home and the burial; stand respectfully but do not join prayers, hymns or communion, and do not repeat their religious formulas.",
+        "Do not seek forgiveness for the deceased or say \"May he rest in peace\" as a prayer of forgiveness for him; pray for the family's patience, recompense and guidance.",
+        "Keep checking on the widow weeks later; loneliness among the elderly in America is a second loss, and kindness to the neighbor is part of faith."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "تعزية الأسرة بزيارة أو بطاقة دون حضور الطقس الديني",
+        "تقديم وجبة أو خدمة عملية",
+        "التبرع لجهة خيرية مباحة باسم الأسرة (in lieu of flowers) إن طلبوا ذلك"
+      ],
+      "en": [
+        "Consoling the family by a visit or card without attending the religious service",
+        "Providing a meal or practical help",
+        "Donating to a permissible charity in the family's name (\"in lieu of flowers\") if they request it"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "إذا كان الميت قريباً لك (والداً أو أخاً) وتريد معرفة أحكام الدفن والميراث، أو طُلب منك أن تكون حامل نعش (pallbearer) أو أن تلقي كلمة في مراسم التأبين.",
+      "en": "If the deceased is your relative (parent or sibling) and you need rulings on burial and inheritance, or if you are asked to be a pallbearer or give a eulogy at the memorial service."
+    },
+    "confidence": "medium",
+    "review_status": "ai_verified",
+    "notes_for_reviewer": "مواقف المذاهب منقولة من الموسوعة الفقهية بالدرر السنية (feqhia/2070، aadab/1593) ومن بحث «حكم تعزية الكافر» (saaid.org/fatwa/f56.htm) الذي نقل نص المغني وروضة الطالبين؛ لم نطابق المطبوعات. اختلاف ترقيم المغني (3/486 مقابل 2/406) سببه اختلاف الطبعات. نسبة المنع إلى متأخري الحنابلة (الإقناع/المنتهى) لم نتحقق منها نصاً — يجب مراجعتها أو حذفها. صيغة «أخلف الله عليك ولا نقص عددك» قيدها بعض الفقهاء بالذمي، وتحتاج تعليقاً من المراجع لمناسبتها للسياق الأمريكي. عبارة «Rest in peace» مسألة اجتهادية في مدلولها العرفي؛ صغناها احتياطاً.\n\n[تدقيق المرحلة 1 — 2026-10-05] أُكّد أن المعتمد عند متأخري الحنابلة تحريم تعزية الكافر («ويحرم تهنئتهم وتعزيتهم وعيادتهم» — الإقناع/كشاف القناع، والإنصاف) فأُزيل وصف «لم نتحقق» وأُضيف ذلك إلى الملخص توازناً. فتوى AMJA 78565 تحققتُ منها مباشرة (د. مائن خالد القضاة، 14/4/2009) وصُحّح اسم المفتي. الحكم «mubah» يمثل قول الجمهور؛ للمراجع أن ينظر هل «disputed» أدق. نجحت الفحوص الآلية.",
+    "newcomer_explainer": {
+      "ar": "يجيز جمهور العلماء للمسلم تعزية جاره غير المسلم ومواساة أهله، استئناساً بآية البر (الممتحنة 8)، وبعيادة النبي ﷺ لغلام يهودي مريض (البخاري 1356)، وقيامه لجنازة يهودي مرّت به وقوله: «أليست نفساً؟» (البخاري 1312)؛ ومنع ذلك متأخرو الحنابلة. وأجاز معاصرون حضور الجنازة احتراماً دون مشاركة في طقوسها الدينية. ويعتقد المسلمون أن الاستغفار بعد الموت خاص بمن مات مسلماً (التوبة 113)، ولذلك يدعو الصديق المسلم لأهل الفقيد بالصبر والعوض والخير.",
+      "en": "The majority of scholars allow a Muslim to console a non-Muslim neighbour and comfort the family, drawing on the verse on kindness (60:8), on the Prophet ﷺ visiting a sick Jewish boy (Bukhari 1356), and on his standing up when a Jewish funeral passed, saying \"Is it not a soul?\" (Bukhari 1312); the later Hanbali relied-upon view disallowed consoling. Contemporary scholars allow attending the funeral out of respect without joining its religious rites. Muslims believe that prayers for God's forgiveness after death are for those who died as Muslims (9:113), so a Muslim friend will instead pray for the family's patience, comfort and good."
+    },
+    "library_only": true
+  },
+  {
+    "id": "private_events.gifts_birthday",
+    "location": "private_events",
+    "title": {
+      "ar": "الهدايا وأعياد الميلاد",
+      "en": "Gifts and Birthday Parties"
+    },
+    "question": {
+      "ar": "هل يجوز للمسلم أن يقبل هدية من زميل أو جار غير مسلم، ولو كانت فيها زجاجة نبيذ؟ وماذا يفعل بالنبيذ؟ وهل يحضر حفل عيد ميلاد طفل جاره؟",
+      "en": "May a Muslim accept a gift from a non-Muslim coworker or neighbor, even one that includes a bottle of wine? What should he do with the wine? And may he attend a neighbor's child's birthday party?"
+    },
+    "verdict": "depends",
+    "content_level": "C",
+    "verdict_scope": {
+      "ar": "قبول هدية غير المسلم جائز في الأصل ما لم تكن مما يحرم الانتفاع به. أما حضور حفل عيد الميلاد فمسألة خلافية بين المعاصرين: منعه مجمع فقهاء الشريعة بأمريكا (AMJA، الفتوى 22801)، وأجازه آخرون بوصفه عادة اجتماعية لا عبادة. نعرض القولين ولا نرجّح بينهما.",
+      "en": "Accepting a non-Muslim's gift is permissible in principle unless it is something prohibited to use. Attending a birthday party is disputed among contemporary scholars: AMJA (fatwa 22801) prohibited it, while others allowed it as a social custom rather than worship. We present both views without choosing between them."
+    },
+    "summary": {
+      "ar": "قبول هدية غير المسلم جائز، فقد قبل النبي ﷺ هدايا أكيدر دومة وملك أيلة واليهودية، وورد النهي عن «زبد المشركين» في حديث جمع بينه العلماء بالنسخ أو بالتفريق بحسب المصلحة. أما ما يحرم الانتفاع به كالخمر فلا يُقبل ولا يُهدى لغيره، ويُعتذر عنه بلطف. وحضور حفل عيد ميلاد طفل الجار مختلف فيه: أجازه بعض المعاصرين باعتباره عادة اجتماعية لا عبادة، ومنعه آخرون كفتوى AMJA 22801.",
+      "en": "Accepting a non-Muslim's gift is permissible: the Prophet ﷺ accepted gifts from Ukaydir of Duma, the king of Ayla and a Jewish woman, while a hadith forbidding \"gifts of polytheists\" is reconciled by scholars as abrogated or as depending on interest. Anything whose use is prohibited, like wine, is not accepted or passed on, and is declined gently. Attending a neighbor's child's birthday party is disputed: some contemporary scholars allow it as a social custom rather than worship, others forbid it, e.g. AMJA fatwa 22801."
+    },
+    "quran": [
+      {
+        "surah": 60,
+        "surah_name_ar": "الممتحنة",
+        "ayah": "8",
+        "text_ar": "لَّا يَنۡهَىٰكُمُ ٱللَّهُ عَنِ ٱلَّذِينَ لَمۡ يُقَٰتِلُوكُمۡ فِي ٱلدِّينِ وَلَمۡ يُخۡرِجُوكُم مِّن دِيَٰرِكُمۡ أَن تَبَرُّوهُمۡ وَتُقۡسِطُوٓاْ إِلَيۡهِمۡۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلۡمُقۡسِطِينَ",
+        "translation_en": "Allāh does not forbid you from those who do not fight you because of religion and do not expel you from your homes - from being righteous toward them and acting justly toward them. Indeed, Allāh loves those who act justly.",
+        "source_url": "https://quranenc.com/en/browse/english_saheeh/60#8"
+      }
+    ],
+    "hadith": [
+      {
+        "text_ar": "أُهْدِيَ لِلنَّبِيِّ صلى الله عليه وسلم جُبَّةُ سُنْدُسٍ، وَكَانَ يَنْهَى عَنِ الْحَرِيرِ، فَعَجِبَ النَّاسُ مِنْهَا فَقَالَ «وَالَّذِي نَفْسُ مُحَمَّدٍ بِيَدِهِ لَمَنَادِيلُ سَعْدِ بْنِ مُعَاذٍ فِي الْجَنَّةِ أَحْسَنُ مِنْ هَذَا» . وَقَالَ سَعِيدٌ عَنْ قَتَادَةَ، عَنْ أَنَسٍ، إِنَّ أُكَيْدِرَ دُومَةَ أَهْدَى إِلَى النَّبِيِّ صلى الله عليه وسلم.",
+        "translation_en": "A Jubba (i.e. cloak) made of thick silken cloth was presented to the Prophet. The Prophet (ﷺ) used to forbid people to wear silk. So, the people were pleased to see it. The Prophet (ﷺ) said, \"By Him in Whose Hands Muhammad's soul is, the handkerchiefs of Sa`d bin Mu`adh in Paradise are better than this.\" Anas added, \"The present was sent to the Prophet (ﷺ) by Ukaidir (a Christian) from Dauma.\"",
+        "collection": "صحيح البخاري",
+        "number": "2616",
+        "narrator": "أنس بن مالك رضي الله عنه",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أورده في: باب قبول الهدية من المشركين)",
+        "source_url": "https://sunnah.com/bukhari:2616",
+        "sunnah_url": "https://sunnah.com/bukhari:2616",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "وَأَهْدَى مَلِكُ أَيْلَةَ لِلنَّبِيِّ صلى الله عليه وسلم بَغْلَةً بَيْضَاءَ، وَكَسَاهُ بُرْدًا",
+        "translation_en": "The King of Aila sent a white mule to the Prophet (ﷺ) as a present, and (the Prophet) gave him a sheet (cloak) to wear.",
+        "collection": "صحيح البخاري",
+        "number": "1481",
+        "narrator": "أبو حميد الساعدي رضي الله عنه",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)",
+        "source_url": "https://dorar.net/h/D8srLD3i",
+        "dorar_url": "https://dorar.net/h/D8srLD3i",
+        "dorar_ref": "المحدث: البخاري | المصدر: صحيح البخاري | الرقم: 1481 | خلاصة حكم المحدث: [صحيح] [قوله: وقال سليمان بن بلال... معلق وقد صله في موضع آخر] [وقوله: قال سليمان عن سعد... معلق]",
+        "sunnah_url": "https://sunnah.com/bukhari:1481",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "أَنَّ يَهُودِيَّةً، أَتَتِ النَّبِيَّ صلى الله عليه وسلم بِشَاةٍ مَسْمُومَةٍ، فَأَكَلَ مِنْهَا",
+        "translation_en": "A Jewess brought a poisoned (cooked) sheep for the Prophet (ﷺ) who ate from it.",
+        "collection": "صحيح البخاري",
+        "number": "2617",
+        "narrator": "أنس بن مالك رضي الله عنه",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/66175",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/66175",
+        "sunnah_url": "https://sunnah.com/bukhari:2617",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "أَنَّهُ أَهْدَى لِلنَّبِيِّ صلى الله عليه وسلم هَدِيَّةً لَهُ أَوْ نَاقَةً فَقَالَ النَّبِيُّ صلى الله عليه وسلم «أَسْلَمْتَ» . قَالَ لاَ . قَالَ «فَإِنِّي نُهِيتُ عَنْ زَبْدِ الْمُشْرِكِينَ» ... وَقَدْ رُوِيَ عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ كَانَ يَقْبَلُ مِنَ الْمُشْرِكِينَ هَدَايَاهُمْ وَذُكِرَ فِي هَذَا الْحَدِيثِ الْكَرَاهِيَةُ وَاحْتُمِلَ أَنْ يَكُونَ هَذَا بَعْدَ مَا كَانَ يَقْبَلُ مِنْهُمْ ثُمَّ نَهَى عَنْ هَدَايَاهُمْ .",
+        "translation_en": "That he gave the Prophet (ﷺ) a gift or a camel, so the Prophet (ﷺ) said: \"Have you accepted Islam?\" He said: \"No.\" He said: \"Then I have been prohibited from the Zabd (gift) of the idolaters.\" [Abu 'Eisa said:] This Hadith is Hasan Sahih. And the meaning of his saying: \"I haven been prohibited from the Zabd (gifts) of the idolaters\" is their gifts. It has been reported about the Messenger (ﷺ) that he used to accept the gifts of the idolaters while a dislike for that is mentioned in this Hadith. And the implication is that this was after he used to accept from them, and then he later forbade their gifts.",
+        "collection": "جامع الترمذي",
+        "number": "1577",
+        "narrator": "عياض بن حمار رضي الله عنه",
+        "grade": "حسن صحيح",
+        "grader": "الألباني — صحيح الترمذي 1577: «حسن صحيح» (الدرر السنية)",
+        "source_url": "https://dorar.net/h/k2Bfhqyg",
+        "dorar_url": "https://dorar.net/h/k2Bfhqyg",
+        "dorar_ref": "المحدث: الألباني | المصدر: صحيح الترمذي | الرقم: 1577 | خلاصة حكم المحدث: حسن صحيح",
+        "sunnah_url": "https://sunnah.com/tirmidhi:1577 ; https://sunnah.com/abudawud:3057",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَقْبَلُ الْهَدِيَّةَ وَيُثِيبُ عَلَيْهَا",
+        "translation_en": "Allah's Messenger (ﷺ) used to accept gifts and used to give something in return.",
+        "collection": "صحيح البخاري",
+        "number": "2585",
+        "narrator": "عائشة رضي الله عنها",
+        "grade": "صحيح",
+        "grader": "الإمام البخاري (أخرجه في صحيحه)",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/66173",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/66173",
+        "sunnah_url": "https://sunnah.com/bukhari:2585",
+        "translation_source": "sunnah.com (English translation of the same hadith)"
+      },
+      {
+        "text_ar": "تَهَادُوا تَحَابُّوا.",
+        "translation_en": "Abu Hurayrah (may Allah be pleased with him) reported that the Prophet (ﷺ) said: \"Give gifts to one another; you will love one another.\"",
+        "collection": "الأدب المفرد للبخاري",
+        "number": "594",
+        "narrator": "أبو هريرة رضي الله عنه",
+        "grade": "حسن",
+        "grader": "الألباني — صحيح الأدب المفرد 462: «حسن» (الدرر السنية)؛ HadeethEnc: «حسن»",
+        "source_url": "https://hadeethenc.com/ar/browse/hadith/66179",
+        "dorar_url": "https://dorar.net/h/SIeUjyw2",
+        "dorar_ref": "المحدث: الألباني | المصدر: صحيح الأدب المفرد | الرقم: 462 | خلاصة حكم المحدث: حسن",
+        "hadeethenc_url": "https://hadeethenc.com/ar/browse/hadith/66179",
+        "sunnah_url": "https://sunnah.com/adab:594 ; https://dorar.net/hadith/search?q=%D8%AA%D9%87%D8%A7%D8%AF%D9%88%D8%A7%20%D8%AA%D8%AD%D8%A7%D8%A8%D9%88%D8%A7",
+        "translation_source": "HadeethEnc.com (https://hadeethenc.com/en/browse/hadith/66179)"
+      }
+    ],
+    "madhahib": {
+      "hanafi": {
+        "position_ar": "الأصل جواز قبول الهدية؛ ونقل قاضي خان أن من أهدى يوم النيروز على عادة الناس دون إرادة تعظيم اليوم لا يكون كفراً، ويُحترز عن التشبه. ولم نقف على نص حنفي خاص بحفل عيد الميلاد الشخصي.",
+        "position_en": "Accepting gifts is permissible in principle; Qadi Khan states that gifting on Nayruz out of social custom without intending to honor the day is not disbelief, though imitation should be avoided. We found no Hanafi text specific to personal birthday parties.",
+        "reference": "الموسوعة الفقهية الكويتية (12/7) نقلاً عن فتاوى قاضي خان"
+      },
+      "maliki": {
+        "position_ar": "يُقبل من الهدايا ما خلا عن محظور؛ وكره ابن القاسم أن يهدي المسلم إلى النصراني في عيده مكافأةً لما فيه من تعظيم العيد. ولم نقف على نص مالكي خاص بأعياد الميلاد الشخصية.",
+        "position_en": "Gifts free of prohibition may be accepted; Ibn al-Qasim disliked a Muslim reciprocating a gift to a Christian on his religious festival as it honors it. No Maliki text specific to birthdays was found.",
+        "reference": "الموسوعة الفقهية الكويتية (12/7)؛ التمهيد لابن عبد البر (2/6-7) في كثرة قبول النبي ﷺ الهدايا"
+      },
+      "shafii": {
+        "position_ar": "الأصل جواز قبول هدية غير المسلم، وبوّب البخاري «باب قبول الهدية من المشركين»، وجمع شُرّاح الحديث (ومنهم ابن حجر) بين أحاديث القبول وحديث عياض بن حمار.",
+        "position_en": "Accepting a non-Muslim's gift is permissible in principle; al-Bukhari titled a chapter \"Accepting gifts from polytheists\", and hadith commentators (including Ibn Hajar) reconciled these reports with the hadith of Iyad ibn Himar.",
+        "reference": "صحيح البخاري، كتاب الهبة، باب قبول الهدية من المشركين؛ فتح الباري لابن حجر (الموضع نفسه)",
+        "reference_status": "pending_verification"
+      },
+      "hanbali": {
+        "position_ar": "أجاز ابن تيمية قبول هدية غير المسلمين ولو يوم عيدهم، مستدلاً بقبول علي رضي الله عنه هدية النيروز، وقال إن العيد لا أثر له في منع قبول هديتهم ما لم يكن فيها إعانة على شعائرهم.",
+        "position_en": "Ibn Taymiyya allowed accepting non-Muslims' gifts even on their festival, citing Ali accepting a Nayruz gift, holding that the festival does not bar acceptance unless it aids their rites.",
+        "reference": "اقتضاء الصراط المستقيم لابن تيمية (فصل قبول الهدية منهم يوم عيدهم)"
+      }
+    },
+    "contemporary": [
+      {
+        "body": "AMJA — د. صلاح الصاوي",
+        "decision_ref": "الفتوى 22801 (2007) «Celebrating Birthdays»",
+        "position_ar": "لا يجوز الاحتفال بأعياد الميلاد ولا إجابة الدعوة إليها لأنها محدثة وفيها تشبه.",
+        "position_en": "Celebrating birthdays and accepting birthday-party invitations is impermissible as an innovation and imitation.",
+        "source_url": "https://www.amjaonline.org/fatwa/en/22801/celebrating-birthdays"
+      },
+      {
+        "body": "د. مائن خالد القضاة — جواب منشور في إسلام أون لاين",
+        "decision_ref": "«Celebrating birthdays with non-Muslim family»",
+        "position_ar": "عيد الميلاد عادة وليس مناسبة دينية؛ فإن كان حضور حفلات أقاربه غير المسلمين يقرّبه إلى قلوبهم فله أن يحضر مع المحافظة على شخصيته الإسلامية.",
+        "position_en": "A birthday is a tradition, not a religious event; if joining non-Muslim relatives' birthday parties brings him closer to their hearts, he may join while keeping his Islamic character.",
+        "source_url": "https://fiqh.islamonline.net/en/celebrating-birthdays-with-non-muslim-family/"
+      },
+      {
+        "body": "Fiqh Council of North America — د. مزمل صديقي",
+        "decision_ref": "فتوى «Muslims celebrating the holidays of other religions»",
+        "position_ar": "إن أهدى إليك غير المسلمين هدايا فاشكرهم واقبلها بسرور، وتذكّرهم في أعياد المسلمين.",
+        "position_en": "If they give you gifts, thank them, accept them with cheer, and remember them at Islamic holidays.",
+        "source_url": "https://fiqh.islamonline.net/en/muslims-celebrating-the-holidays-of-other-religions/"
+      }
+    ],
+    "practical_guidance": {
+      "ar": [
+        "اقبل السلة واشكر زميلتك بحرارة، وأخبرها بلطف: «Thank you so much! I don't drink for religious reasons, so I'd rather not take the wine — the chocolate is perfect.»",
+        "لا تُهدِ زجاجة الخمر لغيرك ولا تبعها؛ فإن لم يمكن ردّها فأرِقها.",
+        "تحقق من مكونات الحلوى (جيلاتين خنزير، كحول) قبل الأكل.",
+        "كافئ الهدية بهدية في مناسبة لاحقة (العيد مثلاً) — كان النبي ﷺ يقبل الهدية ويثيب عليها.",
+        "حفل عيد ميلاد طفل الجار: إن أخذت بقول من يجيز فاحضر قليلاً بهدية بسيطة للطفل (لعبة/كتاب) وتجنب المحرمات؛ وإن أخذت بقول المنع فاعتذر بلطف وأرسل الهدية مع بطاقة."
+      ],
+      "en": [
+        "Accept the basket and thank your coworker warmly, then gently say: \"Thank you so much! I don't drink for religious reasons, so I'd rather not take the wine — the chocolate is perfect.\"",
+        "Do not regift or sell the wine; if returning it is not possible, pour it out.",
+        "Check sweets for ingredients (pork gelatin, alcohol) before eating.",
+        "Reciprocate with a gift on a later occasion (e.g., Eid) — the Prophet ﷺ accepted gifts and gave in return.",
+        "The neighbor's child's birthday: if you follow the permissive view, attend briefly with a simple gift (toy/book) and avoid the prohibited; if you follow the restrictive view, decline kindly and send the gift with a card."
+      ]
+    },
+    "halal_alternatives": {
+      "ar": [
+        "قبول الجزء المباح من الهدية وردّ المحرّم بلطف",
+        "إرسال هدية للطفل دون حضور الحفل",
+        "دعوة الجيران إلى إفطار رمضاني أو حلوى العيد"
+      ],
+      "en": [
+        "Accepting the permissible part of the gift and kindly returning the prohibited part",
+        "Sending a gift to the child without attending the party",
+        "Inviting the neighbors to an iftar or Eid sweets"
+      ]
+    },
+    "refer_to_scholar_when": {
+      "ar": "إذا كانت الهدية من عميل أو مورد في عملك (حكم هدايا العمال)، أو كانت ذات قيمة كبيرة، أو كان الحفل لأحد أفراد أسرتك غير المسلمين.",
+      "en": "If the gift comes from a client or vendor at work (rules on gifts to employees), is of high value, or if the party is for a non-Muslim member of your own family."
+    },
+    "confidence": "medium",
+    "review_status": "ai_draft",
+    "notes_for_reviewer": "حديث المقوقس ليس في الكتب الستة؛ نصه منقول من الدرر السنية (حكم الهيثمي: رجاله رجال الصحيح)، والترجمة الإنجليزية لها من عملنا. حديث «تهادوا تحابوا» مختلف في درجته. نسبة الجمع بين حديث عياض وأحاديث القبول إلى ابن حجر لم نطابقها في فتح الباري — الترمذي نفسه ذكر احتمال النسخ (منقول حرفياً ضمن نص الحديث). مواقف المذاهب هنا عامة وغير مدعومة بنصوص معتمدة لكل مذهب في قبول هدية غير المسلم تحديداً — تحتاج إثراء من المراجع (مثلاً: شرح السير الكبير للسرخسي، المغني). مسألة «إراقة الخمر المهداة» إرشاد عملي يحتاج تأكيد المراجع. إشارة «هدايا العمال» تربط بموقف work.honesty_gifts.\n\n[تدقيق المرحلة 1 — 2026-10-05] تحققتُ من فتوى AMJA 22801 (د. صلاح الصاوي، 6/8/2007: لا يجوز الاحتفال بأعياد الميلاد ولا إجابة الدعوة إليها) ومن نص حديث المقوقس عند الهيثمي (مجمع الزوائد 4/155) ومن «تهادوا تحابوا» (الأدب المفرد 594) يدوياً. صُحّح اسم المفتي «د. مائن خالد القضاة». يبقى ai_draft لأن خانات المذاهب عامة بلا نص معتمد في قبول هدية غير المسلم (يُقترح شرح السير الكبير للسرخسي والمغني)، ولأن صياغة السيناريو للخيار best («keep the wine for yourself — I know it's your favorite!») قد تُفهم إقراراً بشرب الخمر — انظر التقرير.\n\n[مراجعة الأحاديث 2026-10-06 — حزمة المرجعية العلمية]\n- أُزيل من الأدلة المعروضة: حديث بريدة «أهدى المقوقس القبطي لرسول الله ﷺ جاريتين...» — الحكم الوحيد المتاح «رجاله رجال الصحيح» (الهيثمي، مجمع الزوائد 4/155، https://dorar.net/h/7JrcAD3x) وهو وصف للرجال لا حكم بصحة الحديث. قبول النبي ﷺ هدية غير المسلم ثابت بأحاديث البخاري 2616 و2617 في هذه البطاقة.\n- أُبقي الأدب المفرد 594 «تهادوا تحابوا» لأن HadeethEnc يحكم عليه بـ«حسن» (https://hadeethenc.com/ar/browse/hadith/66179) والألباني «حسن» (صحيح الأدب المفرد 462، https://dorar.net/h/SIeUjyw2)؛ وضعّفه ابن العربي وغيره (الدرر). الترجمة الإنجليزية من HadeethEnc.",
+    "newcomer_explainer": {
+      "ar": "يحث الإسلام على تبادل الهدايا: «تهادوا تحابوا» (الأدب المفرد 594)، وقد قبل النبي ﷺ هدايا من غير المسلمين، كهدية ملك أيلة (البخاري 1481). أما الهدية التي يحرم الانتفاع بها كزجاجة خمر فيُعتذر عنها بلطف، ولا تُقبل ولا تُهدى لغيره. وحضور حفل عيد ميلاد طفل الجار مختلف فيه: أجازه بعض المعاصرين باعتباره عادة اجتماعية لا عبادة، ومنعه آخرون كفتوى لمجمع فقهاء الشريعة بأمريكا (AMJA). وفي كل الأحوال يحرص المسلم على دوام المودة مع جيرانه.",
+      "en": "Islam encourages exchanging gifts — \"give gifts and you will love one another\" (al-Adab al-Mufrad 594) — and the Prophet ﷺ accepted gifts from non-Muslims, such as the King of Ayla (Bukhari 1481). A gift whose use is forbidden, like a bottle of wine, is gently declined rather than accepted or passed on. Attending a neighbour's child's birthday party is debated: some contemporary scholars allow it as a social custom rather than worship, while others, such as an AMJA fatwa, do not. Either way, Muslims are encouraged to keep warm relations with their neighbours."
+    },
+    "library_only": true
+  }
+]

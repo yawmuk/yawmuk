@@ -1,0 +1,134 @@
+{
+  "location": "school",
+  "title": {
+    "ar": "الكلية — المساء",
+    "en": "Community College — Evening"
+  },
+  "time_of_day": "18:30",
+  "intro": {
+    "ar": "أضواء الممرات بيضاء، وقهوة آلة البيع لا تشبه القهوة. طلاب من كل الأعمار: أمهات، عمال، محاربون قدامى، شباب بعد دوامهم. امتحان «تحليل البيانات» النهائي بعد أسبوع، وفي الممر يلمح آدم عمر بزي التمريض الأزرق يلوّح له.",
+    "en": "Fluorescent hallway lights, and the vending-machine coffee doesn't taste like coffee. Students of every age: moms, tradespeople, veterans, young folks after their shifts. The Data Analytics final is next week, and down the hall Adam spots Omar in blue nursing scrubs, waving."
+  },
+  "situations": [
+    {
+      "ruling_id": "school.pork",
+      "hotspot": "study_room",
+      "npc": {
+        "id": "noor",
+        "name": {
+          "ar": "نور",
+          "en": "Noor"
+        },
+        "role": {
+          "ar": "زميلة مسلمة في مجموعة الدراسة",
+          "en": "Muslim study-group partner"
+        }
+      },
+      "setup": {
+        "ar": "استراحة العشاء بين المحاضرتين. على طاولة الدراسة المفتوحة، فتح تايلر كيساً من الشطائر جلبها من مناوبته في المطعم. هانا بدأت تأكل، ونور تُخرج علبة طعامها من حقيبتها.",
+        "en": "The dinner break between classes. At the open study table, Tyler opens a bag of sandwiches from his restaurant shift. Hannah has already started eating, and Noor takes her own food box out of her bag."
+      },
+      "dialogue": [
+        {
+          "speaker": "narrator",
+          "ar": "يمدّ تايلر شطيرةً إلى نور ويقول: «خذي واحدة، لحمُ خِنْزِيرٍ مُدَخَّن، مجاناً!»",
+          "en": "Tyler holds a sandwich out to Noor: 'Take one, smoked ham, totally free!'"
+        },
+        {
+          "speaker": "noor",
+          "ar": "شكراً يا تايلر، هذا لُطفٌ منك حقاً. لكنني لا آكل لحمَ الخِنْزِير، فاللهُ حرَّمه علينا.",
+          "en": "Thanks, Tyler, that's really kind of you. But I don't eat pork. God has made it off-limits for us."
+        },
+        {
+          "speaker": "adam",
+          "ar": "حتى لو كان طازجاً ونظيفاً؟ ما المشكلةُ فيه؟",
+          "en": "Even if it's fresh and clean? What's wrong with it?"
+        },
+        {
+          "speaker": "noor",
+          "ar": "جسدي أمانةٌ عندي، لا أملِكُه وحدي. أُطيعُ ربّي فيما أمرني، حتى لو لم أعرف كلَّ الحِكمة.",
+          "en": "My body is a trust I look after. It isn't only mine. I obey my Lord here, even without knowing every reason."
+        },
+        {
+          "speaker": "noor",
+          "ar": "أن تتركَ شيئاً شهيّاً بين يديك لأجل الله، هذا هو معنى الإسلام: الاستسلامُ لله.",
+          "en": "Leaving something tempting, right in front of you, for God's sake. That's what Islam means: submitting to God."
+        },
+        {
+          "speaker": "narrator",
+          "ar": "يتردّد تايلر والشطيرةُ ما زالت في يده، وتنظر هانا إلى آدم.",
+          "en": "Tyler hesitates, the sandwich still in his hand, and Hannah glances at Adam."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": {
+            "ar": "«قضمةٌ واحدة لن تضرّ يا نور، لا أحدَ يراكِ هنا».",
+            "en": "'One bite won't hurt, Noor. Nobody's watching.'"
+          },
+          "quality": "wrong",
+          "consequence": {
+            "ar": "ابتسمت نور بهدوء: «لا أتركه لأن الناس يرونني، بل لأن اللهَ يراني». ساد صمتٌ قصير. احترامُ قناعة الصديقة يقرّب القلوب أكثر من الإلحاح.",
+            "en": "Noor smiled calmly: 'I don't skip it because people are watching. I skip it because God is.' A short silence fell. Respecting a friend's conviction brings people closer than pressure does."
+          },
+          "points": 0
+        },
+        {
+          "id": "b",
+          "label": {
+            "ar": "أبتسمُ وأُكمل طعامي دون تعليق.",
+            "en": "Smile and keep eating without a word."
+          },
+          "quality": "acceptable",
+          "consequence": {
+            "ar": "لم يُحرج آدمُ نور، وأكملت هي عشاءها بهدوء. لكن فاتته فرصةٌ ليفهم لماذا يتمسّك المسلم بهذا حتى حين لا يراه أحد.",
+            "en": "Adam didn't make Noor uncomfortable, and she finished her meal in peace. But he missed a chance to learn why a Muslim holds to this even when no one is watching."
+          },
+          "points": 5
+        },
+        {
+          "id": "c",
+          "label": {
+            "ar": "أقول لتايلر: «هل عندك شطيرةُ خضار لنور؟» ثم أسألها: «ماذا تقصدين بأن الجسد أمانة؟»",
+            "en": "Ask Tyler, 'Got a veggie one for Noor?' Then ask her, 'What do you mean, your body is a trust?'"
+          },
+          "quality": "best",
+          "consequence": {
+            "ar": "وجد تايلر شطيرةَ خضار في الكيس. شرحت نور: «جسدي وديعةٌ من الله، أحفظُه وأطيعُه فيما يدخلُه». قال تايلر: «سأُحضر الخيار النباتي في المرة القادمة».",
+            "en": "Tyler found a veggie sandwich in the bag. Noor explained, 'My body is a trust from God. I care for it, and obey Him in what goes into it.' Tyler said, 'I'll bring the veggie option next time.'"
+          },
+          "points": 10
+        }
+      ],
+      "check_question": {
+        "q": {
+          "ar": "لماذا رفضت نور شطيرة الخِنْزِير مع أنها مجانية وشهيّة؟",
+          "en": "Why did Noor turn down the ham sandwich, even though it was free and tasty?"
+        },
+        "options": [
+          {
+            "ar": "لأنها لا تحبّ طعم اللحم",
+            "en": "Because she doesn't like the taste of meat",
+            "correct": false
+          },
+          {
+            "ar": "لأن أكل الخِنْزِير محرّمٌ في الإسلام، والمسلم يتركه طاعةً لله حتى حين يكون متاحاً",
+            "en": "Because eating pork is prohibited in Islam, and a Muslim leaves it to obey God even when it's right there",
+            "correct": true
+          },
+          {
+            "ar": "لأن المسلمين لا يأكلون مع غير المسلمين",
+            "en": "Because Muslims don't eat with non-Muslims",
+            "correct": false
+          }
+        ]
+      }
+    }
+  ],
+  "outro": {
+    "ar": "التاسعة إلا ربعاً. سيارة آدم تأبى أن تشتغل في البرد، فيركب الحافلة عائداً إلى الحيّ. في الطريق يقرّر أن يمرّ بمحطة الوقود ليشتري بعض الحاجات.",
+    "en": "Quarter to nine. Adam's car refuses to start in the cold, so he takes the bus back to the neighborhood. On the way, he decides to stop at the gas station for a few things."
+  },
+  "next_location": "street"
+}

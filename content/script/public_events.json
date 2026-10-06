@@ -1,0 +1,129 @@
+{
+  "location": "public_events",
+  "title": {
+    "ar": "حفل نهاية العام للشركة",
+    "en": "The Company Holiday Party"
+  },
+  "time_of_day": "19:00",
+  "intro": {
+    "ar": "مساء الجمعة، قاعة فندق في وسط المدينة. أضواء ذهبية، وموسيقى هادئة، وطاولات مستديرة تزيّنها الشموع. الشركة تحتفل بنهاية عام ناجح. سارة جاءت مع آدم بعد مناوبتها، وزميله سَمِير جاء مع زوجته رَانْيَا. بعد قليل سيرتفع نَخْبُ الفريق.",
+    "en": "Friday night, a hotel ballroom downtown. Golden lights, soft music, round tables glowing with candles. The company is celebrating the end of a great year. Sarah came with Adam after her shift, and his teammate Samir came with his wife Rania. Soon everyone will raise a toast to the team."
+  },
+  "situations": [
+    {
+      "ruling_id": "public_events.alcohol_table",
+      "hotspot": "dinner_table",
+      "npc": {
+        "id": "samir",
+        "name": {
+          "ar": "سَمِير",
+          "en": "Samir"
+        },
+        "role": {
+          "ar": "زميل مبرمج مسلم",
+          "en": "Muslim fellow developer"
+        }
+      },
+      "setup": {
+        "ar": "حان وقت النَّخْب. مرّ النادل على مائدة جيك، ووضع كأساً من النَّبِيذ الفَوَّار عند كل مكان. جاء سَمِير من طاولة العصير ليقف مع فريقه، فناوله جيك كأساً مبتسماً: «كأس واحدة فقط، لأجل عامنا القياسي!».",
+        "en": "Toast time. The waiter went around Jake's table, setting a glass of champagne at every place. Samir came over from the juice table to stand with his team. Jake hands him a glass with a grin: 'Just one, for our record year!'"
+      },
+      "dialogue": [
+        {
+          "speaker": "samir",
+          "ar": "شكراً يا جيك، لكنني لا أشرب الخَمْر. سأرفع معكم كأس عصير بكل سرور.",
+          "en": "Thanks, Jake, but I don't drink alcohol. I'll gladly raise a glass of juice with you."
+        },
+        {
+          "speaker": "narrator",
+          "ar": "ضحك جيك: «رشفة واحدة لن تضرّ أحداً، إنه مجرد نَخْب!». والتفت الجميع إلى سَمِير.",
+          "en": "Jake laughs: 'One sip won't hurt anyone, it's just a toast!' Everyone turns to Samir."
+        },
+        {
+          "speaker": "adam",
+          "ar": "بصراحة، أنا أيضاً أتساءل. لماذا لا تشرب ولو رشفة واحدة، مجاملةً للفريق؟",
+          "en": "Honestly, I wonder too. Why not even one sip, just to be nice to the team?"
+        },
+        {
+          "speaker": "samir",
+          "ar": "لأن العقل أثمن ما عندي. والإسلام يحرّم الخَمْر قليلَها وكثيرَها، ليبقى عقل الإنسان صافياً.",
+          "en": "Because my mind is the most precious thing I have. Islam forbids wine, a little or a lot, so a person's mind stays clear."
+        },
+        {
+          "speaker": "samir",
+          "ar": "المجاملة جميلة، لكنها لا تكون على حساب عقلي وطاعتي لله. وفرحتي بكم لا تحتاج إلى كأس.",
+          "en": "Being polite is nice, but not at the cost of my mind and my obedience to God. I don't need a glass to be happy for you all."
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": {
+            "ar": "«كما تحب». أرفع كأسي مع الفريق، وأترك سَمِير على راحته.",
+            "en": "'Your call.' Raise my glass with the team and leave Samir be."
+          },
+          "quality": "acceptable",
+          "consequence": {
+            "ar": "لم يضغط آدم على سَمِير، وهذا احترام. لكن سَمِير وقف بيدين فارغتين أثناء النَّخْب، ولم يفكّر أحد في إشراكه بكأس عصير.",
+            "en": "Adam didn't pressure Samir, and that's respectful. But Samir stood empty-handed during the toast, and nobody thought to include him with a glass of juice."
+          },
+          "points": 5
+        },
+        {
+          "id": "b",
+          "label": {
+            "ar": "أُحضر لسَمِير كأس عصير تفاح فوّار، وأقول لجيك: «النَّخْب بالأمنية، لا بما في الكأس».",
+            "en": "Bring Samir a glass of sparkling apple juice, and tell Jake: 'A toast is about the wish, not what's in the glass.'"
+          },
+          "quality": "best",
+          "consequence": {
+            "ar": "رفع سَمِير كأس العصير مع الجميع، وابتسم لآدم ممتناً. وطلب زميلان آخران عصيراً أيضاً. قال جيك: «معك حق، المهم أننا معاً». احترامك لقناعة صديقك جعله جزءاً من الفرحة.",
+            "en": "Samir raised his juice with everyone and gave Adam a grateful smile. Two more coworkers asked for juice too. Jake said, 'You're right, what matters is that we're together.' Respecting your friend's conviction made him part of the celebration."
+          },
+          "points": 10
+        },
+        {
+          "id": "c",
+          "label": {
+            "ar": "«هيا يا سَمِير، رشفة واحدة فقط. لا تُحرج المديرة أمام الجميع».",
+            "en": "'Come on, Samir, just one sip. Don't embarrass the boss in front of everyone.'"
+          },
+          "quality": "wrong",
+          "consequence": {
+            "ar": "ابتسم سَمِير بهدوء ووضع الكأس على الطاولة: «شكراً، لكن جوابي لن يتغيّر». ساد صمت محرج. الإلحاح، ولو بنية حسنة، يضع صديقك بين قناعته وبين إرضائك.",
+            "en": "Samir smiled calmly and set the glass down on the table: 'Thanks, but my answer won't change.' An awkward silence followed. Pressing, even with good intentions, puts your friend between his conviction and pleasing you."
+          },
+          "points": 0
+        }
+      ],
+      "check_question": {
+        "q": {
+          "ar": "لماذا رفض سَمِير كأس النَّخْب، حتى مجاملةً لزملائه؟",
+          "en": "Why did Samir decline the toast glass, even just to be polite?"
+        },
+        "options": [
+          {
+            "ar": "لأنه لا يحب زملاءه ولا يريد الاحتفال معهم",
+            "en": "Because he dislikes his coworkers and doesn't want to celebrate with them",
+            "correct": false
+          },
+          {
+            "ar": "لأن الإسلام يحرّم الخَمْر قليلَها وكثيرَها حفظاً للعقل، والمجاملة لا تغيّر ذلك",
+            "en": "Because Islam forbids wine, a little or a lot, to protect the mind, and courtesy doesn't change that",
+            "correct": true
+          },
+          {
+            "ar": "لأن الخَمْر ممنوعة على المسلمين في شهر رمضان فقط",
+            "en": "Because alcohol is off-limits for Muslims only during Ramadan",
+            "correct": false
+          }
+        ]
+      }
+    }
+  ],
+  "outro": {
+    "ar": "في موقف الفندق، يلوّح سَمِير لآدم: «سهرة جميلة، نراك في العمل!». تمسك سارة يد آدم: «أحببت سَمِير ورَانْيَا، علينا أن ندعوهما على العشاء». وغداً زيارة لبيت الجيران.",
+    "en": "In the hotel parking lot, Samir waves to Adam: 'Great evening, see you at work!' Sarah takes Adam's hand: 'I love Samir and Rania. We should have them over for dinner.' And tomorrow, a visit to the neighbors' home."
+  },
+  "next_location": "private_events"
+}

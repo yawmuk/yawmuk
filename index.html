@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0A1D1F" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="description" content="يومك — لعبة ثلاثية الأبعاد للتعرّف على الإسلام من مواقف الحياة اليومية في أمريكا | Yawmuk — a 3D game for discovering Islam through everyday life in America" />
+  <title>يومك · Yawmuk</title>
+  <meta name="application-name" content="يومك · Yawmuk" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="يومك · Yawmuk" />
+  <meta property="og:title" content="يومك · Yawmuk — يوم كامل من الحياة اليومية بعين الإسلام" />
+  <meta property="og:description" content="لعبة ثلاثية الأبعاد تفاعلية: تجوّل في الحي، واسأل، واعرف كيف يتعامل المسلم مع مواقف يومه، بإجابات من مصادر موثّقة. A 3D walk through one everyday day, answered from verified sources." />
+  <meta property="og:image" content="./brand/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="شعار يومك فوق حيّ سكني وقت الغروب · The Yawmuk logo over a neighbourhood at golden hour" />
+  <meta property="og:locale" content="ar_SA" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="apple-touch-icon" href="./brand/logo/yawmuk-app-icon-180.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Reem+Kufi:wght@500;600;700&display=swap" rel="stylesheet" />
+  <script>
+    // restore the saved language before first paint (only the UI language is read; nothing is written)
+    try { var p = JSON.parse(localStorage.getItem('yawmuk.progress.v1') || 'null'); var q = new URLSearchParams(location.search).get('lang'); var l = q || (p && p.lang); if (l === 'en') { document.documentElement.lang = 'en'; document.documentElement.dir = 'ltr'; } } catch (e) {}
+  </script>
+</head>
+<body>
+  <div id="app">
+    <canvas id="stage" aria-label="3D scene"></canvas>
+    <div id="ui" aria-live="polite"></div>
+    <div id="fade" aria-hidden="true">
+      <div class="veil">
+        <span class="veil-star"></span>
+        <div class="lbar indeterminate"><span id="veil-bar" class="lbar-fill"></span></div>
+      </div>
+    </div>
+    <div id="loader" aria-busy="true">
+      <div class="loader-inner">
+        <div class="emblem spin" aria-hidden="true"><svg viewBox="8 26 84 54" focusable="false"><path d="M34 64a16 16 0 0 1 32 0z" fill="#EDB04A"/><path d="M12 72h76" fill="none" stroke="#F4ECDB" stroke-width="7" stroke-linecap="round"/><g class="yk-prayer-points" fill="#78D1B0"><circle cx="79.34" cy="57.76" r="4"/><circle cx="68.88" cy="40.69" r="4"/><circle cx="50" cy="34" r="4"/><circle cx="31.12" cy="40.69" r="4"/><circle cx="20.66" cy="57.76" r="4"/></g></svg></div>
+        <p class="loader-brand"><span class="title-ar" lang="ar">يومك</span><span class="title-en" lang="en">Yawmuk</span></p>
+        <p id="loader-title" class="loader-title"></p>
+        <div class="lbar indeterminate" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-label="Loading"><span id="loader-bar" class="lbar-fill"></span></div>
+        <p id="loader-label" class="loader-label" dir="auto"></p>
+        <div class="loader-tip"><span id="loader-tip-label" class="tip-label"></span><p id="loader-tip" class="tip-text"></p></div>
+      </div>
+    </div>
+  </div>
+  <noscript>هذه اللعبة تحتاج إلى JavaScript. This game requires JavaScript.</noscript>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

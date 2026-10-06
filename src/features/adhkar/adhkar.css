@@ -1,0 +1,170 @@
+/* «يومك» adhkar feature — all classes prefixed yk-adhkar-. Uses the game's design tokens with fallbacks. */
+.yk-adhkar-backdrop {
+  --yka-bg: var(--glass-solid, #0f2a2c);
+  --yka-card: rgba(255, 255, 255, 0.045);
+  --yka-text: var(--sand-100, #f3ead7);
+  --yka-strong: var(--sand-50, #fbf6ec);
+  --yka-muted: var(--mist, #b8c6c0);
+  --yka-accent: var(--brass-400, #e0ae52);
+  --yka-accent-hi: var(--brass-300, #f2cf86);
+  --yka-teal: var(--emerald-300, #74cfae);
+  --yka-ok: var(--ok, #5fcf8a);
+  --yka-line: var(--line, rgba(243, 234, 215, 0.13));
+  --yka-line-strong: var(--line-strong, rgba(243, 234, 215, 0.22));
+  position: fixed; inset: 0; z-index: 900; display: grid; place-items: center;
+  padding: max(10px, env(safe-area-inset-top, 0px)) 10px max(10px, env(safe-area-inset-bottom, 0px));
+  background: rgba(3, 10, 11, 0.62); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+  font-family: var(--font-ui, 'IBM Plex Sans Arabic', system-ui, sans-serif); color: var(--yka-text);
+  pointer-events: auto;
+}
+.yk-adhkar-panel {
+  width: min(760px, 100%); max-height: 100%; display: flex; flex-direction: column; overflow: hidden;
+  background: linear-gradient(165deg, #143335 0%, #0b2022 60%, #081a1b 100%);
+  border: 1px solid var(--yka-line-strong); border-radius: 22px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25), 0 28px 70px -14px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  animation: yk-adhkar-in 0.28s cubic-bezier(0.2, 1.25, 0.35, 1);
+}
+@keyframes yk-adhkar-in { from { opacity: 0; transform: translateY(14px) scale(0.98); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .yk-adhkar-panel { animation: none; } .yk-adhkar-ring { transition: none !important; } }
+
+.yk-adhkar-panel :focus-visible { outline: 3px solid var(--yka-teal); outline-offset: 2px; }
+.yk-adhkar-panel button { font: inherit; color: inherit; cursor: pointer; }
+
+.yk-adhkar-head { display: flex; align-items: flex-start; gap: 12px; padding: 16px 18px 8px; }
+.yk-adhkar-head-text { flex: 1; min-width: 0; }
+.yk-adhkar-title { margin: 0; font-family: var(--font-head, inherit); font-weight: 700; font-size: 1.45rem; color: var(--yka-accent-hi); line-height: 1.3; }
+.yk-adhkar-sub { margin: 2px 0 0; font-size: 0.86rem; color: var(--yka-muted); line-height: 1.5; }
+.yk-adhkar-close {
+  flex: none; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--yka-line-strong);
+  background: rgba(255, 255, 255, 0.05); font-size: 1.6rem; line-height: 1; display: grid; place-items: center;
+}
+.yk-adhkar-close:hover { background: rgba(255, 255, 255, 0.1); }
+
+.yk-adhkar-tabs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; padding: 6px 18px 10px; }
+.yk-adhkar-tab {
+  position: relative; min-height: 48px; border-radius: 14px; border: 1px solid var(--yka-line-strong);
+  background: rgba(255, 255, 255, 0.04); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px;
+  font-weight: 600; padding: 4px 6px;
+}
+.yk-adhkar-tab[aria-selected='true'] {
+  background: linear-gradient(180deg, var(--yka-accent-hi), var(--yka-accent)); color: #1d1404; border-color: transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 0 var(--brass-800, #6e4d16);
+}
+.yk-adhkar-tab.is-suggested::after {
+  content: ''; position: absolute; top: 6px; inset-inline-end: 8px; width: 7px; height: 7px; border-radius: 50%;
+  background: var(--yka-teal); box-shadow: 0 0 0 3px rgba(116, 207, 174, 0.25);
+}
+.yk-adhkar-tab-badge { font-size: 0.72rem; opacity: 0.8; font-variant-numeric: tabular-nums; }
+
+.yk-adhkar-suggest { margin: 0; padding: 0 18px 8px; font-size: 0.8rem; color: var(--yka-teal); }
+.yk-adhkar-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; padding: 0 18px 10px; }
+.yk-adhkar-progress { flex: 1 1 180px; display: flex; flex-direction: column; gap: 5px; font-size: 0.85rem; color: var(--yka-muted); }
+.yk-adhkar-bar { display: block; height: 5px; border-radius: 99px; background: rgba(255, 255, 255, 0.08); overflow: hidden; }
+.yk-adhkar-bar > span { display: block; height: 100%; background: linear-gradient(90deg, var(--yka-teal), var(--yka-accent)); border-radius: inherit; transition: width 0.3s; }
+.yk-adhkar-tools { display: flex; gap: 6px; flex-wrap: wrap; }
+.yk-adhkar-chip {
+  min-height: 36px; padding: 4px 12px; border-radius: 99px; border: 1px solid var(--yka-line-strong);
+  background: rgba(255, 255, 255, 0.05); font-size: 0.82rem; white-space: nowrap;
+}
+.yk-adhkar-chip[aria-pressed='true'] { border-color: var(--yka-teal); color: var(--yka-teal); }
+
+.yk-adhkar-list { flex: 1; overflow-y: auto; overscroll-behavior: contain; padding: 4px 14px 14px; display: flex; flex-direction: column; gap: 12px; scroll-padding: 12px; }
+.yk-adhkar-list:focus { outline: none; }
+
+.yk-adhkar-card {
+  border: 1px solid var(--yka-line); border-radius: 18px; background: var(--yka-card); padding: 12px 14px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06); transition: border-color 0.2s, background 0.2s;
+}
+.yk-adhkar-card.is-done { border-color: rgba(95, 207, 138, 0.45); background: rgba(95, 207, 138, 0.06); }
+.yk-adhkar-card.is-done .yk-adhkar-text, .yk-adhkar-card.is-done .yk-adhkar-quran-text { opacity: 0.72; }
+.yk-adhkar-card-top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 6px; }
+.yk-adhkar-occ { flex: 1; min-width: 0; font-size: 0.8rem; color: var(--yka-teal); font-weight: 600; }
+.yk-adhkar-tag { font-size: 0.72rem; padding: 2px 8px; border-radius: 99px; background: rgba(224, 174, 82, 0.16); color: var(--yka-accent-hi); }
+.yk-adhkar-audio { min-height: 32px; }
+
+.yk-adhkar-text {
+  margin: 4px 0; font-family: var(--font-hadith, 'Amiri', 'Noto Naskh Arabic', serif); font-size: 1.38rem; line-height: 2.05;
+  color: var(--yka-strong); text-align: right; overflow-wrap: anywhere;
+}
+.yk-adhkar-text-sm { font-size: 1.12rem; line-height: 1.9; }
+.yk-adhkar-quran { margin: 4px 0; }
+.yk-adhkar-instr { margin: 0 0 6px; font-family: var(--font-hadith, 'Amiri', serif); font-size: 1.05rem; color: var(--yka-muted); line-height: 1.8; }
+.yk-adhkar-surah { border-inline-start: 2px solid rgba(224, 174, 82, 0.45); padding-inline-start: 10px; margin: 6px 0; }
+.yk-adhkar-surah-name { font-size: 0.8rem; color: var(--yka-accent); font-weight: 600; }
+.yk-adhkar-quran-text { margin: 2px 0; font-family: var(--font-quran, 'Amiri Quran', 'Amiri', serif); font-size: 1.5rem; line-height: 2.25; color: #fff6df; text-align: right; }
+.yk-adhkar-aya-no { color: var(--yka-accent); font-size: 0.9em; }
+.yk-adhkar-seg { margin: 2px 0 4px; font-family: var(--font-hadith, 'Amiri', serif); color: var(--yka-accent-hi); font-size: 1.1rem; }
+
+.yk-adhkar-label { display: block; font-size: 0.72rem; letter-spacing: 0.02em; color: var(--yka-accent); font-weight: 600; margin-bottom: 2px; }
+.yk-adhkar-translit .yk-adhkar-label { display: inline; }
+.yk-adhkar-trblock { display: none; margin: 6px 0; padding-top: 6px; border-top: 1px dashed var(--yka-line); }
+.yk-adhkar-show-tr .yk-adhkar-trblock { display: block; }
+.yk-adhkar-tr { margin: 2px 0; font-size: 0.92rem; line-height: 1.6; color: var(--yka-text); text-align: left; }
+.yk-adhkar-translit { margin: 4px 0 0; font-size: 0.84rem; font-style: italic; color: var(--yka-muted); text-align: left; }
+.yk-adhkar-evening { margin: 6px 0; padding: 8px 10px; border-radius: 12px; background: rgba(166, 200, 236, 0.07); border: 1px solid rgba(166, 200, 236, 0.2); }
+.yk-adhkar-evening .yk-adhkar-tr { display: none; }
+.yk-adhkar-show-tr .yk-adhkar-evening .yk-adhkar-tr { display: block; }
+.yk-adhkar-virtue { margin: 8px 0 4px; padding: 8px 10px; border-radius: 12px; background: rgba(224, 174, 82, 0.08); border: 1px solid rgba(224, 174, 82, 0.22); }
+.yk-adhkar-virtue .yk-adhkar-tr { display: none; }
+.yk-adhkar-show-tr .yk-adhkar-virtue .yk-adhkar-tr { display: block; }
+.yk-adhkar-note { margin: 6px 0; font-size: 0.85rem; color: var(--yka-muted); line-height: 1.6; }
+.yk-adhkar-note p { margin: 2px 0; }
+
+.yk-adhkar-card-foot { display: flex; align-items: flex-start; gap: 12px; margin-top: 8px; }
+.yk-adhkar-ring {
+  --p: 0; flex: none; width: 76px; height: 76px; border-radius: 50%; padding: 4px;
+  background: conic-gradient(var(--yka-teal) calc(var(--p) * 360deg), rgba(255, 255, 255, 0.1) 0);
+  transition: background 0.25s;
+}
+.yk-adhkar-counter {
+  width: 100%; height: 100%; border-radius: 50%; border: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  background: radial-gradient(circle at 50% 35%, #1f4a4c, #0c2224); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12), 0 2px 6px rgba(0, 0, 0, 0.4);
+  touch-action: manipulation; user-select: none; -webkit-user-select: none;
+}
+.yk-adhkar-counter:active:not([disabled]) { transform: scale(0.95); }
+.yk-adhkar-counter[disabled] { cursor: default; background: radial-gradient(circle at 50% 35%, #2a6b4c, #12352a); }
+.yk-adhkar-count { font-size: 1.5rem; font-weight: 700; line-height: 1; color: var(--yka-strong); font-variant-numeric: tabular-nums; }
+.yk-adhkar-count-of { font-size: 0.7rem; color: var(--yka-muted); }
+.yk-adhkar-check { font-size: 1.5rem; color: var(--yka-ok); line-height: 1; }
+
+.yk-adhkar-refs { flex: 1; min-width: 0; font-size: 0.82rem; }
+.yk-adhkar-refs > summary, .yk-adhkar-about > summary {
+  cursor: pointer; min-height: 36px; display: flex; align-items: center; flex-wrap: wrap; gap: 4px; color: var(--yka-accent-hi); font-weight: 600; list-style: none;
+}
+.yk-adhkar-refs > summary::before, .yk-adhkar-about > summary::before { content: '▸'; margin-inline-end: 4px; transition: transform 0.2s; }
+[dir='rtl'] .yk-adhkar-refs > summary::before, [dir='rtl'] .yk-adhkar-about > summary::before { content: '◂'; }
+.yk-adhkar-refs[open] > summary::before, .yk-adhkar-about[open] > summary::before { transform: rotate(90deg); }
+[dir='rtl'] .yk-adhkar-refs[open] > summary::before, [dir='rtl'] .yk-adhkar-about[open] > summary::before { transform: rotate(-90deg); }
+.yk-adhkar-refs > summary::-webkit-details-marker, .yk-adhkar-about > summary::-webkit-details-marker { display: none; }
+.yk-adhkar-refs ul { list-style: none; margin: 4px 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.yk-adhkar-ref { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; padding: 6px 8px; border-radius: 10px; background: rgba(0, 0, 0, 0.18); }
+.yk-adhkar-ref-book { font-weight: 600; color: var(--yka-strong); }
+.yk-adhkar-ref-grader, .yk-adhkar-ref-dorar { color: var(--yka-muted); }
+.yk-adhkar-ref-dorar { flex-basis: 100%; font-size: 0.78rem; }
+.yk-adhkar-ref-links { display: flex; flex-wrap: wrap; gap: 4px 10px; }
+.yk-adhkar-grade { font-size: 0.74rem; font-weight: 700; padding: 1px 8px; border-radius: 99px; }
+.yk-adhkar-grade-sahih { background: rgba(95, 207, 138, 0.16); color: #8fe3b0; }
+.yk-adhkar-grade-hasan { background: rgba(166, 200, 236, 0.16); color: var(--sky-300, #a6c8ec); }
+.yk-adhkar-link { color: var(--yka-teal); text-decoration: underline; text-underline-offset: 2px; display: inline-flex; align-items: center; min-height: 28px; }
+.yk-adhkar-muted { color: var(--yka-muted); font-size: 0.8rem; line-height: 1.55; margin: 4px 0; }
+
+.yk-adhkar-about { margin: 0 14px 14px; padding: 8px 12px; border: 1px solid var(--yka-line); border-radius: 14px; font-size: 0.85rem; line-height: 1.65; max-height: 40vh; overflow-y: auto; }
+.yk-adhkar-about h3 { font-size: 0.88rem; margin: 10px 0 4px; color: var(--yka-accent); }
+.yk-adhkar-excluded { margin: 0; padding-inline-start: 18px; color: var(--yka-muted); font-size: 0.8rem; }
+.yk-adhkar-excluded li { margin: 3px 0; }
+
+@media (max-width: 480px) {
+  .yk-adhkar-backdrop { padding: 0; }
+  .yk-adhkar-panel { border-radius: 0; height: 100%; max-height: 100%; border: 0; }
+  .yk-adhkar-head { padding: calc(10px + env(safe-area-inset-top, 0px)) 12px 6px; }
+  .yk-adhkar-title { font-size: 1.25rem; }
+  .yk-adhkar-tabs, .yk-adhkar-suggest { margin: 0; padding: 0 18px 8px; font-size: 0.8rem; color: var(--yka-teal); }
+.yk-adhkar-toolbar { padding-inline: 12px; }
+  .yk-adhkar-list { padding-inline: 10px; }
+  .yk-adhkar-text { font-size: 1.24rem; line-height: 1.95; }
+  .yk-adhkar-quran-text { font-size: 1.32rem; }
+  .yk-adhkar-ring { width: 68px; height: 68px; }
+  .yk-adhkar-card-foot { gap: 10px; }
+  .yk-adhkar-about { margin-inline: 10px; }
+}
+@media (prefers-contrast: more) { .yk-adhkar-card { border-color: var(--yka-line-strong); } .yk-adhkar-muted, .yk-adhkar-occ { color: var(--yka-text); } }

@@ -1,0 +1,40 @@
+/* Voice controls (mic button, dialogue-choice mic). Prefix: yk-voice- */
+.yk-voice-mic { appearance: none; display: inline-flex; align-items: center; gap: 6px; min-height: 40px; min-width: 40px; padding: 0 12px; border-radius: 999px;
+  border: 1px solid var(--line-strong, rgba(255,255,255,.22)); background: rgba(255, 255, 255, 0.06); color: var(--text, #f3ead7); font: inherit; font-size: 0.92rem; cursor: pointer; }
+.yk-voice-mic:hover { background: rgba(255, 255, 255, 0.1); }
+.yk-voice-mic:focus-visible { outline: 2px solid var(--brass-300, #e9c27a); outline-offset: 2px; }
+.yk-voice-mic-icon { display: inline-grid; place-items: center; line-height: 0; }
+.yk-voice-mic.yk-voice-on { background: rgba(224, 174, 82, 0.22); border-color: var(--accent, #e0ae52); box-shadow: 0 0 0 0 rgba(224, 174, 82, 0.55); animation: yk-voice-pulse 1.4s ease-out infinite; }
+@keyframes yk-voice-pulse { 0% { box-shadow: 0 0 0 0 rgba(224, 174, 82, 0.55); } 100% { box-shadow: 0 0 0 12px rgba(224, 174, 82, 0); } }
+@media (prefers-reduced-motion: reduce) { .yk-voice-mic.yk-voice-on { animation: none; box-shadow: 0 0 0 3px rgba(224, 174, 82, 0.45); } }
+.yk-voice-choice { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 0 0 10px; font-size: 0.88rem; color: var(--muted, #b8c6c0); }
+.yk-voice-choice-status { flex-basis: 100%; min-height: 1.2em; color: var(--text, #f3ead7); }
+.yk-voice-choice-status:empty { display: none; }
+@media (max-width: 420px) { .yk-voice-mic-text { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; } .yk-voice-mic { padding: 0; width: 44px; height: 44px; justify-content: center; } }
+
+/* «Talk to <NPC>» in a situation's choices (src/engine/ui/situation.js). Prefix: npc-talk- */
+.npc-talk { margin: 4px 0 10px; }
+.npc-talk-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+.npc-talk-btn { appearance: none; display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 14px; border-radius: 999px; cursor: pointer; font: inherit; font-size: 0.92rem;
+  border: 1px solid var(--accent, #e0ae52); background: rgba(224, 174, 82, 0.12); color: var(--text, #f3ead7); }
+.npc-talk-btn:hover { background: rgba(224, 174, 82, 0.2); }
+.npc-talk-btn:focus-visible { outline: 2px solid var(--brass-300, #e9c27a); outline-offset: 2px; }
+.npc-talk-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent, #e0ae52); flex: none; }
+.npc-talk-btn[data-state="listening"] .npc-talk-dot { animation: yk-voice-pulse 1.4s ease-out infinite; background: #e46a5a; }
+.npc-talk-btn[data-state="speaking"] .npc-talk-dot, .npc-talk-btn[data-state="thinking"] .npc-talk-dot { opacity: 0.6; }
+.npc-talk-state { font-size: 0.86rem; color: var(--muted, #b8c6c0); min-height: 1.2em; }
+.npc-talk-panel { margin-top: 8px; padding: 10px; border-radius: 12px; border: 1px solid var(--line-strong, rgba(255,255,255,.18)); background: rgba(0, 0, 0, 0.18); }
+.npc-talk-panel[hidden] { display: none; }
+.npc-talk-log { display: flex; flex-direction: column; gap: 6px; max-height: 32vh; overflow-y: auto; }
+.npc-talk-log:empty { display: none; }
+.npc-talk-msg { max-width: 88%; padding: 6px 10px; border-radius: 12px; background: rgba(255, 255, 255, 0.07); }
+.npc-talk-msg.player { align-self: flex-end; background: rgba(42, 111, 134, 0.35); }
+.npc-talk-msg.npc { align-self: flex-start; }
+.npc-talk-msg p { margin: 2px 0 0; line-height: 1.5; }
+.npc-talk-who { font-size: 0.75rem; color: var(--muted, #b8c6c0); }
+.npc-talk-row { display: flex; gap: 8px; margin-top: 8px; }
+.npc-talk-input { flex: 1; min-width: 0; min-height: 40px; padding: 0 12px; border-radius: 10px; font: inherit; border: 1px solid var(--line-strong, rgba(255,255,255,.22)); background: rgba(255, 255, 255, 0.06); color: var(--text, #f3ead7); }
+.npc-talk-send { appearance: none; min-height: 40px; padding: 0 14px; border-radius: 10px; font: inherit; cursor: pointer; border: 0; background: var(--accent, #e0ae52); color: #1b1a17; }
+.npc-talk-send:disabled { opacity: 0.5; cursor: default; }
+.npc-talk-note { margin: 6px 0 0; font-size: 0.75rem; color: var(--muted, #b8c6c0); }
+@media (prefers-reduced-motion: reduce) { .npc-talk-btn[data-state="listening"] .npc-talk-dot { animation: none; } }
