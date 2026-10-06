@@ -34,7 +34,7 @@ body.touch .yk-world-fab-icon { width: 40px; height: 40px; font-size: 1.2rem; }
 .yk-world-next-val { color: #ffd34d; font-weight: 700; }
 
 @media (max-width: 560px) {
-  #yk-hud-prayer { top: calc(150px + var(--safe-t, 0px)); inset-inline-end: 8px; max-width: 70vw; }
+  #yk-hud-prayer { top: calc(118px + var(--safe-t, 0px)); inset-inline-end: 8px; max-width: 70vw; }
 }
 @media (prefers-reduced-motion: reduce) { .yk-world-fab { transition: none; } }
 

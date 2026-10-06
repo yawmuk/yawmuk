@@ -1,9 +1,9 @@
+import { addInteriorRoof } from './interiorRoof.js';
 // «يومك» — ISLAMIC BANK branch (a free-to-visit place reached from the town hub; no situations / no script).
 // One open lobby: teller counter with glass screens along the back wall, two finance-advisor desks (west),
 // an «اسأل أهل العلم» question kiosk with a small library (east), a waiting area, ATM and the street door (south).
 // Procedural low-poly geometry merged into a handful of vertex-coloured meshes (./bank/batch.js), like home.js.
-// Walls are one-sided inward-facing planes ("dollhouse") so the third-person camera always sees inside;
-// wall colliders are 1.1 m tall so camera collision never yanks the camera into Adam's face.
+// Double-sided walls and a solid ceiling enclose the lobby; the follow camera stays inside.
 // Interactables are declared as static featureSpots (engine opens src/features/<feature>/index.js).
 import { createBatcher } from './bank/batch.js';
 
@@ -49,7 +49,7 @@ export default {
       satin: own(new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.35, flatShading: true })),
       floor: own(new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.28, metalness: 0.05 })),
       metal: own(new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.3, metalness: 0.7, flatShading: true })),
-      walls: own(new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.95, emissive: '#5a5246', emissiveIntensity: 0.5 })),
+      walls: own(new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.95, side: THREE.DoubleSide, emissive: '#5a5246', emissiveIntensity: 0.5 })),
       glow: own(new THREE.MeshBasicMaterial({ vertexColors: true, toneMapped: false })),
       glass: own(new THREE.MeshBasicMaterial({ color: '#d8eef0', transparent: true, opacity: 0.22, depthWrite: false, side: THREE.DoubleSide })),
       outside: own(new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1 }))
@@ -293,7 +293,9 @@ export default {
     // ================================================================== build meshes
     const add = (m, opts) => { if (m) { own(m.geometry); group.add(m); } return m; };
     add(B.floor.build(mat.floor, { cast: false }));
-    add(B.walls.build(mat.walls, { cast: false }));
+    addInteriorRoof(THREE, group, { x0: X0, x1: X1, z0: Z0, z1: Z1, height: H, name: 'bank', beams: false });
+    const envelopeWalls = add(B.walls.build(mat.walls, { cast: false }));
+    if (envelopeWalls) envelopeWalls.userData.cameraCollide = true;
     add(B.matte.build(mat.matte));
     add(B.satin.build(mat.satin));
     add(B.metal.build(mat.metal));

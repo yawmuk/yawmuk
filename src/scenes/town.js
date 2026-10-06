@@ -6,7 +6,11 @@
 // Look: the golden-hour key art (public/brand/imagery/keyart-town-golden-hour.jpg) — round-canopy trees (some
 // autumn), cypresses by the mosque, black lanterns, flower beds, a playground at the college, warm windows.
 // The sky, hills, sea and the suburb beyond the hedges are a separate `backdrop` (never part of the walkable bounds).
+// Backdrop mode: the engine builds this scene again with `ctx.backdropFor = '<location>'` to surround that interior
+// with the real street (static scenery only, the shell of that building left out, no labels/people/doors). The
+// interior's local origin is placed at INTERIOR_ANCHORS[location].
 import { createBatcher } from './home/batch.js';
+import { HOUSE } from './home/layout.js';
 import { createGoldenSky, rng, GOLDEN } from '../engine/goldenSky.js';
 import { groundMaterial, wallMaterial, applyLeafSurface } from '../engine/tslSurfaces.js';
 import { LIGHTING } from '../engine/config.js';
@@ -17,10 +21,17 @@ const FACE = 8;          // |z| of the building facades (north row at -8, south 
 const DOOR = 6.9;        // |z| of the door interaction points (forecourt, just off the sidewalk)
 const SPAWN = 4.6;       // |z| where Adam appears when he walks out of a building (on the sidewalk)
 const HALF_X = 31, HALF_Z = 21; // map half extents (62 x 42 m)
+// Backdrop mode and the interior's own building: the brief said to omit its whole shell, but home.js is now a CLOSED
+// room (double-sided walls + ceiling, camera kept indoors), so its upper storey, roof and porch roof are kept so the
+// house is complete when seen from the street inside that scene. Flip to false to omit them again (dollhouse camera).
+const BACKDROP_UPPER_STOREY = true;
 
 // side 'n' = north row (facade faces +Z), 's' = south row (facade faces -Z)
 const BUILDINGS = [
-  { loc: 'home', x: -22, side: 'n', w: 9, d: 8, h: 5.2, kind: 'house', color: '#f2ede1', roof: '#4a5260', label: { ar: 'بيت آدم', en: "Adam's home" } },
+  // Adam's house: the interior's 12 x 9 footprint (home/layout.js), door at centre + 4.5; the new-day spawn looks west
+  // along the avenue, away from the low sun at the east end (GOLDEN.sunAz)
+  { loc: 'home', x: -23, side: 'n', w: HOUSE.w, d: HOUSE.d, h: 5.6, kind: 'house', doorX: HOUSE.door.x, spawnYaw: PI / 2,
+    color: HOUSE.colors.siding, roof: HOUSE.colors.roof, label: { ar: 'بيت آدم', en: "Adam's home" } },
   { loc: 'school', x: -11, side: 'n', w: 9, d: 9, h: 8, kind: 'school', color: '#a24f39', label: { ar: 'الكلية', en: 'College' } },
   { loc: 'mosque', x: 12, side: 'n', w: 11, d: 10, h: 6, kind: 'mosque', color: '#f4efe3', label: { ar: 'المسجد', en: 'Mosque' } },
   { loc: 'work', x: 24, side: 'n', w: 8, d: 9, h: 15, kind: 'office', color: '#5f819b', label: { ar: 'مكتب العمل', en: 'The office' } },
@@ -34,13 +45,39 @@ const BUILDINGS = [
 export function layoutOf(b) {
   const f = b.side === 'n' ? 1 : -1;
   const zFace = -f * FACE;
+  const doorX = b.x + (b.doorX ?? 0);          // per-building door offset from the building centre
   return {
-    f, zFace, zc: zFace - f * b.d / 2,
-    door: [b.x, 0, -f * DOOR],
-    // step out onto the sidewalk facing the town centre along the street (camera behind, not inside the building)
-    spawn: { position: [b.x, 0, -f * SPAWN], yaw: b.x < 0 ? -PI / 2 : PI / 2 }
+    f, zFace, zc: zFace - f * b.d / 2, doorX,
+    door: [doorX, 0, -f * DOOR],
+    // step out onto the sidewalk facing along the street (camera behind, not inside the building);
+    // `spawnYaw` overrides the default "face the town centre" (home: face away from the low sun)
+    spawn: { position: [doorX, 0, -f * SPAWN], yaw: b.spawnYaw ?? (b.x < 0 ? -PI / 2 : PI / 2) }
   };
 }
+
+/** Town-world position of each interior's local origin (the engine places the interior there, or the town around it). */
+// Align each local entrance with its actual facade in town. Rotation maps the
+// interior's door-facing direction onto the street-facing direction of the building.
+export const INTERIOR_ANCHORS = (() => {
+  const entrances = {
+    home: { x: HOUSE.door.x, z: HOUSE.d / 2, yaw: 0 },
+    bank: { x: 0, z: 6, yaw: PI },
+    mosque: { x: 0, z: 9, yaw: 0 },
+    work: { x: 0, z: 6.1, yaw: 0 },
+    school: { x: 10, z: 0, yaw: -PI / 2 },
+    public_events: { x: 0, z: 8, yaw: PI }
+  };
+  return Object.fromEntries(Object.entries(entrances).map(([location, entrance]) => {
+    const building = BUILDINGS.find((b) => b.loc === location);
+    const facade = layoutOf(building);
+    const c = Math.cos(entrance.yaw), s = Math.sin(entrance.yaw);
+    return [location, {
+      x: facade.doorX - (entrance.x * c + entrance.z * s),
+      z: facade.zFace - (-entrance.x * s + entrance.z * c),
+      yaw: entrance.yaw
+    }];
+  }));
+})();
 
 const FEATURE_SPOTS = [
   { feature: 'guide', pos: [-4.9, 0, 4.9], label: { ar: 'مكتب الإرشاد — اسأل المرشد', en: 'Guide desk — ask the guide' } },
@@ -66,6 +103,8 @@ export default {
     const group = ctx.group;
     const low = ctx.quality === 'low';
     const golden = LIGHTING === 'golden';
+    const backdropFor = typeof ctx.backdropFor === 'string' ? ctx.backdropFor : null;   // backdrop mode (see header)
+    const place = typeof ctx.place === 'function' ? ctx.place : () => null;             // headless tests have no asset loader
     const makeBatch = createBatcher(THREE);
     const R = rng(20261006);
     const owned = [];
@@ -99,7 +138,10 @@ export default {
     const proxyMat = own(new THREE.MeshBasicMaterial({ side: THREE.DoubleSide }));
     const occluders = [];
     const occ = (cx, cy, cz, w, h, d) => { const m = new THREE.Mesh(proxyGeo, proxyMat); m.position.set(cx, cy, cz); m.scale.set(w, h, d); m.updateMatrixWorld(true); occluders.push(m); };
-    const label = (text, pos, opts = {}) => { const s = makeLabel(text, { size: 0.3, ...opts }); s.position.set(...pos); group.add(s); return s; };
+    const label = (text, pos, opts = {}) => { if (backdropFor) return null; const s = makeLabel(text, { size: 0.3, ...opts }); s.position.set(...pos); group.add(s); return s; };
+    // geometry sent here is never built: in backdrop mode the shell of the interior's own building goes to these
+    // batches so the random sequence (window lights, tints, shrubs) stays identical to normal mode
+    const discard = { vc: makeBatch('discard'), glass: makeBatch('discard'), glow: makeBatch('discard'), lamp: makeBatch('discard') };
     const prism = (w, h, depth) => {
       const s = new THREE.Shape(); s.moveTo(-w / 2, 0); s.lineTo(w / 2, 0); s.lineTo(0, h); s.closePath();
       const g = new THREE.ExtrudeGeometry(s, { depth, bevelEnabled: false }); g.translate(0, 0, -depth / 2); return g;
@@ -116,18 +158,30 @@ export default {
     const G = B.flat;
     // lawn: one subdivided plane with soft two-tone patches (vertex colours; sunlit yellow-green vs. deeper green)
     {
-      const lawn = new THREE.PlaneGeometry(HALF_X * 2 + 2, HALF_Z * 2 + 2, 40, 28);
-      const pa = lawn.attributes.position, cols = [];
       const cA = new THREE.Color('#4b7e33'), cB = new THREE.Color('#78a043'), cDry = new THREE.Color('#9b9f50'), c = new THREE.Color();
-      for (let i = 0; i < pa.count; i++) {
-        const x = pa.getX(i), z = -pa.getY(i);
-        const n = 0.5 + 0.32 * Math.sin(x * 0.23 + 1.3) * Math.sin(z * 0.29 + 0.4) + 0.18 * Math.sin(x * 0.61 - z * 0.47 + 2.0);
-        c.copy(cA).lerp(cB, Math.min(1, Math.max(0, n)));
-        if (Math.sin(x * 0.13 + z * 0.21) > 0.75) c.lerp(cDry, 0.35);
-        cols.push(c.r, c.g, c.b);
-      }
-      lawn.setAttribute('color', new THREE.Float32BufferAttribute(cols, 3));
-      G.geo(lawn, '#ffffff', 0, 0, 0, 0, -PI / 2);
+      const lawnRect = (x0, z0, x1, z1) => {
+        const w = x1 - x0, d = z1 - z0;
+        if (w <= 0 || d <= 0) return;
+        const lawn = new THREE.PlaneGeometry(w, d, Math.max(1, Math.round(w / 1.6)), Math.max(1, Math.round(d / 1.6)));
+        const pa = lawn.attributes.position, cols = [];
+        for (let i = 0; i < pa.count; i++) {
+          const x = pa.getX(i) + (x0 + x1) / 2, z = -pa.getY(i) + (z0 + z1) / 2;   // world coords -> same patches whatever the split
+          const n = 0.5 + 0.32 * Math.sin(x * 0.23 + 1.3) * Math.sin(z * 0.29 + 0.4) + 0.18 * Math.sin(x * 0.61 - z * 0.47 + 2.0);
+          c.copy(cA).lerp(cB, Math.min(1, Math.max(0, n)));
+          if (Math.sin(x * 0.13 + z * 0.21) > 0.75) c.lerp(cDry, 0.35);
+          cols.push(c.r, c.g, c.b);
+        }
+        lawn.setAttribute('color', new THREE.Float32BufferAttribute(cols, 3));
+        G.geo(lawn, '#ffffff', (x0 + x1) / 2, 0, (z0 + z1) / 2, 0, -PI / 2);
+      };
+      const X = HALF_X + 1, Z = HALF_Z + 1;
+      const hidden = backdropFor && BUILDINGS.find((b) => b.loc === backdropFor);
+      if (hidden) {
+        // leave the interior's footprint bare (its floor is at y = 0 there): four patches around it
+        const L = layoutOf(hidden), hx0 = hidden.x - hidden.w / 2, hx1 = hidden.x + hidden.w / 2;
+        const hz0 = Math.min(L.zFace, L.zFace - L.f * hidden.d), hz1 = Math.max(L.zFace, L.zFace - L.f * hidden.d);
+        lawnRect(-X, -Z, hx0, Z); lawnRect(hx1, -Z, X, Z); lawnRect(hx0, -Z, hx1, hz0); lawnRect(hx0, hz1, hx1, Z);
+      } else lawnRect(-X, -Z, X, Z);
     }
     G.fbox('#4c4844', HALF_X * 2, 0.02, 7, 0, 0, 0);                                     // avenue (E-W), warm asphalt
     G.fbox('#4c4844', 7, 0.021, HALF_Z * 2, 0, 0, 0);                                    // cross street (N-S)
@@ -174,25 +228,31 @@ export default {
     }
 
     // ------------------------------------------------------------ buildings
-    const windows = (b, L, { rows, y0, rowH, cols, ww = 0.9, wh = 1.1, color = '#33495c', frame = '#f4efe6', glassBatch = false, lit = 0.85, muntin = true }) => {
+    /** one window on any wall: (cx,cy,cz) centre on the wall plane, (nx,nz) outward normal. Batches S (shell or discard). */
+    const facadeWin = (S, cx, cy, cz, ww, wh, nx, nz, { color = '#33495c', frame = '#f4efe6', glassBatch = false, lit = 0.85, muntin = true } = {}) => {
+      const ry = Math.atan2(nx, nz);
+      const at = (d) => [cx + nx * d, cz + nz * d];
+      let p = at(0.03); S.vc.box(frame, ww + 0.16, wh + 0.16, 0.06, p[0], cy, p[1], ry);
+      p = at(0.08); S.vc.box(frame, ww + 0.3, 0.08, 0.16, p[0], cy - wh / 2 - 0.1, p[1], ry);            // sill
+      p = at(0.06);
+      if (R() < lit) {
+        S.glow.box(pick(WARM), ww, wh, 0.06, p[0], cy, p[1], ry);                                       // warm lit pane
+        if (muntin) { const q = at(0.1); S.vc.box(frame, 0.05, wh, 0.03, q[0], cy, q[1], ry); S.vc.box(frame, ww, 0.05, 0.03, q[0], cy, q[1], ry); }
+      } else (glassBatch ? S.glass : S.vc).box(color, ww, wh, 0.06, p[0], cy, p[1], ry);
+    };
+    const windows = (b, L, { rows, y0, rowH, cols, ww = 0.9, wh = 1.1, ...opts }) => {
       const span = b.w - 1.6;
       for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) {
         const x = b.x - span / 2 + (cols === 1 ? span / 2 : (span / (cols - 1)) * c);
-        if (r === 0 && Math.abs(x - b.x) < 1.3) continue; // keep the door clear
-        const y = y0 + r * rowH;
-        B.vc.box(frame, ww + 0.16, wh + 0.16, 0.06, x, y, L.zFace + L.f * 0.03);
-        B.vc.box(frame, ww + 0.3, 0.08, 0.16, x, y - wh / 2 - 0.1, L.zFace + L.f * 0.08);           // sill
-        if (R() < lit) {
-          B.glow.box(pick(WARM), ww, wh, 0.06, x, y, L.zFace + L.f * 0.06);                          // warm lit pane
-          if (muntin) { B.vc.box(frame, 0.05, wh, 0.03, x, y, L.zFace + L.f * 0.1); B.vc.box(frame, ww, 0.05, 0.03, x, y, L.zFace + L.f * 0.1); }
-        } else (glassBatch ? B.glass : B.vc).box(color, ww, wh, 0.06, x, y, L.zFace + L.f * 0.06);
+        if (r === 0 && Math.abs(x - L.doorX) < 1.3) continue; // keep the door clear
+        facadeWin(B, x, y0 + r * rowH, L.zFace, ww, wh, 0, L.f, opts);
       }
     };
-    const door = (b, L, { w = 1.5, h = 2.4, color = '#4a3424', frame = '#efe6d4' } = {}) => {
-      B.vc.box(frame, w + 0.3, h + 0.2, 0.1, b.x, (h + 0.2) / 2, L.zFace + L.f * 0.04);
-      B.vc.box(color, w, h, 0.1, b.x, h / 2, L.zFace + L.f * 0.08);
-      B.glow.box('#ffe2a0', w, 0.08, 0.04, b.x, h + 0.25, L.zFace + L.f * 0.12);   // warm lintel light = "you can go in"
-      B.vc.fbox('#cfc6b4', w + 1, 0.12, 0.9, b.x, 0, L.zFace + L.f * 0.45);          // step
+    const door = (b, L, { w = 1.5, h = 2.4, color = '#4a3424', frame = '#efe6d4', S = B, steps = B } = {}) => {
+      S.vc.box(frame, w + 0.3, h + 0.2, 0.1, L.doorX, (h + 0.2) / 2, L.zFace + L.f * 0.04);
+      S.vc.box(color, w, h, 0.1, L.doorX, h / 2, L.zFace + L.f * 0.08);
+      S.glow.box('#ffe2a0', w, 0.08, 0.04, L.doorX, h + 0.25, L.zFace + L.f * 0.12);   // warm lintel light = "you can go in"
+      steps.vc.fbox('#cfc6b4', w + 1, 0.12, 0.9, L.doorX, 0, L.zFace + L.f * 0.45);      // step
     };
     /** flower bed against a facade (x0..x1 along the wall, depth 0.6 out from it): stone edge, shrubs, flowers */
     const facadeBed = (L, x0, x1, depth = 0.62) => {
@@ -201,7 +261,7 @@ export default {
       B.vc.fbox('#9b8a72', w + 0.1, 0.16, depth + 0.08, cx, 0, cz);
       G.fbox('#4a3627', w - 0.06, 0.02, depth - 0.06, cx, 0.16, cz);
       for (let x = Math.min(x0, x1) + 0.3; x < Math.max(x0, x1) - 0.15; x += 0.55) {
-        B.vc.ico(tint('#3f6f34'), 0.3 + R() * 0.08, x, 0.42, L.zFace + L.f * 0.24, 1, 0.85, 1, R() * PI);
+        B.vc.ico(tint('#3f6f34'), 0.3 + R() * 0.08, x, 0.42, L.zFace + L.f * 0.45, 1, 0.85, 1, R() * PI);   // (fully outside the facade plane)
         for (let k = 0; k < (low ? 1 : 3); k++) B.vc.ico(tint(pick(FLOWERS)), 0.08 + R() * 0.04, x + (R() - 0.5) * 0.5, 0.3 + R() * 0.12, L.zFace + L.f * (0.42 + R() * 0.18));
       }
       col(x0, z0, x1, z1, 0.6);
@@ -215,42 +275,82 @@ export default {
 
     for (const b of BUILDINGS) {
       const L = layoutOf(b);
-      const V = B.vc;
+      const hidden = backdropFor === b.loc;       // backdrop mode: this building's shell is the interior scene itself
+      const S = hidden ? discard : B;             // shell geometry (walls, roof, windows, door) -> drawn or discarded
+      const V = S.vc;
       const zb0 = L.zFace, zb1 = L.zFace - L.f * b.d;
-      V.fbox(b.color, b.w, b.h, b.d, b.x, 0, L.zc);
+      // houses: the ground floor is the shell (the interior replaces it in backdrop mode), the upper storey + roof
+      // are always drawn so the house is complete from every angle; other buildings are one block
+      const SPLIT = 3.0;
+      const UP = hidden && !BACKDROP_UPPER_STOREY ? discard : B;   // upper storey of the hidden house (see BACKDROP_UPPER_STOREY)
+      if (b.kind === 'house') { V.fbox(b.color, b.w, SPLIT, b.d, b.x, 0, L.zc); UP.vc.fbox(b.color, b.w, b.h - SPLIT, b.d, b.x, SPLIT, L.zc); }
+      else V.fbox(b.color, b.w, b.h, b.d, b.x, 0, L.zc);
       V.fbox('#8f8a80', b.w + 0.1, 0.35, b.d + 0.1, b.x, 0, L.zc);                    // plinth
-      col(b.x - b.w / 2, zb0, b.x + b.w / 2, zb1, b.h);
-      occ(b.x, b.h / 2, L.zc, b.w, b.h, b.d);
+      col(b.x - b.w / 2, zb0, b.x + b.w / 2, zb1, b.h);                                 // (kept in backdrop mode: keeps trees out)
+      if (!hidden) occ(b.x, b.h / 2, L.zc, b.w, b.h, b.d);
 
       if (b.kind === 'house') {
+        const isHome = b.loc === 'home';
+        const T = HOUSE.colors.trim;
         // white clapboard: thin shadow lines on the front and both sides
         const line = new THREE.Color(b.color).multiplyScalar(0.86);
+        const U = UP.vc;                                                                       // upper storey (always drawn unless BACKDROP_UPPER_STOREY is off)
         for (let y = 0.6; y < b.h - 0.1; y += 0.3) {
-          V.box(line, b.w + 0.02, 0.035, 0.02, b.x, y, L.zFace + L.f * 0.005);
-          for (const sx of [-1, 1]) V.box(line, 0.02, 0.035, b.d + 0.02, b.x + sx * (b.w / 2 + 0.005), y, L.zc);
+          const W2 = y > SPLIT ? U : V;
+          W2.box(line, b.w + 0.02, 0.035, 0.02, b.x, y, L.zFace + L.f * 0.005);
+          for (const sx of [-1, 1]) W2.box(line, 0.02, 0.035, b.d + 0.02, b.x + sx * (b.w / 2 + 0.005), y, L.zc);
         }
-        for (const sx of [-1, 1]) V.box('#faf7f0', 0.18, b.h - 0.35, 0.18, b.x + sx * (b.w / 2 - 0.05), 0.35 + (b.h - 0.35) / 2, L.zFace + L.f * 0.02);   // corner boards
-        V.geo(prism(b.w + 0.8, 2.3, b.d + 0.8), b.roof, b.x, b.h, L.zc);
-        V.box('#f4efe6', b.w + 0.85, 0.18, b.d + 0.85, b.x, b.h + 0.05, L.zc);                // eave trim
-        V.fbox('#9b4b36', 0.7, 2.0, 0.7, b.x + b.w / 4, b.h + 0.6, L.zc);                     // brick chimney
-        V.fbox('#7d3d2c', 0.82, 0.14, 0.82, b.x + b.w / 4, b.h + 2.6, L.zc);
-        // wrap-around porch: deck, four white columns, railings, a sloped roof and two lit sconces
-        const pz = L.zFace + L.f * 1.65;
-        V.fbox('#d6c6aa', 7.0, 0.16, 1.9, b.x, 0, L.zFace + L.f * 0.95);
-        V.fbox('#f4efe6', 7.2, 0.14, 2.1, b.x, 2.75, L.zFace + L.f * 1.0);
-        V.box(b.roof, 7.5, 0.08, 2.35, b.x, 3.07, L.zFace + L.f * 1.02, 0, L.f * 0.2);
-        for (const sx of [-1, 1]) {
-          for (const off of [1.55, 3.3]) V.fcyl('#f8f4ec', 0.1, 0.12, 2.75, b.x + sx * off, 0.16, pz, 10);
-          const rx = b.x + sx * 2.425;
-          V.box('#f8f4ec', 1.65, 0.06, 0.08, rx, 0.95, pz);
-          V.box('#f8f4ec', 1.65, 0.05, 0.06, rx, 0.3, pz);
-          for (let k = 0; k < 6; k++) V.box('#f8f4ec', 0.04, 0.62, 0.04, b.x + sx * (1.75 + k * 0.3), 0.62, pz);
-          col(b.x + sx * 1.6, pz - 0.1, b.x + sx * 3.35, pz + 0.1, 1);
-          B.lamp.box('#ffd28a', 0.12, 0.2, 0.08, b.x + sx * 1.05, 2.15, L.zFace + L.f * 0.12);
-          shrub(b.x + sx * 4.05, L.zFace + L.f * 0.55, 0.42);
+        for (const sx of [-1, 1]) {                                                            // corner boards (two parts)
+          V.box('#faf7f0', 0.18, SPLIT - 0.35, 0.18, b.x + sx * (b.w / 2 - 0.05), 0.35 + (SPLIT - 0.35) / 2, L.zFace + L.f * 0.02);
+          U.box('#faf7f0', 0.18, b.h - SPLIT, 0.18, b.x + sx * (b.w / 2 - 0.05), SPLIT + (b.h - SPLIT) / 2, L.zFace + L.f * 0.02);
         }
-        windows(b, L, { rows: 2, y0: 1.5, rowH: 2.3, cols: 3, frame: '#fbf8f2' });
-        door(b, L, { color: b.loc === 'home' ? '#2f5a6b' : '#6b3d2a', frame: '#fbf8f2' });
+        U.box(T, b.w + 0.1, 0.12, 0.06, b.x, SPLIT - 0.05, L.zFace + L.f * 0.03);              // storey band (floor line of the upper floor)
+        U.geo(prism(b.w + 0.8, 2.3, b.d + 0.8), b.roof, b.x, b.h, L.zc);
+        U.box('#f4efe6', b.w + 0.85, 0.18, b.d + 0.85, b.x, b.h + 0.05, L.zc);                // eave trim
+        U.fbox('#9b4b36', 0.7, 2.0, 0.7, b.x + b.w / 4, b.h + 0.6, L.zc);                     // brick chimney
+        U.fbox('#7d3d2c', 0.82, 0.14, 0.82, b.x + b.w / 4, b.h + 2.6, L.zc);
+        // porch around the door: deck, white columns, railings with balusters, a sloped roof and two lit sconces.
+        // Local x range from the layout (home: 1..6, east of centre, around the door at 4.5); the neighbours' house is symmetric.
+        const P = isHome ? HOUSE.porch : { x0: -3.5, x1: 3.5, depth: 1.9, deckH: 0.16, roofY: 2.75 };
+        const px0 = b.x + P.x0, px1 = b.x + P.x1, pw = px1 - px0, pcx = (px0 + px1) / 2;
+        const pz = L.zFace + L.f * (P.depth - 0.25);
+        B.vc.fbox(HOUSE.colors.porch, pw, P.deckH, P.depth, pcx, 0, L.zFace + L.f * P.depth / 2);
+        for (let x = px0 + 0.3; x < px1; x += 0.3) B.vc.box('#c9b797', 0.02, 0.01, P.depth - 0.1, x, P.deckH, L.zFace + L.f * P.depth / 2);   // deck boards
+        // porch roof (the interior is a closed room with its own ceiling, so the camera never orbits out here)
+        UP.vc.fbox('#f4efe6', pw + 0.2, 0.14, P.depth + 0.2, pcx, P.roofY, L.zFace + L.f * (P.depth + 0.1) / 2);
+        UP.vc.box(b.roof, pw + 0.5, 0.08, P.depth + 0.45, pcx, P.roofY + 0.32, L.zFace + L.f * (P.depth + 0.14) / 2, 0, L.f * 0.2);
+        const colX = [px0 + 0.15, px1 - 0.15];
+        for (const side of [[px0 + 0.15, L.doorX - 0.75], [L.doorX + 0.75, px1 - 0.15]]) {       // rails left / right of the opening
+          const [a, c] = side;
+          if (c - a < 0.4) continue;
+          if (c - a > 2.2) colX.push(side[0] === px0 + 0.15 ? c : a);                               // column flanking the steps
+          B.vc.box(T, c - a, 0.06, 0.08, (a + c) / 2, 0.95, pz);
+          B.vc.box(T, c - a, 0.05, 0.06, (a + c) / 2, 0.3, pz);
+          for (let x = a + 0.15; x < c - 0.1; x += 0.25) B.vc.box(T, 0.04, 0.62, 0.04, x, 0.62, pz);
+          col(a, pz - 0.1, c, pz + 0.1, 1);
+        }
+        for (const x of colX) B.vc.fcyl('#f8f4ec', 0.1, 0.12, P.roofY, x, P.deckH, pz, 10);
+        for (const sx of [-1, 1]) UP.lamp.box('#ffd28a', 0.12, 0.2, 0.08, L.doorX + sx * 0.85, 2.15, L.zFace + L.f * 0.12);   // sconces (on the interior's wall too)
+        // steps down from the deck in front of the door
+        for (let k = 0; k < 2; k++) B.vc.fbox('#cfc6b4', 2.0, P.deckH / 2 * (2 - k), 0.32, L.doorX, 0, L.zFace + L.f * (P.depth + 0.16 + k * 0.32));
+        if (isHome) {
+          // ground floor exactly as the interior has it (home/layout.js): windows on all four walls, the blue door
+          for (const w of HOUSE.front) facadeWin(S, b.x + w.x, (w.y0 + w.y1) / 2, L.zFace, w.w, w.y1 - w.y0, 0, L.f, { frame: T, lit: 1 });
+          for (const w of HOUSE.back) facadeWin(S, b.x + w.x, (w.y0 + w.y1) / 2, zb1, w.w, w.y1 - w.y0, 0, -L.f, { frame: T, lit: 0.6 });
+          for (const w of HOUSE.west) facadeWin(S, b.x - b.w / 2, (w.y0 + w.y1) / 2, L.zc + L.f * w.z, w.w, w.y1 - w.y0, -1, 0, { frame: T, lit: 0.6 });
+          for (const w of HOUSE.east) facadeWin(S, b.x + b.w / 2, (w.y0 + w.y1) / 2, L.zc + L.f * w.z, w.w, w.y1 - w.y0, 1, 0, { frame: T, lit: 0.6 });
+          for (const x of [-3.8, -0.4, 3.0]) facadeWin(UP, b.x + x, HOUSE.h + 1.55, L.zFace, 1.0, 1.15, 0, L.f, { frame: T, lit: 1 });   // upper floor
+          door(b, L, { w: HOUSE.door.w, h: HOUSE.door.h, color: HOUSE.colors.door, frame: T, S, steps: discard });
+          // garden west of the porch: flower bed along the facade, a hedge at the sidewalk, a mailbox by the path
+          facadeBed(L, b.x - b.w / 2 + 0.3, px0 - 0.4, 0.6);
+          for (let x = b.x - b.w / 2 + 0.5; x < px0 - 0.6; x += 1.2) shrub(x, L.zFace + L.f * 1.75, 0.32);   // low hedge at the forecourt's edge
+          shrub(px1 + 0.5, L.zFace + L.f * 0.6, 0.38);
+          place('mailbox', { position: [L.doorX + 1.35, 0, L.zFace + L.f * 2.55], yaw: PI, collider: true });
+        } else {
+          windows(b, L, { rows: 2, y0: 1.5, rowH: 2.3, cols: 3, frame: T });
+          door(b, L, { color: '#6b3d2a', frame: T });
+          for (const sx of [-1, 1]) shrub(b.x + sx * 4.05, L.zFace + L.f * 0.55, 0.42);
+        }
         if (b.lights) for (let i = 0; i < 9; i++) B.lamp.sph(i % 2 ? '#ffd27a' : '#fff1c9', 0.08, b.x - 3.6 + i * 0.9, 3.45 - Math.sin((i / 8) * PI) * 0.3, L.zFace + L.f * 2.2);
       } else if (b.kind === 'school') {
         // red brick with white trim: cornice, floor band, corner quoins, portico
@@ -381,10 +481,11 @@ export default {
     }
 
     // ------------------------------------------------------------ street furniture (merged): lamps, benches, cars
-    const lampXs = [-28.5, -19, -8, 9, 21, 28.5]; // kept out of the camera line behind each door spawn
+    // kept out of the camera line behind each door spawn (north row: Adam's door is at x -18.5, camera to its east)
+    const lampXs = { [-1]: [-28.5, -22.5, -8, 9, 21, 28.5], [1]: [-28.5, -19, -8, 9, 21, 28.5] };
     const lamps = [];
     for (const s of [-1, 1]) {
-      for (const x of lampXs) lamps.push([x, s * 3.9]);
+      for (const x of lampXs[s]) lamps.push([x, s * 3.9]);
       for (const z of [12.5, 19]) lamps.push([s * 3.9, z], [s * 3.9, -z]);
     }
     const IRON = '#1c1e21';
@@ -416,18 +517,16 @@ export default {
     B.vc.fbox('#7a5232', 1.6, 0.08, 0.5, -4.9, 0.42, -5.75); B.vc.fbox('#7a5232', 1.6, 0.45, 0.08, -4.9, 0.5, -6.0);
     col(-5.7, -6.05, -4.1, -5.5, 1);
 
-    // parked cars on the avenue
-    const car = (x, z, color) => {
-      B.vc.fbox(color, 4.2, 0.75, 1.8, x, 0.3, z);
-      B.vc.fbox(color, 2.3, 0.6, 1.62, x - 0.2, 1.05, z);
-      B.glass.fbox('#22323d', 2.2, 0.48, 1.66, x - 0.2, 1.1, z);
-      for (const sx of [-1.35, 1.35]) for (const sz of [-0.82, 0.82]) B.vc.cyl('#1d1d1d', 0.33, 0.33, 0.24, x + sx, 0.33, z + sz, 12, 0, PI / 2);
-      col(x - 2.1, z - 0.9, x + 2.1, z + 0.9, 1.5);
-    };
-    car(-17, 2.4, '#b03a2e'); car(17.5, -2.4, '#2e4a7a'); car(-26.5, -2.4, '#d9d9d4');
+    // parked cars along both kerbs (Quaternius CC0 models: ~3k tris each, long axis +Z -> yaw ±90° along the avenue;
+    // too many triangles for the camera ray, so each gets an invisible occluder box + one collider)
+    const car = (id, x, z, yaw) => place(id, { position: [x, 0, z], yaw, collider: true, occluder: 'box' });
+    car('car_sedan', -26.5, -2.45, PI / 2);
+    car('car_hatchback', -17.2, 2.45, -PI / 2);
+    car('car_suv', 17.5, -2.45, PI / 2);
+    car('car_sedan', 9.5, 2.45, -PI / 2);
 
     // street-name signs at the crossing
-    for (const [x, z, t] of [[-6.2, -6.2, { ar: 'شارع هاي ↕', en: 'High St ↕' }], [6.2, 6.2, { ar: 'جادة برود ↔', en: 'Broad St ↔' }]]) {
+    for (const [x, z, t] of [[-6.2, -6.2, { ar: 'شارع النور ↕', en: 'Al-Noor St ↕' }], [6.2, 6.2, { ar: 'جادة السلام ↔', en: 'Al-Salam Ave ↔' }]]) {
       B.vc.fcyl('#2f3a40', 0.04, 0.04, 2.6, x, 0, z, 6);
       B.vc.fbox('#1e6b4f', 1.4, 0.32, 0.04, x, 2.4, z);
       label(t, [x, 2.95, z], { size: 0.24, background: 'rgba(30,107,79,0.9)' });
@@ -499,7 +598,8 @@ export default {
     };
     // the original sidewalk / cross-street trees (positions unchanged)
     for (const s of [-1, 1]) {
-      for (const x of [-27.6, -16.5, 18.75, 29.2]) { tree(x, s * 5.5, 1, { check: false }); G.fcyl('#5b4632', 0.55, 0.55, 0.06, x, 0, s * 5.5, 10); }
+      // (north side: no tree at -27.6 / -16.5 any more — they would hide Adam's house from the street)
+      for (const x of s < 0 ? [18.75, 29.2] : [-27.6, -16.5, 18.75, 29.2]) { tree(x, s * 5.5, 1, { check: false }); G.fcyl('#5b4632', 0.55, 0.55, 0.06, x, 0, s * 5.5, 10); }
       for (const z of [10, 17]) for (const zz of [z, -z]) { tree(s * 5.5, zz, 1, { check: false }); G.fcyl('#5b4632', 0.55, 0.55, 0.06, s * 5.5, 0, zz, 10); }
     }
     // cypresses around the mosque (behind it and beside the minaret)
@@ -517,14 +617,18 @@ export default {
       tree(-29.1 + (R() - 0.5) * 0.6, s * (z + (R() - 0.5)), 0.95 + R() * 0.35);
       tree(29.6, s * (z + 1 + (R() - 0.5)), 0.8 + R() * 0.25);
     }
-    for (const [x, z] of [[-16.5, -10.8], [-16.5, -14.4], [-16.5, 10.9], [-16.5, 14.3], [18.75, 11.0], [18.75, 14.4]]) tree(x, z, 0.8);
+    for (const [x, z] of [[-16.5, 10.9], [-16.5, 14.3], [18.75, 11.0], [18.75, 14.4]]) tree(x, z, 0.8);   // (none in the 1.5 m gap house/college)
+    // a proper leafy tree (CC0 model) on the sidewalk at the west end of Adam's house, framing it without hiding the door
+    place('tree_leafy', { position: [-26.8, 0, -5.7], yaw: 0.6, scale: 0.8, collider: false, occluder: 'box' });
+    col(-27.1, -6.0, -26.5, -5.4);
+    G.fcyl('#5b4632', 0.55, 0.55, 0.06, -26.8, 0, -5.7, 10);
 
     // ------------------------------------------------------------ meshes
     for (const [k, b] of Object.entries(B)) {
       const mesh = b.build(M[k], { cast: k !== 'flat' && k !== 'glow' && k !== 'lamp', receive: k !== 'glow' && k !== 'lamp' });
       if (!mesh) continue;
       mesh.name = `town:${k}`;
-      if (k === 'flat') mesh.userData.noCameraCollide = true;
+      if (k === 'flat' || backdropFor) mesh.userData.noCameraCollide = true;
       group.add(mesh);
     }
 
@@ -534,7 +638,7 @@ export default {
       backdrop = createGoldenSky({ quality: ctx.quality });
       const sea = backdrop.userData.seaSector;
       const S = makeBatch('town-suburb');
-      S.geo(new THREE.CircleGeometry(260, 40), '#6e9447', 0, -0.06, 0, 0, -PI / 2);          // ground out to the haze
+      S.geo(new THREE.CircleGeometry(260, 40), '#6e9447', 0, backdropFor ? -0.09 : -0.06, 0, 0, -PI / 2);   // ground out to the haze (below an interior's floor)
       const gridStep = low ? 9.5 : 7.2;
       for (let gx = -96; gx <= 96; gx += gridStep) for (let gz = -96; gz <= 96; gz += gridStep) {
         const x = gx + (R() - 0.5) * gridStep * 0.7, z = gz + (R() - 0.5) * gridStep * 0.7;
@@ -563,7 +667,21 @@ export default {
     }
 
     // ------------------------------------------------------------ people (background extras: 1 draw call each)
-    const npcs = [
+    const npcs = backdropFor ? [] : [
+      // Yusuf, the retired neighbour, by his hedge west of Adam's porch (a real NPC: name label + the talk feature)
+      {
+        id: 'neighbor_yusuf', position: [-25.0, 0, -5.6], yaw: PI - 0.5,
+        name: { ar: 'يوسف — الجار', en: 'Yusuf (neighbour)' },
+        look: { sex: 'male', skin: '#a8714b', shirt: '#e9e4d6', pants: '#6b6b6b', shoes: '#3a2a20', kufi: '#f4f1ea', beard: '#b9b4ad', hair: '#9a948c', glasses: true, height: 1.7, build: 1.05 },
+        talk: {
+          name: { ar: 'يوسف', en: 'Yusuf' },
+          role: { ar: 'جار آدم، متقاعد ويحب الحديقة', en: "Adam's retired neighbour who loves his garden" },
+          persona: {
+            ar: 'رجل مسنّ ودود يسقي حديقته كل صباح ويعرف حيّ السلام شبراً شبراً: المسجد، سوق الحيّ، الكلية، ومن يسكن أين. يرحّب بآدم بحرارة ويحكي عن الحيّ وجيرانه، لكنه لا يُفتي أبداً؛ إن سُئل عن حكم شرعي أرشد إلى إمام المسجد أو أهل العلم.',
+            en: 'A warm, elderly man who waters his garden every morning and knows Al-Salam neighbourhood inside out: the mosque, the market street, the college and who lives where. He greets Adam heartily and chats about the neighbourhood and its people, but never gives religious rulings; asked for one, he points to the mosque imam or people of knowledge.'
+          }
+        }
+      },
       { id: 'bg_town_walker1', position: [-19.5, 0, 5.3], yaw: -PI / 2, look: { sex: 'female', skin: '#8d5524', shirt: '#7b4b6a', hijab: '#2f4a6d', dress: '#2f3542', height: 1.65 } },
       { id: 'bg_town_walker2', position: [9.4, 0, -5.4], yaw: PI / 2, look: { sex: 'male', skin: '#c68642', shirt: '#f2f2f2', kufi: '#ffffff', beard: '#2b1d14', pants: '#3a3a3a', height: 1.78 } },
       { id: 'bg_town_walker3', position: [-13.6, 0, 5.4], yaw: PI, look: { sex: 'male', skin: '#e8c4a0', jacket: '#3d5a40', pants: '#2f3542', height: 1.8 } },
@@ -571,7 +689,7 @@ export default {
       { id: 'bg_town_child', position: [-23.4, 0, 6.1], yaw: PI, look: { sex: 'male', skin: '#c68642', shirt: '#e67e22', pants: '#34495e', height: 1.15 } }
     ];
 
-    const doors = BUILDINGS.map((b) => { const L = layoutOf(b); return { location: b.loc, position: L.door, radius: 1.7, label: b.label, spawn: L.spawn }; });
+    const doors = backdropFor ? [] : BUILDINGS.map((b) => { const L = layoutOf(b); return { location: b.loc, position: L.door, radius: 1.7, label: b.label, spawn: L.spawn }; });
     const home = layoutOf(BUILDINGS[0]);
 
     const res = {
@@ -581,8 +699,8 @@ export default {
       npcs,
       doors,
       exit: null,
-      featureSpots: FEATURE_SPOTS,
-      cameraOccluders: occluders,
+      featureSpots: backdropFor ? [] : FEATURE_SPOTS,
+      cameraOccluders: backdropFor ? [] : occluders,
       dispose() { for (const o of owned) o.dispose?.(); backdrop?.userData.dispose?.(); }
     };
     if (golden) Object.assign(res, { lights: 'golden', backdrop });

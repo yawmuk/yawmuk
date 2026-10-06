@@ -21,3 +21,11 @@ Thumbs.db
 # runtime data (questions, study records) — never commit
 /data/*
 !/data/.gitignore
+
+# Generated build, delivery, and local outputs
+/release/
+/reports/
+coverage/
+.cache/
+__pycache__/
+*.pyc

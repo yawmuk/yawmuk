@@ -25,19 +25,19 @@
         }
       },
       "setup": {
-        "ar": "يقف عُمَر عند حوض المطبخ وقد شمّر كُمَّيْه. سيتوضّأ قبل أن يمشيا معاً إلى المسجد القريب. الماء يجري من الصنبور، ومنشفةٌ صغيرة تنتظر على الرخامة.",
-        "en": "Omar stands at the kitchen sink with his sleeves rolled up. He will do wudu before they walk to the nearby mosque together. Water runs from the tap, and a small towel waits on the counter."
+        "ar": "يُنهي عُمَر فنجان قهوته عند رخامة المطبخ، ثم ينظر إلى الساعة. ما زال هناك وقتٌ ليمشيا معاً إلى المسجد القريب قبل العمل، وفي المسجد مكانٌ مخصّصٌ للوضوء.",
+        "en": "Omar finishes his coffee at the kitchen counter and glances at the clock. There is still time to walk to the nearby mosque together before work, and the mosque has its own place for wudu."
       },
       "dialogue": [
         {
           "speaker": "omar",
-          "ar": "عن إذنك يا آدم، سأتوضّأ هنا قبل أن نخرج. الوُضُوء شرطٌ لصحة الصلاة، فلا تصحّ صلاتي بدونه.",
-          "en": "Mind if I use your sink, Adam? I need to do wudu before we go. My prayer isn't valid without it."
+          "ar": "هيّا يا آدم، المسجد على بُعد خطوات. سأتوضّأ هناك في المِيضَأة قبل الصلاة، فالوُضُوء شرطٌ لصحتها، ولا تصحّ صلاتي بدونه.",
+          "en": "Let's go, Adam, the mosque is just a few steps away. I'll do wudu in its washing area before I pray. Wudu is a condition of prayer; my prayer isn't valid without it."
         },
         {
           "speaker": "narrator",
-          "ar": "يغسل عُمَر كفّيه، ثم يتمضمض، ويغسل وجهه وذراعيه إلى المِرْفَقَيْن، ويمسح رأسه، ثم يغسل قدميه.",
-          "en": "Omar washes his hands, rinses his mouth, washes his face and his arms up to the elbows, wipes over his head, then washes his feet."
+          "ar": "بعد دقائق يدخلان المسجد. في ركن المدخل مكانٌ للوضوء: صنابير متجاورة ومقاعد حجرية صغيرة. يجلس عُمَر ويشمّر كُمَّيْه، فيغسل كفّيه، ثم يتمضمض، ويغسل وجهه وذراعيه إلى المِرْفَقَيْن، ويمسح رأسه، ثم يغسل قدميه.",
+          "en": "Minutes later they step into the mosque. In a corner of the entrance is a wudu area: a row of taps and small stone seats. Omar sits down, rolls up his sleeves, washes his hands, rinses his mouth, washes his face and his arms up to the elbows, wipes over his head, then washes his feet."
         },
         {
           "speaker": "adam",
@@ -46,13 +46,13 @@
         },
         {
           "speaker": "omar",
-          "ar": "الاثنان معاً. نظافةٌ للجسد، واستعدادٌ للوقوف بين يدي الله. وعند باب المسجد سترى خطوةً أخرى.",
-          "en": "Both. It cleans the body, and it prepares me to stand before God. At the mosque door, you'll see one more step."
+          "ar": "الاثنان معاً. نظافةٌ للجسد، واستعدادٌ للوقوف بين يدي الله. وعند باب قاعة الصلاة سترى خطوةً أخرى.",
+          "en": "Both. It cleans the body, and it prepares me to stand before God. At the prayer hall door, you'll see one more step."
         },
         {
           "speaker": "narrator",
-          "ar": "بعد دقائق يصلان إلى باب المسجد. رفوفٌ خشبية مليئة بالأحذية، وفي الداخل سجادٌ نظيف يسجد عليه المصلّون. يخلع عُمَر حذاءه.",
-          "en": "Minutes later they reach the mosque door. Wooden racks are full of shoes, and inside is a clean carpet where people touch their foreheads to the ground. Omar slips off his shoes."
+          "ar": "عند باب قاعة الصلاة رفوفٌ خشبية مليئة بالأحذية، وفي الداخل سجادٌ نظيف يسجد عليه المصلّون. يخلع عُمَر حذاءه.",
+          "en": "At the prayer hall door, wooden racks are full of shoes, and inside is a clean carpet where people touch their foreheads to the ground. Omar slips off his shoes."
         }
       ],
       "choices": [

@@ -10,9 +10,9 @@
 
 | | |
 |---|---|
-| 🎮 **المنصة · Live** | https://yawmuk.world |
+| 🎮 **المنصة · Live demo** | https://yawmuk.world |
 | 🏠 **صفحة التعريف · Landing** | https://yawmuk.world/landing |
-| 🎬 **الفيديو · Video** | [▶️ media/yawmuk-promo.mp4](media/yawmuk-promo.mp4) |
+| 🎬 **الفيديو · Video** | [▶️ media/yawmuk-promo.mp4](https://github.com/yawmuk/yawmuk/blob/main/media/yawmuk-promo.mp4) |
 
 ---
 
@@ -119,7 +119,7 @@ flowchart LR
 ```bash
 git clone https://github.com/yawmuk/yawmuk.git && cd yawmuk
 npm ci                 # exact locked dependencies
-npm test               # ~780 tests: content contracts, safety, AI validators, features, eval (no browser, no keys)
+npm test               # automated tests: content contracts, safety, AI validators, features, eval (no browser, no keys)
 npm run dev            # game only: http://localhost:5173/?scene=town&nointro=1  (Vite does not serve the AI functions)
 ```
 
@@ -235,3 +235,12 @@ No secrets are committed to this repository. Keys live only in `.env` (local, gi
 ## Licences · التراخيص
 
 **Code:** [MIT](LICENSE). **Content** (`content/`): CC BY-NC-SA 4.0; Quran and hadith texts remain under their publishers' terms. **3D assets:** see [`public/assets/LICENSES.md`](public/assets/LICENSES.md); CC-BY models are credited in the in-game **Credits** screen. **Adhan audio:** «The Adhan – Muslim Call to Prayer – Aaqib Azeez» by Atcovi, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_Adhan_-_Muslim_Call_to_Prayer_-_Aaqib_Azeez.mp3), CC BY-SA 4.0.
+
+## Submission and review status
+
+- **Deck:** [Final presentation](https://github.com/yawmuk/yawmuk/blob/main/docs/deck/Yawmuk_Final_Deck.pdf).
+- **Team:** Abubakr Abusham and Mohamed Al-Mubarak, assisted by AI coding agents.
+- The educational explanations are not a fatwa. Content remains pending scholarly review; source verification does not replace review by a qualified scholar.
+- Judge shortcuts: [Town](https://yawmuk.world/?scene=town&nointro=1), [Mosque](https://yawmuk.world/?scene=mosque), [Bank](https://yawmuk.world/?scene=bank), [Study](https://yawmuk.world/?study=1), [Experts](https://yawmuk.world/experts), [Results](https://yawmuk.world/results.html).
+
+المحتوى التعليمي بانتظار مراجعة علمية بشرية، ولا يمثل فتوى شخصية.

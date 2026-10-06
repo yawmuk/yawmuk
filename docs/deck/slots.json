@@ -1,0 +1,18 @@
+{
+  "SCREENSHOT_TOWN": {
+    "aspect": 1.7778,
+    "default": "img/solution.png"
+  },
+  "SCREENSHOT_QURAN": {
+    "aspect": 1.1111,
+    "default": "img/gallery1.png"
+  },
+  "SCREENSHOT_DASHBOARD": {
+    "aspect": 1.1111,
+    "default": "img/gallery2.png"
+  },
+  "SCREENSHOT_PRAYER": {
+    "aspect": 1.1111,
+    "default": "img/gallery3.png"
+  }
+}

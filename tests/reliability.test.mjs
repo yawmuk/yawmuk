@@ -94,6 +94,12 @@ describe('finding 7 — source tiers and package references', () => {
     for (const id of ['qa.tawhid_translate.work', 'qa.tawhid_translate.school']) cites(id, 'other:jamhara-tawhid');
     for (const id of ['qa.tawhid_translate.work', 'qa.tawhid_translate.school']) assert.match(items.find((i) => i.id === id).answer.en, /Jamhara[^.]*Monotheism/);
   });
+  test('docs/QA_BANK.md no longer calls islamqa/islamhouse package-approved', async () => {
+    const fs = await import('node:fs');
+    const md = fs.readFileSync(new URL('../docs/QA_BANK.md', import.meta.url), 'utf8');
+    assert.doesNotMatch(md, /package-approved sites \(islamqa/i);
+    assert.match(md, /dawa\.center\/file\/7937/);
+  });
 });
 
 describe('finding 8 — personal-fatwa pre-filter', () => {

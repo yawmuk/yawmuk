@@ -301,9 +301,20 @@ describe('Disclaimers', () => {
     for (const v of Object.values(ui.disclaimers)) if (v && typeof v === 'object' && 'ar' in v) assert.ok(nonEmptyStr(v.ar) && nonEmptyStr(v.en));
     assert.match(all, /scholar/i);
   });
+  test('README and the game state that rulings are pending scholarly review', () => {
+    const readme = fs.existsSync(path.join(ROOT, 'README.md')) ? fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8') : '';
+    assert.match(readme, /not (been )?reviewed by a (human )?scholar|pending (scholarly|scholar) review/i, 'README must carry the review-status disclaimer');
+    assert.match(readme, /لم (تُ|ت)راجَ?ع|بانتظار مراجعة/, 'README (Arabic) must carry the review-status disclaimer');
+  });
 });
 
 describe('Source log', () => {
+  test('docs/SOURCES.md is generated from content/sources.json and up to date (npm run sources)', () => {
+    const md = fs.readFileSync(path.join(ROOT, 'docs/SOURCES.md'), 'utf8');
+    assert.ok(md.includes(`| **Total** | **${sources.length}** |`), 'entry count differs from content/sources.json: run npm run sources');
+    for (const s of sources.filter((x) => x.type === 'quran' || x.type === 'hadith')) if (s.url) assert.ok(md.includes(s.url), `${s.id} missing from SOURCES.md`);
+    assert.match(md, /## How to verify/, 'SOURCES.md must open with a "How to verify" section');
+  });
 
   test('every source record carries the promised schema (text, location, edition, review_status; grade+grader for hadith)', () => {
     const bad = [];

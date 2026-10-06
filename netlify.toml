@@ -1,5 +1,5 @@
 # Netlify: static Vite build + three small serverless functions (journey planner, ask panel, consented metrics).
-# Set GEMINI_API_KEY (AI Studio) or ANTHROPIC_API_KEY in Site settings -> Environment variables.
+# Set ANTHROPIC_API_KEY (and optionally YAWMUK_MODEL) in Site settings -> Environment variables.
 # Without a key the functions answer 503 and the game silently uses its deterministic fallbacks.
 [build]
   command = "npm run build"

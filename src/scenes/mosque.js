@@ -1,3 +1,4 @@
+import { addInteriorRoof } from './interiorRoof.js';
 // «يومك» — MOSQUE (Islamic center of the neighbourhood, Columbus, Ohio; winter daylight).
 // Two rooms under one roof, open "dollhouse" style like home.js:
 //   * Prayer hall (z -8..1.5): carpet laid in rows (sufuf) facing the qibla wall (north, -Z), mihrab niche in the
@@ -58,7 +59,7 @@ export default {
       matte: own(new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.88, flatShading: true })),
       satin: own(new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.42, flatShading: true })),
       metal: own(new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.3, metalness: 0.6, flatShading: true })),
-      walls: own(new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.95, emissive: '#5a5246', emissiveIntensity: 0.5 })),
+      walls: own(new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.95, side: THREE.DoubleSide, emissive: '#5a5246', emissiveIntensity: 0.5 })),
       glow: own(new THREE.MeshBasicMaterial({ vertexColors: true, toneMapped: false })),
       glass: own(new THREE.MeshBasicMaterial({ color: '#dcebf7', transparent: true, opacity: 0.22, depthWrite: false })),
       lobbyFloor: own(new THREE.MeshStandardMaterial({ color: '#e6dfd0', roughness: 0.35 })),
@@ -523,7 +524,10 @@ export default {
 
     // ------------------------------------------------------------------ build batches
     const add = (m) => { if (m) { own(m.geometry); group.add(m); } return m; };
-    add(B.walls.build(mat.walls, { cast: false, receive: true }));
+    addInteriorRoof(THREE, group, { x0: X0, x1: X1, z0: ZN, z1: ZA, height: HH, name: 'mosque:hall', beams: true });
+    addInteriorRoof(THREE, group, { x0: X0, x1: X1, z0: ZA, z1: ZS, height: HL, name: 'mosque:lobby' });
+    const envelopeWalls = add(B.walls.build(mat.walls, { cast: false, receive: true }));
+    if (envelopeWalls) envelopeWalls.userData.cameraCollide = true;
     add(B.matte.build(mat.matte));
     add(B.satin.build(mat.satin));
     add(B.metal.build(mat.metal));

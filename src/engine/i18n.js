@@ -109,8 +109,8 @@ export const STRINGS = {
   // intro / disclaimer
   introTitle: { ar: 'قبل أن تبدأ', en: 'Before you begin' },
   introBody: {
-    ar: 'ستعيش يوماً كاملاً مع آدم، شاب من حيّ السلام يحب أن يتعرّف على الإسلام من أصدقائه وزملائه وجيرانه المسلمين. في كل محطة موقف يومي حقيقي: تختار ماذا يسأل آدم أو كيف يتصرف، ثم ترى بطاقة تشرح ماذا يقول الإسلام ولماذا، موثقة بالقرآن والسنة وأقوال المذاهب الأربعة.',
-    en: 'You will spend a full day with Adam, a young man from the Al-Salam neighbourhood who is curious about Islam and learns from his Muslim friends, coworkers and neighbors. At each stop there is a real everyday situation: you choose what Adam asks or does, then see a card explaining what Islam says and why, documented from the Quran, the Sunnah and the four schools of law.'
+    ar: 'ستعيش يوماً كاملاً مع آدم، شاب من Columbus, Ohio يحب أن يتعرّف على الإسلام من أصدقائه وزملائه وجيرانه المسلمين. في كل محطة موقف يومي حقيقي: تختار ماذا يسأل آدم أو كيف يتصرف، ثم ترى بطاقة تشرح ماذا يقول الإسلام ولماذا، موثقة بالقرآن والسنة وأقوال المذاهب الأربعة.',
+    en: 'You will spend a full day with Adam, a young man from Columbus, Ohio who is curious about Islam and learns from his Muslim friends, coworkers and neighbors. At each stop there is a real everyday situation: you choose what Adam asks or does, then see a card explaining what Islam says and why, documented from the Quran, the Sunnah and the four schools of law.'
   },
   disclaimerTitle: { ar: 'تنبيه مهم', en: 'Important notice' },
   disclaimerBody: {

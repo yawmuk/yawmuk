@@ -1,7 +1,7 @@
 // «يومك» — public_events: the company end-of-year party in a downtown hotel ballroom (Friday 19:00, evening).
 // Procedural low-poly geometry only. Repeated props use InstancedMesh; string/tree lights twinkle through a
-// shader uniform (no per-frame allocations). Walls are inward-facing planes with LOW (1.1 m) colliders, so the
-// player is blocked but the third-person camera can back "through" a wall and still see the hall (dollhouse view).
+// shader uniform (no per-frame allocations). Double-sided walls and ceiling enclose the hall; low colliders
+// preserve the existing walking layout while the rendered shell keeps the camera inside.
 import { uniform, instanceIndex, vertexStage, materialColor, float, fract, sin, vec4 } from 'three/tsl';
 import { carpetTex, wallTex, ceilingTex, curtainTex, windowTex, doorTex, bannerTex, tvTex } from './public_events/textures.js';
 
@@ -123,13 +123,14 @@ export default {
     }
     disposables.push(twinkleMat);
 
+    group.userData.cameraRooms = [{ x0: X0, x1: X1, z0: Z0, z1: Z1, height: H }];
     // ------------------------------------------------------------------ shell: floor, ceiling, walls
     const tCarpet = own(carpetTex(THREE)), tWall = own(wallTex(THREE)), tCeil = own(ceilingTex(THREE));
     const tCurtain = own(curtainTex(THREE)), tWin = own(windowTex(THREE)), tDoor = own(doorTex(THREE)), tDoor1 = own(doorTex(THREE, true));
     const tBanner = own(bannerTex(THREE)), tTv = own(tvTex(THREE));
     const floorMat = new THREE.MeshStandardMaterial({ map: tCarpet, roughness: 1 });
-    const wallMat = new THREE.MeshStandardMaterial({ map: tWall, roughness: 0.9 });
-    const ceilMat = new THREE.MeshStandardMaterial({ map: tCeil, roughness: 0.95 });
+    const wallMat = new THREE.MeshStandardMaterial({ map: tWall, roughness: 0.9, side: THREE.DoubleSide });
+    const ceilMat = new THREE.MeshStandardMaterial({ map: tCeil, roughness: 0.95, side: THREE.DoubleSide });
     disposables.push(floorMat, wallMat, ceilMat);
 
     const floor = new THREE.Mesh(own(new THREE.PlaneGeometry(W, D)), floorMat);

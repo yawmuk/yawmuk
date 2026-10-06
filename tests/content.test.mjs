@@ -1,4 +1,4 @@
-// Content contract tests: content/rulings/*.json and content/script/*.json against tests/fixtures/situations.json.
+// Content contract tests: content/rulings/*.json and content/script/*.json against docs/TEAM_BRIEF.md.
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -97,6 +97,7 @@ describe('scripts: contract', () => {
     assert.deepEqual([...ids].sort(), [...catalog].sort());
   });
 
+  const hotspotsMd = fs.readFileSync(path.join(ROOT, 'docs/hotspots.md'), 'utf8');
   for (const loc of LOCATIONS) {
     const s = scripts[loc];
     test(`${loc}: script header`, () => {
@@ -108,7 +109,8 @@ describe('scripts: contract', () => {
       assert.ok(Array.isArray(s.situations) && s.situations.length === catalog.filter((id) => id.startsWith(`${loc}.`)).length && s.situations.length > 0, 'the catalog situations of this location (at least one)');
     });
 
-    // hotspot ids must exist in the scene source
+    // hotspot ids must exist in docs/hotspots.md (section of this location) and in the scene source
+    const section = hotspotsMd.split(/^## \d\) /m).find((sec) => sec.startsWith(`\`${loc}\``)) || '';
     const sceneSrc = [path.join(ROOT, `src/scenes/${loc}.js`), ...(fs.existsSync(path.join(ROOT, `src/scenes/${loc}`)) ? fs.readdirSync(path.join(ROOT, `src/scenes/${loc}`)).map((f) => path.join(ROOT, `src/scenes/${loc}`, f)) : [])]
       .filter((f) => fs.existsSync(f)).map((f) => fs.readFileSync(f, 'utf8')).join('\n');
 
@@ -117,6 +119,7 @@ describe('scripts: contract', () => {
         assert.ok(byId[sit.ruling_id], `ruling_id ${sit.ruling_id} has no ruling in content/rulings`);
         assert.equal(sit.ruling_id.split('.')[0], loc, 'situation must belong to this location');
         assert.ok(nonEmptyStr(sit.hotspot), 'hotspot');
+        assert.ok(section.includes(`\`${sit.hotspot}\``), `hotspot "${sit.hotspot}" not documented in docs/hotspots.md for ${loc}`);
         assert.ok(new RegExp(`id:\\s*['"]${sit.hotspot}['"]`).test(sceneSrc), `hotspot "${sit.hotspot}" not provided by src/scenes/${loc}.js`);
         assert.ok(sit.npc && nonEmptyStr(sit.npc.id) && bilingual(sit.npc.name) && bilingual(sit.npc.role), 'npc {id, name, role}');
         assert.ok(bilingual(sit.setup), 'setup');

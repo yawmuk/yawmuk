@@ -76,7 +76,7 @@ test('bank cards: verdicts are reused from existing rulings by id (no new AI ver
 });
 
 test('bank: no sources from outside the approved reference set (islamqa / islamhouse) in bank files', () => {
-  const files = ['content/bank/cards.json', 'src/features/bank/index.js', 'src/features/bank/calc.js', 'src/scenes/bank.js'];
+  const files = ['content/bank/cards.json', 'src/features/bank/index.js', 'src/features/bank/calc.js', 'src/scenes/bank.js', 'docs/BANK_SOURCES.md'];
   for (const f of files) {
     const p = path.join(ROOT, f);
     if (!fs.existsSync(p)) continue;

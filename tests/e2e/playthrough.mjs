@@ -18,7 +18,7 @@
 // Usage:  npm run test:e2e                       (builds dist/ if missing)
 //         node tests/e2e/playthrough.mjs --only=desktop-en,mobile-ar --no-shots --build --camera
 //   --only=<names>   run a subset of: desktop-ar, desktop-en, mobile-ar, mobile-en
-//   --no-shots       do not write screenshots to scratch/e2e/screenshots/
+//   --no-shots       do not write screenshots to docs/phase-3/screenshots/
 //   --build          force `npm run build` first
 //   --camera         also sweep the camera around every hotspot (8 yaws) and report occlusion
 //   --hotspot-shots=<dir>  save a screenshot at every hotspot (visual QA)
@@ -34,10 +34,10 @@ import { PLAYER, THEMES } from '../../src/engine/config.js';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const args = Object.fromEntries(process.argv.slice(2).map((a) => { const [k, v] = a.replace(/^--/, '').split('='); return [k, v ?? true]; }));
 const SHOTS = !args['no-shots'];
-const SHOT_DIR = path.join(ROOT, 'scratch/e2e/screenshots');
+const SHOT_DIR = path.join(ROOT, 'docs/phase-3/screenshots');
 const HOTSPOT_SHOTS = typeof args['hotspot-shots'] === 'string' ? path.resolve(args['hotspot-shots']) : null;
 const CAMERA = !!args.camera;
-const RESULTS_FILE = path.join(ROOT, 'scratch/e2e/e2e_results.json');
+const RESULTS_FILE = path.join(ROOT, 'docs/phase-3/e2e_results.json');
 
 const LOCATIONS = ['home', 'work', 'school', 'street', 'public_events', 'private_events'];
 const CONFIGS = [
@@ -758,7 +758,7 @@ async function runConfig(browser, baseUrl, cfg) {
   } catch (e) {
     R.failures.push(`ABORTED: ${e.message.split('\n')[0]}`);
     log(`  ✗ ABORTED: ${e.stack}`);
-    try { await page.screenshot({ path: path.join(ROOT, `scratch/e2e/e2e-failure-${cfg.name}.jpg`), type: 'jpeg', quality: 60 }); } catch { /* */ }
+    try { await page.screenshot({ path: path.join(ROOT, `docs/phase-3/e2e-failure-${cfg.name}.jpg`), type: 'jpeg', quality: 60 }); } catch { /* */ }
   }
   errors.forEach((e) => R.failures.push(`console: ${e}`));
   const sceneWarn = warnings.filter((w) => /\[scene|\[content\]|auto-placed/.test(w));

@@ -39,7 +39,7 @@ export const LIGHT_PRESETS = {
   evening: { bg: '#e9a873', fog: '#d99a72', fogNear: 28, fogFar: 95, hemiSky: '#ffd3a8', hemiGround: '#4b3a4a', hemi: 0.25, sun: '#ff9a5a', sunI: 2.0, sunDir: [0.9, 0.42, 0.25], exposure: 0.95, hdri: 'hdri_suburb_dusk', env: 0.5, shafts: 0.55 },
   // golden hour (the key art): low warm sun from one side -> long shadows, peach haze, olive bounce light.
   // Default for every scene via config.LIGHTING; shadowHalf widens the shadow frustum for the long shadows.
-  golden: { bg: GOLDEN.horizon, fog: GOLDEN.horizon, fogNear: 42, fogFar: 160, hemiSky: '#ffcf9a', hemiGround: '#4c5a2a', hemi: 0.3, sun: '#ffb26b', sunI: 3.5, sunDir: GOLDEN.sunDir, exposure: 0.92, hdri: 'hdri_suburb_dusk', env: 0.42, shadowHalf: 20, shafts: 0.65 },
+  golden: { bg: GOLDEN.horizon, fog: '#e8a978', fogNear: 60, fogFar: 230, hemiSky: '#ffcf9a', hemiGround: '#4c5a2a', hemi: 0.3, sun: '#ffb26b', sunI: 3.5, sunDir: GOLDEN.sunDir, exposure: 0.92, hdri: 'hdri_suburb_dusk', env: 0.42, shadowHalf: 20, shafts: 0.38 },
   night: { bg: '#0e1630', fog: '#121b36', fogNear: 20, fogFar: 75, hemiSky: '#5a6c9e', hemiGround: '#151824', hemi: 0.3, sun: '#a9bcff', sunI: 0.8, sunDir: [-0.4, 1, 0.3], exposure: 1.1, hdri: 'hdri_city_night', env: 0.55, shafts: 0.15 }
 };
 /** Named environments scenes may request with `environment: { hdri: 'studio' }` (or any catalog id/path). */
@@ -254,8 +254,8 @@ export async function createWorld(canvas) {
         const g = own(godrays(scenePass.getTextureNode('depth'), camera, sun));
         g.resolutionScale = half ? 0.35 : 0.5;
         g.raymarchSteps.value = half ? 32 : 48;
-        g.density.value = 2.0;
-        g.maxDensity.value = 0.45;
+        g.density.value = 1.4;
+        g.maxDensity.value = 0.3;
         g.distanceAttenuation.value = 1;
         const shafts = own(gaussianBlur(g.getTextureNode(), null, 2, { resolutionScale: 0.5 }));
         // forward scattering: shafts glow most when looking towards the sun (sun projected to screen each frame)
@@ -277,14 +277,14 @@ export async function createWorld(canvas) {
         const far = smoothstep(90, 180, perspectiveDepthToViewZ(scenePass.getTextureNode('depth'), float(camera.near), float(camera.far)).negate());
         const src = sceneColor.rgb.mul(smoothstep(0.3, 1.2, luminance(sceneColor.rgb))).mul(near).mul(far);
         const mask = own(gaussianBlur(vec4(src, 1), null, 1, { resolutionScale: half ? 0.25 : 0.5 }));
-        const rays = radialBlur(mask.getTextureNode(), { center: sunUV, weight: float(0.9), decay: float(0.972), count: int(half ? 24 : 48), exposure: float(3.2) });
+        const rays = radialBlur(mask.getTextureNode(), { center: sunUV, weight: float(0.9), decay: float(0.965), count: int(half ? 24 : 48), exposure: float(2.0) });
         color = vec4(color.rgb.add(rays.rgb.mul(warm)), color.a);
       }
     }
     // "miniature" tilt-shift: sharp horizontal band around the player, blur grows to the top and bottom
     if (Q.tiltShift) {
-      const blurred = own(gaussianBlur(color, null, Q.tiltShift === 'small' ? 3 : 4, { resolutionScale: 0.5 }));
-      const band = smoothstep(0.2, 0.45, abs(screenUV.y.sub(0.55)));
+      const blurred = own(gaussianBlur(color, null, Q.tiltShift === 'small' ? 2 : 3, { resolutionScale: 0.5 }));
+      const band = smoothstep(0.34, 0.56, abs(screenUV.y.sub(0.55))).mul(0.75);
       color = mix(color, blurred, band);
     }
     if (Q.bloom) {
@@ -295,9 +295,9 @@ export async function createWorld(canvas) {
     let out = renderOutput(color, THREE.ACESFilmicToneMapping, THREE.SRGBColorSpace);
     // warm split-tone grade: cool-violet shadows, honey highlights
     const l = luminance(out.rgb);
-    let rgb = out.rgb.mul(mix(vec3(0.95, 0.94, 1.05), vec3(1.06, 1.0, 0.9), smoothstep(0.08, 0.7, l)));
-    rgb = saturation(rgb, 1.16);
-    rgb = rgb.sub(0.5).mul(1.11).add(0.5).clamp(0, 1);
+    let rgb = out.rgb.mul(mix(vec3(0.96, 0.96, 1.04), vec3(1.03, 1.0, 0.95), smoothstep(0.08, 0.7, l)));
+    rgb = saturation(rgb, 1.08);
+    rgb = rgb.sub(0.5).mul(1.08).add(0.5).clamp(0, 1);
     if (Q.vignette) {
       const d = length(screenUV.sub(0.5)).mul(1.4142);
       rgb = rgb.mul(float(1).sub(smoothstep(0.35, 1.05, d).mul(0.38)));

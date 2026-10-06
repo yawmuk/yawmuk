@@ -109,10 +109,12 @@ describe('quran: attribution', () => {
     assert.match(ATTRIBUTION.ar.note, /ليست قرآنًا/);
     for (const l of ATTRIBUTION.links) assert.match(l.href, /^https:\/\//);
   });
-  test('panel source renders the attribution footer', () => {
+  test('panel source renders the attribution footer and approved sources doc exists', () => {
     const src = fs.readFileSync(path.join(ROOT, 'src/features/quran/index.js'), 'utf8');
     assert.match(src, /ATTRIBUTION\[L\]/);
     assert.match(src, /export function open\(/);
+    const doc = fs.readFileSync(path.join(ROOT, 'docs/QURAN_SOURCES.md'), 'utf8');
+    for (const u of ['api.quran.com', 'quranenc.com', 'everyayah.com', 'text_qpc_hafs']) assert.ok(doc.includes(u), u);
   });
 });
 

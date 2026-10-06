@@ -219,7 +219,7 @@ export default {
       });
     });
     const collegeSignTex = poster(512, 80, '#2f5d55', [
-      ['SCIOTO VALLEY COMMUNITY COLLEGE', 32, 30, '#f4efe2'], ['Evening Programs · Al-Salam', 64, 16, '#cfe3d8', 600]
+      ['SCIOTO VALLEY COMMUNITY COLLEGE', 32, 30, '#f4efe2'], ['Evening Programs · Columbus, Ohio', 64, 16, '#cfe3d8', 600]
     ]);
     const aidSignTex = poster(384, 64, '#f4efe2', [['FINANCIAL AID OFFICE', 33, 30, '#2f5d55']]);
     const libSignTex = poster(320, 64, '#3b2c22', [['LIBRARY · Quiet Study', 33, 26, '#f3e3c3']]);
@@ -249,6 +249,13 @@ export default {
     const emis = (tex, intensity = 0.9) => mat('#ffffff', { map: tex, emissive: '#ffffff', emissiveMap: tex, emissiveIntensity: intensity, roughness: 0.5 });
     const flat = (tex) => mat('#ffffff', { map: tex, roughness: 0.75 });
 
+    group.userData.cameraRooms = [
+      { x0: -12, x1: 10, z0: -2, z1: 2, height: H },
+      { x0: -10, x1: -2, z0: -9, z1: -2, height: H },
+      { x0: 2, x1: 10, z0: -8, z1: -2, height: H },
+      { x0: -1, x1: 3, z0: 2, z1: 6, height: H }
+    ];
+
     // ------------------------------------------------------------------ floor, carpets, ceiling
     const floor = new THREE.Mesh(unitPlane, mat('#ffffff', { map: floorTex, roughness: 0.45 }));
     floor.scale.set(22.4, 15.4, 1); floor.rotation.x = -Math.PI / 2; floor.position.set(-1, 0, -1.5);
@@ -262,7 +269,7 @@ export default {
     rug(mat('#5f6e7c', { roughness: 1 }), -0.9, 2.1, 2.9, 5.9);    // aid office carpet
     rug(mat('#34383e', { roughness: 1 }), -11.9, -1.4, -10.4, 1.4); // entrance mat
 
-    const ceilMat = mat('#ffffff', { map: ceilTex, roughness: 0.95, side: THREE.FrontSide });
+    const ceilMat = mat('#ffffff', { map: ceilTex, roughness: 0.95, side: THREE.DoubleSide });
     ceilMat.shadowSide = THREE.DoubleSide;
     const ceil = new THREE.Mesh(unitPlane, ceilMat);
     ceil.scale.set(22.4, 15.4, 1); ceil.rotation.x = Math.PI / 2; ceil.position.set(-1, H, -1.5);
@@ -650,7 +657,7 @@ export default {
     const rosaLook = { skin: '#c68642', shirt: '#d9822b', pants: '#3a3340', hair: '#3b2416', height: 1.64 };
     const kareemLook = { skin: '#6b4226', shirt: '#4b5320', pants: '#2f3542', hair: '#141010', beard: '#141010', height: 1.83 };
     const omarLook = { skin: '#5a3a22', shirt: '#4a7fb5', pants: '#4a7fb5', shoes: '#e8e8e8', hair: '#151010', beard: '#151010', height: 1.8 };
-    const noorLook = { skin: '#c68642', shirt: '#f5f5f5', suit: '#4a6fa5', tie: '#f5f5f5', hijab: true, hijabColor: '#7fb3d5', pants: '#3a3f55', dress: '#3a4660', height: 1.64 };
+    const noorLook = { sex: 'female', skin: '#c68642', shirt: '#4a6fa5', sleeves: 'long', hijab: true, hijabColor: '#7fb3d5', pants: '#3a4660', dress: '#3a4660', height: 1.64 };
     const curlyLook = { skin: '#8d5524', shirt: '#b5517a', pants: '#2f3542', hair: '#24160e', height: 1.66 };
     const workerLook = { skin: '#e0b98f', shirt: '#f07a1a', pants: '#3b4a5e', hair: '#7a7470', beard: '#8a8580', build: 1.1 };
 
@@ -669,7 +676,7 @@ export default {
         })
       },
       { // situation NPC: study-group partner at the open study-room door, holding a notebook
-        id: 'noor', position: [6, 0, -1.5], yaw: yawTo([6, -1.5], [3.5, 0.2]), look: noorLook,
+        id: 'noor', position: [6, 0, -2.85], yaw: yawTo([6, -2.85], [7.05, -3.0]), look: noorLook,
         object: npcObj(noorLook, (p) => {
           addTo(p.armL, new THREE.BoxGeometry(0.03, 0.26, 0.2), M.yellow, 0.04, -0.45, -0.06);
           if (p.armL) p.armL.rotation.x = -0.35;
@@ -687,8 +694,8 @@ export default {
         id: 'bg_rosa', position: [1, 0, 4.2], yaw: 0, look: rosaLook, showName: false,
         object: npcObj(rosaLook, (p) => { addTo(p.head, new THREE.SphereGeometry(0.07, 10, 8), mat('#3b2416'), 0, 0.11, 0.1); })
       },
-      { // background: young woman with curly hair at the lockers
-        id: 'bg_student_curly', position: [-6.6, 0, 1.15], yaw: Math.PI, look: curlyLook, showName: false,
+      { // background: student beside the lockers, with clearance and facing into the corridor
+        id: 'bg_student_curly', position: [-6.6, 0, 0.65], yaw: 0, look: curlyLook, showName: false,
         object: npcObj(curlyLook, (p) => {
           const hairM = mat('#24160e', { roughness: 1 });
           for (const [x, y, z] of [[0.1, 0.06, 0.02], [-0.1, 0.06, 0.02], [0, 0.1, 0.08], [0.08, -0.02, 0.09], [-0.08, -0.02, 0.09], [0, 0.13, -0.02]]) {

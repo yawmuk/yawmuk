@@ -1,18 +1,20 @@
-// «يومك» — HOME (Monday 07:00, winter morning in Columbus, Ohio).
-// Open-plan ground floor of a modest rented American house: kitchen (back-left), dining (centre),
-// living room + reading nook (right), entry with front door, mail table and stairs (front).
-// The Reed family home (books and family photos on the shelf); their Muslim neighbour and friend
-// Omar has dropped by for coffee.
-// Procedural geometry only. Static props are merged into a handful of vertex-coloured meshes
-// (see ./home/batch.js) so the whole room stays at ~30 meshes.
+// «يومك» — HOME (Monday 07:00): the ground floor of Adam's house in حيّ السلام.
+// Open plan: kitchen (back-left), dining (centre), living room + reading nook (right), entry with the front
+// door, mail table and stairs (front). Family books and photos on the shelf; the neighbour and friend Omar
+// has dropped by for coffee.
+// The house envelope (footprint, door, windows, colours) comes from ./home/layout.js and is shared with the
+// town's exterior of this house, so the room is the same building Adam walked up to. Nothing outside the
+// walls is built here: the engine surrounds the room with the real neighbourhood (town.js in backdrop mode).
+// Static props are merged into a handful of vertex-coloured meshes (see ./home/batch.js).
 //
-// Walls are ONE-SIDED inward-facing planes ("dollhouse" walls): seen from outside they vanish,
-// so the third-person / attract camera can always look into the room. Wall colliders are kept
-// 1.1 m tall so the engine's camera-collision never yanks the camera in front of Adam's face.
+// Closed ground-floor interior: double-sided walls and a solid roof keep the camera indoors.
+// Low player colliders preserve the existing walkable layout; visual walls block the camera.
+import { addInteriorRoof } from './interiorRoof.js';
 import { createBatcher } from './home/batch.js';
+import { HOUSE } from './home/layout.js';
 import { woodFloor, subwayTile, livingRug, familyPhoto, starArt, laptopScreen } from './home/textures.js';
 
-const W = 12, D = 9, H = 2.7;          // room: x -6..6, z -4.5..4.5
+const W = HOUSE.w, D = HOUSE.d, H = HOUSE.h;   // room: x -6..6, z -4.5..4.5
 const X0 = -W / 2, X1 = W / 2, Z0 = -D / 2, Z1 = D / 2;
 const PI = Math.PI;
 
@@ -24,8 +26,8 @@ const C = {
   sofa: '#6f8296', sofaDark: '#5d6f82', mustard: '#d9a441', terracotta: '#c46a4a', knit: '#cbb89a',
   leaf: '#4f7f4a', leaf2: '#6a9a55', leaf3: '#3e6b3d', pot: '#b8693f', potWhite: '#ecebe6', soil: '#4a3426',
   black: '#1d1f22', white: '#fafaf6', ceramic: '#e9e4da',
-  door: '#8a5a36', doorPanel: '#7a4e2e',
-  snow: '#f1f5f8', pine: '#2f5a43', bark: '#5a4030'
+  door: HOUSE.colors.door, doorPanel: '#28505f',    // the same blue door as on the street side
+  bark: '#5a4030'
 };
 
 export default {
@@ -41,24 +43,36 @@ export default {
     const makeBatch = createBatcher(THREE);
 
     // ------------------------------------------------------------------ materials (all owned by this scene)
+    // walls and floor: real PBR texture sets from the catalog (plaster, oak planks) lit by the sun + sky like
+    // everything else — no emissive "fill" that flattens the room. Canvas fallbacks when the loader is missing.
+    const hasPbr = typeof ctx.pbr === 'function';
     const mat = {
       matte: own(new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.88, flatShading: true })),
       satin: own(new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.42, flatShading: true })),
       metal: own(new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.3, metalness: 0.65, flatShading: true })),
-      walls: own(new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.95, emissive: '#5a5246', emissiveIntensity: 0.55 })),
+      // warm-white painted plaster: flat vertex colour + the catalog plaster set's normal/roughness detail only
+      // (its grey colour map would muddy the room); uv per quad = metres / 2 (tile 2 m)
+      walls: own(new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.9, side: THREE.DoubleSide })),
       glow: own(new THREE.MeshBasicMaterial({ vertexColors: true, toneMapped: false })),
       glass: own(new THREE.MeshBasicMaterial({ color: '#dcebf7', transparent: true, opacity: 0.2, depthWrite: false })),
-      snowGround: own(new THREE.MeshStandardMaterial({ color: C.snow, roughness: 1 })),
       curtain: own(new THREE.MeshStandardMaterial({ color: '#efe7d6', roughness: 1, side: THREE.DoubleSide })),
       steam: own(new THREE.MeshBasicMaterial({ color: '#ffffff', transparent: true, opacity: 0.22, depthWrite: false }))
     };
+    if (typeof ctx.loadTexture === 'function') {
+      ctx.loadTexture('plaster', { repeat: [1, 1] }).then((maps) => {
+        if (!maps) return;
+        mat.walls.normalMap = maps.normalMap || null; mat.walls.roughnessMap = maps.roughnessMap || null;
+        if (maps.normalMap) mat.walls.normalScale.set(0.6, 0.6);
+        mat.walls.needsUpdate = true;
+      }).catch(() => {});
+    }
     const tex = {
-      floor: own(woodFloor(THREE)), tile: own(subwayTile(THREE)), rug: own(livingRug(THREE)),
+      floor: hasPbr ? null : own(woodFloor(THREE)), tile: own(subwayTile(THREE)), rug: own(livingRug(THREE)),
       photo: own(familyPhoto(THREE)), art: own(starArt(THREE)), screen: own(laptopScreen(THREE))
     };
-    tex.floor.repeat.set(W / 1.6, D / 1.6);
+    if (tex.floor) tex.floor.repeat.set(W / 1.6, D / 1.6);
     const tmat = {
-      floor: own(new THREE.MeshStandardMaterial({ map: tex.floor, roughness: 0.55 })),
+      floor: hasPbr ? ctx.pbr('wood_floor', { size: [W, D], roughness: 0.6 }) : own(new THREE.MeshStandardMaterial({ map: tex.floor, roughness: 0.55 })),
       tile: own(new THREE.MeshStandardMaterial({ map: tex.tile, roughness: 0.3 })),
       rug: own(new THREE.MeshStandardMaterial({ map: tex.rug, roughness: 1 })),
       photo: own(new THREE.MeshStandardMaterial({ map: tex.photo, roughness: 0.5 })),
@@ -69,8 +83,7 @@ export default {
     // ------------------------------------------------------------------ batches
     const B = {
       walls: makeBatch('walls'), matte: makeBatch('matte'), satin: makeBatch('satin'), metal: makeBatch('metal'),
-      glow: makeBatch('glow'), glass: makeBatch('glass'), tile: makeBatch('tile'), art: makeBatch('art'), photo: makeBatch('photo'),
-      outside: makeBatch('outside')
+      outside: makeBatch('outside'), glow: makeBatch('glow'), glass: makeBatch('glass'), tile: makeBatch('tile'), art: makeBatch('art'), photo: makeBatch('photo')
     };
     const colliders = [];
     const solid = (x0, z0, x1, z1, h = 1.1) => colliders.push({ min: [Math.min(x0, x1), 0, Math.min(z0, z1)], max: [Math.max(x0, x1), Math.min(h, 1.1), Math.max(z0, z1)] });
@@ -83,16 +96,17 @@ export default {
     group.add(floor);
 
     // ================================================================== WALLS (one-sided, inward)
-    // frame: origin + u*dir along the wall; local +z = inward normal.
+    // frame: origin + u*dir along the wall; local +z = inward normal. Openings come from the shared house layout
+    // (home/layout.js) so they sit exactly where the town's exterior draws them.
+    const hole = (c, w, y0, y1, toU, extra) => ({ a0: toU(c) - w / 2, a1: toU(c) + w / 2, y0, y1, ...extra });
     const WALLS = {
-      n: { o: [X0, Z0], ry: 0, len: W, holes: [
-        { a0: 1.4, a1: 2.4, y0: 1.15, y1: 2.15 },   // kitchen window  x -4.6..-3.6
-        { a0: 4.7, a1: 7.3, y0: 0.7, y1: 2.3 },     // dining window   x -1.3..1.3
-        { a0: 7.9, a1: 8.9, y0: 0.9, y1: 2.3 }      // living window   x  1.9..2.9
+      n: { o: [X0, Z0], ry: 0, len: W, holes: HOUSE.back.map((w) => hole(w.x, w.w, w.y0, w.y1, (x) => x - X0)) },        // kitchen, dining, living windows
+      s: { o: [X1, Z1], ry: PI, len: W, holes: [
+        hole(HOUSE.door.x, HOUSE.door.w, 0, HOUSE.door.h, (x) => X1 - x, { door: true }),                                   // front door x 4..5
+        ...HOUSE.front.map((w) => hole(w.x, w.w, w.y0, w.y1, (x) => X1 - x))                                                // street windows
       ] },
-      s: { o: [X1, Z1], ry: PI, len: W, holes: [{ a0: 1.0, a1: 2.0, y0: 0, y1: 2.1, door: true }] },  // door x 4..5
-      w: { o: [X0, Z1], ry: PI / 2, len: D, holes: [{ a0: 2.9, a1: 4.1, y0: 0.95, y1: 2.15 }] },     // z 1.6..0.4
-      e: { o: [X1, Z0], ry: -PI / 2, len: D, holes: [{ a0: 5.5, a1: 6.9, y0: 0.95, y1: 2.2 }] }      // z 1.0..2.4
+      w: { o: [X0, Z1], ry: PI / 2, len: D, holes: HOUSE.west.map((w) => hole(w.z, w.w, w.y0, w.y1, (z) => Z1 - z)) },
+      e: { o: [X1, Z0], ry: -PI / 2, len: D, holes: HOUSE.east.map((w) => hole(w.z, w.w, w.y0, w.y1, (z) => z - Z0)) }
     };
     const inFrame = (wd, fn, batches) => {
       for (const b of batches) b.push(wd.o[0], 0, wd.o[1], wd.ry);
@@ -101,7 +115,8 @@ export default {
     };
     for (const wd of Object.values(WALLS)) {
       inFrame(wd, () => {
-        const rect = (u0, u1, y0, y1) => { if (u1 - u0 > 1e-3 && y1 - y0 > 1e-3) B.walls.quad(C.wall, u1 - u0, y1 - y0, (u0 + u1) / 2, (y0 + y1) / 2, 0); };
+        // plaster quads carry metre-based uvs (2 m tile) so the texture is continuous across the pieces of a wall
+        const rect = (u0, u1, y0, y1) => { if (u1 - u0 > 1e-3 && y1 - y0 > 1e-3) B.walls.quad(C.wall, u1 - u0, y1 - y0, (u0 + u1) / 2, (y0 + y1) / 2, 0, 0, 0, [(u1 - u0) / 2, (y1 - y0) / 2]); };
         let cur = 0;
         for (const h of [...wd.holes].sort((a, b) => a.a0 - b.a0)) {
           rect(cur, h.a0, 0, H);
@@ -110,11 +125,12 @@ export default {
           cur = h.a1;
         }
         rect(cur, wd.len, 0, H);
-        // top cap (dollhouse cut line) + baseboard
-        if (wd !== WALLS.s) B.walls.quad(C.cap, wd.len + 0.3, 0.15, wd.len / 2, H, -0.075, 0, -PI / 2);  // no cap on the camera side
+        // top cap (dollhouse cut line), crown moulding + baseboard (satin: crisp painted trim, no plaster map)
+        if (wd !== WALLS.s) B.satin.quad(C.cap, wd.len + 0.3, 0.15, wd.len / 2, H, -0.075, 0, -PI / 2);  // no cap on the camera side
+        B.satin.box(C.trim, wd.len, 0.07, 0.04, wd.len / 2, H - 0.035, 0.03);                            // crown moulding
         let bc = 0;
-        for (const h of wd.holes.filter((x) => x.y0 < 0.1)) { if (h.a0 > bc) B.walls.box(C.base, h.a0 - bc, 0.1, 0.02, (bc + h.a0) / 2, 0.05, 0.01); bc = h.a1; }
-        if (bc < wd.len) B.walls.box(C.base, wd.len - bc, 0.1, 0.02, (bc + wd.len) / 2, 0.05, 0.01);
+        for (const h of wd.holes.filter((x) => x.y0 < 0.1)) { if (h.a0 > bc) B.satin.box(C.base, h.a0 - bc, 0.1, 0.02, (bc + h.a0) / 2, 0.05, 0.015); bc = h.a1; }
+        if (bc < wd.len) B.satin.box(C.base, wd.len - bc, 0.1, 0.02, (bc + wd.len) / 2, 0.05, 0.015);
         // window frames + glass
         for (const h of wd.holes) {
           if (h.door) continue;
@@ -135,23 +151,23 @@ export default {
     solid(X0 - 0.3, Z0 - 0.3, X0, Z1 + 0.3);
     solid(X1, Z0 - 0.3, X1 + 0.3, Z1 + 0.3);
 
-    // front door (south wall, u 1..2 => x 5..4): recessed slab + panels + trim, all facing inward
+    // front door (south wall, u 1..2 => x 5..4): the same blue door as outside — recessed slab + panels + trim,
+    // all one-sided quads facing inward (they vanish when the camera is outside)
     inFrame(WALLS.s, () => {
-      B.walls.quad(C.door, 1.0, 2.1, 1.5, 1.05, -0.04);
-      // everything on this wall is a one-sided quad so it vanishes when the camera is outside
-      for (const [pu, py, ph] of [[1.27, 1.55, 0.7], [1.73, 1.55, 0.7], [1.27, 0.55, 0.75], [1.73, 0.55, 0.75]]) B.walls.quad(C.doorPanel, 0.34, ph, pu, py, -0.035);
-      B.walls.quad(C.trim, 0.08, 2.18, 0.96, 1.09, 0.004);
-      B.walls.quad(C.trim, 0.08, 2.18, 2.04, 1.09, 0.004);
-      B.walls.quad(C.trim, 1.16, 0.08, 1.5, 2.14, 0.004);
+      B.satin.quad(C.door, 1.0, 2.1, 1.5, 1.05, -0.04);
+      for (const [pu, py, ph] of [[1.27, 1.55, 0.7], [1.73, 1.55, 0.7], [1.27, 0.55, 0.75], [1.73, 0.55, 0.75]]) B.satin.quad(C.doorPanel, 0.34, ph, pu, py, -0.035);
+      B.satin.quad(C.trim, 0.08, 2.18, 0.96, 1.09, 0.004);
+      B.satin.quad(C.trim, 0.08, 2.18, 2.04, 1.09, 0.004);
+      B.satin.quad(C.trim, 1.16, 0.08, 1.5, 2.14, 0.004);
       B.metal.sph('#c9a227', 0.035, 1.88, 1.0, 0.0);
       B.metal.box('#c9a227', 0.05, 0.08, 0.02, 1.88, 1.18, -0.01);
       // mirror above the mail table (x -2 => u 8)
-      B.walls.quad(C.walnut, 0.66, 0.86, 8.0, 1.6, 0.006);
+      B.satin.quad(C.walnut, 0.66, 0.86, 8.0, 1.6, 0.006);
       B.glow.quad('#c7d6df', 0.56, 0.76, 8.0, 1.6, 0.01);
-      // geometric art between door and mail table (x 1.4 => u 4.6)
-      B.walls.quad(C.black, 0.62, 0.62, 4.6, 1.6, 0.006);
-      B.art.quad('#ffffff', 0.54, 0.54, 4.6, 1.6, 0.01);
-    }, [B.walls, B.metal, B.art, B.glow]);
+      // geometric art between the street window and the door (x 0.6 => u 5.4)
+      B.satin.quad(C.black, 0.62, 0.62, 5.4, 1.6, 0.006);
+      B.art.quad('#ffffff', 0.54, 0.54, 5.4, 1.6, 0.01);
+    }, [B.satin, B.metal, B.art, B.glow]);
 
     // ================================================================== KITCHEN (x -6..-2, z -4.5..-1)
     // L counter: run along north wall + peninsula
@@ -200,7 +216,7 @@ export default {
       B.matte.ico(i === 1 ? C.leaf2 : C.leaf, 0.07, x, 1.3, -4.42, 1, 1.2, 1, i);
     }
     // floating shelves with jars on the west wall
-    for (const y of [1.45, 1.85]) B.matte.span(C.oak, -6, y, -2.9, -5.78, y + 0.03, -1.7);
+    for (const y of [1.45, 1.85]) B.matte.span(C.oak, -5.985, y, -2.9, -5.78, y + 0.03, -1.7);
     for (let i = 0; i < 4; i++) {
       B.satin.fcyl(['#e8d9b8', '#cfe3d6', '#f1e1c6', '#d8c9e6'][i], 0.06, 0.06, 0.16, -5.89, 1.48, -2.75 + i * 0.3, 10);
       B.metal.fcyl(C.steel, 0.062, 0.062, 0.025, -5.89, 1.64, -2.75 + i * 0.3, 10);
@@ -247,14 +263,6 @@ export default {
     B.satin.pop(); B.metal.pop();
     solid(FX0, FZ0, FX1, FZ1);
     solid(FX0, FZ1, -5.5, -3.0);
-
-    // wudu at the kitchen sink (situation home.purity_mosque, hotspot `fridge`): the tap is running —
-    // a thin transparent water stream from the spout into the basin, a small ripple disc in the basin,
-    // and a folded towel waiting on the counter beside the sink.
-    B.glass.fcyl('#9fd3ff', 0.012, 0.014, 0.28, -4.1, 0.906, -4.25, 8);                   // running water
-    B.glass.cyl('#9fd3ff', 0.07, 0.07, 0.004, -4.1, 0.91, -4.25, 14);                      // splash ripple
-    B.matte.fbox('#2f8f83', 0.3, 0.035, 0.2, -3.55, 0.9, -4.18, 0.15);                     // folded towel
-    B.matte.fbox('#e9f2ef', 0.3, 0.006, 0.2, -3.55, 0.918, -4.18, 0.15);                   // towel stripe
 
     // ================================================================== DINING (table 1.6 x 0.9 at (0,-1.5))
     const TX = 0, TZ = -1.5, TY = 0.76;
@@ -448,14 +456,16 @@ export default {
     solid(5.64, -4.5, 6, -4.1, 0.55);
     // a small gallery of family photos on the wall
     for (const [px, py, w, h] of [[4.95, 1.45, 0.34, 0.26], [5.45, 1.55, 0.3, 0.4], [4.98, 1.82, 0.28, 0.2]]) {
-      B.walls.quad('#2b2420', w, h, px, py, Z0 + 0.006);
+      B.satin.quad('#2b2420', w, h, px, py, Z0 + 0.006);
       B.photo.quad('#ffffff', w - 0.05, h - 0.05, px, py, Z0 + 0.01);
     }
 
-    // radiator under the east window (Ohio winter)
-    for (let i = 0; i < 12; i++) B.satin.span(C.white, 5.88, 0.15, 1.15 + i * 0.1, 5.98, 0.75, 1.2 + i * 0.1);
-    B.satin.span(C.white, 5.86, 0.12, 1.12, 5.99, 0.16, 2.33);
-    solid(5.84, 1.1, 6, 2.36, 0.75);
+    // low console under the east window with a potted plant
+    B.matte.span(C.walnut, 5.6, 0.0, 1.1, 5.98, 0.6, 2.3);
+    B.matte.span('#5a3c26', 5.62, 0.6, 1.12, 5.98, 0.62, 2.28);
+    B.matte.fcyl(C.potWhite, 0.09, 0.07, 0.14, 5.8, 0.62, 1.4, 8); B.matte.ico(C.leaf, 0.12, 5.8, 0.84, 1.4, 1, 0.9, 1);
+    B.matte.fbox('#7d3c3c', 0.2, 0.05, 0.14, 5.8, 0.62, 1.95, 0.2); B.matte.fbox('#2f4f6f', 0.2, 0.04, 0.14, 5.8, 0.67, 1.95, -0.15);
+    solid(5.58, 1.08, 6, 2.32, 0.6);
     // wall clock (~07:00) on the west wall
     B.satin.cyl(C.white, 0.17, 0.17, 0.03, X0 + 0.015, 2.0, -0.8, 18, 0, 0, PI / 2);
     B.satin.torus(C.black, 0.17, 0.012, X0 + 0.03, 2.0, -0.8, PI / 2);
@@ -480,7 +490,7 @@ export default {
 
     // ================================================================== ENTRY (south)
     // mail table (hotspot object) next to the stairs
-    B.satin.span(C.walnut, -2.52, 0.8, 4.16, -1.48, 0.84, 4.5);
+    B.satin.span(C.walnut, -2.52, 0.8, 4.16, -1.48, 0.84, 4.485);
     B.matte.span('#5e3d22', -2.46, 0.66, 4.2, -1.54, 0.8, 4.48);
     B.metal.sph('#c9a227', 0.015, -2.0, 0.73, 4.19);
     for (const sx of [-2.47, -1.53]) for (const sz of [4.2, 4.46]) B.matte.fbox('#5e3d22', 0.035, 0.66, 0.035, sx, 0, sz);
@@ -497,8 +507,8 @@ export default {
     const STEPS = 10, RUN = 0.3, RISE = H / STEPS;
     for (let i = 0; i < STEPS; i++) {
       const xa = -3.0 - RUN * (i + 1), xb = -3.0 - RUN * i, top = RISE * (i + 1);
-      B.matte.span('#f2ede3', xa, 0, 3.55, xb, top - 0.03, 4.5);
-      B.satin.span(C.oak, xa - 0.02, top - 0.03, 3.53, xb, top, 4.5);
+      B.matte.span('#f2ede3', xa, 0, 3.55, xb, top - 0.03, 4.485);
+      B.satin.span(C.oak, xa - 0.02, top - 0.03, 3.53, xb, top, 4.485);
     }
     const slope = Math.atan2(H, STEPS * RUN);
     B.satin.box(C.oakDark, Math.hypot(STEPS * RUN, H) + 0.1, 0.05, 0.06, -3.0 - STEPS * RUN / 2, H / 2 + 0.9, 3.52, 0, 0, -slope);
@@ -516,15 +526,12 @@ export default {
     for (const [x, y, col] of [[3.28, 0.04, '#2b2b2b'], [3.36, 0.04, '#2b2b2b'], [3.58, 0.04, '#f0f0f0'], [3.66, 0.04, '#f0f0f0'], [3.32, 0.25, '#7a4e2e'], [3.4, 0.25, '#7a4e2e'], [3.62, 0.25, '#3a5f9a'], [3.7, 0.25, '#3a5f9a']]) B.matte.fbox(col, 0.07, 0.08, 0.24, x, y, 4.33);
     B.matte.fbox('#5a4a3c', 1.0, 0.012, 0.6, 4.5, 0, 3.95);
     solid(3.12, 4.15, 3.88, 4.5, 0.46);
-    // snow shovel leaning on the wall next to the door (Omar brought it back)
-    B.satin.push(5.18, 0, 4.24, 0, 0.2);
-    B.satin.fcyl('#9a6b3f', 0.016, 0.016, 1.18, 0, 0.1, 0, 6);                         // handle
-    B.satin.box(C.black, 0.12, 0.03, 0.03, 0, 1.3, 0);                                  // grip
-    B.satin.box(C.black, 0.42, 0.34, 0.025, 0, 0.17, -0.02, 0, -0.12);                  // blade
-    B.satin.box('#f1f5f8', 0.38, 0.03, 0.03, 0, 0.03, -0.035);                           // snow on the lip
-    B.satin.pop();
-    solid(4.96, 4.1, 5.4, 4.5, 0.9);
-    // coat rack with winter coats
+    // umbrella stand next to the door
+    B.satin.fcyl('#3e6d8a', 0.09, 0.08, 0.42, 5.2, 0, 4.3, 10);
+    B.satin.cyl(C.black, 0.012, 0.012, 0.8, 5.2, 0.6, 4.3, 5, 0, 0, 0.12);
+    B.satin.cyl('#9e3b2b', 0.012, 0.012, 0.75, 5.26, 0.58, 4.26, 5, 0, 0.1, -0.1);
+    solid(5.08, 4.18, 5.32, 4.42, 0.5);
+    // coat rack with coats
     B.matte.fcyl('#3b2e25', 0.2, 0.22, 0.04, 5.6, 0, 4.2, 10);
     B.matte.fcyl('#3b2e25', 0.025, 0.025, 1.75, 5.6, 0.04, 4.2, 6);
     B.matte.box('#2f3a55', 0.36, 0.85, 0.16, 5.6, 1.25, 4.06, 0.1);
@@ -533,44 +540,13 @@ export default {
     B.matte.sph('#3a5f9a', 0.1, 5.6, 1.86, 4.2, 1, 0.8, 1);
     solid(5.38, 3.98, 5.82, 4.42);
 
-    // ================================================================== OUTSIDE (snowy yard seen through windows)
-    const ground = new THREE.Mesh(own(new THREE.PlaneGeometry(80, 80)), mat.snowGround);
-    ground.rotation.x = -PI / 2; ground.position.y = -0.02; ground.receiveShadow = true; ground.name = 'home:snow';
-    group.add(ground);
-    const pine = (x, z, s) => {
-      B.outside.fcyl(C.bark, 0.08 * s, 0.1 * s, 0.6 * s, x, 0, z, 6);
-      for (let i = 0; i < 3; i++) {
-        const y = (0.5 + i * 0.7) * s, r = (1.1 - i * 0.28) * s;
-        B.outside.fcyl(C.pine, 0, r, 1.2 * s, x, y, z, 7);
-        B.outside.fcyl(C.snow, 0, r * 0.55, 0.55 * s, x, y + 0.66 * s, z, 7);
-      }
-    };
-    for (const [x, z, s] of [[-8, -8, 1.3], [-3.2, -10.5, 1.6], [4.5, -9.5, 1.2], [9.5, -7, 1.5], [10.5, 2, 1.3], [-10.5, 1, 1.4], [-9.5, 8, 1.2], [9, 9.5, 1.4], [-1, -14, 1.8], [13, -12, 1.6]]) pine(x, z, s);
-    for (let x = -14; x <= 14; x += 2) { B.outside.fbox(C.white, 0.1, 1.0, 0.1, x, 0, -12); }
-    B.outside.span(C.white, -14, 0.75, -12.03, 14, 0.82, -11.97); B.outside.span(C.white, -14, 0.35, -12.03, 14, 0.42, -11.97);
-    // neighbour houses
-    for (const [x, z, col] of [[-6, -19, '#b9a48a'], [8, -18, '#8fa3b5']]) {
-      B.outside.fbox(col, 8, 3.2, 6, x, 0, z);
-      B.outside.geo(new THREE.CylinderGeometry(4.6, 4.6, 8.2, 3, 1), '#5a4d48', x, 3.97, z, 0, -PI / 2, PI / 2, 1, 1, 0.33);
-      B.outside.span(C.snow, x - 4.1, 5.3, z - 0.35, x + 4.1, 5.5, z + 0.35);
-      for (const wx of [-2.5, 0, 2.5]) B.outside.box('#f3e3b0', 0.9, 0.9, 0.05, x + wx, 1.8, z + 3.01);
-    }
-    // snowman in the yard (visible through the living window)
-    B.outside.sph(C.white, 0.45, 3.4, 0.4, -7.6, 1, 0.9, 1, 10, 8);
-    B.outside.sph(C.white, 0.32, 3.4, 1.05, -7.6, 1, 1, 1, 10, 8);
-    B.outside.sph(C.white, 0.22, 3.4, 1.5, -7.6, 1, 1, 1, 10, 8);
-    B.outside.cyl('#e67e22', 0, 0.035, 0.18, 3.4, 1.5, -7.32, 6, 0, PI / 2);
-    B.outside.box('#9e3b2b', 0.5, 0.08, 0.5, 3.4, 1.28, -7.6, 0.4);
-    B.outside.fbox(C.black, 0.26, 0.2, 0.26, 3.4, 1.66, -7.6, 0.3);
-    // porch step + shovelled path outside the front door
-    B.outside.span('#b8b4ac', 3.9, 0, 4.82, 5.1, 0.12, 5.7);
-    B.outside.span('#a9a59d', 4.1, 0, 5.7, 4.9, 0.03, 13);
-    // bushes along the house with snow
-    for (const [x, z] of [[-4.5, 5.6], [-1.5, 5.6], [1.5, 5.6], [-7.1, -2], [7.1, -3], [7.1, 3.5]]) { B.outside.ico(C.leaf3, 0.6, x, 0.35, z, 1.3, 0.7, 1); B.outside.ico(C.snow, 0.45, x, 0.62, z, 1.2, 0.35, 0.9); }
+    // (nothing is built outside the walls: the engine surrounds the room with the real street — town.js backdrop mode)
 
     // ------------------------------------------------------------------ build batches
     const add = (m) => { if (m) { own(m.geometry); group.add(m); } return m; };
-    add(B.walls.build(mat.walls, { cast: false, receive: true }));
+    addInteriorRoof(THREE, group, { x0: X0, x1: X1, z0: Z0, z1: Z1, height: H, name: 'home', beams: true });
+    const envelopeWalls = add(B.walls.build(mat.walls, { cast: false, receive: true }));
+    if (envelopeWalls) envelopeWalls.userData.cameraCollide = true;
     add(B.matte.build(mat.matte));
     add(B.satin.build(mat.satin));
     add(B.metal.build(mat.metal));
@@ -580,43 +556,17 @@ export default {
     add(B.tile.build(tmat.tile, { cast: false }));
     add(B.art.build(tmat.art, { cast: false }));
     add(B.photo.build(tmat.photo, { cast: false }));
-    add(B.outside.build(mat.matte));
 
-    // ------------------------------------------------------------------ lights
-    const pendant = new THREE.PointLight('#ffd49a', 2.6, 6.5, 2);
+    // ------------------------------------------------------------------ lights (3 practicals, no shadows: README budget)
+    // the room is lit by the global golden-hour sun + sky; these only add warmth under the pendant, by the
+    // sofa lamp and a soft fill in the kitchen corner the low sun never reaches
+    const pendant = new THREE.PointLight('#ffd49a', 3.2, 7, 2);
     pendant.position.set(TX, 1.62, TZ);
-    const windowFill = new THREE.PointLight('#cfe2ff', 2.2, 8, 2);
-    windowFill.position.set(0, 1.7, Z0 + 0.8);
-    // [Phase 3 QA] fridgeLight (0.6 intensity, 2.2 m) removed to respect the README budget of 3 point lights;
-    // the fridge interior is already emissive.
+    const kitchenFill = new THREE.PointLight('#ffe3c0', 2.4, 8, 2);
+    kitchenFill.position.set(-3.6, 2.2, -2.2);
     const lampLight = new THREE.PointLight('#ffd9a0', 1.0, 4, 2);
     lampLight.position.set(2.4, 1.35, 0.0);
-    group.add(pendant, windowFill, lampLight);
-
-    // ------------------------------------------------------------------ snowfall (one instanced draw)
-    // An InstancedMesh of tiny octahedra rather than THREE.Points: WebGPURenderer draws Points as 1-px dots
-    // (PointsMaterial.size is ignored), so sized flakes need real geometry. Same look on both renderers.
-    const FLAKES = 380;
-    const snowPos = new Float32Array(FLAKES * 3), snowSpd = new Float32Array(FLAKES), snowX = new Float32Array(FLAKES);
-    for (let i = 0; i < FLAKES; i++) {
-      let x, z;
-      do { x = (rr() - 0.5) * 30; z = (rr() - 0.5) * 30 - 2; } while (Math.abs(x) < 6.6 && Math.abs(z) < 5.0);
-      snowPos[i * 3] = snowX[i] = x; snowPos[i * 3 + 1] = rr() * 6; snowPos[i * 3 + 2] = z;
-      snowSpd[i] = 0.35 + rr() * 0.45;
-    }
-    const snowGeo = own(new THREE.OctahedronGeometry(0.02, 0)); // ≈ the old 0.07 attenuated point size
-    const snowMat = own(new THREE.MeshBasicMaterial({ color: '#ffffff', transparent: true, opacity: 0.9, depthWrite: false, toneMapped: false }));
-    const snow = new THREE.InstancedMesh(snowGeo, snowMat, FLAKES);
-    snow.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
-    const flakeM = new THREE.Matrix4();
-    const placeFlakes = () => {
-      for (let i = 0; i < FLAKES; i++) snow.setMatrixAt(i, flakeM.makeTranslation(snowPos[i * 3], snowPos[i * 3 + 1], snowPos[i * 3 + 2]));
-      snow.instanceMatrix.needsUpdate = true;
-    };
-    placeFlakes();
-    snow.name = 'home:snowfall';
-    snow.frustumCulled = false;
-    group.add(snow);
+    group.add(pendant, kitchenFill, lampLight);
 
     // ------------------------------------------------------------------ NPCs
     const npcs = [];
@@ -718,7 +668,7 @@ export default {
       colliders,
       hotspots: [
         { id: 'laptop', position: [LX, 0.85, LZ], radius: 1.8, label: { ar: 'اللابتوب', en: 'Laptop' } },
-        { id: 'fridge', position: [-5.0, 1.0, -3.3], radius: 1.9, label: { ar: 'حوض المطبخ', en: 'Kitchen sink' } },
+        { id: 'fridge', position: [-5.0, 1.0, -3.3], radius: 1.9, label: { ar: 'المطبخ', en: 'Kitchen' } },
         { id: 'mail_table', position: [-2.0, 0.9, 3.95], radius: 1.7, label: { ar: 'طاولة البريد', en: 'Mail table' } }
       ],
       npcs,
@@ -735,17 +685,9 @@ export default {
           s.scale.set(sc, sc * 1.3, sc);
           s.visible = k < 0.92;
         }
-        // curtains breathe slightly (warm air from the radiator)
+        // curtains breathe slightly (a window is ajar)
         curtains[0].rotation.x = Math.sin(t * 0.8) * 0.025;
         curtains[1].rotation.x = Math.sin(t * 0.8 + 1.3) * 0.025;
-        // snowfall
-        for (let i = 0; i < FLAKES; i++) {
-          let y = snowPos[i * 3 + 1] - snowSpd[i] * dt;
-          if (y < 0) y += 6;
-          snowPos[i * 3 + 1] = y;
-          snowPos[i * 3] = snowX[i] + Math.sin(t * 0.7 + i) * 0.15;
-        }
-        placeFlakes();
         // hold props up (after the engine's idle animation reset the arms)
         for (const p of posed) p.part.rotation.x = p.x + Math.sin(t * 1.3) * 0.03;
       },

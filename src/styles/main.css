@@ -93,8 +93,8 @@ body.ready #fade:not(.on) { opacity: 0; }
 .veil-star::after { content: ''; position: absolute; inset-inline: 0; bottom: 0; height: 5px; border-radius: 5px; background: var(--yk-sand-100); }
 @keyframes sunRise { from { transform: translateY(5px) scaleY(0.7); opacity: 0.7; } }
 #fade .lbar { width: 180px; }
-/* door transition (town <-> interior): a quick fade to the late-afternoon light outside, not a dark loading screen */
-#fade.door { background: radial-gradient(120% 95% at 50% 55%, #ffd9a0, #f0a663 55%, #c9734a); transition: opacity 0.3s ease; }
+/* door transition (town <-> interior): a short neutral dip through the doorway (no coloured flash) */
+#fade.door { background: radial-gradient(130% 100% at 50% 55%, #2b2723, #141210 70%); transition: opacity 0.26s ease; }
 #fade.door .veil-star::after { background: rgba(255, 246, 228, 0.85); }
 
 /* ---------- boot loader */
@@ -688,3 +688,33 @@ a.src-link:hover { background: color-mix(in srgb, var(--yk-dusk-300) 16%, transp
 .start-study-link:hover, .start-study-link:focus-visible { color: var(--sand-50); }
 .ask-refer .ask-scholars { margin-top: 0.5rem; min-height: 44px; }
 .badge.reviewed-by { background: rgba(46, 125, 90, 0.14); color: inherit; border: 1px solid rgba(46, 125, 90, 0.45); }
+
+/* Calm, consistent surfaces for the city HUD and learning panels. */
+.hud-chip, .hud-menu, .hud-ask {
+  background: linear-gradient(145deg, rgba(19, 48, 48, .94), rgba(9, 27, 29, .94));
+  border-color: rgba(228, 210, 170, .24);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 6px 20px rgba(0,0,0,.22);
+}
+.start-card {
+  padding: 24px;
+  background: linear-gradient(150deg, rgba(25,57,55,.95), rgba(9,27,29,.96));
+  border-color: rgba(228,210,170,.28);
+  box-shadow: 0 20px 64px rgba(0,0,0,.32), inset 0 1px 0 rgba(255,255,255,.1);
+}
+.btn { border-radius: 14px; }
+.btn.primary { box-shadow: inset 0 1px 0 rgba(255,255,255,.45), 0 5px 18px rgba(173,123,41,.22); }
+.prompt { border-radius: 18px; padding-block: .7em; background: rgba(13,36,37,.96); }
+@media (max-width: 560px) {
+  .start-card { padding: 20px 16px; }
+  .hud { gap: 6px; }
+}
+
+.fatal {
+  z-index: 60;
+  max-width: min(560px, calc(100vw - 32px));
+  margin-inline: auto;
+  background: linear-gradient(145deg, #193937, #0b2224);
+  border-color: rgba(238, 193, 111, .55);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, .4);
+}
+.fatal p { margin: 0; line-height: 1.8; }

@@ -71,7 +71,6 @@ export function startScreen() {
               import('./askPanel.js').then((mod) => mod.openAskPanel({ itemId: id })).catch((e) => console.error('[start] basics', e));
             } }, STRINGS.startBasics ? t('startBasics') : (getLang() === 'ar' ? 'ابدأ بالأساس: التوحيد' : 'Start with the basics: Tawhid')),
             h('a', { class: 'start-study-link', href: '?study=1' }, getLang() === 'ar' ? 'شارك في تجربة قصيرة (٥ دقائق)' : 'Join a 5-minute study')),
-          h('p', { class: 'fine' }, statusBadge('ai_draft')),
           h('button', { type: 'button', class: 'credits-link', onclick: () => creditsScreen() }, t('creditsTitle')))
       ]);
     };

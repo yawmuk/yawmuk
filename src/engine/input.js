@@ -8,7 +8,7 @@ export function createInput(canvas, uiRoot) {
     enabled: true,        // movement/orbit enabled (false while a dialog is open)
     move: { x: 0, y: 0 }, // joystick vector, x right, y forward, |v|<=1
     orbitDX: 0, orbitDY: 0, zoom: 0,
-    onInteract: null, onMenu: null
+    onInteract: null, onMenu: null, onTalk: null // onTalk: T — talk to the person nearby (or the guide)
   };
 
   const typing = (e) => /input|textarea|select/i.test(e.target?.tagName || '');
@@ -21,6 +21,7 @@ export function createInput(canvas, uiRoot) {
       e.preventDefault();
       state.onInteract?.();
     }
+    if (state.enabled && e.code === 'KeyT' && !e.repeat && !e.altKey && !e.ctrlKey && !e.metaKey) { e.preventDefault(); state.onTalk?.(); }
     if (state.enabled && e.code.startsWith('Arrow')) e.preventDefault();
   });
   window.addEventListener('keyup', (e) => keys.delete(e.code));

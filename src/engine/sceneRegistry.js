@@ -15,6 +15,13 @@ export const placeholderScene = placeholder;
 /** Location ids that have a real scene file. */
 export function sceneIds() { return Object.keys(byId); }
 
+/** The whole module of a scene file (named exports too), or null when missing or broken. Never throws. */
+export async function getSceneModule(location) {
+  const load = byId[location];
+  if (!load) return null;
+  try { return await load(); } catch { return null; }
+}
+
 /** Resolve the scene definition for a location: { def, isPlaceholder, error? }. Never throws. */
 export async function getSceneDef(location) {
   const load = byId[location];

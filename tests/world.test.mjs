@@ -107,7 +107,10 @@ test('town: feature spots and the start spawn are free; layout stays within the 
   group.traverse((o) => { if (o.isMesh) { meshes++; tris += (o.geometry.index ? o.geometry.index.count : o.geometry.attributes.position.count) / 3; } });
   assert.ok(meshes <= 8, `static geometry is merged (${meshes} meshes)`);
   assert.ok(tris < 100000, `triangle budget (${Math.round(tris)})`);
-  assert.ok(res.npcs.every((n) => n.id.startsWith('bg_')), 'town people are background extras (1 draw call each)');
+  // town people are background extras (1 draw call each) except the one named neighbour Adam can talk to
+  const named = res.npcs.filter((n) => !n.id.startsWith('bg_'));
+  assert.deepEqual(named.map((n) => n.id), ['neighbor_yusuf']);
+  assert.ok(named[0].talk?.persona?.ar && named[0].talk?.persona?.en && named[0].name?.ar, 'the neighbour has a name and a talk persona');
   res.dispose();
 });
 

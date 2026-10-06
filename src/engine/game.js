@@ -12,6 +12,8 @@ import { openAskPanel } from './ui/askPanel.js';
 import { planJourney, defaultPlan } from './planner.js';
 import { pickChecks } from './aiCore.js';
 import { runSituation, revisitMenu, showRulingOnly } from './ui/situation.js';
+import { createTalkChip, openTalkPanel, talkUnavailable } from './ui/nearbyTalk.js';
+import { talkables, pickTalkable } from './ui/nearbyTalkCore.js';
 import { getScript, allSituations, contentIssues, usingFixtures, setLocationOrder, locationOrder } from './content.js';
 import { loadProgress, progress, setLocation, isDone, totalScore, resetProgress, setLangPref, setFlag, setPlan, getPlan, setPre } from './progress.js';
 import { LOCATIONS, LOCATION_TITLES, HUB, ALL_LOCATIONS, isPlace } from './config.js';
@@ -67,7 +69,9 @@ export async function startGame() {
   const fabText = h('span', { class: 'yk-world-fab-text' }, t('guideFab'));
   const fab = h('button', { type: 'button', class: 'yk-world-fab', 'aria-label': t('guideFab'), onclick: () => openGuide() },
     h('span', { class: 'yk-world-fab-icon', 'aria-hidden': 'true' }, '🎙'), fabText);
-  const worldLayer = h('div', { class: 'yk-world-layer hidden' }, prayerSlot, fab);
+  // «🎙 T — Talk to <name>»: shown while a talkable person is within reach (nearbyTalk.js); hidden with the layer
+  const talkChip = createTalkChip({ onTalk: () => startTalk() });
+  const worldLayer = h('div', { class: 'yk-world-layer hidden' }, prayerSlot, fab, talkChip.el);
   ui.append(worldLayer);
   // the prayer widget's own button opens its panel through openFeature so player input pauses while it is open
   prayerSlot.addEventListener('click', (e) => {
@@ -142,6 +146,7 @@ export async function startGame() {
   }
   input.state.onMenu = () => { if (mode === 'play') openMenu(); };
   input.state.onInteract = () => { if (mode === 'play') interact(); };
+  input.state.onTalk = () => { if (mode === 'play') startTalk(); };
 
   const doneCount = () => allSituations().filter((s) => isDone(s.key)).length;
   /** The day's planned next destination (first stop of the journey order that still has unfinished situations). */
@@ -191,7 +196,7 @@ export async function startGame() {
     const reuse = loc === HUB && scenes.active?.location === HUB && !scenes.active.isPlaceholder;
     const active = reuse ? scenes.active : await scenes.load(loc, script, (m) => warns.push(m));
     player.setColliders(active.colliders, active.bounds);
-    player.setCameraOccluders(active.occluders);
+    player.setCameraOccluders(active.occluders, active.res.group?.userData.cameraRooms);
     player.setLook(active.res.playerLook && typeof active.res.playerLook === 'object' ? active.res.playerLook : null);
     const sp = (from && doorSpawn(active.doors, from)) || active.spawn;
     player.teleport(sp.position, sp.yaw);
@@ -266,6 +271,52 @@ export async function startGame() {
       setMode('play');
       if (!wasComplete && locationComplete(a.location)) toast(t('exitReady'), 3500);
     }
+  }
+
+  // ---- «talk to anyone nearby»: the nearest talkable person within reach (scene NPCs with a `talk` entry and the
+  // location's script NPCs), refreshed a few times a second; T / the chip opens the conversation, or the guide
+  // («talk to the place») when nobody is near.
+  let talkNear = null, talkAt = 0;
+  function refreshTalkNear(time) {
+    const a = scenes.active;
+    if (!a || time - talkAt < 0.15) return;
+    talkAt = time;
+    const list = talkables(a.res?.npcs, a.npcs, getScript(a.location)?.situations);
+    const p = talkUnavailable() ? null : pickTalkable(player.pos, list);
+    if ((p?.id || null) !== (talkNear?.id || null)) { talkNear = p; talkChip.set(p); }
+    else if (p) talkNear = p; // same person: keep the fresh position/context
+  }
+  async function startTalk() {
+    const a = scenes.active; if (!a || mode !== 'play' || featureOpen) return;
+    const person = talkUnavailable() ? null : talkNear;
+    if (!person) return openGuide();
+    const npc = a.npcs[person.id] || null;
+    setMode('ui');
+    talkChip.set(null); talkNear = null;
+    const restoreYaw = npc?.rotation.y;
+    const npcCh = npc?.userData.character;
+    if (npc) {
+      const face = Math.atan2(-(player.pos.x - npc.position.x), -(player.pos.z - npc.position.z));
+      if (npcCh) { if (npcCh.state !== 'sit') npcCh.turnTo(face); } else npc.rotation.y = face;
+      player.faceTowards([npc.position.x, 0, npc.position.z]);
+    }
+    const stopTalk = watchDialogue(a, npc);
+    const place = tr(getScript(a.location)?.title || LOCATION_TITLES[a.location]);
+    let then = null;
+    try {
+      await new Promise((done) => {
+        openTalkPanel(person, { lang: getLang(), place, onGuide: () => { then = 'guide'; }, onUnavailable: () => { then = 'guide'; }, onClose: done });
+      });
+    } catch (e) {
+      console.error('[talk] panel error', e);
+    } finally {
+      stopTalk();
+      if (npc) { if (npcCh) { if (npcCh.state !== 'sit') npcCh.turnTo(restoreYaw); } else npc.rotation.y = restoreYaw; }
+      near = null; // the E prompt is re-evaluated on the next frame (setMode hid it)
+      if (mode === 'ui') setMode('play');
+      canvas.focus?.();
+    }
+    if (then === 'guide') openGuide();
   }
 
   /**
@@ -406,7 +457,7 @@ export async function startGame() {
     }
     if (a) { a.update(dt, time, near); world.followShadow(mode === 'attract' ? new THREE.Vector3(...a.spawn.position) : player.pos); }
     if (mode === 'play') waypoint.update(player.pos, time);
-    if (a && mode === 'play') ambientNpcs(a);
+    if (a && mode === 'play') { ambientNpcs(a); refreshTalkNear(time); }
   });
   // skinned characters (NPCs + Adam) advance after the scene's own update so its poses apply the same frame
   world.onTick((dt) => updateCharacters(dt, world.camera));
@@ -443,6 +494,9 @@ export async function startGame() {
       return !!hs;
     },
     interact: () => interact(),
+    /** Talk to the person nearby (the T key); the guide when nobody is near. yawmuk.talkNear = who is in reach. */
+    talk: () => startTalk(),
+    get talkNear() { return talkNear?.id || null; },
     /** Free camera for inspecting a scene: yawmuk.inspect([x,y,z] camera, [x,y,z] target). yawmuk.resume() to play. */
     inspect: (from, to = [0, 1, 0]) => { setMode('inspect'); world.camera.position.set(...from); world.camera.lookAt(...to); },
     resume: () => setMode('play'),
@@ -455,6 +509,7 @@ export async function startGame() {
   window.yawmuk = Object.assign(window.yawmuk || {}, api);
   Object.defineProperty(window.yawmuk, 'mode', { get: () => mode, configurable: true });
   Object.defineProperty(window.yawmuk, 'near', { get: () => near?.id || (near ? 'exit' : null), configurable: true });
+  Object.defineProperty(window.yawmuk, 'talkNear', { get: () => talkNear?.id || null, configurable: true });
   Object.defineProperty(window.yawmuk, 'quality', { get: () => world.quality, configurable: true });
   Object.defineProperty(window.yawmuk, 'waypoint', { get: () => waypoint.target, configurable: true });
 

@@ -34,9 +34,10 @@ export function loadScripts() {
   return Object.fromEntries(LOCATIONS.map((l) => [l, readJson(`content/script/${l}.json`)]));
 }
 
-/** The fixed 18-situation catalog (tests/fixtures/situations.json is the source of truth). */
+/** The fixed 18-situation catalog, parsed from docs/TEAM_BRIEF.md (the source of truth). */
 export function briefCatalog() {
-  return readJson('tests/fixtures/situations.json');
+  const md = fs.readFileSync(path.join(ROOT, 'docs/TEAM_BRIEF.md'), 'utf8');
+  return [...md.matchAll(/^\|\s*`([a-z_]+\.[a-z0-9_]+)`\s*\|/gm)].map((m) => m[1]);
 }
 
 /** Recursively visit every string value with its JSON path. */

@@ -111,3 +111,8 @@ test('brand: index.html carries brand meta matching the tokens', () => {
   for (const id of ['stage', 'ui', 'fade', 'loader', 'loader-title', 'loader-bar', 'loader-label', 'loader-tip', 'veil-bar']) assert.ok(html.includes(`id="${id}"`), id);
 });
 
+test('brand: BRAND.md documents every section of the brand book', () => {
+  const md = readFileSync(join(root, 'docs/BRAND.md'), 'utf8');
+  for (const h of ['Story', 'Values', 'Voice', 'Logo', 'Clearspace', 'Misuse', 'Colour', 'Typography', 'Iconography', 'Illustration', 'Components', 'Motion', 'Accessibility', 'Assets'])
+    assert.match(md, new RegExp(`^##.*${h}`, 'm'), `missing section: ${h}`);
+});

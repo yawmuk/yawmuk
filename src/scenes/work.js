@@ -208,8 +208,10 @@ export default {
     const floor = new THREE.Mesh(track(new THREE.PlaneGeometry(18, 12)), std({ color: '#ffffff', map: texCarpet, roughness: 1 }));
     floor.rotation.x = -Math.PI / 2; floor.receiveShadow = true; group.add(floor);
     box(MATTE, 0, -12.02, 0, 18.4, 12, 12.4, '#6f7a84');
+    group.userData.cameraRooms = [{ x0: -9, x1: 9, z0: -6, z1: 6, height: 3 }];
     // ceiling (single-sided, facing down: hidden when the camera is above it)
-    const ceil = new THREE.Mesh(gDown, std({ color: '#f2f2ef', emissive: '#d8d8d4', emissiveIntensity: 0.35, roughness: 1 }));
+    const ceil = new THREE.Mesh(gDown, std({ color: '#f2f2ef', emissive: '#d8d8d4', emissiveIntensity: 0.35, roughness: 1, side: THREE.DoubleSide }));
+    ceil.userData.cameraCollide = true;
     ceil.scale.set(18, 1, 12); ceil.position.y = 3; group.add(ceil);
     for (const x of [-6, -2, 2, 6]) for (const z of [-3.4, 0.2, 3.6]) DOWN.push({ x, y: 2.985, z, sx: 0.16, sy: 1, sz: 3.0, ry: 0, rx: 0, rz: 0, color: '#fffdf4' });
 

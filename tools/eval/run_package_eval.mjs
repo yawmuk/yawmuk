@@ -177,7 +177,7 @@ if (isMain && (process.argv.includes('--help') || process.argv.includes('-h'))) 
   const online = base ? await runOnline(base, n, lib) : null;
   const md = renderReport(off, online, { base, n, at: new Date().toISOString() });
   if (process.argv.includes('--no-write')) console.log(md);
-  else { fs.mkdirSync(path.join(ROOT, 'docs'), { recursive: true }); fs.writeFileSync(path.join(ROOT, 'docs/EVAL.md'), md); console.log('docs/EVAL.md written'); }
+  else { fs.writeFileSync(path.join(ROOT, 'docs/EVAL.md'), md); console.log('docs/EVAL.md written'); }
   const failOff = off.rows.filter((r) => !r.pass).length + off.guards.filter((g) => !g.pass).length;
   console.log(`offline: ${off.rows.length - off.rows.filter((r) => !r.pass).length}/${off.rows.length} case checks, ${off.guards.filter((g) => g.pass).length}/${off.guards.length} guards${online ? ` | online calls: ${online.length}` : ''}`);
   process.exitCode = failOff ? 1 : 0;

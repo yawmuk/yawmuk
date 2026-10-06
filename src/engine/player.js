@@ -88,14 +88,25 @@ export function createPlayer(world, input) {
   const ray = new THREE.Raycaster();
   const toTarget = new THREE.Vector3();
   let occluders = [];
-  function setCameraOccluders(list) { occluders = list || []; }
+  let cameraRooms = [];
+  function setCameraOccluders(list, rooms = []) { occluders = list || []; cameraRooms = rooms || []; }
   function computeCamera() {
     camTarget.set(pos.x, 1.45, pos.z);
     const cp = Math.cos(camPitch);
     desired.set(camTarget.x + Math.sin(camYaw) * camDist * cp, camTarget.y + Math.sin(camPitch) * camDist, camTarget.z + Math.cos(camYaw) * camDist * cp);
+    // A doorway is an opening to the street, but the follow camera belongs inside
+    // the current room. Clamp before raycasting so zooming cannot escape through it.
+    const room = cameraRooms.find(r => pos.x >= r.x0 && pos.x <= r.x1 && pos.z >= r.z0 && pos.z <= r.z1);
+    if (room) {
+      desired.x = Math.max(room.x0 + 0.25, Math.min(room.x1 - 0.25, desired.x));
+      desired.z = Math.max(room.z0 + 0.25, Math.min(room.z1 - 0.25, desired.z));
+      const horizontalDistance = Math.hypot(desired.x - camTarget.x, desired.z - camTarget.z);
+      desired.y = Math.min(room.height - 0.2, camTarget.y + Math.tan(camPitch) * horizontalDistance);
+    }
     if (!occluders.length) return;
     toTarget.subVectors(camTarget, desired);
     const dist = toTarget.length();
+    if (dist <= 0.25) return;
     toTarget.divideScalar(dist);
     ray.set(desired, toTarget);
     ray.far = dist - 0.25;

@@ -1,18 +1,20 @@
 // Scene manager: builds a location scene through the scene contract, validates the result,
 // auto-adds markers/NPCs/missing hotspots, and disposes everything on unload.
 import * as THREE from 'three/webgpu'; // node materials for scenes (shares one core with 'three')
-import { getSceneDef, placeholderScene } from './sceneRegistry.js';
+import { getSceneDef, getSceneModule, placeholderScene } from './sceneRegistry.js';
 import { makeNPC, makeCharacter, makeLabel, makeMarker, createKit, animateFigure } from './kit.js';
 import { preloadCharacters } from './characters.js';
 import { beginSession, trackStep, purge, loadCatalog, getCatalog } from './assets.js';
 import { events } from './events.js';
 import { getLang, tr } from './i18n.js';
-import { ALL_LOCATIONS, LOCATION_TITLES, LIGHTING } from './config.js';
+import { ALL_LOCATIONS, LOCATION_TITLES, LIGHTING, HUB } from './config.js';
 import { normalizeDoors, normalizeFeatureSpots } from './hub.js';
 import { createTownContext } from './townContext.js';
 import { createSkyDome } from './goldenSky.js';
 
 const DEBUG = new URLSearchParams(location.search).get('debug') === '1';
+// interiors that get the real town around them (see buildRealTown); the rest keep the generic ring for now
+const REAL_TOWN = new Set(['home']);
 
 // Every THREE.Sprite (labels, smoke puffs…) shares ONE module-level quad geometry. Disposing it from one scene's
 // sprite destroys the GPU vertex buffer every later sprite still draws with (WebGPU: "[Buffer] used in submit while
@@ -46,9 +48,10 @@ export function createSceneManager(world, mats, opts = {}) {
   }
 
   /** build() may be sync or async; every ctx.place/loadModel/loadTexture/pbr started inside it is awaited too. */
-  async function runBuild(def, location, script, onWarn) {
+  async function runBuild(def, location, script, onWarn, extra = null) {
     const ctx = makeCtx(location, script);
     ctx.warn = onWarn;
+    if (extra) Object.assign(ctx, extra);
     let res;
     try {
       res = await def.build.call(def, ctx);
@@ -60,6 +63,68 @@ export function createSceneManager(world, mats, opts = {}) {
     // wait for assets started during build (and anything those start in turn)
     for (let i = 0; i < 4 && ctx._pending.length; i++) { const list = ctx._pending.splice(0); await Promise.all(list.map((pr) => Promise.resolve(pr).catch(() => null))); }
     return { ctx, res };
+  }
+
+  /**
+   * The real neighbourhood around an interior: the hub scene built in backdrop mode (ctx.backdropFor = location:
+   * static scenery only, that building's own shell left out) and moved so this interior's local origin sits on the
+   * hub's anchor for it (INTERIOR_ANCHORS in the hub file). The street, cars and trees seen through the windows are
+   * then the ones Adam just walked past. null when the hub has no anchor for this location or its build fails.
+   */
+  async function buildRealTown(location, onWarn, interior) {
+    if (!REAL_TOWN.has(location)) return null; // only interiors whose town building was matched and checked
+    const mod = await getSceneModule(HUB);
+    const anchor = mod?.INTERIOR_ANCHORS?.[location];
+    const def = mod && (mod.default || mod.scene);
+    if (!anchor || typeof def?.build !== 'function') return null;
+    try {
+      const { ctx, res } = await runBuild(def, HUB, null, onWarn, { backdropFor: location });
+      const holder = new THREE.Group();
+      holder.name = `backdrop:town@${location}`;
+      holder.rotation.y = -(Number(anchor.yaw) || 0);
+      const inner = new THREE.Group();
+      inner.position.set(-(Number(anchor.x) || 0), 0, -(Number(anchor.z) || 0));
+      holder.add(inner);
+      for (const o of [res.group, ctx.group, ...(res.backdrop ? [res.backdrop].flat() : [])]) if (o?.isObject3D && !o.parent) inner.add(o);
+      holder.updateMatrixWorld(true);
+      // The hub shell can be smaller than its playable interior. Remove backdrop triangles
+      // inside the actual rooms, preserving the street and sky outside the building.
+      const rooms = interior?.group?.userData?.cameraRooms || [];
+      if (rooms.length) {
+        const vertices = [new THREE.Vector3(), new THREE.Vector3(), new THREE.Vector3()];
+        const triangleBox = new THREE.Box3();
+        const roomBoxes = rooms.map((r) => new THREE.Box3(
+          new THREE.Vector3(r.x0 - 0.2, 0.08, r.z0 - 0.2),
+          new THREE.Vector3(r.x1 + 0.2, r.height + 0.5, r.z1 + 0.2)
+        ));
+        holder.traverse((o) => {
+          if (!o.isMesh || o.isInstancedMesh || !o.geometry?.attributes?.position) return;
+          // The sky dome and distant suburb must remain continuous.
+          if (!o.name.startsWith('town:')) return;
+          const geometry = o.geometry, position = geometry.attributes.position;
+          const index = geometry.index, count = index ? index.count : position.count;
+          const kept = [];
+          for (let i = 0; i + 2 < count; i += 3) {
+            const ids = [0, 1, 2].map((j) => index ? index.getX(i + j) : i + j);
+            vertices.forEach((v, j) => v.fromBufferAttribute(position, ids[j]).applyMatrix4(o.matrixWorld));
+            triangleBox.setFromPoints(vertices);
+            if (!roomBoxes.some((room) => room.intersectsBox(triangleBox))) kept.push(...ids);
+          }
+          if (kept.length !== count) {
+            const clipped = geometry.clone();
+            clipped.setIndex(kept); clipped.computeBoundingBox(); clipped.computeBoundingSphere();
+            o.geometry = clipped;
+            if (!geometry.userData.shared) geometry.dispose();
+          }
+        });
+      }
+      holder.traverse((o) => { o.userData.noCameraCollide = true; });
+      return { holder, dispose: () => { try { res.dispose?.(); } catch { /* ignore */ } } };
+    } catch (e) {
+      console.warn(`[scene:${location}] real-town backdrop failed — using the generic ring`, e);
+      if (e && e.__ctx) disposeBuilt(e.__ctx);
+      return null;
+    }
   }
 
   function disposeBuilt(built) {
@@ -91,6 +156,8 @@ export function createSceneManager(world, mats, opts = {}) {
     }
     const { ctx, res } = built;
     const warn = (m) => { console.warn(`[scene:${location}]`, m); onWarn(m); };
+    // the real town around this interior (when the hub anchors it), else the generic ring further down
+    const realTown = !res.backdrop && !res.doors && res.townContext !== false && !usedPlaceholder ? await trackStep(buildRealTown(location, warn, res), 'town') : null;
 
     // ---- group
     const root = new THREE.Group();
@@ -104,7 +171,8 @@ export function createSceneManager(world, mats, opts = {}) {
     }
     // one integrated environment: under the global golden-hour look every interior gets the town's sky dome (same
     // shared uniforms), so the sky above the walls and through the windows is the same sky as outdoors
-    if (LIGHTING === 'golden' && !res.backdrop && res.lights !== 'night') root.add(createSkyDome({ quality: world.quality }));
+    if (realTown) root.add(realTown.holder); // brings the town's own golden sky with it
+    else if (LIGHTING === 'golden' && !res.backdrop && res.lights !== 'night') root.add(createSkyDome({ quality: world.quality }));
     // same season as the town (golden autumn): no falling snow; the snowy yard reads as lawn
     if (LIGHTING === 'golden') root.traverse((o) => {
       if (/snowfall$/i.test(o.name)) o.visible = false;
@@ -270,7 +338,7 @@ export function createSceneManager(world, mats, opts = {}) {
     // ---- town context: every interior sits inside «حيّ السلام» — the neighbourhood ring (houses, trees, lamps, the
     // mosque on the skyline) outside its bounds + the town's golden sky, so windows/doors look onto the main map.
     // Root-only (like res.backdrop): never in the player bounds or the camera occluders. Scenes opt out with townContext:false.
-    if (!res.backdrop && !res.doors && res.townContext !== false && bounds) {
+    if (!realTown && !res.backdrop && !res.doors && res.townContext !== false && bounds) {
       const night = res.lights === 'night' || !LIGHTING;
       const tc = createTownContext({ bounds: res.townBounds || bounds, front: exit ? [exit.position[0], exit.position[2]] : null, location, quality: world.quality, night });
       tc.traverse((o) => { o.userData.noCameraCollide = true; });
@@ -281,7 +349,7 @@ export function createSceneManager(world, mats, opts = {}) {
     // ---- camera occluders: large, opaque, static meshes (walls, big furniture); see player.js
     const occluders = [];
     const sphere = new THREE.Sphere();
-    for (const src of [res.group, ctx.group]) {
+    for (const src of new Set([res.group, ctx.group])) {
       if (!src?.isObject3D) continue;
       src.traverse((o) => {
         if (!o.isMesh || !o.visible || o.userData.noCameraCollide || o.isSkinnedMesh) return;
@@ -299,7 +367,7 @@ export function createSceneManager(world, mats, opts = {}) {
     // explicit occluders from the scene (any mesh type, may be invisible proxies; not required to be in the group)
     const extraOcc = [...(res.cameraOccluders ? [res.cameraOccluders].flat() : []), ...(ctx.extraOccluders || [])];
     for (const o of extraOcc) {
-      if (o?.isObject3D) { if (!o.parent) o.updateMatrixWorld(true); occluders.push(o); }
+      if (o?.isObject3D) { if (!o.parent) o.updateMatrixWorld(true); if (!occluders.includes(o)) occluders.push(o); }
       else warn('cameraOccluders entries must be THREE.Object3D');
     }
 
@@ -338,6 +406,7 @@ export function createSceneManager(world, mats, opts = {}) {
     active = {
       location, def, ctx, res, root, colliders, occluders, spawn, hotspots, exit, doors, spots, npcs: npcObjects, bounds, lights,
       isPlaceholder: usedPlaceholder,
+      realTown,
       talkingTo: null,
       /** Move every NPC that has stations to the station of its first unfinished hotspot. Returns ids that moved. */
       placeStationNpcs(isHotspotDone, { dryRun = false, force = null } = {}) {
@@ -363,6 +432,15 @@ export function createSceneManager(world, mats, opts = {}) {
         return moved;
       },
       update(dt, t, near) {
+        const markerPosition = new THREE.Vector3();
+        for (const point of [...hotspots, ...(exit ? [exit] : []), ...doors, ...spots]) {
+          const marker = point.marker;
+          if (!marker?.userData?.gem) continue;
+          marker.userData.gem.getWorldPosition(markerPosition);
+          const cameraClear = markerPosition.distanceToSquared(world.camera.position) >= 0.64;
+          marker.userData.gem.visible = cameraClear;
+          if (marker.userData.beam) marker.userData.beam.visible = cameraClear;
+        }
         for (const hs of hotspots) hs.marker?.tick(t, near === hs);
         exit?.marker.tick(t, near === exit);
         for (const d of doors) d.marker.tick(t, near === d);
@@ -400,6 +478,7 @@ export function createSceneManager(world, mats, opts = {}) {
   function unload() {
     if (!active) return;
     try { active.res.dispose?.(); } catch (e) { console.error('[scene] dispose() threw', e); }
+    active.realTown?.dispose();
     world.scene.remove(active.root);
     disposeTree(active.root);
     active = null;

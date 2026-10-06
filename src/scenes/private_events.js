@@ -324,6 +324,7 @@ export default {
 
     // ------------------------------------------------------------------ zone 3: the community / wedding hall
     const HX0 = -6, HX1 = 6, HZ0 = -25, HZ1 = -17, HH = 4.4, WT = 0.3, DOOR = 1.3;
+    group.userData.cameraRooms = [{ x0: HX0, x1: HX1, z0: HZ0, z1: HZ1, height: HH }];
     const brickMat = own(new THREE.MeshStandardMaterial({ map: tex.brick, roughness: 0.92 }), 'mats');
     const wallBox = (x0, x1, y0, y1, z0, z1) => {
       const w = x1 - x0, h = y1 - y0, d = z1 - z0;
