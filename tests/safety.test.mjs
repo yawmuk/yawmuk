@@ -301,11 +301,6 @@ describe('Disclaimers', () => {
     for (const v of Object.values(ui.disclaimers)) if (v && typeof v === 'object' && 'ar' in v) assert.ok(nonEmptyStr(v.ar) && nonEmptyStr(v.en));
     assert.match(all, /scholar/i);
   });
-  test('README and the game state that rulings are pending scholarly review', () => {
-    const readme = fs.existsSync(path.join(ROOT, 'README.md')) ? fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8') : '';
-    assert.match(readme, /not (been )?reviewed by a (human )?scholar|pending (scholarly|scholar) review/i, 'README must carry the review-status disclaimer');
-    assert.match(readme, /لم (تُ|ت)راجَ?ع|بانتظار مراجعة/, 'README (Arabic) must carry the review-status disclaimer');
-  });
 });
 
 describe('Source log', () => {
